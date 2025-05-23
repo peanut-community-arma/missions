@@ -1,0 +1,27 @@
+UNIQUE
+caches
+  event handler
+  tasks?
+repair/refuel/rearm for f-18
+paradrop script
+trigger for air
+weight paradrop
+---
+STANDARD
+player loadout
+enemy spawns
+  garrisons
+  reinforcement spawner
+  air spawner
+  timers
+    search helicopter
+    air reinf
+    ifv reinf
+---
+OPTIONAL
+enemy insignia
+
+
+DONE
+---
+enemy loadout

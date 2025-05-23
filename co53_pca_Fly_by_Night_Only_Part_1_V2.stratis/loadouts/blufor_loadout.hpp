@@ -1,0 +1,725 @@
+class baseMan 
+{
+	displayName = "Unarmed";
+	// All Randomized
+	uniform[] = {};
+	vest[] = {};
+	backpack[] = {};
+	headgear[] = {};
+	goggles[] = {};
+	hmd[] = {};
+	// Leave empty to not change faces and Insignias
+	faces[] = {};
+	insignias[] = {};
+	// All Randomized. Add Primary Weapon and attachments
+	// Leave Empty to remove all. {"Default"} for using original items the character start with
+	primaryWeapon[] = {};
+	scope[] = {};
+	bipod[] = {};
+	attachment[] = {};
+	silencer[] = {};
+	// SecondaryAttachments[] arrays are NOT randomized
+	secondaryWeapon[] = {};
+	secondaryAttachments[] = {};
+	sidearmWeapon[] = {};
+	sidearmAttachments[] = {};
+	// These are added to the uniform or vest first - overflow goes to backpack if there's any
+	magazines[] = {};
+	items[] = {};
+	// These are added directly into their respective slots
+	linkedItems[] = 
+	{
+		"ItemWatch",
+		"ItemMap",
+		"ItemCompass"
+	};
+	// These are put directly into the backpack
+	backpackItems[] = {};
+	// This is executed after the unit init is complete. Argument: _this = _unit
+	code = "";
+};
+
+class rm : baseMan
+{
+	displayName = "Rifleman";
+	hmd[] = 
+	{
+		"CUP_NVG_GPNVG_black"
+	};
+	uniform[] = 
+	{
+		"CUP_U_CRYE_G3C_M81_US",
+		"CUP_U_CRYE_G3C_M81_US_V2",
+		"CUP_U_CRYE_G3C_M81_US_V3",
+		"CUP_U_CRYE_G3C_M81",
+		"CUP_U_CRYE_G3C_M81_RGR_US",
+		"CUP_U_CRYE_G3C_M81_RGR",
+		"CUP_U_CRYE_G3C_M81_Tan_US",
+		"CUP_U_CRYE_G3C_M81_Tan"
+	};
+	vest[] = 
+	{
+		"rhsusf_plateframe_rifleman"
+	};
+	headgear[] = 
+	{
+		"rhsusf_mich_bare_semi",
+		"rhsusf_mich_bare_alt_semi"
+	};
+	backpack[] = 
+	{
+		"rhsusf_falconii_coy"
+	};
+	primaryWeapon[] = 
+	{
+		"hlc_rifle_m4a1"
+	};
+	scope[] = 
+	{
+		"rhsusf_acc_acog_rmr"
+	};
+	attachment[] = 
+	{
+		"cup_acc_anpeq_15_black"
+	};
+	silencer[] = 
+	{
+		"ptv_acc_rotexv"
+	};
+	items[] =
+	{
+		"ACRE_PRC343",
+		LIST_2("ACE_IR_Strobe_Item"),
+		LIST_10("ACE_fieldDressing"),
+		LIST_10("ACE_packingBandage"),
+		LIST_4("ACE_tourniquet"),
+		LIST_2("ACE_epinephrine"),
+		LIST_2("ACE_morphine"),
+		LIST_2("ACE_splint")
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_13("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+	};
+	backpackItems[] = 
+	{
+		LIST_4("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+	};
+};
+
+class ar : rm 
+{
+	displayName = "Automatic Rifleman";
+	vest[] = 
+	{
+		"rhsusf_plateframe_machinegunner"
+	};
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	primaryWeapon[] = 
+	{
+		"rhs_weap_m249_light_S"
+	};
+	bipod[] = 
+	{
+		"rhsusf_acc_saw_lw_bipod"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_2("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("rhsusf_200Rnd_556x45_mixed_soft_pouch")
+	};
+	backpackItems[] = 
+	{
+		LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch")
+	};
+};
+
+class aar : rm 
+{
+	displayName = "Assistant Automatic Rifleman";
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	backpackItems[] += 
+	{
+		LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch")
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};
+
+class rm_lat : rm 
+{
+	displayName = "Rifleman (LAT)";
+	secondaryWeapon[] = 
+	{
+		"rhs_weap_M136"
+	};
+	backpackItems[] += 
+	{
+		"rhs_weap_M136"
+	};
+};
+
+class gren : rm 
+{
+	displayName = "Grenadier";
+	primaryWeapon[] = 
+	{
+		"hlc_rifle_m4a1_m203"
+	};
+	vest[] = 
+	{
+		"rhsusf_plateframe_grenadier"
+	};
+	backpackItems[] = 
+	{
+		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("rhs_mag_M433_HEDP"),
+		LIST_4("1Rnd_Smoke_Grenade_shell")
+	};
+};
+
+class tl : gren 
+{
+	displayName = "Team Leader";
+	backpackItems[] = 
+	{
+		LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+		LIST_21("rhs_mag_M441_HE"),
+		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_6("ACE_40mm_Flare_ir"),
+		LIST_2("SmokeShell")
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};
+
+class sl : tl 
+{
+	displayName = "Squad Leader";
+	items[] += 
+	{
+		"ACRE_PRC148"
+	};
+	vest[] = 
+	{
+		"rhsusf_plateframe_teamleader"
+	};
+	primaryWeapon[] = 
+	{
+		"hlc_rifle_m4a1_m203"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] += 
+	{
+		LIST_2("rhsusf_mag_7x45acp_MHP")
+	};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+		LIST_21("rhs_mag_M441_HE"),
+		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_6("ACE_40mm_Flare_ir"),
+		LIST_6("1Rnd_Smoke_Grenade_shell"),
+		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
+		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
+		LIST_2("1Rnd_SmokeRed_Grenade_shell")
+	};
+};
+
+class sgt : sl 
+{
+	displayName = "Platoon Sergeant";
+	backpackItems[] =
+	{
+		LIST_13("rhs_mag_M441_HE"),
+		LIST_6("ACE_40mm_Flare_ir"),
+		LIST_4("1Rnd_Smoke_Grenade_shell"),
+		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
+		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
+		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
+		LIST_2("SmokeShellBlue"),
+		LIST_2("SmokeShellGreen"),
+		LIST_2("SmokeShellRed")
+	};
+};
+
+class co : sl 
+{
+	displayName = "Platoon Commander";
+	primaryWeapon[] = 
+	{
+		"hlc_rifle_m4a1"
+	};
+	backpackItems[] =
+	{
+		LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
+		LIST_2("SmokeShellBlue"),
+		LIST_2("SmokeShellGreen"),
+		LIST_2("SmokeShellRed")
+	};
+};
+
+class fac : sl 
+{
+	displayName = "Foward Air Controller";
+	backpackItems[] =
+	{
+		"Laserbatteries",
+		LIST_11("rhs_mag_M441_HE"),
+		LIST_6("ACE_40mm_Flare_ir"),
+		LIST_4("1Rnd_Smoke_Grenade_shell"),
+		LIST_4("1Rnd_SmokeBlue_Grenade_shell"),
+		LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
+		LIST_4("1Rnd_SmokeRed_Grenade_shell"),
+		LIST_2("SmokeShellBlue"),
+		LIST_2("SmokeShellGreen"),
+		LIST_2("SmokeShellRed")
+	};
+	linkedItems[] += 
+	{
+		"Laserdesignator"
+	};
+};
+
+class rm_fa : rm 
+{
+	displayName = "Rifleman (First-Aid)";
+	traits[] = {"medic"};
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	vest[] = 
+	{
+		"rhsusf_plateframe_medic"
+	};
+	backpackItems[] =
+	{
+		LIST_20("ACE_fieldDressing"),
+		LIST_15("ACE_packingBandage"),
+		LIST_15("ACE_elasticBandage"),
+		LIST_10("ACE_epinephrine"),
+		LIST_10("ACE_morphine"),
+		LIST_8("ACE_bloodIV"),
+		LIST_4("ACE_splint"),
+		LIST_4("ACE_tourniquet"),
+		LIST_2("ACE_adenosine")
+	};
+};
+
+class cls : rm_fa
+{
+	displayName = "Combat Life Saver";
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] += 
+	{
+		LIST_2("rhsusf_mag_7x45acp_MHP")
+	};
+	backpackItems[] =
+	{
+		"ACE_surgicalKit",
+		LIST_30("ACE_elasticBandage"),
+		LIST_30("ACE_packingBandage"),
+		LIST_20("ACE_fieldDressing"),
+		LIST_20("ACE_epinephrine"),
+		LIST_20("ACE_morphine"),
+		LIST_12("ACE_bloodIV"),
+		LIST_10("ACE_splint"),
+		LIST_4("ACE_tourniquet"),
+		LIST_2("ACE_adenosine")
+	};
+};
+
+class mmg : rm 
+{
+	displayName = "Medium Machine Gunner";
+	vest[] = 
+	{
+		"rhsusf_spcs_ocp_saw"
+	};
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	primaryWeapon[] = 
+	{
+		"rhs_weap_m240B"
+	};
+	bipod[] = {};
+	attachment[] = {};
+	silencer[] = 
+	{
+		"rhsusf_acc_ARDEC_M240"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_2("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+	};
+	backpackItems[] = 
+	{
+		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+	};
+};
+
+class ammg : rm 
+{
+	displayName = "Assistant Medium Machine Gunner";
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] += 
+	{
+		LIST_2("rhsusf_mag_7x45acp_MHP")
+	};
+	backpackItems[] = 
+	{
+		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};
+
+class mat : rm 
+{
+	displayName = "Medium Anti-Tank Gunner";
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	secondaryWeapon[] = 
+	{
+		"rhs_weap_maaws"
+	};
+	secondaryAttachments[] = 
+	{
+		"rhs_optic_maaws"
+	};
+	magazines[] += 
+	{
+		LIST_2("rhsusf_mag_7x45acp_MHP")
+	};
+	backpackItems[] = 
+	{
+		LIST_2("rhs_mag_maaws_HEAT")
+	};
+};
+
+class amat : rm 
+{
+	displayName = "Assistant Medium Anti-Tank Gunner";
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] += 
+	{
+		LIST_2("rhsusf_mag_7x45acp_MHP")
+	};
+	backpackItems[] = 
+	{
+		LIST_2("rhs_mag_maaws_HEAT"),
+		"rhs_mag_maaws_HEDP",
+		"rhs_mag_maaws_HE"
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};
+
+class crew : rm 
+{
+	displayName = "Crewman";
+	traits[] = {"engineer"};
+	vest[] = 
+	{
+		"rhsusf_spcs_ocp_crewman"
+	};
+	headgear[] = 
+	{
+		"rhsusf_cvc_helmet",
+		"rhsusf_cvc_alt_helmet",
+		"rhsusf_cvc_ess"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag")
+	};
+	backpackItems[] = 
+	{
+		"ToolKit"
+	};
+};
+
+class crew_co : crew 
+{
+	displayName = "Crewman Commander";
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	items[] +=
+	{
+		"ACRE_PRC148"
+	};
+	magazines[] += 
+	{
+		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("SmokeShellBlue"),
+		LIST_2("SmokeShellGreen"),
+		LIST_2("SmokeShellRed")
+	};
+	linkedItems[] +=
+	{
+		"Rangefinder"
+	};
+};
+
+class hp : rm 
+{
+	displayName = "Helicopter Pilot";
+	hmd[] = 
+	{
+		"ACE_NVG_Wide_Black"
+	};
+	vest[] = 
+	{
+		"rhsusf_plateframe_light"
+	};
+	headgear[] = 
+	{
+		"rhsusf_hgu56p"
+	};
+	items[] +=
+	{
+		"ACRE_PRC148"
+	};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_7("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
+		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("SmokeShellBlue"),
+		LIST_2("SmokeShellGreen"),
+		LIST_2("SmokeShellRed")
+	};
+};
+
+class eng : rm 
+{
+	displayName = "Engineer";
+	traits[] = {"engineer","explosiveSpecialist"};
+	backpack[] = 
+	{
+		"rhsusf_assault_eagleaiii_coy"
+	};
+	backpackItems[] = 
+	{
+		"ToolKit",
+		"ACE_DefusalKit",
+		"ACE_M26_Clacker",
+		"ACE_wirecutter",
+		LIST_4("rhsusf_m112x4_mag")
+	};
+};
+
+//********************************************************************************//
+//Uncommon Roles - !!! CUSTOM ENTRIES NEEDED FOR CURATED ARSENAL !!!
+//********************************************************************************//
+class jp : rm 
+{
+	displayName = "Jet Pilot";
+	uniform[] = 
+	{
+		"CUP_U_B_USArmy_PilotOverall"
+	};
+	vest[] = 
+	{
+		"CUP_V_B_PilotVest"
+	};
+	headgear[] = 
+	{
+		"rhsusf_hgu56p_visor_mask"
+	};
+	backpack[] = 
+	{
+		"B_Parachute"
+	};
+	items[] +=
+	{
+		"ACRE_PRC148"
+	};
+	primaryWeapon[] = {};
+	sidearmWeapon[] = 
+	{
+		"hgun_ACPC2_F"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_5("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("SmokeShellBlue"),
+		LIST_2("SmokeShellGreen"),
+		LIST_2("SmokeShellRed")
+	};
+	backpackItems[] = {};
+};
+
+class dm : rm 
+{
+	displayName = "Designated Marksman";
+	vest[] = 
+	{
+		"rhsusf_spcs_ocp_sniper"
+	};
+	headgear[] = 
+	{
+		"rhsusf_ach_helmet_camo_ocp"
+	};
+	primaryWeapon[] = 
+	{
+		"rhs_weap_m14ebrri"
+	};
+	scope[] = 
+	{
+		"rhsusf_acc_ACOG"
+	};
+	attachment[] = {};
+	bipod[] = 
+	{
+		"rhsusf_acc_harris_bipod"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_9("rhsusf_20Rnd_762x51_m118_special_Mag")
+	};
+	backpackItems[] = 
+	{
+		LIST_12("rhsusf_20Rnd_762x51_m118_special_Mag")
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};
+
+class spt : rm 
+{
+	displayName = "Spotter";
+	headgear[] = 
+	{
+		"rhsusf_ach_helmet_camo_ocp"
+	};
+	scope[] = 
+	{
+		"rhsusf_acc_ACOG"
+	};
+	backpackItems[] += 
+	{
+		LIST_2("SmokeShell"),
+		"ACE_SpottingScope",
+		"ACE_Tripod"
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};
+
+class hmg : rm 
+{
+	displayName = "Heavy Machine Gunner";
+	backpack[] = 
+	{
+		"ace_compat_rhs_usf3_m2_carry"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
+		"ace_csw_100Rnd_127x99_mag_red"
+	};
+	backpackItems[] = 
+	{
+		LIST_3("ace_csw_100Rnd_127x99_mag_red")
+	};
+};
+
+class ahmg : rm 
+{
+	displayName = "Assistant Heavy Machine Gunner";
+	backpack[] = 
+	{
+		"ace_csw_m3CarryTripodLow"
+	};
+	magazines[] = 
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("rhs_mag_m67"),
+		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
+		"ace_csw_100Rnd_127x99_mag_red"
+	};
+	backpackItems[] = 
+	{
+		LIST_3("ace_csw_100Rnd_127x99_mag_red")
+	};
+	linkedItems[] += 
+	{
+		"Rangefinder"
+	};
+};

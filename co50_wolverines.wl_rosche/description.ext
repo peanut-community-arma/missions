@@ -1,0 +1,128 @@
+tmf_version[] = {1,1,0};
+cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+	class SpecialEnding1
+	{
+		title = "Mission Inconclusive";
+		subtitle = "";
+		description = "";
+	};
+};
+
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class P_US_ARMY_RANGERS_LOADOUT
+	{
+		displayName = "US Army Rangers Loadout";
+		#include "loadouts\p_us_army_rangers_loadout.hpp"
+	};
+	class P_RUAF_VDV_LOADOUT
+	{
+		displayName = "RUAF VDV Loadout";
+		#include "loadouts\p_ruaf_vdv_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+	#include "functions\cfgFunctions.hpp"
+};
+
+class Extended_PreInit_EventHandlers 
+{
+	class pca_preInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class Extended_PostInit_EventHandlers 
+{
+	class pca_postInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+
+class Extended_Init_EventHandlers
+{
+	class O_G_Soldier_F
+	{
+		class varInit
+		{
+			init = "[_this select 0, 'P_RUAF_VDV_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+		};
+	};
+	class O_G_Soldier_AR_F
+	{
+		class varInit
+		{
+			init = "[_this select 0, 'P_RUAF_VDV_LOADOUT', 'mg'] call tmf_assigngear_fnc_assigngear;";
+		};
+	};
+	class O_G_Soldier_A_F
+	{
+		class varInit
+		{
+			init = "[_this select 0, 'P_RUAF_VDV_LOADOUT', 'ar'] call tmf_assigngear_fnc_assigngear;";
+		};
+	};
+	class O_G_Soldier_LAT_F
+	{
+		class varInit
+		{
+			init = "[_this select 0, 'P_RUAF_VDV_LOADOUT', 'rm_mat'] call tmf_assigngear_fnc_assigngear;";
+		};
+	};
+	class O_G_Soldier_LAT2_F
+	{
+		class varInit
+		{
+			init = "[_this select 0, 'P_RUAF_VDV_LOADOUT', 'rm_lat'] call tmf_assigngear_fnc_assigngear;";
+		};
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};	
+	class wolverine
+	{
+		name = "wolverine";
+		sound[] = {"wolverines!.ogg", db+1,1.0};
+		titles[] = {1,""};
+	};
+};

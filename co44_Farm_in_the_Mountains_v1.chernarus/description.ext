@@ -1,0 +1,119 @@
+tmf_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+//cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class BLUFOR_LOADOUT
+	{
+		displayName = "BLUFOR Loadout";
+		#include "loadouts\blufor_loadout.hpp"
+	};
+	class OPFOR_LOADOUT
+	{
+		displayName = "OPFOR Loadout";
+		#include "loadouts\opfor_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+	#include "functions\cfgFunctions.hpp"
+};
+
+class Extended_PreInit_EventHandlers 
+{
+	class pca_preInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class Extended_PostInit_EventHandlers 
+{
+	class pca_postInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+
+class Extended_InitPost_EventHandlers
+{
+    // Copy below block for each unit class in your group compositions.
+    class I_L_Looter_Pistol_F { // class to add role to, (typeOf unit)
+        class varInit {
+            // gear assignment, third argument is the role to add
+            init = "params ['_unit']; [_unit, 'opfor_loadout', 'ldr'] call tmf_assigngear_fnc_assigngear; _unit setVariable ['ace_medical_damageThreshold',200,true]; _unit setVariable ['ace_medical_tourniquets',[1,1,1,1,1,1],true]; _unit setVariable ['ace_medical_statemachine_AIUnconsciousness',true,true]; private _skl = 'Land_HumanSkull_F' createVehicle [0,0,0]; _skl attachTo [_unit,[-0.05,-0.06,0.1],'head',true]; _yaw = 180; _pitch = 10; _roll = 0; _skl setVectorDirAndUp [[sin _yaw * cos _pitch, cos _yaw * cos _pitch, sin _pitch], [[sin _roll, -sin _pitch, cos _roll * cos _pitch], -_yaw] call BIS_fnc_rotateVector2D];"; 
+        };
+    };///
+
+    class I_L_Looter_Rifle_F { // class to add role to, (typeOf unit)
+        class varInit {
+            // gear assignment, third argument is the role to add
+            init = "params ['_unit']; [_unit, 'opfor_loadout', 'rm'] call tmf_assigngear_fnc_assigngear;"; 
+        };
+    };
+
+    class I_L_Criminal_SG_F { // class to add role to, (typeOf unit)
+        class varInit {
+            // gear assignment, third argument is the role to add
+            init = "params ['_unit']; [_unit, 'opfor_loadout', 'sg'] call tmf_assigngear_fnc_assigngear;"; 
+        };
+    };
+
+    class I_L_Looter_SG_F { // class to add role to, (typeOf unit)
+        class varInit {
+            // gear assignment, third argument is the role to add
+            init = "params ['_unit']; [_unit, 'opfor_loadout', 'sg'] call tmf_assigngear_fnc_assigngear;"; 
+        };
+    };
+
+    class I_L_Looter_SMG_F { // class to add role to, (typeOf unit)
+        class varInit {
+            // gear assignment, third argument is the role to add
+            init = "params ['_unit']; [_unit, 'opfor_loadout', 'smg'] call tmf_assigngear_fnc_assigngear;"; 
+        };
+    };
+
+    class I_L_Criminal_SMG_F { // class to add role to, (typeOf unit)
+        class varInit {
+            // gear assignment, third argument is the role to add
+            init = "params ['_unit']; [_unit, 'opfor_loadout', 'medic'] call tmf_assigngear_fnc_assigngear;"; 
+        };
+    };
+};

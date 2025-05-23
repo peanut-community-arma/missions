@@ -1,0 +1,35 @@
+Last Mile changelog v3
+
+-Added standard Rifleman slot to fireteams to bring it back up to 6
+-Renamed Rifleman(LAT) to Grenadier to match role
+-Moved Marksperson to AR spot in Lobby
+-Replaced FAC with a "Logistics Officer", just an extra slot for truck driving
+-Added a Zeus Slot
+-Made Every Slot an engineer
+-gave leadership roles toolkits by default
+-Removed basic M855 mags from loadout and replaced them with 855A1 that was used in arsenal
+-Gave grenadier and Teamleaders grenade launcher ammo
+-Added Red and Green Flares for festive lights
+-Added Pistol Ammo to AR ammo class to give them access to it
+
+-Fixed Briefing markers by changing it from: [ <marker=' ] to [ <marker name=' ]
+
+-Added Snowmen to objective trees for ease of identification
+-Added note in briefing that notes the example tree in the hangar
+
+-Added Zeus Template of enemies
+-Garrison Units in town
+
+-Changed Prada Trucks to Hemett for survivability and a larger truck capacity
+-Added extra objective tree's to Loitendorf and Tronesdorf to compensate for larger truck capacity
+
+-Changed Van's to Offroad trucks to allow a whole fireteam to fit inside of truck
+
+-Added Resupply crates at the airfield that are unable to be loaded into trucks, to give players something to do while new crates are loaded.
+
+
+
+
+TODO:
+
+-Triple infantry contact ammount, add patrols for more dynamic enemy in town. At the moment this mission requires a zeus

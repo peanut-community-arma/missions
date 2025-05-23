@@ -1,0 +1,78 @@
+/* ================================================================================
+	GENERAL BRIEFING NOTES
+	 - Uses HTML style syntax. All supported tags can be found here - https://community.bistudio.com/wiki/createDiaryRecord
+	 - For images use <img image='FILE'></img> (for those familiar with HTML note it is image rather than src).
+	 - Note that using the " character inside the briefing block is forbidden use ' instead of ".
+*/
+
+/* ================================================================================
+	SITUATION
+	 - Outline of what is going on, where we are we and what has happened before the mission has started? This needs to contain any relevant background information.
+	 - Draw attention to friendly and enemy forces in the area. The commander will make important decisions based off this information.
+	 - Outline present weather conditions, players will typically assume that it is daylight with sunny weather.
+*/
+
+private _situation = ["diary", ["Situation","
+<br/>
+<font size='18'>SITUATION</font>
+<br/>
+TLA forces have taken the city of Lijnhaven and the nearby Saint-George Airstrip from Legionnaire forces. We have been tasked with retaking both the city and the airstrip. <br/><br/>
+
+<font size='18'>ENEMY FORCES</font>
+<br/>
+TLA forces use older soviet equipment notably BTR60s 
+<br/><br/>
+
+<font size='18'>FRIENDLY FORCES</font>
+<br/>
+About a squad of Royal Marines. 
+"]];
+
+/* ================================================================================
+	MISSION
+	 - Describe any objectives that the team is expected to complete.
+	 - Summarize(!) the overall task. This MUST be short and clear.
+*/
+
+private _mission = ["diary", ["Mission","
+<br/>
+<font size='18'>MISSION</font>
+<br/>
+Take the city of Lijnhaven and secure the Saint-George Airstrip
+"]];
+
+/* ================================================================================
+	EXECUTION
+	 - Provide an outline as to what the commander of the player's command might give.
+*/
+
+private _execution = ["diary", ["Execution","
+<br/>
+<font size='18'>COMMANDER'S INTENT</font>
+<br/>
+this should be a fairly simple take and hold mission
+<br/><br/>
+
+<font size='18'>MOVEMENT PLAN</font>
+<br/>
+Insert into the AO on the RHIBs
+<br/><br/>
+"]];
+
+/* ================================================================================
+	ADMINISTRATION
+	 - Outline of logistics: available resources (equipment/vehicles) and ideally a summary of their capabilities.
+	 - Outline of how to use any mission specific features/scripts.
+	 - Seating capacities of each vehicle available for use.
+*/
+
+private _administration = ["diary", ["Administration","
+<br/>
+there are 10 boats, each can carry 8 people
+leaders should get flairs in the aresnal
+"]];
+
+player createDiaryRecord _administration;
+player createDiaryRecord _execution;
+player createDiaryRecord _mission;
+player createDiaryRecord _situation;

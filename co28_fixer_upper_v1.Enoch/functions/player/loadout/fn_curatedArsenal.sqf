@@ -1,0 +1,629 @@
+/**
+	Adds a curated personal arsenal that can be accessed via ACE Self Interact by the players.
+	
+	Parameters:
+	0: unit <OBJECT>
+	
+	UNIT MUST BE LOCAL
+	
+	Example:
+	[player] call pca_fnc_curatedArsenal;
+	
+	Returns: 
+	NONE
+*/
+
+params ["_unit"];
+
+if !(hasInterface) exitWith {};
+
+private _unitRole = _unit getVariable ["tmf_assignGear_role", nil];
+
+arsenal = "building" createVehicleLocal [0,0,0];
+_unit setVariable ["startPos", getPosASL _unit];
+
+//********************************************************************************//
+// Unit Equipment
+//********************************************************************************//
+//Common
+private _itemGear = 
+[
+	"ACE_Fortify"
+];
+
+//Uniform
+private _itemUniform = 
+[
+	//Suits
+	"aegis_suit_formal_white",
+	"aegis_suit_formal_blue",
+	"U_C_FormalSuit_01_gray_F",
+	"U_C_FormalSuit_01_black_F",
+	"U_C_FormalSuit_01_khaki_F",
+	"U_C_FormalSuit_01_blue_F",
+	"CUP_U_C_Suit_01",
+	"CUP_U_C_Suit_02",
+	//Casual
+	"U_I_L_Uniform_01_tshirt_black_F",
+	"U_I_L_Uniform_01_tshirt_skull_F",
+	"aegis_merc_tshirt_blk",
+	"U_C_ArtTShirt_01_v4_F",
+	"aegis_jacket_blu",
+	"aegis_jacket_gry",
+	"aegis_jacket_maroon",
+	"CUP_I_B_PMC_Unit_19",
+	//Vanilla outfits
+	"U_C_Poloshirt_blue",
+	"U_C_Poloshirt_redwhite",
+	"U_C_Poloshirt_stripped",
+	"U_C_Driver_1_black",
+	"U_C_Driver_1_blue",
+	"U_C_Driver_1_green",
+	"U_C_Driver_1_orange",
+	"U_C_Driver_1_red",
+	"U_C_Driver_4",
+	"U_C_Driver_1_white",
+	"U_C_Driver_1_yellow",
+	"U_NikosBody",
+	"U_Marshal",
+	"U_OrestesBody",
+	"U_C_Scientist",
+	//CBRN
+	"aegis_cbrn_suit_ylw",
+	"U_C_CBRN_Suit_01_Blue_F",
+	"U_C_CBRN_Suit_01_White_F"
+];
+
+private _itemUniformCrew = 
+[
+	"rhs_uniform_acu_ocp",
+	"rhs_uniform_acu_oefcp"
+];
+
+private _itemUniformPilot = 
+[
+	"rhs_uniform_acu_ocp",
+	"rhs_uniform_acu_oefcp"
+];
+
+//Vest
+private _itemVest = 
+[
+	"pca_vest_invisible_plate"	
+];
+
+private _itemVestCrew = 
+[
+	"rhsusf_spcs_ocp_crewman"
+];
+
+private _itemVestPilot = 
+[
+	"rhsusf_spcs_ocp_crewman"
+];
+
+//Headgear 
+private _itemHeadgear = 
+[
+	"CUP_H_RUS_Altyn_Shield_Down_black",
+	"CUP_H_RUS_Altyn_Shield_Down",
+	"H_RacingHelmet_1_black_F",
+	"H_RacingHelmet_1_blue_F",
+	"H_RacingHelmet_1_red_F",
+	"H_RacingHelmet_4_F",
+	"H_RacingHelmet_1_white_F",
+	"H_Shemag_olive",
+	"H_ShemagOpen_tan",
+	"rhsusf_hgu56p_visor_mask_smiley",
+	"rhsusf_hgu56p_visor_mask_pink",
+	"rhsusf_hgu56p_visor_mask_skull",
+	"rhsusf_hgu56p_visor_mask",
+	"TC_Helmet_Invisible_Medium"
+];
+
+private _itemHeadgearCrew = 
+[
+	"rhsusf_cvc_helmet"
+];
+
+private _itemHeadgearPilot = 
+[
+	"rhsusf_ihadss"
+];
+
+//Backpack 
+private _itemBackpack = 
+[
+	"pca_backpack_invisible_large"
+];
+
+private _itemBackpackCrew = 
+[
+	"pca_backpack_invisible"
+];
+
+private _itemBackpackPilot = 
+[
+	"pca_backpack_invisible"
+];
+
+//Cosmetic 
+private _itemCosmetic = 
+[
+	//Gasmasks
+	"G_AirPurifyingRespirator_02_black_F",
+	"G_AirPurifyingRespirator_02_olive_F",
+	"G_AirPurifyingRespirator_02_sand_F",
+	"avon_fm12",
+	"m40_gas_mask_02",
+	"m40_gas_mask_03",
+	
+	//Balaclavas
+	"G_Balaclava_blk",
+	"G_Balaclava_BlueStrips",
+	"G_Balaclava_Halloween_01",
+	"G_Balaclava_oli",
+	"G_Balaclava_Flames1",
+	"G_Balaclava_Skull1",
+	"bear_balaclava1_black",
+	"CUP_RUS_Balaclava_blk",
+	"CUP_RUS_Balaclava_grn",
+	"pca_balaclava_mcb",
+	"CUP_RUS_Balaclava_tan",
+	"pca_balaclava_gogg_mcalp",
+	"G_Balaclava_combat",
+	"G_Balaclava_lowprofile",
+	"aegis_bala_light_eaf",
+	"aegis_bala_light_gogg_eaf",
+	"aegis_bala_light_blk",
+	"aegis_bala_light_gogg_blk",
+	
+	//Face shields, scarves and shemaghs
+	"milgp_f_face_shield_goggles_blk",
+	"milgp_f_face_shield_goggles_khk",
+	"milgp_f_face_shield_goggles_shemagh_blk",
+	"milgp_f_face_shield_goggles_shemagh_khk",
+	"milgp_f_face_shield_shades_blk",
+	"milgp_f_face_shield_shades_khk",
+	"CUP_G_Scarf_Face_Blk",
+	"CUP_G_Scarf_Face_Grn",
+	"CUP_G_Scarf_Face_Red",
+	"CUP_G_Scarf_Face_Tan",
+	"CUP_G_Scarf_Face_White",
+	"usm_scarf",
+	"rhsusf_shemagh2_white",
+	"rhsusf_shemagh2_tan",
+	"rhsusf_shemagh2_od",
+	"rhsusf_shemagh2_gogg_grn",
+	"rhsusf_shemagh2_gogg_tan",
+	"rhsusf_shemagh2_gogg_white",
+
+	//Bandannas
+	"G_Bandanna_aviator",
+	"G_Bandanna_beast",
+	"G_Bandanna_BlueFlame1",
+	"G_Bandanna_CandySkull",
+	"aegis_bandanna_kawaii",
+	"G_Bandanna_khk",
+	"G_Bandanna_OrangeFlame1",
+	"G_Bandanna_RedFlame1",
+	"G_Bandanna_shades",
+	"aegis_bandanna_skull",
+	"G_Bandanna_Syndikat1",
+	"aegis_bandanna_thug",
+	"G_Bandanna_Vampire_01",
+	
+	//Other
+	"G_Spectacles",
+	"rhssaf_veil_Green",
+	"CUP_G_TK_RoundGlasses_blk",
+	"G_Squares",
+	"G_Squares_Tinted",
+	"G_Spectacles_Tinted",
+	
+	//Props
+	"aegis_cigarette",
+	"immersion_pops_pop0",
+	"immersion_cigs_cigar0",
+	"usm_kneepads_blk",
+	"sfp_peltor_comtac3",
+	"TC_G_NitrileGloves_1",
+	
+	//  =====  Murshun cigpack and lighter  =====  
+	"murshun_cigs_lighter",
+	"murshun_cigs_matches",
+	"murshun_cigs_cigpack",
+	
+	//  =====  NVG Balaclavas  =====  
+	"pca_nvg_balaclava",
+	"pca_nvg_balaclava2",
+	
+	//  =====  NVG Shemagh/Face shields  =====  
+	"pca_nvg_face_shield_blk",
+	"pca_nvg_face_shield_shemagh_blk",
+	"pca_nvg_shemagh_grn",
+	"pca_nvg_shemagh2_grn",
+	"pca_nvg_shemagh_od",
+	"pca_nvg_shemagh2_od",
+	"pca_nvg_shemagh_tan",
+	"pca_nvg_shemagh2_tan",
+	"pca_nvg_shemagh_lowered_oli",
+	"pca_nvg_shemagh_lowered_red",
+	"pca_nvg_shemagh_lowered_tan",
+	"usm_nvg_scarf",
+	"usm_nvg_scarf2",
+	
+	//  =====  NVG Goggles  =====  
+	"nvg_goggles_grn",
+	"pca_nvg_ess_blk",
+	"pca_nvg_glasses_blk",
+	"pca_nvg_glasses_clr",
+	"pca_nvg_oakley_goggles_blk",
+	"pca_nvg_oakley_goggles_clr",
+	"pca_nvg_oakley_goggles_ylw",
+	
+	//  =====  NVG Props  =====  	
+	"pca_nvg_cigarette",
+	"immersion_cigs_cigar0_nv",
+	"murshun_cigs_cig0_nv",
+	"immersion_pops_pop0_nv",
+	"usm_nvg_kneepads_blk",
+	"usm_nvg_gigloves",
+	"pca_nvg_gloves_wool",
+	"TC_NVG_NitrileGloves_1"	
+];
+
+//********************************************************************************//
+// Miscellaneous Items
+//********************************************************************************//
+
+private _itemMisc = 
+[
+	"ACRE_PRC343",
+	"ACE_MapTools",
+	"ACE_RangeCard",
+	"ItemCompass",
+	"ItemMap",
+	"ItemWatch",
+	"ToolKit",
+	
+	//AT4 open sight
+	"rhs_acc_at4_handler",
+	
+	//Adapter for AK's
+	"rhs_acc_npz"
+];
+
+private _itemBino = 
+[
+	"Binocular"
+];
+
+private _itemRadio = 
+[
+	"ACRE_PRC148"
+];
+
+private _itemMedBasic = 
+[
+	//Bandages
+	"ACE_fieldDressing",
+	"ACE_elasticBandage",
+	"ACE_packingBandage",
+	"ACE_quikclot",
+	//Specialized Equipments
+	"ACE_splint",
+	"ACE_tourniquet"
+];
+
+private _itemMedAdv = 
+[
+	//Fluids
+	"ACE_bloodIV",
+	"ACE_bloodIV_250",
+	"ACE_bloodIV_500",
+	"ACE_plasmaIV",
+	"ACE_plasmaIV_250",
+	"ACE_plasmaIV_500",
+	"ACE_salineIV",
+	"ACE_salineIV_250",
+	"ACE_salineIV_500",
+	//Medications
+	"ACE_adenosine",
+	"ACE_epinephrine",
+	"ACE_morphine",
+	//Specialized Equipments
+	"ACE_surgicalKit",
+	"ACE_suture",
+	"ACE_personalAidKit"
+];
+
+//********************************************************************************//
+// Weapons
+//********************************************************************************//
+
+private _itemAcc = 
+[
+	//Optic
+	
+	//Grip
+	
+	//Tactical Device
+];
+
+private _itemWeapRifle = 
+[
+	"hlc_rifle_colt727mod",
+	"hlc_rifle_colt733",
+	"fwa_weap_m1_garand",
+	"CUP_hgun_TEC9_FA",
+	"rhs_weap_M590_5RD"
+];
+
+private _itemWeapRifleUGL = 
+[
+	"rhs_weap_m4a1_m203",
+	"rhs_weap_m4a1_m203s"
+];
+
+private _itemWeapAR = 
+[
+	"rhs_weap_m249_light_S",
+	"rhs_weap_m249_pip_S"
+];
+
+private _itemWeapLAT = 
+[
+	"rhs_weap_M136"
+];
+
+private _itemWeapPistol = 
+[
+	"CUP_hgun_Glock17_blk",
+	
+	//Pistol Ammo
+	"rhsusf_mag_17Rnd_9x19_JHP"
+];
+
+//Special
+private _itemWeapMG = 
+[
+	"rhs_weap_m240B"
+];
+
+private _itemWeapMAT = 
+[
+	"rhs_weap_maaws"
+];
+
+//********************************************************************************//
+// Ammunitions
+//********************************************************************************//
+
+private _itemAmmo = 
+[
+	//Rifle Ammo
+	"rhs_mag_30Rnd_556x45_M855A1_PMAG",
+	"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+	"rhsgref_8Rnd_762x63_M2B_M1rifle",
+	"CUP_32Rnd_9x19_TEC9",
+	"rhsusf_5Rnd_Slug"
+];
+
+private _itemAmmoTracer = 
+[
+	"rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",
+	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+	"rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle"
+];
+
+private _itemAmmoAR = 
+[
+	"rhsusf_200Rnd_556x45_soft_pouch",
+	"rhsusf_200Rnd_556x45_mixed_soft_pouch",
+	"rhsusf_200Rnd_556x45_soft_pouch_coyote",
+	"rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"
+];
+
+private _itemAmmoSignal = 
+[
+	"SmokeShellBlue",
+	"SmokeShellGreen",
+	"SmokeShellOrange",
+	"SmokeShellPurple",
+	"SmokeShellRed",
+	"SmokeShellYellow",
+	"rhs_mag_m715_Green",
+	"rhs_mag_m713_Red",
+	"rhs_mag_m716_yellow",
+	"ACE_40mm_Flare_red",
+	"ACE_40mm_Flare_green",
+	"ACE_40mm_Flare_white"
+];
+
+private _itemExplosive = 
+[
+	"rhs_mag_m714_White",
+	"SmokeShell",
+	"rhs_charge_tnt_x2_mag"
+];
+
+//Special
+private _itemAmmoMG = 
+[
+	"rhsusf_100Rnd_762x51_m80a1epr"
+];
+
+private _itemAmmoMAT = 
+[
+	"rhs_mag_maaws_HEAT",
+	"rhs_mag_maaws_HEDP",
+	"rhs_mag_maaws_HE"
+];
+
+private _itemEngineer = 
+[
+	"ACE_Clacker",
+	"ACE_DefusalKit",
+	"ACE_EntrenchingTool",
+	"ACE_M26_Clacker",
+	"ACE_wirecutter",
+	"rhsusf_m112_mag",
+	"rhsusf_m112x4_mag",
+	"MineDetector",
+	"ToolKit"
+];
+
+//********************************************************************************//
+// Add Current Gear
+//********************************************************************************//
+
+{
+	_itemGear pushBackUnique _x;
+} forEach (primaryWeaponItems _unit);
+
+{
+	_itemGear pushBackUnique _x;
+} forEach (handgunItems _unit);
+
+{
+	_itemGear pushBackUnique _x;
+} forEach (assignedItems _unit);
+
+_itemGear pushBack uniform _unit;
+_itemGear pushBack vest _unit;
+_itemGear pushBack headgear _unit;
+_itemGear pushBack backpack _unit;
+
+//********************************************************************************//
+// Add Items
+//********************************************************************************//
+
+switch (true) do 
+{
+	//Rifleman
+	case (_unitRole == "rm") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifle + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Rifleman (LAT)
+	case (_unitRole == "rm_lat") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifle + _itemWeapLAT + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Automatic Rifle
+	case (_unitRole == "ar") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapAR + _itemWeapPistol + _itemAmmoAR + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Assistant Automatic Rifle
+	case (_unitRole == "aar") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemAcc + _itemWeapRifle + _itemAmmo + _itemAmmoAR + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Grenadier 
+	case (_unitRole == "gren") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifleUGL + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Team Leader 
+	case (_unitRole == "tl") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoTracer + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Squad Leader 
+	case (_unitRole == "sl") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemRadio + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoTracer + _itemAmmoSignal + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Platoon Sergeant 
+	case (_unitRole == "sgt") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemRadio + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoTracer + _itemAmmoSignal + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Platoon Commander 
+	case (_unitRole == "co") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemRadio + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoTracer + _itemAmmoSignal + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Forward Air Controller
+	case (_unitRole == "fac") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemRadio + _itemAcc + _itemWeapRifle + _itemWeapRifleUGL + _itemWeapPistol + _itemAmmo + _itemAmmoTracer + _itemAmmoSignal + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Rifle First-Aid
+	case (_unitRole == "rm_fa") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemMedBasic + _itemAcc + _itemWeapRifle + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Combat Life Saver
+	case (_unitRole == "cls") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemMedBasic + _itemMedAdv + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Medium Machine Gunner
+	case (_unitRole == "mmg") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapMG + _itemWeapPistol + _itemAmmoMG + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Assistant Medium Machine Gunner
+	case (_unitRole == "mmg") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoMG + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Medium Anti-Tank Gunner
+	case (_unitRole == "mat") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemWeapMAT + _itemAmmo + _itemAmmoMAT + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Assistant Medium Anti-Tank Gunner
+	case (_unitRole == "amat") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemBino + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoMAT + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Crewman
+	case (_unitRole == "crew") : 
+	{
+		[arsenal, (_itemGear + _itemUniformCrew + _itemVestCrew + _itemHeadgearCrew + _itemBackpackCrew + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Crewman Commander
+	case (_unitRole == "crew_co") : 
+	{
+		[arsenal, (_itemGear + _itemUniformCrew + _itemVestCrew + _itemHeadgearCrew + _itemBackpackCrew + _itemCosmetic + _itemMisc + _itemBino + _itemRadio + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoSignal + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Helicopter Pilot
+	case (_unitRole == "hp") : 
+	{
+		[arsenal, (_itemGear + _itemUniformPilot + _itemVestPilot + _itemHeadgearPilot + _itemBackpackPilot + _itemCosmetic + _itemMisc + _itemRadio + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemAmmoSignal + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+	//Engineer
+	case (_unitRole == "eng") : 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifle + _itemWeapPistol + _itemAmmo + _itemExplosive + _itemEngineer)] call ace_arsenal_fnc_initBox;
+	};
+	default 
+	{
+		[arsenal, (_itemGear + _itemUniform + _itemVest + _itemHeadgear + _itemBackpack + _itemCosmetic + _itemMisc + _itemAcc + _itemWeapRifle + _itemAmmo + _itemExplosive)] call ace_arsenal_fnc_initBox;
+	};
+};
+
+//********************************************************************************//
+// Add Actions
+//********************************************************************************//
+
+_action = 
+[
+	"personal_arsenal", "Personal Arsenal", "\a3\ui_f\data\igui\cfg\weaponicons\mg_ca.paa",
+	{
+		[arsenal, _player] call ace_arsenal_fnc_openBox
+	},
+	{
+		(player distance2D (player getVariable ["startPos", [0,0,0]])) < 100 && !(triggerActivated tr_start);
+	},
+	{},
+	[],
+	[0,0,0],
+	3
+] call ace_interact_menu_fnc_createAction;
+
+[_unit, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;

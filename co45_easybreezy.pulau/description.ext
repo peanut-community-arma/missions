@@ -1,0 +1,295 @@
+tmf_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class BLUFOR_LOADOUT
+	{
+		displayName = "BLUFOR Loadout";
+		#include "loadouts\blufor_loadout.hpp"
+	};
+	class OPFOR_LOADOUT
+	{
+		displayName = "OPFOR Loadout";
+		#include "loadouts\opfor_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+	#include "functions\cfgFunctions.hpp"
+};
+
+class Extended_PreInit_EventHandlers
+{
+	class pca_preInit
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class Extended_PostInit_EventHandlers
+{
+	class pca_postInit
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+
+class CfgSurfaces
+{
+    class Default
+    {
+        AIAvoidStance = 2;
+    };
+};
+
+class CfgSounds
+{
+	class bcg_wind
+	{
+		name = "bcg_wind";
+		sound[] = {"\sound\bcg_wind.ogg", 5, 1};
+		titles[] = {1, ""};
+	};
+	class wind_1
+	{
+		name = "wind_1";
+		sound[] = {"\sound\wind_1.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class wind_2
+	{
+		name = "wind_2";
+		sound[] = {"\sound\wind_2.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};
+	class wind_4_dr
+	{
+		name = "wind_4_dr";
+		sound[] = {"\sound\wind_4_dr.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class wind_5_st
+	{
+		name = "wind_5_st";
+		sound[] = {"\sound\wind_5_st.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class wind_6
+	{
+		name = "wind_6";
+		sound[] = {"\sound\wind_6.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class wind_7
+	{
+		name = "wind_7";
+		sound[] = {"\sound\wind_7.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class wind_8
+	{
+		name = "wind_8";
+		sound[] = {"\sound\wind_8.ogg", db+20, 1};
+		titles[] = {1, ""};
+	};
+	class wind_9
+	{
+		name = "wind_9";
+		sound[] = {"\sound\wind_9.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class 01_far
+	{
+		name = "01_far"; // Name for mission editor
+		sound[] = {\Sound\01_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 02_far
+	{
+		name = "02_far"; // Name for mission editor
+		sound[] = {\Sound\02_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 03_far
+	{
+		name = "03_far"; // Name for mission editor
+		sound[] = {\Sound\03_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 04_far
+	{
+		name = "04_far"; // Name for mission editor
+		sound[] = {\Sound\04_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 05_far
+	{
+		name = "05_far"; // Name for mission editor
+		sound[] = {\Sound\05_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 06_far
+	{
+		name = "06_far"; // Name for mission editor
+		sound[] = {\Sound\06_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 07_far
+	{
+		name = "07_far"; // Name for mission editor
+		sound[] = {\Sound\07_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 08_far
+	{
+		name = "08_far"; // Name for mission editor
+		sound[] = {\Sound\08_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 09_far
+	{
+		name = "09_far"; // Name for mission editor
+		sound[] = {\Sound\09_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 10_far
+	{
+		name = "10_far"; // Name for mission editor
+		sound[] = {\Sound\10_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 11_far
+	{
+		name = "11_far"; // Name for mission editor
+		sound[] = {\Sound\11_far.ogg,1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 12_far
+	{
+		name = "12_far"; // Name for mission editor
+		sound[] = {\Sound\12_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 13_far
+	{
+		name = "13_far"; // Name for mission editor
+		sound[] = {\Sound\13_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 14_far
+	{
+		name = "14_far"; // Name for mission editor
+		sound[] = {\Sound\14_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 16_far
+	{
+		name = "16_far"; // Name for mission editor
+		sound[] = {\Sound\16_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 17_far
+	{
+		name = "17_far"; // Name for mission editor
+		sound[] = {\Sound\17_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 18_far
+	{
+		name = "18_far"; // Name for mission editor
+		sound[] = {\Sound\18_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 19_far
+	{
+		name = "19_far"; // Name for mission editor
+		sound[] = {\Sound\19_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 20_far
+	{
+		name = "20_far"; // Name for mission editor
+		sound[] = {\Sound\20_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 21_far
+	{
+		name = "21_far"; // Name for mission editor
+		sound[] = {\Sound\21_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 22_far
+	{
+		name = "22_far"; // Name for mission editor
+		sound[] = {\Sound\22_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 23_far
+	{
+		name = "23_far"; // Name for mission editor
+		sound[] = {\Sound\23_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 24_far
+	{
+		name = "24_far"; // Name for mission editor
+		sound[] = {\Sound\24_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 25_far
+	{
+		name = "25_far"; // Name for mission editor
+		sound[] = {\Sound\25_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 26_far
+	{
+		name = "26_far"; // Name for mission editor
+		sound[] = {\Sound\26_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+	class 27_far
+	{
+		name = "27_far"; // Name for mission editor
+		sound[] = {\Sound\27_far.ogg, 1, 1.0};
+		titles[] = {0, ""};
+	};
+};

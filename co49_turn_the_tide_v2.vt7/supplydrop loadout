@@ -1,0 +1,28 @@
+clearItemCargoGlobal _this;
+clearMagazineCargoGlobal _this;
+clearWeaponCargoGlobal _this;
+clearBackpackCargoGlobal _this;
+_this allowDamage false;
+{
+    _this addItemCargoGlobal [_x # 0, _x # 1];
+} forEach [
+    ["CUP_20Rnd_762x51_G3", 300],
+	["CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", 40],
+    ["HandGrenade", 40],
+    ["SmokeShell", 40],
+    ["MRAWS_HEAT55_F", 8],
+    ["ACE_bloodIV", 16],
+    ["rhs_weap_M136", 8],
+	["rhsusf_100Rnd_762x51_m80a1epr", 15]
+  
+];
+
+
+for "_x" from 1 to 6 do {
+    _supplyLight = "ACE_G_Chemlight_HiWhite" createVehicle (position _this);
+    _supplyLight attachTo [_this, [-0.05,0,0.44]];
+    _supplySmoke = "SmokeShellGreen" createVehicle (position _this);
+    _supplySmoke attachTo [_this, [0.05,0,0.44]];
+    sleep 50;
+};
+[{'Supply drop is available.' remoteExec ['hint']}, nil, 900] call CBA_fnc_waitAndExecute;

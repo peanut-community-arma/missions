@@ -1,0 +1,9 @@
+fwa_weap_fn49 // high rof, tracer
+CUP_srifle_LeeEnfield // bad CUP lee enfield
+give the briticans the Bren back 
+sterling SMG for brits?
+
+fwa_weap_pps43 // blufor SMG/AR role
+
+fwa_weap_bren_l4
+"CUP_20Rnd_TE1_Yellow_Tracer_762x51_FNFAL_M"

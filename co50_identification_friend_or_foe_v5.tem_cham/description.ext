@@ -1,0 +1,189 @@
+tmf_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class BLUFOR_LOADOUT
+	{
+		displayName = "BLUFOR Loadout";
+		#include "loadouts\blufor_loadout.hpp"
+	};
+	class ENEMY_LOADOUT
+	{
+		displayName = "OPFOR Loadout";
+		#include "loadouts\opfor_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+    createShortcuts = 1;
+    #include "scripts\acre_custom_signal_calc\funcs.hpp"
+	#include "functions\cfgFunctions.hpp"
+    class DNV
+    {
+        class scripts
+        {
+            file = "functions\danvers";
+            class spawnIFV {};
+            class spawnBehind {};
+            class supplyCrate {};
+            class spawnGarrison {};
+            class spawnTransport {};
+        };
+    };     
+        
+};
+
+class Extended_PreInit_EventHandlers 
+{
+	class pca_preInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class Extended_PostInit_EventHandlers 
+{
+	class pca_postInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+class Extended_InitPost_EventHandlers
+{
+    #include "loadouts\auto_equip.hpp"
+    class CUP_M60A3_Base
+    {
+        class addCoax // because the m60 starts with invalid coax ammo by default
+        {
+            init = "if (!isServer) exitWith {};for '_mg' from 1 to 6 do {(_this # 0) addMagazineTurret ['CUP_2800Rnd_TE4_Red_Tracer_762x51_M240_M', [0]]};\
+                    for '_can' from 1 to 3 do {(_this # 0) addMagazineTurret ['CUP_1Rnd_TE1_Red_Tracer_105mm_M1040_M68_Cannon_M', [0]]}";
+        };
+    };
+};
+
+class CfgUnitInsignia
+{
+    class ParallelEarth
+    {
+        displayName = "Parallel Earth USA";
+        author = "majDanvers";
+        texture = "parearins.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+};
+
+class CfgMusic
+{
+	tracks[] = {};
+	class DNV_Tesselated
+	{
+		name = "Tesselated";
+		sound[]	= { "Tesselated.ogg", db + 0, 1.0 };
+	};
+};
+
+class CfgIdentities
+{
+	class BigSky
+	{
+		name		= "Big Sky";
+		nameSound	= "";
+		speaker		= "Male03ENG";
+		face		= "whiteHead_06";
+		glasses		= "None";
+		pitch		= 0.95;
+	};
+};
+
+/*
+    All this just plays an ambient radio static noise when approaching one of
+    the intel pickup objects. (It's a CBA state machine, see initserver)
+*/
+class DNV_RadioSM
+{
+    list = "[radio1, radio2, radio3, radio4]";
+    skipNull = 1;
+
+    class Waiting {
+        onState = "";
+        onStateEntered = "";
+        onStateLeaving = "";
+
+        class PlayerNear {
+            targetState = "Playing";
+            condition = "{_x distance _this < 300} count (call BIS_fnc_listPlayers) > 0";
+            onTransition = "";
+        };
+    };
+
+    class Playing {
+        onState = "if (CBA_missionTime - (_this getVariable ['DNV_lastPlayed', 0]) > (15 + random 5)) then { \
+            playSound3D [(selectRandom [   \
+                    'a3\dubbing_radio_f\sfx\radionoise1.ogg',\
+                    'a3\dubbing_radio_f\sfx\radionoise2.ogg',\
+                    'a3\dubbing_radio_f\sfx\radionoise3.ogg' \
+                ]),    \
+                _this, \
+                false, \
+                getPosASL _this, \
+                3.25 \
+            ]; \
+            _this setVariable ['DNV_lastPlayed', CBA_missionTime]; \
+        };";
+        onStateEntered = "";
+        onStateLeaving = "";
+        
+        class PlayerLeft {
+            targetState = "Waiting";
+            condition = "{_x distance _this < 300} count (call BIS_fnc_listPlayers) < 1";
+            onTransition = "";
+        };
+        
+        class PickedUp {
+            targetState = "IntelFound";
+            condition = "_this getVariable ['DNV_IntelFound', false]";
+            onTransition = "";
+        };
+    };
+    
+    class IntelFound {};
+};

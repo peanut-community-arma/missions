@@ -1,0 +1,312 @@
+tmf_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class BLUFOR_LOADOUT
+	{
+		displayName = "BLUFOR Loadout";
+		#include "loadouts\blufor_loadout.hpp"
+	};
+	class OPFOR_LOADOUT
+	{
+		displayName = "OPFOR Loadout";
+		#include "loadouts\opfor_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+	#include "functions\cfgFunctions.hpp"
+    #include "dnvscripts.hpp"
+};
+
+class Extended_PreInit_EventHandlers 
+{
+	class pca_preInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class CfgNotifications
+{
+	class ArtyWarning
+	{
+		title = "INCOMING ARTILLERY BARRAGE";
+		iconPicture = "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\danger_ca.paa";
+		description = "Approximate Splash Zone on Map";
+        color[] = {1,0.5,0,1};
+        duration = 5;
+		priority = 0;
+	};
+
+	class AirWarning
+	{
+		title = "INCOMING AIRSTRIKE";
+		iconPicture = "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\danger_ca.paa";
+		description = "Avoid Red Smoke";
+        color[] = {1,0.5,0,1};
+        duration = 5;
+		priority = 0;
+	};
+};
+
+class Extended_InitPost_EventHandlers
+{
+    class rhsgref_tla_specialist_at
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm_mat'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_squadleader
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'leader'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_crew
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'crewman'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_grenadier
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'gren'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_grenadier_m79
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'grengp'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_akms
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_l1a1
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_m1
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_m14
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_M16
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_pm63
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_rpg75
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm_lat'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_rifleman_vz58
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_machinegunner
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'mg'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_machinegunner_mg42
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'mg'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_marksman_m14
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'dmr'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_medic
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'medic'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_mechanic
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'crew'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_saboteur
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'demo'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+
+    class rhsgref_tla_warlord
+    {
+        class varInit
+        {
+            init = "[_this select 0, 'OPFOR_LOADOUT', 'rm'] call tmf_assigngear_fnc_assigngear;";
+        };
+    };
+};
+
+class Extended_PostInit_EventHandlers 
+{
+	class pca_postInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+
+class CfgCommunicationMenu
+{
+	class friendlyMortar
+	{
+		text = "Mortar Barrage";		// Text displayed in the menu and in a notification
+		submenu = "";					// Submenu opened upon activation (expression is ignored when submenu is not empty.)
+		expression = "_pos call DNV_fnc_mortarBarrage;";	// Code executed upon activation
+		icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\mortar_ca.paa";				// Icon displayed permanently next to the command menu
+		cursor = "\a3\Ui_f\data\IGUI\Cfg\Cursors\iconCursorSupport_ca.paa";				// Custom cursor displayed when the item is selected
+		enable = "cursorOnGround";					// Simple expression condition for enabling the item
+		removeAfterExpressionCall = 0;	// 1 to remove the item after calling
+	};
+};
+
+class Params
+{
+	class DNV_MortarCooldown
+	{
+		title = "Mortar Barrage cooldown";
+		texts[] = { "Five Minutes", "Ten Minutes", "Twenty Minutes" };
+		values[] = { 300, 600, 1200 };
+		default = 600;
+	};
+    class Daytime
+	{
+		title = "Time";
+		texts[] = {"Midnight (!)","Dark Start","Sunrise","Noon","Sunset"};
+		values[] = {0,5,6,12,17};
+		default = 6;
+		function = "BIS_fnc_paramDaytime";
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class DistantMortar
+	{
+		name = "Distant mortar fire";
+		sound[] = {"@A3\Sounds_F\arsenal\weapons_static\Mortar\Mortar82mm_distShot_01", 0.25, 1};
+		titles[] = {0,""};
+	};
+};

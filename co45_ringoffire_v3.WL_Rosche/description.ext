@@ -1,0 +1,90 @@
+tmf_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class BLUFOR_LOADOUT
+	{
+		displayName = "BLUFOR Loadout";
+		#include "loadouts\blufor_loadout.hpp"
+	};
+	class OPFOR_LOADOUT
+	{
+		displayName = "OPFOR Loadout";
+		#include "loadouts\opfor_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+	#include "functions\cfgFunctions.hpp"
+};
+
+class Extended_PreInit_EventHandlers
+{
+	class pca_preInit
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class Extended_PostInit_EventHandlers
+{
+	class pca_postInit
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+
+class ACEX_Fortify_Presets {
+    class TAG_categories {
+        displayName = "My Categories";
+        objects[] = {
+            {"land_gm_sandbags_01_low_01", 5},
+            {"land_gm_sandbags_01_round_01", 10},
+            {"land_gm_sandbags_01_short_01", 5},
+            {"land_gm_sandbags_01_wall_01", 10},
+            {"land_gm_woodbunker_01_bags", 25},
+            {"Land_Plank_01_4m_F", 5},
+            {"Land_Plank_01_8m_F", 10},
+            {"land_gm_woodroof_01", 10},
+            {"land_gm_tanktrap_01", 5}
+        };
+    };
+};
