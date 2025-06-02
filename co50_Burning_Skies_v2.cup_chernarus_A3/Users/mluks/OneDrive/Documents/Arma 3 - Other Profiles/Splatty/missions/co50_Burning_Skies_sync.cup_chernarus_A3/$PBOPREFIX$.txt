@@ -1,4 +1,0 @@
-//<'co50_Burning_Skies_v2.cup_chernarus_A3.pbo' properties via Mikero's dos tools, dll version 9.93>
-prefix=Users\mluks\OneDrive\Documents\Arma 3 - Other Profiles\Splatty\missions\co50_Burning_Skies_sync.cup_chernarus_A3;
-//PboType=Arma Mission with irrelevant prefix;
-//</properties>
