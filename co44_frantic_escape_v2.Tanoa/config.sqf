@@ -45,9 +45,9 @@ fpz_onZombieInit = {
 		"U_C_Man_casual_6_F",
 		"U_C_Man_casual_4_F",
 		"U_C_Man_casual_5_F",
-		"aegis_polo_casual_brn",
-		"aegis_polo_casual_gry",
-		"aegis_polo_casual_larkin",
+		"U_C_Man_casual_8_F",
+		"U_C_Man_casual_7_F",
+		"U_C_Man_casual_9_F",
 		"U_B_GEN_Soldier_F",
 		"rhs_uniform_bdu_erdl"
     ];

@@ -44,8 +44,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_srh_odg"
+		"$NONE_usm_bdu_btisrl_odg$",
+		"CUP_U_B_BDUv2_roll2_OD"
 	};
 	vest[] = 
 	{
@@ -62,7 +62,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2"
+		"CUP_arifle_M16A2"
 	};
 	items[] =
 	{
@@ -149,7 +149,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	backpackItems[] = 
 	{
@@ -164,7 +164,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	backpackItems[] = 
 	{
@@ -194,7 +194,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	sidearmWeapon[] = 
 	{
@@ -330,7 +330,7 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_colt727"
+		"CUP_arifle_Colt727"
 	};
 	headgear[] = 
 	{

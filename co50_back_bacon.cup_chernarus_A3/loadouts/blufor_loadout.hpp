@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	primaryWeapon[] = 
 	{
@@ -365,7 +365,7 @@ class mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf_no78"
+		"sp_fwa_m2_carlGustav_no78"
 	};
 	backpackItems[] += 
 	{

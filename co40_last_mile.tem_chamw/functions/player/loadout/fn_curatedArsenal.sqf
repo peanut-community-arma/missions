@@ -67,10 +67,10 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"TC_Helmet_Hat_NavySeer",
-	"TC_Helmet_Hat_NavySeer_1_Black",
-	"TC_Helmet_Hat_WitchCop_1_Black",
-	"TC_Helmet_Hat_WitchCop",
+	"$NONE_TC_Helmet_Hat_NavySeer$",
+	"$NONE_TC_Helmet_Hat_NavySeer_1_Black$",
+	"$NONE_TC_Helmet_Hat_WitchCop_1_Black$",
+	"$NONE_TC_Helmet_Hat_WitchCop$",
 	"TC_Helmet_Hat_Santa1",
 	"TC_Helmet_Hat_Santa1_Pride1",
 	"TC_Helmet_Hat_Santa1_Buffalo1"
@@ -106,15 +106,15 @@ private _itemBackpackPilot =
 private _itemCosmetic = 
 [
 	"rhs_facewear_6m2",
-	"TC_G_Helmet_Antlers_1",
-	"TC_G_Hat_Antlers_1_Accessory_Lights_1",
-	"TC_G_Hat_Antlers_1_Accessory_Netting_1",
+	"$NONE_TC_G_Helmet_Antlers_1$",
+	"$NONE_TC_G_Hat_Antlers_1_Accessory_Lights_1$",
+	"$NONE_TC_G_Hat_Antlers_1_Accessory_Netting_1$",
 	"G_Aviator",
 	"rhs_googles_black",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
 	"G_Bandanna_aviator",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_Vampire_01",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
@@ -205,9 +205,9 @@ private _itemAcc =
 	"CUP_optic_AC11704_Black",
 	"rhsusf_acc_M2A1",
 	"ptv_acc_t1",
-	"sma_acc_tasco_propoint",
+	"$NONE_sma_acc_tasco_propoint$",
 	"CUP_optic_VortexRazor_UH1_Black",
-	"sma_acc_vortex_blk",
+	"$NONE_sma_acc_vortex_blk$",
 	"CUP_optic_ZeissZPoint",
 	
 	//Grip
@@ -234,16 +234,16 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_scarl_cqc",
-	"hlc_rifle_scarl_cqc_tan",
+	"$NONE_hlc_rifle_scarl_cqc$",
+	"$NONE_hlc_rifle_scarl_cqc_tan$",
 	
 	"TC_Helmet_Hat_Santa1_Bi1"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_scarl_cqc_eglm",
-	"hlc_rifle_scarl_cqc_eglm_tan",
+	"$NONE_hlc_rifle_scarl_cqc_eglm$",
+	"$NONE_hlc_rifle_scarl_cqc_eglm_tan$",
 	
 	"TC_Helmet_Hat_Santa1_Trans1"
 ];

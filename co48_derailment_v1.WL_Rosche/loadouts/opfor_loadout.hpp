@@ -89,7 +89,7 @@ class ar : rm
 	displayName = "Autorifle";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_ppsh41"
+		"$NONE_fwa_weap_ppsh41$"
 	};
 	magazines[] = 
 	{

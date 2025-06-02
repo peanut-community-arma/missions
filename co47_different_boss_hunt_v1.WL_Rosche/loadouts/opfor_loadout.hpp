@@ -70,11 +70,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_std"
+		"$NONE_hlc_rifle_scarl_std$"
 	};
 	scope[] =
 	{
-		"sma_acc_cmore_blk"
+		"$NONE_sma_acc_cmore_blk$"
 	};
 	bipod[] =
 	{
@@ -130,7 +130,7 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_cqc"
+		"$NONE_hlc_rifle_scarl_cqc$"
 	};
 	secondaryWeapon[] =
 	{
@@ -144,15 +144,15 @@ class dm : rm
 	displayName = "Marksman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarh_ssr"
+		"$NONE_hlc_rifle_scarh_ssr$"
 	};
 	scope[] =
 	{
-		"hlc_optic_hensoldtzo_low_rds"
+		"$NONE_hlc_optic_hensoldtzo_low_rds$"
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};	
 	magazines[] =
 	{
@@ -168,7 +168,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_std_eglm"
+		"$NONE_hlc_rifle_scarl_std_eglm$"
 	};
 	magazines[] =
 	{
@@ -190,7 +190,7 @@ class medic : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_cqc"
+		"$NONE_hlc_rifle_scarl_cqc$"
 	};	
 	backpackItems[] = 
 	{
@@ -227,6 +227,6 @@ class pilot : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_sc"
+		"$NONE_hlc_rifle_scarl_sc$"
 	};
 };

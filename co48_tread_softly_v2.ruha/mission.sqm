@@ -7238,7 +7238,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_carbine";
+																					value = "CUP_arifle_XM8_Carbine";
 																				};
 																			};
 																			class Item1
@@ -7346,7 +7346,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_rco_pcap";
+																					value = "$NONE_hlc_optic_rco_pcap$";
 																				};
 																			};
 																			class Item1
@@ -7427,7 +7427,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_amo_pcap";
+																					value = "$NONE_hlc_optic_amo_pcap$";
 																				};
 																			};
 																			class Item1
@@ -7508,7 +7508,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_carbine_xm320";
+																					value = "CUP_arifle_XM8_Carbine_GL";
 																				};
 																			};
 																			class Item1
@@ -7670,7 +7670,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_compact";
+																					value = "CUP_arifle_XM8_Compact";
 																				};
 																			};
 																			class Item1
@@ -7697,7 +7697,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_cc2_blk";
+																					value = "hgun_ACPC2_black_F";
 																				};
 																			};
 																			class Item1
@@ -8057,7 +8057,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_carbine";
+																					value = "CUP_arifle_XM8_Carbine";
 																				};
 																			};
 																			class Item1
@@ -8165,7 +8165,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_rco_pcap";
+																					value = "$NONE_hlc_optic_rco_pcap$";
 																				};
 																			};
 																			class Item1
@@ -8246,7 +8246,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_amo_pcap";
+																					value = "$NONE_hlc_optic_amo_pcap$";
 																				};
 																			};
 																			class Item1
@@ -8327,7 +8327,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_carbine_xm320";
+																					value = "CUP_arifle_XM8_Carbine_GL";
 																				};
 																			};
 																			class Item1
@@ -8489,7 +8489,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_compact";
+																					value = "CUP_arifle_XM8_Compact";
 																				};
 																			};
 																			class Item1
@@ -8516,7 +8516,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_cc2_blk";
+																					value = "hgun_ACPC2_black_F";
 																				};
 																			};
 																			class Item1

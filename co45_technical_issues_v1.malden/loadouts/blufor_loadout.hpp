@@ -45,10 +45,10 @@ class rm : baseMan
 	uniform[] = 
 	{
 		"U_BG_Guerrilla_6_1",
-		"aegis_guerilla_tshirt_m81_alt",
-		"aegis_guerilla_tshirt_m81",
-		"aegis_sweater_grn",
-		"aegis_guerilla_garb_m81",
+		"Rev_U_B_FRR_Uniform_01_F",
+		"Rev_U_B_FRR_Uniform_02_F",
+		"Opf_U_O_S_Uniform_01_sweater_F",
+		"Rev_U_B_FRR_Uniform_03_F",
 		"U_BG_Guerilla2_2",
 		"U_BG_Guerilla2_3"
 	};
@@ -62,14 +62,14 @@ class rm : baseMan
 		"H_Bandanna_khk_hs",
 		"H_Bandanna_khk",
 		"H_Bandanna_camo",
-		"aegis_beanie_red",
+		"H_Watchcap_red",
 		"pca_beanie_wdl",
 		"CUP_H_PMC_Beanie_Headphones_Black",
 		"CUP_H_PMC_Beanie_Headphones_Khaki",
 		"pca_headband",
 		"pca_headband_red",
-		"usm_headwrap_odg1",
-		"usm_headwrap_tgrstp"
+		"CUP_H_FR_BandanaGreen",
+		"$NONE_usm_headwrap_tgrstp$"
 	};
 	backpack[] = 
 	{
@@ -82,7 +82,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_ar10"
+		"sp_fwa_ar10"
 	};
 	items[] =
 	{
@@ -167,7 +167,7 @@ class rm_lat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_c96_m712_stock"
+		"$NONE_hlc_pistol_c96_m712_stock$"
 	};
 	magazines[] = 
 	{
@@ -215,7 +215,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_ar10_prt"
+		"sp_fwa_ar10_porto"
 	};
 	backpackItems[] = 
 	{

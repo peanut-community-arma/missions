@@ -43,7 +43,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_odg"
+		"CUP_H_PASGTv2_OD"
 	};
 	backpack[] = 
 	{
@@ -162,7 +162,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"sp_fwa_ar15_603_m16a1_m203"
 	};
 	secondaryWeapon[] = 
 	{
@@ -330,7 +330,7 @@ class mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	sidearmWeapon[] = 
 	{

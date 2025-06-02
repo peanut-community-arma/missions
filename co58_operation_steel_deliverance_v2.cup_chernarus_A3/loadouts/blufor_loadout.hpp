@@ -44,12 +44,12 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_mcu_rs_m81",
-		"aegis_mcu_m81",
-		"aegis_merc_polo_m81",
-		"aegis_guerilla_jacket_m81",
-		"aegis_acu_rs_m81",
-		"aegis_acu_m81"
+		"Atlas_U_UniformBDU_02_m81_F",
+		"Atlas_U_UniformBDU_01_m81_F",
+		"U_B_ION_Uniform_01_poloshirt_wdl_F",
+		"Atlas_U_UniformBDU_02_m81_F",
+		"CUP_U_CRYE_G3C_M81",
+		"CUP_U_CRYE_G3C_M81"
 	};
 	vest[] = 
 	{
@@ -61,7 +61,7 @@ class rm : baseMan
 		"pca_m97_pasgt_wdl_ess_bare",
 		"pca_m97_pasgt_wdl_ess",
 		"pca_baseball_cap_wdl",
-		"usm_bdu_boonie_wdl",
+		"H_Booniehat_wdl",
 		"H_Bandanna_khk",
 		"milgp_h_cap_backwards_01_rgr",
 		"milgp_h_cap_backwards_01_goggles_rgr",
@@ -74,13 +74,13 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a1",
-		"hlc_rifle_m16a2",
-		"hlc_rifle_m16a3"
+		"CUP_arifle_M16A1",
+		"CUP_arifle_M16A2",
+		"sp_fwa_ar15_646_a3"
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_rotex3p"
+		"$NONE_hlc_muzzle_rotex3p$"
 	};
 	items[] =
 	{
@@ -123,7 +123,7 @@ class ar : rm
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_rotex3p"
+		"$NONE_hlc_muzzle_rotex3p$"
 	};
 	sidearmWeapon[] = 
 	{

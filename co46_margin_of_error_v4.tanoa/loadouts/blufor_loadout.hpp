@@ -44,11 +44,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_ccu_omcp_tropic"
+		"U_B_T_Soldier_F"
 	};
 	vest[] = 
 	{
-		"aegis_cage_carrier_lite_omcp_tropic"
+		"V_PlateCarrier1_tna_F"
 	};
 	headgear[] = 
 	{
@@ -60,11 +60,11 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_virtus_assaultpack_omcp_tropic"
+		"B_AssaultPack_tna_F"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145"
+		"rhs_weap_hk416d145"
 	};
 	scope[] = 
 	{
@@ -76,7 +76,7 @@ class rm : baseMan
 	};
 	silencer[] =
 	{
-		"hlc_muzzle_556nato_kac"
+		"$NONE_hlc_muzzle_556nato_kac$"
 	};
 	linkedItems[] +=
 	{
@@ -110,7 +110,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	primaryWeapon[] = 
 	{
@@ -142,7 +142,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	backpackItems[] += 
 	{
@@ -172,8 +172,8 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145_agc",
-		"hlc_rifle_hk416d145_agc_camo_grn"
+		"rhs_weap_hk416d145_m320",
+		"$NONE_hlc_rifle_hk416d145_agc_camo_grn$"
 	};
 	backpackItems[] = 
 	{
@@ -209,8 +209,8 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145_agc",
-		"hlc_rifle_hk416d145_agc_camo_grn"
+		"rhs_weap_hk416d145_m320",
+		"$NONE_hlc_rifle_hk416d145_agc_camo_grn$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -255,7 +255,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145"
+		"rhs_weap_hk416d145"
 	};
 	backpackItems[] =
 	{
@@ -270,7 +270,7 @@ class fac : sl
 {
 	primaryWeapon[] =
 	{
-		"hlc_rifle_hk416d145"
+		"rhs_weap_hk416d145"
 	};
 	displayName = "Recon Spotter";
 	magazines[] =
@@ -299,7 +299,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	backpackItems[] =
 	{
@@ -350,7 +350,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	primaryWeapon[] = 
 	{
@@ -384,7 +384,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	sidearmWeapon[] = 
 	{
@@ -409,7 +409,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	sidearmWeapon[] = 
 	{
@@ -438,7 +438,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	sidearmWeapon[] = 
 	{
@@ -546,7 +546,7 @@ class eng : rm
 	traits[] = {"engineer","explosiveSpecialist"};
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_omcp_tropic"
+		"B_Kitbag_tna_F"
 	};
 	backpackItems[] = 
 	{

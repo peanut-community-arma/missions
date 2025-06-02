@@ -68,17 +68,17 @@ class rm : baseMan
 		"milgp_v_marciras_medic_belt_blk",
 		"milgp_v_marciras_teamleader_blk",
 		"milgp_v_marciras_teamleader_belt_blk",
-		"aegis_tacvest_blk",
+		"V_TacVest_blk",
 		"V_BandollierB_blk",
-		"aegis_chestrig_blk"
+		"V_ChestrigF_blk"
 	};
 	headgear[] = 
 	{
 		"TC_Helmet_Invisible_Medium",
 		"H_Watchcap_blk",
-		"aegis_boonie_blk",
-		"aegis_beanie_blk",
-		"aegis_cap_headphones_blk",
+		"H_Booniehat_blk",
+		"H_Watchcap_blk",
+		"H_Cap_headphones_blk",
 		"CUP_H_PMC_EP_Headset",
 		"amf_beret_para"
 	};
@@ -94,20 +94,20 @@ class rm : baseMan
 	{
 		"pca_backpack_invisible",
 		"pca_backpack_invisible_large",
-		"aegis_assaultpack_blk",
-		"aegis_carryall_blk",
+		"B_AssaultPack_blk",
+		"B_Carryall_blk",
 		"pca_eagle_a3_blk"
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_uzi"
+		"CUP_smg_UZI"
 	};
 	scope[] = 
 	{
 	};
 	silencer[] = 
 	{
-		"fwa_acc_uzi_suppressor"
+		"CUP_muzzle_snds_UZI"
 	};
 	items[] =
 	{
@@ -140,7 +140,7 @@ class ar : rm
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	primaryWeapon[] = 
 	{
@@ -172,7 +172,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	backpackItems[] += 
 	{
@@ -236,11 +236,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_uzi"
+		"CUP_smg_UZI"
 	};
 	silencer[] = 
 	{
-		"fwa_acc_uzi_suppressor"
+		"CUP_muzzle_snds_UZI"
 	};
 	sidearmWeapon[] = 
 	{
@@ -283,7 +283,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_uzi"
+		"CUP_smg_UZI"
 	};
 	backpackItems[] =
 	{
@@ -321,7 +321,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	backpackItems[] =
 	{

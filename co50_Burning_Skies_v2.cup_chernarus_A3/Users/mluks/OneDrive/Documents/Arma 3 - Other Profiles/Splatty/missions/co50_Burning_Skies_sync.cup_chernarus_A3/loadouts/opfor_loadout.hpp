@@ -78,7 +78,7 @@ class r : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"sma_weap_tavor_blk"
+		"$NONE_sma_weap_tavor_blk$"
 	};
 	scope[] = 
 	{
@@ -128,7 +128,7 @@ class rrpg : r
 	displayName = "Rifleman (RPG)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] = 
 	{

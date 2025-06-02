@@ -15602,7 +15602,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""aegis_weap_rpg32_blk""],[5]],[[""RPG32_F""],[20]],[[],[]],[[],[]]],false]";
+									value = "[[[[""launch_RPG32_black_F""],[5]],[[""RPG32_F""],[20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -21921,7 +21921,7 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "aegis_weap_sa80_blk";
+										name = "arifle_SA80_blk_F";
 										optics = "optic_Hamr";
 										muzzle = "muzzle_snds_H";
 										flashlight = "acc_pointer_IR";
@@ -21934,7 +21934,7 @@ class Mission
 									};
 									class handgun
 									{
-										name = "aegis_weap_fnx45_blk";
+										name = "hgun_Pistol_heavy_01_black_F";
 										optics = "optic_MRD_black";
 										muzzle = "muzzle_snds_acp";
 										flashlight = "acc_flashlight_pistol";

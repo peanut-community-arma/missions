@@ -24500,7 +24500,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ak12";
+																					value = "arifle_AK12_545_F";
 																				};
 																			};
 																			class Item1
@@ -24527,7 +24527,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ak12u";
+																					value = "arifle_AK12U_545_F";
 																				};
 																			};
 																			class Item1
@@ -24662,7 +24662,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_ar10";
+																					value = "sp_fwa_ar10";
 																				};
 																			};
 																			class Item1
@@ -24716,7 +24716,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_aur90";
+																					value = "arifle_AUG_black_F";
 																				};
 																			};
 																			class Item1
@@ -24743,7 +24743,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_aur90_carbine";
+																					value = "arifle_AUG_C_black_F";
 																				};
 																			};
 																			class Item1
@@ -24770,7 +24770,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_bm59";
+																					value = "sp_fwa_bm59";
 																				};
 																			};
 																			class Item1
@@ -24797,7 +24797,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m1918_bar";
+																					value = "sp_fwa_m1918a2_bar";
 																				};
 																			};
 																			class Item1
@@ -24824,7 +24824,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m16a1";
+																					value = "CUP_arifle_M16A1";
 																				};
 																			};
 																			class Item1
@@ -24851,7 +24851,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m16a2";
+																					value = "CUP_arifle_M16A2";
 																				};
 																			};
 																			class Item1
@@ -24878,7 +24878,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m16a3";
+																					value = "sp_fwa_ar15_646_a3";
 																				};
 																			};
 																			class Item1
@@ -24905,7 +24905,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m4a1_hk";
+																					value = "$NONE_hlc_rifle_m4a1_hk$";
 																				};
 																			};
 																			class Item1
@@ -24932,7 +24932,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m4a1_cqbr_hk";
+																					value = "$NONE_hlc_rifle_m4a1_cqbr_hk$";
 																				};
 																			};
 																			class Item1
@@ -24959,7 +24959,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_mk18mod0_hk";
+																					value = "$NONE_hlc_rifle_mk18mod0_hk$";
 																				};
 																			};
 																			class Item1
@@ -24986,7 +24986,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_colt_715_canada_c7";
+																					value = "sp_fwa_7a5_c7";
 																				};
 																			};
 																			class Item1
@@ -25256,7 +25256,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_em2";
+																					value = "$NONE_fwa_weap_em2$";
 																				};
 																			};
 																			class Item1
@@ -25283,7 +25283,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_l1a1_auto";
+																					value = "$NONE_hlc_rifle_l1a1_auto$";
 																				};
 																			};
 																			class Item1
@@ -25310,7 +25310,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_f2000_blk";
+																					value = "arifle_Mk20_black_F";
 																				};
 																			};
 																			class Item1
@@ -25337,7 +25337,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_f2000c_blk";
+																					value = "arifle_Mk20C_black_F";
 																				};
 																			};
 																			class Item1
@@ -25391,7 +25391,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_fn49";
+																					value = "sp_fwa_fn49";
 																				};
 																			};
 																			class Item1
@@ -25418,7 +25418,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_cqc";
+																					value = "arifle_SCAR_F";
 																				};
 																			};
 																			class Item1
@@ -25445,7 +25445,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std";
+																					value = "$NONE_hlc_rifle_scarh_std$";
 																				};
 																			};
 																			class Item1
@@ -25472,7 +25472,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl300_cqc";
+																					value = "$NONE_hlc_rifle_scarl300_cqc$";
 																				};
 																			};
 																			class Item1
@@ -25499,7 +25499,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl300_std";
+																					value = "$NONE_hlc_rifle_scarl300_std$";
 																				};
 																			};
 																			class Item1
@@ -25526,7 +25526,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_cqc";
+																					value = "$NONE_hlc_rifle_scarl_cqc$";
 																				};
 																			};
 																			class Item1
@@ -25553,7 +25553,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_sc";
+																					value = "$NONE_hlc_rifle_scarl_sc$";
 																				};
 																			};
 																			class Item1
@@ -25580,7 +25580,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_std";
+																					value = "$NONE_hlc_rifle_scarl_std$";
 																				};
 																			};
 																			class Item1
@@ -25607,7 +25607,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scar_mk47";
+																					value = "arifle_SCAR_F";
 																				};
 																			};
 																			class Item1
@@ -25688,7 +25688,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_fort651_blk";
+																					value = "arifle_TRG20_black_F";
 																				};
 																			};
 																			class Item1
@@ -25715,7 +25715,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_fort652_blk";
+																					value = "arifle_TRG21_black_F";
 																				};
 																			};
 																			class Item1
@@ -25742,7 +25742,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36c_65_blk";
+																					value = "arifle_G36C_F";
 																				};
 																			};
 																			class Item1
@@ -25769,7 +25769,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36k_65_blk";
+																					value = "arifle_G36_F";
 																				};
 																			};
 																			class Item1
@@ -25850,7 +25850,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk33a2_ris";
+																					value = "$NONE_hlc_rifle_hk33a2_ris$";
 																				};
 																			};
 																			class Item1
@@ -25877,7 +25877,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d10rahg_mstock";
+																					value = "$NONE_hlc_rifle_hk416d10rahg_mstock$";
 																				};
 																			};
 																			class Item1
@@ -25904,7 +25904,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d145smr";
+																					value = "$NONE_hlc_rifle_hk416d145smr$";
 																				};
 																			};
 																			class Item1
@@ -25931,7 +25931,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d165";
+																					value = "$NONE_hlc_rifle_hk416d165$";
 																				};
 																			};
 																			class Item1
@@ -25958,7 +25958,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416n";
+																					value = "$NONE_hlc_rifle_hk416n$";
 																				};
 																			};
 																			class Item1
@@ -25985,7 +25985,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk53_ris";
+																					value = "$NONE_hlc_rifle_hk53_ris$";
 																				};
 																			};
 																			class Item1
@@ -26012,7 +26012,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36a1_romi";
+																					value = "$NONE_hlc_rifle_g36a1_romi$";
 																				};
 																			};
 																			class Item1
@@ -26039,7 +26039,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36a3_romi";
+																					value = "$NONE_hlc_rifle_g36a3_romi$";
 																				};
 																			};
 																			class Item1
@@ -26066,7 +26066,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36a4_kac";
+																					value = "$NONE_hlc_rifle_g36a4_kac$";
 																				};
 																			};
 																			class Item1
@@ -26093,7 +26093,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36c_romi";
+																					value = "$NONE_hlc_rifle_g36c_romi$";
 																				};
 																			};
 																			class Item1
@@ -26120,7 +26120,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36ca4_kac";
+																					value = "$NONE_hlc_rifle_g36ca4_kac$";
 																				};
 																			};
 																			class Item1
@@ -26147,7 +26147,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36ka3_romi";
+																					value = "$NONE_hlc_rifle_g36ka3_romi$";
 																				};
 																			};
 																			class Item1
@@ -26174,7 +26174,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36ka4_kac";
+																					value = "CUP_arifle_G36KA3_grip";
 																				};
 																			};
 																			class Item1
@@ -26201,7 +26201,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g3ka4";
+																					value = "$NONE_hlc_rifle_g3ka4$";
 																				};
 																			};
 																			class Item1
@@ -26228,7 +26228,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g3a3_modern_ris_blk";
+																					value = "CUP_arifle_G3A3_modern_ris_black";
 																				};
 																			};
 																			class Item1
@@ -26255,7 +26255,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a2_tac";
+																					value = "$NONE_hlc_smg_mp5a2_tac$";
 																				};
 																			};
 																			class Item1
@@ -26282,7 +26282,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a3_tac";
+																					value = "$NONE_hlc_smg_mp5a3_tac$";
 																				};
 																			};
 																			class Item1
@@ -26309,7 +26309,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a4_tac";
+																					value = "CUP_smg_MP5A5_Rail_AFG";
 																				};
 																			};
 																			class Item1
@@ -26336,7 +26336,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a4_10_tac";
+																					value = "$NONE_hlc_smg_mp5a4_10_tac$";
 																				};
 																			};
 																			class Item1
@@ -26363,7 +26363,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5k";
+																					value = "SMG_05_F";
 																				};
 																			};
 																			class Item1
@@ -26390,7 +26390,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5n_tac";
+																					value = "$NONE_hlc_smg_mp5n_tac$";
 																				};
 																			};
 																			class Item1
@@ -26417,7 +26417,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5sd5";
+																					value = "CUP_smg_MP5SD6";
 																				};
 																			};
 																			class Item1
@@ -26471,7 +26471,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_ak12";
+																					value = "arifle_AK12_545_F";
 																				};
 																			};
 																			class Item1
@@ -26498,7 +26498,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_aku12";
+																					value = "arifle_AK12U_545_F";
 																				};
 																			};
 																			class Item1
@@ -26660,7 +26660,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_sa80_blk";
+																					value = "arifle_SA80_blk_F";
 																				};
 																			};
 																			class Item1
@@ -26687,7 +26687,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_sa80c_blk";
+																					value = "arifle_SA80_C_blk_F";
 																				};
 																			};
 																			class Item1
@@ -26714,7 +26714,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m1_carbine";
+																					value = "sp_fwa_m1carbine";
 																				};
 																			};
 																			class Item1
@@ -26822,7 +26822,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m1a1_thompson";
+																					value = "sp_fwa_smg_thompson_m1a1";
 																				};
 																			};
 																			class Item1
@@ -26849,7 +26849,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m2_carbine";
+																					value = "sp_fwa_m2carbine";
 																				};
 																			};
 																			class Item1
@@ -27146,7 +27146,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_mas49";
+																					value = "sp_fwa_mas_49";
 																				};
 																			};
 																			class Item1
@@ -27173,7 +27173,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_mat49";
+																					value = "sp_fwa_smg_mat49";
 																				};
 																			};
 																			class Item1
@@ -27254,7 +27254,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_mp40";
+																					value = "sp_fwa_smg_mp40";
 																				};
 																			};
 																			class Item1
@@ -27443,7 +27443,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ncar15_blk";
+																					value = "arifle_NCAR15_F";
 																				};
 																			};
 																			class Item1
@@ -27470,7 +27470,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ncar15_carbine_blk";
+																					value = "arifle_NCAR15B_F";
 																				};
 																			};
 																			class Item1
@@ -27686,7 +27686,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_pps43";
+																					value = "$NONE_fwa_weap_pps43$";
 																				};
 																			};
 																			class Item1
@@ -27713,7 +27713,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_ppsh41";
+																					value = "$NONE_fwa_weap_ppsh41$";
 																				};
 																			};
 																			class Item1
@@ -27929,7 +27929,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_sbr_blk";
+																					value = "$NONE_hlc_rifle_acr68_sbr_blk$";
 																				};
 																			};
 																			class Item1
@@ -27956,7 +27956,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_car_blk";
+																					value = "CUP_arifle_ACR_blk_68";
 																				};
 																			};
 																			class Item1
@@ -27983,7 +27983,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_iar_blk";
+																					value = "$NONE_hlc_rifle_acr68_iar_blk$";
 																				};
 																			};
 																			class Item1
@@ -28010,7 +28010,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_sbr_pink";
+																					value = "$NONE_hlc_rifle_acr_sbr_pink$";
 																				};
 																			};
 																			class Item1
@@ -28037,7 +28037,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_car_pink";
+																					value = "$NONE_hlc_rifle_acr_car_pink$";
 																				};
 																			};
 																			class Item1
@@ -28064,7 +28064,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_iar_pink";
+																					value = "$NONE_hlc_rifle_acr_iar_pink$";
 																				};
 																			};
 																			class Item1
@@ -28145,7 +28145,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_ruger_mini14";
+																					value = "sp_fwa_ruger_mini14";
 																				};
 																			};
 																			class Item1
@@ -28361,7 +28361,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_stgw57_ris";
+																					value = "sp_fwa_sig510";
 																				};
 																			};
 																			class Item1
@@ -28388,7 +28388,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg550_ris";
+																					value = "$NONE_hlc_rifle_sg550_ris$";
 																				};
 																			};
 																			class Item1
@@ -28415,7 +28415,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg551lb_ris";
+																					value = "$NONE_hlc_rifle_sg551lb_ris$";
 																				};
 																			};
 																			class Item1
@@ -28442,7 +28442,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg551sb_ris";
+																					value = "$NONE_hlc_rifle_sg551sb_ris$";
 																				};
 																			};
 																			class Item1
@@ -28469,7 +28469,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg553lb_ris";
+																					value = "$NONE_hlc_rifle_sg553lb_ris$";
 																				};
 																			};
 																			class Item1
@@ -28496,7 +28496,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg553sb_ris";
+																					value = "$NONE_hlc_rifle_sg553sb_ris$";
 																				};
 																			};
 																			class Item1
@@ -28523,7 +28523,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg553rlb";
+																					value = "$NONE_hlc_rifle_sg553rlb$";
 																				};
 																			};
 																			class Item1
@@ -28550,7 +28550,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg553rsb";
+																					value = "$NONE_hlc_rifle_sg553rsb$";
 																				};
 																			};
 																			class Item1
@@ -28577,7 +28577,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_sks";
+																					value = "Opf_arifle_SKS_F";
 																				};
 																			};
 																			class Item1
@@ -28604,7 +28604,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m1903a1";
+																					value = "sp_fwa_m1903";
 																				};
 																			};
 																			class Item1
@@ -28658,7 +28658,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_sterling_mk4";
+																					value = "sp_fwa_smg_sterling";
 																				};
 																			};
 																			class Item1
@@ -28685,7 +28685,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_sterling_mk5";
+																					value = "sp_fwa_smg_mk5sterling";
 																				};
 																			};
 																			class Item1
@@ -28712,7 +28712,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_auga2_blk";
+																					value = "$NONE_hlc_rifle_auga2_blk$";
 																				};
 																			};
 																			class Item1
@@ -28739,7 +28739,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_auga2_car_blk";
+																					value = "$NONE_hlc_rifle_auga2_car_blk$";
 																				};
 																			};
 																			class Item1
@@ -28766,7 +28766,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_auga2_hbar_blk";
+																					value = "$NONE_hlc_rifle_auga2_hbar_blk$";
 																				};
 																			};
 																			class Item1
@@ -28793,7 +28793,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_auga2_para_blk";
+																					value = "$NONE_hlc_rifle_auga2_para_blk$";
 																				};
 																			};
 																			class Item1
@@ -28820,7 +28820,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_auga3_blk";
+																					value = "$NONE_hlc_rifle_auga3_blk$";
 																				};
 																			};
 																			class Item1
@@ -28847,7 +28847,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_tar21_cqc_blk";
+																					value = "arifle_TRG20_black_F";
 																				};
 																			};
 																			class Item1
@@ -28874,7 +28874,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_tar21_blk";
+																					value = "arifle_TRG21_black_F";
 																				};
 																			};
 																			class Item1
@@ -28955,7 +28955,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_vector_blk";
+																					value = "SMG_01_black_F";
 																				};
 																			};
 																			class Item1
@@ -29036,7 +29036,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_vz52";
+																					value = "$NONE_fwa_weap_vz52$";
 																				};
 																			};
 																			class Item1
@@ -29063,7 +29063,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_mwsf_carbine";
+																					value = "$NONE_hlc_rifle_xm8_mwsf_carbine$";
 																				};
 																			};
 																			class Item1
@@ -29090,7 +29090,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_mwsf_compact";
+																					value = "$NONE_hlc_rifle_xm8_mwsf_compact$";
 																				};
 																			};
 																			class Item1
@@ -29333,7 +29333,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_barska_rds";
+																					value = "$NONE_sma_acc_barska_rds$";
 																				};
 																			};
 																			class Item1
@@ -29495,7 +29495,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_cmore_blk";
+																					value = "$NONE_sma_acc_cmore_blk$";
 																				};
 																			};
 																			class Item1
@@ -29522,7 +29522,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_docterr";
+																					value = "$NONE_hlc_optic_docterr$";
 																				};
 																			};
 																			class Item1
@@ -29603,7 +29603,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_eotech_552_blk";
+																					value = "$NONE_sma_acc_eotech_552_blk$";
 																				};
 																			};
 																			class Item1
@@ -29630,7 +29630,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_eotech_552_kf_blk";
+																					value = "$NONE_sma_acc_eotech_552_kf_blk$";
 																				};
 																			};
 																			class Item1
@@ -29657,7 +29657,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552";
+																					value = "$NONE_rksl_optic_eot552$";
 																				};
 																			};
 																			class Item1
@@ -29684,7 +29684,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -29738,7 +29738,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_eotech_xps3_blk";
+																					value = "$NONE_sma_acc_eotech_xps3_blk$";
 																				};
 																			};
 																			class Item1
@@ -29846,7 +29846,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_ism1400a7";
+																					value = "$NONE_hlc_optic_ism1400a7$";
 																				};
 																			};
 																			class Item1
@@ -30197,7 +30197,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_micro_t2";
+																					value = "$NONE_sma_acc_micro_t2$";
 																				};
 																			};
 																			class Item1
@@ -30224,7 +30224,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_micro_t2_low";
+																					value = "$NONE_sma_acc_micro_t2_low$";
 																				};
 																			};
 																			class Item1
@@ -30251,7 +30251,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_micro_t2_g33";
+																					value = "$NONE_sma_acc_micro_t2_g33$";
 																				};
 																			};
 																			class Item1
@@ -30575,7 +30575,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_romeov";
+																					value = "$NONE_hlc_optic_romeov$";
 																				};
 																			};
 																			class Item1
@@ -30656,7 +30656,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_tasco_propoint";
+																					value = "$NONE_sma_acc_tasco_propoint$";
 																				};
 																			};
 																			class Item1
@@ -30683,7 +30683,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_tasco_propoint_glare";
+																					value = "$NONE_sma_acc_tasco_propoint_glare$";
 																				};
 																			};
 																			class Item1
@@ -30791,7 +30791,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_vortex_blk";
+																					value = "$NONE_sma_acc_vortex_blk$";
 																				};
 																			};
 																			class Item1
@@ -30818,7 +30818,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_vortex_lc_blk";
+																					value = "$NONE_sma_acc_vortex_lc_blk$";
 																				};
 																			};
 																			class Item1
@@ -31304,7 +31304,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "pca_flashlight_m952v";
+																					value = "ACE_Flashlight_Maglite_ML300L";
 																				};
 																			};
 																			class Item1
@@ -31358,7 +31358,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "pca_flashlight_wmx";
+																					value = "ACE_Flashlight_Maglite_ML300L";
 																				};
 																			};
 																			class Item1
@@ -31682,7 +31682,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_acc_dbalpl_side";
+																					value = "$NONE_hlc_acc_dbalpl_side$";
 																				};
 																			};
 																			class Item1
@@ -31709,7 +31709,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_acc_dbalpl_side_fl";
+																					value = "$NONE_hlc_acc_dbalpl_side_fl$";
 																				};
 																			};
 																			class Item1
@@ -31736,7 +31736,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_acc_tlr1_side";
+																					value = "$NONE_hlc_acc_tlr1_side$";
 																				};
 																			};
 																			class Item1
@@ -32438,7 +32438,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_dl44";
+																					value = "$NONE_hlc_pistol_dl44$";
 																				};
 																			};
 																			class Item1
@@ -32519,7 +32519,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_cc2_blk";
+																					value = "hgun_ACPC2_black_F";
 																				};
 																			};
 																			class Item1
@@ -32627,7 +32627,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_fnx45_blk";
+																					value = "hgun_Pistol_heavy_01_black_F";
 																				};
 																			};
 																			class Item1
@@ -32789,7 +32789,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_c96";
+																					value = "$NONE_hlc_pistol_c96$";
 																				};
 																			};
 																			class Item1
@@ -32816,7 +32816,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_c96_prussian";
+																					value = "$NONE_hlc_pistol_c96_prussian$";
 																				};
 																			};
 																			class Item1
@@ -32843,7 +32843,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_c96_m712";
+																					value = "$NONE_hlc_pistol_c96_m712$";
 																				};
 																			};
 																			class Item1
@@ -33167,7 +33167,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_pink";
+																					value = "$NONE_hlc_pistol_mk25_pink$";
 																				};
 																			};
 																			class Item1
@@ -33194,7 +33194,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25tr_pink";
+																					value = "$NONE_hlc_pistol_mk25tr_pink$";
 																				};
 																			};
 																			class Item1
@@ -33221,7 +33221,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_p226r_combat";
+																					value = "$NONE_hlc_pistol_p226r_combat$";
 																				};
 																			};
 																			class Item1
@@ -33248,7 +33248,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_p229r_combat";
+																					value = "$NONE_hlc_pistol_p229r_combat$";
 																				};
 																			};
 																			class Item1
@@ -33410,7 +33410,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_bren_l4";
+																					value = "sp_fwa_bren_l4_lmg";
 																				};
 																			};
 																			class Item1
@@ -33437,7 +33437,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_bren_mk2";
+																					value = "sp_fwa_bren_mk2";
 																				};
 																			};
 																			class Item1
@@ -33464,7 +33464,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m1919a6";
+																					value = "sp_fwa_m1919a6_browning";
 																				};
 																			};
 																			class Item1
@@ -33545,7 +33545,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_hk121_blk";
+																					value = "MMG_01_black_F";
 																				};
 																			};
 																			class Item1
@@ -33572,7 +33572,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m1941";
+																					value = "$NONE_hlc_rifle_m1941$";
 																				};
 																			};
 																			class Item1
@@ -33599,7 +33599,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m1941_308";
+																					value = "$NONE_hlc_rifle_m1941_308$";
 																				};
 																			};
 																			class Item1
@@ -33869,7 +33869,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_aa52_nf1";
+																					value = "sp_fwa_aa52";
 																				};
 																			};
 																			class Item1
@@ -34004,7 +34004,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ncar15_lsw_blk";
+																					value = "arifle_NCAR15_MG_F";
 																				};
 																			};
 																			class Item1
@@ -34058,7 +34058,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_zafir_blk";
+																					value = "LMG_Zafir_black_F";
 																				};
 																			};
 																			class Item1
@@ -34220,7 +34220,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_lmg_mg3kws_blk";
+																					value = "CUP_lmg_MG3_rail";
 																				};
 																			};
 																			class Item1
@@ -34247,7 +34247,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_rpd";
+																					value = "$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -34301,7 +34301,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_rpk16";
+																					value = "Aegis_arifle_RPK12_545_F";
 																				};
 																			};
 																			class Item1
@@ -34382,7 +34382,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_mwsf_dmar";
+																					value = "$NONE_hlc_rifle_xm8_mwsf_dmar$";
 																				};
 																			};
 																			class Item1
@@ -34490,7 +34490,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_bipod_utgshooters";
+																					value = "$NONE_hlc_bipod_utgshooters$";
 																				};
 																			};
 																			class Item1
@@ -34598,7 +34598,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ak12_gp34";
+																					value = "arifle_AK12_GL_545_F";
 																				};
 																			};
 																			class Item1
@@ -34679,7 +34679,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_aur90_eglm";
+																					value = "arifle_AUG_GL_black_F";
 																				};
 																			};
 																			class Item1
@@ -34706,7 +34706,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m16a1_m203";
+																					value = "CUP_arifle_M16A1GL";
 																				};
 																			};
 																			class Item1
@@ -34733,7 +34733,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m16a2_m203";
+																					value = "CUP_arifle_Colt727_M203";
 																				};
 																			};
 																			class Item1
@@ -34760,7 +34760,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m16a3_m203";
+																					value = "sp_fwa_ar15_646_m16a3_m203";
 																				};
 																			};
 																			class Item1
@@ -34787,7 +34787,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m4a1_m203_hk";
+																					value = "$NONE_hlc_rifle_m4a1_m203_hk$";
 																				};
 																			};
 																			class Item1
@@ -34949,7 +34949,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_f2000_gl_blk";
+																					value = "arifle_Mk20_GL_black_F";
 																				};
 																			};
 																			class Item1
@@ -34976,7 +34976,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_cqc_agc";
+																					value = "arifle_SCAR_GL_F";
 																				};
 																			};
 																			class Item1
@@ -35003,7 +35003,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_cqc_eglm";
+																					value = "$NONE_hlc_rifle_scarh_cqc_eglm$";
 																				};
 																			};
 																			class Item1
@@ -35030,7 +35030,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_agc";
+																					value = "$NONE_hlc_rifle_scarh_std_agc$";
 																				};
 																			};
 																			class Item1
@@ -35057,7 +35057,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm$";
 																				};
 																			};
 																			class Item1
@@ -35084,7 +35084,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl300_cqc_eglm";
+																					value = "$NONE_hlc_rifle_scarl300_cqc_eglm$";
 																				};
 																			};
 																			class Item1
@@ -35111,7 +35111,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl300_std_agc";
+																					value = "$NONE_hlc_rifle_scarl300_std_agc$";
 																				};
 																			};
 																			class Item1
@@ -35138,7 +35138,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl300_std_eglm";
+																					value = "$NONE_hlc_rifle_scarl300_std_eglm$";
 																				};
 																			};
 																			class Item1
@@ -35165,7 +35165,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_cqc_eglm";
+																					value = "$NONE_hlc_rifle_scarl_cqc_eglm$";
 																				};
 																			};
 																			class Item1
@@ -35192,7 +35192,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_std_agc";
+																					value = "$NONE_hlc_rifle_scarl_std_agc$";
 																				};
 																			};
 																			class Item1
@@ -35219,7 +35219,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_std_eglm";
+																					value = "$NONE_hlc_rifle_scarl_std_eglm$";
 																				};
 																			};
 																			class Item1
@@ -35246,7 +35246,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_fort652_gl_blk";
+																					value = "arifle_TRG21_GL_black_F";
 																				};
 																			};
 																			class Item1
@@ -35273,7 +35273,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36k_gl_65_blk";
+																					value = "arifle_G36_GL_F";
 																				};
 																			};
 																			class Item1
@@ -35300,7 +35300,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d10_agc_camo_grn";
+																					value = "rhs_weap_hk416d10_m320";
 																				};
 																			};
 																			class Item1
@@ -35327,7 +35327,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d145_agc";
+																					value = "rhs_weap_hk416d145_m320";
 																				};
 																			};
 																			class Item1
@@ -35354,7 +35354,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d165_agc";
+																					value = "$NONE_hlc_rifle_hk416d165_agc$";
 																				};
 																			};
 																			class Item1
@@ -35381,7 +35381,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416n_agc";
+																					value = "$NONE_hlc_rifle_hk416n_agc$";
 																				};
 																			};
 																			class Item1
@@ -35408,7 +35408,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36a1_romi_ag36";
+																					value = "$NONE_hlc_rifle_g36a1_romi_ag36$";
 																				};
 																			};
 																			class Item1
@@ -35435,7 +35435,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36a3_romi_ag36";
+																					value = "$NONE_hlc_rifle_g36a3_romi_ag36$";
 																				};
 																			};
 																			class Item1
@@ -35462,7 +35462,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g36a4_kac_ag36";
+																					value = "$NONE_hlc_rifle_g36a4_kac_ag36$";
 																				};
 																			};
 																			class Item1
@@ -35489,7 +35489,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g3ka4_m203";
+																					value = "$NONE_hlc_rifle_g3ka4_m203$";
 																				};
 																			};
 																			class Item1
@@ -35516,7 +35516,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5n_9mmar";
+																					value = "$NONE_hlc_smg_mp5n_9mmar$";
 																				};
 																			};
 																			class Item1
@@ -35570,7 +35570,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_ak12_gp25";
+																					value = "arifle_AK12_GL_545_F";
 																				};
 																			};
 																			class Item1
@@ -35624,7 +35624,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_sa80_eglm_blk";
+																					value = "arifle_SA80_GL_blk_F";
 																				};
 																			};
 																			class Item1
@@ -35867,7 +35867,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_ncar15_gl_blk";
+																					value = "arifle_NCAR15_GL_F";
 																				};
 																			};
 																			class Item1
@@ -36029,7 +36029,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_sbr_m203_blk";
+																					value = "$NONE_hlc_rifle_acr68_sbr_m203_blk$";
 																				};
 																			};
 																			class Item1
@@ -36056,7 +36056,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_car_m203_blk";
+																					value = "CUP_arifle_ACR_EGLM_blk_68";
 																				};
 																			};
 																			class Item1
@@ -36083,7 +36083,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_iar_m203_blk";
+																					value = "$NONE_hlc_rifle_acr68_iar_m203_blk$";
 																				};
 																			};
 																			class Item1
@@ -36110,7 +36110,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_sbr_m203_pink";
+																					value = "$NONE_hlc_rifle_acr_sbr_m203_pink$";
 																				};
 																			};
 																			class Item1
@@ -36137,7 +36137,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_car_m203_pink";
+																					value = "$NONE_hlc_rifle_acr_car_m203_pink$";
 																				};
 																			};
 																			class Item1
@@ -36164,7 +36164,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_iar_m203_pink";
+																					value = "$NONE_hlc_rifle_acr_iar_m203_pink$";
 																				};
 																			};
 																			class Item1
@@ -36245,7 +36245,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg550_tac_m203";
+																					value = "$NONE_hlc_rifle_sg550_tac_m203$";
 																				};
 																			};
 																			class Item1
@@ -36272,7 +36272,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg551lb_tac_m203";
+																					value = "$NONE_hlc_rifle_sg551lb_tac_m203$";
 																				};
 																			};
 																			class Item1
@@ -36299,7 +36299,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_sg551sb_tac_m203";
+																					value = "$NONE_hlc_rifle_sg551sb_tac_m203$";
 																				};
 																			};
 																			class Item1
@@ -36326,7 +36326,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_auga3_m203_blk";
+																					value = "$NONE_hlc_rifle_auga3_m203_blk$";
 																				};
 																			};
 																			class Item1
@@ -36353,7 +36353,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_tar21_gl_blk";
+																					value = "arifle_TRG21_GL_black_F";
 																				};
 																			};
 																			class Item1
@@ -36407,7 +36407,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_xm8_mwsf_carbine_xm320";
+																					value = "$NONE_hlc_rifle_xm8_mwsf_carbine_xm320$";
 																				};
 																			};
 																			class Item1
@@ -36461,7 +36461,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_ar10_prt_marksman";
+																					value = "sp_fwa_ar10_porto_marksman_od";
 																				};
 																			};
 																			class Item1
@@ -36623,7 +36623,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_dmr";
+																					value = "arifle_SCAR_F";
 																				};
 																			};
 																			class Item1
@@ -36650,7 +36650,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr";
+																					value = "$NONE_hlc_rifle_scarh_ssr$";
 																				};
 																			};
 																			class Item1
@@ -36677,7 +36677,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl300_dmr";
+																					value = "$NONE_hlc_rifle_scarl300_dmr$";
 																				};
 																			};
 																			class Item1
@@ -36704,7 +36704,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarl_dmr";
+																					value = "$NONE_hlc_rifle_scarl_dmr$";
 																				};
 																			};
 																			class Item1
@@ -36785,7 +36785,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_hk416d20";
+																					value = "$NONE_hlc_rifle_hk416d20$";
 																				};
 																			};
 																			class Item1
@@ -37325,7 +37325,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr68_dmr_blk";
+																					value = "CUP_arifle_ACR_DMR_blk_68";
 																				};
 																			};
 																			class Item1
@@ -37352,7 +37352,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_dmr_pink";
+																					value = "$NONE_hlc_rifle_acr_dmr_pink$";
 																				};
 																			};
 																			class Item1
@@ -37406,7 +37406,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_m1903a1_sniper";
+																					value = "sp_fwa_m1903a1_unertl";
 																				};
 																			};
 																			class Item1
@@ -37487,7 +37487,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_vs121_blk";
+																					value = "srifle_DMR_01_black_F";
 																				};
 																			};
 																			class Item1

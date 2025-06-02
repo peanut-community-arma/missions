@@ -85,7 +85,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_grn"
+		"CUP_arifle_ACRC_wdl_68"
 
 	};
 	scope[] = 
@@ -165,7 +165,7 @@ class gren : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_acr_car_m203_grn"
+		"CUP_arifle_ACRC_EGLM_wdl_68"
 	};
 	bipod[] = {};
 	backpackItems[] = 
@@ -245,7 +245,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_grn"
+		"CUP_arifle_ACRC_EGLM_wdl_68"
 	};
 	bipod[] = {};
 	magazines[] += 

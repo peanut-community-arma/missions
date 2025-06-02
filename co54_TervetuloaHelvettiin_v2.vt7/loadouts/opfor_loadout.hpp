@@ -56,8 +56,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		LIST_2("aegis_cws_m05"),
-		"aegis_cws_m05_cold_wood"
+		LIST_2("$NONE_aegis_cws_m05$"),
+		"$NONE_aegis_cws_m05_cold_wood$"
 	};
 	vest[] = 
 	{
@@ -206,7 +206,7 @@ class crewman : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_pps43"
+		"$NONE_fwa_weap_pps43$"
 	};
 	magazines[] = 
 	{

@@ -53,9 +53,9 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_blu",
+		"H_PASGT_basic_blue_F",
 		"H_MilCap_gen_F",
-		"usm_helmet_pasgt_ceswd_blu"
+		"$NONE_usm_helmet_pasgt_ceswd_blu$"
 	};
 	backpack[] = 
 	{
@@ -67,11 +67,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"sma_weap_sar21_afg"
+		"$NONE_sma_weap_sar21_afg$"
 	};
 	scope[] = 
 	{
-		"sma_acc_micro_t2"
+		"$NONE_sma_acc_micro_t2$"
 	};
 	attachment[] = 
 	{
@@ -112,7 +112,7 @@ class mg : rm
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552x_c"
+		"$NONE_rksl_optic_eot552x_c$"
 	};
 	magazines[] = 
 	{
@@ -140,7 +140,7 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	secondaryAttachments[] = 
 	{
@@ -158,7 +158,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr68_car_m203_grn"
+		"CUP_arifle_ACR_EGLM_wdl_68"
 	};
 	magazines[] += 
 	{
@@ -217,7 +217,7 @@ class crewman : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr68_sbr_grn"
+		"$NONE_hlc_rifle_acr68_sbr_grn$"
 	};
 	scope[] = 
 	{
@@ -244,7 +244,7 @@ class pilot : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr68_sbr_grn"
+		"$NONE_hlc_rifle_acr68_sbr_grn$"
 	};
 	scope[] = 
 	{

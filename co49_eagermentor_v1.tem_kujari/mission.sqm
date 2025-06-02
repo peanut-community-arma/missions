@@ -1224,7 +1224,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_hk416d165_agc";
+								name = "$NONE_hlc_rifle_hk416d165_agc$";
 								optics = "CUP_optic_TrijiconRx01_black";
 								firemode = "hlc_rifle_hk416d165_agc:Single";
 								class primaryMuzzleMag
@@ -1248,7 +1248,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rbd_rs_arg";
+								typeName = "$NONE_aegis_rbd_rs_arg$";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1524,7 +1524,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rbd_arg";
+								typeName = "$NONE_aegis_rbd_arg$";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1912,7 +1912,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_hk416d165_agc";
+								name = "$NONE_hlc_rifle_hk416d165_agc$";
 								optics = "rhsusf_acc_mrds";
 								firemode = "hlc_rifle_hk416d165_agc:Single";
 								class secondaryMuzzleMag
@@ -1941,7 +1941,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rbd_rs_arg";
+								typeName = "$NONE_aegis_rbd_rs_arg$";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -4455,7 +4455,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rbd_arg";
+								typeName = "$NONE_aegis_rbd_arg$";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -15773,7 +15773,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_blk";
+																			value = "$NONE_sma_acc_vortex_blk$";
 																		};
 																	};
 																	class Item1
@@ -15881,7 +15881,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "RKSL_optic_EOT552";
+																			value = "$NONE_RKSL_optic_EOT552$";
 																		};
 																	};
 																	class Item1
@@ -17993,7 +17993,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_blk";
+																			value = "$NONE_sma_acc_vortex_blk$";
 																		};
 																	};
 																	class Item1
@@ -18101,7 +18101,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "RKSL_optic_EOT552";
+																			value = "$NONE_RKSL_optic_EOT552$";
 																		};
 																	};
 																	class Item1

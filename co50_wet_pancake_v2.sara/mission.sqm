@@ -17269,7 +17269,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_g36a3_romi_ag36";
+								name = "$NONE_hlc_rifle_g36a3_romi_ag36$";
 								optics = "ptv_acc_compm4s";
 								flashlight = "pca_flashlight_sf";
 								firemode = "hlc_rifle_g36a3_romi_ag36:Single";
@@ -17294,7 +17294,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_latpat";
+								typeName = "pca_g3_latpatd";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -17343,7 +17343,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_latpat";
+								typeName = "$NONE_aegis_modular_carrier_lite_latpat$";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -17376,7 +17376,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_assaultpack_latpat";
+								typeName = "$NONE_aegis_assaultpack_latpat$";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -17410,7 +17410,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_mch_latpat";
+							headgear = "$NONE_aegis_mch_latpat$";
 						};
 					};
 					id = 1;

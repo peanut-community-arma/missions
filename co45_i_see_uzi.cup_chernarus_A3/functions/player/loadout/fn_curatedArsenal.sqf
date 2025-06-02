@@ -70,9 +70,9 @@ private _itemVest =
 	"milgp_v_marciras_medic_belt_blk",
 	"milgp_v_marciras_teamleader_blk",
 	"milgp_v_marciras_teamleader_belt_blk",
-	"aegis_tacvest_blk",
+	"V_TacVest_blk",
 	"V_BandollierB_blk",
-	"aegis_chestrig_blk"
+	"V_ChestrigF_blk"
 ];
 
 private _itemVestCrew = 
@@ -90,9 +90,9 @@ private _itemHeadgear =
 [
 	"TC_Helmet_Invisible_Medium",
 	"H_Watchcap_blk",
-	"aegis_boonie_blk",
-	"aegis_beanie_blk",
-	"aegis_cap_headphones_blk",
+	"H_Booniehat_blk",
+	"H_Watchcap_blk",
+	"H_Cap_headphones_blk",
 	"CUP_H_PMC_EP_Headset",
 	"amf_beret_para"
 ];
@@ -112,8 +112,8 @@ private _itemBackpack =
 [
 	"pca_backpack_invisible",
 	"pca_backpack_invisible_large",
-	"aegis_assaultpack_blk",
-	"aegis_carryall_blk",
+	"B_AssaultPack_blk",
+	"B_Carryall_blk",
 	"pca_eagle_a3_blk",
 	"B_LegStrapBag_black_F"
 ];
@@ -165,14 +165,14 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_headset",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
+	"G_Bandanna_kawaii",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Headset_light",
+	"CUP_FR_NeckScarf3",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
 	"G_Balaclava_TI_blk_F",
 	"bear_balaclava1_black",
 	"CUP_RUS_Balaclava_blk",
@@ -185,10 +185,10 @@ private _itemCosmetic =
 	"CUP_G_Scarf_Face_Blk",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_FR_NeckScarf3",
-	"usm_kneepads_blk",
-	"usm_kneepads_safariland",
-	"usm_swdgoggles",
-	"usm_gigloves",
+	"$NONE_usm_kneepads_blk$",
+	"$NONE_usm_kneepads_safariland$",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
 	"milgp_f_face_shield_blk",
 	"milgp_f_face_shield_goggles_blk",
 	"milgp_f_face_shield_goggles_shemagh_blk",
@@ -284,14 +284,14 @@ private _itemAcc =
 	
 	
 	//Tactical Device
-	"fwa_acc_uzi_suppressor",
-	"fwa_acc_machinegun_linkhide"
+	"CUP_muzzle_snds_UZI",
+	"sp_fwa_acc_machinegun_linkhide"
 	
 ];
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_uzi",
+	"CUP_smg_UZI",
 	"CUP_smg_UZI"
 ];
 
@@ -303,7 +303,7 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"fwa_weap_aa52_nf1",
+	"sp_fwa_aa52",
 	"CUP_smg_UZI"
 ];
 

@@ -54,7 +54,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_603_m16a1_captured"
+		"sp_fwa_ar15_603_m16a1_captured"
 	};
 	items[] =
 	{
@@ -88,11 +88,11 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1918_bar"
+		"sp_fwa_m1918a2_bar"
 	};
 	bipod[] = 
 	{
-		"fwa_acc_m1918_bar_bipod"
+		"sp_fwa_acc_bipod_bar"
 	};
 	magazines[] = 
 	{
@@ -185,7 +185,7 @@ class tl : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_car15"
+		"$NONE_hlc_rifle_car15$"
 	};
 	magazines[] =
 	{
@@ -276,7 +276,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1919a6"
+		"sp_fwa_m1919a6_browning"
 	};
 	sidearmWeapon[] = 
 	{

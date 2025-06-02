@@ -67,11 +67,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_smg_mp5a4_10"
+		"$NONE_hlc_smg_mp5a4_10$"
 	};
 	sidearmWeapon[] =
 	{
-		"hlc_pistol_mk25_pinktac"
+		"$NONE_hlc_pistol_mk25_pinktac$"
 	};
 	items[] =
 	{
@@ -105,11 +105,11 @@ class ar : rm
 	displayName = "Tourist (Rifle)";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_sbr_blk"
+		"$NONE_hlc_rifle_acr_sbr_blk$"
 	};
 	scope[] = 
 	{
@@ -133,7 +133,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	backpackItems[] += 
 	{
@@ -163,8 +163,8 @@ class gren : ar
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_sbr_m203_blk",
-		"hlc_rifle_acr_sbr_m203_pink"
+		"$NONE_hlc_rifle_acr_sbr_m203_blk$",
+		"$NONE_hlc_rifle_acr_sbr_m203_pink$"
 	};
 	scope[] = 
 	{
@@ -228,7 +228,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_sbr_blk"
+		"$NONE_hlc_rifle_acr_sbr_blk$"
 	};
 	backpackItems[] =
 	{
@@ -269,7 +269,7 @@ class rm_fa : rm
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	backpackItems[] =
 	{
@@ -312,7 +312,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	primaryWeapon[] = 
 	{
@@ -346,7 +346,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	sidearmWeapon[] = 
 	{
@@ -371,7 +371,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	sidearmWeapon[] = 
 	{
@@ -400,7 +400,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	sidearmWeapon[] = 
 	{
@@ -508,7 +508,7 @@ class eng : rm
 	traits[] = {"engineer","explosiveSpecialist"};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	backpackItems[] = 
 	{

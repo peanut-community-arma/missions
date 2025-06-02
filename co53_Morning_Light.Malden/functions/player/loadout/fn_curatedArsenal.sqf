@@ -31,10 +31,10 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"aegis_rbd_whex",
-	"aegis_rbd_rs_whex",
-	"aegis_rcu_whex",
-	"aegis_rcu_rs_whex"
+	"Atlas_U_O_Afghanka_01_whex_F",
+	"Atlas_U_O_Afghanka_02_whex_F",
+	"Atlas_U_O_CombatFatigues_whex_F",
+	"Atlas_U_O_CombatFatigues_02_whex_F"
 ];
 
 //Vest
@@ -42,10 +42,10 @@ private _itemVest =
 [
 	"ptv_vest_m16_teamleader_rgr",
 	"ptv_vest_m16_rifleman_rgr",
-	"aegis_modular_carrier_lite_whex",
-	"aegis_modular_carrier_heavy_whex",
-	"aegis_modular_carrier_lite_grn",
-	"aegis_modular_carrier_heavy_grn"
+	"Atlas_V_OCarrierLuchnik_Lite_whex_F",
+	"Atlas_V_OCarrierLuchnik_GL_whex_F",
+	"V_CarrierRigKBT_01_light_Olive_F",
+	"V_CarrierRigKBT_01_heavy_Olive_F"
 ];
 
 private _itemVestmed = 
@@ -56,21 +56,21 @@ private _itemVestmed =
 //Headgear 
 private _itemHeadgear = 
 [
-	"aegis_specter_cover_whex",
-	"aegis_specter_oli",
-	"aegis_specter_headset_oli",
-	"aegis_specter_cover_oli"
+	"H_HelmetSpecter_cover_whex_CO",
+	"H_HelmetSpecter_F",
+	"H_HelmetSpecter_headset_F",
+	"H_HelmetSpecter_cover_grn_F"
 ];
 
 //Backpack 
 private _itemBackpack = 
 [
-	"aegis_kitbag_rgr",
-	"aegis_carryall_whex",
-	"aegis_fieldpack_whex",
-	"aegis_viperharness_whex",
-	"aegis_viperharness_light_whex",
-	"aegis_radiobag_whex",
+	"pca_kitbag_od",
+	"B_Carryall_owcamo",
+	"B_FieldPack_owcamo",
+	"B_ViperHarness_whex_F",
+	"B_ViperLightHarness_whex_F",
+	"B_RadioBag_01_whex_F",
 	"pca_eagle_a3_od",
 	"B_Carryall_green_F"
 ];
@@ -96,12 +96,12 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_blk",
 	"G_Bandanna_beast",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_oli",
 	"G_Bandanna_shades",
 	"G_Bandanna_sport",
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"G_Combat_Goggles_tna_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
@@ -130,8 +130,8 @@ private _itemCosmetic =
 	"milgp_f_face_shield_shemagh_rgr",
 	"milgp_f_face_shield_tactical_shemagh_blk",
 	"milgp_f_face_shield_tactical_shemagh_rgr",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_Oakleys_Clr",
 	"CUP_G_Oakleys_Drk",
@@ -141,12 +141,12 @@ private _itemCosmetic =
 	"G_Shades_Blue",
 	"G_Shades_Green",
 	"G_Shades_Red",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
 	"rhsusf_shemagh_od",
 	"rhsusf_shemagh2_od",
 	"rhsusf_shemagh_gogg_od",
@@ -158,23 +158,23 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_face_shield_shemagh_rgr",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_glasses",
-	"pca_nvg_tactical_goggles"
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_glasses$",
+	"$NONE_pca_nvg_tactical_goggles$"
 ];
 
 //********************************************************************************//
@@ -269,7 +269,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"aegis_weap_rpg32_blk",
+	"launch_RPG32_black_F",
 	"RPG32_F",
 	"RPG32_HE_F"
 ];

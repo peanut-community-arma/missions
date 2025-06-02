@@ -52,7 +52,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_sg551_lb_ris"
+		"$NONE_hlc_rifle_sg551_lb_ris$"
 	};
 	scope[] = 
 	{
@@ -210,7 +210,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_sg551_lb_tac_m203"
+		"$NONE_hlc_rifle_sg551_lb_tac_m203$"
 	};
 	backpackItems[] =
 	{
@@ -228,7 +228,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_sg551_sb_ris"
+		"$NONE_hlc_rifle_sg551_sb_ris$"
 	};
 	backpackItems[] =
 	{

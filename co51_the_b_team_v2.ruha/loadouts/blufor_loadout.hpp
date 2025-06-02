@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_erdl"
+		"CUP_U_B_BDUv2_ERDL_highland"
 	};
 	vest[] = 
 	{
@@ -52,7 +52,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_odg"
+		"CUP_H_PASGTv2_OD"
 	};
 	backpack[] = 
 	{

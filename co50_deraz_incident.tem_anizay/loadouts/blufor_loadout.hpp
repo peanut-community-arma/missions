@@ -35,16 +35,16 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_taki",
-		"usm_bdu_bti_taki",
-		"usm_bdu_btisrl_taki",
-		"usm_bdu_srl_taki",
-		"usm_bdu_srh_taki"
+		"$NONE_usm_bdu_taki$",
+		"$NONE_usm_bdu_bti_taki$",
+		"$NONE_usm_bdu_btisrl_taki$",
+		"$NONE_usm_bdu_srl_taki$",
+		"$NONE_usm_bdu_srh_taki$"
 	};
 	vest[] = 
 	{
-		LIST_4("usm_vest_lbe_rifleman"),
-		"usm_vest_lbe_rifleman2"
+		LIST_4("V_Simc_67"),
+		"V_Simc_56_ligt_zusp"
 	};
 	headgear[] = 
 	{
@@ -86,7 +86,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"usm_vest_lbe_machinegunner"
+		"V_Simc_56_60_ligt_zusp"
 	};
 	backpack[] = 
 	{
@@ -158,7 +158,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	vest[] = 
 	{
-		"usm_vest_lbe_rifleman3"
+		"V_Simc_56_alt"
 	};
 	items[] += 
 	{
@@ -191,7 +191,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	vest[] = 
 	{
-		"usm_vest_lbe_rifleman4"
+		"V_Simc_56"
 	};
 	backpackItems[] +=
 	{

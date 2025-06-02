@@ -930,7 +930,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_ak12_gp25";
+								name = "arifle_AK12_GL_545_F";
 								optics = "ptv_acc_acog_ta11_rmr";
 								flashlight = "pca_flashlight_sf";
 								firemode = "hlc_rifle_ak12_gp25:FullAuto";
@@ -1089,7 +1089,7 @@ class Mission
 							compass = "ItemCompass";
 							watch = "ItemWatch";
 							gps = "ItemGPS";
-							headgear = "aegis_specter_cover_un";
+							headgear = "H_HelmetSpecter_cover_UNO_F";
 						};
 					};
 					id = 1;
@@ -7143,7 +7143,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_loadbearing_auscam";
+								typeName = "Atlas_B_patrolBackpack_aucamo_F";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -7166,7 +7166,7 @@ class Mission
 							compass = "ItemCompass";
 							watch = "ItemWatch";
 							gps = "ItemGPS";
-							headgear = "aegis_specter_cover_un";
+							headgear = "H_HelmetSpecter_cover_UNO_F";
 						};
 					};
 					id = 83;
@@ -7563,7 +7563,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_ak12";
+																					value = "arifle_AK12_545_F";
 																				};
 																			};
 																			class Item1
@@ -7806,7 +7806,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_rpk12";
+																					value = "Aegis_arifle_RPK12_545_F";
 																				};
 																			};
 																			class Item1
@@ -7887,7 +7887,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_aku12";
+																					value = "arifle_AK12U_545_F";
 																				};
 																			};
 																			class Item1
@@ -7968,7 +7968,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_ak12_gp25";
+																					value = "arifle_AK12_GL_545_F";
 																				};
 																			};
 																			class Item1
@@ -16996,7 +16996,7 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "hlc_rifle_ak12_gp25";
+										name = "arifle_AK12_GL_545_F";
 										optics = "ptv_acc_eot552";
 										flashlight = "pca_flashlight_sf";
 										firemode = "hlc_rifle_ak12_gp25:FullAuto";
@@ -17155,7 +17155,7 @@ class Mission
 									compass = "ItemCompass";
 									watch = "ItemWatch";
 									gps = "ItemGPS";
-									headgear = "aegis_specter_cover_un";
+									headgear = "H_HelmetSpecter_cover_UNO_F";
 								};
 							};
 							id = 3264;

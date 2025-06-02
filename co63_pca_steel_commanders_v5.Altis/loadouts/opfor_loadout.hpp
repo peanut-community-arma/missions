@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"wsx_6b23_6sh116_blk"
+		"rhs_6b23_6sh116_od"
 	};
 	headgear[] = 
 	{
@@ -69,7 +69,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] = 
 	{
@@ -88,7 +88,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk12"
+		"Aegis_arifle_RPK12_545_F"
 	};
 	magazines[] = 
 	{
@@ -118,7 +118,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aek971"
+		"$NONE_hlc_rifle_aek971$"
 	};
 	scope[] = 
 	{
@@ -157,7 +157,7 @@ class gren : rm
 	displayName = "Grenadier";
 	vest[] = 
 	{
-		"wsx_6b23_6sh116_blk_vog"
+		"rhs_6b23_6sh116_vog_od"
 	};
 	backpack[] = 
 	{
@@ -165,7 +165,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	magazines[] += 
 	{
@@ -221,7 +221,7 @@ class crewman : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	scope[] = {};
 	magazines[] = 
@@ -283,7 +283,7 @@ class hvt : rm
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 	headgear[] = 
 	{
@@ -292,7 +292,7 @@ class hvt : rm
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};	
 	magazines[] = 
 	{

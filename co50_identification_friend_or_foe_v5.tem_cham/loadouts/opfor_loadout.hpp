@@ -69,7 +69,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_specter_cover_blk"
+		"H_HelmetSpecter_black_F"
 	};
     hmd[] =
     {
@@ -77,7 +77,7 @@ class rm : baseMan
     };
 	backpack[] = 
 	{
-		LIST_9("aegis_fieldpack_blk"),
+		LIST_9("B_FieldPack_blk"),
         "B_ViperLightHarness_blk_F"
 	};
     goggles[] = 
@@ -139,12 +139,12 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
     primaryWeapon[] = {"CUP_arifle_FNFAL"};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	backpackItems[] = 
 	{
@@ -179,7 +179,7 @@ class medic : rm
 	displayName = "Medic";
 	vest[] = 
 	{
-		"wsx_mbav_medic_blk"
+		"usp_eagle_mbav_mcb"
 	};
 	backpackItems[] = 
 	{

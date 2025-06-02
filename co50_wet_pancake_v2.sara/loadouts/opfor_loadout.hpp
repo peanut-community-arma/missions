@@ -52,8 +52,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rbd_shex",
-		"aegis_rbd_rs_shex"
+		"Atlas_U_O_Afghanka_01_semiarid_F",
+		"Atlas_U_O_Afghanka_02_semiarid_F"
 	};
 	vest[] = 
 	{
@@ -62,13 +62,13 @@ class rm : baseMan
 	headgear[] = 
 	{
 		"usp_cap_ct_mca",
-		"aegis_lwh_shex"
+		"H_O_Helmet_canvas_semiarid"
 	};
 	goggles[] = 
 	{
 		"",
-		"aegis_combat_gogg_blk",
-		"rhs_goggles_black",
+		"G_Combat_Goggles_blk_F",
+		"rhsusf_oakley_goggles_blk",
 		"G_Tactical_Clear"
 	};
 	backpack[] = 

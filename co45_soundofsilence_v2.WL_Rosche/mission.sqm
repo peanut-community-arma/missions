@@ -1854,7 +1854,7 @@ class Mission
 							class primaryWeapon
 							{
 								name = "rhs_weap_m14_rail";
-								optics = "hlc_optic_vomz_3d";
+								optics = "$NONE_hlc_optic_vomz_3d$";
 								firemode = "rhs_weap_m14_rail:Single";
 								class primaryMuzzleMag
 								{
@@ -16958,7 +16958,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_rpk";
+																					value = "arifle_RPK_F";
 																				};
 																			};
 																			class Item1
@@ -17963,7 +17963,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_rpk";
+																					value = "arifle_RPK_F";
 																				};
 																			};
 																			class Item1
@@ -26542,7 +26542,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_colt_603_m16a1";
+																							value = "sp_fwa_ar15_603_m16a1";
 																						};
 																					};
 																					class Item1
@@ -26650,7 +26650,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_acc_sionics_maw";
+																							value = "$NONE_fwa_acc_sionics_maw$";
 																						};
 																					};
 																					class Item1
@@ -26758,7 +26758,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_colt_603_m16a1_m203";
+																							value = "sp_fwa_ar15_603_m16a1_m203";
 																						};
 																					};
 																					class Item1
@@ -26839,7 +26839,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m67";
+																							value = "sp_fwa_m67";
 																						};
 																					};
 																					class Item1
@@ -28789,7 +28789,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_colt_603_m16a1";
+																							value = "sp_fwa_ar15_603_m16a1";
 																						};
 																					};
 																					class Item1
@@ -28897,7 +28897,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_acc_sionics_maw";
+																							value = "$NONE_fwa_acc_sionics_maw$";
 																						};
 																					};
 																					class Item1
@@ -29005,7 +29005,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_colt_603_m16a1_m203";
+																							value = "sp_fwa_ar15_603_m16a1_m203";
 																						};
 																					};
 																					class Item1
@@ -29086,7 +29086,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m67";
+																							value = "sp_fwa_m67";
 																						};
 																					};
 																					class Item1
@@ -29579,7 +29579,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_colt_603_m16a1";
+																							value = "sp_fwa_ar15_603_m16a1";
 																						};
 																					};
 																					class Item1
@@ -29687,7 +29687,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_acc_sionics_maw";
+																							value = "$NONE_fwa_acc_sionics_maw$";
 																						};
 																					};
 																					class Item1
@@ -29795,7 +29795,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_colt_603_m16a1_m203";
+																							value = "sp_fwa_ar15_603_m16a1_m203";
 																						};
 																					};
 																					class Item1
@@ -29876,7 +29876,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m67";
+																							value = "sp_fwa_m67";
 																						};
 																					};
 																					class Item1
@@ -55073,7 +55073,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -56152,7 +56152,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1

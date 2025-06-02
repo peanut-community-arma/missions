@@ -44,7 +44,7 @@ if (random 1 > 0.2) then
 			[
 				"G_Balaclava_blk", 2,
 				"G_Bandanna_blk", 1,
-				"aegis_bala_light_blk", 1,
+				"G_Balaclava_light_blk_F", 1,
 				"bear_balaclava1_black", 1.5,
 				"CUP_RUS_Balaclava_blk", 1.5,
 				"CUP_PMC_Facewrap_Black", 1
@@ -83,7 +83,7 @@ else
 		[
 			"G_Balaclava_blk", 2,
 			"G_Bandanna_blk", 1,
-			"aegis_bala_light_blk", 1,
+			"G_Balaclava_light_blk_F", 1,
 			"bear_balaclava1_black", 1.5,
 			"CUP_RUS_Balaclava_blk", 1.5,
 			"CUP_PMC_Facewrap_Black", 1
@@ -103,8 +103,8 @@ if (random 1 > 0.2) then
 	private _misc = selectRandomWeighted 
 	[
 		"rhsusf_Rhino", 1,
-		"usm_nvg_kneepads_blk", 3,
-		"usm_nvg_rhinoarm", 1
+		"$NONE_usm_nvg_kneepads_blk$", 3,
+		"$NONE_usm_nvg_rhinoarm$", 1
 	];
 	
 	_this linkItem _misc;

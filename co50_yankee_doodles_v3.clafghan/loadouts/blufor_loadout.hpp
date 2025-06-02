@@ -48,8 +48,8 @@ class rm : baseMan
 	};
 	vest[] =
 	{
-		LIST_2("aegis_platecarrier_rig_ausmtp_arid"),
-		LIST_3("aegis_platecarrier_lite_ausmtp_arid")
+		LIST_2("V_PlateCarrier2_aucamo_ard_F"),
+		LIST_3("V_PlateCarrier1_aucamo_ard_F")
 	};
 	headgear[] =
 	{
@@ -57,11 +57,11 @@ class rm : baseMan
 	};
 	backpack[] =
 	{
-		"aegis_assaultpack_tan"
+		"B_AssaultPack_cbr"
 	};
 	primaryWeapon[] =
 	{
-		"aegis_weap_aur90_tan"
+		"arifle_AUG_F"
 	};
 	scope[] =
 	{
@@ -94,11 +94,11 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] =
 	{
-		"aegis_platecarrier_rig_ausmtp_arid"
+		"V_PlateCarrier2_aucamo_ard_F"
 	};
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	primaryWeapon[] =
 	{
@@ -130,7 +130,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] +=
 	{
@@ -160,7 +160,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] =
 	{
-		"aegis_weap_aur90_eglm_tan"
+		"arifle_AUG_GL_F"
 	};
 	backpackItems[] =
 	{
@@ -194,7 +194,7 @@ class sl : tl
 	};
 	primaryWeapon[] =
 	{
-		"aegis_weap_aur90_eglm_tan"
+		"arifle_AUG_GL_F"
 	};
 	sidearmWeapon[] =
 	{
@@ -237,7 +237,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] =
 	{
-		"aegis_weap_aur90_tan"
+		"arifle_AUG_F"
 	};
 	backpackItems[] =
 	{
@@ -275,7 +275,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] =
 	{
@@ -322,11 +322,11 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	vest[] =
 	{
-		"aegis_platecarrier_rig_ausmtp_arid"
+		"V_PlateCarrier2_aucamo_ard_F"
 	};
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	primaryWeapon[] =
 	{
@@ -364,7 +364,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	sidearmWeapon[] =
 	{
@@ -389,7 +389,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	sidearmWeapon[] =
 	{
@@ -415,7 +415,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	sidearmWeapon[] =
 	{
@@ -523,7 +523,7 @@ class eng : rm
 	traits[] = {"engineer","explosiveSpecialist"};
 	backpack[] =
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] =
 	{

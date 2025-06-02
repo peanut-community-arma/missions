@@ -60,8 +60,8 @@ class rm : baseMan
 	goggles[] = 
 	{
 		LIST_15(""),
-		LIST_2("aegis_cigarette"),
-		LIST_1("aegis_bandanna_kawaii"),
+		LIST_2("G_Cigarette"),
+		LIST_1("G_Bandanna_kawaii"),
 		LIST_1("G_Aviator")
 	};
 	uniform[] = 

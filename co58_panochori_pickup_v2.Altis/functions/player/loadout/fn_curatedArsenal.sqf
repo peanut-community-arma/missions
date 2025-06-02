@@ -31,9 +31,9 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"aegis_rcu_rs_shex",
-	"aegis_rcu_shex",
-	"aegis_csat_bdu_semi"
+	"Atlas_U_O_CombatFatigues_02_semiarid_F",
+	"Atlas_U_O_CombatFatigues_semiarid_F",
+	"Atlas_U_O_officer_noInsignia_semiarid_F"
 ];
 
 private _itemUniformCrew = 
@@ -73,19 +73,19 @@ private _itemVestCrew =
 
 private _itemVestPilot = 
 [
-	"aegis_smersh_cbr",
-	"aegis_smersh_radio_cbr",
+	"V_SmershVest_01_khaki_F",
+	"V_SmershVest_01_radio_khaki_F",
 	"V_Chestrig_khk"
 ];
 
 //Headgear 
 private _itemHeadgear = 
 [
-	"aegis_csat_aggressor_shex",
-	"aegis_mch_semi",
-	"aegis_lwh_shex",
-	"aegis_boonie_semi",
-	"aegis_patrolcap_shex"
+	"H_HelmetLuchnik_cover_semiarid_F",
+	"H_O_Helmet_canvas_semiarid",
+	"H_O_Helmet_canvas_semiarid",
+	"H_Booniehat_semiarid",
+	"H_MilCap_semiarid"
 ];
 
 private _itemHeadgearCrew = 
@@ -96,15 +96,15 @@ private _itemHeadgearCrew =
 private _itemHeadgearPilot = 
 [
 	"H_PilotHelmetHeli_O",
-	"aegis_helipilot_oli"
+	"H_PilotHelmetHeli_O_visor_up"
 ];
 
 //Backpack 
 private _itemBackpack = 
 [
-	"aegis_fieldpack_semi",
-	"aegis_assaultpack_tan",
-	"aegis_tacticalpack_tan"
+	"B_FieldPack_semiarid",
+	"B_AssaultPack_cbr",
+	"$NONE_aegis_tacticalpack_tan$"
 ];
 
 private _itemBackpackCrew = 
@@ -125,8 +125,8 @@ private _itemCosmetic =
 	//   =====  CORE - Balaclavas  =====  
 	"G_Balaclava_blk",
 	"G_Balaclava_oli",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"CUP_RUS_Balaclava_tan",
 	"CUP_G_RUS_Balaclava_Ratnik",
 	"CUP_G_RUS_Balaclava_Ratnik_v2",
@@ -154,18 +154,18 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_grn",
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh2_gogg_tan",
-	"usm_scarf",
+	"$REMOVE_usm_scarf$",
 	
 	//  =====  CORE - Non-covering scarfs, shemaghs  =====  
-	"aegis_shemag_cbr",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_red",
-	"usm_scarf2",
+	"$NONE_aegis_shemag_cbr$",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
+	"CUP_FR_NeckScarf5",
+	"$REMOVE_usm_scarf2$",
 	
 	//  =====  CORE - Goggles and glasses  =====  
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -181,9 +181,9 @@ private _itemCosmetic =
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
 	"G_Aviator",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_candyskull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_CandySkull",
 	"G_Spectacles",
 	"rhssaf_veil_Green",
 	"CUP_G_TK_RoundGlasses_blk",
@@ -192,11 +192,11 @@ private _itemCosmetic =
 	"G_Spectacles_Tinted",
 	
 	//  =====  Props  =====  
-	"aegis_cigarette",
+	"G_Cigarette",
 	"immersion_pops_pop0",
 	"immersion_cigs_cigar0",
-	"aegis_headset",
-	"usm_kneepads_blk",
+	"G_Headset_light",
+	"$NONE_usm_kneepads_blk$",
 	"sfp_peltor_comtac3",
 	
 	//  =====  Murshun cigpack and lighter  =====  
@@ -205,40 +205,40 @@ private _itemCosmetic =
 	"murshun_cigs_cigpack",
 	
 	//  =====  NVG Balaclavas  =====  
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
 	
 	//  =====  NVG Shemagh/Face shields  =====  
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_tan",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	
 	//  =====  NVG Goggles  =====  
-	"nvg_goggles_grn",
-	"pca_nvg_ess_blk",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
 	
 	//  =====  NVG Props  =====  	
 	"pca_nvg_cigarette",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"usm_nvg_kneepads_blk",
-	"usm_nvg_gigloves",
+	"$NONE_usm_nvg_kneepads_blk$",
+	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool"
 ];
 
@@ -310,8 +310,8 @@ private _itemAcc =
 	//Optic
 	"cup_optic_hensoldtzo_rds",
 	"cup_optic_hensoldtzo_rds_od",
-	"hlc_optic_hensoldtzo_rds",
-	"hlc_optic_hensoldtzo_rds_2d",
+	"$NONE_hlc_optic_hensoldtzo_rds$",
+	"$NONE_hlc_optic_hensoldtzo_rds_2d$",
 	"rhsusf_acc_eotech_552",
 	"rhsusf_acc_compm4",
 	
@@ -341,26 +341,26 @@ private _itemAcc =
 	"cup_acc_anpeq_15_black",
 	"cup_acc_anpeq_15",
 	"cup_acc_anpeq_15_top_flashlight_black_l",
-	"cup_acc_anpeq_15_top_flashlight_l",
+	"CUP_acc_ANPEQ_15_Top_Flashlight_Black_L",
 	"cup_acc_anpeq_15_flashlight_black_l",
-	"cup_acc_anpeq_15_flashlight_l",
+	"CUP_acc_ANPEQ_15_Flashlight_Black_L",
 	"cup_acc_anpeq_15_black_top",
-	"cup_acc_anpeq_15_top"
+	"CUP_acc_ANPEQ_15_Black_Top"
 ];
 
 private _itemWeapRifle = 
 [
-	"aegis_weap_g36k_65_blk"
+	"arifle_G36_F"
 ];
 
 private _itemWeapCarbine =
 [
-	"aegis_weap_g36c_65_blk"
+	"arifle_G36C_F"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"aegis_weap_g36k_gl_65_blk"
+	"arifle_G36_GL_F"
 ];
 
 private _itemWeapAR = 

@@ -131,10 +131,10 @@ private _itemCosmetic =
 "G_Squares_Tinted",
 "G_Squares",
 "G_Spectacles_Tinted",
-"aegis_bandanna_kawaii",
-"aegis_bandanna_shemag",
-"aegis_cigarette",
-"aegis_shades_yellow",
+"G_Bandanna_kawaii",
+"G_Bandanna_shemag",
+"G_Cigarette",
+"G_Shades_Yellowred",
 "CUP_RUS_Balaclava_blk",
 "CUP_Beard_Black",
 "CUP_Beard_Blonde",
@@ -147,8 +147,8 @@ private _itemCosmetic =
 "CUP_G_ESS_KHK",
 "CUP_G_TK_RoundGlasses_blk",
 "CUP_G_WristWatch",
-"usm_swdgoggles",
-"usm_scarf",
+"$REMOVE_usm_swdgoggles$",
+"$REMOVE_usm_scarf$",
 "milgp_f_face_shield_tan",
 "milgp_f_face_shield_goggles_tan",
 "milgp_f_face_shield_shades_tan",
@@ -179,28 +179,28 @@ private _itemCosmetic =
 "rhsusf_shemagh2_gogg_tan",
 
 //NVG slot
-"pca_nvg_ess_blk",
+"$NONE_pca_nvg_ess_blk$",
 "pca_nvg_cigarette",
-"pca_nvg_face_shield_tan",
-"pca_nvg_face_shield_rgr",
-"pca_nvg_shemagh_grn",
-"pca_nvg_shemagh2_grn",
-"pca_nvg_shemagh_od",
-"pca_nvg_shemagh2_od",
-"pca_nvg_shemagh_tan",
-"pca_nvg_shemagh2_tan",
-"pca_nvg_shemagh_white",
-"pca_nvg_shemagh2_white",
-"pca_nvg_oakley_goggles_blk",
-"pca_nvg_oakley_goggles_clr",
-"pca_nvg_oakley_goggles_ylw",
-"pca_nvg_tactical_goggles",
+"$NONE_pca_nvg_face_shield_tan$",
+"$NONE_pca_nvg_face_shield_rgr$",
+"$NONE_pca_nvg_shemagh_grn$",
+"$NONE_pca_nvg_shemagh2_grn$",
+"$NONE_pca_nvg_shemagh_od$",
+"$NONE_pca_nvg_shemagh2_od$",
+"$NONE_pca_nvg_shemagh_tan$",
+"$NONE_pca_nvg_shemagh2_tan$",
+"$NONE_pca_nvg_shemagh_white$",
+"$NONE_pca_nvg_shemagh2_white$",
+"$NONE_pca_nvg_oakley_goggles_blk$",
+"$NONE_pca_nvg_oakley_goggles_clr$",
+"$NONE_pca_nvg_oakley_goggles_ylw$",
+"$NONE_pca_nvg_tactical_goggles$",
 "murshun_cigs_cig0_nv",
 "immersion_pops_pop0_nv",
-"nvg_scrim_wdl",
-"nvg_scrim_wdl_grass",
-"nvg_scrim_wdl_leaves_3",
-"usm_nvg_scarf",
+"$NONE_nvg_scrim_wdl$",
+"$NONE_nvg_scrim_wdl_grass$",
+"$NONE_nvg_scrim_wdl_leaves_3$",
+"$NONE_usm_nvg_scarf$",
 
 //cigs
 	"murshun_cigs_matches",
@@ -292,19 +292,19 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_ak74",
-		"hlc_rifle_ak74_worn2",
-		"hlc_rifle_ak74_worn"
+	"CUP_arifle_AK74_Early",
+		"$NONE_hlc_rifle_ak74_worn2$",
+		"$NONE_hlc_rifle_ak74_worn$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_aks74_gp25"
+	"CUP_arifle_AKS74_GL_Early"
 ];
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_rpk74"
+	"CUP_arifle_RPK74_45"
 ];
 
 private _itemWeapLAT = 

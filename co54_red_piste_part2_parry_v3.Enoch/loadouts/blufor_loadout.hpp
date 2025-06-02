@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
@@ -167,7 +167,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	backpackItems[] = 
 	{
@@ -182,7 +182,7 @@ class rm_g3 : rm
 	displayName = "Rifleman - G3";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_g3ka4"
+		"$NONE_hlc_rifle_g3ka4$"
 	};
 	magazines[] = 
 	{
@@ -228,7 +228,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	sidearmWeapon[] = 
 	{
@@ -412,7 +412,7 @@ class mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf_no78"
+		"sp_fwa_m2_carlGustav_no78"
 	};
 	magazines[] += 
 	{
@@ -606,11 +606,11 @@ class dm : rm_g3
 	displayName = "Designated Marksman";
 	scope[] = 
 	{
-		"hlc_optic_hensoldtzo_low"
+		"$NONE_hlc_optic_hensoldtzo_low$"
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	backpackItems[] += {
 		LIST_2("hlc_20Rnd_762x51_T_G3")

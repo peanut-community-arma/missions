@@ -43,15 +43,15 @@ class rm : baseMan
 		LIST_1("U_BG_leader"),
 		LIST_1("rhsgref_uniform_TLA_1"),
 		LIST_1("rhsgref_uniform_TLA_2"),
-		LIST_1("aegis_guerilla_garb_m81"),
-		LIST_1("aegis_guerilla_jacket_m81"),
-		LIST_1("aegis_sweater_grn"),
-		LIST_1("aegis_guerilla_tshirt_m81"),
-		LIST_1("aegis_guerilla_tshirt_m81_alt"),
-		LIST_1("aegis_merc_polo_blu"),
-		LIST_1("aegis_merc_polo_camo"),
-		LIST_1("aegis_merc_polo_m81"),
-		LIST_1("aegis_merc_tshirt_blk")
+		LIST_1("Rev_U_B_FRR_Uniform_03_F"),
+		LIST_1("Atlas_U_UniformBDU_02_m81_F"),
+		LIST_1("Opf_U_O_S_Uniform_01_sweater_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_02_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_01_F"),
+		LIST_1("U_B_ION_Uniform_01_poloshirt_blue_F"),
+		LIST_1("U_B_ION_Uniform_01_poloshirt_wdl_F"),
+		LIST_1("U_B_ION_Uniform_01_poloshirt_wdl_F"),
+		LIST_1("U_B_ION_Uniform_01_tshirt_black_F")
 	};
 	vest[] = 
 	{
@@ -69,8 +69,8 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		LIST_1("wsx_tacticalpack_oli"),
-		LIST_1("aegis_tacticalpack_cbr"),
+		LIST_1("B_TacticalPack_oli"),
+		LIST_1("B_TacticalPack_khk"),
 		LIST_1("rhs_rk_sht_30_olive"),
 		LIST_1("rhssaf_kitbag_md2camo")
 	};

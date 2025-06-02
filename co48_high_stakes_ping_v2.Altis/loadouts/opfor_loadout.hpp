@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		LIST_4("aegis_modular_carrier_lite_blk"),
+		LIST_4("V_CarrierRigKBT_01_light_Black_F"),
 		"V_PlateCarrier1_blk"
 	};
 	headgear[] = 

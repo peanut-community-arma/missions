@@ -35,17 +35,17 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_combat_idpm"
+		"$NONE_wsx_uniform_combat_idpm$"
 	};
 	vest[] = 
 	{
-		"wsx_vest_combat_idpm"
+		"V_TacVest_camo"
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_combat_idpm",
-		"wsx_helmet_combat_idpm_ess_bare",
-		"wsx_helmet_combat_idpm_ess"
+		"$REVIEW_wsx_helmet_combat_idpm$",
+		"$REVIEW_wsx_helmet_combat_idpm_ess_bare$",
+		"$REVIEW_wsx_helmet_combat_idpm_ess$"
 	};
 	backpack[] = 
 	{
@@ -53,11 +53,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"sma_weap_auga3_oli"
+		"$NONE_sma_weap_auga3_oli$"
 	};
 	scope[] = 
 	{
-		LIST_3("rksl_optic_eot552x"),
+		LIST_3("$NONE_rksl_optic_eot552x$"),
 		"cup_optic_ac11704_black"
 		
 		
@@ -98,7 +98,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"wsx_vest_combat_idpm"
+		"V_TacVest_camo"
 	};
 	backpack[] = 
 	{
@@ -186,11 +186,11 @@ class tl : rm
 	displayName = "Team Leader";
 	vest[] = 
 	{
-		"wsx_vest_combat_idpm"
+		"V_TacVest_camo"
 	};
 	primaryWeapon[] =
 	{
-		"sma_weap_auga3_gl_oli"
+		"$NONE_sma_weap_auga3_gl_oli$"
 	};
 	sidearmWeapon[] =
 	{
@@ -198,9 +198,9 @@ class tl : rm
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_combat_idpm",
-		"wsx_helmet_combat_idpm_ess_bare",
-		"wsx_helmet_combat_idpm_ess"
+		"$REVIEW_wsx_helmet_combat_idpm$",
+		"$REVIEW_wsx_helmet_combat_idpm_ess_bare$",
+		"$REVIEW_wsx_helmet_combat_idpm_ess$"
 	};
 	items[] += 
 	{
@@ -227,7 +227,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	vest[] = 
 	{
-		"wsx_vest_combat_idpm"
+		"V_TacVest_camo"
 	};
 
 	
@@ -238,7 +238,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"sma_weap_auga3_oli"
+		"$NONE_sma_weap_auga3_oli$"
 	};
 	backpackItems[] =
 	{

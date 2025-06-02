@@ -2011,7 +2011,7 @@ class Mission
 							class primaryWeapon
 							{
 								name = "pca_weap_negev_ng5";
-								optics = "hlc_optic_hensoldtzo_rds";
+								optics = "$NONE_hlc_optic_hensoldtzo_rds$";
 								muzzle = "CUP_muzzle_snds_KZRZP_PK";
 								flashlight = "CUP_acc_ANPEQ_15_Black";
 								firemode = "pca_weap_negev_ng5:FullAuto";
@@ -2032,7 +2032,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_rs_shex";
+								typeName = "Atlas_U_O_CombatFatigues_02_semiarid_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -2109,7 +2109,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_tacticalpack_tan";
+								typeName = "$NONE_aegis_tacticalpack_tan$";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -2125,7 +2125,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_csat_aggressor_shex";
+							headgear = "H_HelmetLuchnik_cover_semiarid_F";
 						};
 					};
 					id = 14;
@@ -2247,8 +2247,8 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "aegis_weap_sa80_blk";
-								optics = "hlc_optic_hensoldtzo_rds_2d";
+								name = "arifle_SA80_blk_F";
+								optics = "$NONE_hlc_optic_hensoldtzo_rds_2d$";
 								firemode = "aegis_weap_sa80_blk:Single";
 							};
 							class binocular
@@ -2472,8 +2472,8 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "aegis_weap_sa80_blk";
-								optics = "hlc_optic_hensoldtzo_rds";
+								name = "arifle_SA80_blk_F";
+								optics = "$NONE_hlc_optic_hensoldtzo_rds$";
 								firemode = "aegis_weap_sa80_blk:Single";
 								class primaryMuzzleMag
 								{
@@ -13191,7 +13191,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36k_65_blk";
+																					value = "arifle_G36_F";
 																				};
 																			};
 																			class Item1
@@ -13299,7 +13299,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_hensoldtzo_rds";
+																					value = "$NONE_hlc_optic_hensoldtzo_rds$";
 																				};
 																			};
 																			class Item1
@@ -13542,7 +13542,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36k_gl_65_blk";
+																					value = "arifle_G36_GL_F";
 																				};
 																			};
 																			class Item1
@@ -13785,7 +13785,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36c_65_blk";
+																					value = "arifle_G36C_F";
 																				};
 																			};
 																			class Item1

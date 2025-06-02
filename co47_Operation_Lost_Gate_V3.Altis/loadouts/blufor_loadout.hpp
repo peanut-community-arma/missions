@@ -44,11 +44,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rbd_od"
+		"Atlas_U_O_Afghanka_01_grn_F"
 	};
 	vest[] = 
 	{
-		"aegis_condor_carrier_heavy_cbr"
+		"V_CarrierRigKBT_01_heavy_Khaki_F"
 	};
 	headgear[] = 
 	{
@@ -64,7 +64,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552_c"
+		"$NONE_rksl_optic_eot552_c$"
 	};
 	bipod[] = 
 	{

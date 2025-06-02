@@ -45,7 +45,7 @@ class baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_specter_cover_un"
+		"H_HelmetSpecter_cover_UNO_F"
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -99,7 +99,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] =
 	{
@@ -139,7 +139,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk12"
+		"Aegis_arifle_RPK12_545_F"
 	};
 	bipod[] =
 	{
@@ -179,7 +179,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	secondaryWeapon[] = 
 	{
@@ -205,7 +205,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	bipod[] =
 	{
@@ -264,7 +264,7 @@ class rm_fa : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};	
 	backpackItems[] =
 	{

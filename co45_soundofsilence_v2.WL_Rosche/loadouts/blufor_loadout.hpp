@@ -62,12 +62,12 @@ class rm : baseMan
 	};
 	hmd[] = {
 		"",
-		"nvg_scrim_wdl",
-		"nvg_scrim_wdl_grass",
-		"nvg_scrim_wdl_leaves_1",
-		"nvg_scrim_wdl_leaves_2",
-		"nvg_scrim_wdl_leaves_3",
-		"nvg_scrim_wdl_pine"
+		"$NONE_nvg_scrim_wdl$",
+		"$NONE_nvg_scrim_wdl_grass$",
+		"$NONE_nvg_scrim_wdl_leaves_1$",
+		"$NONE_nvg_scrim_wdl_leaves_2$",
+		"$NONE_nvg_scrim_wdl_leaves_3$",
+		"$NONE_nvg_scrim_wdl_pine$"
 	};
 	backpack[] =
 	{
@@ -76,10 +76,10 @@ class rm : baseMan
 	};
 	primaryWeapon[] =
 	{
-		"fwa_weap_colt_603_m16a1"
+		"sp_fwa_ar15_603_m16a1"
 	};
 	silencer[] = {
-		"fwa_acc_sionics_maw"
+		"$NONE_fwa_acc_sionics_maw$"
 	};
 	secondaryWeapon[] =
 	{
@@ -173,7 +173,7 @@ class gren : rm
 	};
 	primaryWeapon[] =
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"sp_fwa_ar15_603_m16a1_m203"
 	};
 	secondaryWeapon[] =
 	{
@@ -211,7 +211,7 @@ class tl : rm
 	hmd[] = {};
 	primaryWeapon[] =
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"sp_fwa_ar15_603_m16a1_m203"
 	};
 	magazines[] =
 	{
@@ -372,7 +372,7 @@ class mat : rm
 	};
 	secondaryWeapon[] =
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	magazines[] +=
 	{

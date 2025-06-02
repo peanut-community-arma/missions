@@ -12912,7 +12912,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_sf3p";
+																					value = "$NONE_hlc_muzzle_sf3p$";
 																				};
 																			};
 																			class Item1
@@ -13497,7 +13497,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_sf3p";
+																					value = "$NONE_hlc_muzzle_sf3p$";
 																				};
 																			};
 																			class Item1
@@ -15308,7 +15308,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_sf3p";
+																					value = "$NONE_hlc_muzzle_sf3p$";
 																				};
 																			};
 																			class Item1

@@ -106,7 +106,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	

@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 	headgear[] = 
 	{
@@ -135,7 +135,7 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		//"aegis_weap_rpg32_blk"
+		//"launch_RPG32_black_F"
 	};
 	backpackItems[] = 
 	{

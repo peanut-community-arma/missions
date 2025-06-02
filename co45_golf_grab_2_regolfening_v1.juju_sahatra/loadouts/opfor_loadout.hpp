@@ -85,9 +85,9 @@ class rm : baseMan
 	hmd[] =
 	{
 		LIST_4(""),
-		"pca_nvg_shemagh_mesh_white",
+		"$NONE_pca_nvg_shemagh_mesh_white$",
 		"pca_nvg_shemagh_lowered_oli",
-		"nvg_scrim_wdl",
+		"$NONE_nvg_scrim_wdl$",
 		"CUP_NVG_PVS15_tan"
 	};
 	backpack[] = 
@@ -99,8 +99,8 @@ class rm : baseMan
 	{
 		"CUP_arifle_HK416_CQB_Black",
 		"rhs_weap_m27iar",
-		"sma_weap_masada_blk",
-		"hlc_rifle_scarl_std",
+		"$NONE_sma_weap_masada_blk$",
+		"$NONE_hlc_rifle_scarl_std$",
 		"rhs_weap_m4a1_blockII"
 	};
 	attachment[] =
@@ -110,8 +110,8 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"sma_acc_vortex_blk",
-		"sma_acc_eotech_552_g33_blk",
+		"$NONE_sma_acc_vortex_blk$",
+		"$NONE_sma_acc_eotech_552_g33_blk$",
 		"cup_optic_holoblack",
 		"cup_optic_compm4"
 	};
@@ -135,7 +135,7 @@ class ar : rm
 	{
 		"CUP_arifle_ACR_blk_556",
 		"CUP_arifle_HK416_Black",
-		"hlc_rifle_scarl_std"
+		"$NONE_hlc_rifle_scarl_std$"
 	};
 	bipod[] =
 	{
@@ -143,13 +143,13 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	sidearmAttachments[] = 
 	{
-		"hlc_optic_romeov",
-		"hlc_acc_dbalpl_fl",
-		"hlc_muzzle_octane45"
+		"$NONE_hlc_optic_romeov$",
+		"$NONE_hlc_acc_dbalpl_fl$",
+		"$NONE_hlc_muzzle_octane45$"
 	};
 	magazines[] = 
 	{
@@ -203,7 +203,7 @@ class dmr : rm
 	displayName = "aMeRiCaN sNiPeR";
 	uniform[] =
 	{
-		"aegis_full_ghillie_wdl"
+		"U_B_W_FullGhillie_wdl_F"
 	};
 	primaryWeapon[] = 
 	{
@@ -211,17 +211,17 @@ class dmr : rm
 	};
 	scope[] =
 	{
-		"hlc_optic_leupoldm3a"
+		"$NONE_hlc_optic_leupoldm3a$"
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	sidearmAttachments[] = 
 	{
-		"hlc_optic_romeov",
-		"hlc_acc_dbalpl_fl",
-		"hlc_muzzle_octane45"
+		"$NONE_hlc_optic_romeov$",
+		"$NONE_hlc_acc_dbalpl_fl$",
+		"$NONE_hlc_muzzle_octane45$"
 	};
 	magazines[] = 
 	{
@@ -267,7 +267,7 @@ class rm_lat : rm
 	};
 	secondaryWeapon[] =
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpack[] =
 	{
@@ -367,7 +367,7 @@ class vip : rm
 	};
 	scope[] =
 	{
-		"sma_acc_eotech_552_g33_blk"
+		"$NONE_sma_acc_eotech_552_g33_blk$"
 	};
 	bipod[] =
 	{
@@ -379,7 +379,7 @@ class vip : rm
 	};
 	silencer[] =
 	{
-		"sma_silencer_kac_nt4_tan_hwt"
+		"$NONE_sma_silencer_kac_nt4_tan_hwt$"
 	};
 	magazines[] =
 	{

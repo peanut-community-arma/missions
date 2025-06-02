@@ -101,7 +101,7 @@ class rm : baseMan
 	};
 	goggles[] = {
 		LIST_10(""),
-		"aegis_bandanna_kawaii",
+		"G_Bandanna_kawaii",
 		"G_Bandanna_aviator",
 		"G_Bandanna_beast",
 		"G_Bandanna_blk",
@@ -121,13 +121,13 @@ class rm : baseMan
 		"G_Bandanna_Vampire_01",
 		"G_Bandanna_Syndikat2",
 		"G_Lowprofile",
-		"aegis_cigarette",
+		"G_Cigarette",
 		"murshun_cigs_cig0",
-		"aegis_shemag_shades_oli",
-		"aegis_shemag_shades_cbr",
-		"aegis_shemag_shades_khk",
-		"aegis_shemag_shades_red",
-		"aegis_shemag_shades_tan"
+		"$NONE_aegis_shemag_shades_oli$",
+		"G_Shemag_shades",
+		"$NONE_aegis_shemag_shades_khk$",
+		"$NONE_aegis_shemag_shades_red$",
+		"$NONE_aegis_shemag_shades_tan$"
 
 	};
 	primaryWeapon[] =

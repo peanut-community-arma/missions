@@ -55,7 +55,7 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_enh_mtp"
+		"B_AssaultPackSpec_mcamo"
 	};
 	primaryWeapon[] = 
 	{

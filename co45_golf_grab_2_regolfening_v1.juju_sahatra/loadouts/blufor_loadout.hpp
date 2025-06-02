@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"TC_U_aegis_guerilla_tshirt_m81_sudan"
+		"$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$"
 	};
 	vest[] = 
 	{
@@ -438,7 +438,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5a3"
+		"$NONE_hlc_smg_mp5a3$"
 	};
 	vest[] = 
 	{

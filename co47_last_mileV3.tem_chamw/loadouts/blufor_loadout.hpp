@@ -12,10 +12,10 @@ class baseMan
 	backpack[] = {};
 	headgear[] = 
 	{
-		"TC_Helmet_Hat_NavySeer",
-		"TC_Helmet_Hat_NavySeer_1_Black",
-		"TC_Helmet_Hat_WitchCop_1_Black",
-		"TC_Helmet_Hat_WitchCop"
+		"$NONE_TC_Helmet_Hat_NavySeer$",
+		"$NONE_TC_Helmet_Hat_NavySeer_1_Black$",
+		"$NONE_TC_Helmet_Hat_WitchCop_1_Black$",
+		"$NONE_TC_Helmet_Hat_WitchCop$"
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -63,8 +63,8 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc",
-		"hlc_rifle_scarl_cqc_tan"
+		"$NONE_hlc_rifle_scarl_cqc$",
+		"$NONE_hlc_rifle_scarl_cqc_tan$"
 	};
 	scope[] = 
 	{
@@ -147,8 +147,8 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_eglm",
-		"hlc_rifle_scarl_cqc_eglm_tan"
+		"$NONE_hlc_rifle_scarl_cqc_eglm$",
+		"$NONE_hlc_rifle_scarl_cqc_eglm_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -200,8 +200,8 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc",
-		"hlc_rifle_scarl_cqc_tan"
+		"$NONE_hlc_rifle_scarl_cqc$",
+		"$NONE_hlc_rifle_scarl_cqc_tan$"
 	};
 };
 

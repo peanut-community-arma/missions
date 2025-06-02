@@ -129,8 +129,8 @@ class sl : tl
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_magpul556_blk",
-		"hlc_rifle_magpul556"
+		"$NONE_hlc_rifle_magpul556_blk$",
+		"$NONE_hlc_rifle_magpul556$"
 	};
 	scope[] =
 	{
@@ -179,7 +179,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"wsx_tacticalpack_blk"
+		"B_TacticalPack_blk"
 	};
 	backpackItems[] =
 	{
@@ -273,7 +273,7 @@ class prd : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"XZ_CamRecorder_1"
+		"$NONE_XZ_CamRecorder_1$"
 	};
 	linkedItems[] +=
 	{
@@ -310,7 +310,7 @@ class prd_tl : prd
 	displayName = "Production Lead";
 	backpack[] =
 	{
-		"wsx_tacticalpack_blk"
+		"B_TacticalPack_blk"
 	};
 	backpackItems[] = 
 	{

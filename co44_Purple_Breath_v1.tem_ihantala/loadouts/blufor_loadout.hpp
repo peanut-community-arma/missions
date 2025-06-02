@@ -95,7 +95,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_bren_l4"
+		"sp_fwa_bren_l4_lmg"
 	};
 	bipod[] = 
 	{

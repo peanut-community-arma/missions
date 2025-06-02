@@ -84,9 +84,9 @@ class tl : rm
 	displayName = "Group Leader";
 	uniform[] = 
 	{
-		"TC_U_aegis_guerilla_tshirt_m81_sudan",
-		"aegis_guerilla_tshirt_m81",
-		"aegis_guerilla_garb_m81"
+		"$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$",
+		"Rev_U_B_FRR_Uniform_02_F",
+		"Rev_U_B_FRR_Uniform_03_F"
 	};
 	vest[] = 
 	{
@@ -124,7 +124,7 @@ class sl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_bcm_jack300"
+		"$NONE_hlc_rifle_bcm_jack300$"
 	};
 	scope[] = 
 	{
@@ -177,7 +177,7 @@ class rm_fa : rm
 	};
 	backpack[] = 
 	{
-		"usm_pack_m5_medic"
+		"B_simc_pack_med_m5"
 	};
 	backpackItems[] =
 	{

@@ -96,17 +96,17 @@ class rm : baseMan
 	primaryWeapon[] =
 	{
 		LIST_3("rhs_weap_m4a1"),
-		"sma_weap_masada",
-		"sma_weap_tavor_od",
+		"$NONE_sma_weap_masada$",
+		"$NONE_sma_weap_tavor_od$",
 		"rhs_weap_hk416d145",
-		"hlc_rifle_scarl_std_camo"
+		"$NONE_hlc_rifle_scarl_std_camo$"
 	};
 	scope[] =
 	{
 		"rhsusf_acc_compm4",
 		"ptv_acc_eot552",
 		"ptv_acc_t1",
-		"sma_acc_micro_t2",
+		"$NONE_sma_acc_micro_t2$",
 		"cup_optic_vortexrazor_uh1_black"
 	};
 	magazines[] =
@@ -141,8 +141,8 @@ class hr : rm
 	displayName = "Heavy Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_g3ka4",
-		"hlc_rifle_g3a3_modern_ris"
+		"$NONE_hlc_rifle_g3ka4$",
+		"CUP_arifle_G3A3_modern_ris"
 	};
 	magazines[] =
 	{
@@ -165,14 +165,14 @@ class mm : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_samr"
+		"$NONE_hlc_rifle_samr$"
 	};
 	scope[] = {
 		"cup_optic_sb_11_4x20_pm"
 	};
 	bipod[] =
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	magazines[] =
 	{
@@ -190,7 +190,7 @@ class sniper : mm
 		"rhs_weap_M107"
 	};
 	scope[] = {
-		"hlc_optic_zf95"
+		"$NONE_hlc_optic_zf95$"
 	};
 	bipod[] = {};
 	magazines[] =

@@ -75,7 +75,7 @@ class rm : baseMan
 	backpack[] = 
 	{
 		"pca_umbts_flora",
-		"wsx_umbts_emr"
+		"rhs_rk_sht_30_emr"
 	};
 	primaryWeapon[] = 
 	{

@@ -248,7 +248,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] +=
 	{
@@ -292,7 +292,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -327,7 +327,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] = 
 	{
@@ -344,7 +344,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	secondaryWeapon[] = 
 	{
@@ -361,7 +361,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] = 
 	{
@@ -379,7 +379,7 @@ class hat : rm
 	displayName = "Heavy Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	secondaryWeapon[] = 
 	{
@@ -396,7 +396,7 @@ class ahat : rm
 	displayName = "Assistant Heavy Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] = 
 	{

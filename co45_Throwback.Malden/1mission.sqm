@@ -18301,7 +18301,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_acr_iar_blk";
+																			value = "$NONE_hlc_rifle_acr_iar_blk$";
 																		};
 																	};
 																	class Item1
@@ -18598,7 +18598,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_acr_iar_m203_blk";
+																			value = "$NONE_hlc_rifle_acr_iar_m203_blk$";
 																		};
 																	};
 																	class Item1

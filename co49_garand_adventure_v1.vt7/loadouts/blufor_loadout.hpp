@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1_garand"
+		"sp_fwa_m1_garand"
 	};
 	scope[] = 
 	{
@@ -101,7 +101,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m1941_308"
+		"$NONE_hlc_rifle_m1941_308$"
 	};
 	bipod[] = 
 	{

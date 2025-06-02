@@ -35,19 +35,19 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_combat_m05w"
+		"$NONE_wsx_uniform_combat_m05w$"
 	};
 	vest[] = 
 	{
-		"wsx_combat_vest_6sh116_sge"
+		"rhs_6b23_6sh116_od"
 	};
 	headgear[] = 
 	{
-		"aegis_mch_m05"
+		"$NONE_aegis_mch_m05$"
 	};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_rgr"
+		"B_TacticalPack_rgr"
 	};
 	primaryWeapon[] = 
 	{
@@ -55,7 +55,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"sma_acc_vortex_rds_blk"
+		"$NONE_sma_acc_vortex_rds_blk$"
 	};
 	items[] =
 	{

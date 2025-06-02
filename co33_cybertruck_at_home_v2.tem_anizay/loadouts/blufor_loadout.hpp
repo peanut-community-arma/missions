@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"TC_U_aegis_guerilla_garb_m81_sudan"
+		"$NONE_TC_U_aegis_guerilla_garb_m81_sudan$"
 	};
 	vest[] = 
 	{
@@ -62,7 +62,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
@@ -564,7 +564,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m1903a1_sniper"
+		"sp_fwa_m1903a1_unertl"
 	};
 	attachment[] = {};
 	magazines[] = 

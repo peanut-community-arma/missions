@@ -215,8 +215,8 @@ class sf : rm
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_pasgt_3cd",
-		"wsx_helmet_combat_3cd_ess"
+		"CUP_H_PASGTv2_DCU",
+		"$REMOVE_wsx_helmet_combat_3cd_ess$"
 	};
 	goggles[] +=
 	{

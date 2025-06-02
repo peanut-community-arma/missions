@@ -45,18 +45,18 @@ private _itemUniform =
 //Vest
 private _itemVest = 
 [
-	"wsx_mbav_rifleman_blk",
-	"wsx_mbav_light_blk",
-	"wsx_mbav_mg_blk",
-	"wsx_mbav_medic_blk",
-	"wsx_mbav_grenadier_blk"
+	"usp_eagle_mbav_mcb",
+	"usp_eagle_mbav_mcb",
+	"usp_eagle_mbav_mcb",
+	"usp_eagle_mbav_mcb",
+	"usp_eagle_mbav_mcb"
 ];
 
 //Headgear 
 private _itemHeadgear = 
 [
-	"TC_Helmet_Hat_NavySeer",
-	"TC_Helmet_Hat_WitchCop"
+	"$NONE_TC_Helmet_Hat_NavySeer$",
+	"$NONE_TC_Helmet_Hat_WitchCop$"
 ];
 
 //Backpack 
@@ -75,7 +75,7 @@ private _itemCosmetic =
 	"G_Balaclava_Flames1",
 	"G_Balaclava_BlueStrips",
 	"G_Balaclava_Scarecrow_01",
-	"aegis_bala_skull",
+	"G_Balaclava_Skull1",
 	"rhs_googles_black",
 	"rhs_googles_clear",
 	"rhs_googles_orange",
@@ -86,23 +86,23 @@ private _itemCosmetic =
 	"G_Bandanna_blk",
 	"G_Bandanna_BlueFlame1",
 	"G_Bandanna_BlueFlame2",
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_inferno",
-	"aegis_bandanna_innerfire",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_RedFlame1",
+	"G_Bandanna_RedFlame2",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_shades",
 	"G_Bandanna_Skull2",
 	"G_Bandanna_sport",
-	"aegis_bandanna_syndikat",
+	"G_Bandanna_Syndikat1",
 	"G_Bandanna_Vampire_01",
 	"CUP_Beard_Black",
 	"CUP_Beard_Blonde",
 	"CUP_Beard_Brown",
 	"immersion_cigs_cigar0",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -149,15 +149,15 @@ private _itemCosmetic =
 	"CUP_G_TK_RoundGlasses_gold",
 	"CUP_G_Beard_Shades_Black",
 	"CUP_G_Beard_Shades_Blonde",
-	"aegis_shemag_cbr",
-	"aegis_shemag_shades_cbr",
-	"aegis_shemag_tactical_cbr",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
+	"$NONE_aegis_shemag_cbr$",
+	"G_Shemag_shades",
+	"$NONE_aegis_shemag_tactical_cbr$",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
 	"rhsusf_shemagh_od",
 	"rhsusf_shemagh2_od",
 	"rhsusf_shemagh_tan",
@@ -174,30 +174,30 @@ private _itemCosmetic =
 	"G_Squares",
 	"G_Tactical_Clear",
 	"milgp_f_tactical_khk",
-	"aegis_tactical_yellow",
+	"G_Tactical_Yellow",
 	"G_Spectacles_Tinted",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
 	"immersion_cigs_cigar0_nv",
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_cb",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_face_shield_shemagh_cb",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_cb$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_cb$",
 	"immersion_pops_pop0_nv",
 	"TC_NVG_NitrileGloves_1",
 	"TC_G_NitrileGloves_1",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_tan",
 	"pca_nvg_shemagh_lowered_white",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_goggles"
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_goggles$"
 ];
 
 //********************************************************************************//
@@ -278,20 +278,20 @@ private _itemAcc =
 	
 	//Tactical Device
 	"pca_flashlight_sf",
-	"hlc_muzzle_fn_oem556"
+	"$NONE_hlc_muzzle_fn_oem556$"
 ];
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m4a1",
-	"hlc_rifle_m4a1_carryhandle",
-	"hlc_rifle_m4a1_hk"
+	"CUP_arifle_M4A1_black",
+	"CUP_arifle_M4A1",
+	"$NONE_hlc_rifle_m4a1_hk$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m4a1_m203",
-	"hlc_rifle_m4a1_m203_hk"
+	"CUP_arifle_M4A1_BUIS_GL",
+	"$NONE_hlc_rifle_m4a1_m203_hk$"
 ];
 
 private _itemWeapShot = 

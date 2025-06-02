@@ -72,7 +72,7 @@ class rm : baseMan
 	};
 	attachment[] = 
 	{
-		LIST_4("pca_flashlight_m952v_wide"),
+		LIST_4("ACE_Flashlight_Maglite_ML300L"),
 		LIST_6("")
 	};
 	magazines[] = 
@@ -112,7 +112,7 @@ class rm_lat : rm
 	};
 	attachment[] = 
 	{
-		LIST_4("pca_flashlight_m952v_wide"),
+		LIST_4("ACE_Flashlight_Maglite_ML300L"),
 		LIST_6("")
 	};
 	magazines[] = 
@@ -148,7 +148,7 @@ class mg : rm
 	};
 	vest[] = 
 	{
-		"wsx_vest_combat_greek_lizard"
+		"pca_otv_greek_lizard"
 	};
 	primaryWeapon[] = 
 	{
@@ -175,7 +175,7 @@ class rm_mat : rm
 	};
 	vest[] = 
 	{
-		"wsx_vest_combat_greek_lizard"
+		"pca_otv_greek_lizard"
 	};
 	backpack[] = 
 	{
@@ -206,7 +206,7 @@ class engineer : rm
 	};
 	vest[] = 
 	{
-		"wsx_vest_combat_greek_lizard"
+		"pca_otv_greek_lizard"
 	};
 	primaryWeapon[] = 
 	{

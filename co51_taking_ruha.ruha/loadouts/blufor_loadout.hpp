@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
@@ -154,7 +154,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	backpackItems[] = 
 	{
@@ -169,7 +169,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	vest[] = 
 	{
@@ -276,7 +276,7 @@ class crew : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36c"
+		"CUP_arifle_G36C"
 	};
 	magazines[] = 
 	{

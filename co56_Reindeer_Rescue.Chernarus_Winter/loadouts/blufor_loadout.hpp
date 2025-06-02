@@ -69,8 +69,8 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_blk",
-		"hlc_rifle_acr_car_blk"
+		"$NONE_hlc_rifle_acr_iar_blk$",
+		"CUP_arifle_ACRC_blk_68"
 	};
 	scope[] = 
 	{
@@ -174,7 +174,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] += 
 	{
@@ -188,7 +188,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] =
 	{
@@ -317,7 +317,7 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_sbr_blk"
+		"$NONE_hlc_rifle_acr_sbr_blk$"
 	};
 	sidearmWeapon[] = 
 	{

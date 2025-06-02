@@ -4625,7 +4625,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_hk53_ris";
+								name = "$NONE_hlc_rifle_hk53_ris$";
 								optics = "rhsusf_acc_mrds";
 								flashlight = "rhsusf_acc_anpeq15side_bk";
 								firemode = "hlc_rifle_hk53_ris:Single";
@@ -22578,7 +22578,7 @@ class Mission
 											};
 											class vest
 											{
-												typeName = "aegis_modular_carrier_heavy_latpat";
+												typeName = "$NONE_aegis_modular_carrier_heavy_latpat$";
 												isBackpack = 0;
 												class MagazineCargo
 												{

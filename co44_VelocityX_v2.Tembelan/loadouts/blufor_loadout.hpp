@@ -121,7 +121,7 @@ class ar : rm
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_tan"
+		"B_AssaultPack_cbr"
 	};
 	primaryWeapon[] = 
 	{
@@ -182,7 +182,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_vs121_blk"
+		"srifle_DMR_01_black_F"
 	};
 	scope[] = 
 	{
@@ -190,7 +190,7 @@ class rm_lat : rm
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -209,7 +209,7 @@ class rm_lat : rm
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_tan"
+		"B_AssaultPack_cbr"
 	};
 	secondaryWeapon[] = 
 	{
@@ -230,7 +230,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_std_eglm"
+		"$NONE_hlc_rifle_scarl_std_eglm$"
 	};
 	backpackItems[] = 
 	{
@@ -450,7 +450,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_grn"
+		"B_Kitbag_rgr"
 	};
 	primaryWeapon[] = 
 	{
@@ -484,7 +484,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_grn"
+		"B_Kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
@@ -509,7 +509,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_grn"
+		"B_Kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
@@ -538,7 +538,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_grn"
+		"B_Kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
@@ -816,7 +816,7 @@ class aa : rm
 	displayName = "Missile Specialist (AA)";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_grn"
+		"B_Kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
@@ -841,7 +841,7 @@ class aaa : rm
 	displayName = "Assistant Missile Specialist (AA)";
 	backpack[] = 
 	{
-		"aegis_virtus_kitbag_grn"
+		"B_Kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{

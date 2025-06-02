@@ -104,7 +104,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] =
 	{
-		"fwa_weap_bren_l4"
+		"sp_fwa_bren_l4_lmg"
 	};
 	goggles[] =
 	{
@@ -123,7 +123,7 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sterling_mk4"
+		"sp_fwa_smg_sterling"
 	};
 	magazines[] = 
 	{

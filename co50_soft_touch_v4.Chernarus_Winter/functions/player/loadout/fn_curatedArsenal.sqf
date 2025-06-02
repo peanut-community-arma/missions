@@ -94,7 +94,7 @@ private _itemHeadgear =
 	"pca_opscore_cover_ct_cm_mcalp",
 	"usp_opscore_mt_cover_ctg_mcalp",
 	//Not helmets
-	"aegis_cap_headphones_gry",
+	"H_Cap_headphones_gry",
 	"milgp_h_cap_01_goggles_mc",
 	"milgp_h_cap_02_mc",
 	"milgp_h_cap_02_goggles_gry"
@@ -149,30 +149,30 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_white",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh_white",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	
 	//OPTIONAL - Alpine, NVG slot
 	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool_gry",
 	"pca_nvg_gloves_wool_grn",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
-	"nvg_scrim_snow",
-	"nvg_scrim_snow_pine",
-	"pca_nvg_shemagh_white",
-	"pca_nvg_shemagh2_white",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
+	"$NONE_nvg_scrim_snow$",
+	"$NONE_nvg_scrim_snow_pine$",
+	"$NONE_pca_nvg_shemagh_white$",
+	"$NONE_pca_nvg_shemagh2_white$",
 	
 	//  =====  Non-covering scarfs, shemaghs  =====  
-	"aegis_shemagh_mesh_white",
-	"aegis_shemagh_loop_white",
-	"aegis_shemag_white",
-	"aegis_shemag_tactical_white",
-	"usm_scarf2",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"$REMOVE_usm_scarf2$",
 	
 	//  =====  CORE - Goggles and glasses  =====  
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -188,9 +188,9 @@ private _itemCosmetic =
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
 	"G_Aviator",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_candyskull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_CandySkull",
 	"G_Spectacles",
 	"rhssaf_veil_Green",
 	"CUP_G_TK_RoundGlasses_blk",
@@ -199,11 +199,11 @@ private _itemCosmetic =
 	"G_Spectacles_Tinted",
 	
 	//  =====  Props  =====  
-	"aegis_cigarette",
+	"G_Cigarette",
 	"immersion_pops_pop0",
 	"immersion_cigs_cigar0",
-	"aegis_headset",
-	"usm_kneepads_blk",
+	"G_Headset_light",
+	"$NONE_usm_kneepads_blk$",
 	"sfp_peltor_comtac3",
 	
 	//  =====  Murshun cigpack and lighter  =====  
@@ -212,31 +212,31 @@ private _itemCosmetic =
 	"murshun_cigs_cigpack",
 	
 	//  =====  NVG Balaclavas  =====  
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
 	
 	//  =====  NVG Shemagh/Face shields  =====  
-	"pca_nvg_shemagh_white",
-	"pca_nvg_shemagh2_white",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_pca_nvg_shemagh_white$",
+	"$NONE_pca_nvg_shemagh2_white$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	
 	//  =====  NVG Goggles  =====  
-	"nvg_goggles_grn",
-	"pca_nvg_ess_blk",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
 	
 	//  =====  NVG Props  =====  	
 	"pca_nvg_cigarette",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"usm_nvg_kneepads_blk",
-	"usm_nvg_gigloves",
+	"$NONE_usm_nvg_kneepads_blk$",
+	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool"
 ];
 
@@ -355,7 +355,7 @@ private _itemWeapCarbine =
 [
 	"CUP_arifle_AKS74U_top_rail",
 	"CUP_arifle_AKS74U_railed",
-	"hlc_rifle_aks74u"
+	"CUP_arifle_AKS74U"
 ];
 
 private _itemWeapRifleUGL = 
@@ -367,7 +367,7 @@ private _itemWeapRifleUGL =
 private _itemWeapAR = 
 [
 	"CUP_arifle_RPK74M",
-	"hlc_rifle_rpk74",
+	"CUP_arifle_RPK74_45",
 	"rhs_weap_rpk74m_npz",
 	"CUP_arifle_RPK74M_top_rail"
 ];

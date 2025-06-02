@@ -1442,7 +1442,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_magpul556";
+								name = "$NONE_hlc_rifle_magpul556$";
 								optics = "optic_DMS";
 								firemode = "hlc_rifle_magpul556:Single";
 								class primaryMuzzleMag
@@ -1466,7 +1466,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -2054,7 +2054,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_scarl_std_eglm";
+								name = "$NONE_hlc_rifle_scarl_std_eglm$";
 								optics = "optic_DMS";
 								firemode = "hlc_rifle_scarl_std_eglm:Single";
 								class primaryMuzzleMag
@@ -2083,7 +2083,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -4796,7 +4796,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -8076,9 +8076,9 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_scarl_std_srx";
+								name = "$NONE_hlc_rifle_scarl_std_srx$";
 								optics = "CUP_optic_SB_11_4x20_PM";
-								muzzle = "hlc_muzzle_fn_oem";
+								muzzle = "$NONE_hlc_muzzle_fn_oem$";
 								firemode = "hlc_rifle_scarl_std_srx:Single";
 								class primaryMuzzleMag
 								{
@@ -8097,7 +8097,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -8163,7 +8163,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_assaultpack_enh_rgr";
+								typeName = "B_AssaultPackSpec_rgr";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -8800,7 +8800,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_bcm_jack";
+								name = "$NONE_hlc_rifle_bcm_jack$";
 								optics = "optic_DMS";
 								firemode = "hlc_rifle_bcm_jack:Single";
 								class primaryMuzzleMag
@@ -8829,7 +8829,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -8906,7 +8906,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_virtus_kitbag_grn";
+								typeName = "B_Kitbag_rgr";
 								isBackpack = 1;
 							};
 							map = "ItemMap";
@@ -186461,7 +186461,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_scarl_std_srx";
+																			value = "$NONE_hlc_rifle_scarl_std_srx$";
 																		};
 																	};
 																	class Item1
@@ -186731,7 +186731,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_optic_hensoldtzo_rds";
+																			value = "$NONE_hlc_optic_hensoldtzo_rds$";
 																		};
 																	};
 																	class Item1
@@ -186866,7 +186866,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_scarl_std_eglm";
+																			value = "$NONE_hlc_rifle_scarl_std_eglm$";
 																		};
 																	};
 																	class Item1
@@ -186920,7 +186920,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_magpul556";
+																			value = "$NONE_hlc_rifle_magpul556$";
 																		};
 																	};
 																	class Item1

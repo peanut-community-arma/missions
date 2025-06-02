@@ -6869,7 +6869,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_auga2_para";
+								name = "$NONE_hlc_rifle_auga2_para$";
 								class primaryMuzzleMag
 								{
 									name = "hlc_25Rnd_9x19_FMJ_AUG";

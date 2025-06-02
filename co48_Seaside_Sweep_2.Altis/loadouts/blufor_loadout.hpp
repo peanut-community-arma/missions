@@ -50,10 +50,10 @@ class rm : baseMan
 		LIST_1("U_BG_Guerilla2_1"),
 		LIST_1("U_BG_Guerilla2_3"),
 		LIST_1("U_BG_leader"),
-		LIST_1("aegis_guerilla_garb_m81"),
-		LIST_1("aegis_sweater_grn"),
-		LIST_1("aegis_guerilla_tshirt_m81"),
-		LIST_1("aegis_guerilla_tshirt_m81_alt")
+		LIST_1("Rev_U_B_FRR_Uniform_03_F"),
+		LIST_1("Opf_U_O_S_Uniform_01_sweater_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_02_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_01_F")
 	};
 	vest[] = 
 	{
@@ -70,8 +70,8 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		LIST_1("wsx_tacticalpack_oli"),
-		LIST_1("aegis_tacticalpack_cbr"),
+		LIST_1("B_TacticalPack_oli"),
+		LIST_1("B_TacticalPack_khk"),
 		LIST_1("rhs_rk_sht_30_olive"),
 		LIST_1("rhssaf_kitbag_md2camo")
 	};
@@ -122,7 +122,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	vest[] = 
 	{
@@ -173,7 +173,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf_no78"
+		"sp_fwa_m2_carlGustav_no78"
 	};
 	backpack[] = 
 	{
@@ -195,7 +195,7 @@ class sh : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] = 
 	{
@@ -262,7 +262,7 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] += 
 	{
@@ -311,7 +311,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] += 
 	{
@@ -347,7 +347,7 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	bipod[] = 
 	{
@@ -375,7 +375,7 @@ class ammg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] += 
 	{
@@ -404,7 +404,7 @@ class drone : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] += 
 	{

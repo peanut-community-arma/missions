@@ -118,7 +118,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"bear_bandana_m81",
 	"G_Bandanna_oli",
 	"CUP_G_TK_RoundGlasses",
@@ -139,42 +139,42 @@ private _itemCosmetic =
 	"simc_goggles_swdg",
 	"simc_goggles_swdg_low",
 	"G_Spectacles_Tinted",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"G_Aviator",
 	
 	"rhs_balaclava",
 	"CUP_RUS_Balaclava_blk",
 	"G_Balaclava_blk",
 	"bear_balaclava1_black",
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_ess_blk$",
 	"murshun_cigs_cig0_nv",
 	"murshun_cigs_cig0",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_tactical_goggles",
-	"nvg_goggles_grn",
-	"usm_nvg_gigloves",
-	"usm_nvg_giglovesscarf",
-	"usm_nvg_giglovesscarf2",
-	"usm_nvg_swdgoggles",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_tactical_goggles$",
+	"Goggles_grn_F",
+	"pca_nvg_gloves_wool",
+	"$NONE_usm_nvg_giglovesscarf$",
+	"$NONE_usm_nvg_giglovesscarf2$",
+	"$NONE_usm_nvg_swdgoggles$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	"G_Spectacles_Tinted",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2"
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$"
 ];
 
 private _itemMed = 
@@ -234,12 +234,12 @@ private _itemRadio =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_colt_645_m16a2"
+	"sp_fwa_ar15_645_a2"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"fwa_weap_colt_646_m16a2_m203"
+	"sp_fwa_ar15_705_m16a2_m203"
 ];
 
 private _itemWeapAR = 

@@ -32768,7 +32768,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m2_carlgustaf_no78";
+																					value = "sp_fwa_m2_carlGustav_no78";
 																				};
 																			};
 																			class Item1
@@ -34047,7 +34047,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m2_carlgustaf_no78";
+																					value = "sp_fwa_m2_carlGustav_no78";
 																				};
 																			};
 																			class Item1

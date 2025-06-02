@@ -44,28 +44,28 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_ccu_latpat",
-		"aegis_ccu_cu_latpat",
-		"aegis_ccu_rs_latpat",
+		"pca_g3_latpatd",
+		"pca_g3_latpatd",
+		"pca_g3_latpatd",
 		"pca_g3_latpatd"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_latpat",
-		"aegis_modular_carrier_heavy_latpat"
+		"$NONE_aegis_modular_carrier_lite_latpat$",
+		"$NONE_aegis_modular_carrier_heavy_latpat$"
 	};
 	headgear[] = 
 	{
-		"aegis_mch_latpat"
+		"$NONE_aegis_mch_latpat$"
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_latpat"
+		"$NONE_aegis_assaultpack_latpat$"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36c",
-		"hlc_rifle_g36ka1_ksk"
+		"CUP_arifle_G36C",
+		"$NONE_hlc_rifle_g36ka1_ksk$"
 	};
 	scope[] = 
 	{
@@ -104,11 +104,11 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_latpat"
+		"$NONE_aegis_modular_carrier_lite_latpat$"
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_latpat"
+		"$NONE_aegis_kitbag_latpat$"
 	};
 	primaryWeapon[] = 
 	{
@@ -116,7 +116,7 @@ class ar : rm
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552"
+		"$NONE_rksl_optic_eot552$"
 	};
 	bipod[] = 
 	{
@@ -144,7 +144,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_kitbag_latpat"
+		"$NONE_aegis_kitbag_latpat$"
 	};
 	backpackItems[] += 
 	{
@@ -174,8 +174,8 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36",
-		"hlc_rifle_g36ka1_ksk_ag36"
+		"CUP_arifle_G36A3_AG36",
+		"$NONE_hlc_rifle_g36ka1_ksk_ag36$"
 	};
 	backpackItems[] = 
 	{
@@ -207,8 +207,8 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36",
-		"hlc_rifle_g36ka1_ksk_ag36"
+		"CUP_arifle_G36A3_AG36",
+		"$NONE_hlc_rifle_g36ka1_ksk_ag36$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -253,7 +253,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_romi_ag36"
+		"$NONE_hlc_rifle_g36a3_romi_ag36$"
 	};
 };
 
@@ -284,7 +284,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_kitbag_latpat"
+		"$NONE_aegis_kitbag_latpat$"
 	};
 	backpackItems[] =
 	{
@@ -549,7 +549,7 @@ class dm : rm
 	displayName = "Designated Marksmen";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_kac"
+		"CUP_arifle_G36A3_grip"
 	};
 	scope[] = 
 	{
@@ -557,7 +557,7 @@ class dm : rm
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -615,7 +615,7 @@ class sr : rm
 	displayName = "Sniper";
 	uniform[] = 
 	{
-		"aegis_ghillie_suit_arid"
+		"U_O_R_GhillieSuit_arid_F"
 	};
 	vest[] = 
 	{
@@ -623,7 +623,7 @@ class sr : rm
 	};
 	headgear[] = 
 	{
-		"aegis_mch_latpat"
+		"$NONE_aegis_mch_latpat$"
 	};
 	primaryWeapon[] = 
 	{
@@ -659,7 +659,7 @@ class spt : rm
 	displayName = "Spotter";
 	headgear[] = 
 	{
-		"aegis_mch_latpat"
+		"$NONE_aegis_mch_latpat$"
 	};
 	scope[] = 
 	{

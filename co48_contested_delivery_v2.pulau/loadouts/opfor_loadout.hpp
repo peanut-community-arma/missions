@@ -75,7 +75,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"aegis_acc_lrco_blk"
+		"optic_LRCO_blk_F"
 	};
 	magazines[] = 
 	{

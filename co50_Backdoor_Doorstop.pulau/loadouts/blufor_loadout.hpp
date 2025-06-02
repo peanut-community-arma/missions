@@ -120,7 +120,7 @@ class ar : rm
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	scope[] = 
 	{
@@ -128,7 +128,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -300,7 +300,7 @@ class mmg : ar
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{

@@ -39,15 +39,15 @@ private _itemUniform =
 	"U_BG_leader",
 	"rhsgref_uniform_TLA_1",
 	"rhsgref_uniform_TLA_2",
-	"aegis_guerilla_garb_m81",
-	"aegis_guerilla_jacket_m81",
-	"aegis_sweater_grn",
-	"aegis_guerilla_tshirt_m81",
-	"aegis_guerilla_tshirt_m81_alt",
-	"aegis_merc_polo_blu",
-	"aegis_merc_polo_camo",
-	"aegis_merc_polo_m81",
-	"aegis_merc_tshirt_blk"
+	"Rev_U_B_FRR_Uniform_03_F",
+	"Atlas_U_UniformBDU_02_m81_F",
+	"Opf_U_O_S_Uniform_01_sweater_F",
+	"Rev_U_B_FRR_Uniform_02_F",
+	"Rev_U_B_FRR_Uniform_01_F",
+	"U_B_ION_Uniform_01_poloshirt_blue_F",
+	"U_B_ION_Uniform_01_poloshirt_wdl_F",
+	"U_B_ION_Uniform_01_poloshirt_wdl_F",
+	"U_B_ION_Uniform_01_tshirt_black_F"
 ];
 
 private _itemUniformCrew = 
@@ -104,7 +104,7 @@ private _itemHeadgear =
 	"H_Shemag_olive",
 	"H_ShemagOpen_tan",
 	"H_ShemagOpen_khk",
-	"aegis_boonie_blk",
+	"H_Booniehat_blk",
 	"CUP_H_FR_BandanaGreen",
 	"milgp_h_cap_01_cb",
 	"milgp_h_cap_01_gry",
@@ -121,10 +121,10 @@ private _itemHeadgear =
 //Backpack 
 private _itemBackpack = 
 [
-	"wsx_tacticalpack_oli",
+	"B_TacticalPack_oli",
 	"pca_backpack_invisible",
 	"pca_backpack_invisible_large",
-	"aegis_tacticalpack_cbr",
+	"B_TacticalPack_khk",
 	"rhs_rk_sht_30_olive",
 	"rhssaf_kitbag_md2camo",
 	"B_Carryall_oli",
@@ -133,9 +133,9 @@ private _itemBackpack =
 	"rhssaf_kitbag_md2camo",
 	"B_Kitbag_rgr",
 	"B_Kitbag_cbr",
-	"wsx_eagle_a3_khk",
-	"wsx_eagle_a3_rgr",
-	"aegis_tacticalpack_khk"
+	"pca_eagle_a3_khk",
+	"pca_eagle_a3_rgr",
+	"B_TacticalPack_khk"
 ];
 
 //Cosmetic 
@@ -173,26 +173,26 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_shemag_cbr",
-	"aegis_shemag_shades_cbr",
-	"aegis_shemag_tactical_cbr",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
+	"G_Bandanna_kawaii",
+	"$NONE_aegis_shemag_cbr$",
+	"G_Shemag_shades",
+	"$NONE_aegis_shemag_tactical_cbr$",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
 	
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
 	
 	"bear_balaclava1_black",
 	"CUP_G_TK_RoundGlasses",
@@ -221,17 +221,17 @@ private _itemCosmetic =
 	"milgp_f_face_shield_shades_shemagh_tan",
 	"milgp_f_face_shield_shades_shemagh_rgr",
 	
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_cb",
-	"pca_nvg_face_shield_khk",
-	"pca_nvg_face_shield_tan",
-	"pca_nvg_face_shield_rgr",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_cb$",
+	"$NONE_pca_nvg_face_shield_khk$",
+	"$NONE_pca_nvg_face_shield_tan$",
+	"$NONE_pca_nvg_face_shield_rgr$",
 
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_face_shield_shemagh_cb",
-	"pca_nvg_face_shield_shemagh_khk",
-	"pca_nvg_face_shield_shemagh_tan",
-	"pca_nvg_face_shield_shemagh_rgr",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_cb$",
+	"$NONE_pca_nvg_face_shield_shemagh_khk$",
+	"$NONE_pca_nvg_face_shield_shemagh_tan$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
 
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
@@ -341,7 +341,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"fwa_weap_m2_carlgustaf_no78",
+	"sp_fwa_m2_carlGustav_no78",
 	"fwa_1rnd_m2_carlgustaf_HEAT",
 	"fwa_1rnd_m2_carlgustaf_HE",
 	"fwa_1rnd_m2_carlgustaf_WP"
@@ -349,7 +349,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"aegis_weap_fnx45_blk",
+	"hgun_Pistol_heavy_01_black_F",
 	"11Rnd_45ACP_Mag"
 ];
 

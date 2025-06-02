@@ -22929,7 +22929,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""hlc_rifle_ak12"",""hlc_rifle_ak12_gp25"",""hlc_rifle_aku12"",""hlc_rifle_rpk12""],[10,10,10,10]],[[],[]],[[],[]],[[],[]]],false]";
+									value = "[[[[""arifle_AK12_545_F"",""arifle_AK12_GL_545_F"",""arifle_AK12U_545_F"",""Aegis_arifle_RPK12_545_F""],[10,10,10,10]],[[],[]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -22991,7 +22991,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""hlc_rifle_ak12"",""hlc_rifle_ak12_gp25"",""hlc_rifle_aku12"",""hlc_rifle_rpk12""],[10,10,10,10]],[[],[]],[[],[]],[[],[]]],false]";
+									value = "[[[[""arifle_AK12_545_F"",""arifle_AK12_GL_545_F"",""arifle_AK12U_545_F"",""Aegis_arifle_RPK12_545_F""],[10,10,10,10]],[[],[]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};

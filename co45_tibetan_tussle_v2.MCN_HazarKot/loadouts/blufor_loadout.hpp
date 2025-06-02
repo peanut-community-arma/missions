@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_btisrl_tan"
+		"$NONE_usm_bdu_btisrl_tan$"
 	};
 	vest[] = 
 	{
@@ -52,7 +52,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_bdu_boonie_tan"
+		"H_Booniehat_tan"
 	};
 	backpack[] = 
 	{
@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_em2"
+		"$NONE_fwa_weap_em2$"
 	};
 	items[] =
 	{
@@ -97,11 +97,11 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m1941_308"
+		"$NONE_hlc_rifle_m1941_308$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_c96_prussian"
+		"$NONE_hlc_pistol_c96_prussian$"
 	};
 	magazines[] = 
 	{
@@ -146,7 +146,7 @@ class rm_ss : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_c96_prussian"
+		"$NONE_hlc_pistol_c96_prussian$"
 	};
 	magazines[] = 
 	{
@@ -203,7 +203,7 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_c96_prussian"
+		"$NONE_hlc_pistol_c96_prussian$"
 	};
 	magazines[] += 
 	{
@@ -285,7 +285,7 @@ class cls : rm_fa
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_c96_prussian"
+		"$NONE_hlc_pistol_c96_prussian$"
 	};
 	magazines[] += 
 	{

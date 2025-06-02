@@ -58,7 +58,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_pasgt_wdl"
+		"CUP_H_PASGTv2_WDL"
 	};
 	backpack[] = 
 	{
@@ -66,11 +66,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145"
+		"rhs_weap_hk416d145"
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552"
+		"$NONE_rksl_optic_eot552$"
 	};
 	items[] =
 	{

@@ -13921,7 +13921,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -14140,7 +14140,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -14206,7 +14206,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 418;
@@ -14736,7 +14736,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -14955,7 +14955,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -15021,7 +15021,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 423;
@@ -15888,7 +15888,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -16699,7 +16699,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -17512,7 +17512,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -18326,7 +18326,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -19137,7 +19137,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -20283,7 +20283,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -21098,7 +21098,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -21912,7 +21912,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -22726,7 +22726,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -23540,7 +23540,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -24355,7 +24355,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -25278,7 +25278,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -25344,7 +25344,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 488;
@@ -26242,7 +26242,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -27031,7 +27031,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -28524,7 +28524,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -28942,7 +28942,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -29436,7 +29436,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -30244,7 +30244,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -30463,7 +30463,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -30529,7 +30529,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 428;
@@ -31141,7 +31141,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -31360,7 +31360,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -31426,7 +31426,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 433;
@@ -32038,7 +32038,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -32848,7 +32848,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -33992,7 +33992,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -34807,7 +34807,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -35621,7 +35621,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -36433,7 +36433,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -37246,7 +37246,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -38060,7 +38060,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -39097,7 +39097,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -39911,7 +39911,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -41167,7 +41167,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -41596,7 +41596,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -42585,7 +42585,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -43012,7 +43012,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -44001,7 +44001,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -44428,7 +44428,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -45426,7 +45426,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -45853,7 +45853,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -46946,7 +46946,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -47166,7 +47166,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -47232,7 +47232,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 438;
@@ -47778,7 +47778,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -48206,7 +48206,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -49286,7 +49286,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -49714,7 +49714,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -50807,7 +50807,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -51234,7 +51234,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -52324,7 +52324,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -52753,7 +52753,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -53724,7 +53724,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -54152,7 +54152,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -54983,7 +54983,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -55049,7 +55049,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 759;
@@ -55197,7 +55197,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_guerilla_garb_m81";
+										typeName = "Rev_U_B_FRR_Uniform_03_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -55417,7 +55417,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -55483,7 +55483,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 755;
@@ -55891,7 +55891,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -55957,7 +55957,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 797;
@@ -56105,7 +56105,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -56171,7 +56171,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 793;
@@ -56319,7 +56319,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "aegis_jacket_blu";
+										typeName = "Atlas_U_C_CommonerJacket_01_blue_F";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -56385,7 +56385,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "aegis_beanie_blk";
+									headgear = "H_Watchcap_blk";
 								};
 							};
 							id = 795;
@@ -56850,7 +56850,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -56916,7 +56916,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 805;
@@ -57079,7 +57079,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -57145,7 +57145,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 806;
@@ -57293,7 +57293,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -57359,7 +57359,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 807;
@@ -57522,7 +57522,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -57588,7 +57588,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 808;
@@ -57752,7 +57752,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -57818,7 +57818,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 809;
@@ -57982,7 +57982,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -58048,7 +58048,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 810;
@@ -58211,7 +58211,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -58277,7 +58277,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 811;
@@ -58425,7 +58425,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -58491,7 +58491,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 812;
@@ -58797,7 +58797,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -58863,7 +58863,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 860;
@@ -59026,7 +59026,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -59092,7 +59092,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 861;
@@ -59240,7 +59240,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -59306,7 +59306,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 862;
@@ -59470,7 +59470,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -59536,7 +59536,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 863;
@@ -59700,7 +59700,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -59766,7 +59766,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 864;
@@ -59930,7 +59930,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -59996,7 +59996,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 865;
@@ -60160,7 +60160,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -60226,7 +60226,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 866;
@@ -60374,7 +60374,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -60440,7 +60440,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 867;
@@ -61083,7 +61083,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -61149,7 +61149,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 871;
@@ -61313,7 +61313,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -61379,7 +61379,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 872;
@@ -61608,7 +61608,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -61674,7 +61674,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 875;
@@ -61839,7 +61839,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -61905,7 +61905,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 876;
@@ -62135,7 +62135,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -62201,7 +62201,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 879;
@@ -62366,7 +62366,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -62432,7 +62432,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 880;
@@ -63843,7 +63843,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -63909,7 +63909,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 823;
@@ -64072,7 +64072,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -64138,7 +64138,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 824;
@@ -64286,7 +64286,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -64352,7 +64352,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 825;
@@ -64516,7 +64516,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -64582,7 +64582,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 826;
@@ -64746,7 +64746,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -64812,7 +64812,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 827;
@@ -64976,7 +64976,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -65042,7 +65042,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 828;
@@ -65205,7 +65205,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -65271,7 +65271,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 829;
@@ -65419,7 +65419,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -65485,7 +65485,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 830;
@@ -65681,7 +65681,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -65747,7 +65747,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 847;
@@ -65910,7 +65910,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -65976,7 +65976,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 848;
@@ -66124,7 +66124,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -66190,7 +66190,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 849;
@@ -66354,7 +66354,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -66420,7 +66420,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 850;
@@ -66584,7 +66584,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -66650,7 +66650,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 851;
@@ -66814,7 +66814,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -66880,7 +66880,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 852;
@@ -67044,7 +67044,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -67110,7 +67110,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 853;
@@ -67258,7 +67258,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -67324,7 +67324,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 854;
@@ -67642,7 +67642,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -67708,7 +67708,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 814;
@@ -67871,7 +67871,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -67937,7 +67937,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 815;
@@ -68085,7 +68085,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -68151,7 +68151,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 816;
@@ -68314,7 +68314,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -68380,7 +68380,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 817;
@@ -68544,7 +68544,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -68610,7 +68610,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 818;
@@ -68774,7 +68774,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -68840,7 +68840,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 819;
@@ -69004,7 +69004,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -69070,7 +69070,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 820;
@@ -69218,7 +69218,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -69284,7 +69284,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 821;
@@ -69480,7 +69480,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -69546,7 +69546,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 895;
@@ -69709,7 +69709,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -69775,7 +69775,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 896;
@@ -69923,7 +69923,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -69989,7 +69989,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 897;
@@ -70153,7 +70153,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -70219,7 +70219,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 898;
@@ -70383,7 +70383,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -70449,7 +70449,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 899;
@@ -70613,7 +70613,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -70679,7 +70679,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 900;
@@ -70843,7 +70843,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -70909,7 +70909,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w$";
 								};
 							};
 							id = 901;
@@ -71057,7 +71057,7 @@ class Mission
 									};
 									class uniform
 									{
-										typeName = "wsx_uniform_combat_m05w";
+										typeName = "$NONE_wsx_uniform_combat_m05w$";
 										isBackpack = 0;
 										class ItemCargo
 										{
@@ -71123,7 +71123,7 @@ class Mission
 									map = "ItemMap";
 									compass = "ItemCompass";
 									watch = "ItemWatch";
-									headgear = "wsx_helmet_combat_m05w_ess";
+									headgear = "$REVIEW_wsx_helmet_combat_m05w_ess$";
 								};
 							};
 							id = 902;

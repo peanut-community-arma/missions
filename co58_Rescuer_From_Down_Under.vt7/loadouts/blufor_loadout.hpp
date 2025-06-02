@@ -44,11 +44,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_acu_ausmtp"
+		"Atlas_U_B_A_CombatUniform_aucamo"
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_rig_ausmtp"
+		"V_PlateCarrier2_aucamo_F"
 	};
 	headgear[] = 
 	{
@@ -56,11 +56,11 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_ausmpt"
+		"B_Kitbag_aucamo_F"
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90"
+		"arifle_AUG_black_F"
 	};
 	scope[] = 
 	{
@@ -93,11 +93,11 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"aegis_platecarrier_spec_ausmtp"
+		"V_PlateCarrierGL_aucamo_F"
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -105,7 +105,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] = 
 	{
@@ -125,7 +125,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_kitbag_ausmpt"
+		"B_Kitbag_aucamo_F"
 	};
 	backpackItems[] += 
 	{
@@ -155,7 +155,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90_eglm"
+		"arifle_AUG_GL_black_F"
 	};
 	backpackItems[] = 
 	{
@@ -177,7 +177,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90_eglm"
+		"arifle_AUG_GL_black_F"
 	};
 	linkedItems[] += 
 	{
@@ -190,7 +190,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	headgear[] = 
 	{
-		"aegis_beret_sf_brn"
+		"H_Beret_brn_SF"
 	};
 	items[] += 
 	{
@@ -198,7 +198,7 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -264,7 +264,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	backpackItems[] =
 	{
@@ -285,7 +285,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -311,11 +311,11 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	vest[] = 
 	{
-		"aegis_platecarrier_spec_ausmtp"
+		"V_PlateCarrierGL_aucamo_F"
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -323,7 +323,7 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] = 
 	{
@@ -343,11 +343,11 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -368,11 +368,11 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf_no78"
+		"sp_fwa_m2_carlGustav_no78"
 	};
 	secondaryAttachments[] = 
 	{
@@ -389,11 +389,11 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -415,7 +415,7 @@ class hp : rm
 	displayName = "Helicopter Pilot";
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_ausmtp"
+		"V_PlateCarrier1_aucamo_F"
 	};
 	headgear[] = 
 	{
@@ -427,7 +427,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] = 
 	{

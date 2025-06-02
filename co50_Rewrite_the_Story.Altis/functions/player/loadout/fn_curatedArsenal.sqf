@@ -58,14 +58,14 @@ private _itemHeadgear =
 	"H_HelmetO_ocamo",
 	"H_HelmetSpecO_ocamo",
 	"H_HelmetLeaderO_ocamo",
-	"aegis_csat_aggressor_dhex"
+	"H_HelmetLuchnik_cover_ghex_F"
 ];
 
 //Backpack 
 private _itemBackpack = 
 [
-	"aegis_viperharness_desert",
-	"aegis_viperharness_light_desert",
+	"B_ViperHarness_hex_F",
+	"B_ViperLightHarness_hex_F",
 	"B_AssaultPack_ocamo",
 	"B_Carryall_ocamo",
 	"pca_backpack_invisible",
@@ -94,7 +94,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_blk",
 	"G_Bandanna_beast",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_khk",
 	"G_Bandanna_shades",
 	"G_Bandanna_sport",
@@ -102,7 +102,7 @@ private _itemCosmetic =
 	"G_Bandanna_Vampire_01",
 	"murshun_cigs_cig0",
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_CBR_Dark",
 	"CUP_G_ESS_CBR_Ember",
 	"CUP_G_ESS_CBR",
@@ -123,19 +123,19 @@ private _itemCosmetic =
 	
 	"milgp_f_face_shield_tactical_shemagh_cb",
 	"milgp_f_face_shield_tactical_shemagh_tan",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses",
-	"aegis_shemag_cbr",
-	"aegis_shemag_shades_cbr",
-	"aegis_shemag_tactical_cbr",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
+	"$NONE_aegis_shemag_cbr$",
+	"G_Shemag_shades",
+	"$NONE_aegis_shemag_tactical_cbr$",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
 	"CUP_FR_NeckScarf2",
 	"rhsusf_oakley_goggles_blk",
 	"rhsusf_oakley_goggles_clr",
@@ -150,27 +150,27 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Tactical_Clear",
-	"aegis_tactical_yellow",
+	"G_Tactical_Yellow",
 	"G_Spectacles_Tinted",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_cb",
-	"pca_nvg_face_shield_tan",
-	"pca_nvg_face_shield_shemagh_cb",
-	"pca_nvg_face_shield_shemagh_tan",
-	"nvg_goggles_cbr",
-	"pca_nvg_shemagh_lowered_cbr",
+	"$NONE_pca_nvg_face_shield_cb$",
+	"$NONE_pca_nvg_face_shield_tan$",
+	"$NONE_pca_nvg_face_shield_shemagh_cb$",
+	"$NONE_pca_nvg_face_shield_shemagh_tan$",
+	"Goggles",
+	"$NONE_pca_nvg_shemagh_lowered_cbr$",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_tan",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_goggles",
-	"pca_nvg_tactical_glasses"
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_goggles$",
+	"$NONE_pca_nvg_tactical_glasses$"
 ];
 
 //********************************************************************************//
@@ -246,7 +246,7 @@ private _itemAcc =
 	"optic_MRCO",
 	"optic_Hamr",
 	"rhsusf_acc_su230",
-	"sma_acc_elcan_specter_blk"
+	"$NONE_sma_acc_elcan_specter_blk$"
 ];
 
 private _itemWeapRifle = 

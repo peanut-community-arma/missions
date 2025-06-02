@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_guerilla_garb_m81"
+		"Rev_U_B_FRR_Uniform_03_F"
 	};
 	vest[] = 
 	{
@@ -59,7 +59,7 @@ class rm : baseMan
 		"H_Cap_oli_hs",
 		"H_Cap_oli",
 		"pca_booniehat_flecktarn",
-		"wsx_helmet_pasgt_ctan"
+		"H_PASGT_basic_sand_F"
 	};
 	backpack[] = 
 	{
@@ -136,7 +136,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] = 
 	{
@@ -194,7 +194,7 @@ class sl : tl
 class co : sl 
 {
 	displayName = "Platoon Commander";
-	headgear[] = {"aegis_mil_beret_fia"};
+	headgear[] = {"$NONE_aegis_mil_beret_fia$"};
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
@@ -211,7 +211,7 @@ class rm_fa : rm
 	backpack[] = 
 	{
 		"bw_carryall_fleck",
-		"aegis_virtus_carryall_oli",
+		"B_Carryall_oli",
 		"pca_carryall_m81"
 	};
 	backpackItems[] +=

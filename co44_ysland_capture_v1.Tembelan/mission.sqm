@@ -8968,7 +8968,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak12";
+																							value = "arifle_AK12_545_F";
 																						};
 																					};
 																					class Item1
@@ -9211,7 +9211,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk12";
+																							value = "Aegis_arifle_RPK12_545_F";
 																						};
 																					};
 																					class Item1
@@ -9292,7 +9292,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aku12";
+																							value = "arifle_AK12U_545_F";
 																						};
 																					};
 																					class Item1
@@ -9373,7 +9373,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak12_gp25";
+																							value = "arifle_AK12_GL_545_F";
 																						};
 																					};
 																					class Item1

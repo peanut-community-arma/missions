@@ -55,7 +55,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	vest[] = 
 	{
-		"aegis_iotv_lite_oli"
+		"V_PlateCarrierIA1_oli"
 	};
 	headgear[] = 
 	{
@@ -67,7 +67,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
@@ -112,7 +112,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -175,7 +175,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	backpackItems[] = 
 	{
@@ -203,11 +203,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -246,7 +246,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	backpackItems[] =
 	{
@@ -305,7 +305,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -349,7 +349,7 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -373,7 +373,7 @@ class ammg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -398,7 +398,7 @@ class mat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	secondaryWeapon[] = 
 	{
@@ -427,7 +427,7 @@ class amat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -451,7 +451,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	vest[] = 
 	{
-		"aegis_tacvest_grn"
+		"V_TacVest_grn"
 	};
 	headgear[] = 
 	{
@@ -476,7 +476,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	items[] +=
 	{
@@ -500,11 +500,11 @@ class hp : rm
 	displayName = "Helicopter Pilot";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36c"
+		"CUP_arifle_G36C"
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_grn"
+		"V_TacVest_grn"
 	};
 	headgear[] = 
 	{
@@ -516,7 +516,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -577,7 +577,7 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -595,7 +595,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3_modern_ris"
+		"CUP_arifle_G3A3_modern_ris"
 	};
 	attachment[] = {};
 	magazines[] = 

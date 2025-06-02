@@ -104,7 +104,7 @@ private _itemGearLeader =
 	"rhsusf_plateframe_teamleader",
 	"CUP_H_USA_Boonie_wdl",
 	"bear_bdu_8point_m81",
-	"aegis_milcap_m81"
+	"H_milcap_m81_F"
 	
 	
 ];
@@ -188,24 +188,24 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
 	"bear_balaclava1_black",
 	"bear_bandana_m81",
 	"CUP_RUS_Balaclava_blk",
@@ -256,13 +256,13 @@ private _itemCosmetic =
 	"CUP_FR_NeckScarf",
 	"CUP_FR_NeckScarf5",
 	"CUP_FR_NeckScarf4",
-	"usm_kneepads_blk",
-	"usm_swdgoggles",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$NONE_usm_kneepads_blk$",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_blk",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_rgr",
@@ -376,7 +376,7 @@ private _itemRadio =
 	"ACRE_PRC148",
 	"ACRE_PRC152",
 	"ACRE_PRC117F",
-	"aegis_radiobag_cbr"
+	"B_RadioBag_01_coyote_F"
 ];
 
 private _itemEng = 
@@ -401,16 +401,16 @@ private _itemAcc =
 	"rhsusf_acc_eotech_xps3",
 	
 	
-	"sma_acc_cmore_blk",
-	"sma_acc_cmore_grn",
-	"sma_acc_micro_t2",
-	"sma_acc_eotech_552_blk",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_kf_od",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_od",
-	"sma_acc_eotech_xps3_tan",
+	"$NONE_sma_acc_cmore_blk$",
+	"$NONE_sma_acc_cmore_grn$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_eotech_552_blk$",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_kf_od$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_od$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
 	
 	
 	"cup_optic_vortexrazor_uh1_black",
@@ -457,7 +457,7 @@ private _itemAcc =
 	"rhsusf_acc_grip_m203_d",
 	"rhsusf_acc_grip_m203_wd",
 	
-	"hlc_bipod_utgshooters",
+	"$NONE_hlc_bipod_utgshooters$",
 	"cup_bipod_harris_1a2_l_blk",
 	
 	//Tactical Device
@@ -477,16 +477,16 @@ private _itemAcc =
 	"rhsusf_acc_nt4_black",
 	"rhsusf_acc_nt4_tan",
 	
-	"sma_silencer_gemtech_halo_556_blk",
-	"sma_silencer_gemtech_halo_556_blk_hwg",
-	"sma_silencer_gemtech_halo_556_tan",
-	"sma_silencer_gemtech_halo_556_tan_hwt",
+	"$NONE_sma_silencer_gemtech_halo_556_blk$",
+	"$NONE_sma_silencer_gemtech_halo_556_blk_hwg$",
+	"$NONE_sma_silencer_gemtech_halo_556_tan$",
+	"$NONE_sma_silencer_gemtech_halo_556_tan_hwt$",
 	
-	"sma_silencer_kac_nt4_blk",
-	"sma_silencer_kac_nt4_blk_hwb",
-	"sma_silencer_kac_nt4_blk_hwg",
-	"sma_silencer_kac_nt4_tan",
-	"sma_silencer_kac_nt4_tan_hwt"
+	"$NONE_sma_silencer_kac_nt4_blk$",
+	"$NONE_sma_silencer_kac_nt4_blk_hwb$",
+	"$NONE_sma_silencer_kac_nt4_blk_hwg$",
+	"$NONE_sma_silencer_kac_nt4_tan$",
+	"$NONE_sma_silencer_kac_nt4_tan_hwt$"
 	
 ];
 

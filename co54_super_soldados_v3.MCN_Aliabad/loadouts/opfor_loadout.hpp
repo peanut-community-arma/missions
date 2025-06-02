@@ -52,7 +52,7 @@ class hvt : baseMan
 	displayName = "HVT";
 	uniform[] = 
 	{
-		"aegis_guerilla_jacket_m81"
+		"Atlas_U_UniformBDU_02_m81_F"
 	};
 	headgear[] = 
 	{
@@ -92,9 +92,9 @@ class pm1 : baseMan
 	{
 		LIST_2("V_BandollierB_cbr"),
 		LIST_2("V_BandollierB_ghex_F"),
-		"aegis_modular_carrier_lite_blk",
-		"aegis_modular_carrier_lite_coy",
-		"aegis_modular_carrier_lite_grn"
+		"V_CarrierRigKBT_01_light_Black_F",
+		"V_CarrierRigKBT_01_light_Coyote_F",
+		"V_CarrierRigKBT_01_light_Olive_F"
 	};
 	headgear[] = 
 	{
@@ -105,8 +105,8 @@ class pm1 : baseMan
 		"CUP_H_PMC_Cap_Back_Tan",
 		"pca_baseball_cap_wdl",
 		"H_Cap_blk",
-		"aegis_cap_desert",
-		"aegis_cap_eaf",
+		"H_Cap_oicamo",
+		"H_Cap_eaf_arid_F",
 		"pca_headband_red",
 		"pca_headband_tan",
 		"pca_headband"
@@ -132,7 +132,7 @@ class pm2 : pm1
 	displayName = "Pistolman2";
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] = 
 	{
@@ -164,9 +164,9 @@ class rm : baseMan
 	{
 		LIST_2("V_BandollierB_cbr"),
 		LIST_2("V_BandollierB_ghex_F"),
-		"aegis_modular_carrier_lite_blk",
-		"aegis_modular_carrier_lite_coy",
-		"aegis_modular_carrier_lite_grn"
+		"V_CarrierRigKBT_01_light_Black_F",
+		"V_CarrierRigKBT_01_light_Coyote_F",
+		"V_CarrierRigKBT_01_light_Olive_F"
 	};
 	headgear[] = 
 	{
@@ -177,8 +177,8 @@ class rm : baseMan
 		"CUP_H_PMC_Cap_Back_Tan",
 		"pca_baseball_cap_wdl",
 		"H_Cap_blk",
-		"aegis_cap_desert",
-		"aegis_cap_eaf",
+		"H_Cap_oicamo",
+		"H_Cap_eaf_arid_F",
 		"pca_headband_red",
 		"pca_headband_tan",
 		"pca_headband"

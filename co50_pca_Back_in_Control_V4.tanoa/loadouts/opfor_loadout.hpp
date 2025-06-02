@@ -70,8 +70,8 @@ class rm : baseMan
 		"U_I_C_Soldier_Para_3_F",
 		"U_I_C_Soldier_Para_4_F",
 		"U_I_C_Soldier_Para_5_F",
-		"aegis_mcu_jungle",
-		"aegis_mcu_rs_jungle"
+		"Atlas_U_B_H_Soldier_F",
+		"U_I_C_Soldier_Camo_F"
 		
 		
 	};
@@ -125,7 +125,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk"
+		"arifle_RPK_F"
 	};
 	magazines[] = 
 	{

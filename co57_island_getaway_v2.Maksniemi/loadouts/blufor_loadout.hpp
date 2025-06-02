@@ -44,8 +44,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] =
 	{
-		"aegis_acu_m05",
-		"aegis_acu_rs_m05"
+		"pca_g3_m05w",
+		"pca_g3_m05w"
 	};
 	vest[] =
 	{
@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	backpack[] =
 	{
-		"aegis_assaultpack_enh_rgr"
+		"B_AssaultPackSpec_rgr"
 	};
 	primaryWeapon[] =
 	{

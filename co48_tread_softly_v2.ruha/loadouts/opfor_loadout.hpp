@@ -75,12 +75,12 @@ class rm : baseMan
 	hmd[] =
 	{
 		LIST_3(""),
-		"pca_nvg_balaclava",
-		"pca_nvg_balaclava2"
+		"$NONE_pca_nvg_balaclava$",
+		"$NONE_pca_nvg_balaclava2$"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aek971"
+		"$NONE_hlc_rifle_aek971$"
 	};
 	scope[] = 
 	{

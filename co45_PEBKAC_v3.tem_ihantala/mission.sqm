@@ -1663,7 +1663,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_tacticalpack_rgr";
+								typeName = "B_TacticalPack_rgr";
 								isBackpack = 1;
 							};
 							map = "ItemMap";
@@ -1908,7 +1908,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_smg_mp5a4_10_tac";
+								name = "$NONE_hlc_smg_mp5a4_10_tac$";
 								flashlight = "CUP_acc_ANPEQ_15_Tan_Top";
 								firemode = "hlc_smg_mp5a4_10_tac:Single";
 								class primaryMuzzleMag

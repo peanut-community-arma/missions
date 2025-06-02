@@ -9755,7 +9755,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36a4_kac";
+																			value = "$NONE_hlc_rifle_g36a4_kac$";
 																		};
 																	};
 																	class Item1
@@ -9782,7 +9782,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ca4_kac";
+																			value = "$NONE_hlc_rifle_g36ca4_kac$";
 																		};
 																	};
 																	class Item1
@@ -9809,7 +9809,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ka4_kac";
+																			value = "CUP_arifle_G36KA3_grip";
 																		};
 																	};
 																	class Item1
@@ -10669,7 +10669,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36a4_kac";
+																			value = "$NONE_hlc_rifle_g36a4_kac$";
 																		};
 																	};
 																	class Item1
@@ -10696,7 +10696,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ca4_kac";
+																			value = "$NONE_hlc_rifle_g36ca4_kac$";
 																		};
 																	};
 																	class Item1
@@ -10723,7 +10723,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ka4_kac";
+																			value = "CUP_arifle_G36KA3_grip";
 																		};
 																	};
 																	class Item1
@@ -11569,7 +11569,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36a4_kac";
+																			value = "$NONE_hlc_rifle_g36a4_kac$";
 																		};
 																	};
 																	class Item1
@@ -11596,7 +11596,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ca4_kac";
+																			value = "$NONE_hlc_rifle_g36ca4_kac$";
 																		};
 																	};
 																	class Item1
@@ -11623,7 +11623,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ka4_kac";
+																			value = "CUP_arifle_G36KA3_grip";
 																		};
 																	};
 																	class Item1
@@ -12592,7 +12592,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36a4_kac";
+																			value = "$NONE_hlc_rifle_g36a4_kac$";
 																		};
 																	};
 																	class Item1
@@ -12619,7 +12619,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ca4_kac";
+																			value = "$NONE_hlc_rifle_g36ca4_kac$";
 																		};
 																	};
 																	class Item1
@@ -12646,7 +12646,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_g36ka4_kac";
+																			value = "CUP_arifle_G36KA3_grip";
 																		};
 																	};
 																	class Item1

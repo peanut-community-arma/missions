@@ -35,8 +35,8 @@ private _itemGear =
 private _itemUniform = 
 [
 	//Suits
-	"aegis_suit_formal_white",
-	"aegis_suit_formal_blue",
+	"U_C_Uniform_Formal_01_white_F",
+	"U_C_Uniform_Formal_01_blue_F",
 	"U_C_FormalSuit_01_gray_F",
 	"U_C_FormalSuit_01_black_F",
 	"U_C_FormalSuit_01_khaki_F",
@@ -46,11 +46,11 @@ private _itemUniform =
 	//Casual
 	"U_I_L_Uniform_01_tshirt_black_F",
 	"U_I_L_Uniform_01_tshirt_skull_F",
-	"aegis_merc_tshirt_blk",
+	"U_B_ION_Uniform_01_tshirt_black_F",
 	"U_C_ArtTShirt_01_v4_F",
-	"aegis_jacket_blu",
-	"aegis_jacket_gry",
-	"aegis_jacket_maroon",
+	"Atlas_U_C_CommonerJacket_01_blue_F",
+	"Atlas_U_C_CommonerJacket_01_grey_F",
+	"Atlas_U_C_CommonerJacket_01_marroon_F",
 	"CUP_I_B_PMC_Unit_19",
 	//Vanilla outfits
 	"U_C_Poloshirt_blue",
@@ -69,7 +69,7 @@ private _itemUniform =
 	"U_OrestesBody",
 	"U_C_Scientist",
 	//CBRN
-	"aegis_cbrn_suit_ylw",
+	"U_C_CBRN_Suit_01_Yellow_F",
 	"U_C_CBRN_Suit_01_Blue_F",
 	"U_C_CBRN_Suit_01_White_F"
 ];
@@ -173,10 +173,10 @@ private _itemCosmetic =
 	"pca_balaclava_gogg_mcalp",
 	"G_Balaclava_combat",
 	"G_Balaclava_lowprofile",
-	"aegis_bala_light_eaf",
-	"aegis_bala_light_gogg_eaf",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_eaf_F",
+	"G_Balaclava_light_G_eaf_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	
 	//Face shields, scarves and shemaghs
 	"milgp_f_face_shield_goggles_blk",
@@ -190,7 +190,7 @@ private _itemCosmetic =
 	"CUP_G_Scarf_Face_Red",
 	"CUP_G_Scarf_Face_Tan",
 	"CUP_G_Scarf_Face_White",
-	"usm_scarf",
+	"$REMOVE_usm_scarf$",
 	"rhsusf_shemagh2_white",
 	"rhsusf_shemagh2_tan",
 	"rhsusf_shemagh2_od",
@@ -203,14 +203,14 @@ private _itemCosmetic =
 	"G_Bandanna_beast",
 	"G_Bandanna_BlueFlame1",
 	"G_Bandanna_CandySkull",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_khk",
 	"G_Bandanna_OrangeFlame1",
 	"G_Bandanna_RedFlame1",
 	"G_Bandanna_shades",
-	"aegis_bandanna_skull",
+	"G_Bandanna_Skull2",
 	"G_Bandanna_Syndikat1",
-	"aegis_bandanna_thug",
+	"G_Bandanna_Syndikat2",
 	"G_Bandanna_Vampire_01",
 	
 	//Other
@@ -222,10 +222,10 @@ private _itemCosmetic =
 	"G_Spectacles_Tinted",
 	
 	//Props
-	"aegis_cigarette",
+	"G_Cigarette",
 	"immersion_pops_pop0",
 	"immersion_cigs_cigar0",
-	"usm_kneepads_blk",
+	"$NONE_usm_kneepads_blk$",
 	"sfp_peltor_comtac3",
 	"TC_G_NitrileGloves_1",
 	
@@ -235,40 +235,40 @@ private _itemCosmetic =
 	"murshun_cigs_cigpack",
 	
 	//  =====  NVG Balaclavas  =====  
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
 	
 	//  =====  NVG Shemagh/Face shields  =====  
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_tan",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	
 	//  =====  NVG Goggles  =====  
-	"nvg_goggles_grn",
-	"pca_nvg_ess_blk",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
 	
 	//  =====  NVG Props  =====  	
 	"pca_nvg_cigarette",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"usm_nvg_kneepads_blk",
-	"usm_nvg_gigloves",
+	"$NONE_usm_nvg_kneepads_blk$",
+	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool",
 	"TC_NVG_NitrileGloves_1"	
 ];
@@ -353,9 +353,9 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_colt727mod",
-	"hlc_rifle_colt733",
-	"fwa_weap_m1_garand",
+	"$NONE_hlc_rifle_colt727mod$",
+	"sp_fwa_733_CAR15",
+	"sp_fwa_m1_garand",
 	"CUP_hgun_TEC9_FA",
 	"rhs_weap_M590_5RD"
 ];

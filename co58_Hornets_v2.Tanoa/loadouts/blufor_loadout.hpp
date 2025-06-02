@@ -51,21 +51,21 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		LIST_1("aegis_acu_hidf_c"),
-		LIST_1("aegis_acu_rs_hidf_c")
+		LIST_1("Atlas_U_B_H_Soldier_commando_F"),
+		LIST_1("Atlas_U_B_H_Soldier_commando_shortsleeve_F")
 	};
 	vest[] = 
 	{
-		"aegis_otv_lite_oli",
-		"aegis_otv_rig_oli",
-		"aegis_otv_gl_oli"
+		"V_PlateCarrierIA1_oli",
+		"V_PlateCarrierIA2_oli",
+		"V_PlateCarrierIAGL_oli"
 	
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_odg",
-		"usm_helmet_pasgt_ceswd_odg",
-		"usm_helmet_pasgt_rm_odg"
+		"CUP_H_PASGTv2_OD",
+		"$NONE_usm_helmet_pasgt_ceswd_odg$",
+		"CUP_H_PASGTv2_NVG_OD"
 	};
 	backpack[] = 
 	{
@@ -78,7 +78,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"sma_acc_eotech_552_blk"
+		"$NONE_sma_acc_eotech_552_blk$"
 	};
 	bipod[] = 
 	{
@@ -284,7 +284,7 @@ class hp : rm
 	};
 	vest[] = 
 	{
-		"aegis_otv_lite_oli"
+		"V_PlateCarrierIA1_oli"
 	};
 	backpack[] = 
 	{
@@ -292,11 +292,11 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_smg_mp5a3"
+		"$NONE_hlc_smg_mp5a3$"
 	};
 	attachment[] = 
 	{
-		"hlc_acc_surefiregrip"
+		"$NONE_hlc_acc_surefiregrip$"
 	};
 	scope[] = 
 	{

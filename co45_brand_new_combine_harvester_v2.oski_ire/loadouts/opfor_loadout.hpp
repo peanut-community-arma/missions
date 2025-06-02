@@ -64,7 +64,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_boonie_m81",
+		"H_Booniehat_m81_F",
 		"CUP_H_ChDKZ_Beanie",
 		"pca_baseball_cap_wdl"
 	};
@@ -72,7 +72,7 @@ class rm : baseMan
 	{
 		"CUP_G_Bandanna_shades",
 		"G_Bandanna_oli",
-		"aegis_bandanna_skull",
+		"G_Bandanna_Skull2",
 		"G_Balaclava_blk",
 		"G_Balaclava_oli"
 	};

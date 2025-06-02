@@ -70,7 +70,7 @@ class rm : baseMan
 	{
 		LIST_3(""),
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	primaryWeapon[] = 
 	{
@@ -95,7 +95,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk"
+		"arifle_RPK_F"
 	};
 	magazines[] = 
 	{
@@ -111,7 +111,7 @@ class mg : rm
 	backpack[] = 
 	{
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	primaryWeapon[] = 
 	{
@@ -137,7 +137,7 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	secondaryWeapon[] = 
 	{
@@ -174,7 +174,7 @@ class medic : rm
 	backpack[] = 
 	{
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	backpackItems[] = 
 	{

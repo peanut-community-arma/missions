@@ -64,11 +64,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_csat_acu_ghex"
+		"U_O_T_Soldier_F"
 	};
 	vest[] = 
 	{
-		LIST_4("aegis_elbv_harness_ghex"),
+		LIST_4("V_HarnessOSpec_ghex_F"),
 		"V_HarnessO_ghex_F"
 	};
 	headgear[] = 
@@ -80,7 +80,7 @@ class rm : baseMan
 	{
 		LIST_7(""),
 		"G_AirPurifyingRespirator_02_olive_F",
-		"aegis_shemagh_loop_grn",
+		"G_Shemag_oli",
 		"rhsusf_shemagh2_gogg_grn",
 		"CUP_G_Scarf_Face_Grn",
 		"CUP_G_ESS_RGR_Facewrap_Tropical"		
@@ -248,12 +248,12 @@ class vp : rm
 	displayName = "Viper Operative";
 	uniform[] =
 	{
-		"aegis_csat_viper_desert"
+		"U_O_V_Soldier_Viper_oicamo_F"
 	};
 	vest[] = {""};
 	headgear[] = 
 	{
-		"aegis_vipersp_desert"
+		"H_HelmetO_ViperSP_oicamo_F"
 	};
 	backpack[] =
 	{

@@ -63,7 +63,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"wsx_vest_combat_greek_lizard"
+		"pca_otv_greek_lizard"
 	};
 	headgear[] = 
 	{

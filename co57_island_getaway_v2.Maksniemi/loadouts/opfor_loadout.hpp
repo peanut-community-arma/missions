@@ -66,20 +66,20 @@ class rm : baseMan
 		LIST_4("V_TacChestrig_oli_F"),
 		"V_TacChestrig_grn_F",
 		"V_BandollierB_rgr",
-		"aegis_chestrig_oli",
+		"V_ChestrigF_oli",
 		"V_TacChestrig_grn_F"
 	};
 	headgear[] =
 	{
 		"rhs_beanie_green",
 		"rhs_beanie",
-		"aegis_beanie_khk",
+		"H_Watchcap_khk",
 		"CUP_H_PMC_Beanie_Headphones_Khaki",
 		"CUP_H_Ger_Boonie2_Flecktarn",
-		"aegis_boonie_m81",
+		"H_Booniehat_m81_F",
 		"rhs_Booniehat_flora",
-		"aegis_cap_eaf",
-		"aegis_cap_mtp",
+		"H_Cap_eaf_arid_F",
+		"H_Cap_tan_specops_US",
 		"CUP_H_PMC_Cap_Back_Tan"
 	};
 	backpack[] =
@@ -91,7 +91,7 @@ class rm : baseMan
 	};
 	goggles[] = {
 		"G_Bandanna_oli",
-		"usm_scarf",
+		"$REMOVE_usm_scarf$",
 		"rhsusf_shemagh_od",
 		"rhsusf_shemagh2_grn",
 		LIST_2("")

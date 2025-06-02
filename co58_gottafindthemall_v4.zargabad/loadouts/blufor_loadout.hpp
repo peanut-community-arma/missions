@@ -183,7 +183,7 @@ class tl : rm
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ceswd_dcu",
+		"$NONE_usm_helmet_pasgt_ceswd_dcu$",
 	};
 	items[] += 
 	{

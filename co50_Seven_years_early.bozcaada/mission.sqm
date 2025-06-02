@@ -3367,7 +3367,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_lch_mtp";
+							headgear = "H_HelmetSpecB_light_mcamo";
 						};
 					};
 					id = 21;
@@ -3914,7 +3914,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_ech_mtp";
+							headgear = "H_HelmetB_plain_mcamo";
 						};
 					};
 					id = 25;
@@ -5513,7 +5513,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_lch_mtp";
+							headgear = "H_HelmetSpecB_light_mcamo";
 						};
 					};
 					id = 38;
@@ -6820,7 +6820,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_ech_mtp";
+							headgear = "H_HelmetB_plain_mcamo";
 						};
 					};
 					id = 46;
@@ -7472,7 +7472,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_assaultpack_mtp";
+								typeName = "B_AssaultPack_mcamo";
 								isBackpack = 1;
 								class WeaponCargo
 								{
@@ -7487,7 +7487,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_ech_mtp";
+							headgear = "H_HelmetB_plain_mcamo";
 						};
 					};
 					id = 51;
@@ -8150,7 +8150,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_carryall_mtp";
+								typeName = "B_Carryall_mcamo";
 								isBackpack = 1;
 								class MagazineCargo
 								{

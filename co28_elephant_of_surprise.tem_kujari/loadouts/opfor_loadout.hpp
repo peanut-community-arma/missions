@@ -11,18 +11,18 @@ class baseMan
 	// All Randomized
 	uniform[] = 
 	{
-		"TC_U_aegis_guerilla_garb_m81_sudan",
-		"TC_U_aegis_guerilla_jacket_m81_sudan",
-		"TC_U_aegis_guerilla_tshirt_m81_sudan",
-		"aegis_guerilla_tshirt_m81_alt",
+		"$NONE_TC_U_aegis_guerilla_garb_m81_sudan$",
+		"$NONE_TC_U_aegis_guerilla_jacket_m81_sudan$",
+		"$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$",
+		"Rev_U_B_FRR_Uniform_01_F",
 		"rhsgref_uniform_TLA_2"
 	};
 	vest[] = 
 	{
 		"bear_chicom_drab",
 		"rhsgref_chicom",
-		"aegis_chestrig_rgr",
-		"aegis_chestrig_oli"
+		"V_ChestrigF_rgr",
+		"V_ChestrigF_oli"
 	};
 	backpack[] = {};
 	headgear[] = 
@@ -90,7 +90,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_type56",
+		"CUP_arifle_TYPE_56_2_Early",
 		"CUP_arifle_AKM_Early"
 	};
 	backpack[] = 
@@ -115,7 +115,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	magazines[] = 
 	{
@@ -308,7 +308,7 @@ class mmg : baseMan
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"hlc_lmg_mg3"
+		"sp_fwa_mg3"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -424,7 +424,7 @@ class hp : rm
 	{
 		"CUP_H_RUS_Bandana_GSSh_Headphones",
 		"CUP_H_PMC_EP_Headset",
-		"aegis_cap_headphones_gry"
+		"H_Cap_headphones_gry"
 	};
 	items[] +=
 	{

@@ -50,7 +50,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_grn"
+		"V_PlateCarrier1_oli"
 	};
 	headgear[] = 
 	{

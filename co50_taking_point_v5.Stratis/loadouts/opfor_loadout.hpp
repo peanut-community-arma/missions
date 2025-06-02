@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_elbv_harness_blk"
+		"V_HarnessOSpec_blk"
 	};
 	headgear[] = 
 	{
@@ -98,7 +98,7 @@ class ar : rm
 	displayName = "Replica AR";
 	uniform[] = 
 	{
-		"aegis_cbrn_suit_oli",
+		"Atlas_U_I_I_CBRN_Suit_01_Olive_F",
 	};
 	primaryWeapon[] = 
 	{
@@ -148,7 +148,7 @@ class elite : rm
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_blk"
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
@@ -183,15 +183,15 @@ class elite_at : elite
 	displayName = "Replica Elites (LAT)";
 	uniform[] = 
 	{
-		"aegis_cws_latpat"
+		"pca_g3_latpatd"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_latpat"
+		"$NONE_aegis_modular_carrier_heavy_latpat$"
 	};
 	headgear[] = 
 	{
-		"aegis_amh_chops_latpat_wdl"
+		"$NONE_aegis_amh_chops_latpat_wdl$"
 	};
 	goggles[] = 
 	{
@@ -221,11 +221,11 @@ class mill_g : rm
 displayName = "Miller Guards";
 	uniform[] = 
 	{
-		"aegis_ccu_cu_ctrg_arid",
+		"U_B_CTRG_Soldier_Arid_F",
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_ctrg"
+		"V_CarrierRigKBT_01_heavy_ctrg_F"
 	};
 	headgear[] = 
 	{
@@ -266,7 +266,7 @@ class miller : mill_g
 	displayName = "Miller";
 	vest[] = 
 	{
-		"aegis_platecarrier_spec_rgr"
+		"V_PlateCarrierSpec_rgr"
 	};
 	headgear[] = 
 	{};

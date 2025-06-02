@@ -51,7 +51,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a1"
+		"CUP_arifle_M16A1"
 	};
 	items[] =
 	{
@@ -134,7 +134,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	backpackItems[] = 
 	{
@@ -167,7 +167,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	items[] += 
 	{

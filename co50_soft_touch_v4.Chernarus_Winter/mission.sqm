@@ -5415,7 +5415,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_rpk74";
+								name = "CUP_arifle_RPK74_45";
 								optics = "CUP_optic_PechenegScope";
 								firemode = "hlc_rifle_rpk74:FullAuto";
 								class primaryMuzzleMag

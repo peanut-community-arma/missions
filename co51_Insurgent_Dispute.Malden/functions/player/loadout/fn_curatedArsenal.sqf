@@ -31,22 +31,22 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_odg",
-		"usm_bdu_bti_odg",
-		"usm_bdu_srh_odg",
-		"usm_bdu_srl_odg",
-		"usm_bdu_bnu_odg"
+		"$NONE_usm_bdu_btisrl_odg$",
+		"CUP_U_B_BDUv2_OD",
+		"$NONE_usm_bdu_bti_odg$",
+		"CUP_U_B_BDUv2_roll2_OD",
+		"CUP_U_B_BDUv2_roll_OD_US",
+		"CUP_U_B_BDUv2_OD_US"
 ];
 
 private _itemUniformCrew = 
 [
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_odg",
-		"usm_bdu_bti_odg",
-		"usm_bdu_srh_odg",
-		"usm_bdu_srl_odg",
-		"usm_bdu_bnu_odg"
+		"$NONE_usm_bdu_btisrl_odg$",
+		"CUP_U_B_BDUv2_OD",
+		"$NONE_usm_bdu_bti_odg$",
+		"CUP_U_B_BDUv2_roll2_OD",
+		"CUP_U_B_BDUv2_roll_OD_US",
+		"CUP_U_B_BDUv2_OD_US"
 ];
 
 //Vest
@@ -97,7 +97,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
 	"G_Bandanna_tan",
@@ -108,11 +108,11 @@ private _itemCosmetic =
 	"CUP_G_TK_RoundGlasses",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses_gold",
-	"aegis_shemag_cbr",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tan",
+	"$NONE_aegis_shemag_cbr$",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_tan",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_od",
@@ -123,32 +123,32 @@ private _itemCosmetic =
 	
 	"G_Squares_Tinted",
 	"G_Squares",
-	"usm_swdgoggles",
+	"$REMOVE_usm_swdgoggles$",
 	"simc_goggles_swdg",
 	"simc_goggles_swdg_low",
 	"G_Spectacles_Tinted",
 	
 	
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
 	"immersion_cigs_cigar0_nv",
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0",
 	"immersion_cigs_cigar0",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"m40_gas_mask_02_nvg",
 	"m40_gas_mask_03_nvg",
 	"m40_gas_mask_03_nvg",
 	
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
-	"pca_nvg_shemagh_lowered_cbr",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
+	"$NONE_pca_nvg_shemagh_lowered_cbr$",
 	"pca_nvg_shemagh_lowered_khk",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
@@ -239,7 +239,7 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"fwa_weap_rpd"
+	"$NONE_fwa_weap_rpd$"
 ];
 
 private _itemWeapLAT = 

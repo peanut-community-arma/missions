@@ -52,16 +52,16 @@ class rm : baseMan
 	displayName = "UZI";
 	uniform[] = 
 	{
-		"aegis_polo_casual_gry",
-		"aegis_polo_casual_larkin",
+		"U_C_Man_casual_7_F",
+		"U_C_Man_casual_9_F",
 		"U_Marshal",
-		"aegis_suit_formal_white",
-		"aegis_jacket_gry",
-		"aegis_worn_clothes_white"
+		"U_C_Uniform_Formal_01_white_F",
+		"Atlas_U_C_CommonerJacket_01_grey_F",
+		"Atlas_U_C_Uniform_01_tshirt_white_F"
 	};
 	vest[] = 
 	{
-		"aegis_chestrig_blk"
+		"V_ChestrigF_blk"
 	};
 	goggles[] = 
 	{
@@ -69,7 +69,7 @@ class rm : baseMan
 	};
 	hmd[] = 
 	{
-		"pca_nvg_face_shield_blk"
+		"$NONE_pca_nvg_face_shield_blk$"
 	};
 	primaryWeapon[] = 
 	{

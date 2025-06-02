@@ -75251,7 +75251,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_g3a3_modern_ris_blk";
+																					value = "CUP_arifle_G3A3_modern_ris_black";
 																				};
 																			};
 																			class Item1
@@ -75521,7 +75521,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_mraws_blk";
+																					value = "launch_MRAWS_black_F";
 																				};
 																			};
 																			class Item1

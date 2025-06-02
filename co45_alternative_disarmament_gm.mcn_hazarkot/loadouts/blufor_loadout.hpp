@@ -53,11 +53,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_tan"
+		"$NONE_hlc_rifle_scarl_cqc_tan$"
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem556"
+		"$NONE_hlc_muzzle_fn_oem556$"
 	};
 	scope[] = 
 	{
@@ -94,11 +94,11 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_dmr_tan"
+		"$NONE_hlc_rifle_scarl_dmr_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -148,7 +148,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_eglm_tan"
+		"$NONE_hlc_rifle_scarl_cqc_eglm_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -186,11 +186,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_eglm_tan"
+		"$NONE_hlc_rifle_scarl_cqc_eglm_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -229,7 +229,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_tan"
+		"$NONE_hlc_rifle_scarl_cqc_tan$"
 	};
 	backpackItems[] =
 	{
@@ -266,7 +266,7 @@ class cls : rm_fa
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{

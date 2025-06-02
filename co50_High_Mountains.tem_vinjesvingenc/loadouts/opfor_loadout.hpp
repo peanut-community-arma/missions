@@ -57,10 +57,10 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		LIST_1("aegis_guerilla_tshirt_m81"),
-		LIST_1("aegis_guerilla_tshirt_m81_alt"),
-		LIST_1("aegis_sweater_grn"),
-		LIST_1("aegis_guerilla_garb_m81"),
+		LIST_1("Rev_U_B_FRR_Uniform_02_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_01_F"),
+		LIST_1("Opf_U_O_S_Uniform_01_sweater_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_03_F"),
 		LIST_1("U_I_C_Soldier_Para_2_F"),
 		LIST_1("U_I_C_Soldier_Para_3_F"),
 		LIST_1("U_I_C_Soldier_Para_4_F")
@@ -72,7 +72,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		LIST_1("aegis_tacvest_grn"),
+		LIST_1("V_TacVest_grn"),
 		LIST_1("V_TacVest_brn"),
 		LIST_1("bear_tactical_vest_oakleaf"),
 		LIST_4("V_BandollierB_rgr")
@@ -85,8 +85,8 @@ class rm : baseMan
 		LIST_1("H_Cap_blk"),
 		LIST_1("H_Cap_grn"),
 		LIST_1("H_Cap_tan"),
-		LIST_1("aegis_beanie_blk"),
-		LIST_1("aegis_beanie_cbr")
+		LIST_1("H_Watchcap_blk"),
+		LIST_1("H_Watchcap_cbr")
 	};
 	backpack[] = 
 	{
@@ -155,9 +155,9 @@ class  Sh : rm
 	displayName = "Sharpshooter";
 	uniform[] =
 	{
-		LIST_1("aegis_jacket_blu"),
-		LIST_1("aegis_jacket_gry"),
-		LIST_1("aegis_jacket_maroon")
+		LIST_1("Atlas_U_C_CommonerJacket_01_blue_F"),
+		LIST_1("Atlas_U_C_CommonerJacket_01_grey_F"),
+		LIST_1("Atlas_U_C_CommonerJacket_01_marroon_F")
 	};
 	vest[] = 
 	{
@@ -183,17 +183,17 @@ class frm : baseMan
 	displayName = "F Rifleman";
 	uniform[] = 
 	{
-		LIST_1("wsx_uniform_combat_m05w")
+		LIST_1("$NONE_wsx_uniform_combat_m05w$")
 	};
 	vest[] = 
 	{
-		"wsx_combat_vest_6sh116_sge"
+		"rhs_6b23_6sh116_od"
 	};
 	headgear[] = 
 	{
-		LIST_5("wsx_helmet_combat_m05w"),
-		LIST_1("wsx_helmet_combat_m05w_ess_bare"),
-		LIST_1("wsx_helmet_combat_m05w_ess")
+		LIST_5("$REVIEW_wsx_helmet_combat_m05w$"),
+		LIST_1("$REVIEW_wsx_helmet_combat_m05w_ess_bare$"),
+		LIST_1("$REVIEW_wsx_helmet_combat_m05w_ess$")
 	};
 	backpack[] = 
 	{

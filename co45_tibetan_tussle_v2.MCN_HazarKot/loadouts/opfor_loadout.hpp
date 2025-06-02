@@ -69,7 +69,7 @@ class rm : baseMan
 		LIST_2(""),
 		"pca_headband_red",
 		"rhsgref_hat_M1951",
-		"usm_bdu_cap_erdl"
+		"Aegis_H_Milcap_nohs_wdl_F"
 	};
 	backpack[] = 
 	{
@@ -94,7 +94,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_bren_mk2"
+		"sp_fwa_bren_mk2"
 	};
 	magazines[] = 
 	{
@@ -109,7 +109,7 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1919a6"
+		"sp_fwa_m1919a6_browning"
 	};
 	magazines[] = 
 	{
@@ -124,7 +124,7 @@ class sub_mg : rm
 	displayName = "Submachine Gunner";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1a1_thompson"
+		"sp_fwa_smg_thompson_m1a1"
 	};
 	magazines[] = 
 	{
@@ -172,7 +172,7 @@ class leader : rm
 	displayName = "Leader";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_type56"
+		"CUP_arifle_TYPE_56_2_Early"
 	};
 	magazines[] = 
 	{

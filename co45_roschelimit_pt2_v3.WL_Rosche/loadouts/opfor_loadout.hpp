@@ -100,7 +100,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_rpk"
+		"arifle_RPK_F"
 	};
 	vest[] =
 	{

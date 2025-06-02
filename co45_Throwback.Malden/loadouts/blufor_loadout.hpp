@@ -46,10 +46,10 @@ class rm : baseMan
 	{
 		LIST_2("U_BG_Guerrilla_6_1"),
 		LIST_2("U_BG_Guerilla2_3"),
-		LIST_1("TC_U_aegis_guerilla_garb_m81_sudan"),
+		LIST_1("$NONE_TC_U_aegis_guerilla_garb_m81_sudan$"),
 		LIST_1("U_BG_Guerilla1_1"),
-		LIST_1("aegis_guerilla_garb_m81"),
-		LIST_1("TC_U_aegis_guerilla_tshirt_m81_sudan")
+		LIST_1("Rev_U_B_FRR_Uniform_03_F"),
+		LIST_1("$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$")
 	};
 	vest[] = 
 	{
@@ -58,9 +58,9 @@ class rm : baseMan
 	headgear[] = 
 	{
 		LIST_2("milgp_h_cap_02_cb"),
-		LIST_2("usm_bdu_boonie_odg"),
+		LIST_2("H_Booniehat_oli"),
 		LIST_1("CUP_H_RUS_Bandana_HS"),
-		LIST_1("usm_bdu_cap_odg"),
+		LIST_1("Aegis_H_Milcap_nohs_grn_F"),
 		LIST_1("H_Watchcap_blk"),
 		LIST_1("H_Cap_oli_hs"),
 		LIST_1("milgp_h_cap_backwards_01_cb"),
@@ -72,7 +72,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_blk"
+		"$NONE_hlc_rifle_acr_iar_blk$"
 	};
 	scope[] = 
 	{
@@ -167,7 +167,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] = 
 	{
@@ -186,7 +186,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] = 
 	{
@@ -212,7 +212,7 @@ class sl : tl
 	};
 	headgear[] = 
 	{
-		"aegis_beret_sf_grn"
+		"H_Beret_grn_SF"
 	};
 	items[] += 
 	{
@@ -220,7 +220,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	sidearmWeapon[] = 
 	{

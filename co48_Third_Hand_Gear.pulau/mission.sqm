@@ -7793,7 +7793,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m16a2";
+																			value = "CUP_arifle_M16A2";
 																		};
 																	};
 																	class Item1
@@ -8036,7 +8036,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m16a2_m203";
+																			value = "CUP_arifle_Colt727_M203";
 																		};
 																	};
 																	class Item1
@@ -8063,7 +8063,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_colt727";
+																			value = "CUP_arifle_Colt727";
 																		};
 																	};
 																	class Item1
@@ -8810,7 +8810,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m16a2";
+																			value = "CUP_arifle_M16A2";
 																		};
 																	};
 																	class Item1

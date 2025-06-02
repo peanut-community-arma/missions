@@ -79,7 +79,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_c1a1"
+		"$NONE_hlc_rifle_c1a1$"
 	};
 	scope[] = 
 	{
@@ -127,7 +127,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_c2a1"
+		"$NONE_hlc_rifle_c2a1$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -200,7 +200,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sterling_mk4"
+		"sp_fwa_smg_sterling"
 	};
 	vest[] = 
 	{

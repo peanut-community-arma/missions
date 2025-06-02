@@ -227,7 +227,7 @@ class deer : baseMan
 	};
 	goggles[] = 
 	{
-		"TC_G_Helmet_Antlers_1"
+		"$NONE_TC_G_Helmet_Antlers_1$"
 	};
 	magazines[] = 
 	{
@@ -240,6 +240,6 @@ class red : deer
 	displayName = "rudolf";
 	hmd[] = 
 	{
-		"TC_NVG_Headgear_ReindeerNose_1_Glow"
+		"$NONE_TC_NVG_Headgear_ReindeerNose_1_Glow$"
 	};
 };

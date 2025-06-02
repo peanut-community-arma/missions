@@ -11298,7 +11298,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "sma_weap_auga3_oli";
+																					value = "$NONE_sma_weap_auga3_oli$";
 																				};
 																			};
 																			class Item1
@@ -11478,7 +11478,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -11802,7 +11802,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "sma_weap_auga3_gl_oli";
+																					value = "$NONE_sma_weap_auga3_gl_oli$";
 																				};
 																			};
 																			class Item1

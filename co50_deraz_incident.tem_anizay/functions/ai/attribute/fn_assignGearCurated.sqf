@@ -31,9 +31,9 @@ removeGoggles _unit;
 [_unit, 6] call pca_fnc_setUnitSkills;
 _unit call pca_fnc_unlimitedAmmo;
 
-private _uniformPoolWeighted = "wsx_uniform_combat_irndpm";
+private _uniformPoolWeighted = "$NONE_wsx_uniform_combat_irndpm$";
 private _vestPoolWeighted = "CUP_V_RUS_Smersh_1";
-private _headgearPoolWeighted = "wsx_helmet_combat_irndpm";
+private _headgearPoolWeighted = "$REVIEW_wsx_helmet_combat_irndpm$";
 private _headgearESSPoolWeighted = selectRandomWeighted
 [
 	"wsx_helmet_combat_irndpm_ess_bare", 3,

@@ -45,10 +45,10 @@ private _itemGear =
 	"simc_bonnie_hat_flat_m81",
 	"rhs_Booniehat_m81",
 	"pca_beanie_oli",
-	"usm_headwrap_odg1",
-	"usm_headwrap_odg2",
-	"usm_headwrap_blk",
-	"usm_bdu_cap_wdl",
+	"CUP_H_FR_BandanaGreen",
+	"H_Bandanna_khk",
+	"H_Bandanna_gry",
+	"Aegis_H_Milcap_nohs_wdl_F",
 	"H_Bandanna_khk",
 
 	//Uniform
@@ -179,15 +179,15 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
 	"CUP_RUS_Balaclava_blk",
-	"usm_swdgoggles",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"rhs_scarf",
 	"simc_nomex_blk",
 	"simc_nomex_alt",
@@ -213,18 +213,18 @@ private _itemCosmetic =
 	"m40_gas_mask_01_nvg",
 	"m40_gas_mask_02_nvg",
 	"m40_gas_mask_03_nvg",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"nvg_scrim_wdl_pine",
-	"usm_nvg_gigloves",
-	"usm_nvg_giglovesscarf2",
-	"usm_nvg_giglovesscarf",
-	"usm_nvg_swdgoggles",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_nvg_scrim_wdl_pine$",
+	"pca_nvg_gloves_wool",
+	"$NONE_usm_nvg_giglovesscarf2$",
+	"$NONE_usm_nvg_giglovesscarf$",
+	"$NONE_usm_nvg_swdgoggles$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool_blu",
 	"pca_nvg_gloves_wool_brn",
@@ -322,16 +322,16 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m16a1",
-    "hlc_rifle_m16a2",
-	"hlc_rifle_xm177e2"
+	"CUP_arifle_M16A1",
+    "CUP_arifle_M16A2",
+	"$REMOVE_hlc_rifle_xm177e2$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m16a1_m203",
-	"hlc_rifle_m16a2_m203",
-    "hlc_rifle_colt727_m203"
+	"CUP_arifle_M16A1GL",
+	"CUP_arifle_Colt727_M203",
+    "CUP_arifle_Colt727_M203"
 ];
 
 private _itemWeapAR = 

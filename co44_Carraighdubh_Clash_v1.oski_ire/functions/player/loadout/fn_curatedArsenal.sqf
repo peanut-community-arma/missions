@@ -27,15 +27,15 @@ private _itemGear =
 	//Common items shared by all classes except for vehicle crews
 	
 	//Uniform 
-	"wsx_uniform_combat_idpm",
+	"$NONE_wsx_uniform_combat_idpm$",
 	
 	//Vest
-	"wsx_vest_combat_idpm",
+	"V_TacVest_camo",
 	
 	//Headgear
-	"wsx_helmet_combat_idpm",
-	"wsx_helmet_combat_idpm_ess_bare",
-	"wsx_helmet_combat_idpm_ess",
+	"$REVIEW_wsx_helmet_combat_idpm$",
+	"$REVIEW_wsx_helmet_combat_idpm_ess_bare$",
+	"$REVIEW_wsx_helmet_combat_idpm_ess$",
 	
 	//Backpack
 	"pca_assaultpack_m81",
@@ -51,24 +51,24 @@ private _itemGearGren =
 private _itemGearMedic = 
 [
 	//Vest 
-	"wsx_vest_combat_idpm"
+	"V_TacVest_camo"
 ];
 
 private _itemGearMG = 
 [
 	//Vest
-	"wsx_vest_combat_idpm"
+	"V_TacVest_camo"
 ];
 
 private _itemGearLeader = 
 [
 	//Vest
-	"wsx_vest_combat_idpm",
+	"V_TacVest_camo",
 	
 	//Headgear
-	"wsx_helmet_combat_idpm",
-	"wsx_helmet_combat_idpm_ess_bare",
-	"wsx_helmet_combat_idpm_ess"
+	"$REVIEW_wsx_helmet_combat_idpm$",
+	"$REVIEW_wsx_helmet_combat_idpm_ess_bare$",
+	"$REVIEW_wsx_helmet_combat_idpm_ess$"
 ];
 
 private _itemGearCrew = 
@@ -98,7 +98,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -129,24 +129,24 @@ private _itemCosmetic =
 	"rhsusf_shemagh_gogg_tan",
 	"rhsusf_shemagh2_gogg_tan",
 	
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_cigarette",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"G_Cigarette",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
 	
 	//Bearskins
 	"bear_balaclava1_black",
@@ -154,10 +154,10 @@ private _itemCosmetic =
 	"bear_bandana_m81",
 	
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 
 	//CUP
 	//Bala
@@ -254,20 +254,20 @@ private _itemAcc =
 
 	
 //Sights
-"sma_acc_vortex_blk",
-"sma_acc_vortex_lc_blk",
-"sma_acc_micro_t2",
-"sma_acc_micro_t2_low",
-"sma_acc_eotech_xps3_od",
-"sma_acc_eotech_xps3_blk",
+"$NONE_sma_acc_vortex_blk$",
+"$NONE_sma_acc_vortex_lc_blk$",
+"$NONE_sma_acc_micro_t2$",
+"$NONE_sma_acc_micro_t2_low$",
+"$NONE_sma_acc_eotech_xps3_od$",
+"$NONE_sma_acc_eotech_xps3_blk$",
 
-"sma_acc_eotech_552_kf_od",
-"sma_acc_eotech_552_kf_blk",
+"$NONE_sma_acc_eotech_552_kf_od$",
+"$NONE_sma_acc_eotech_552_kf_blk$",
 
-"sma_acc_eotech_552_blk",
-"sma_acc_cmore_grn",
-"sma_acc_cmore_blk",
-"sma_acc_barska_rds",
+"$NONE_sma_acc_eotech_552_blk$",
+"$NONE_sma_acc_cmore_grn$",
+"$NONE_sma_acc_cmore_blk$",
+"$NONE_sma_acc_barska_rds$",
 "rhsusf_acc_eotech_xps3",
 "rhsusf_acc_t1_low_fwd",
 "rhsusf_acc_t1_low",
@@ -288,16 +288,16 @@ private _itemAcc =
 "rhsgref_acc_rx01_camo",
 "rhsgref_acc_rx01_nofilter_camo",
 
-"rksl_optic_eot552x",
+"$NONE_rksl_optic_eot552x$",
 
-"rksl_optic_eot552",
+"$NONE_rksl_optic_eot552$",
 "ptv_acc_eot552",
 "ptv_acc_t1_low",
 "ptv_acc_t1",
 "ptv_acc_aimcs",
 "ptv_acc_compm4s",
-"hlc_optic_romeov",
-"hlc_optic_docterr",
+"$NONE_hlc_optic_romeov$",
+"$NONE_hlc_optic_docterr$",
 "cup_optic_zeisszpoint_wood",
 "cup_optic_zeisszpoint_hex",
 
@@ -357,12 +357,12 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"sma_weap_auga3_oli"
+	"$NONE_sma_weap_auga3_oli$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"sma_weap_auga3_gl_oli"
+	"$NONE_sma_weap_auga3_gl_oli$"
 ];
 
 private _itemWeapAR = 

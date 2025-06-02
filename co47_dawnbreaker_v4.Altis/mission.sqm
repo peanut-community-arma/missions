@@ -1220,7 +1220,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_magpul556";
+								name = "$NONE_hlc_rifle_magpul556$";
 								optics = "optic_DMS";
 								firemode = "hlc_rifle_magpul556:Single";
 								class primaryMuzzleMag
@@ -1244,7 +1244,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1706,7 +1706,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_scarl_std_eglm";
+								name = "$NONE_hlc_rifle_scarl_std_eglm$";
 								optics = "optic_DMS";
 								firemode = "hlc_rifle_scarl_std_eglm:Single";
 								class primaryMuzzleMag
@@ -1735,7 +1735,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -4450,7 +4450,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -8339,7 +8339,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_bcm_jack";
+								name = "$NONE_hlc_rifle_bcm_jack$";
 								optics = "optic_DMS";
 								firemode = "hlc_rifle_bcm_jack:Single";
 								class primaryMuzzleMag
@@ -8368,7 +8368,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_cu_mtp";
+								typeName = "U_B_UBACS_mtp_f";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -8445,7 +8445,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_virtus_kitbag_grn";
+								typeName = "B_Kitbag_rgr";
 								isBackpack = 1;
 							};
 							map = "ItemMap";

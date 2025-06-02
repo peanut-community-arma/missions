@@ -56,11 +56,11 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_mtp"
+		"B_AssaultPack_mcamo"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
@@ -98,7 +98,7 @@ class ar : rm
 	};
 	backpack[] = 
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	primaryWeapon[] = 
 	{
@@ -130,7 +130,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] += 
 	{
@@ -164,7 +164,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	magazines[] +=
 	{
@@ -216,7 +216,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	sidearmWeapon[] = 
 	{
@@ -301,7 +301,7 @@ class rm_fa : rm
 	};
 	backpack[] = 
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] =
 	{
@@ -519,7 +519,7 @@ class hp : rm
 {
 	displayName = "Helicopter Pilot";
 	primaryWeapon[] = {
-		"hlc_rifle_g36ka3"
+		"CUP_arifle_G36KA3"
 	};
 	vest[] = 
 	{
@@ -588,7 +588,7 @@ class rm_sf : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_blk"
+		"B_AssaultPack_blk"
 	};
 	goggles[] = 
 	{
@@ -596,11 +596,11 @@ class rm_sf : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145"
+		"rhs_weap_hk416d145"
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem556"
+		"$NONE_hlc_muzzle_fn_oem556$"
 	};
 	scope[] = 
 	{
@@ -645,7 +645,7 @@ class ar_sf : rm_sf
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_pws_fsc30"
+		"$NONE_hlc_muzzle_pws_fsc30$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -703,7 +703,7 @@ class gren_sf : rm_sf
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145_agc"
+		"rhs_weap_hk416d145_m320"
 	};
 	magazines[] +=
 	{
@@ -751,7 +751,7 @@ class sl_sf : tl_sf
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145_agc"
+		"rhs_weap_hk416d145_m320"
 	};
 	sidearmWeapon[] = 
 	{

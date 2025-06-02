@@ -63,7 +63,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"TC_Helmet_HalloweenPumpkin"
+		"$NONE_TC_Helmet_HalloweenPumpkin$"
 	};
 	backpack[] = 
 	{
@@ -71,7 +71,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_uzi"
+		"CUP_smg_UZI"
 	};
 	magazines[] = 
 	{
@@ -120,7 +120,7 @@ class warlock : rm
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_blk"
+		"V_CarrierRigKBT_01_light_Black_F"
 	};
 	headgear[] = 
 	{
@@ -132,7 +132,7 @@ class warlock : rm
 	};
 	hmd[] = 
 	{
-		"pca_nvg_face_shield_blk"
+		"$NONE_pca_nvg_face_shield_blk$"
 	};
 	backpack[] = 
 	{
@@ -140,7 +140,7 @@ class warlock : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ak12_gp34"
+		"arifle_AK12_GL_545_F"
 	};
 	magazines[] = 
 	{
@@ -156,11 +156,11 @@ class warlock_gunner : rm
 	displayName = "warlock_gunner";
 	uniform[] = 
 	{
-		"aegis_cbrn_suit_blk"
+		"U_C_CBRN_Suit_01_Black_F"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_blk"
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
@@ -195,11 +195,11 @@ class warlock_shield : rm
 	displayName = "warlock_shield";
 	uniform[] = 
 	{
-		"aegis_cbrn_suit_blk"
+		"U_C_CBRN_Suit_01_Black_F"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_blk"
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
@@ -234,11 +234,11 @@ class warlock_basic : rm
 	displayName = "warlock_basic";
 	uniform[] = 
 	{
-		"aegis_cbrn_suit_blk"
+		"U_C_CBRN_Suit_01_Black_F"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_blk"
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
@@ -258,7 +258,7 @@ class warlock_basic : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ak12"
+		"arifle_AK12_545_F"
 	};
 	magazines[] = 
 	{

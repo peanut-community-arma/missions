@@ -128,7 +128,7 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf"
+		"sp_fwa_m2_carlGustav"
 	};
 	backpackItems[] = 
 	{

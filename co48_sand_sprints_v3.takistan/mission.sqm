@@ -19624,7 +19624,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -37011,7 +37011,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -38293,7 +38293,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -40272,7 +40272,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -44050,7 +44050,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -44947,7 +44947,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -46743,7 +46743,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -52616,7 +52616,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_weap_zafir_blk";
+																									value = "LMG_Zafir_black_F";
 																								};
 																							};
 																							class Item1

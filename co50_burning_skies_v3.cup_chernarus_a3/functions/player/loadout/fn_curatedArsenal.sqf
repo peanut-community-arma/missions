@@ -88,23 +88,23 @@ private _itemGear =
 	"rhs_scarf",
 
 	//Aegis
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_headset",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"G_Headset_light",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
 
 	//Bearskins
 	"bear_bandana_atacs_fg",
@@ -147,10 +147,10 @@ private _itemGear =
 	"milgp_f_tactical_khk",
 
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 
 	//PCA
 	"ccu_bandana_blk",
@@ -176,7 +176,7 @@ private _itemGear =
 	"CUP_G_ESS_RGR_Dark",
 	"CUP_G_ESS_RGR_Ember",
 	"CUP_G_ESS_BLK_Facewrap_Black",
-	"CUP_G_ESS_BLK_Facewrap_Tropical",
+	"CUP_G_ESS_RGR_Facewrap_Tropical",
 	"CUP_G_ESS_BLK_Scarf_Blk",
 	"CUP_G_ESS_BLK_Scarf_Grn",
 	"CUP_G_ESS_KHK_Scarf_Tan",
@@ -224,7 +224,7 @@ private _itemGear =
 	"YM_Bandana_oli",
 	
 	
-	"aegis_cigarette",
+	"G_Cigarette",
 	"G_AirPurifyingRespirator_02_black_F",
 	"G_AirPurifyingRespirator_02_sand_F",
 	"G_AirPurifyingRespirator_01_F",
@@ -424,18 +424,18 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_acr_car_grn",
-	"hlc_rifle_acr_dmr_grn",
-	"hlc_rifle_acr_sbr_grn"
+	"CUP_arifle_ACRC_wdl_68",
+	"$NONE_hlc_rifle_acr_dmr_grn$",
+	"$NONE_hlc_rifle_acr_sbr_grn$"
 
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_acr_sbr_m203_grn",
-	"hlc_rifle_acr_dmr_m203_grn",
-	"hlc_rifle_acr_car_m203_grn",
-	"hlc_rifle_acr_enh_m203_grn"
+	"$NONE_hlc_rifle_acr_sbr_m203_grn$",
+	"$NONE_hlc_rifle_acr_dmr_m203_grn$",
+	"CUP_arifle_ACRC_EGLM_wdl_68",
+	"$NONE_hlc_rifle_acr_enh_m203_grn$"
 ];
 
 private _itemWeapAR = 

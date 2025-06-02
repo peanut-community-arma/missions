@@ -80,24 +80,24 @@ private _itemCosmetic =
 	"rhsusf_oakley_goggles_blk",
 	"rhsusf_oakley_goggles_clr",
 	"rhsusf_oakley_goggles_ylw",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_khk",
-	"pca_nvg_face_shield_tan",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_face_shield_shemagh_khk",
-	"pca_nvg_face_shield_shemagh_tan",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
-	"pca_nvg_shemagh_loop_bge",
-	"pca_nvg_shemagh_loop_blk",
-	"pca_nvg_shemagh_loop_coy",
-	"pca_nvg_shemagh_loop_tan",
-	"pca_nvg_shemagh_mesh_bge",
-	"pca_nvg_shemagh_mesh_blk",
-	"pca_nvg_shemagh_mesh_coy",
-	"pca_nvg_shemagh_mesh_tan",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_khk$",
+	"$NONE_pca_nvg_face_shield_tan$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_khk$",
+	"$NONE_pca_nvg_face_shield_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
+	"$NONE_pca_nvg_shemagh_loop_bge$",
+	"$NONE_pca_nvg_shemagh_loop_blk$",
+	"$NONE_pca_nvg_shemagh_loop_coy$",
+	"$NONE_pca_nvg_shemagh_loop_tan$",
+	"$NONE_pca_nvg_shemagh_mesh_bge$",
+	"$NONE_pca_nvg_shemagh_mesh_blk$",
+	"$NONE_pca_nvg_shemagh_mesh_coy$",
+	"$NONE_pca_nvg_shemagh_mesh_tan$",
 	"pca_nvg_shemagh_lowered_tan",
 	"pca_nvg_shemagh_lowered_white",
 	"milgp_f_tactical_khk",
@@ -179,23 +179,23 @@ private _itemAcc =
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_t1_high",
 	"rhsusf_acc_t1_low",
-	"rksl_optic_eot552",
-	"rksl_optic_eot552_c",
-	"rksl_optic_eot552x",
-	"rksl_optic_eot552x_c",
-	"sma_acc_eotech_552_blk",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_tan",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_tan",
-	"sma_acc_micro_t2",
-	"sma_acc_micro_t2_low",
-	"hlc_optic_hp",
-	"hlc_optic_siglite",
-	"hlc_optic_stavenhagen",
-	"hlc_optic_vtac",
-	"hlc_optic_xs",
+	"$NONE_rksl_optic_eot552$",
+	"$NONE_rksl_optic_eot552_c$",
+	"$NONE_rksl_optic_eot552x$",
+	"$NONE_rksl_optic_eot552x_c$",
+	"$NONE_sma_acc_eotech_552_blk$",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_tan$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_micro_t2_low$",
+	"$NONE_hlc_optic_hp$",
+	"$NONE_hlc_optic_siglite$",
+	"$NONE_hlc_optic_stavenhagen$",
+	"$NONE_hlc_optic_vtac$",
+	"$NONE_hlc_optic_xs$",
 	
 	//Grip
 	"rhsusf_acc_grip1",
@@ -218,37 +218,37 @@ private _itemAcc =
 	"rhsusf_acc_rotex5_tan",
 	"rhsusf_acc_nt4_black",
 	"rhsusf_acc_nt4_tan",
-	"hlc_muzzle_fn_oem556",
-	"hlc_muzzle_fn_oem",
-	"hlc_muzzle_fn_oem17s",
+	"$NONE_hlc_muzzle_fn_oem556$",
+	"$NONE_hlc_muzzle_fn_oem$",
+	"$NONE_hlc_muzzle_fn_oem17s$",
 	"sps_acc_gemtech_shield_blk",
 	"sps_acc_gemtech_shield_sand"
 ];
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_scarl_cqc_tan",
-	"hlc_rifle_scarl_std_tan"
+	"$NONE_hlc_rifle_scarl_cqc_tan$",
+	"$NONE_hlc_rifle_scarl_std_tan$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_scarl_cqc_eglm_tan",
-	"hlc_rifle_scarl_std_eglm_tan"
+	"$NONE_hlc_rifle_scarl_cqc_eglm_tan$",
+	"$NONE_hlc_rifle_scarl_std_eglm_tan$"
 ];
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_scarl_std_tan",
-	"hlc_rifle_scarl_lb_tan"
+	"$NONE_hlc_rifle_scarl_std_tan$",
+	"$NONE_hlc_rifle_scarl_lb_tan$"
 ];
 
 private _itemWeapLAT = [];
 
 private _itemWeapPistol = 
 [
-	"hlc_pistol_mk25",
-	"hlc_pistol_mk25_tan"
+	"$NONE_hlc_pistol_mk25$",
+	"$NONE_hlc_pistol_mk25_tan$"
 ];
 
 //********************************************************************************//

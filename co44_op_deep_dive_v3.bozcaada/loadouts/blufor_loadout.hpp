@@ -55,12 +55,12 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_cbr",
-		"aegis_platecarrier_lite_khk",
-		"aegis_platecarrier_lite_mtp",
-		"aegis_platecarrier_lite_oli",
-		"aegis_platecarrier_lite_rgr",
-		"aegis_platecarrier_lite_snake"
+		"V_PlateCarrier1_khk",
+		"V_PlateCarrier1_cbr",
+		"V_PlateCarrier1_mtp",
+		"V_PlateCarrier1_oli",
+		"V_PlateCarrier1_rgr",
+		"V_PlateCarrier1_oli"
 	};
 	headgear[] = 
 	{
@@ -75,7 +75,7 @@ class rm : baseMan
 		"pca_AssaultPack_cbr",
 		"pca_AssaultPack_mc",
 		"bw_AssaultPack_fleck",
-		"aegis_AssaultPack_auscam",
+		"B_AssaultPack_aucamo_F",
 		"b_AssaultPack_cbr",
 		"B_AssaultPack_rgr",
 		"rhsusf_falconii_coy"
@@ -83,17 +83,17 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_std_tan"
+		"$NONE_hlc_rifle_scarl_std_tan$"
 	};
 	scope[] = 
 	{
 		"optic_Arco",
 		"optic_Arco_arid_F",
-		"sma_acc_elcan_specter_od"
+		"$NONE_sma_acc_elcan_specter_od$"
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem"
+		"$NONE_hlc_muzzle_fn_oem$"
 	};
 	items[] =
 	{
@@ -125,7 +125,7 @@ class ar : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
@@ -137,11 +137,11 @@ class ar : rm
 	};
 		scope[] = 
 	{
-		"sma_acc_vortex_rds_blk"
+		"$NONE_sma_acc_vortex_rds_blk$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -164,7 +164,7 @@ class aar : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
@@ -196,7 +196,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_std_eglm_tan"
+		"$NONE_hlc_rifle_scarl_std_eglm_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -229,11 +229,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_std_agc_tan"
+		"$NONE_hlc_rifle_scarl_std_agc_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -273,7 +273,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_std_tan"
+		"$NONE_hlc_rifle_scarl_std_tan$"
 	};
 	backpackItems[] =
 	{
@@ -314,7 +314,7 @@ class rm_fa : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
@@ -337,7 +337,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -366,7 +366,7 @@ class mmg : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
@@ -382,7 +382,7 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -405,13 +405,13 @@ class ammg : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -435,13 +435,13 @@ class mat : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	secondaryWeapon[] = 
 	{
@@ -469,13 +469,13 @@ class amat : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -520,7 +520,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	items[] +=
 	{
@@ -552,7 +552,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -574,7 +574,7 @@ class eng : rm
 		"pca_kitbag_cbr",
 		"pca_kitbag_mc",
 		"bw_kitbag_fleck",
-		"aegis_kitbag_auscam",
+		"B_Kitbag_aucamo_F",
 		"b_kitbag_cbr",
 		"B_kitbag_rgr"
 	};
@@ -618,7 +618,7 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -636,7 +636,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_ssr_tan"
+		"$NONE_hlc_rifle_scarl_ssr_tan$"
 	};
 	scope[] = 
 	{

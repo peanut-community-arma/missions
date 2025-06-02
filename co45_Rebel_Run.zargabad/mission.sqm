@@ -7461,7 +7461,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_pistol_dl44";
+																			value = "$NONE_hlc_pistol_dl44$";
 																		};
 																	};
 																	class Item1
@@ -7542,7 +7542,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_acc_delft3x25";
+																			value = "sp_fwa_scope_ar_delft3x25";
 																		};
 																	};
 																	class Item1
@@ -10890,7 +10890,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_pistol_dl44";
+																			value = "$NONE_hlc_pistol_dl44$";
 																		};
 																	};
 																	class Item1
@@ -10971,7 +10971,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_acc_colt4x20";
+																			value = "sp_fwa_scope_ar_colt4x20";
 																		};
 																	};
 																	class Item1
@@ -71964,7 +71964,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_pistol_dl44";
+																			value = "$NONE_hlc_pistol_dl44$";
 																		};
 																	};
 																	class Item1
@@ -72045,7 +72045,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_acc_colt4x20";
+																			value = "sp_fwa_scope_ar_colt4x20";
 																		};
 																	};
 																	class Item1

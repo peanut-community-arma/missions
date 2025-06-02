@@ -72,9 +72,9 @@ class rm : baseMan
 		"H_Bandanna_sgg",
 		"rhssaf_bandana_digital",
 		"rhssaf_bandana_oakleaf",
-		"usm_bdu_boonie_odg",
-		"usm_bdu_boonie_erdl",
-		"usm_bdu_boonie_ubntgrstp",
+		"H_Booniehat_oli",
+		"H_Booniehat_wdl_hs",
+		"$NONE_usm_bdu_boonie_ubntgrstp$",
 		"CUP_H_SLA_BeretRed",
 		"H_Cap_blk",
 		"H_Cap_grn",
@@ -87,9 +87,9 @@ class rm : baseMan
 		"G_Bandanna_sport",
 		"G_Bandanna_blk",
 		"G_Bandanna_beast",
-		"aegis_bandanna_candyskull",
-		"aegis_bandanna_skull",
-		"aegis_bandanna_syndikat",
+		"G_Bandanna_CandySkull",
+		"G_Bandanna_Skull2",
+		"G_Bandanna_Syndikat1",
 		"CUP_Beard_Black"
 	};
 	backpack[] = 
@@ -132,7 +132,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -481,7 +481,7 @@ class hp : rm
 	{
 		"CUP_H_RUS_Bandana_GSSh_Headphones",
 		"CUP_H_PMC_EP_Headset",
-		"aegis_cap_headphones_gry"
+		"H_Cap_headphones_gry"
 	};
 	items[] +=
 	{
@@ -564,7 +564,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mosin_m91"
+		"CUP_srifle_Mosin_Nagant"
 	};
 	attachment[] = {};
 	magazines[] = 

@@ -51,8 +51,8 @@ class rm : baseMan
 		"CUP_I_B_PMC_Unit_36",
 		"CUP_I_B_PMC_Unit_43",
 		"CUP_I_B_PMC_Unit_42",
-		"usm_bdu_srh_dcu2",
-		"usm_bdu_bnu_dcu2"
+		"$NONE_usm_bdu_srh_dcu2$",
+		"CUP_U_B_BDUv2_roll_DCU_US"
 	};
 	vest[] = 
 	{
@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80_sand"
+		"arifle_SA80_snd_F"
 	};
 	scope[] = 
 	{
@@ -76,7 +76,7 @@ class rm : baseMan
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem"
+		"$NONE_hlc_muzzle_fn_oem$"
 	};
 	attachment[] = 
 	{
@@ -125,7 +125,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	magazines[] = 
 	{
@@ -175,7 +175,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80_eglm_sand"
+		"arifle_SA80_GL_snd_F"
 	};
 	vest[] = 
 	{
@@ -194,7 +194,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80_eglm_sand"
+		"arifle_SA80_GL_snd_F"
 	};
 	vest[] = 
 	{
@@ -221,11 +221,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80_eglm_sand"
+		"arifle_SA80_GL_snd_F"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	magazines[] += 
 	{
@@ -313,7 +313,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	magazines[] += 
 	{
@@ -340,7 +340,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80c_sand"
+		"arifle_SA80_C_snd_F"
 	};
 	scope[] = 
 	{
@@ -361,7 +361,7 @@ class crew : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	magazines[] = 
 	{
@@ -381,7 +381,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	magazines[] += 
 	{
@@ -425,7 +425,7 @@ class rc_co : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	magazines[] = 
 	{
@@ -465,7 +465,7 @@ class rc_sn : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25tr_tan"
+		"$NONE_hlc_pistol_mk25tr_tan$"
 	};
 	vest[] = 
 	{

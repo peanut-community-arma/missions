@@ -44,13 +44,13 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_ccu_mtp_tropic",
-		"aegis_ccu_cu_mtp_tropic"
+		"U_B_UBACS_tna_f",
+		"U_B_UBACS_tna_f"
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_tropic",
-		"aegis_platecarrier_lite_grn"
+		"V_PlateCarrier1_tna_F",
+		"V_PlateCarrier1_oli"
 	};
 	headgear[] = 
 	{
@@ -66,8 +66,8 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_grn",
-		"hlc_rifle_acr_car_blk"
+		"CUP_arifle_ACRC_wdl_68",
+		"CUP_arifle_ACRC_blk_68"
 	};
 	scope[] = 
 	{
@@ -79,7 +79,7 @@ class rm : baseMan
 	};
 	silencer[] =
 	{
-		"hlc_muzzle_556NATO_KAC"
+		"$NONE_hlc_muzzle_556NATO_KAC$"
 	};
 	items[] =
 	{
@@ -177,7 +177,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_blk"
+		"CUP_arifle_ACRC_EGLM_blk_68"
 	};
 	backpackItems[] = 
 	{
@@ -213,7 +213,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_blk"
+		"CUP_arifle_ACRC_EGLM_blk_68"
 	};
 	sidearmWeapon[] = 
 	{
@@ -256,8 +256,8 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_grn",
-		"hlc_rifle_acr_car_blk"
+		"CUP_arifle_ACRC_wdl_68",
+		"CUP_arifle_ACRC_blk_68"
 	};
 	backpackItems[] =
 	{

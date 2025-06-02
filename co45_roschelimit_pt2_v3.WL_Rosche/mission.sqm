@@ -47052,7 +47052,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_rpk";
+																					value = "arifle_RPK_F";
 																				};
 																			};
 																			class Item1
@@ -80357,7 +80357,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -81303,7 +81303,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -82248,7 +82248,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -83199,7 +83199,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1

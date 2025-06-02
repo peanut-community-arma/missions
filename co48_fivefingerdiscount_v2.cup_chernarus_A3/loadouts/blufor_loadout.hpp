@@ -142,7 +142,7 @@ class ar : rm
 	// };
 	primaryWeapon[] =
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	bipod[] = {};
 	sidearmWeapon[] =

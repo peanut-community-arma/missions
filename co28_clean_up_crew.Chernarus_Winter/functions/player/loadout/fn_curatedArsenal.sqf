@@ -93,7 +93,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -112,7 +112,7 @@ private _itemCosmetic =
 	"CUP_G_TK_RoundGlasses",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses_gold",
-	"aegis_shemag_oli",
+	"CUP_FR_NeckScarf",
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted"

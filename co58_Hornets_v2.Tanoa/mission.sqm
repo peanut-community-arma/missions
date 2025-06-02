@@ -10376,7 +10376,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_eotech_552_blk";
+																					value = "$NONE_sma_acc_eotech_552_blk$";
 																				};
 																			};
 																			class Item1
@@ -10646,7 +10646,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a3";
+																					value = "$NONE_hlc_smg_mp5a3$";
 																				};
 																			};
 																			class Item1
@@ -10808,7 +10808,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_acc_surefiregrip";
+																					value = "$NONE_hlc_acc_surefiregrip$";
 																				};
 																			};
 																			class Item1
@@ -11059,7 +11059,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sma_acc_eotech_552_blk";
+																					value = "$NONE_sma_acc_eotech_552_blk$";
 																				};
 																			};
 																			class Item1
@@ -11329,7 +11329,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a3";
+																					value = "$NONE_hlc_smg_mp5a3$";
 																				};
 																			};
 																			class Item1
@@ -11491,7 +11491,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_acc_surefiregrip";
+																					value = "$NONE_hlc_acc_surefiregrip$";
 																				};
 																			};
 																			class Item1

@@ -4,11 +4,11 @@ class baseMan
 	// All Randomized
 	uniform[] = 
 	{
-		"aegis_suit_formal_white"
+		"U_C_Uniform_Formal_01_white_F"
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 	backpack[] = {};
 	headgear[] = 
@@ -62,8 +62,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] =
 	{
-		LIST_5("hlc_rifle_g36ka3"),
-		"hlc_rifle_g36ka3_romi"
+		LIST_5("CUP_arifle_G36KA3"),
+		"$NONE_hlc_rifle_g36ka3_romi$"
 	};
 	scope[] =
 	{
@@ -71,15 +71,15 @@ class rm : baseMan
 	};
 	attachment[] =
 	{
-		"hlc_acc_tlr1_side"
+		"$NONE_hlc_acc_tlr1_side$"
 	};
 	silencer[] =
 	{
-		"hlc_muzzle_rotex3p"
+		"$NONE_hlc_muzzle_rotex3p$"
 	};
 	sidearmWeapon[] =
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] =
 	{
@@ -114,8 +114,8 @@ class dm : rm
 	displayName = "Marksman";
 	primaryWeapon[] =
 	{
-		LIST_5("hlc_rifle_g36a3"),
-		"hlc_rifle_g36a3_romi"
+		LIST_5("CUP_arifle_G36A3"),
+		"$NONE_hlc_rifle_g36a3_romi$"
 	};
 	scope[] =
 	{
@@ -137,8 +137,8 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] =
 	{
-		LIST_5("hlc_rifle_g36a3_ag36"),
-		"hlc_rifle_g36a3_romi_ag36"
+		LIST_5("CUP_arifle_G36A3_AG36"),
+		"$NONE_hlc_rifle_g36a3_romi_ag36$"
 	};
 	magazines[] +=
 	{
@@ -161,8 +161,8 @@ class medic : rm
 	};	
 	primaryWeapon[] =
 	{
-		LIST_5("hlc_rifle_g36c"),
-		"hlc_rifle_g36c_romi"
+		LIST_5("CUP_arifle_G36C"),
+		"$NONE_hlc_rifle_g36c_romi$"
 	};	
 	backpackItems[] = 
 	{

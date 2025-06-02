@@ -52,8 +52,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_gorka_surpat_gloves",
-		"wsx_uniform_gorka_surpat"
+		"$NONE_wsx_uniform_gorka_surpat_gloves$",
+		"$NONE_wsx_uniform_gorka_surpat$"
 	};
 	vest[] = 
 	{
@@ -82,7 +82,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	backpack[] =
 	{

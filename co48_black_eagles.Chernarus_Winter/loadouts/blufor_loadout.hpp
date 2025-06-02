@@ -87,11 +87,11 @@ class rm : baseMan
 		"pca_backpack_invisible_large",
 		"B_AssaultPack_cbr",
 		"B_Kitbag_cbr",
-		"aegis_radiobag_cbr"
+		"B_RadioBag_01_coyote_F"
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_ar18"
+		"sp_fwa_ar18"
 	};
 	scope[] = 
 	{
@@ -133,11 +133,11 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1918_bar"
+		"sp_fwa_m1918a2_bar"
 	};
 	bipod[] = 
 	{
-		"fwa_acc_m1918_bar_bipod"
+		"sp_fwa_acc_bipod_bar"
 	};
 	sidearmWeapon[] = 
 	{

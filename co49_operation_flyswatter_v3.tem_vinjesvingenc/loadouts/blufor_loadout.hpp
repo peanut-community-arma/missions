@@ -72,13 +72,13 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		LIST_4("hlc_rifle_acr_iar_blk"),
-		"hlc_rifle_acr_car_blk"
+		LIST_4("$NONE_hlc_rifle_acr_iar_blk$"),
+		"CUP_arifle_ACRC_blk_68"
 	};
 	scope[] = 
 	{
 		LIST_3("rhsusf_acc_compm4"),
-		LIST_2("sma_acc_eotech_552_blk")
+		LIST_2("$NONE_sma_acc_eotech_552_blk$")
 	};
 	bipod[] = 
 	{
@@ -146,7 +146,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] += 
 	{
@@ -182,7 +182,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] = 
 	{
@@ -201,7 +201,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] =
 	{
@@ -232,7 +232,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_blk"
+		"$NONE_hlc_rifle_acr_iar_blk$"
 	};
 	vest[] = 
 	{
@@ -313,7 +313,7 @@ class mmg : rm
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552x"
+		"$NONE_rksl_optic_eot552x$"
 	};
 	bipod[] = 
 	{
@@ -322,7 +322,7 @@ class mmg : rm
 	attachment[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25"
+		"$NONE_hlc_pistol_mk25$"
 	};
 	magazines[] = 
 	{

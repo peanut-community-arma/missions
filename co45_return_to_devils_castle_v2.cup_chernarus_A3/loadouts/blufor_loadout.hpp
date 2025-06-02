@@ -54,7 +54,7 @@ class rm : baseMan
 	headgear[] = 
 	{
 		LIST_2("rhsgref_ssh68_ttsko_forest"),
-		"aegis_beanie_grn"
+		"H_Watchcap_camo"
 	};
 	backpack[] = 
 	{
@@ -62,7 +62,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sks"
+		"Opf_arifle_SKS_F"
 	};
 	items[] =
 	{
@@ -216,7 +216,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sks"
+		"Opf_arifle_SKS_F"
 	};
 	backpackItems[] =
 	{

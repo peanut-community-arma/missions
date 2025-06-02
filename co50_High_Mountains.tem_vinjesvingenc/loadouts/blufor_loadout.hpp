@@ -208,7 +208,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	backpack[] = 
 	{
-		"aegis_virtus_carryall_oli"
+		"B_Carryall_oli"
 	};
 	backpackItems[] =
 	{
@@ -246,7 +246,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_virtus_carryall_oli"
+		"B_Carryall_oli"
 	};
 	backpackItems[] = 
 	{
@@ -259,7 +259,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_carryall_oli"
+		"B_Carryall_oli"
 	};
 	backpackItems[] = 
 	{

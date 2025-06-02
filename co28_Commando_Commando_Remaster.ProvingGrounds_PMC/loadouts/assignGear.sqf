@@ -104,9 +104,9 @@ else
 		{
 			private _headwear = selectRandomWeighted 
 			[
-				"aegis_beanie_cbr", 2,
-				"aegis_beanie_grn", 1,
-				"aegis_beanie_khk", 2
+				"H_Watchcap_cbr", 2,
+				"H_Watchcap_camo", 1,
+				"H_Watchcap_khk", 2
 			];
 			
 			_this addHeadgear _headwear;
@@ -141,10 +141,10 @@ if (random 1 > 0.1) then
 		"milgp_f_face_shield_tactical_shemagh_cb", 1,
 		"milgp_f_face_shield_tactical_shemagh_khk", 1,
 		"milgp_f_tactical_khk", 1,
-		"aegis_shemag_shades_khk", 1.5,
-		"aegis_shemag_tactical_khk", 1.5,
-		"aegis_shemag_shades_tan", 1.5,
-		"aegis_shemag_tactical_tan", 1.5,
+		"$NONE_aegis_shemag_shades_khk$", 1.5,
+		"$NONE_aegis_shemag_tactical_khk$", 1.5,
+		"$NONE_aegis_shemag_shades_tan$", 1.5,
+		"G_Shemag_tan", 1.5,
 		"CUP_G_Scarf_Face_Tan", 1
 	];
 
@@ -165,9 +165,9 @@ if !(_unitRole == "rm_mat") then
 			"B_FieldPack_khk", 1,
 			"B_Kitbag_tan", 1.5,
 			"pca_eagle_a3_tan", 2,
-			"aegis_kitbag_khk", 1.5,
+			"B_Kitbag_khk", 1.5,
 			"aegis_loadbearing_cbr", 0.5,
-			"aegis_tacticalpack_khk", 1.5,
+			"B_TacticalPack_khk", 1.5,
 			"tacpac_tan", 1.5,
 			"CUP_B_Bergen_BAF", 1.5
 		];
@@ -185,9 +185,9 @@ else
 		"B_FieldPack_khk", 1,
 		"B_Kitbag_tan", 1.5,
 		"pca_eagle_a3_tan", 2,
-		"aegis_kitbag_khk", 1.5,
+		"B_Kitbag_khk", 1.5,
 		"aegis_loadbearing_cbr", 0.5,
-		"aegis_tacticalpack_khk", 1.5,
+		"B_TacticalPack_khk", 1.5,
 		"tacpac_tan", 1.5,
 		"CUP_B_Bergen_BAF", 1.5
 	];

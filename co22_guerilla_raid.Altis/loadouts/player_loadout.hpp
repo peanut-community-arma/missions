@@ -22,11 +22,11 @@ class baseMan
 		"V_HarnessOGL_brn"
 	};
 	backpack[] = {
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	headgear[] = 
 	{
-		"aegis_beanie_red"
+		"H_Watchcap_red"
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -101,11 +101,11 @@ class ar : r
 	displayName = "Machinegunner";
 	vest[] = 
 	{
-		"usm_vest_lbe_machinegunner"
+		"V_Simc_56_60_ligt_zusp"
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	primaryWeapon[] = 
 	{
@@ -132,7 +132,7 @@ class aar : r
 	displayName = "Assistant MG";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	backpackItems[] += 
 	{
@@ -182,7 +182,7 @@ class rat : r
 	};
 	scope[] = 
 	{
-		"sma_acc_vortex_blk"
+		"$NONE_sma_acc_vortex_blk$"
 	};
 	sidearmWeapon[] =
 	{
@@ -203,7 +203,7 @@ class aamr : r
 	displayName = "assistant anti-material rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	magazines[] +=
 	{

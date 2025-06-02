@@ -25,15 +25,15 @@ _unit setVariable ["startPos", getPosASL _unit];
 private _itemGear = 
 [
 	//Uniform
-	"aegis_rbd_od",
-	"aegis_ubacs_cu_sgg",
+	"Atlas_U_O_Afghanka_01_grn_F",
+	"U_B_UBACS_tna_f",
 	"usp_softshell_g3c_kp_mx_cbr",
 	
 	//Vest
-	"aegis_condor_carrier_heavy_cbr",
-	"aegis_condor_carrier_heavy_oli",
-	"aegis_condor_carrier_lite_oli",
-	"aegis_condor_carrier_lite_cbr",
+	"V_CarrierRigKBT_01_heavy_Khaki_F",
+	"V_CarrierRigKBT_01_heavy_Olive_F",
+	"V_CarrierRigKBT_01_light_Olive_F",
+	"V_CarrierRigKBT_01_light_Khaki_F",
 	//Headgear
 	"H_HelmetSpecB",
 	"H_HelmetSpecB_paint2",
@@ -185,10 +185,10 @@ private _itemEng =
 private _itemAcc = 
 [
 	//Optic
-	"rksl_optic_eot552_c",
-	"rksl_optic_eot552x_c",
-	"sma_acc_eotech_xps3_tan",
-	"aegis_acc_lrco_sand",
+	"$NONE_rksl_optic_eot552_c$",
+	"$NONE_rksl_optic_eot552x_c$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
+	"optic_LRCO_snd_F",
 	//Grip
 	"rhsusf_acc_grip1",
 	"rhsusf_acc_grip2",

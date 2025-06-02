@@ -177,7 +177,7 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "mg") : 
 	{
-		private _weapon = "hlc_lmg_mg3kws";
+		private _weapon = "CUP_lmg_MG3_rail";
 		private _weaponMag = "hlc_100Rnd_762x51_B_MG3";
 		
 		_unit addWeapon _weapon;

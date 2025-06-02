@@ -15095,7 +15095,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -15446,7 +15446,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -15978,7 +15978,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -16329,7 +16329,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -17001,7 +17001,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -17352,7 +17352,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -17884,7 +17884,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -18235,7 +18235,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -18924,7 +18924,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -19275,7 +19275,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -19807,7 +19807,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -20158,7 +20158,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -20830,7 +20830,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -21181,7 +21181,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -21713,7 +21713,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -22064,7 +22064,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -40465,7 +40465,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="fwa_weap_rpd";
+																							value="$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -40816,7 +40816,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="fwa_weap_mosin_m91";
+																							value="CUP_srifle_Mosin_Nagant";
 																						};
 																					};
 																					class Item1

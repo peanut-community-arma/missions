@@ -60,7 +60,7 @@ class rm : baseMan
 	uniform[] = 
 	{
 		"U_C_Man_casual_3_F",
-		"aegis_merc_polo_blu",
+		"U_B_ION_Uniform_01_poloshirt_blue_F",
 		"U_Rangemaster"
 	};
 	vest[] = 
@@ -80,11 +80,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_tar21_blk"
+		"arifle_TRG21_black_F"
 	};
 	scope[] = 
 	{
-		"sma_acc_eotech_xps3_blk"
+		"$NONE_sma_acc_eotech_xps3_blk$"
 	};
 	secondaryWeapon[] =
 	{
@@ -217,8 +217,8 @@ class crewman : rm
 	displayName = "Manager";
 	uniform[] =
 	{
-		"aegis_suit_formal_bluecheck",
-		"aegis_suit_formal_blue"
+		"U_C_Uniform_Formal_01_blue_F",
+		"U_C_Uniform_Formal_01_blue_F"
 	};
 };
 

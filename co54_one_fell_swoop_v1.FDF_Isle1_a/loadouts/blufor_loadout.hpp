@@ -61,7 +61,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sks"
+		"Opf_arifle_SKS_F"
 	};
 	items[] =
 	{
@@ -94,7 +94,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_akm",
+		"CUP_arifle_AKM_Early",
 		"CUP_arifle_AKMS_Early",
 		"CUP_arifle_AKM"
 	};
@@ -150,7 +150,7 @@ class gren : ar
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_akm_gp25"
+		"CUP_arifle_AKM_GL_Early"
 	};
 	backpackItems[] = 
 	{
@@ -218,7 +218,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_akm"
+		"CUP_arifle_AKM_Early"
 	};
 	backpackItems[] =
 	{

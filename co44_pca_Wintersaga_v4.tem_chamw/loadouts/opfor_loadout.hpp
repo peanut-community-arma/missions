@@ -77,9 +77,9 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_worn",
-		"hlc_rifle_aks74",
+		"CUP_arifle_AK74_Early",
+		"$NONE_hlc_rifle_ak74_worn$",
+		"CUP_arifle_AKS74_Early",
 	};
 
 	magazines[] = 
@@ -95,7 +95,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk74"
+		"CUP_arifle_RPK74_45"
 	};
 	vest[] = 
 	{
@@ -170,7 +170,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aks74_gp25",
+		"CUP_arifle_AKS74_GL_Early",
 		
 	};
 	magazines[] += 
@@ -227,7 +227,7 @@ class crewman : rm
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aks74u"
+		"CUP_arifle_AKS74U"
 	};
 	scope[] = {};
 	magazines[] = 

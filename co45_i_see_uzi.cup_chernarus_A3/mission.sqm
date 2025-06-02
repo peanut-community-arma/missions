@@ -55186,7 +55186,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "fwa_weap_uzi";
+																									value = "CUP_smg_UZI";
 																								};
 																							};
 																							class Item1
@@ -55321,7 +55321,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "fwa_acc_uzi_suppressor";
+																									value = "CUP_muzzle_snds_UZI";
 																								};
 																							};
 																							class Item1
@@ -58239,7 +58239,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "fwa_weap_uzi";
+																									value = "CUP_smg_UZI";
 																								};
 																							};
 																							class Item1
@@ -58374,7 +58374,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "fwa_acc_uzi_suppressor";
+																									value = "CUP_muzzle_snds_UZI";
 																								};
 																							};
 																							class Item1
@@ -59654,7 +59654,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_tacvest_blk";
+																									value = "V_TacVest_blk";
 																								};
 																							};
 																							class Item1
@@ -59708,7 +59708,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_chestrig_blk";
+																									value = "V_ChestrigF_blk";
 																								};
 																							};
 																							class Item1
@@ -59789,7 +59789,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_assaultpack_blk";
+																									value = "B_AssaultPack_blk";
 																								};
 																							};
 																							class Item1
@@ -59816,7 +59816,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_carryall_blk";
+																									value = "B_Carryall_blk";
 																								};
 																							};
 																							class Item1
@@ -59924,7 +59924,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_boonie_blk";
+																									value = "H_Booniehat_blk";
 																								};
 																							};
 																							class Item1
@@ -59951,7 +59951,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_beanie_blk";
+																									value = "H_Watchcap_blk";
 																								};
 																							};
 																							class Item1
@@ -59978,7 +59978,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_cap_headphones_blk";
+																									value = "H_Cap_headphones_blk";
 																								};
 																							};
 																							class Item1

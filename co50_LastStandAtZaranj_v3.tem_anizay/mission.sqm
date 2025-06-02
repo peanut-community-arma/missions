@@ -4634,7 +4634,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "fwa_weap_fn49";
+								name = "sp_fwa_fn49";
 								class primaryMuzzleMag
 								{
 									name = "fwa_10rnd_762x63_fn49";
@@ -4719,7 +4719,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_pasgt_oli";
+							headgear = "H_PASGT_basic_olive_F";
 						};
 					};
 					id = 28;
@@ -11101,7 +11101,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "fwa_weap_sks";
+																							value = "Opf_arifle_SKS_F";
 																						};
 																					};
 																					class Item1
@@ -11731,7 +11731,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "fwa_weap_type56";
+																							value = "CUP_arifle_TYPE_56_2_Early";
 																						};
 																					};
 																					class Item1
@@ -16547,7 +16547,7 @@ class Mission
 									{
 										type[] = {"STRING"};
 									};
-									value = "[[[[""pca_weap_qbz95"",""aegis_weap_rpg32_camo"",""hgun_Rook40_F""],[4,2,4]],[[""ACE_30Rnd_580x42_Mag_red"",""16Rnd_9x21_Mag""],[40,20]],[[],[]],[[],[]]],false]";
+									value = "[[[[""pca_weap_qbz95"",""$NONE_aegis_weap_rpg32_camo$"",""hgun_Rook40_F""],[4,2,4]],[[""ACE_30Rnd_580x42_Mag_red"",""16Rnd_9x21_Mag""],[40,20]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -17016,7 +17016,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "fwa_weap_type56";
+																					value = "CUP_arifle_TYPE_56_2_Early";
 																				};
 																			};
 																			class Item1
@@ -36526,7 +36526,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "fwa_weap_sks";
+																							value = "Opf_arifle_SKS_F";
 																						};
 																					};
 																					class Item1
@@ -38626,7 +38626,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "fwa_weap_sks";
+																							value = "Opf_arifle_SKS_F";
 																						};
 																					};
 																					class Item1

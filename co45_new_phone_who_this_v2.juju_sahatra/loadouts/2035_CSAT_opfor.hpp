@@ -65,7 +65,7 @@ class rm : baseMan
 	uniform[] = 
 	{
 		"U_O_CombatUniform_ocamo",
-		"aegis_csat_acu_dhex"
+		"U_O_CombatUniform_oicamo"
 	};
 	vest[] = 
 	{
@@ -79,7 +79,7 @@ class rm : baseMan
 	goggles[] =
 	{
 		LIST_7(""),
-		"aegis_shemagh_loop_coy",
+		"G_Shemag_tan",
 		"milgp_f_face_shield_shemagh_khk",
 		"CUP_G_Scarf_Face_Tan",
 		"milgp_f_tactical_khk"		
@@ -226,12 +226,12 @@ class vp : rm
 	displayName = "Viper Operative";
 	uniform[] =
 	{
-		"aegis_csat_viper_desert"
+		"U_O_V_Soldier_Viper_oicamo_F"
 	};
 	vest[] = {""};
 	headgear[] = 
 	{
-		"aegis_vipersp_desert"
+		"H_HelmetO_ViperSP_oicamo_F"
 	};
 	backpack[] =
 	{

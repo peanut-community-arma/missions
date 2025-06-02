@@ -6408,9 +6408,9 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_magpul556_blk";
+								name = "$NONE_hlc_rifle_magpul556_blk$";
 								optics = "CUP_optic_Eotech553_Black";
-								muzzle = "hlc_muzzle_rotex3p";
+								muzzle = "$NONE_hlc_muzzle_rotex3p$";
 								firemode = "hlc_rifle_magpul556_blk:Single";
 								class primaryMuzzleMag
 								{
@@ -27029,7 +27029,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""CUP_arifle_AKS_Gold"",""CUP_hgun_Mac10""],[1,1]],[[""CUP_30Rnd_762x39_AK47_M"",""CUP_30Rnd_45ACP_MAC10_M""],[8,10]],[[""wsx_helmet_pasgt_aaf"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
+									value = "[[[[""CUP_arifle_AKS_Gold"",""CUP_hgun_Mac10""],[1,1]],[[""CUP_30Rnd_762x39_AK47_M"",""CUP_30Rnd_45ACP_MAC10_M""],[8,10]],[[""H_HelmetIA"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
 								};
 							};
 						};
@@ -27124,7 +27124,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""CUP_hgun_Mac10"",""arifle_Mk20_plain_F"",""USSR_GuitarA""],[1,2,1]],[[""CUP_30Rnd_45ACP_MAC10_M"",""30Rnd_556x45_Stanag""],[10,12]],[[""wsx_helmet_pasgt_aaf"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
+									value = "[[[[""CUP_hgun_Mac10"",""arifle_Mk20_plain_F"",""USSR_GuitarA""],[1,2,1]],[[""CUP_30Rnd_45ACP_MAC10_M"",""30Rnd_556x45_Stanag""],[10,12]],[[""H_HelmetIA"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
 								};
 							};
 						};

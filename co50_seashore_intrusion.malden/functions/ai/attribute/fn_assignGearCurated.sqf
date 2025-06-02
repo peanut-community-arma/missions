@@ -32,7 +32,7 @@ removeGoggles _unit;
 _unit call pca_fnc_unlimitedAmmo;
 
 private _uniformPoolWeighted = "pca_uniform_m10_atacs_au";
-private _vestPoolWeighted = "wsx_vest_combat_khk";
+private _vestPoolWeighted = "V_TacVest_khk";
 
 private _headgearPoolWeighted = selectRandomWeighted
 [
@@ -50,14 +50,14 @@ private _backpackPoolWeighted = selectRandomWeighted
 [
 	"wsx_tacticalpack_ctan", 4,
 	"bear_sidor_tan", 3,
-	"wsx_eagle_a3_khk", 1
+	"pca_eagle_a3_khk", 1
 ];
 
 private _facewearPoolWeighted = selectRandomWeighted 
 [
-	"aegis_shemag_cbr", 1,
-	"aegis_shemag_tan", 2,
-	"aegis_shemagh_mesh_bge", 1,
+	"$NONE_aegis_shemag_cbr$", 1,
+	"G_Shemag_tan", 2,
+	"G_Shemag_tan", 1,
 	"CUP_TK_NeckScarf", 1
 ];
 
@@ -175,7 +175,7 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "ar") : 
 	{
-		private _weapon = "fwa_weap_rpd";
+		private _weapon = "$NONE_fwa_weap_rpd$";
 		private _weaponMag = "fwa_100rnd_762x39mm_rpd_mixed";
 		
 		_unit addWeapon _weapon;

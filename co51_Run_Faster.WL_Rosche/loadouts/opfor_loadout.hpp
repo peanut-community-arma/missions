@@ -86,7 +86,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk74"
+		"CUP_arifle_RPK74_45"
 	};
 	magazines[] = 
 	{

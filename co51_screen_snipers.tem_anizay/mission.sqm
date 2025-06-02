@@ -11189,7 +11189,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""hlc_rifle_scarl_std""],[2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[10,2,2,2,4]],[[""ACE_Can_RedGull""],[50]],[[],[]]],false]";
+											value = "[[[[""$NONE_hlc_rifle_scarl_std$""],[2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[10,2,2,2,4]],[[""ACE_Can_RedGull""],[50]],[[],[]]],false]";
 										};
 									};
 								};
@@ -13512,7 +13512,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_M136"",""hlc_rifle_scarl_std"",""rhs_weap_m32""],[2,2,1]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"",""rhsusf_mag_6Rnd_M576_Buckshot""],[2,10,4,20,20]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_M136"",""$NONE_hlc_rifle_scarl_std$"",""rhs_weap_m32""],[2,2,1]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"",""rhsusf_mag_6Rnd_M576_Buckshot""],[2,10,4,20,20]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -27078,7 +27078,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_M136"",""hlc_rifle_scarl_std"",""rhs_weap_m32""],[2,2,1]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"",""rhsusf_mag_6Rnd_M576_Buckshot""],[2,10,4,20,20]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_M136"",""$NONE_hlc_rifle_scarl_std$"",""rhs_weap_m32""],[2,2,1]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"",""rhsusf_mag_6Rnd_M576_Buckshot""],[2,10,4,20,20]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -27192,7 +27192,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_M136"",""hlc_rifle_scarl_std"",""rhs_weap_m32""],[2,2,1]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"",""rhsusf_mag_6Rnd_M576_Buckshot""],[2,10,4,20,20]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_M136"",""$NONE_hlc_rifle_scarl_std$"",""rhs_weap_m32""],[2,2,1]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"",""rhsusf_mag_6Rnd_M576_Buckshot""],[2,10,4,20,20]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -31577,7 +31577,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""hlc_rifle_scarl_std""],[2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[10,2,2,2,4]],[[""ACE_Can_RedGull""],[50]],[[],[]]],false]";
+											value = "[[[[""$NONE_hlc_rifle_scarl_std$""],[2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[10,2,2,2,4]],[[""ACE_Can_RedGull""],[50]],[[],[]]],false]";
 										};
 									};
 								};
@@ -32607,7 +32607,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -32701,7 +32701,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10]; " \n " _x addItemCargoGlobal [""HandGrenade"", 4]; " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10]; " \n " _x addItemCargoGlobal [""HandGrenade"", 4]; " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -32795,7 +32795,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -33561,7 +33561,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -33762,7 +33762,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -33870,7 +33870,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "_x setVehicleAmmo 0.6;" \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "_x setVehicleAmmo 0.6;" \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -33963,7 +33963,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""sma_weap_masada_blk"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""$NONE_sma_weap_masada_blk$"", 2]; " \n " _x addItemCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger"", 10];  _x addItemCargoGlobal [""HandGrenade"", 4]; " \n " _x addItemCargoGlobal [""rhs_weap_M136"",2];" \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -34727,7 +34727,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""hlc_rifle_bcm_jack300_blk_grip"",""hlc_rifle_bcm_jack300_blk_grip2""],[1,1]],[[""hlc_30Rnd_300BLK_PMAG""],[20]],[[""sma_acc_vortex_blk"",""ptv_acc_compm4s"",""CUP_NVG_GPNVG_black""],[2,2,12]],[[],[]]],false]";
+											value = "[[[[""hlc_rifle_bcm_jack300_blk_grip"",""hlc_rifle_bcm_jack300_blk_grip2""],[1,1]],[[""hlc_30Rnd_300BLK_PMAG""],[20]],[[""$NONE_sma_acc_vortex_blk$"",""ptv_acc_compm4s"",""CUP_NVG_GPNVG_black""],[2,2,12]],[[],[]]],false]";
 										};
 									};
 								};

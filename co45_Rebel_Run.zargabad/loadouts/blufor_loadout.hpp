@@ -61,7 +61,7 @@ class rm : baseMan
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_dl44"
+		"$NONE_hlc_pistol_dl44$"
 	};
 	items[] =
 	{
@@ -98,7 +98,7 @@ class ar : rm
 	};
 	scope[] = 
 	{
-		"fwa_acc_colt4x20"
+		"sp_fwa_scope_ar_colt4x20"
 	};
 	magazines[] = 
 	{

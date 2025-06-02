@@ -58132,7 +58132,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_sks";
+																							value = "Opf_arifle_SKS_F";
 																						};
 																					};
 																					class Item1
@@ -58240,7 +58240,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_akm";
+																							value = "CUP_arifle_AKM_Early";
 																						};
 																					};
 																					class Item1
@@ -58429,7 +58429,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_akm_gp25";
+																							value = "CUP_arifle_AKM_GL_Early";
 																						};
 																					};
 																					class Item1
@@ -59001,7 +59001,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_sks";
+																							value = "Opf_arifle_SKS_F";
 																						};
 																					};
 																					class Item1
@@ -59109,7 +59109,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_akm";
+																							value = "CUP_arifle_AKM_Early";
 																						};
 																					};
 																					class Item1
@@ -59298,7 +59298,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_akm_gp25";
+																							value = "CUP_arifle_AKM_GL_Early";
 																						};
 																					};
 																					class Item1
@@ -59775,7 +59775,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_sks";
+																							value = "Opf_arifle_SKS_F";
 																						};
 																					};
 																					class Item1
@@ -59883,7 +59883,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_akm";
+																							value = "CUP_arifle_AKM_Early";
 																						};
 																					};
 																					class Item1
@@ -60072,7 +60072,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_akm_gp25";
+																							value = "CUP_arifle_AKM_GL_Early";
 																						};
 																					};
 																					class Item1

@@ -89,7 +89,7 @@ class ar : rm
 	displayName = "(Takistani)Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	magazines[] = 
 	{
@@ -159,8 +159,8 @@ class rmS : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_3("aegis_specter_blk"),
-		LIST_1("aegis_specter_headset_blk")
+		LIST_3("H_HelmetSpecter_black_F"),
+		LIST_1("H_HelmetSpecter_black_headset_F")
 	};
 	backpack[] = 
 	{
@@ -168,11 +168,11 @@ class rmS : baseMan
 	};
 	goggles[] = 
 	{
-		"aegis_bala_light_gogg_blk"
+		"G_Balaclava_light_G_blk_F"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36ka3"
+		"CUP_arifle_G36KA3"
 	};
 	scope[] = 
 	{
@@ -191,7 +191,7 @@ class arS : rmS
 	displayName = "(Smaug)Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_zafir_blk"
+		"LMG_Zafir_black_F"
 	};
 	vest[] = 
 	{
@@ -210,7 +210,7 @@ class rmS_lat : rmS
 	displayName = "(Smaug)Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] += 
 	{
@@ -244,7 +244,7 @@ class heavyS : rmS
 	displayName = "(Smaug)Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36ka1_ksk_ag36"
+		"$NONE_hlc_rifle_g36ka1_ksk_ag36$"
 	};
 	vest[] = 
 	{

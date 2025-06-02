@@ -21,7 +21,7 @@ class baseMan
 	headgear[] = {
         LIST_8(""),
         LIST_4("bear_beanie_brown"),
-        LIST_2("aegis_cap_tourist"),
+        LIST_2("H_Cap_MaldenTours"),
         "H_Hat_grey"
     };
 	goggles[] = {
@@ -32,7 +32,7 @@ class baseMan
     };
 	hmd[] = {
         LIST_8(""),
-        "usm_nvg_scarf2"
+        "$NONE_usm_nvg_scarf2$"
     };
 	// Leave empty to not change faces and Insignias
 	faces[] = {"faceset:caucasian","B_female_bun_01","B_female_bun_03"};

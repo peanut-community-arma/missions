@@ -72,7 +72,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1"
+		"CUP_arifle_M4A1_black"
 	};
 	scope[] = 
 	{
@@ -180,7 +180,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1_m203"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	vest[] = 
 	{
@@ -224,7 +224,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1_m203"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	sidearmWeapon[] = 
 	{
@@ -269,7 +269,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1"
+		"CUP_arifle_M4A1_black"
 	};
 	backpackItems[] =
 	{

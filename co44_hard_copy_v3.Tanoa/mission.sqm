@@ -1819,7 +1819,7 @@ class Mission
 									watch = "ItemWatch";
 									radio = "ItemRadio";
 									gps = "ItemGPS";
-									goggles = "aegis_cigarette";
+									goggles = "G_Cigarette";
 									headgear = "simc_bush_hat_tie_og107";
 								};
 							};
@@ -3993,7 +3993,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_pink";
+																							value = "$NONE_hlc_rifle_acr_car_pink$";
 																						};
 																					};
 																					class Item1
@@ -4020,7 +4020,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_blk";
+																							value = "CUP_arifle_ACRC_blk_68";
 																						};
 																					};
 																					class Item1
@@ -4182,7 +4182,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25_pinktac";
+																							value = "$NONE_hlc_pistol_mk25_pinktac$";
 																						};
 																					};
 																					class Item1
@@ -4317,7 +4317,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_m203_blk";
+																							value = "CUP_arifle_ACRC_EGLM_blk_68";
 																						};
 																					};
 																					class Item1
@@ -4344,7 +4344,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_m203_pink";
+																							value = "$NONE_hlc_rifle_acr_car_m203_pink$";
 																						};
 																					};
 																					class Item1
@@ -4398,7 +4398,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_smg_mp5a4_10";
+																							value = "$NONE_hlc_smg_mp5a4_10$";
 																						};
 																					};
 																					class Item1
@@ -6212,7 +6212,7 @@ class Mission
 										{
 											class uniform
 											{
-												typeName = "aegis_suit_formal_white";
+												typeName = "U_C_Uniform_Formal_01_white_F";
 												isBackpack = 0;
 											};
 											map = "ItemMap";
@@ -6452,7 +6452,7 @@ class Mission
 										{
 											class uniform
 											{
-												typeName = "aegis_suit_formal_white";
+												typeName = "U_C_Uniform_Formal_01_white_F";
 												isBackpack = 0;
 											};
 											map = "ItemMap";
@@ -7737,7 +7737,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_car_pink";
+																					value = "$NONE_hlc_rifle_acr_car_pink$";
 																				};
 																			};
 																			class Item1
@@ -7764,7 +7764,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_car_blk";
+																					value = "CUP_arifle_ACRC_blk_68";
 																				};
 																			};
 																			class Item1
@@ -7926,7 +7926,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_pinktac";
+																					value = "$NONE_hlc_pistol_mk25_pinktac$";
 																				};
 																			};
 																			class Item1
@@ -8061,7 +8061,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_car_m203_blk";
+																					value = "CUP_arifle_ACRC_EGLM_blk_68";
 																				};
 																			};
 																			class Item1
@@ -8088,7 +8088,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_acr_car_m203_pink";
+																					value = "$NONE_hlc_rifle_acr_car_m203_pink$";
 																				};
 																			};
 																			class Item1
@@ -8142,7 +8142,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_smg_mp5a4_10";
+																					value = "$NONE_hlc_smg_mp5a4_10$";
 																				};
 																			};
 																			class Item1
@@ -23100,7 +23100,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_pink";
+																							value = "$NONE_hlc_rifle_acr_car_pink$";
 																						};
 																					};
 																					class Item1
@@ -23127,7 +23127,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_blk";
+																							value = "CUP_arifle_ACRC_blk_68";
 																						};
 																					};
 																					class Item1
@@ -23289,7 +23289,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25_pinktac";
+																							value = "$NONE_hlc_pistol_mk25_pinktac$";
 																						};
 																					};
 																					class Item1
@@ -23424,7 +23424,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_m203_blk";
+																							value = "CUP_arifle_ACRC_EGLM_blk_68";
 																						};
 																					};
 																					class Item1
@@ -23451,7 +23451,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_m203_pink";
+																							value = "$NONE_hlc_rifle_acr_car_m203_pink$";
 																						};
 																					};
 																					class Item1
@@ -23505,7 +23505,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_smg_mp5a4_10";
+																							value = "$NONE_hlc_smg_mp5a4_10$";
 																						};
 																					};
 																					class Item1
@@ -25176,7 +25176,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_pink";
+																							value = "$NONE_hlc_rifle_acr_car_pink$";
 																						};
 																					};
 																					class Item1
@@ -25203,7 +25203,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_blk";
+																							value = "CUP_arifle_ACRC_blk_68";
 																						};
 																					};
 																					class Item1
@@ -25365,7 +25365,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25_pinktac";
+																							value = "$NONE_hlc_pistol_mk25_pinktac$";
 																						};
 																					};
 																					class Item1
@@ -25500,7 +25500,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_m203_blk";
+																							value = "CUP_arifle_ACRC_EGLM_blk_68";
 																						};
 																					};
 																					class Item1
@@ -25527,7 +25527,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_acr_car_m203_pink";
+																							value = "$NONE_hlc_rifle_acr_car_m203_pink$";
 																						};
 																					};
 																					class Item1
@@ -25581,7 +25581,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_smg_mp5a4_10";
+																							value = "$NONE_hlc_smg_mp5a4_10$";
 																						};
 																					};
 																					class Item1

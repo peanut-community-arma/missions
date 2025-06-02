@@ -24623,7 +24623,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "aegis_weap_sa80_blk";
+																			value = "arifle_SA80_blk_F";
 																		};
 																	};
 																	class Item1
@@ -24866,7 +24866,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "aegis_weap_sa80_eglm_blk";
+																			value = "arifle_SA80_GL_blk_F";
 																		};
 																	};
 																	class Item1

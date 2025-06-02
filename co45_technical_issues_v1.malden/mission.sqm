@@ -1143,7 +1143,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "fwa_weap_ar10_prt";
+								name = "sp_fwa_ar10_porto";
 								firemode = "fwa_weap_ar10_prt:Single";
 								class primaryMuzzleMag
 								{

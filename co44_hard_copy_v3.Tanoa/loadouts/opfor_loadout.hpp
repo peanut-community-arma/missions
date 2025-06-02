@@ -112,7 +112,7 @@ class tl : rm
 	goggles[] = 
 	{
 		"G_Sport_Red",
-		"aegis_shemag_shades_cbr"
+		"G_Shemag_shades"
 	};
 	headgear[] =
 	{

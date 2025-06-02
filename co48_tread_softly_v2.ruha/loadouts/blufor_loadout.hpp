@@ -55,19 +55,19 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"wsx_mich_norotos_spray_3"
+		"CUP_H_USArmy_Helmet_ECH1_Sand"
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_enh_rgr"
+		"B_AssaultPackSpec_rgr"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_xm8_carbine"
+		"CUP_arifle_XM8_Carbine"
 	};
 	scope[] = 
 	{
-		"hlc_optic_rco_pcap"
+		"$NONE_hlc_optic_rco_pcap$"
 	};
 	linkedItems[] +=
 	{
@@ -104,7 +104,7 @@ class ar : rm
 	};
 	scope[] = 
 	{
-		"hlc_optic_amo_pcap"
+		"$NONE_hlc_optic_amo_pcap$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -158,7 +158,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_xm8_carbine_xm320"
+		"CUP_arifle_XM8_Carbine_GL"
 	};
 	backpackItems[] = 
 	{
@@ -192,7 +192,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_xm8_carbine_xm320"
+		"CUP_arifle_XM8_Carbine_GL"
 	};
 	sidearmWeapon[] = 
 	{
@@ -235,7 +235,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_xm8_carbine"
+		"CUP_arifle_XM8_Carbine"
 	};
 	backpackItems[] =
 	{
@@ -444,11 +444,11 @@ class crew : rm
 	traits[] = {"engineer"};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_xm8_compact"
+		"CUP_arifle_XM8_Compact"
 	};
 	sidearmWeapon[] =
 	{
-		"aegis_weap_cc2_blk"
+		"hgun_ACPC2_black_F"
 	};
 	headgear[] = 
 	{

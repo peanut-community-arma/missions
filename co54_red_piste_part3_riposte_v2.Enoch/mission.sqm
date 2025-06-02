@@ -1276,7 +1276,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -1573,7 +1573,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -1600,7 +1600,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -1735,7 +1735,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -1870,7 +1870,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -1897,7 +1897,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -8840,7 +8840,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -8906,7 +8906,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -9284,7 +9284,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -9350,7 +9350,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -9728,7 +9728,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -9794,7 +9794,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -20499,7 +20499,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -20565,7 +20565,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -20940,7 +20940,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -21006,7 +21006,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -21381,7 +21381,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -21447,7 +21447,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -21822,7 +21822,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -21888,7 +21888,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -25982,7 +25982,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -26048,7 +26048,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -28240,7 +28240,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -28306,7 +28306,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -30638,7 +30638,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -30704,7 +30704,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -32472,7 +32472,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -32538,7 +32538,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -40605,7 +40605,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -40671,7 +40671,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -41046,7 +41046,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -41112,7 +41112,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -41488,7 +41488,7 @@ class Mission
 											};
 											class uniform
 											{
-												typeName = "wsx_uniform_gorka_emr";
+												typeName = "CUP_U_O_RUS_Soldier_Gorka_EMR_1";
 												isBackpack = 0;
 												class ItemCargo
 												{
@@ -41554,7 +41554,7 @@ class Mission
 											};
 											class backpack
 											{
-												typeName = "wsx_umbts_emr";
+												typeName = "rhs_rk_sht_30_emr";
 												isBackpack = 1;
 											};
 											map = "ItemMap";
@@ -51911,7 +51911,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -52208,7 +52208,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -52235,7 +52235,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -52370,7 +52370,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -52505,7 +52505,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -52532,7 +52532,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -53309,7 +53309,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -53606,7 +53606,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -53633,7 +53633,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -53768,7 +53768,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -53903,7 +53903,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -53930,7 +53930,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -55306,7 +55306,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -55603,7 +55603,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -55630,7 +55630,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -55765,7 +55765,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -55900,7 +55900,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -55927,7 +55927,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -56575,7 +56575,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -56872,7 +56872,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -56899,7 +56899,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -57034,7 +57034,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -57169,7 +57169,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -57196,7 +57196,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1

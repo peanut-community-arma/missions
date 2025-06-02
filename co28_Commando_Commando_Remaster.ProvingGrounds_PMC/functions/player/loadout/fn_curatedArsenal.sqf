@@ -91,9 +91,9 @@ private _itemBackpack =
 	"pca_backpack_invisible_large",
 	
 	//Aegis
-	"aegis_assaultpack_auscam",
-	"aegis_kitbag_auscam",
-	"aegis_tacticalpack_auscam"
+	"B_AssaultPack_aucamo_F",
+	"B_Kitbag_aucamo_F",
+	"B_Kitbag_aucamo_F"
 ];
 
 //Cosmetic 
@@ -144,23 +144,23 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 
 	//Aegis
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_headset",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"G_Headset_light",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
 	
 	//PCA
 	"pca_balaclava_ocp",
@@ -216,10 +216,10 @@ private _itemCosmetic =
 	"milgp_f_tactical_khk",
 
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 
 	//CUP
 	//Bala
@@ -366,25 +366,25 @@ private _itemAcc =
 	"rhsusf_acc_t1_low",
 	
 	//SMA
-	"sma_acc_barska_rds",
-	"sma_acc_cmore_blk",
-	"sma_acc_eotech_552_blk",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_tan",
-	"sma_acc_micro_t2",
-	"sma_acc_micro_t2_low",
-	"sma_acc_vortex_blk",
-	"sma_acc_vortex_lc_blk",
+	"$NONE_sma_acc_barska_rds$",
+	"$NONE_sma_acc_cmore_blk$",
+	"$NONE_sma_acc_eotech_552_blk$",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_micro_t2_low$",
+	"$NONE_sma_acc_vortex_blk$",
+	"$NONE_sma_acc_vortex_lc_blk$",
 	
 	//PCA
 	"ptv_acc_compm4s",
 	"ptv_acc_eot552",
 	"ptv_acc_t1",
 	"ptv_acc_t1_low",
-	"rksl_optic_eot552",
-	"rksl_optic_eot552x",
+	"$NONE_rksl_optic_eot552$",
+	"$NONE_rksl_optic_eot552x$",
 	
 	//CUP
 	"cup_optic_ac11704_black",
@@ -456,14 +456,14 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_auga3_blk",
-	"hlc_rifle_auga3_tan"
+	"$NONE_hlc_rifle_auga3_blk$",
+	"$NONE_hlc_rifle_auga3_tan$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_auga3_m203_blk",
-	"hlc_rifle_auga3_m203_tan"
+	"$NONE_hlc_rifle_auga3_m203_blk$",
+	"$NONE_hlc_rifle_auga3_m203_tan$"
 ];
 
 private _itemWeapAR = 

@@ -8,11 +8,11 @@ class baseMan
 	displayName = "Unarmed";
 	uniform[] = 
 	{
-		"usm_bdu_wdl",
-		"usm_bdu_btisrl_wdl",
-		"usm_bdu_bti_wdl",
-		"usm_bdu_srl_wdl",
-		"usm_bdum65_wdl"
+		"$NONE_usm_bdu_wdl$",
+		"$NONE_usm_bdu_btisrl_wdl$",
+		"$NONE_usm_bdu_bti_wdl$",
+		"$NONE_usm_bdu_srl_wdl$",
+		"$NONE_usm_bdum65_wdl$"
 	};
 	vest[] = {};
 	backpack[] = {};
@@ -63,8 +63,8 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ceswd_wdl",
-		"usm_helmet_pasgt_rm_wdl"
+		"$NONE_usm_helmet_pasgt_ceswd_wdl$",
+		"CUP_H_PASGTv2_NVG_WDL"
 	};
 	primaryWeapon[] = 
 	{
@@ -345,11 +345,11 @@ class crew : rm
 	traits[] = {"engineer"};
 	uniform[] = 
 	{
-		"usm_bdu_odg",
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_bti_odg",
-		"usm_bdu_srh_odg",
-		"usm_bdu_srl_odg"
+		"CUP_U_B_BDUv2_OD",
+		"$NONE_usm_bdu_btisrl_odg$",
+		"$NONE_usm_bdu_bti_odg$",
+		"CUP_U_B_BDUv2_roll2_OD",
+		"CUP_U_B_BDUv2_roll_OD_US"
 	};
 	vest[] = 
 	{
@@ -426,6 +426,6 @@ class vip : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 };

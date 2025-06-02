@@ -29,7 +29,7 @@ private _itemGear =
 	//Uniform 
 	"bear_uniform_cup_paramilitary_clothes_dbdu",
 	"CUP_I_B_PARA_Unit_7",
-	"wsx_uniform_combat_6cd",
+	"CUP_U_B_BDUv2_desert",
 	"CUP_I_B_PARA_Unit_6",
 	"CUP_I_B_PARA_Unit_5",
 	
@@ -87,7 +87,7 @@ private _itemGearLeader =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh2_gogg_tan",
 	"milgp_f_goggles_khk",
-	"pca_nvg_tactical_goggles",
+	"$NONE_pca_nvg_tactical_goggles$",
 	"rhs_ess_black",
 	"rhs_googles_black",
 	"rhs_googles_clear"
@@ -120,7 +120,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -148,12 +148,12 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
 	"G_Bandanna_shades",
 	"G_Bandanna_tan",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"CUP_Beard_Black",
 	"CUP_Beard_Brown",
@@ -173,12 +173,12 @@ private _itemCosmetic =
 	"simc_bandoleer_duplet",
 	//NVG-slot
 	"pca_nvg_cigarette",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"pca_nvg_shemagh_lowered_khk",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
@@ -289,7 +289,7 @@ private _itemWeapRifle =
 private _itemWeapRifleUGL = 
 [
 	"CUP_arifle_AKMS_GL_Early",
-	"CUP_arifle_AKMN_GL_Early"
+	"CUP_arifle_AKM_GL"
 ];
 
 private _itemWeapAR = 

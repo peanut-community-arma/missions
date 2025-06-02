@@ -28744,7 +28744,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_aur90_tan";
+																					value = "arifle_AUG_F";
 																				};
 																			};
 																			class Item1
@@ -29041,7 +29041,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_aur90_eglm_tan";
+																					value = "arifle_AUG_GL_F";
 																				};
 																			};
 																			class Item1
@@ -37724,7 +37724,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_aur90_tan";
+																							value = "arifle_AUG_F";
 																						};
 																					};
 																					class Item1
@@ -38021,7 +38021,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_aur90_eglm_tan";
+																							value = "arifle_AUG_GL_F";
 																						};
 																					};
 																					class Item1

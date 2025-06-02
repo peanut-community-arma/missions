@@ -64,7 +64,7 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"TC_Helmet_Antlers_1",
+	"$NONE_TC_Helmet_Antlers_1$",
 	"TC_Helmet_Hat_Santa1_Bi1",
 	"TC_Helmet_Hat_Santa1_BluePattern1",
 	"TC_Helmet_Hat_Santa1_Buffalo1",
@@ -79,16 +79,16 @@ private _itemHeadgear =
 	"TC_Helmet_Hat_Santa1",
 	"TC_Helmet_Hat_Santa1_Stealth1",
 	"TC_Helmet_Hat_Santa1_Trans1",
-	"TC_G_Helmet_Antlers_1",
-	"TC_G_Hat_Antlers_1_Accessory_Lights_1",
-	"TC_G_Hat_Antlers_1_Accessory_Netting_1",
-	"TC_G_Headgear_ReindeerNose_1_Glow",
-	"TC_G_Headgear_ReindeerNose_1_Red",
-	"TC_NVG_Antlers_1",
-	"TC_NVG_Hat_Antlers_1_Accessory_Lights_1",
-	"TC_NVG_Hat_Antlers_1_Accessory_Netting_1",
-	"TC_NVG_Headgear_ReindeerNose_1_Glow",
-	"TC_NVG_Headgear_ReindeerNose_1_Red"
+	"$NONE_TC_G_Helmet_Antlers_1$",
+	"$NONE_TC_G_Hat_Antlers_1_Accessory_Lights_1$",
+	"$NONE_TC_G_Hat_Antlers_1_Accessory_Netting_1$",
+	"$NONE_TC_G_Headgear_ReindeerNose_1_Glow$",
+	"$NONE_TC_G_Headgear_ReindeerNose_1_Red$",
+	"$NONE_TC_NVG_Antlers_1$",
+	"$NONE_TC_NVG_Hat_Antlers_1_Accessory_Lights_1$",
+	"$NONE_TC_NVG_Hat_Antlers_1_Accessory_Netting_1$",
+	"$NONE_TC_NVG_Headgear_ReindeerNose_1_Glow$",
+	"$NONE_TC_NVG_Headgear_ReindeerNose_1_Red$"
 ];
 
 private _itemHeadgearCrew = 
@@ -136,10 +136,10 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"pca_bandana_mcalp",
 	"pca_bandana_mcb",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -153,18 +153,18 @@ private _itemCosmetic =
 	"milgp_f_face_shield_shemagh_blk",
 	"milgp_f_face_shield_tactical_blk",
 	"milgp_f_face_shield_tactical_shemagh_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"G_Shades_Black",
 	"G_Shades_Blue",
 	"G_Shades_Green",
 	
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
 	"rhsusf_shemagh_white",
 	"rhsusf_shemagh2_white",
 	"rhsusf_shemagh_gogg_white",
@@ -175,8 +175,8 @@ private _itemCosmetic =
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
-	"aegis_bala_ti_sand",
-	"aegis_bala_ti_gogg_sand",
+	"G_Balaclava_TI_alt_F",
+	"G_Balaclava_TI_G_alt_F",
 	"murshun_cigs_cigpack",
 	"murshun_cigs_lighter",
 	"NVGogglesB_gry_F",
@@ -257,7 +257,7 @@ private _itemAcc =
 	"ace_optic_hamr_2d",
 	"rhsusf_acc_acog",
 	"rhsusf_acc_acog_rmr",
-	"sma_acc_elcan_specter_blk",
+	"$NONE_sma_acc_elcan_specter_blk$",
 	"cup_optic_elcan_specterdr_black",
 	"cup_optic_elcan_specterdr_rmr_black",
 	"rhsusf_acc_su230a",
@@ -279,26 +279,26 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_acr_sbr_blk",
-	"hlc_rifle_acr_sbr_pink",
-	"hlc_rifle_acr_car_blk",
-	"hlc_rifle_acr_car_pink",
-	"hlc_rifle_acr_iar_blk",
-	"hlc_rifle_acr_iar_pink",
-	"hlc_rifle_acr_dmr_blk",
-	"hlc_rifle_acr_dmr_pink"
+	"$NONE_hlc_rifle_acr_sbr_blk$",
+	"$NONE_hlc_rifle_acr_sbr_pink$",
+	"CUP_arifle_ACRC_blk_68",
+	"$NONE_hlc_rifle_acr_car_pink$",
+	"$NONE_hlc_rifle_acr_iar_blk$",
+	"$NONE_hlc_rifle_acr_iar_pink$",
+	"$NONE_hlc_rifle_acr_dmr_blk$",
+	"$NONE_hlc_rifle_acr_dmr_pink$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_acr_sbr_m203_blk",
-	"hlc_rifle_acr_sbr_m203_pink",
-	"hlc_rifle_acr_car_m203_blk",
-	"hlc_rifle_acr_car_m203_pink",
-	"hlc_rifle_acr_iar_m203_blk",
-	"hlc_rifle_acr_iar_m203_pink",
-	"hlc_rifle_acr_dmr_m203_blk",
-	"hlc_rifle_acr_dmr_m203_pink"
+	"$NONE_hlc_rifle_acr_sbr_m203_blk$",
+	"$NONE_hlc_rifle_acr_sbr_m203_pink$",
+	"CUP_arifle_ACRC_EGLM_blk_68",
+	"$NONE_hlc_rifle_acr_car_m203_pink$",
+	"$NONE_hlc_rifle_acr_iar_m203_blk$",
+	"$NONE_hlc_rifle_acr_iar_m203_pink$",
+	"$NONE_hlc_rifle_acr_dmr_m203_blk$",
+	"$NONE_hlc_rifle_acr_dmr_m203_pink$"
 ];
 
 private _itemWeapAR = 

@@ -175,24 +175,24 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	
 	//Aegis
-	"aegis_bala_light_blk",
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
+	"G_Balaclava_light_blk_F",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
 	
 	//Bearskin
 	"bear_balaclava1_black",
 	
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	
 	//Military Gear Packs
 	"milgp_f_face_shield_blk",
@@ -229,22 +229,22 @@ private _itemCosmetic =
 	"CUP_TK_NeckScarf",
 	
 	//PCA
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_ess_blk",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_face_shield_shemagh_rgr",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
 	"pca_nvg_shemagh_lowered_khk",
 	"pca_nvg_shemagh_lowered_oli",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_tactical_goggles"
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_tactical_goggles$"
 	
 ];
 
@@ -324,17 +324,17 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_ak12"
+	"arifle_AK12_545_F"
 ];
 
 private _itemWeapCarbine = 
 [
-	"hlc_rifle_aku12"
+	"arifle_AK12U_545_F"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_ak12_gp25"
+	"arifle_AK12_GL_545_F"
 ];
 
 private _itemWeapAR = 

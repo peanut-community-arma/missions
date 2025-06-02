@@ -31,20 +31,20 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"usm_bdu_bnu_tan",
-	"usm_bdu_bnu_dcu2",
-	"usm_bdu_srl_dcu2",
-	"usm_bdu_srh_dcu2",
-	"usm_bdu_bti_dcu2"
+	"$NONE_usm_bdu_bnu_tan$",
+	"CUP_U_B_BDUv2_roll_DCU_US",
+	"$NONE_usm_bdu_srl_dcu2$",
+	"$NONE_usm_bdu_srh_dcu2$",
+	"$NONE_usm_bdu_bti_dcu2$"
 ];
 
 private _itemUniformCrew = 
 [
-	"usm_bdu_bnu_tan",
-	"usm_bdu_bnu_dcu2",
-	"usm_bdu_srl_dcu2",
-	"usm_bdu_srh_dcu2",
-	"usm_bdu_bti_dcu2"
+	"$NONE_usm_bdu_bnu_tan$",
+	"CUP_U_B_BDUv2_roll_DCU_US",
+	"$NONE_usm_bdu_srl_dcu2$",
+	"$NONE_usm_bdu_srh_dcu2$",
+	"$NONE_usm_bdu_bti_dcu2$"
 ];
 
 private _itemUniformPilot = 
@@ -79,7 +79,7 @@ private _itemHeadgear =
 	"usp_cap_ct_tan",
 	"usp_cap_ct_tsd",
 	"usp_cap_ct_dcu",
-	"usm_bdu_boonie_tan"
+	"H_Booniehat_tan"
 ];
 
 private _itemHeadgearCrew = 
@@ -116,16 +116,16 @@ private _itemCosmetic =
 	"bear_balaclava1_black",
 	"G_Balaclava_blk",
 	"rhs_balaclava1_olive",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"rhs_googles_black",
 	"rhs_googles_clear",
 	"rhs_googles_yellow",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_khk",
-	"usm_kneepads_blk",
-	"usm_kneepads_safariland",
+	"$NONE_usm_kneepads_blk$",
+	"$NONE_usm_kneepads_safariland$",
 	"CUP_G_ESS_CBR_Ember",
 	"CUP_G_ESS_CBR_Dark",
 	"CUP_G_ESS_CBR",
@@ -215,12 +215,12 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m16a3"
+	"sp_fwa_ar15_646_a3"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m16a3_m203s"
+	"sp_fwa_ar15_646_m16a3_m203"
 ];
 
 private _itemWeapAR = 

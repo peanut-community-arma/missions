@@ -52,27 +52,27 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_csat_cu_blk"
+		"U_O_SpecopsUniform_blk"
 	};
 	vest[] = 
 	{
-		LIST_4("aegis_modular_carrier_lite_blk"),
-		"aegis_modular_carrier_heavy_blk"
+		LIST_4("V_CarrierRigKBT_01_light_Black_F"),
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
-		LIST_3("aegis_protector_blk"),
-		LIST_2("aegis_defender_blk")
+		LIST_3("H_HelmetO_blk"),
+		LIST_2("H_HelmetLeaderO_blk")
 	};
 	backpack[] = 
 	{
 		LIST_7("pca_backpack_invisible"),
-		LIST_2("aegis_assaultpack_blk"),
+		LIST_2("B_AssaultPack_blk"),
 		"pca_eagle_a3_blk"
 	};
 	goggles[] = 
 	{
-		"aegis_bala_light_gogg_blk"
+		"G_Balaclava_light_G_blk_F"
 	};
 	hmd[] = 
 	{
@@ -80,7 +80,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] = 
 	{
@@ -160,7 +160,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ak12_gp34"
+		"arifle_AK12_GL_545_F"
 	};
 	magazines[] += 
 	{

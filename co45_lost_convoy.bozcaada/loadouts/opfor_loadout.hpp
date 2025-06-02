@@ -63,13 +63,13 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_mch_racs"
+		"H_O_Helmet_canvas_RACS"
 	};
 	backpack[] = 
 	{
 		LIST_3(""),
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	primaryWeapon[] = 
 	{
@@ -127,7 +127,7 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	secondaryWeapon[] = 
 	{
@@ -163,7 +163,7 @@ class medic : rm
 	backpack[] = 
 	{
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	backpackItems[] = 
 	{

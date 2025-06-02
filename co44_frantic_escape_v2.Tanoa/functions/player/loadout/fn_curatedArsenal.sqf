@@ -31,31 +31,31 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"aegis_ccu_tropic",
-	"aegis_ccu_cu_tropic",
-	"aegis_ccu_rs_tropic"
+	"U_B_T_Soldier_F",
+	"Atlas_U_B_T_JSOC_StealthUniform_F",
+	"U_B_T_Soldier_SL_F"
 ];
 
 //Vest
 private _itemVest = 
 [
-	"aegis_platecarrier_rig_tropic"
+	"V_PlateCarrier2_tna_F"
 ];
 
 //Headgear 
 private _itemHeadgear = 
 [
-	"aegis_bandana_tropic",
-	"aegis_boonie_tropic",
+	"H_Bandanna_tna_F",
+	"H_Booniehat_tna_F",
 	"H_Cap_grn",
-	"aegis_ech_enh_tropic",
-	"aegis_milcap_tropic"
+	"H_HelmetB_Enh_tna_F",
+	"H_MilCap_tna_F"
 ];
 
 //Backpack 
 private _itemBackpack = 
 [
-	"aegis_assaultpack_tropic"
+	"B_AssaultPack_tna_F"
 ];
 
 //Cosmetic 
@@ -104,25 +104,25 @@ private _itemCosmetic =
 	"G_Tactical_Clear",
 	"G_Tactical_Black",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_cigarette",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemagh_loop_white",
-	"aegis_shemagh_mesh_bge",
-	"aegis_shemagh_mesh_white",
-	"aegis_shades_yellow",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
-	"aegis_tactical_yellow",
-	"aegis_tactical_camo",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Cigarette",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_white",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
+	"G_Tactical_Yellow",
+	"G_Tactical_Camo",
 	"CUP_Beard_Black",
 	"CUP_Beard_Blonde",
 	"CUP_Beard_Brown",
@@ -171,9 +171,9 @@ private _itemCosmetic =
 	"CUP_FR_NeckScarf5",
 	"CUP_FR_NeckScarf4",
 	"CUP_PMC_G_thug",
-	"usm_swdgoggles",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_swdgoggles$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_blk",
 	"milgp_f_face_shield_goggles_blk",
 	"milgp_f_face_shield_goggles_shemagh_blk",
@@ -212,38 +212,38 @@ private _itemCosmetic =
 	"murshun_cigs_matches",
 	
 	//NVG slot
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
 	"pca_nvg_cigarette",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_shemagh_white",
-	"pca_nvg_shemagh2_white",
-	"pca_nvg_shemagh_loop_blk",
-	"pca_nvg_shemagh_loop_white",
-	"pca_nvg_shemagh_mesh_blk",
-	"pca_nvg_shemagh_mesh_white",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_shemagh_white$",
+	"$NONE_pca_nvg_shemagh2_white$",
+	"$NONE_pca_nvg_shemagh_loop_blk$",
+	"$NONE_pca_nvg_shemagh_loop_white$",
+	"$NONE_pca_nvg_shemagh_mesh_blk$",
+	"$NONE_pca_nvg_shemagh_mesh_white$",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_white",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_glasses",
-	"pca_nvg_tactical_goggles",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_glasses$",
+	"$NONE_pca_nvg_tactical_goggles$",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"nvg_goggles_cbr",
-	"nvg_goggles_grn",
-	"nvg_goggles_tropic",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3"
+	"Goggles",
+	"Goggles_grn_F",
+	"Goggles_tna_F",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$"
 ];
 
 //********************************************************************************//
@@ -593,7 +593,7 @@ private _itemDM =
 	"ACE_Vector",
 	"bipod_01_f_blk",
 	"optic_lrps",
-	"fwa_acc_delft3x25",
+	"sp_fwa_scope_ar_delft3x25",
 	"optic_dms_weathered_kir_f",
 	"optic_sos",
 	"ACE_ATragMX",

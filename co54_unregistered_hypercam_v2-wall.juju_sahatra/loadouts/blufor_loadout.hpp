@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_combat_6cd"
+		"CUP_U_B_BDUv2_desert"
 	};
 	vest[] = 
 	{
@@ -52,8 +52,8 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_pasgt_ctan",
-		"wsx_helmet_combat_ctan_ess_bare"
+		"H_PASGT_basic_sand_F",
+		"H_PASGT_goggles_sand_F"
 	};
 	backpack[] = 
 	{
@@ -115,7 +115,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] = 
 	{
@@ -302,7 +302,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	secondaryWeapon[] = {};
 	magazines[] += 
@@ -347,7 +347,7 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] = 
 	{
@@ -371,7 +371,7 @@ class ammg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] += 
 	{
@@ -396,7 +396,7 @@ class mat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	secondaryWeapon[] = 
 	{
@@ -425,7 +425,7 @@ class amat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] += 
 	{
@@ -449,7 +449,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5a3"
+		"$NONE_hlc_smg_mp5a3$"
 	};
 	vest[] = 
 	{
@@ -478,7 +478,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	items[] +=
 	{
@@ -514,7 +514,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] = 
 	{
@@ -555,7 +555,7 @@ class breach : rm
 	};
 	sidearmWeapon[] =
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] = 
 	{
@@ -595,7 +595,7 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r"
+		"$NONE_hlc_pistol_p226r$"
 	};
 	magazines[] = 
 	{

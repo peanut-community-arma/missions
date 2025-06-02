@@ -35,14 +35,14 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_guerilla_garb_m81",
-		"aegis_guerilla_jacket_m81",
-		"aegis_sweater_grn",
-		"aegis_guerilla_tshirt_m81",
-		"aegis_guerilla_tshirt_m81_alt",
-		"aegis_jacket_blu",
-		"aegis_jacket_gry",
-		"aegis_jacket_maroon",
+		"Rev_U_B_FRR_Uniform_03_F",
+		"Atlas_U_UniformBDU_02_m81_F",
+		"Opf_U_O_S_Uniform_01_sweater_F",
+		"Rev_U_B_FRR_Uniform_02_F",
+		"Rev_U_B_FRR_Uniform_01_F",
+		"Atlas_U_C_CommonerJacket_01_blue_F",
+		"Atlas_U_C_CommonerJacket_01_grey_F",
+		"Atlas_U_C_CommonerJacket_01_marroon_F",
 		
 		
 		"CUP_I_B_PARA_Unit_2",
@@ -74,8 +74,8 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-	"usm_helmet_m1v2_wdl",
-	"usm_helmet_m1_wdl"
+	"$NONE_usm_helmet_m1v2_wdl$",
+	"H_Simc_M1_erdl_ns"
 	};
 	backpack[] = 
 	{
@@ -120,7 +120,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_lmg_mg3"
+		"sp_fwa_mg3"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -339,7 +339,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"usm_pack_alice"
+		"CUP_B_AlicePack_Khaki"
 	};
 	secondaryWeapon[] = 
 	{
@@ -365,7 +365,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"usm_pack_alice"
+		"CUP_B_AlicePack_Khaki"
 	};
 	backpackItems[] = 
 	{

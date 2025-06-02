@@ -63,8 +63,8 @@ class r : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_2("aegis_mch_m05_snow"),
-		"aegis_mch_estdc_snow"
+		LIST_2("$NONE_aegis_mch_m05_snow$"),
+		"CUP_H_PASGTv2_NVG_winter"
 	};
 	backpack[] = 
 	{
@@ -113,8 +113,8 @@ class cls : r
 {
 	displayName = "Combat Lifesaver";
 	primaryWeapon[] = {
-		LIST_2("hlc_smg_mp5a3_tac"),
-		"hlc_smg_mp5a4_tac"
+		LIST_2("$NONE_hlc_smg_mp5a3_tac$"),
+		"CUP_smg_MP5A5_Rail_AFG"
 	};
 	magazines[] = {
 		nades,
@@ -197,8 +197,8 @@ class gren : r
 {
 	displayName = "Grenadier";
 	primaryWeapon[] = {
-		"hlc_rifle_auga3_m203_gry",
-		LIST_2("hlc_rifle_auga3_m203_blk")
+		"$NONE_hlc_rifle_auga3_m203_gry$",
+		LIST_2("$NONE_hlc_rifle_auga3_m203_blk$")
 	};
 	magazines[] = {
 		nades,
@@ -238,7 +238,7 @@ class at : r
 		"CUP_CZ_BREN2_556_8"
 	};
 	silencer[] = {
-		"hlc_muzzle_aac_miter18t",
+		"$NONE_hlc_muzzle_aac_miter18t$",
 		LIST_2("")
 	};
 	magazines[] = {
@@ -259,7 +259,7 @@ class sharpshooter : r
 {
 	displayName = "Sniper";
 	primaryWeapon[] = {
-		"hlc_rifle_scarh_ssr"
+		"$NONE_hlc_rifle_scarh_ssr$"
 	};
 	sidearmWeapon[] = {
 		"rhsusf_weap_glock17g4"
@@ -270,13 +270,13 @@ class sharpshooter : r
 		LIST_3("rhsusf_mag_17Rnd_9x19_FMJ")
 	};
 	scope[] = {
-		LIST_2("hlc_optic_atacr"),
-		"hlc_optic_atacr_offset"
+		LIST_2("$NONE_hlc_optic_atacr$"),
+		"$NONE_hlc_optic_atacr_offset$"
 	};
 	silencer[] = {
-		"hlc_muzzle_fn_oem"
+		"$NONE_hlc_muzzle_fn_oem$"
 	};
 	bipod[] = {
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 };

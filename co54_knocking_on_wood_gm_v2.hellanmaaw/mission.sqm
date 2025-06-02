@@ -7737,7 +7737,7 @@ class Mission
 				textures = "ADF_S";
 			};
 			id = 123;
-			type = "ptv_leopard2sg";
+			type = "$REMOVE_ptv_leopard2sg$";
 			atlOffset = -0.00011062622;
 			class CustomAttributes
 			{
@@ -7954,7 +7954,7 @@ class Mission
 				textures = "ADF_S";
 			};
 			id = 124;
-			type = "ptv_leopard2sg";
+			type = "$REMOVE_ptv_leopard2sg$";
 			atlOffset = -7.6293945e-06;
 			class CustomAttributes
 			{
@@ -8171,7 +8171,7 @@ class Mission
 				textures = "ADF_S";
 			};
 			id = 125;
-			type = "ptv_leopard2sg";
+			type = "$REMOVE_ptv_leopard2sg$";
 			atlOffset = -0.00062179565;
 			class CustomAttributes
 			{
@@ -8841,7 +8841,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -9569,7 +9569,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -10297,7 +10297,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -11026,7 +11026,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -11755,7 +11755,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -12484,7 +12484,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -13212,7 +13212,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -13941,7 +13941,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1
@@ -14669,7 +14669,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "sma_acc_vortex_rds_blk";
+																			value = "$NONE_sma_acc_vortex_rds_blk$";
 																		};
 																	};
 																	class Item1

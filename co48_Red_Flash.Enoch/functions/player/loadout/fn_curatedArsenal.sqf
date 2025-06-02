@@ -111,7 +111,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_blk",
 	"G_Bandanna_khk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"CUP_Beard_Black",
 	"CUP_Beard_Blonde",
 	"CUP_Beard_Brown",
@@ -125,7 +125,7 @@ private _itemCosmetic =
 	"G_Squares",
 	"G_Spectacles_Tinted",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_cb"
+	"$NONE_pca_nvg_face_shield_cb$"
 ];
 
 //********************************************************************************//

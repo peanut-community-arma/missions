@@ -41,7 +41,7 @@ private _itemGear =
 	
 	//Backpack
 	"pca_umbts_flora",
-	"aegis_virtus_carryall_oli",
+	"B_Carryall_oli",
 	"pca_backpack_invisible",
 	"pca_backpack_invisible_large"
 ];
@@ -54,7 +54,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_shades",
 	"G_Bandanna_sport",
 	"CUP_G_ESS_RGR_Dark",
@@ -80,13 +80,13 @@ private _itemCosmetic =
 	"CUP_G_TK_RoundGlasses_blk",
 	
 	//NVG
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_khk",
-	"pca_nvg_face_shield_rgr"
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_khk$",
+	"$NONE_pca_nvg_face_shield_rgr$"
 ];
 
 private _itemMed = 

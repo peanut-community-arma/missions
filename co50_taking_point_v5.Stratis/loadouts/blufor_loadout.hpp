@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk53_ris"
+		"$NONE_hlc_rifle_hk53_ris$"
 	};
 	scope[] = 
 	{
@@ -116,7 +116,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_kac"
+		"CUP_arifle_G36A3_grip"
 	};
 	bipod[] = 
 	{};
@@ -177,7 +177,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk33a2_ris_m203"
+		"$NONE_hlc_rifle_hk33a2_ris_m203$"
 	};
 	backpackItems[] = 
 	{
@@ -193,7 +193,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk33a2_ris_m203"
+		"$NONE_hlc_rifle_hk33a2_ris_m203$"
 	};
 	backpackItems[] = 
 	{
@@ -217,7 +217,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk33a2_ris_m203"
+		"$NONE_hlc_rifle_hk33a2_ris_m203$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -260,7 +260,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk53_ris"
+		"$NONE_hlc_rifle_hk53_ris$"
 	};
 	backpackItems[] =
 	{

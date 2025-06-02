@@ -45,11 +45,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_combat_m98"
+		"$NONE_wsx_uniform_combat_m98$"
 	};
 	vest[] = 
 	{
-		"wsx_vest_combat_m98"
+		"V_TacVest_camo"
 	};
 	headgear[] = 
 	{
@@ -61,7 +61,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416n"
+		"$NONE_hlc_rifle_hk416n$"
 	};
 	scope[] = 
 	{
@@ -162,7 +162,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416n_agc"
+		"$NONE_hlc_rifle_hk416n_agc$"
 	};
 	backpackItems[] = 
 	{
@@ -179,7 +179,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416n_agc"
+		"$NONE_hlc_rifle_hk416n_agc$"
 	};
 	backpackItems[] = 
 	{
@@ -204,7 +204,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416n_agc"
+		"$NONE_hlc_rifle_hk416n_agc$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -251,7 +251,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416n"
+		"$NONE_hlc_rifle_hk416n$"
 	};
 	backpackItems[] =
 	{
@@ -342,7 +342,7 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	vest[] = 
 	{
-		"wsx_vest_combat_m98"
+		"V_TacVest_camo"
 	};
 	backpack[] = 
 	{
@@ -470,7 +470,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	vest[] = 
 	{
-		"wsx_vest_combat_m98"
+		"V_TacVest_camo"
 	};
 	headgear[] = 
 	{

@@ -63,7 +63,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3_modern_ris_blk"
+		"CUP_arifle_G3A3_modern_ris_black"
 	};
 	scope[] = 
 	{
@@ -149,7 +149,7 @@ class rm_lat : rm
 	displayName = "Rifleman (MAT)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_mraws_blk"
+		"launch_MRAWS_black_F"
 	};
 	backpackItems[] += 
 	{
@@ -289,7 +289,7 @@ class rm_fa : rm
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_flecktarn"
+		"B_Carryall_flecktarn"
 	};
 	backpackItems[] =
 	{
@@ -333,7 +333,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_flecktarn"
+		"B_Carryall_flecktarn"
 	};
 	primaryWeapon[] = 
 	{
@@ -368,7 +368,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] =
 	{
-		"aegis_carryall_flecktarn"
+		"B_Carryall_flecktarn"
 	};
 	sidearmWeapon[] = 
 	{

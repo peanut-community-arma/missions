@@ -58,11 +58,11 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"wsx_tacticalpack_blk"
+		"B_TacticalPack_blk"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_blk"
+		"CUP_arifle_ACRC_blk_68"
 	};
 	scope[] = 
 	{
@@ -145,7 +145,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_mraws_blk"
+		"launch_MRAWS_black_F"
 	};
 	backpackItems[] = 
 	{
@@ -158,7 +158,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_blk"
+		"CUP_arifle_ACRC_EGLM_blk_68"
 	};
 	vest[] =
 	{
@@ -192,7 +192,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	uniform[] =
 	{
-		"aegis_suit_formal_redcheck"
+		"U_C_Uniform_Formal_01_striped_F"
 	};
 	headgear[] =
 	{
@@ -204,7 +204,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_blk"
+		"CUP_arifle_ACRC_EGLM_blk_68"
 	};
 	sidearmWeapon[] = 
 	{
@@ -247,7 +247,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_blk"
+		"CUP_arifle_ACRC_blk_68"
 	};
 	backpackItems[] =
 	{

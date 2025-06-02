@@ -916,7 +916,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "fwa_weap_ar18";
+								name = "sp_fwa_ar18";
 								firemode = "fwa_weap_ar18:Single";
 								class primaryMuzzleMag
 								{

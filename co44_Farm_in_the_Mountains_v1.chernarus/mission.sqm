@@ -8627,7 +8627,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_mosin_m91";
+																			value = "CUP_srifle_Mosin_Nagant";
 																		};
 																	};
 																	class Item1
@@ -9372,7 +9372,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_mosin_m91";
+																			value = "CUP_srifle_Mosin_Nagant";
 																		};
 																	};
 																	class Item1
@@ -12851,7 +12851,7 @@ class Mission
 							};
 							goggles = "G_Bandanna_Skull1";
 							hmd = "simc_addon_nomex_long_blk";
-							headgear = "aegis_guardian_cover";
+							headgear = "H_HelmetI_I_01_cover_F";
 						};
 					};
 					id = 283;
@@ -23623,7 +23623,7 @@ class Mission
 			side = "Empty";
 			class Attributes
 			{
-				init = "if !(isServer) exitWith {};" \n "this addWeaponWithAttachmentsCargoGlobal [[""rhs_weap_m4a1_carryhandle_mstock_grip3"",""hlc_muzzle_sf3p_556"","""",""rhsusf_acc_ACOG"",[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",30],[],""rhsusf_acc_tdstubby_blk""], 1];" \n "this addMagazineCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag"", 20];";
+				init = "if !(isServer) exitWith {};" \n "this addWeaponWithAttachmentsCargoGlobal [[""rhs_weap_m4a1_carryhandle_mstock_grip3"",""$NONE_hlc_muzzle_sf3p_556$"","""",""rhsusf_acc_ACOG"",[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",30],[],""rhsusf_acc_tdstubby_blk""], 1];" \n "this addMagazineCargoGlobal [""rhs_mag_30Rnd_556x45_M855A1_Stanag"", 20];";
 				name = "mayoiga_15";
 			};
 			id = 797;
@@ -24263,7 +24263,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_mosin_m91";
+																			value = "CUP_srifle_Mosin_Nagant";
 																		};
 																	};
 																	class Item1

@@ -59,8 +59,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		LIST_4("usm_bdu_tan"),
-		"usm_bdu_taki"
+		LIST_4("$NONE_usm_bdu_tan$"),
+		"$NONE_usm_bdu_taki$"
 	};
 	vest[] = 
 	{
@@ -104,7 +104,7 @@ class ar : rm
 	};
 	backpack[] =
 	{
-		"aegis_tacticalpack_rgr"
+		"B_TacticalPack_rgr"
 	};
 	magazines[] = 
 	{
@@ -218,7 +218,7 @@ class mltsks : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sks"
+		"Opf_arifle_SKS_F"
 	};
 	scope[] = 
 	{
@@ -251,7 +251,7 @@ class sp_rm : rm
 	displayName = "Spec Ops Rifle";
 	uniform[] =
 	{
-		"usm_bdu_taki"
+		"$NONE_usm_bdu_taki$"
 	};
 	vest[] = 
 	{

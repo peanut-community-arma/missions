@@ -58,11 +58,11 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_ech_mtp"
+		"H_HelmetB_plain_mcamo"
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_mtp"
+		"B_AssaultPack_mcamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -197,7 +197,7 @@ class tl : rm
 	};
 	headgear[] = 
 	{
-		"aegis_lch_mtp"
+		"H_HelmetSpecB_light_mcamo"
 	};
 	backpackItems[] = 
 	{
@@ -293,7 +293,7 @@ class mmg : rm
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	attachment[] = {};
 	sidearmWeapon[] = 

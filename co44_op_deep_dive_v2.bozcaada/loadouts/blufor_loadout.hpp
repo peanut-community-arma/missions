@@ -48,7 +48,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_khk"
+		"V_PlateCarrier1_cbr"
 	};
 	headgear[] = 
 	{
@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_tan"
+		"$NONE_hlc_rifle_scarh_std_tan$"
 	};
 	scope[] = 
 	{
@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem"
+		"$NONE_hlc_muzzle_fn_oem$"
 	};
 	items[] =
 	{
@@ -105,11 +105,11 @@ class ar : rm
 	};
 		scope[] = 
 	{
-		"rksl_optic_eot552x"
+		"$NONE_rksl_optic_eot552x$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -159,7 +159,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_eglm_tan"
+		"$NONE_hlc_rifle_scarh_std_eglm_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -192,11 +192,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_eglm_tan"
+		"$NONE_hlc_rifle_scarh_std_eglm_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -236,7 +236,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_tan"
+		"$NONE_hlc_rifle_scarh_std_tan$"
 	};
 	backpackItems[] =
 	{
@@ -295,7 +295,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -335,7 +335,7 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -359,7 +359,7 @@ class ammg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -384,7 +384,7 @@ class mat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	secondaryWeapon[] = 
 	{
@@ -413,7 +413,7 @@ class amat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -458,7 +458,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	items[] +=
 	{
@@ -490,7 +490,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -551,7 +551,7 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -569,7 +569,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_ssr_tan"
+		"$NONE_hlc_rifle_scarh_ssr_tan$"
 	};
 	scope[] = 
 	{

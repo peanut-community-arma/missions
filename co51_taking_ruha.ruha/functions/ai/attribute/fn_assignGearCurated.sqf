@@ -70,7 +70,7 @@ private _facewearPoolWeighted = selectRandomWeighted
 	"CUP_G_RUS_Balaclava_Ratnik_v2", 2
 ];
 
-private _eyewearPoolWeighted = "pca_nvg_ess_blk";
+private _eyewearPoolWeighted = "$NONE_pca_nvg_ess_blk$";
 
 //ADD UNIFORM
 _unit forceAddUniform _uniformPoolWeighted;

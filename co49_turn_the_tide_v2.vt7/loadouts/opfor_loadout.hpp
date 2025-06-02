@@ -57,11 +57,11 @@ class rm : baseMan
 	vest[] = 
 	{
 		
-		"wsx_vest_combat_ce"
+		"V_PlateCarrierIA1_grn"
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_combat_ce"
+		"CUP_H_PASGTv2_ERDL_highland"
 	};
 	backpack[] = 
 	{

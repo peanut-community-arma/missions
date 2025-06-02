@@ -83,7 +83,7 @@ class rm : baseMan
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mosin_m91"
+		"CUP_srifle_Mosin_Nagant"
 	};
 	magazines[] = 
 	{

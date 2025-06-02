@@ -114,13 +114,13 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"rhssaf_veil_Green",
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"G_Aviator",
@@ -128,7 +128,7 @@ private _itemCosmetic =
 	"CUP_G_TK_RoundGlasses_blk",
 	
 	//Cigs etc.
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"immersion_cigs_cigar0",
 	
@@ -141,10 +141,10 @@ private _itemCosmetic =
 	"pca_nvg_cigarette",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
-	"usm_nvg_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_giglovesscarf2",
-	"usm_nvg_giglovesscarf",
+	"$NONE_usm_nvg_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_giglovesscarf2$",
+	"$NONE_usm_nvg_giglovesscarf$",
 	"simc_addon_bandoleer_left",
 	"simc_addon_bandoleer_low",
 	"simc_addon_bandoleer_right",
@@ -235,8 +235,8 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_mas49",
-	"fwa_weap_mas49_56"
+	"sp_fwa_mas_49",
+	"sp_fwa_mas_49_56"
 ];
 
 private _itemWeapRifleUGL = 
@@ -247,7 +247,7 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"fwa_weap_bren_mk2"
+	"sp_fwa_bren_mk2"
 ];
 
 private _itemWeapLAT = 
@@ -263,7 +263,7 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"fwa_weap_aa52_nf1"
+	"sp_fwa_aa52"
 ];
 
 private _itemWeapMAT = 
@@ -278,7 +278,7 @@ private _itemWeapDMR =
 
 private _itemWeapSMG =
 [
-	"fwa_weap_mat49"
+	"sp_fwa_smg_mat49"
 ];
 
 //********************************************************************************//

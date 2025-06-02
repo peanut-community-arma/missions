@@ -8793,7 +8793,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""hlc_pistol_dl44"",""FirstAidKit""],[2,2]],[[""hlc_1Rnd_Plasma_DL44""],[8]],[[],[]],[[],[]]],false]";
+									value = "[[[[""$NONE_hlc_pistol_dl44$"",""FirstAidKit""],[2,2]],[[""hlc_1Rnd_Plasma_DL44""],[8]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};

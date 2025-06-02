@@ -27,14 +27,14 @@ private _itemGear =
 	//Common items shared by all classes except for vehicle crews
 	
 	//Uniform 
-	"usm_bdu_wdl",
-	"usm_bdu_btisrl_wdl",
-	"usm_bdu_bti_wdl",
-	"usm_bdu_srl_wdl",
-	"usm_bdum65_wdl",
-	"usm_bdu_btisrl_odg",
-	"usm_bdu_bti_odg",
-	"usm_bdum65_odg",
+	"$NONE_usm_bdu_wdl$",
+	"$NONE_usm_bdu_btisrl_wdl$",
+	"$NONE_usm_bdu_bti_wdl$",
+	"$NONE_usm_bdu_srl_wdl$",
+	"$NONE_usm_bdum65_wdl$",
+	"$NONE_usm_bdu_btisrl_odg$",
+	"$NONE_usm_bdu_bti_odg$",
+	"U_simc_tcu_veldjas",
 	
 	//Vest
 	"simc_vest_pasgt_lbv_od3",
@@ -50,12 +50,12 @@ private _itemGear =
 	"simc_vest_pasgt_lbv_lc2_alt_m81",
 	
 	//Headgear
-	"usm_helmet_pasgt_ceswd_wdl",
-	"usm_helmet_pasgt_rm_wdl",
-	"usm_helmet_pasgt_ce_wdl",
-	"usm_helmet_pasgt_ceswd_odg",
-	"usm_helmet_pasgt_rm_odg",
-	"usm_helmet_pasgt_ce_odg",
+	"$NONE_usm_helmet_pasgt_ceswd_wdl$",
+	"CUP_H_PASGTv2_NVG_WDL",
+	"CUP_H_PASGTv2_WDL",
+	"$NONE_usm_helmet_pasgt_ceswd_odg$",
+	"CUP_H_PASGTv2_NVG_OD",
+	"CUP_H_PASGTv2_OD",
 	
 	//Backpack
 	"pca_eagle_a3_m81",
@@ -105,9 +105,9 @@ private _itemGearLeader =
 	"simc_vest_pasgt_lc1_gren_od3",
 	//Headgear
 	"CUP_H_Ger_Beret_KSK_Red",
-	"aegis_beret_sf_grn",
+	"H_Beret_grn_SF",
 	"CUP_H_BAF_PARA_BERET",
-	"aegis_beret_sf_brn",
+	"H_Beret_brn_SF",
 	"amf_beret_commando_marine",
 	"H_Beret_02"
 ];
@@ -115,11 +115,11 @@ private _itemGearLeader =
 private _itemGearCrew = 
 [
 	//Uniform 
-	"usm_bdu_odg",
-	"usm_bdu_btisrl_odg",
-	"usm_bdu_bti_odg",
-	"usm_bdu_srh_odg",
-	"usm_bdu_srl_odg",
+	"CUP_U_B_BDUv2_OD",
+	"$NONE_usm_bdu_btisrl_odg$",
+	"$NONE_usm_bdu_bti_odg$",
+	"CUP_U_B_BDUv2_roll2_OD",
+	"CUP_U_B_BDUv2_roll_OD_US",
 	
 	//Vest 
 	"simc_vest_pasgt_m81",
@@ -132,18 +132,18 @@ private _itemGearCrew =
 private _itemGearPilot = 
 [
 	//Uniform 
-	"usm_bdu_odg",
-	"usm_bdu_btisrl_odg",
-	"usm_bdu_bti_odg",
-	"usm_bdu_srh_odg",
-	"usm_bdu_srl_odg",
+	"CUP_U_B_BDUv2_OD",
+	"$NONE_usm_bdu_btisrl_odg$",
+	"$NONE_usm_bdu_bti_odg$",
+	"CUP_U_B_BDUv2_roll2_OD",
+	"CUP_U_B_BDUv2_roll_OD_US",
 	
 	//Vest 
 	"simc_vest_pasgt_m81",
 	"simc_vest_pasgt_od3",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess"
 	
@@ -162,33 +162,33 @@ private _itemGearDM =
 private _itemCosmetic = 
 [
 	//Neck
-	"aegis_shemagh_loop_bge",
-	"aegis_shemagh_loop_coy",
-	"aegis_shemagh_loop_grn",
-	"aegis_shemagh_mesh_bge",
-	"aegis_shemagh_mesh_coy",
-	"aegis_shemagh_mesh_grn",
-	"aegis_shemag_cbr",
-	"aegis_shemag_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_cbr",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_shades_red",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"$NONE_aegis_shemag_cbr$",
+	"CUP_FR_NeckScarf",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_shades",
+	"$NONE_aegis_shemag_shades_oli$",
+	"$NONE_aegis_shemag_shades_red$",
 	//Lower Face
 	"CUP_G_Scarf_Face_Grn",
 	"CUP_G_Scarf_Face_Red",
 	"CUP_G_Scarf_Face_Tan",
 	"bear_bandana_atacs_fg",
 	"G_Bandanna_beast",
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_bandanna_inferno",
-	"aegis_bandanna_iceprism",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"G_Bandanna_RedFlame1",
+	"G_Bandanna_BlueFlame1",
 	"bear_bandana_m81",
-	"aegis_bandanna_estdc",
+	"$NONE_aegis_bandanna_estdc$",
 	"G_Bandanna_tan",
 	"G_Bandanna_aviator",
 	"G_Bandanna_shades",
@@ -209,23 +209,23 @@ private _itemCosmetic =
 	"pca_balaclava_blk_1",
 	"pca_balaclava_blk_2",
 	"G_Balaclava_blk",
-	"aegis_bala_skull",
-	"aegis_bala_tropentarn",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_wdl",
+	"G_Balaclava_Skull1",
+	"G_Balaclava_Tropentarn",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_wdl_F",
 	//Other
 	"immersion_pops_pop0",
 	"simc_claysack_flak",
 	"simc_bandoleer_left_flak",
 	"simc_bandoleer_low_flak",
 	"simc_bandoleer_gren",
-	"usm_kneepads_blk",
-	"usm_kneepads_safariland",
+	"$NONE_usm_kneepads_blk$",
+	"$NONE_usm_kneepads_safariland$",
 	"sfp_peltor_comtac3",
 	//Wrist
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
 	"simc_nomex_blk",
 	"simc_nomex_fold_blk",
 	"CUP_G_PMC_RadioHeadset",

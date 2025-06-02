@@ -44,8 +44,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rcu_rs_shex",
-		"aegis_rcu_shex"
+		"Atlas_U_O_CombatFatigues_02_semiarid_F",
+		"Atlas_U_O_CombatFatigues_semiarid_F"
 	};
 	vest[] = 
 	{
@@ -54,16 +54,16 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_mch_semi"
+		"H_O_Helmet_canvas_semiarid"
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_tan",
-		"aegis_fieldpack_semi"
+		"B_AssaultPack_cbr",
+		"B_FieldPack_semiarid"
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36k_65_blk"
+		"arifle_G36_F"
 	};
 	attachment[] =
 	{
@@ -75,7 +75,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"hlc_optic_hensoldtzo_rds"
+		"$NONE_hlc_optic_hensoldtzo_rds$"
 	};
 	items[] =
 	{
@@ -109,7 +109,7 @@ class ar : rm
 	};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	primaryWeapon[] = 
 	{
@@ -141,7 +141,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	backpackItems[] += 
 	{
@@ -171,7 +171,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36k_gl_65_blk"
+		"arifle_G36_GL_F"
 	};
 	backpackItems[] = 
 	{
@@ -248,7 +248,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36k_65_blk"
+		"arifle_G36_F"
 	};
 	backpackItems[] =
 	{
@@ -286,7 +286,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	backpackItems[] =
 	{
@@ -337,7 +337,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	primaryWeapon[] = 
 	{
@@ -371,7 +371,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -396,7 +396,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -425,7 +425,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -507,13 +507,13 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36c_65_blk"
+		"arifle_G36C_F"
 	};
 	silencer[] = {};
 	headgear[] = 
 	{
 		"H_PilotHelmetHeli_O",
-		"aegis_helipilot_oli"
+		"H_PilotHelmetHeli_O_visor_up"
 	};
 	hmd[] =
 	{
@@ -544,7 +544,7 @@ class eng : rm
 	traits[] = {"engineer","explosiveSpecialist"};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_tan"
+		"$NONE_aegis_tacticalpack_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -713,9 +713,9 @@ class vip : baseMan
 	{
 		"U_BG_Guerilla2_3",
 		"U_BG_Guerilla1_2_F",
-		"aegis_guerilla_tshirt_m81",
-		"aegis_guerilla_tshirt_m81_alt",
-		"aegis_guerilla_garb_m81",
+		"Rev_U_B_FRR_Uniform_02_F",
+		"Rev_U_B_FRR_Uniform_01_F",
+		"Rev_U_B_FRR_Uniform_03_F",
 		"U_BG_Guerilla3_1",
 		"U_BG_leader",
 		"U_BG_Guerilla1_1"

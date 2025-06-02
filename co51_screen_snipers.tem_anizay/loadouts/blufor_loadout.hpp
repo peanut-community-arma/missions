@@ -47,7 +47,7 @@ class rm : baseMan
 		"U_BG_Guerilla3_1",
 		"bear_uniform_m93_takistani_brush",
 		"bear_uniform_m93_olive_takistanibrush",
-		"usm_bdu_bnu_taki"
+		"$NONE_usm_bdu_bnu_taki$"
 	};
 	vest[] = 
 	{
@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_khk"
+		"B_AssaultPack_tan"
 	};
 	primaryWeapon[] = 
 	{

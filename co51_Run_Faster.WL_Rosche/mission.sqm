@@ -7641,7 +7641,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_colt_645_m16a2";
+																			value = "sp_fwa_ar15_645_a2";
 																		};
 																	};
 																	class Item1
@@ -7911,7 +7911,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_colt_645_m16a2_m203";
+																			value = "sp_fwa_ar15_705_m16a2_m203";
 																		};
 																	};
 																	class Item1
@@ -7938,7 +7938,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_colt_723_m16a2_carbine";
+																			value = "sp_fwa_723_CAR15";
 																		};
 																	};
 																	class Item1

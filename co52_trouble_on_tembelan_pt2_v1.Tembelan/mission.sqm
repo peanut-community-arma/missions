@@ -48936,7 +48936,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""aegis_weap_f2000c_blk"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
+									value = "[[[[""arifle_Mk20C_black_F"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
 								};
 							};
 						};
@@ -48967,7 +48967,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""aegis_weap_f2000c_blk"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
+									value = "[[[[""arifle_Mk20C_black_F"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
 								};
 							};
 						};
@@ -54561,7 +54561,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""aegis_weap_f2000c_blk"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
+									value = "[[[[""arifle_Mk20C_black_F"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
 								};
 							};
 						};
@@ -54593,7 +54593,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""aegis_weap_f2000c_blk"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
+									value = "[[[[""arifle_Mk20C_black_F"",""rhs_weap_M136""],[8,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag""],[80]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_bloodIV""],[40,40,20]],[[],[]]],false]";
 								};
 							};
 						};

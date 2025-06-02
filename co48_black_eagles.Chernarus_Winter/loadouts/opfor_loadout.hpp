@@ -63,8 +63,8 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_10("usm_helmet_pasgt_ce_blu"),
-		LIST_10("usm_helmet_pasgt_ceswd_blu"),
+		LIST_10("H_PASGT_basic_blue_F"),
+		LIST_10("$NONE_usm_helmet_pasgt_ceswd_blu$"),
 		LIST_3("CUP_H_RUS_Altyn_Shield_Down_black"),
 		LIST_2("CUP_H_RUS_Altyn_Shield_Up_black")
 	};

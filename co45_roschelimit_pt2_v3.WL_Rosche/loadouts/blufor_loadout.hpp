@@ -63,7 +63,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] =
 	{
-		"fwa_weap_colt_603_m16a1"
+		"sp_fwa_ar15_603_m16a1"
 	};
 	items[] =
 	{
@@ -153,7 +153,7 @@ class gren : rm
 	};
 	primaryWeapon[] =
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"sp_fwa_ar15_603_m16a1_m203"
 	};
 	secondaryWeapon[] =
 	{
@@ -187,7 +187,7 @@ class tl : rm
 	};
 	primaryWeapon[] =
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"sp_fwa_ar15_603_m16a1_m203"
 	};
 	magazines[] =
 	{
@@ -347,7 +347,7 @@ class mat : rm
 	};
 	secondaryWeapon[] =
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	magazines[] +=
 	{

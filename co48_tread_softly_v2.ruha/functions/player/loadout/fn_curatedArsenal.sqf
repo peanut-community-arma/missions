@@ -92,11 +92,11 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"wsx_mich_norotos_rgr",
-	"wsx_mich_norotos_od",
-	"wsx_mich_norotos_spray_2",
-	"wsx_mich_norotos_spray_3",
-	"wsx_mich_norotos_spray_4"
+	"CUP_H_CZ_Helmet10",
+	"CUP_H_CZ_Helmet10",
+	"CUP_H_CZ_Helmet07",
+	"CUP_H_USArmy_Helmet_ECH1_Sand",
+	"CUP_H_CZ_Helmet07"
 ];
 
 private _itemHeadgearCrew = 
@@ -119,12 +119,12 @@ private _itemHeadgearPilot =
 //Backpack 
 private _itemBackpack = 
 [
-	"aegis_assaultpack_enh_rgr",
-	"aegis_kitbag_rgr",
+	"B_AssaultPackSpec_rgr",
+	"pca_kitbag_od",
 	"pca_eagle_a3_rgr",
 	
 	"pca_eagle_a3_tan",
-	"aegis_assaultpack_tan"
+	"B_AssaultPack_cbr"
 ];
 
 private _itemBackpackCrew = 
@@ -142,18 +142,18 @@ private _itemCosmetic =
 [
 		//Last updated 2022-03-19, includes lighter for Murshun smokes
 	//Facewear
-	"aegis_bala_skull",
+	"G_Balaclava_Skull1",
 	"pca_balaclava_gogg_mcb",
 	"G_Balaclava_oli",
 	"pca_balaclava_mcb",
 	"G_Balaclava_blk",
 	"G_Aviator",
 	"G_Spectacles",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
 	"rhssaf_veil_Green",
 	"G_Spectacles_Tinted",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"rhs_ess_black",
 	"rhs_googles_black",
 	"rhs_googles_clear",
@@ -174,10 +174,10 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_tan",
 	"rhsusf_shemagh_gogg_tan",
 	"rhsusf_shemagh2_gogg_tan",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
-	"aegis_shemag_red",
+	"CUP_FR_NeckScarf5",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"immersion_cigs_cigar0",
@@ -196,29 +196,29 @@ private _itemCosmetic =
 	
 	//NVG slot
 	"pca_nvg_cigarette",
-	"pca_nvg_ess_blk",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_shemagh_blk",
-	"nvg_goggles_grn",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
 	"pca_nvg_gloves_wool",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	"TC_NVG_NitrileGloves_1"
 ];
 
@@ -288,39 +288,39 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"hlc_optic_rco_pcap",
-	"hlc_optic_rco_pcap_grn",
+	"$NONE_hlc_optic_rco_pcap$",
+	"$NONE_hlc_optic_rco_pcap_grn$",
 	
 	//Grip
-	"hlc_acc_vfg_pcap",
-	"hlc_acc_vfg_pcap_grn"
+	"$NONE_hlc_acc_vfg_pcap$",
+	"$NONE_hlc_acc_vfg_pcap_grn$"
 ];
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_xm8_carbine",
-	"hlc_rifle_xm8_carbine_grn"
+	"CUP_arifle_XM8_Carbine",
+	"CUP_arifle_XM8_Carbine_Green"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_xm8_carbine_xm320",
-	"hlc_rifle_xm8_carbine_xm320_grn"
+	"CUP_arifle_XM8_Carbine_GL",
+	"CUP_arifle_XM8_Carbine_GL_Rail_Green"
 ];
 
 private _itemWeapCarbine =
 [
-	"hlc_rifle_xm8_compact",
+	"CUP_arifle_XM8_Compact",
 	"hlc_rifle_xm8_compact_grn"
 ];
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_xm8_dmar",
-	"hlc_rifle_xm8_dmar_grn",
+	"CUP_arifle_XM8_Sharpshooter",
+	"CUP_arifle_XM8_Sharpshooter_Green",
 	
 	//Optic
-	"hlc_optic_amo_pcap"
+	"$NONE_hlc_optic_amo_pcap$"
 ];
 
 private _itemWeapLAT = 
@@ -331,7 +331,7 @@ private _itemWeapLAT =
 private _itemWeapPistol = 
 [
 	"hgun_ACPC2_F",
-	"aegis_weap_cc2_blk",
+	"hgun_ACPC2_black_F",
 	
 	//Pistol Ammo
 	"rhsusf_mag_7x45acp_MHP"

@@ -62826,7 +62826,7 @@ class Mission
 									items = 1;
 									class Item0
 									{
-										name = "aegis_weap_aur90_carbine_tan";
+										name = "arifle_AUG_C_F";
 										count = 1;
 									};
 								};

@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_viperharness_desert"
+		"B_ViperHarness_hex_F"
 	};
 	primaryWeapon[] = 
 	{

@@ -35,17 +35,17 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdum65_erdl",
-		"usm_bdu_bnu_erdl",
-		"usm_bdu_srl_erdl",
-		"usm_bdu_srh_erdl",
-		"usm_bdu_bti_erdl",
-		"usm_bdu_btisrl_erdl",
-		"usm_bdu_erdl",
+		"$REMOVE_usm_bdum65_erdl$",
+		"CUP_U_B_BDUv2_ERDL_highland",
+		"CUP_U_B_BDUv2_roll_ERDL_highland",
+		"CUP_U_B_BDUv2_roll2_ERDL_highland",
+		"$NONE_usm_bdu_bti_erdl$",
+		"$NONE_usm_bdu_btisrl_erdl$",
+		"CUP_U_B_BDUv2_ERDL_highland",
 		"U_B_T_Soldier_AR_F",
 		"U_C_WorkerCoveralls",
 		"U_I_G_Story_Protagonist_F",
-		"aegis_merc_polo_m81",
+		"U_B_ION_Uniform_01_poloshirt_wdl_F",
 		"U_I_C_Soldier_Para_2_F",
 		"U_I_C_Soldier_Para_4_F",
 		"U_I_C_Soldier_Para_1_F",
@@ -62,21 +62,21 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_m1v2_erdl",
-		"usm_helmet_m1v2_mit",
-		"usm_helmet_m1v2_wdl",
-		"usm_helmet_m1_erdl",
-		"usm_helmet_m1_mit",
-		"usm_helmet_m1_wdl",
+		"$NONE_usm_helmet_m1v2_erdl$",
+		"$NONE_usm_helmet_m1v2_mit$",
+		"$NONE_usm_helmet_m1v2_wdl$",
+		"H_Simc_M1_erdl_ns",
+		"H_Simc_M1_bitch_op",
+		"H_Simc_M1_erdl_ns",
 
 		
 	"simc_m53_burlap_od_net_scrim",
 
 
-	"usm_bdu_boonie_erdl",
-	"usm_bdu_boonie_erdl",
+	"H_Booniehat_wdl_hs",
+	"H_Booniehat_wdl_hs",
 
-	"usm_bdu_cap_erdl",
+	"Aegis_H_Milcap_nohs_wdl_F",
 	"rhs_beanie_green",
 
 	"H_Shemag_olive",
@@ -149,7 +149,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	magazines[] = 
 	{
@@ -352,7 +352,7 @@ class mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	backpackItems[] = 
 	{

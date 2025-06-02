@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sks"
+		"Opf_arifle_SKS_F"
 	};
 	items[] =
 	{
@@ -94,7 +94,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -179,7 +179,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_pps43"
+		"$NONE_fwa_weap_pps43$"
 	};
 	magazines[] = 
 	{

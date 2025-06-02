@@ -23,7 +23,7 @@ class baseMan
 		"pca_opscore_mc2",
 		"pca_opscore_cover_mc",
 		"pca_opscore_cover_mc2",
-		"wsx_helmet_combat_m84w"
+		"$REVIEW_wsx_helmet_combat_m84w$"
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -78,7 +78,7 @@ class rm : baseMan
 		LIST_2("CUP_optic_CompM4"),
 		LIST_2("CUP_optic_MicroT1_OD"),
 		"ptv_acc_c79",
-		"sma_acc_elcan_specter_od"
+		"$NONE_sma_acc_elcan_specter_od$"
 	};
 	sidearmWeapon[] =
 	{

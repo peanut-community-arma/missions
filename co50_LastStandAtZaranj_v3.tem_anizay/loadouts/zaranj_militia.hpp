@@ -50,7 +50,7 @@ class rm : baseMan
 	uniform[] = 
 	{
 		"CUP_U_O_SLA_Green",
-		"aegis_worn_clothes_blk",
+		"Opf_U_I_I_Uniform_01_tshirt_black_F",
 		"pca_combat_fatigue_p87_wdl",
 		"pca_combat_fatigue_rs_p87_wdl"
 	};
@@ -106,7 +106,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_type56"
+		"CUP_arifle_TYPE_56_2_Early"
 	};
 	sidearmWeapon[] = 
 	{

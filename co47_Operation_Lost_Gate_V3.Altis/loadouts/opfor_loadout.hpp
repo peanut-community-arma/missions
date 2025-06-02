@@ -77,11 +77,11 @@ class rm : baseMan
 
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36k_65_blk"
+		"arifle_G36_F"
 	};
 	scope[] = 
 	{
-		"sma_acc_elcan_specter_ard_blk"
+		"$NONE_sma_acc_elcan_specter_ard_blk$"
 	};
 	magazines[] = 
 	{
@@ -96,7 +96,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_zafir_blk"
+		"LMG_Zafir_black_F"
 	};
 	magazines[] = 
 	{
@@ -111,7 +111,7 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_hk121_blk"
+		"MMG_01_black_F"
 	};
 	magazines[] = 
 	{
@@ -237,7 +237,7 @@ class pilot : rm
 	displayName = "Pilot Crew";
 	uniform[] =
 	{
-		"aegis_ubacs_cu_blk"
+		"U_B_UBACS_blk_f"
 	};
 	vest[] = 
 	{
@@ -250,7 +250,7 @@ class pilot : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36c_65_blk"
+		"arifle_G36C_F"
 	};
 	magazines[] = 
 	{

@@ -22,7 +22,7 @@ class baseMan
 	secondaryWeapon[] = {};
 	secondaryAttachments[] = {};
 	sidearmWeapon[] = {
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	sidearmAttachments[] = {};
 	// These are added to the uniform or vest first - overflow goes to backpack if there's any
@@ -65,8 +65,8 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_3("usm_helmet_pasgt_ce_blk"),
-		LIST_2("usm_helmet_pasgt_ceswd_blk")
+		LIST_3("Atlas_H_PASGT_Cover_alt_Black_F"),
+		LIST_2("$NONE_usm_helmet_pasgt_ceswd_blk$")
 	};
 	backpack[] = 
 	{
@@ -74,15 +74,15 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		LIST_3("hlc_rifle_xm8_carbine"),
-		"hlc_rifle_xm8_compact"
+		LIST_3("CUP_arifle_XM8_Carbine"),
+		"CUP_arifle_XM8_Compact"
 	};
 	scope[] = 
 	{
-		"hlc_optic_rco_pcap"
+		"$NONE_hlc_optic_rco_pcap$"
 	};
 	attachment[] = {
-		"hlc_acc_flashlight_pcap"
+		"$NONE_hlc_acc_flashlight_pcap$"
 	};
 	magazines[] = 
 	{
@@ -159,7 +159,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_xm8_carbine_xm320"
+		"CUP_arifle_XM8_Carbine_GL"
 	};
 	attachment[] = {
 		"acc_flashlight"
@@ -201,15 +201,15 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		LIST_3("hlc_rifle_xm8_carbine"),
-		"hlc_rifle_xm8_compact"
+		LIST_3("CUP_arifle_XM8_Carbine"),
+		"CUP_arifle_XM8_Compact"
 	};
 	attachment[] = {
 		"acc_flashlight"
 	};
 	headgear[] = 
 	{
-		"usm_bdu_8point_blk"
+		"$NONE_usm_bdu_8point_blk$"
 	};
 };
 
@@ -245,18 +245,18 @@ class wwrm : rm
 	displayName = "Wet Works Rifleman";
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_blk"
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_rm_blk"
+		"$NONE_usm_helmet_pasgt_rm_blk$"
 	};
 	hmd[] = {
 		"ACE_NVG_Gen4_Black"
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ncar15_blk"
+		"arifle_NCAR15_F"
 	};
 	scope[] = 
 	{
@@ -278,7 +278,7 @@ class wwar : wwrm
 	displayName = "Wet Works Auto Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ncar15_lsw_blk"
+		"arifle_NCAR15_MG_F"
 	};
 	magazines[] = 
 	{
@@ -293,7 +293,7 @@ class wwgrn : wwrm
 	displayName = "Wet Works Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ncar15_gl_blk"
+		"arifle_NCAR15_GL_F"
 	};
 	magazines[] = 
 	{

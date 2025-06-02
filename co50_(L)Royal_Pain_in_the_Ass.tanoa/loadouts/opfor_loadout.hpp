@@ -52,12 +52,12 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_odg",
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_bti_odg",
-		"usm_bdu_srh_odg",
-		"usm_bdu_srl_odg",
-		"usm_bdu_bnu_odg"
+		"CUP_U_B_BDUv2_OD",
+		"$NONE_usm_bdu_btisrl_odg$",
+		"$NONE_usm_bdu_bti_odg$",
+		"CUP_U_B_BDUv2_roll2_OD",
+		"CUP_U_B_BDUv2_roll_OD_US",
+		"CUP_U_B_BDUv2_OD_US"
 	};
 	vest[] = 
 	{

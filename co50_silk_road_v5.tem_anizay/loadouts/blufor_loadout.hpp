@@ -55,9 +55,9 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak74",
-		"hlc_rifle_ak74_worn2",
-		"hlc_rifle_ak74_worn"
+		"CUP_arifle_AK74_Early",
+		"$NONE_hlc_rifle_ak74_worn2$",
+		"$NONE_hlc_rifle_ak74_worn$"
 	};
 	scope[] = 
 	{
@@ -102,7 +102,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk74"
+		"CUP_arifle_RPK74_45"
 	};
 	sidearmWeapon[] =
 	{
@@ -158,7 +158,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aks74_gp25"
+		"CUP_arifle_AKS74_GL_Early"
 	};
 	vest[] =
 	{
@@ -401,7 +401,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aks74u"
+		"CUP_arifle_AKS74U"
 	};
 	
 	headgear[] = 

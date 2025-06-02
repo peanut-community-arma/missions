@@ -9272,7 +9272,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_sand";
+																							value = "arifle_SA80_snd_F";
 																						};
 																					};
 																					class Item1
@@ -9434,7 +9434,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_muzzle_fn_oem";
+																							value = "$NONE_hlc_muzzle_fn_oem$";
 																						};
 																					};
 																					class Item1
@@ -9569,7 +9569,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25tr_tan";
+																							value = "$NONE_hlc_pistol_mk25tr_tan$";
 																						};
 																					};
 																					class Item1
@@ -9623,7 +9623,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_eglm_sand";
+																							value = "arifle_SA80_GL_snd_F";
 																						};
 																					};
 																					class Item1
@@ -9650,7 +9650,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80c_sand";
+																							value = "arifle_SA80_C_snd_F";
 																						};
 																					};
 																					class Item1
@@ -29641,7 +29641,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "aegis_weap_sa80_sand";
+																			value = "arifle_SA80_snd_F";
 																		};
 																	};
 																	class Item1
@@ -29803,7 +29803,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_muzzle_fn_oem";
+																			value = "$NONE_hlc_muzzle_fn_oem$";
 																		};
 																	};
 																	class Item1
@@ -29938,7 +29938,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_pistol_mk25tr_tan";
+																			value = "$NONE_hlc_pistol_mk25tr_tan$";
 																		};
 																	};
 																	class Item1
@@ -29992,7 +29992,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "aegis_weap_sa80_eglm_sand";
+																			value = "arifle_SA80_GL_snd_F";
 																		};
 																	};
 																	class Item1
@@ -30019,7 +30019,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "aegis_weap_sa80c_sand";
+																			value = "arifle_SA80_C_snd_F";
 																		};
 																	};
 																	class Item1
@@ -130778,7 +130778,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_sand";
+																							value = "arifle_SA80_snd_F";
 																						};
 																					};
 																					class Item1
@@ -130940,7 +130940,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_muzzle_fn_oem";
+																							value = "$NONE_hlc_muzzle_fn_oem$";
 																						};
 																					};
 																					class Item1
@@ -131075,7 +131075,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25tr_tan";
+																							value = "$NONE_hlc_pistol_mk25tr_tan$";
 																						};
 																					};
 																					class Item1
@@ -131129,7 +131129,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_eglm_sand";
+																							value = "arifle_SA80_GL_snd_F";
 																						};
 																					};
 																					class Item1
@@ -131156,7 +131156,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80c_sand";
+																							value = "arifle_SA80_C_snd_F";
 																						};
 																					};
 																					class Item1
@@ -132337,7 +132337,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_sand";
+																							value = "arifle_SA80_snd_F";
 																						};
 																					};
 																					class Item1
@@ -132499,7 +132499,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_muzzle_fn_oem";
+																							value = "$NONE_hlc_muzzle_fn_oem$";
 																						};
 																					};
 																					class Item1
@@ -132634,7 +132634,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25tr_tan";
+																							value = "$NONE_hlc_pistol_mk25tr_tan$";
 																						};
 																					};
 																					class Item1
@@ -132688,7 +132688,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_eglm_sand";
+																							value = "arifle_SA80_GL_snd_F";
 																						};
 																					};
 																					class Item1
@@ -132715,7 +132715,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80c_sand";
+																							value = "arifle_SA80_C_snd_F";
 																						};
 																					};
 																					class Item1
@@ -140517,7 +140517,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_sand";
+																							value = "arifle_SA80_snd_F";
 																						};
 																					};
 																					class Item1
@@ -140679,7 +140679,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_muzzle_fn_oem";
+																							value = "$NONE_hlc_muzzle_fn_oem$";
 																						};
 																					};
 																					class Item1
@@ -140814,7 +140814,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25tr_tan";
+																							value = "$NONE_hlc_pistol_mk25tr_tan$";
 																						};
 																					};
 																					class Item1
@@ -140868,7 +140868,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80_eglm_sand";
+																							value = "arifle_SA80_GL_snd_F";
 																						};
 																					};
 																					class Item1
@@ -140895,7 +140895,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_sa80c_sand";
+																							value = "arifle_SA80_C_snd_F";
 																						};
 																					};
 																					class Item1

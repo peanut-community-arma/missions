@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	vest[] =
 	{
-		//"aegis_platecarrier_lite_cbr"
+		//"V_PlateCarrier1_khk"
 		//"rhsusf_iotv_ocp_Rifleman"
 		//LIST_1("CUP_V_B_IOTV_OCP_Empty_USArmy"),
 		//"CUP_V_B_IOTV_OCP_MG_USArmy",

@@ -56,12 +56,12 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"wsx_mbav_rifleman_blk"
+		"usp_eagle_mbav_mcb"
 	};
 	headgear[] = 
 	{
-		"TC_Helmet_Hat_NavySeer",
-		"TC_Helmet_Hat_WitchCop"
+		"$NONE_TC_Helmet_Hat_NavySeer$",
+		"$NONE_TC_Helmet_Hat_WitchCop$"
 	};
 	backpack[] = 
 	{
@@ -69,7 +69,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1"
+		"CUP_arifle_M4A1_black"
 	};
 	attachment[] = 
 	{
@@ -77,7 +77,7 @@ class rm : baseMan
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem556"
+		"$NONE_hlc_muzzle_fn_oem556$"
 	};
 	items[] =
 	{
@@ -106,7 +106,7 @@ class shot : rm
 	displayName = "Shotgunner";
 	vest[] = 
 	{
-		"wsx_mbav_mg_blk"
+		"usp_eagle_mbav_mcb"
 	};
 	primaryWeapon[] = 
 	{
@@ -165,7 +165,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1_m203"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	backpackItems[] = 
 	{
@@ -188,7 +188,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m4a1_m203"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	sidearmWeapon[] = 
 	{

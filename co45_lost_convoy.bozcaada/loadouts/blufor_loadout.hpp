@@ -35,16 +35,16 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rcu_vrd",
-		"aegis_rcu_rs_vrd"
+		"$NONE_aegis_rcu_vrd$",
+		"$NONE_aegis_rcu_rs_vrd$"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_grn"
+		"V_CarrierRigKBT_01_light_Olive_F"
 	};
 	headgear[] = 
 	{
-		"aegis_specter_od"
+		"H_HelmetSpecter_F"
 	};
 	backpack[] = 
 	{
@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"sma_acc_eotech_552_kf_blk"
+		"$NONE_sma_acc_eotech_552_kf_blk$"
 	};
 	items[] =
 	{
@@ -85,7 +85,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_rgr"
+		"B_TacticalPack_rgr"
 	};
 	primaryWeapon[] = 
 	{
@@ -113,7 +113,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_rgr"
+		"B_TacticalPack_rgr"
 	};
 	backpackItems[] += 
 	{
@@ -213,7 +213,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_rgr"
+		"B_TacticalPack_rgr"
 	};
 	backpackItems[] =
 	{

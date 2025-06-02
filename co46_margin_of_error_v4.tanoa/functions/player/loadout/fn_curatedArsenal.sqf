@@ -38,10 +38,10 @@ private _itemGear =
 //Uniform
 private _itemUniform = 
 [
-	"aegis_ccu_omcp_tropic",
-	"aegis_ccu_cu_omcp_tropic",
-	"aegis_ccu_rs_omcp_tropic",
-	"aegis_ccu_tshirt_omcp_tropic"
+	"U_B_T_Soldier_F",
+	"Atlas_U_B_T_JSOC_StealthUniform_alt_F",
+	"U_B_T_Soldier_SL_F",
+	"U_B_T_Soldier_AR_F"
 ];
 
 private _itemUniformCrew = 
@@ -57,12 +57,12 @@ private _itemUniformPilot =
 //Vest
 private _itemVest = 
 [
-	"aegis_cage_carrier_lite_omcp_tropic",
-	"aegis_cage_carrier_rig_omcp_tropic",
-	"aegis_cage_carrier_gl_omcp_tropic",
-	"aegis_platecarrier_lite_tropic",
-	"aegis_platecarrier_rig_tropic",
-	"aegis_platecarrier_gl_tropic"
+	"V_PlateCarrier1_tna_F",
+	"V_PlateCarrier2_tna_F",
+	"V_PlateCarrierSpec_tna_F",
+	"V_PlateCarrier1_tna_F",
+	"V_PlateCarrier2_tna_F",
+	"V_PlateCarrierGL_tna_F"
 ];
 
 private _itemVestCrew = 
@@ -77,7 +77,7 @@ private _itemVestPilot =
 private _itemHeadgear = 
 [
 	"usp_cap_ct_mct",
-	"aegis_mich_omcp_tropic",
+	"H_HelmetB_tna_F",
 	"usp_opscore_mt_cover_ct_mct",
 	"usp_opscore_mt_cover_ct_cm_mct",
 	"usp_opscore_mt_cover_ctg_mct",
@@ -98,8 +98,8 @@ private _itemHeadgearPilot =
 //Backpack 
 private _itemBackpack = 
 [
-	"aegis_virtus_assaultpack_omcp_tropic",
-	"aegis_virtus_kitbag_omcp_tropic"
+	"B_AssaultPack_tna_F",
+	"B_Kitbag_tna_F"
 ];
 
 private _itemBackpackCrew = 
@@ -116,18 +116,18 @@ private _itemBackpackPilot =
 private _itemCosmetic = 
 [
 	//Facewear
-	"aegis_bala_skull",
+	"G_Balaclava_Skull1",
 	"pca_balaclava_gogg_mcb",
 	"G_Balaclava_oli",
 	"pca_balaclava_mcb",
 	"G_Balaclava_blk",
 	"G_Aviator",
 	"G_Spectacles",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
 	"rhssaf_veil_Green",
 	"G_Spectacles_Tinted",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"rhs_ess_black",
 	"rhs_googles_black",
 	"rhs_googles_clear",
@@ -148,10 +148,10 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_tan",
 	"rhsusf_shemagh_gogg_tan",
 	"rhsusf_shemagh2_gogg_tan",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
-	"aegis_shemag_red",
+	"CUP_FR_NeckScarf5",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"immersion_cigs_cigar0",
@@ -175,8 +175,8 @@ private _itemCosmetic =
 	"milgp_f_face_shield_shades_rgr",
 	"CUP_PMC_Facewrap_Tropical",
 	"CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
-	"aegis_bala_light_tropic",
-	"aegis_bala_light_gogg_tropic",
+	"G_Balaclava_light_tropic_F",
+	"G_Balaclava_light_G_tropic_F",
 	
 	//Murshun cigpack and lighter
 	"murshun_cigs_lighter",
@@ -272,8 +272,8 @@ private _itemAcc =
 	"cup_optic_elcan_specterdr_black", //only 3D version works with NVGs
 	
 	//Silencer
-	"hlc_muzzle_556nato_kac",
-	"hlc_muzzle_tirant9",
+	"$NONE_hlc_muzzle_556nato_kac$",
+	"$NONE_hlc_muzzle_tirant9$",
 	
 	//Grip
 	"rhsusf_acc_grip1",
@@ -304,14 +304,14 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_hk416d145",
-	"hlc_rifle_hk416d145_camo_grn"
+	"rhs_weap_hk416d145",
+	"rhs_weap_hk416d145_wd"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_hk416d145_agc",
-	"hlc_rifle_hk416d145_agc_camo_grn"
+	"rhs_weap_hk416d145_m320",
+	"$NONE_hlc_rifle_hk416d145_agc_camo_grn$"
 ];
 
 private _itemWeapAR = 

@@ -204,7 +204,7 @@ private _itemAcc =
 	
 	//Tactical Device
 	"pca_flashlight_sf",
-	"pca_flashlight_wmx"
+	"ACE_Flashlight_Maglite_ML300L"
 ];
 
 private _itemAccSpec = 

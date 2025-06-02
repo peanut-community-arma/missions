@@ -60,9 +60,9 @@ private _headgearPoolWeighted = selectRandomWeighted
 	"pca_m88_fieldcap_gray", 1,
 	"pca_ssh68_helmet_ogrn", 1,
 	"pca_ssh68_helmet_emblem_redstar", 1,
-	"usm_bdu_boonie_blk", 1,
-	"usm_bdu_boonie_gry", 1,
-	"usm_bdu_boonie_odg", 1
+	"H_Booniehat_blk", 1,
+	"$NONE_usm_bdu_boonie_gry$", 1,
+	"H_Booniehat_oli", 1
 ];
 
 private _backpackPoolWeighted = "rhs_sidor";
@@ -71,9 +71,9 @@ private _facewearPoolWeighted = selectRandomWeighted
 [
 	"G_Bandanna_blk", 1,
 	"G_Bandanna_beast", 1,
-	"aegis_bandanna_skull", 1,
-	"aegis_shemagh_loop_white", 1.5,
-	"aegis_shemagh_mesh_white", 1.5,
+	"G_Bandanna_Skull2", 1,
+	"G_Shemag_white", 1.5,
+	"G_Shemag_white", 1.5,
 	"CUP_TK_NeckScarf", 3
 ];
 
@@ -207,7 +207,7 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "ar") : 
 	{
-		private _weapon = "fwa_weap_rpd";
+		private _weapon = "$NONE_fwa_weap_rpd$";
 		private _weaponMag = "fwa_100rnd_762x39mm_rpd_mixed";
 		
 		_unit addWeapon _weapon;

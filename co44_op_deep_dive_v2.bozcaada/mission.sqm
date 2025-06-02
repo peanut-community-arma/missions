@@ -7243,7 +7243,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_tan$";
 																				};
 																			};
 																			class Item1
@@ -7378,7 +7378,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_fn_oem";
+																					value = "$NONE_hlc_muzzle_fn_oem$";
 																				};
 																			};
 																			class Item1
@@ -7486,7 +7486,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -7513,7 +7513,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_tan";
+																					value = "$NONE_hlc_pistol_mk25_tan$";
 																				};
 																			};
 																			class Item1
@@ -7567,7 +7567,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																				};
 																			};
 																			class Item1
@@ -7783,7 +7783,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr_tan";
+																					value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																				};
 																			};
 																			class Item1
@@ -10277,7 +10277,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "hlc_rifle_scarh_std_tan";
+																									value = "$NONE_hlc_rifle_scarh_std_tan$";
 																								};
 																							};
 																							class Item1
@@ -10412,7 +10412,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "hlc_muzzle_fn_oem";
+																									value = "$NONE_hlc_muzzle_fn_oem$";
 																								};
 																							};
 																							class Item1
@@ -10520,7 +10520,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rksl_optic_eot552x";
+																									value = "$NONE_rksl_optic_eot552x$";
 																								};
 																							};
 																							class Item1
@@ -10547,7 +10547,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "hlc_pistol_mk25_tan";
+																									value = "$NONE_hlc_pistol_mk25_tan$";
 																								};
 																							};
 																							class Item1
@@ -10601,7 +10601,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "hlc_rifle_scarh_std_eglm_tan";
+																									value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																								};
 																							};
 																							class Item1
@@ -10817,7 +10817,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "hlc_rifle_scarh_ssr_tan";
+																									value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																								};
 																							};
 																							class Item1
@@ -22606,7 +22606,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_scarh_std_tan";
+																							value = "$NONE_hlc_rifle_scarh_std_tan$";
 																						};
 																					};
 																					class Item1
@@ -22741,7 +22741,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_muzzle_fn_oem";
+																							value = "$NONE_hlc_muzzle_fn_oem$";
 																						};
 																					};
 																					class Item1
@@ -22849,7 +22849,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rksl_optic_eot552x";
+																							value = "$NONE_rksl_optic_eot552x$";
 																						};
 																					};
 																					class Item1
@@ -22876,7 +22876,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_pistol_mk25_tan";
+																							value = "$NONE_hlc_pistol_mk25_tan$";
 																						};
 																					};
 																					class Item1
@@ -22930,7 +22930,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_scarh_std_eglm_tan";
+																							value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																						};
 																					};
 																					class Item1
@@ -23146,7 +23146,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_scarh_ssr_tan";
+																							value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																						};
 																					};
 																					class Item1
@@ -65036,7 +65036,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_scarh_std_tan";
+																			value = "$NONE_hlc_rifle_scarh_std_tan$";
 																		};
 																	};
 																	class Item1
@@ -65171,7 +65171,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_muzzle_fn_oem";
+																			value = "$NONE_hlc_muzzle_fn_oem$";
 																		};
 																	};
 																	class Item1
@@ -65279,7 +65279,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rksl_optic_eot552x";
+																			value = "$NONE_rksl_optic_eot552x$";
 																		};
 																	};
 																	class Item1
@@ -65306,7 +65306,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_pistol_mk25_tan";
+																			value = "$NONE_hlc_pistol_mk25_tan$";
 																		};
 																	};
 																	class Item1
@@ -65360,7 +65360,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_scarh_std_eglm_tan";
+																			value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																		};
 																	};
 																	class Item1
@@ -65576,7 +65576,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_scarh_ssr_tan";
+																			value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																		};
 																	};
 																	class Item1
@@ -68245,7 +68245,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_tan$";
 																				};
 																			};
 																			class Item1
@@ -68380,7 +68380,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_fn_oem";
+																					value = "$NONE_hlc_muzzle_fn_oem$";
 																				};
 																			};
 																			class Item1
@@ -68488,7 +68488,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -68515,7 +68515,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_tan";
+																					value = "$NONE_hlc_pistol_mk25_tan$";
 																				};
 																			};
 																			class Item1
@@ -68569,7 +68569,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																				};
 																			};
 																			class Item1
@@ -68785,7 +68785,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr_tan";
+																					value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																				};
 																			};
 																			class Item1
@@ -69098,7 +69098,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_tan$";
 																				};
 																			};
 																			class Item1
@@ -69233,7 +69233,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_fn_oem";
+																					value = "$NONE_hlc_muzzle_fn_oem$";
 																				};
 																			};
 																			class Item1
@@ -69341,7 +69341,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -69368,7 +69368,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_tan";
+																					value = "$NONE_hlc_pistol_mk25_tan$";
 																				};
 																			};
 																			class Item1
@@ -69422,7 +69422,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																				};
 																			};
 																			class Item1
@@ -69638,7 +69638,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr_tan";
+																					value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																				};
 																			};
 																			class Item1
@@ -69951,7 +69951,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_tan$";
 																				};
 																			};
 																			class Item1
@@ -70086,7 +70086,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_fn_oem";
+																					value = "$NONE_hlc_muzzle_fn_oem$";
 																				};
 																			};
 																			class Item1
@@ -70194,7 +70194,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -70221,7 +70221,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_tan";
+																					value = "$NONE_hlc_pistol_mk25_tan$";
 																				};
 																			};
 																			class Item1
@@ -70275,7 +70275,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																				};
 																			};
 																			class Item1
@@ -70491,7 +70491,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr_tan";
+																					value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																				};
 																			};
 																			class Item1
@@ -70804,7 +70804,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_tan$";
 																				};
 																			};
 																			class Item1
@@ -70939,7 +70939,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_fn_oem";
+																					value = "$NONE_hlc_muzzle_fn_oem$";
 																				};
 																			};
 																			class Item1
@@ -71047,7 +71047,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -71074,7 +71074,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_tan";
+																					value = "$NONE_hlc_pistol_mk25_tan$";
 																				};
 																			};
 																			class Item1
@@ -71128,7 +71128,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																				};
 																			};
 																			class Item1
@@ -71344,7 +71344,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr_tan";
+																					value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																				};
 																			};
 																			class Item1
@@ -71657,7 +71657,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_tan$";
 																				};
 																			};
 																			class Item1
@@ -71792,7 +71792,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_muzzle_fn_oem";
+																					value = "$NONE_hlc_muzzle_fn_oem$";
 																				};
 																			};
 																			class Item1
@@ -71900,7 +71900,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rksl_optic_eot552x";
+																					value = "$NONE_rksl_optic_eot552x$";
 																				};
 																			};
 																			class Item1
@@ -71927,7 +71927,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_pistol_mk25_tan";
+																					value = "$NONE_hlc_pistol_mk25_tan$";
 																				};
 																			};
 																			class Item1
@@ -71981,7 +71981,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_std_eglm_tan";
+																					value = "$NONE_hlc_rifle_scarh_std_eglm_tan$";
 																				};
 																			};
 																			class Item1
@@ -72197,7 +72197,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_scarh_ssr_tan";
+																					value = "$NONE_hlc_rifle_scarh_ssr_tan$";
 																				};
 																			};
 																			class Item1

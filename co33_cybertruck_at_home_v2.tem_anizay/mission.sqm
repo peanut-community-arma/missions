@@ -6122,7 +6122,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="hlc_rifle_g3a3";
+																					value="CUP_arifle_G36A3";
 																				};
 																			};
 																			class Item1
@@ -6662,7 +6662,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="hlc_rifle_m1903a1_sniper";
+																					value="sp_fwa_m1903a1_unertl";
 																				};
 																			};
 																			class Item1
@@ -43869,7 +43869,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TC_U_aegis_guerilla_garb_m81_sudan";
+								typeName="$NONE_TC_U_aegis_guerilla_garb_m81_sudan$";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -44816,7 +44816,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="hlc_rifle_m1903a1_sniper";
+								name="sp_fwa_m1903a1_unertl";
 								firemode="hlc_rifle_m1903a1_sniper:Single";
 								class primaryMuzzleMag
 								{
@@ -44830,7 +44830,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TC_U_aegis_guerilla_garb_m81_sudan";
+								typeName="$NONE_TC_U_aegis_guerilla_garb_m81_sudan$";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -45522,7 +45522,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="TC_U_aegis_guerilla_garb_m81_sudan";
+								typeName="$NONE_TC_U_aegis_guerilla_garb_m81_sudan$";
 								isBackpack=0;
 								class ItemCargo
 								{

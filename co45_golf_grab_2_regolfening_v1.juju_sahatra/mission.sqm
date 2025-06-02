@@ -1545,7 +1545,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "TC_U_aegis_guerilla_tshirt_m81_sudan";
+								typeName = "$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$";
 								isBackpack = 0;
 								class ItemCargo
 								{

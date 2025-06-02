@@ -211,7 +211,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	backpack[] = 
 	{
-		"aegis_loadbearing_blk"
+		"Aegis_B_patrolBackpack_blk_F"
 	};
 	backpackItems[] =
 	{

@@ -44,8 +44,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rcu_ghex",
-		"aegis_rcu_rs_ghex"
+		"Aegis_U_O_CombatFatigues_ghex_F",
+		"Aegis_U_O_CombatFatigues_02_ghex_F"
 	};
 	vest[] = 
 	{

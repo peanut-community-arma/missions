@@ -121,7 +121,7 @@ class ar : rm
 	};
 	scope[] = 
 	{
-		"sma_acc_vortex_rds_blk"
+		"$NONE_sma_acc_vortex_rds_blk$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -196,7 +196,7 @@ class tl : rm
 	};
 	scope[] = 
 	{
-		"sma_acc_vortex_rds_blk"
+		"$NONE_sma_acc_vortex_rds_blk$"
 	};
 	sidearmWeapon[] = 
 	{

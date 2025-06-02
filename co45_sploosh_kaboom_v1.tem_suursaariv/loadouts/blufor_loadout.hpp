@@ -57,19 +57,19 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_specter_blk",
-		"aegis_specter_headset_blk",
-		"aegis_specter_cover_blk"
+		"H_HelmetSpecter_black_F",
+		"H_HelmetSpecter_black_headset_F",
+		"H_HelmetSpecter_black_F"
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_blk"
+		"B_Kitbag_blk"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a4_kac",
-		"hlc_rifle_g36ca4_kac",
-		"hlc_rifle_g36ka4_kac"
+		"$NONE_hlc_rifle_g36a4_kac$",
+		"$NONE_hlc_rifle_g36ca4_kac$",
+		"CUP_arifle_G36KA3_grip"
 	};
 	silencer[] = {
 		"sps_acc_gemtech_one_od"
@@ -110,7 +110,7 @@ class ar : rm
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	primaryWeapon[] = 
 	{
@@ -122,7 +122,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p229r_combat"
+		"$NONE_hlc_pistol_p229r_combat$"
 	};
 	magazines[] = 
 	{
@@ -142,7 +142,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	backpackItems[] += 
 	{
@@ -172,7 +172,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a4_kac_ag36"
+		"$NONE_hlc_rifle_g36a4_kac_ag36$"
 	};
 	backpackItems[] = 
 	{
@@ -210,11 +210,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a4_kac_ag36"
+		"$NONE_hlc_rifle_g36a4_kac_ag36$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p229r_combat"
+		"$NONE_hlc_pistol_p229r_combat$"
 	};
 	magazines[] += 
 	{
@@ -252,7 +252,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a4_kac_ag36"
+		"$NONE_hlc_rifle_g36a4_kac_ag36$"
 	};
 	backpackItems[] =
 	{
@@ -289,7 +289,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_kitbag_blk"
+		"B_Kitbag_blk"
 	};
 	backpackItems[] =
 	{
@@ -310,7 +310,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p229r_combat"
+		"$NONE_hlc_pistol_p229r_combat$"
 	};
 	magazines[] += 
 	{

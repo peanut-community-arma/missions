@@ -25,18 +25,18 @@ _unit setVariable ["startPos", getPosASL _unit];
 private _itemGear = 
 [
 	//Uniform
-	"usm_bdu_taki",
-	"usm_bdu_bti_taki",
-	"usm_bdu_btisrl_taki",
-	"usm_bdu_srl_taki",
-	"usm_bdu_srh_taki",
+	"$NONE_usm_bdu_taki$",
+	"$NONE_usm_bdu_bti_taki$",
+	"$NONE_usm_bdu_btisrl_taki$",
+	"$NONE_usm_bdu_srl_taki$",
+	"$NONE_usm_bdu_srh_taki$",
 	
 	//Vest
-	"usm_vest_lbe_machinegunner",
-	"usm_vest_lbe_rifleman",
-	"usm_vest_lbe_rifleman2",
-	"usm_vest_lbe_rifleman3",
-	"usm_vest_lbe_rifleman4",
+	"V_Simc_56_60_ligt_zusp",
+	"V_Simc_67",
+	"V_Simc_56_ligt_zusp",
+	"V_Simc_56_alt",
+	"V_Simc_56",
 	
 	//Headgear
 	"pca_m88_fieldcap",
@@ -52,24 +52,24 @@ private _itemGear =
 	"pca_backpack_invisible_large",
 	"pca_rd54_oli",
 	"pca_rd54_tan",
-	"wsx_tacticalpack_oli",
+	"B_TacticalPack_oli",
 	"CUP_B_AlicePack_Khaki"
 ];
 
 private _itemGearCrew = 
 [
 	//Uniform
-	"usm_bdu_taki",
-	"usm_bdu_bti_taki",
-	"usm_bdu_btisrl_taki",
-	"usm_bdu_srl_taki",
-	"usm_bdu_srh_taki",
+	"$NONE_usm_bdu_taki$",
+	"$NONE_usm_bdu_bti_taki$",
+	"$NONE_usm_bdu_btisrl_taki$",
+	"$NONE_usm_bdu_srl_taki$",
+	"$NONE_usm_bdu_srh_taki$",
 	
 	//Vest
-	"usm_vest_lbe_rifleman",
-	"usm_vest_lbe_rifleman2",
-	"usm_vest_lbe_rifleman3",
-	"usm_vest_lbe_rifleman4",
+	"V_Simc_67",
+	"V_Simc_56_ligt_zusp",
+	"V_Simc_56_alt",
+	"V_Simc_56",
 	
 	//Headgear
 	"rhs_tsh4",
@@ -80,7 +80,7 @@ private _itemGearCrew =
 	"pca_backpack_invisible_large",
 	"pca_rd54_oli",
 	"pca_rd54_tan",
-	"wsx_tacticalpack_oli",
+	"B_TacticalPack_oli",
 	"CUP_B_AlicePack_Khaki"
 ];
 
@@ -109,12 +109,12 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_tan",
 	
 	//PCA
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"pca_nvg_shemagh_lowered_khk",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
@@ -122,22 +122,22 @@ private _itemCosmetic =
 	"pca_nvg_shemagh_lowered_white",
 	
 	//Aegis
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_white",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_tan",
+	"G_Shemag_white",
 	
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	
 	//CUP
 	"CUP_FR_NeckScarf",

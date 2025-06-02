@@ -45,7 +45,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		//"aegis_merc_polo_blu",
+		//"U_B_ION_Uniform_01_poloshirt_blue_F",
 		"CUP_I_B_PMC_Unit_39",
 		"CUP_I_B_PMC_Unit_36"
 	};
@@ -60,11 +60,11 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_tan"
+		"B_AssaultPack_cbr"
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90_tan"
+		"arifle_AUG_F"
 	};
 	scope[] = 
 	{
@@ -105,7 +105,7 @@ class ar : rm
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -160,7 +160,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] =
 	{
-		"aegis_weap_aur90_carbine_tan"
+		"arifle_AUG_C_F"
 	};
 	backpack[] =
 	{

@@ -26,7 +26,7 @@ class baseMan
 	{
 		"G_Balaclava_combat",
 		"G_Balaclava_lowprofile",
-		"aegis_bala_light_gogg_blk",
+		"G_Balaclava_light_G_blk_F",
 		"pca_balaclava_gogg_mcalp"
 	};
 	hmd[] = {};
@@ -74,8 +74,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_auga3_gry",
-		"hlc_rifle_auga3_tan"
+		"$NONE_hlc_rifle_auga3_gry$",
+		"$NONE_hlc_rifle_auga3_tan$"
 	};
 	scope[] = 
 	{

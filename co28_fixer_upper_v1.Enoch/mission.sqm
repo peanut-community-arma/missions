@@ -4334,7 +4334,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -14070,7 +14070,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -17944,7 +17944,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -18762,7 +18762,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -19580,7 +19580,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -20398,7 +20398,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -21216,7 +21216,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_colt727mod";
+																					value = "$NONE_hlc_rifle_colt727mod$";
 																				};
 																			};
 																			class Item1
@@ -22464,7 +22464,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_colt727mod";
+																							value = "$NONE_hlc_rifle_colt727mod$";
 																						};
 																					};
 																					class Item1
@@ -25574,7 +25574,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_colt727mod";
+																							value = "$NONE_hlc_rifle_colt727mod$";
 																						};
 																					};
 																					class Item1

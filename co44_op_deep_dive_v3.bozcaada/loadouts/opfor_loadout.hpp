@@ -52,15 +52,15 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_dcu"
+		"CUP_U_B_BDUv2_DCU_US"
 	};
 	vest[] = 
 	{
-		"aegis_elbv_harness_tan"
+		"V_HarnessOSpec_tan"
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_rm_dcu"
+		"CUP_H_PASGTv2_NVG_DCU"
 	};
 	primaryWeapon[] = 
 	{

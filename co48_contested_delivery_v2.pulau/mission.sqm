@@ -43317,7 +43317,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_rpd";
+																			value = "$NONE_fwa_weap_rpd$";
 																		};
 																	};
 																	class Item1
@@ -43614,7 +43614,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "fwa_weap_m67";
+																			value = "sp_fwa_m67";
 																		};
 																	};
 																	class Item1

@@ -76,7 +76,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_auga3_blk"
+		"$NONE_hlc_rifle_auga3_blk$"
 	};
 	scope[] = 
 	{
@@ -182,7 +182,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_auga3_m203_blk"
+		"$NONE_hlc_rifle_auga3_m203_blk$"
 	};
 	backpackItems[] +=
 	{

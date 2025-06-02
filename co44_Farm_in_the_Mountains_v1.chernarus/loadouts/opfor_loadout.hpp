@@ -66,8 +66,8 @@ class rm : baseMan
 		"CUP_U_C_Mechanic_03",
 		"U_C_E_LooterJacket_01_F",
 		"U_I_L_Uniform_01_tshirt_skull_F",
-		"aegis_jacket_gry",
-		"aegis_suit_formal_white",
+		"Atlas_U_C_CommonerJacket_01_grey_F",
+		"U_C_Uniform_Formal_01_white_F",
 		"U_C_Uniform_Farmer_01_F",
 		"CUP_U_C_Citizen_03",
 		"CUP_U_O_CHDKZ_Lopotev"

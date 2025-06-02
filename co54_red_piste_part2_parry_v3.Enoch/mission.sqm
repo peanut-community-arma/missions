@@ -22353,7 +22353,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -22650,7 +22650,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -22677,7 +22677,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -22812,7 +22812,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -22947,7 +22947,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -22974,7 +22974,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -34714,7 +34714,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -35011,7 +35011,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -35038,7 +35038,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -35173,7 +35173,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -35308,7 +35308,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -35335,7 +35335,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -44171,7 +44171,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -44468,7 +44468,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -44495,7 +44495,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -44630,7 +44630,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -44765,7 +44765,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -44792,7 +44792,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "$NONE_hlc_bipod_utgshooters$";
 																						};
 																					};
 																					class Item1
@@ -62354,7 +62354,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_g36a3";
+								name = "CUP_arifle_G36A3";
 								optics = "CUP_optic_AC11704_Black";
 								firemode = "hlc_rifle_g36a3:Single";
 								class primaryMuzzleMag
@@ -62900,7 +62900,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_g36a3";
+								name = "CUP_arifle_G36A3";
 								optics = "CUP_optic_AC11704_Black";
 								firemode = "hlc_rifle_g36a3:Single";
 								class primaryMuzzleMag

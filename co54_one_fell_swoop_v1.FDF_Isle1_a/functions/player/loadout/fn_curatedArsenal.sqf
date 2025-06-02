@@ -178,12 +178,12 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_sks"
+	"Opf_arifle_SKS_F"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_akm_gp25",
+	"CUP_arifle_AKM_GL_Early",
 	"CUP_arifle_AKM_GL",
 	"rhs_weap_akmn_gp25",
 	"CUP_arifle_AKMS_GL_Early"
@@ -192,7 +192,7 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_akm",
+	"CUP_arifle_AKM_Early",
 	"CUP_arifle_AKMS_Early",
 	"CUP_arifle_AKM",
 	"rhs_weap_akmn"

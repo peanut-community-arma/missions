@@ -72,7 +72,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr68_sbr_blk"
+		"$NONE_hlc_rifle_acr68_sbr_blk$"
 	};
 	scope[] =
 	{
@@ -88,11 +88,11 @@ class rm : baseMan
 	};
 	sidearmWeapon[] =
 	{
-		"hlc_pistol_mk25tr"
+		"$NONE_hlc_pistol_mk25tr$"
 	};
 	sidearmAttachments[] = 
 	{
-		"hlc_acc_tlr1"
+		"$NONE_hlc_acc_tlr1$"
 	};
 	magazines[] = 
 	{
@@ -170,7 +170,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr68_sbr_m203_blk"
+		"$NONE_hlc_rifle_acr68_sbr_m203_blk$"
 	};
 	backpackItems[] = 
 	{

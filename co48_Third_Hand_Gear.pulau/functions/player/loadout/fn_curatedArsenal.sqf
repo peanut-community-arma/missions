@@ -31,12 +31,12 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"usm_bdu_odg",
-	"usm_bdu_btisrl_odg",
-	"usm_bdu_bti_odg",
-	"usm_bdu_srh_odg",
-	"usm_bdu_srl_odg",
-	"usm_bdu_bnu_odg"
+	"CUP_U_B_BDUv2_OD",
+	"$NONE_usm_bdu_btisrl_odg$",
+	"$NONE_usm_bdu_bti_odg$",
+	"CUP_U_B_BDUv2_roll2_OD",
+	"CUP_U_B_BDUv2_roll_OD_US",
+	"CUP_U_B_BDUv2_OD_US"
 ];
 
 private _itemUniformPilot = 
@@ -120,7 +120,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_oli",
 	"simc_bandoleer_duplet_flak",
 	"simc_bandoleer_left_flak",
@@ -130,35 +130,35 @@ private _itemCosmetic =
 	"CUP_Beard_Black",
 	"CUP_Beard_Brown",
 	"immersion_cigs_cigar0",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
-	"usm_kneepads_blk",
+	"$NONE_usm_kneepads_blk$",
 	"milgp_f_face_shield_rgr",
 	"milgp_f_face_shield_shemagh_rgr",
 	"immersion_pops_pop0",
 	"m40_gas_mask_02",
 	"m40_gas_mask_03",
-	"usm_swdgoggles",
+	"$REMOVE_usm_swdgoggles$",
 	"G_Spectacles_Tinted",
-	"aegis_shemag_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_white",
+	"CUP_FR_NeckScarf",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_white",
 	"rhsusf_shemagh_od",
 	"rhsusf_shemagh2_od",
 	"CUP_G_TK_RoundGlasses",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses_gold",
 	"TC_G_NitrileGloves_1",
-	"aegis_shemagh_loop_grn",
+	"G_Shemag_oli",
 	"CUP_G_ESS_RGR",
 	"CUP_G_ESS_RGR_Dark",
 	"simc_goggles_swdg_low",
 	
 	
 	//NVG
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_ess_blk$",
 	"simc_addon_bandoleer_duplet_flak",
 	"simc_addon_bandoleer_left_flak",
 	"simc_addon_bandoleer_low_flak",
@@ -167,9 +167,9 @@ private _itemCosmetic =
 	"immersion_cigs_cigar0_nv",
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_rgr",
-	"nvg_goggles_grn",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
+	"Goggles_grn_F",
 	"simc_addon_bandoleer_left_flak",
 	"simc_addon_bandoleer_low_flak",
 	"simc_addon_bandoleer_right_flak",
@@ -177,11 +177,11 @@ private _itemCosmetic =
 	"immersion_cigs_cigar0_nv",
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_rgr",
-	"nvg_goggles_grn",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
+	"Goggles_grn_F",
 	"immersion_pops_pop0_nv",
-	"usm_nvg_kneepads_blk",
+	"$NONE_usm_nvg_kneepads_blk$",
 	"TC_NVG_NitrileGloves_1",
 	"simc_addon_nomex_alt",
 	"simc_addon_nomex_fold_alt",
@@ -189,9 +189,9 @@ private _itemCosmetic =
 	"simc_nomex_alt",
 	"simc_nomex_fold_alt",
 	"simc_nomex_long_alt",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_loop_khk",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_loop_khk$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red"
 ];
@@ -264,12 +264,12 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m16a2"
+	"CUP_arifle_M16A2"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m16a2_m203",
+	"CUP_arifle_Colt727_M203",
 	"rhsusf_m112_mag"
 ];
 

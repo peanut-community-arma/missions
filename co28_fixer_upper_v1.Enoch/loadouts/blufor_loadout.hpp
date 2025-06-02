@@ -44,9 +44,9 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_merc_tshirt_blk",
-		"aegis_suit_formal_white",
-		"aegis_jacket_gry"
+		"U_B_ION_Uniform_01_tshirt_black_F",
+		"U_C_Uniform_Formal_01_white_F",
+		"Atlas_U_C_CommonerJacket_01_grey_F"
 	};
 	vest[] = 
 	{
@@ -62,7 +62,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_colt727mod"
+		"$NONE_hlc_rifle_colt727mod$"
 	};
 	sidearmWeapon[] = 
 	{

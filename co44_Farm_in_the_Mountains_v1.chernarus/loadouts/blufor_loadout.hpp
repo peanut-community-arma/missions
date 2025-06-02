@@ -52,11 +52,11 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"usm_vest_pasgt_odg",
+		"V_Simc_flak_M69",
         "V_TacVest_blk",
-        "aegis_tacvest_grn",
-        "aegis_tacvest_oli",
-        "aegis_tacvest_tan",
+        "V_TacVest_grn",
+        "V_TacVest_grn",
+        "V_TacVest_tan",
         "bear_tactical_vest_green"
 	};
 	headgear[] = 
@@ -64,7 +64,7 @@ class rm : baseMan
 		"TC_Helmet_CowboyHat1",
 		"TC_Helmet_CowboyHat3",
 		"TC_Helmet_CowboyHat2",
-		"aegis_beanie_red",
+		"H_Watchcap_red",
 		"H_Cap_red"
 	};
 	backpack[] = 
@@ -74,7 +74,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mosin_m91"
+		"CUP_srifle_Mosin_Nagant"
 	};
 	items[] =
 	{

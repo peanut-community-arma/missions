@@ -35,18 +35,18 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdum65_ubn"
+		"$NONE_usm_bdum65_ubn$"
 	};
 	vest[] = 
 	{
-		"usm_vest_pasgt_lbe_rifleman",
-		"usm_vest_pasgt_lbe_rifleman2",
-		"usm_vest_pasgt_lbe_rifleman3",
-		"usm_vest_pasgt_lbe_rifleman4"
+		"usm_vest_pasgt_lbe_rm",
+		"usm_vest_pasgt_lbe_rm",
+		"usm_vest_pasgt_lbe_rm",
+		"usm_vest_pasgt_lbe_rm"
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_ubn"
+		"CUP_H_PASGTv2_Urban"
 	};
 	backpack[] = 
 	{
@@ -54,7 +54,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2"
+		"CUP_arifle_M16A2"
 	};
 	items[] =
 	{
@@ -83,7 +83,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"usm_vest_pasgt_lbe_machinegunner"
+		"usm_vest_pasgt_lbe_mg"
 	};
 	primaryWeapon[] = 
 	{
@@ -143,11 +143,11 @@ class gren : rm
 	displayName = "Grenadier";
 	vest[] = 
 	{
-		"usm_vest_pasgt_lbe_grenadier"
+		"usm_vest_pasgt_lbe_gr"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	backpackItems[] = 
 	{
@@ -184,7 +184,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	backpackItems[] =
 	{
@@ -249,7 +249,7 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	vest[] = 
 	{
-		"usm_vest_pasgt_lbe_machinegunner"
+		"usm_vest_pasgt_lbe_mg"
 	};
 	backpack[] = 
 	{
@@ -300,7 +300,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"usm_pack_alice"
+		"CUP_B_AlicePack_Khaki"
 	};
 	secondaryWeapon[] = 
 	{
@@ -326,7 +326,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"usm_pack_alice"
+		"CUP_B_AlicePack_Khaki"
 	};
 	backpackItems[] = 
 	{

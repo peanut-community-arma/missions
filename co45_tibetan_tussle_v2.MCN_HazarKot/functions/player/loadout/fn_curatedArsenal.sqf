@@ -31,11 +31,11 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"usm_bdu_btisrl_tan",
-	"usm_bdu_tan",
-	"usm_bdu_bti_tan",
-	"usm_bdu_srh_tan",
-	"usm_bdu_srl_tan"
+	"$NONE_usm_bdu_btisrl_tan$",
+	"$NONE_usm_bdu_tan$",
+	"$NONE_usm_bdu_bti_tan$",
+	"$NONE_usm_bdu_srh_tan$",
+	"$NONE_usm_bdu_srl_tan$"
 ];
 
 private _itemUniformCrew = 
@@ -78,12 +78,12 @@ private _itemVestPilot =
 private _itemHeadgear = 
 [
 	"pca_headband_tan",
-	"usm_bdu_boonie_tan",
-	"usm_bdu_8point_tan",
+	"H_Booniehat_tan",
+	"$NONE_usm_bdu_8point_tan$",
 	"bear_helmet_M1_tan",
 	"bear_helmet_M1_tan_alt01",
-	"usm_bdu_boonie_des",
-	"usm_bdu_8point_des"
+	"H_Booniehat_oicamo",
+	"$NONE_usm_bdu_8point_des$"
 ];
 
 private _itemHeadgearCrew = 
@@ -146,51 +146,51 @@ private _itemCosmetic =
 	"G_Tactical_Clear",
 	"G_Tactical_Black",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_bala_light_eaf",
-	"aegis_bala_light_gogg_eaf",
-	"aegis_bala_light_mtp",
-	"aegis_bala_light_gogg_mtp",
-	"aegis_bala_light_tropic",
-	"aegis_bala_light_gogg_tropic",
-	"aegis_bala_light_wdl",
-	"aegis_bala_light_gogg_wdl",
-	"aegis_cigarette",
-	"aegis_combat_gogg_blk",
-	"aegis_headset",
-	"aegis_shemagh_loop_bge",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemagh_loop_coy",
-	"aegis_shemagh_loop_gold",
-	"aegis_shemagh_loop_grn",
-	"aegis_shemagh_loop_khk",
-	"aegis_shemagh_loop_tan",
-	"aegis_shemagh_loop_white",
-	"aegis_shemagh_mesh_bge",
-	"aegis_shemagh_mesh_blk",
-	"aegis_shemagh_mesh_coy",
-	"aegis_shemagh_mesh_gold",
-	"aegis_shemagh_mesh_grn",
-	"aegis_shemagh_mesh_khk",
-	"aegis_shemagh_mesh_tan",
-	"aegis_shemagh_mesh_white",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_tactical_white",
-	"aegis_tactical_yellow",
-	"aegis_tactical_camo",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
+	"G_Bandanna_kawaii",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Balaclava_light_eaf_F",
+	"G_Balaclava_light_G_eaf_F",
+	"G_Balaclava_light_mtp_F",
+	"G_Balaclava_light_G_mtp_F",
+	"G_Balaclava_light_tropic_F",
+	"G_Balaclava_light_G_tropic_F",
+	"G_Balaclava_light_wdl_F",
+	"G_Balaclava_light_G_wdl_F",
+	"G_Cigarette",
+	"G_Combat_Goggles_blk_F",
+	"G_Headset_light",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Tactical_Yellow",
+	"G_Tactical_Camo",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
 	"CUP_RUS_Balaclava_blk",
 	"bear_balaclava1_black",
 	"CUP_RUS_Balaclava_grn",
@@ -233,9 +233,9 @@ private _itemCosmetic =
 	"CUP_FR_NeckScarf2",
 	"CUP_FR_NeckScarf5",
 	"CUP_FR_NeckScarf4",
-	"usm_swdgoggles",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_swdgoggles$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_rgr",
 	"milgp_f_face_shield_goggles_rgr",
 	"milgp_f_face_shield_goggles_shemagh_rgr",
@@ -280,12 +280,12 @@ private _itemCosmetic =
 	"milgp_f_face_shield_goggles_blk",
 	"milgp_f_face_shield_goggles_rgr",
 	"G_Spectacles_Tinted",
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_rgr"
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_rgr$"
 ];
 
 //********************************************************************************//
@@ -372,12 +372,12 @@ private _itemScope =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_em2"
+	"$NONE_fwa_weap_em2$"
 ];
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_m1941_308"
+	"$NONE_hlc_rifle_m1941_308$"
 ];
 
 private _itemWeapSS = 
@@ -388,7 +388,7 @@ private _itemWeapSS =
 
 private _itemWeapPistol = 
 [
-	"hlc_pistol_c96_prussian",
+	"$NONE_hlc_pistol_c96_prussian$",
 	
 	//Pistol Ammo
 	"hlc_10Rnd_9x19_B_C96"

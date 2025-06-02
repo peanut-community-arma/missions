@@ -51,7 +51,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-	"fwa_weap_mosin_m91"
+	"CUP_srifle_Mosin_Nagant"
 	};
 	scope[] = 
 	{
@@ -95,7 +95,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_pps43"
+		"$NONE_fwa_weap_pps43$"
 	};
 	bipod[] = 
 	{

@@ -796,7 +796,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -872,7 +872,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_kitbag_rgr";
+								typeName = "pca_kitbag_od";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -924,7 +924,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 1;
@@ -1297,7 +1297,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1346,7 +1346,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_whex";
+								typeName = "Atlas_V_OCarrierLuchnik_Lite_whex_F";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -1373,7 +1373,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_viperharness_light_whex";
+								typeName = "B_ViperLightHarness_whex_F";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -1425,7 +1425,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 10;
@@ -1792,7 +1792,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1863,7 +1863,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_viperharness_light_whex";
+								typeName = "B_ViperLightHarness_whex_F";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -1891,7 +1891,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 13;
@@ -6196,7 +6196,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -6240,7 +6240,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_whex";
+								typeName = "Atlas_V_OCarrierLuchnik_Lite_whex_F";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -6267,7 +6267,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_carryall_whex";
+								typeName = "B_Carryall_owcamo";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -6289,7 +6289,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 51;
@@ -7887,7 +7887,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -7931,7 +7931,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_grn";
+								typeName = "V_CarrierRigKBT_01_light_Olive_F";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -7970,7 +7970,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 149;
@@ -8487,7 +8487,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -8531,7 +8531,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_grn";
+								typeName = "V_CarrierRigKBT_01_light_Olive_F";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -8570,7 +8570,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 174;
@@ -40516,7 +40516,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_whex";
+								typeName = "Atlas_U_O_CombatFatigues_whex_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -40560,7 +40560,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_grn";
+								typeName = "V_CarrierRigKBT_01_light_Olive_F";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -40599,7 +40599,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_specter_cover_whex";
+							headgear = "H_HelmetSpecter_cover_whex_CO";
 						};
 					};
 					id = 843;

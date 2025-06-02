@@ -63,10 +63,10 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		LIST_8("hlc_rifle_ak74"),
-		LIST_4("hlc_rifle_ak74_worn"),
-		"hlc_rifle_ak74_dirty",
-		LIST_2("hlc_rifle_aks74")
+		LIST_8("CUP_arifle_AK74_Early"),
+		LIST_4("$NONE_hlc_rifle_ak74_worn$"),
+		"$NONE_hlc_rifle_ak74_dirty$",
+		LIST_2("CUP_arifle_AKS74_Early")
 	};
 	items[] =
 	{
@@ -100,7 +100,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk74"
+		"CUP_arifle_RPK74_45"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -151,8 +151,8 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		LIST_2("hlc_rifle_aks74_gp25"),
-		"hlc_rifle_ak74m_gp25"
+		LIST_2("CUP_arifle_AKS74_GL_Early"),
+		"CUP_arifle_AK74M_GL"
 	};
 	backpackItems[] = 
 	{
@@ -187,7 +187,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aks74_gp25"
+		"CUP_arifle_AKS74_GL_Early"
 	};
 	backpackItems[] =
 	{};
@@ -198,7 +198,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak74"
+		"CUP_arifle_AK74_Early"
 	};
 };
 
@@ -354,7 +354,7 @@ class crew : rm
 {
 	displayName = "Crewman";
 	traits[] = {"engineer"};
-	primaryWeapon[] = {"hlc_rifle_aks74u"};
+	primaryWeapon[] = {"CUP_arifle_AKS74U"};
 	vest[] = 
 	{
 		"rhs_6b2"

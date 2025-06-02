@@ -402,7 +402,7 @@ class crew : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5n_tac"
+		"$NONE_hlc_smg_mp5n_tac$"
 	};
 	scope[] = {};
 };
@@ -465,7 +465,7 @@ class hp : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5n_tac"
+		"$NONE_hlc_smg_mp5n_tac$"
 	};
 	scope[] = {};
 };
@@ -624,20 +624,20 @@ class sf_mm : sf_rm
 	displayName = "SF Marksman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarh_ssr_tan"
+		"$NONE_hlc_rifle_scarh_ssr_tan$"
 	};
 	scope[] =
 	{
-		"hlc_optic_atacr"
+		"$NONE_hlc_optic_atacr$"
 	};
 	bipod[] = {
-		"hlc_bipod_utgshooters"
+		"$NONE_hlc_bipod_utgshooters$"
 	};
 	attachment[] = {};
 	silencer[] ={
 		"sps_acc_oss_hx762_sand"
 	};
-		// "hlc_muzzle_fn_oem17s"
+		// "$NONE_hlc_muzzle_fn_oem17s$"
 	sidearmWeapon[] =
 	{
 		"rhsusf_weap_glock17g4"

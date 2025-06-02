@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rcu_arg"
+		"$NONE_aegis_rcu_arg$"
 	};
 	vest[] = 
 	{
@@ -70,7 +70,7 @@ class rm : baseMan
 		"CUP_optic_TrijiconRx01_black",
 		"ptv_acc_t1_low",
 		"rhsusf_acc_compm4",
-		"RKSL_optic_EOT552",
+		"$NONE_RKSL_optic_EOT552$",
 		"rhsusf_acc_mrds",
 		"CUP_optic_OKP_7_rail"
 	};
@@ -158,7 +158,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d165_agc"
+		"$NONE_hlc_rifle_hk416d165_agc$"
 	};
 	backpackItems[] = 
 	{
@@ -173,7 +173,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d165_agc"
+		"$NONE_hlc_rifle_hk416d165_agc$"
 	};
 	secondaryWeapon[] = {};
 	backpackItems[] =

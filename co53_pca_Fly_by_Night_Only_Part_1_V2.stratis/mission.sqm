@@ -41746,7 +41746,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_mk18mod0";
+																			value = "CUP_arifle_mk18_black";
 																		};
 																	};
 																	class Item1
@@ -41800,7 +41800,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1";
+																			value = "CUP_arifle_M4A1_black";
 																		};
 																	};
 																	class Item1
@@ -41827,7 +41827,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_carryhandle";
+																			value = "CUP_arifle_M4A1";
 																		};
 																	};
 																	class Item1
@@ -42151,7 +42151,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_m203";
+																			value = "CUP_arifle_M4A1_BUIS_GL";
 																		};
 																	};
 																	class Item1
@@ -42826,7 +42826,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_mk18mod0";
+																			value = "CUP_arifle_mk18_black";
 																		};
 																	};
 																	class Item1
@@ -42880,7 +42880,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1";
+																			value = "CUP_arifle_M4A1_black";
 																		};
 																	};
 																	class Item1
@@ -42907,7 +42907,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_carryhandle";
+																			value = "CUP_arifle_M4A1";
 																		};
 																	};
 																	class Item1
@@ -43231,7 +43231,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_m203";
+																			value = "CUP_arifle_M4A1_BUIS_GL";
 																		};
 																	};
 																	class Item1
@@ -43906,7 +43906,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_mk18mod0";
+																			value = "CUP_arifle_mk18_black";
 																		};
 																	};
 																	class Item1
@@ -43960,7 +43960,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1";
+																			value = "CUP_arifle_M4A1_black";
 																		};
 																	};
 																	class Item1
@@ -43987,7 +43987,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_carryhandle";
+																			value = "CUP_arifle_M4A1";
 																		};
 																	};
 																	class Item1
@@ -44311,7 +44311,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_m203";
+																			value = "CUP_arifle_M4A1_BUIS_GL";
 																		};
 																	};
 																	class Item1
@@ -52422,7 +52422,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_mk18mod0";
+																			value = "CUP_arifle_mk18_black";
 																		};
 																	};
 																	class Item1
@@ -52476,7 +52476,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1";
+																			value = "CUP_arifle_M4A1_black";
 																		};
 																	};
 																	class Item1
@@ -52503,7 +52503,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_carryhandle";
+																			value = "CUP_arifle_M4A1";
 																		};
 																	};
 																	class Item1
@@ -52827,7 +52827,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_m203";
+																			value = "CUP_arifle_M4A1_BUIS_GL";
 																		};
 																	};
 																	class Item1
@@ -53503,7 +53503,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_mk18mod0";
+																			value = "CUP_arifle_mk18_black";
 																		};
 																	};
 																	class Item1
@@ -53557,7 +53557,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1";
+																			value = "CUP_arifle_M4A1_black";
 																		};
 																	};
 																	class Item1
@@ -53584,7 +53584,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_carryhandle";
+																			value = "CUP_arifle_M4A1";
 																		};
 																	};
 																	class Item1
@@ -53908,7 +53908,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "hlc_rifle_m4a1_m203";
+																			value = "CUP_arifle_M4A1_BUIS_GL";
 																		};
 																	};
 																	class Item1

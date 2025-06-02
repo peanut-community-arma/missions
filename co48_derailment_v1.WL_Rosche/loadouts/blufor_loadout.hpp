@@ -66,7 +66,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mas49"
+		"sp_fwa_mas_49"
 	};
 	items[] =
 	{
@@ -101,7 +101,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_bren_mk2"
+		"sp_fwa_bren_mk2"
 	};
 	magazines[] = 
 	{
@@ -137,7 +137,7 @@ class rm_lat : rm
 	displayName = "Radio Operator";
 	primaryWeapon[] =
 	{
-		"fwa_weap_mat49"
+		"sp_fwa_smg_mat49"
 	};
 	magazines[] = 
 	{
@@ -312,7 +312,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_aa52_nf1"
+		"sp_fwa_aa52"
 	};
 	bipod[] = {};
 	attachment[] = {};

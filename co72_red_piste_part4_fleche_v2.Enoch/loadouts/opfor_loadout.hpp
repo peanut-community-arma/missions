@@ -52,8 +52,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_gorka_emr",
-		"wsx_uniform_gorka_emr_gloves"
+		"CUP_U_O_RUS_Soldier_Gorka_EMR_1",
+		"CUP_U_O_RUS_Soldier_Gorka_EMR_3"
 	};
 	vest[] = 
 	{
@@ -72,7 +72,7 @@ class rm : baseMan
 	{
 		LIST_7(""),
 		LIST_2("rhs_rd54_vest_emr1"),
-		"wsx_umbts_emr"
+		"rhs_rk_sht_30_emr"
 	};
 	primaryWeapon[] = 
 	{
@@ -188,7 +188,7 @@ class medic : rm
 	backpack[] = 
 	{
 		"rhs_rd54_vest_emr1",
-		"wsx_umbts_emr"
+		"rhs_rk_sht_30_emr"
 	};
 	backpackItems[] = 
 	{

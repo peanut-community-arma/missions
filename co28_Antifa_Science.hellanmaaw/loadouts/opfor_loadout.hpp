@@ -122,7 +122,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mp40"
+		"sp_fwa_smg_mp40"
 	};
 	magazines[] = 
 	{

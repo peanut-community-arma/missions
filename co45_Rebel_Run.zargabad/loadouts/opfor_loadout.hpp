@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_dl44"
+		"$NONE_hlc_pistol_dl44$"
 	};
 	magazines[] = 
 	{
@@ -83,7 +83,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_aa52_nf1"
+		"sp_fwa_aa52"
 	};
 	magazines[] = 
 	{
@@ -113,11 +113,11 @@ class boss : rm
 	displayName = "Vader";
 	uniform[] = 
 	{
-		"aegis_ubacs_cu_blk"
+		"U_B_UBACS_blk_f"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_blk"
+		"V_CarrierRigKBT_01_light_Black_F"
 	};
 	headgear[] = 
 	{

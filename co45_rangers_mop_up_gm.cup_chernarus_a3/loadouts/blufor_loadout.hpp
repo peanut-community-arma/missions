@@ -52,7 +52,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2"
+		"CUP_arifle_M16A2"
 	};
 	items[] =
 	{
@@ -135,7 +135,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	backpackItems[] = 
 	{
@@ -173,7 +173,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2_m203"
+		"CUP_arifle_Colt727_M203"
 	};
 	sidearmWeapon[] = 
 	{
@@ -216,7 +216,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a2"
+		"CUP_arifle_M16A2"
 	};
 	backpackItems[] =
 	{

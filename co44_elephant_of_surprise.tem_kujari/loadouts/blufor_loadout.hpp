@@ -3,11 +3,11 @@ class baseMan
 	displayName = "Unarmed";
 	// All Randomized
 	uniform[] = {
-		"usm_bdu_bnu_tan",
-		"usm_bdu_bnu_dcu2",
-		"usm_bdu_srl_dcu2",
-		"usm_bdu_srh_dcu2",
-		"usm_bdu_bti_dcu2"
+		"$NONE_usm_bdu_bnu_tan$",
+		"CUP_U_B_BDUv2_roll_DCU_US",
+		"$NONE_usm_bdu_srl_dcu2$",
+		"$NONE_usm_bdu_srh_dcu2$",
+		"$NONE_usm_bdu_bti_dcu2$"
 	};
 	vest[] = {};
 	backpack[] = {};
@@ -78,7 +78,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a3"
+		"sp_fwa_ar15_646_a3"
 	};
 	hmd[] = 
 	{
@@ -145,7 +145,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a3_m203"
+		"sp_fwa_ar15_646_m16a3_m203"
 	};
 	vest[] = 
 	{
@@ -193,7 +193,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a3"
+		"sp_fwa_ar15_646_a3"
 	};
 };
 

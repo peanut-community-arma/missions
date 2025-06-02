@@ -50,7 +50,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 	headgear[] = 
 	{
@@ -63,11 +63,11 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_fieldpack_blk"
+		"B_FieldPack_blk"
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_vector_blk"
+		"SMG_01_black_F"
 	};
 	scope[] = 
 	{
@@ -173,7 +173,7 @@ class aar : rm
 	};
 	backpack[] = 
 	{
-		"aegis_fieldpack_blk"
+		"B_FieldPack_blk"
 	};
 	backpackItems[] += 
 	{
@@ -186,7 +186,7 @@ class rm_lat : rm
 	displayName = "Designated Marksman AT";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3ka4"
+		"$NONE_hlc_rifle_g3ka4$"
 	};
 	scope[] = 
 	{
@@ -214,7 +214,7 @@ class rm_lat : rm
 	};
 	backpack[] = 
 	{
-		"aegis_fieldpack_blk"
+		"B_FieldPack_blk"
 	};
 	backpackItems[] += 
 	{
@@ -261,7 +261,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_smg_mp5n_9mmar"
+		"$NONE_hlc_smg_mp5n_9mmar$"
 	};
 	sidearmWeapon[] = 
 	{

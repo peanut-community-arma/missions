@@ -52,7 +52,7 @@ private _itemGear =
 	"simc_vest_pasgt_lc2_saw_dcu",
 	
 	//Headgear
-	"usm_headwrap_dcu",
+	"H_Bandanna_cbr",
 	"simc_bonnie_hat_dcu",
 	"simc_bonnie_hat_flat_dcu",
 	"simc_pasgt_dcu",
@@ -77,8 +77,8 @@ private _itemGear =
 private _itemGearLeader = 
 [
 	//Headgear
-	"usm_bdu_cap_dcu",
-	"usm_bdu_8point_dcu"
+	"Aegis_H_MilCap_nohs_desert_lxWS",
+	"$NONE_usm_bdu_8point_dcu$"
 ];
 
 private _itemGearCrew = 
@@ -109,7 +109,7 @@ private _itemGearCrew =
 	"simc_vest_pasgt_lc2_saw_dcu",
 	
 	//Headgear
-	"usm_headwrap_dcu",
+	"H_Bandanna_cbr",
 	"simc_bonnie_hat_dcu",
 	"simc_bonnie_hat_flat_dcu",
 	"simc_pasgt_dcu",
@@ -141,7 +141,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -172,32 +172,32 @@ private _itemCosmetic =
 	"G_Tactical_Clear",
 	"G_Tactical_Black",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_bala_light_mtp",
-	"aegis_bala_light_gogg_mtp",
-	"aegis_shemag_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_tactical_white",
-	"aegis_tactical_yellow",
-	"aegis_tactical_camo",
+	"G_Bandanna_kawaii",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Balaclava_light_mtp_F",
+	"G_Balaclava_light_G_mtp_F",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Tactical_Yellow",
+	"G_Tactical_Camo",
 	"G_Combat_Goggles_tna_F",
 	"G_Balaclava_TI_blk_F",
 	"G_Balaclava_TI_G_blk_F",
 	"G_AirPurifyingRespirator_01_F",
 	"bear_bandana_multicam",
 	"CUP_G_TK_RoundGlasses_blk",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_mc",
 	"milgp_f_face_shield_rgr",

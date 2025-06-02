@@ -65,12 +65,12 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_pink",
-		"hlc_rifle_acr_car_blk"
+		"$NONE_hlc_rifle_acr_car_pink$",
+		"CUP_arifle_ACRC_blk_68"
 	};
 	sidearmWeapon[] =
 	{
-		"hlc_pistol_mk25_pinktac"
+		"$NONE_hlc_pistol_mk25_pinktac$"
 	};
 	items[] =
 	{
@@ -104,7 +104,7 @@ class ar : rm
 	displayName = "Tourist (AR)";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	primaryWeapon[] = 
 	{
@@ -132,7 +132,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	backpackItems[] += 
 	{
@@ -149,7 +149,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	backpack[] =
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	secondaryWeapon[] = 
 	{
@@ -166,8 +166,8 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_blk",
-		"hlc_rifle_acr_car_m203_pink"
+		"CUP_arifle_ACRC_EGLM_blk_68",
+		"$NONE_hlc_rifle_acr_car_m203_pink$"
 	};
 	scope[] = 
 	{
@@ -234,7 +234,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5a4_10"
+		"$NONE_hlc_smg_mp5a4_10$"
 	};
 	magazines[] = 
 	{
@@ -263,11 +263,11 @@ class rm_fa : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5a4_10"
+		"$NONE_hlc_smg_mp5a4_10$"
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	magazines[] = 
 	{
@@ -318,7 +318,7 @@ class mmg : rm
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	primaryWeapon[] = 
 	{
@@ -352,7 +352,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	sidearmWeapon[] = 
 	{
@@ -377,7 +377,7 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	sidearmWeapon[] = 
 	{
@@ -406,7 +406,7 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	sidearmWeapon[] = 
 	{
@@ -514,11 +514,11 @@ class eng : rm
 	traits[] = {"engineer","explosiveSpecialist"};
 	primaryWeapon[] =
 	{
-		"hlc_smg_mp5a4_10"
+		"$NONE_hlc_smg_mp5a4_10$"
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	magazines[] = 
 	{

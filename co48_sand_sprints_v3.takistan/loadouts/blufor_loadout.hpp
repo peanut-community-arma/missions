@@ -52,7 +52,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_odg"
+		"CUP_H_PASGTv2_OD"
 	};
 	backpack[] = 
 	{
@@ -342,7 +342,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_zafir_blk"
+		"LMG_Zafir_black_F"
 	};
 	bipod[] = {};
 	attachment[] = {};

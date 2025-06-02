@@ -69,7 +69,7 @@ class rm : baseMan
 		"pca_ssh68_helmet_cover_vsr_5",
 		"pca_ssh68_helmet_cover",
 		"pca_ssh68_helmet",
-		LIST_3("aegis_boonie_jungle")
+		LIST_3("H_Booniehat_jungle")
 	};
 	backpack[] =
 	{
@@ -99,7 +99,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_rpk74"
+		"CUP_arifle_RPK74_45"
 	};
 	magazines[] =
 	{

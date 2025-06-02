@@ -65,7 +65,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_645_m16a2"
+		"sp_fwa_ar15_645_a2"
 	};
 	items[] =
 	{
@@ -186,7 +186,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_645_m16a2_m203"
+		"sp_fwa_ar15_705_m16a2_m203"
 	};
 	backpackItems[] =
 	{
@@ -285,7 +285,7 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_723_m16a2_carbine"
+		"sp_fwa_723_CAR15"
 	};
 	magazines[] = 
 	{

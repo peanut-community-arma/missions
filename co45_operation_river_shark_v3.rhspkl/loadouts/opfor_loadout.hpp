@@ -60,8 +60,8 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		LIST_4("aegis_tacvest_grn"),
-		"aegis_chestrig_oli"
+		LIST_4("V_TacVest_grn"),
+		"V_ChestrigF_oli"
 	};
 	headgear[] = 
 	{
@@ -98,7 +98,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_603_m16a1_captured"
+		"sp_fwa_ar15_603_m16a1_captured"
 	};
 	magazines[] = 
 	{

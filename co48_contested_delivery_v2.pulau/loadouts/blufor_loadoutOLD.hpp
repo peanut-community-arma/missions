@@ -61,7 +61,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_ak47"
+		"CUP_arifle_AK47"
 	};
 	scope[] = 
 	{

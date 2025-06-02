@@ -111,10 +111,10 @@ private _itemHeadgear =
 	"simc_bush_hat_foldf_og107",
 	"simc_bush_hat_foldr_og107",
 	"simc_bush_hat_tie_og107",
-	"usm_headwrap_blk",
-	"usm_headwrap_odg2",
-	"usm_headwrap_odg1",
-	"usm_headwrap_tgrstp"
+	"H_Bandanna_gry",
+	"H_Bandanna_khk",
+	"CUP_H_FR_BandanaGreen",
+	"$NONE_usm_headwrap_tgrstp$"
 ];
 
 private _itemHeadgearCrew =
@@ -168,12 +168,12 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_candyskull",
-	"aegis_cigarette",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_CandySkull",
+	"G_Cigarette",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses_gold",
-	"usm_gigloves",
+	"$NONE_usm_gigloves$",
 	"rhssaf_veil_Green",
 	"simc_bandoleer_gren",
 	"simc_bandoleer_center",
@@ -207,13 +207,13 @@ private _itemCosmetic =
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"nvg_scrim_wdl_pine",
-	"usm_nvg_gigloves",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_nvg_scrim_wdl_pine$",
+	"pca_nvg_gloves_wool",
 	"simc_addon_nomex_blk",
 	"simc_addon_nomex_alt",
 	"simc_addon_nomex",
@@ -309,18 +309,18 @@ private _itemAcc =
 
 	//Grips/Bipods
 	"cup_bipod_harris_1a2_l_blk",
-	"fwa_acc_ar15_clipon_bipod"
+	"sp_fwa_bipod_ar15_clipon"
 ];
 
 private _itemWeapRifle =
 [
-	"fwa_weap_colt_603_m16a1",
+	"sp_fwa_ar15_603_m16a1",
 	"rhs_weap_m72a7"
 ];
 
 private _itemWeapRifleUGL =
 [
-	"fwa_weap_colt_603_m16a1_m203"
+	"sp_fwa_ar15_603_m16a1_m203"
 ];
 
 private _itemWeapAR =
@@ -347,7 +347,7 @@ private _itemWeapMG =
 
 private _itemWeapMAT =
 [
-	"fwa_weap_m67"
+	"sp_fwa_m67"
 ];
 
 //********************************************************************************//

@@ -57,13 +57,13 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_tan"
+		"B_AssaultPack_cbr"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3_modern_ris",
-		"hlc_rifle_g3a3_modern_ris_blk",
-		"hlc_rifle_g3a3_modern_ris_tan"
+		"CUP_arifle_G3A3_modern_ris",
+		"CUP_arifle_G3A3_modern_ris_black",
+		"$NONE_hlc_rifle_g3a3_modern_ris_tan$"
 	};
 	scope[] = 
 	{
@@ -200,9 +200,9 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3_modern_ris",
-		"hlc_rifle_g3a3_modern_ris_blk",
-		"hlc_rifle_g3a3_modern_ris_tan"
+		"CUP_arifle_G3A3_modern_ris",
+		"CUP_arifle_G3A3_modern_ris_black",
+		"$NONE_hlc_rifle_g3a3_modern_ris_tan$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -241,9 +241,9 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3_modern_ris",
-		"hlc_rifle_g3a3_modern_ris_blk",
-		"hlc_rifle_g3a3_modern_ris_tan"
+		"CUP_arifle_G3A3_modern_ris",
+		"CUP_arifle_G3A3_modern_ris_black",
+		"$NONE_hlc_rifle_g3a3_modern_ris_tan$"
 	};
 	backpackItems[] =
 	{

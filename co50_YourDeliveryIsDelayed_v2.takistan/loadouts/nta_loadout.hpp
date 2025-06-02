@@ -53,7 +53,7 @@ class rm : baseMan
 	{
 		"bear_uniform_cup_paramilitary_clothes_dbdu",
 		"CUP_I_B_PARA_Unit_7",
-		"wsx_uniform_combat_6cd"
+		"CUP_U_B_BDUv2_desert"
 	};
 	vest[] = 
 	{

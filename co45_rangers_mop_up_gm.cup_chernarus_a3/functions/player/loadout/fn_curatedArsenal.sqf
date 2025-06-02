@@ -91,31 +91,31 @@ private _itemCosmetic =
 	"rhsusf_shemagh_tan",
 	"rhsusf_shemagh2_tan",
 	"bear_bandana_m81",
-	"aegis_shemagh_loop_bge",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemagh_loop_coy",
-	"aegis_shemagh_loop_grn",
-	"aegis_shemagh_loop_khk",
-	"aegis_shemagh_loop_tan",
-	"aegis_shemagh_mesh_bge",
-	"aegis_shemagh_mesh_blk",
-	"aegis_shemagh_mesh_coy",
-	"aegis_shemagh_mesh_grn",
-	"aegis_shemagh_mesh_khk",
-	"aegis_shemagh_mesh_tan",
-	"aegis_shemag_cbr",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tan",
-	"usm_scarf",
-	"usm_scarf2",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_cbr$",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tan",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_blk",
-	"milgp_f_face_shield_cbr",
+	"$NONE_milgp_f_face_shield_cbr$",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_rgr",
 	"milgp_f_face_shield_tan",
 	"milgp_f_face_shield_shemagh_blk",
-	"milgp_f_face_shield_shemagh_cbr",
+	"$NONE_milgp_f_face_shield_shemagh_cbr$",
 	"milgp_f_face_shield_shemagh_khk",
 	"milgp_f_face_shield_shemagh_rgr",
 	"milgp_f_face_shield_shemagh_tan",
@@ -201,12 +201,12 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m16a2"
+	"CUP_arifle_M16A2"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m16a2_m203"
+	"CUP_arifle_Colt727_M203"
 ];
 
 private _itemWeapAR = 
