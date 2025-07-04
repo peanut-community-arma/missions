@@ -1,0 +1,22 @@
+name: Mission Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-missions:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+
+    - name: Run mission validator
+      run: |
+        python .github/scripts/mission_validator.py . ./invalid_classes.csv
