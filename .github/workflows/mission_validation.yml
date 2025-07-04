@@ -1,3 +1,4 @@
+
 name: Mission Validation Dashboard
 
 on:
@@ -12,10 +13,10 @@ jobs:
 
     steps:
     - name: Check out repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
@@ -24,7 +25,7 @@ jobs:
         python .github/scripts/mission_validator.py . ./invalid_classes.csv --json-output-dir ./.github/dashboard
 
     - name: Upload Pages Artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with:
         path: ./.github/dashboard
 
@@ -46,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
