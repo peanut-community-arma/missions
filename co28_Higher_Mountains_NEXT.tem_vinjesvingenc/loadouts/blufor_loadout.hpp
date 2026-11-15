@@ -139,7 +139,7 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_41("CUP_1Rnd_HE_GP25_M"),
+		LIST_40("CUP_1Rnd_HE_GP25_M"), "CUP_1Rnd_HE_GP25_M",
 		LIST_4("CUP_1Rnd_SMOKE_GP25_M")
 	};
 };

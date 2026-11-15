@@ -12,8 +12,8 @@ quarry_player_kill_time_reward = 60*3;
 quarry_speed_limit = 80; // km/h
 
 if (isServer) then {
-    0 = [] execVM "vehicleCreate.sqf";
-	0 = [] execVM "server.sqf";
+    [] execVM "vehicleCreate.sqf";
+	[] execVM "server.sqf";
 	[] spawn {
 		sleep 0.1;
 		// Create the cover map module.
@@ -30,7 +30,7 @@ if (hasInterface) then {
 
 
 	"winner" addPublicVariableEventHandler {
-		0 = winner execVM "endMission.sqf";
+		winner execVM "endMission.sqf";
 	};
 	player addRating 100000;
 	if (side player != west) then {
@@ -76,7 +76,7 @@ if (hasInterface) then {
 	qry_hp = quarry_player_life_time_start;
 	lastMinuteNotify = 15;
 	if (side player == civilian) then {
-		0 = [] spawn {
+		[] spawn {
 			sleep 0.001;
 			//player setVariable["qry_hp",60*10];
 			while {qry_hp > 0} do {
@@ -135,7 +135,7 @@ if (hasInterface) then {
 		};
 	};
     // TMF Spectator name override.
-    0 = [] spawn {
+    [] spawn {
         disableSerialization;
         while {true} do {
             if ([] call tmf_spectator_fnc_isOpen) then {

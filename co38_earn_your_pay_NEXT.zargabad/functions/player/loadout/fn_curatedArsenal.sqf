@@ -1347,7 +1347,7 @@ private _itemWeapPistol =
 	"CUP_13Rnd_9x19_Browning_HP",
 	"CUP_7Rnd_45ACP_1911",
 	"CUP_15Rnd_9x19_M9",
-	"JCA_15Rnd_9x19_P226_FMJ_Mag",
+	"JCA_15Rnd_9x19_P226_Mag",
 	"JCA_15Rnd_9x19_P226_JHP_Mag"
 ];
 

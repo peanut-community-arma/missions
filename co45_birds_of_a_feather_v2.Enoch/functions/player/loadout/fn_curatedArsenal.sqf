@@ -225,7 +225,7 @@ private _itemCosmetic =
 	"CUP_G_ESS_BLK_Scarf_White_Beard",
 	"CUP_G_ESS_BLK_Scarf_White_Beard_Blonde",
 	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
-	"CUP_G_PMC_RadioHeadsetCUP_G_PMC_RadioHeadset",
+	"CUP_G_PMC_RadioHeadset",
 	"CUP_TK_NeckScarf",
 	"CUP_G_Scarf_Face_Blk",
 	"CUP_G_Scarf_Face_Grn",

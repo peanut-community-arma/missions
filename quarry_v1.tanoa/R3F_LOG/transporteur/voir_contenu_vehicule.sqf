@@ -1,7 +1,7 @@
 /**
- * Ouvre la boîte de dialogue du contenu du véhicule et la prérempli en fonction de véhicule
+ * Ouvre la boÃ®te de dialogue du contenu du vÃ©hicule et la prÃ©rempli en fonction de vÃ©hicule
  * 
- * @param 0 le véhicule dont il faut afficher le contenu
+ * @param 0 le vÃ©hicule dont il faut afficher le contenu
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -43,21 +43,21 @@ while {!isNull _dlg_contenu_vehicule} do
 {
 	_chargement = [_transporteur] call R3F_LOG_FNCT_calculer_chargement_vehicule;
 	
-	// Si le contenu a changé, on rafraichit l'interface
+	// Si le contenu a changÃ©, on rafraichit l'interface
 	if !([_chargement, _chargement_precedent] call BIS_fnc_areEqual) then
 	{
 		_chargement_precedent = +_chargement;
 		
 		_contenu = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 		
-		/** Liste des noms de classe des objets contenu dans le véhicule, sans doublon */
+		/** Liste des noms de classe des objets contenu dans le vÃ©hicule, sans doublon */
 		_tab_objets = [];
-		/** Quantité associé (par l'index) aux noms de classe dans _tab_objets */
+		/** QuantitÃ© associÃ© (par l'index) aux noms de classe dans _tab_objets */
 		_tab_quantite = [];
-		/** Coût de chargement associé (par l'index) aux noms de classe dans _tab_objets */
+		/** CoÃ»t de chargement associÃ© (par l'index) aux noms de classe dans _tab_objets */
 		_tab_cout_chargement = [];
 		
-		// Préparation de la liste du contenu et des quantités associées aux objets
+		// PrÃ©paration de la liste du contenu et des quantitÃ©s associÃ©es aux objets
 		for [{_i = 0}, {_i < count _contenu}, {_i = _i + 1}] do
 		{
 			private ["_objet"];
@@ -105,13 +105,13 @@ while {!isNull _dlg_contenu_vehicule} do
 				_cout_chargement = _tab_cout_chargement select _i;
 				_icone = getText (configFile >> "CfgVehicles" >> _classe >> "icon");
 				
-				// Icône par défaut
+				// IcÃ´ne par dÃ©faut
 				if (_icone == "") then
 				{
 					_icone = "\A3\ui_f\data\map\VehicleIcons\iconObject_ca.paa";
 				};
 				
-				// Si le chemin commence par A3\ ou a3\, on rajoute un \ au début
+				// Si le chemin commence par A3\ ou a3\, on rajoute un \ au dÃ©but
 				_tab_icone = toArray toLower _icone;
 				if (count _tab_icone >= 3 &&
 					{
@@ -123,7 +123,7 @@ while {!isNull _dlg_contenu_vehicule} do
 					_icone = "\" + _icone;
 				};
 				
-				// Si icône par défaut, on rajoute le chemin de base par défaut
+				// Si icÃ´ne par dÃ©faut, on rajoute le chemin de base par dÃ©faut
 				_tab_icone = toArray _icone;
 				if (_tab_icone select 0 != (toArray "\" select 0)) then
 				{

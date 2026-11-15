@@ -63,7 +63,7 @@ _null = [] spawn {
 				winner set[0, alivePlayerList select 0];
 			};
 			publicVariable "winner";
-            0 = winner execVM "endMission.sqf";
+            winner execVM "endMission.sqf";
 			sleep 100;
 		};
 		

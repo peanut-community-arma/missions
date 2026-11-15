@@ -160,25 +160,25 @@ class CfgSounds
 	class victoryEndSound
 	{
 		name = "viceend";
-		sound[] = {"\vicecity.ogg", db+0, 1.0};
+		sound[] = {"vicecity.ogg", 1, 1.0};
 		titles[] = {};
 	};
 	class victoryEndSound2
 	{
 		name = "snoop";
-		sound[] = {"\snoop.ogg", db+0, 1.0};
+		sound[] = {"snoop.ogg", 1, 1.0};
 		titles[] = {};
 	};
     class victoryEndSound3
 	{
 		name = "johncena";
-		sound[] = {"\john_cena.ogg", db+0, 1.0};
+		sound[] = {"john_cena.ogg", 1, 1.0};
 		titles[] = {};
 	};
     class victoryEndSound4
 	{
 		name = "police";
-		sound[] = {"\the_police.ogg", db+0, 1.0};
+		sound[] = {"the_police.ogg", 1, 1.0};
 		titles[] = {};
 	};
 };

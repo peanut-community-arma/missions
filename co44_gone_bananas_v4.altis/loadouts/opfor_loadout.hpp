@@ -205,7 +205,7 @@ class medic : rm
 
 class mg : ar
 {
-	displayName = "Machinegunner"
+	displayName = "Machinegunner";
 	vest[] =
 	{
 		"CUP_V_B_IOTV_UCP_MG_USArmy"
@@ -233,7 +233,7 @@ class mg : ar
 
 class sn : mg
 {
-	displayName = "Sniper"
+	displayName = "Sniper";
 	primaryWeapon[] = 
 	{
 		"CUP_srifle_M2010_blk"

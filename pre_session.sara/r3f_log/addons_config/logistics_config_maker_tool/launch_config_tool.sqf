@@ -1,10 +1,10 @@
-﻿/**
+/**
  * Launch the tool helping to edit the logistics configuration.
  * 
  * THIS TOOL IS UNOFFICIAL AND FOR EXPERT ONLY !
  * READ THE PDF DOCUMENTATION TO KNOW HOW TO USE IT !
  * 
- * @usage Don't forget to fill the list of class names to configure in list_of_objects_to_config.sqf.
+ * @usage Don't forget to fill the list of class names to configure in list_of_objects_to_config.hpp.
  * @usage execVM "R3F_LOG\addons_config\logistics_config_maker_tool\launch_config_tool.sqf";
  * 
  * Copyright (C) 2014 Team ~R3F~
@@ -21,7 +21,7 @@ if (!isNil "BOOL_continue" && {BOOL_continue}) exitWith {systemChat "CONFIG TOOL
 R3F_LOG_CFG_string_condition_allow_logistics_on_this_client = "false";
 
 TAB_class_names_to_config = [
-	#include "list_of_objects_to_config.sqf"
+	#include "list_of_objects_to_config.hpp"
 ];
 
 /*

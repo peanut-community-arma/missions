@@ -92,7 +92,7 @@ GOM_fnc_ambientArtilleryFire = {
 		waitUntil {{_x getVariable ["GOM_fnc_ambientArtyReady",false]} count _guns isEqualTo count _guns OR !GOM_ambientArtilleryFiring};
 		if !(GOM_ambientArtilleryFiring) exitWith {false};
 
-		if (_debug) then {_guns select 0 globalchat format ["Salvo %1 of %2 finished.",_i,_salvoes,_rounds];};
+		if (_debug) then {_guns select 0 globalchat format ["Salvo %1 of %2 finished.",_i,_salvoes];};
 
 		{_x spawn {_this setVehicleAmmoDef 0;}} forEach _guns; // Make sure there's no spare ammo to shoot at the players
 		sleep random [1000,1600,1700]; // Wait for next salvo

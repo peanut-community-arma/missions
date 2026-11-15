@@ -1,5 +1,5 @@
 /**
- * Ouvre la boîte de dialogue du contenu de l'usine
+ * Ouvre la boÃ®te de dialogue du contenu de l'usine
  * 
  * @param 0 l'usine qu'il faut ouvrir
  * 
@@ -23,7 +23,7 @@ uiNamespace setVariable ["R3F_LOG_dlg_LO_usine", _usine];
 
 call R3F_LOG_VIS_FNCT_demarrer_visualisation;
 
-// Pré-calculer une fois pour toutes les usines la liste des objets du CfgVehicles classés par catégorie
+// PrÃ©-calculer une fois pour toutes les usines la liste des objets du CfgVehicles classÃ©s par catÃ©gorie
 if (isNil {_usine getVariable "R3F_LOG_CF_cfgVehicles_par_categories"}) then
 {
 	private ["_retour_liste_cfgVehicles_par_categories"];
@@ -47,7 +47,7 @@ _dlg_liste_objets = findDisplay R3F_LOG_IDD_dlg_liste_objets;
 _ctrl_liste_categories = _dlg_liste_objets displayCtrl R3F_LOG_IDC_dlg_LO_liste_categories;
 _sel_categorie = 0 max (_usine getVariable "R3F_LOG_CF_mem_idx_categorie");
 
-// Insertion de chaque catégories disponibles dans la liste
+// Insertion de chaque catÃ©gories disponibles dans la liste
 {
 	private ["_categorie", "_config", "_nom"];
 	
@@ -65,7 +65,7 @@ while {!isNull _dlg_liste_objets} do
 {
 	_credits_usine = _usine getVariable "R3F_LOG_CF_credits";
 	
-	// Activer le bouton de création que s'il y a assez de crédits
+	// Activer le bouton de crÃ©ation que s'il y a assez de crÃ©dits
 	(_dlg_liste_objets displayCtrl R3F_LOG_IDC_dlg_LO_btn_creer) ctrlEnable (_credits_usine != 0);
 	
 	if (_credits_usine == -1) then
@@ -83,7 +83,7 @@ while {!isNull _dlg_liste_objets} do
 		(_dlg_liste_objets displayCtrl R3F_LOG_IDC_dlg_LO_infos) ctrlSetStructuredText ([lbData [R3F_LOG_IDC_dlg_LO_liste_objets, lbCurSel R3F_LOG_IDC_dlg_LO_liste_objets]] call R3F_LOG_FNCT_formater_fonctionnalites_logistique);
 	};
 	
-	// Fermer la boîte de dialogue si l'usine n'est plus accessible
+	// Fermer la boÃ®te de dialogue si l'usine n'est plus accessible
 	if (!alive _usine || (_usine getVariable "R3F_LOG_CF_disabled")) then
 	{
 		closeDialog 0;

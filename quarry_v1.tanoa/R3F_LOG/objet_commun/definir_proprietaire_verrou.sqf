@@ -1,8 +1,8 @@
 /**
- * Défini le propriétaire (side/faction/player) du verrou d'un objet
+ * DÃ©fini le propriÃ©taire (side/faction/player) du verrou d'un objet
  * 
- * @param 0 l'objet pour lequel définir le propriétaire du verrou
- * @param 1 l'unité pour laquelle définir le verrou
+ * @param 0 l'objet pour lequel dÃ©finir le propriÃ©taire du verrou
+ * @param 1 l'unitÃ© pour laquelle dÃ©finir le verrou
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -16,7 +16,7 @@ private ["_objet", "_unite"];
 _objet = _this select 0;
 _unite = _this select 1;
 
-// Si le verrou de l'objet ne correspond pas à l'unité, on redéfini sa valeur pour lui correspondre
+// Si le verrou de l'objet ne correspond pas Ã  l'unitÃ©, on redÃ©fini sa valeur pour lui correspondre
 if (isNil {_objet getVariable "R3F_LOG_proprietaire_verrou"} || {[_objet, _unite] call R3F_LOG_FNCT_objet_est_verrouille}) then
 {
 	switch (R3F_LOG_CFG_lock_objects_mode) do

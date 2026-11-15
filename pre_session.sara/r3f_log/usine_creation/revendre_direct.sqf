@@ -1,5 +1,5 @@
 /**
- * Revendre l'objet sélectionné (R3F_LOG_objet_selectionne) à une usine
+ * Revendre l'objet sÃ©lectionnÃ© (R3F_LOG_objet_selectionne) Ã  une usine
  * 
  * @param 0 l'usine
  * 
@@ -55,10 +55,10 @@ else
 							
 							sleep 2;
 							
-							// Gestion conflit d'accès
+							// Gestion conflit d'accÃ¨s
 							if (_objet getVariable "R3F_LOG_est_transporte_par" == _usine && !(_objet in (_usine getVariable "R3F_LOG_objets_charges"))) then
 							{
-								// Suppression de l'équipage IA dans le cas d'un drone
+								// Suppression de l'Ã©quipage IA dans le cas d'un drone
 								if (getNumber (configFile >> "CfgVehicles" >> (typeOf _objet) >> "isUav") == 1) then
 								{
 									{if (!isPlayer _x) then {_objet deleteVehicleCrew _x;};} forEach crew _objet;
@@ -66,7 +66,7 @@ else
 								
 								deleteVehicle _objet;
 								
-								// Si l'usine n'a pas de crédits illimité et que le taux d'occasion n'est pas nul
+								// Si l'usine n'a pas de crÃ©dits illimitÃ© et que le taux d'occasion n'est pas nul
 								if (_usine getVariable "R3F_LOG_CF_credits" != -1 && R3F_LOG_CFG_CF_sell_back_bargain_rate > 0) then
 								{
 									private ["_cout_neuf", "_valeur_occasion"];
@@ -74,7 +74,7 @@ else
 									_cout_neuf = [typeOf _objet] call R3F_LOG_FNCT_determiner_cout_creation;
 									_valeur_occasion = ceil (R3F_LOG_CFG_CF_sell_back_bargain_rate * (1 - damage _objet) * _cout_neuf);
 									
-									// Ajout de la valeur d'occasion de l'objet dans les crédits de l'usine
+									// Ajout de la valeur d'occasion de l'objet dans les crÃ©dits de l'usine
 									_usine setVariable ["R3F_LOG_CF_credits", (_usine getVariable "R3F_LOG_CF_credits") + _valeur_occasion, true];
 									
 									systemChat format [STR_R3F_LOG_action_revendre_fait + " (+%2 credits)",

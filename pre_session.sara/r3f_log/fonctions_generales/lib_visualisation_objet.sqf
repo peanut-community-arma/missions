@@ -1,5 +1,5 @@
 /**
- * Bibliothèque de fonctions permettant la visualisation 3D d'objets
+ * BibliothÃ¨que de fonctions permettant la visualisation 3D d'objets
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -9,11 +9,11 @@
  */
 
 /**
- * Démarre le mode de visualisation 3D
+ * DÃ©marre le mode de visualisation 3D
  */
 R3F_LOG_VIS_FNCT_demarrer_visualisation =
 {
-	// Création d'une caméra
+	// CrÃ©ation d'une camÃ©ra
 	R3F_LOG_VIS_cam = "camera" camCreate ([[5000, 5000, 0]] call R3F_LOG_FNCT_3D_tirer_position_degagee_ciel);
 	R3F_LOG_VIS_cam cameraEffect ["Internal", "BACK"];
 	R3F_LOG_VIS_cam camSetFocus [-1, -1];
@@ -23,7 +23,7 @@ R3F_LOG_VIS_FNCT_demarrer_visualisation =
 	
 	R3F_LOG_VIS_objet = objNull;
 	
-	// Fil d'exécution réalisant une rotation continue de la caméra autour de l'objet à visualiser
+	// Fil d'exÃ©cution rÃ©alisant une rotation continue de la camÃ©ra autour de l'objet Ã  visualiser
 	0 spawn
 	{
 		// Tant qu'on ne quitte pas la visualisation
@@ -31,7 +31,7 @@ R3F_LOG_VIS_FNCT_demarrer_visualisation =
 		{
 			private ["_objet", "_distance_cam", "_azimut_cam"];
 			
-			// Attente d'un objet à visualiser
+			// Attente d'un objet Ã  visualiser
 			waitUntil {!isNull R3F_LOG_VIS_objet};
 			
 			_objet = R3F_LOG_VIS_objet;
@@ -77,7 +77,7 @@ R3F_LOG_VIS_FNCT_terminer_visualisation =
 /**
  * Visualiser un type d'objet en 3D
  * 
- * @param 0 le nom de classe de l'objet à visualiser
+ * @param 0 le nom de classe de l'objet Ã  visualiser
  */
 R3F_LOG_VIS_FNCT_voir_objet =
 {
@@ -93,10 +93,10 @@ R3F_LOG_VIS_FNCT_voir_objet =
 	// Ignorer les objets non instanciables
 	if (_classe_a_visualiser != "" && {isClass (configFile >> "CfgVehicles" >> _classe_a_visualiser) && {getNumber (configFile >> "CfgVehicles" >> _classe_a_visualiser >> "scope") > 0}}) then
 	{
-		// Ignorer si l'objet à visualiser est le même que précédemment
+		// Ignorer si l'objet Ã  visualiser est le mÃªme que prÃ©cÃ©demment
 		if (isNull R3F_LOG_VIS_objet || {_classe_a_visualiser != typeOf R3F_LOG_VIS_objet}) then
 		{
-			// Créer et placer l'objet dans le ciel
+			// CrÃ©er et placer l'objet dans le ciel
 			_position_attache = [[5000, 5000, 0]] call R3F_LOG_FNCT_3D_tirer_position_degagee_ciel;
 			_objet = _classe_a_visualiser createVehicleLocal _position_attache;
 			_objet attachTo [R3F_LOG_PUBVAR_point_attache, _position_attache];

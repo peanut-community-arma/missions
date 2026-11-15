@@ -1,6 +1,6 @@
 /**
- * Enregistre les valeurs des champs avant fermeture de la boîte de dialogue de l'usine de création.
- * ouvrir_usine.sqf s'en servira pour la préremplir à l'ouverture
+ * Enregistre les valeurs des champs avant fermeture de la boÃ®te de dialogue de l'usine de crÃ©ation.
+ * ouvrir_usine.sqf s'en servira pour la prÃ©remplir Ã  l'ouverture
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 

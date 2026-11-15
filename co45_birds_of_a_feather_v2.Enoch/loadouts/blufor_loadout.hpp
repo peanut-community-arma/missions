@@ -159,7 +159,7 @@ class rm_lat : rm
 	{
 		LIST_2("CUP_SMAW_HEAA_M"),
 		"CUP_SMAW_HEDP_M",
-		LIST_2(CUP_SMAW_Spotting)
+		LIST_2("CUP_SMAW_Spotting")
 	};
 };
 

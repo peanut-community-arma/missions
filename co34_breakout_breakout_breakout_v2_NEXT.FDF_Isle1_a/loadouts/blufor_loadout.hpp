@@ -128,7 +128,7 @@ class ar : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag"),
+		LIST_2("JCA_15Rnd_9x19_P226_Mag"),
 		LIST_3("CUP_200Rnd_TE4_Red_Tracer_556x45_M249")
 	};
 	backpackItems[] = 
@@ -227,7 +227,7 @@ class sl : tl
 	};
 	magazines[] += 
 	{
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag")
+		LIST_2("JCA_15Rnd_9x19_P226_Mag")
 	};
 	backpackItems[] =
 	{
@@ -334,7 +334,7 @@ class cls : rm_fa
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
 		LIST_11("CUP_30Rnd_556x45_Stanag"),
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag")
+		LIST_2("JCA_15Rnd_9x19_P226_Mag")
 	};
 	backpackItems[] =
 	{
@@ -378,7 +378,7 @@ class mmg : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag"),
+		LIST_2("JCA_15Rnd_9x19_P226_Mag"),
 		LIST_2("CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
@@ -403,7 +403,7 @@ class ammg : rm
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
 		LIST_11("CUP_30Rnd_556x45_Stanag"),
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag")
+		LIST_2("JCA_15Rnd_9x19_P226_Mag")
 	};
 	backpackItems[] = 
 	{
@@ -436,7 +436,7 @@ class mat : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag")
+		LIST_2("JCA_15Rnd_9x19_P226_Mag")
 	};
 	backpackItems[] = 
 	{
@@ -457,7 +457,7 @@ class amat : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("JCA_15Rnd_9x19_P226_FMJ_Mag")
+		LIST_2("JCA_15Rnd_9x19_P226_Mag")
 	};
 	backpackItems[] = 
 	{
@@ -503,7 +503,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("JCA_15Rnd_9x19_P226_FMJ_Mag"),
+		LIST_3("JCA_15Rnd_9x19_P226_Mag"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -533,7 +533,7 @@ class hp : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("CUP_30Rnd_556x45_Stanag"),
-		LIST_3("JCA_15Rnd_9x19_P226_FMJ_Mag"),
+		LIST_3("JCA_15Rnd_9x19_P226_Mag"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -592,7 +592,7 @@ class jp : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_5("JCA_15Rnd_9x19_P226_FMJ_Mag"),
+		LIST_5("JCA_15Rnd_9x19_P226_Mag"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")

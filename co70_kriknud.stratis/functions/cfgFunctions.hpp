@@ -95,9 +95,9 @@ class common
 class mission
 {
     tag = "pca";
-    file = "functions";
+    file = "functions\mission";
     class ambientArtillery {};
-}
+};
 
 class player 
 {

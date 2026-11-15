@@ -24,5 +24,5 @@ if (isClass(configFile >> "CfgPatches" >> "ace_medical")) then {
 
 _unit addItemCargoGlobal["FirstAidKit",2];
 
-0 = [_unit, [  ["Land_coneLight", 4], ["RoadBarrier_light", 2], ["RoadBarrier_long", 3] ]] execVM "R3F_LOG\USER_FUNCT\auto_load_in_vehicle.sqf";
+[_unit, [  ["Land_coneLight", 4], ["RoadBarrier_light", 2], ["RoadBarrier_long", 3] ]] execVM "R3F_LOG\USER_FUNCT\auto_load_in_vehicle.sqf";
 //"RoadBarrier_long",  "RoadBarrier_long", ["RoadBarrier_light", 2],  

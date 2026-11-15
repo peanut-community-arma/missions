@@ -193,7 +193,7 @@ private _itemCosmetic =
 	"murshun_cigs_cig0_nv",
 	"PLA_NV_Goggles_F",
 	"M40_Gas_mask_nbc_green_v2_NVG_02",
-	"M40_Gas_mask_nbc_green_v2_NVG_01",
+	"M40_Gas_mask_nbc_green_v2_NVG_02",
 	"TC_NVG_NitrileGloves_1",
 	"PLA_NV_Glasses_F",
 	"anduk_1_addon",

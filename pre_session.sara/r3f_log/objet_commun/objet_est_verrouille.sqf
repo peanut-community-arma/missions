@@ -1,10 +1,10 @@
 /**
- * Détermine si un objet est verrouillé ou non pour un joueur donné
+ * DÃ©termine si un objet est verrouillÃ© ou non pour un joueur donnÃ©
  * 
- * @param 0 l'objet pour lequel savoir s'il est verrouillé
- * @param 1 l'unité pour laquelle savoir si l'objet est verrouillé
+ * @param 0 l'objet pour lequel savoir s'il est verrouillÃ©
+ * @param 1 l'unitÃ© pour laquelle savoir si l'objet est verrouillÃ©
  * 
- * @return true si l'objet est verrouillé, false sinon
+ * @return true si l'objet est verrouillÃ©, false sinon
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 

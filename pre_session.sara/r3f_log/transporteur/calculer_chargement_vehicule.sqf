@@ -1,9 +1,9 @@
 /**
- * Retourne le chargement actuel et la capacité maximale d'un véhicule
+ * Retourne le chargement actuel et la capacitÃ© maximale d'un vÃ©hicule
  * 
  * @param 0 le transporteur pour lequel calculer le chargement
  * 
- * @return tableau content le chargement actuel et la capacité d'un véhicule
+ * @return tableau content le chargement actuel et la capacitÃ© d'un vÃ©hicule
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -32,7 +32,7 @@ _chargement_actuel = 0;
 	
 } forEach _objets_charges;
 
-// Recherche de la capacité maximale du transporteur
+// Recherche de la capacitÃ© maximale du transporteur
 if (isNil {_transporteur getVariable "R3F_LOG_fonctionnalites"}) then
 {
 	_chargement_maxi = ([typeOf _transporteur] call R3F_LOG_FNCT_determiner_fonctionnalites_logistique) select R3F_LOG_IDX_can_transport_cargo_cout;

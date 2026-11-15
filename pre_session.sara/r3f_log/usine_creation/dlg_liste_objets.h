@@ -1,5 +1,5 @@
 /**
- * Interface d'affichage du contenu du véhicule
+ * Interface d'affichage du contenu du vÃ©hicule
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -14,26 +14,26 @@ class R3F_LOG_dlg_liste_objets
 {
 	idd = R3F_LOG_IDD_dlg_liste_objets;
 	name = "R3F_LOG_dlg_liste_objets";
-	movingEnable = false;
+	movingEnable = 0;
 	
 	onUnload = "call compile preprocessFile ""R3F_LOG\usine_creation\memoriser_dlg_liste_objets.sqf"";";
 	
-	controlsBackground[] = {R3F_LOG_dlg_LO_titre_fond};
+	controlsBackground[] = {"R3F_LOG_dlg_LO_titre_fond"};
 	objects[] = {};
 	controls[] =
 	{
-		R3F_LOG_dlg_LO_titre,
-		R3F_LOG_dlg_LO_credits_restants,
-		R3F_LOG_dlg_LO_liste_categories,
-		R3F_LOG_dlg_LO_liste_objets,
-		R3F_LOG_dlg_LO_btn_creer,
-		R3F_LOG_dlg_LO_btn_fermer,
-		R3F_LOG_dlg_LO_infos_titre_fond,
-		R3F_LOG_dlg_LO_infos_titre,
-		R3F_LOG_dlg_LO_infos
+		"R3F_LOG_dlg_LO_titre",
+		"R3F_LOG_dlg_LO_credits_restants",
+		"R3F_LOG_dlg_LO_liste_categories",
+		"R3F_LOG_dlg_LO_liste_objets",
+		"R3F_LOG_dlg_LO_btn_creer",
+		"R3F_LOG_dlg_LO_btn_fermer",
+		"R3F_LOG_dlg_LO_infos_titre_fond",
+		"R3F_LOG_dlg_LO_infos_titre",
+		"R3F_LOG_dlg_LO_infos"
 	};
 	
-	// Définition des classes de base
+	// DÃ©finition des classes de base
 	class R3F_LOG_dlg_LO_texte
 	{
 		idc = -1;
@@ -185,20 +185,20 @@ class R3F_LOG_dlg_liste_objets
 			border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
 		};
 	};
-	// FIN Définition des classes de base
+	// FIN DÃ©finition des classes de base
 	
 	class R3F_LOG_dlg_LO_titre_fond : R3F_LOG_dlg_LO_texte
 	{
-		x = safeZoneX + 0.005; w = 0.40;
-		y = safeZoneY + 0.005; h = 0.07;
+		x = "safeZoneX + 0.005"; w = 0.40;
+		y = "safeZoneY + 0.005"; h = 0.07;
 		colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])","(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
 	};
 	
 	class R3F_LOG_dlg_LO_titre : R3F_LOG_dlg_LO_texte
 	{
 		idc = R3F_LOG_IDC_dlg_LO_titre;
-		x = safeZoneX + 0.005; w = 0.40;
-		y = safeZoneY + 0.005; h = 0.04;
+		x = "safeZoneX + 0.005"; w = 0.40;
+		y = "safeZoneY + 0.005"; h = 0.04;
 		sizeEx = 0.05;
 		text = "";
 	};
@@ -206,8 +206,8 @@ class R3F_LOG_dlg_liste_objets
 	class R3F_LOG_dlg_LO_credits_restants : R3F_LOG_dlg_LO_texte
 	{
 		idc = R3F_LOG_IDC_dlg_LO_credits_restants;
-		x = safeZoneX + 0.005; w = 0.40;
-		y = safeZoneY + 0.045; h = 0.03;
+		x = "safeZoneX + 0.005"; w = 0.40;
+		y = "safeZoneY + 0.045"; h = 0.03;
 		sizeEx = 0.03;
 		text = "";
 	};
@@ -216,16 +216,16 @@ class R3F_LOG_dlg_liste_objets
 	{
 		idc = R3F_LOG_IDC_dlg_LO_liste_categories;
 		type = CT_COMBO;
-		x = safeZoneX + 0.005; w = 0.40;
-		y = safeZoneY + 0.080; h = 0.045;
+		x = "safeZoneX + 0.005"; w = 0.40;
+		y = "safeZoneY + 0.080"; h = 0.045;
 		onLBSelChanged = "call R3F_LOG_FNCT_usine_remplir_liste_objets;";
 	};
 	
 	class R3F_LOG_dlg_LO_liste_objets : R3F_LOG_dlg_LO_liste
 	{
 		idc = R3F_LOG_IDC_dlg_LO_liste_objets;
-		x = safeZoneX + 0.005; w = 0.40;
-		y = safeZoneY + 0.130; h = safeZoneH - 0.185;
+		x = "safeZoneX + 0.005"; w = 0.40;
+		y = "safeZoneY + 0.130"; h = "safeZoneH - 0.185";
 		onLBDblClick = "0 spawn R3F_LOG_FNCT_usine_creer_objet;";
 		onLBSelChanged = "[(_this select 0) lbData (_this select 1)] call R3F_LOG_VIS_FNCT_voir_objet;";
 	};
@@ -233,7 +233,7 @@ class R3F_LOG_dlg_liste_objets
 	class R3F_LOG_dlg_LO_btn_creer : R3F_LOG_dlg_LO_btn
 	{
 		idc = R3F_LOG_IDC_dlg_LO_btn_creer;
-		x = safeZoneX + 0.005; y = safeZoneH + safeZoneY - 0.050;
+		x = "safeZoneX + 0.005"; y = "safeZoneH + safeZoneY - 0.050";
 		text = "";
 		action = "0 spawn R3F_LOG_FNCT_usine_creer_objet;";
 	};
@@ -241,23 +241,23 @@ class R3F_LOG_dlg_liste_objets
 	class R3F_LOG_dlg_LO_btn_fermer : R3F_LOG_dlg_LO_btn
 	{
 		idc = R3F_LOG_IDC_dlg_LO_btn_fermer;
-		x = safeZoneX + 0.005 + 0.205; y = safeZoneH + safeZoneY - 0.050;
+		x = "safeZoneX + 0.005 + 0.205"; y = "safeZoneH + safeZoneY - 0.050";
 		text = "";
 		action = "closeDialog 0;"; 
 	};
 	
 	class R3F_LOG_dlg_LO_infos_titre_fond : R3F_LOG_dlg_LO_texte
 	{
-		x = safeZoneX + safeZoneW - 0.005 - 0.35; w = 0.35;
-		y = safeZoneY + 0.005; h = 0.055;
+		x = "safeZoneX + safeZoneW - 0.005 - 0.35"; w = 0.35;
+		y = "safeZoneY + 0.005"; h = 0.055;
 		colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])","(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
 	};
 	
 	class R3F_LOG_dlg_LO_infos_titre : R3F_LOG_dlg_LO_texte
 	{
 		idc = R3F_LOG_IDC_dlg_LO_infos_titre;
-		x = safeZoneX + safeZoneW - 0.005 - 0.35; w = 0.35;
-		y = safeZoneY + 0.005; h = 0.045;
+		x = "safeZoneX + safeZoneW - 0.005 - 0.35"; w = 0.35;
+		y = "safeZoneY + 0.005"; h = 0.045;
 		sizeEx = 0.05;
 		text = "";
 	};
@@ -266,8 +266,8 @@ class R3F_LOG_dlg_liste_objets
 	{
 		idc = R3F_LOG_IDC_dlg_LO_infos;
 		type = CT_STRUCTURED_TEXT;
-		x = safeZoneX + safeZoneW - 0.005 - 0.35; w = 0.35;
-		y = safeZoneY + 0.065; h = 0.44;
+		x = "safeZoneX + safeZoneW - 0.005 - 0.35"; w = 0.35;
+		y = "safeZoneY + 0.065"; h = 0.44;
 		size = 0.033;
 		colorBackground[] = {0,0,0,0.75};
 	};

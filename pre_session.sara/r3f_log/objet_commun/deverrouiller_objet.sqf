@@ -1,7 +1,7 @@
 /**
- * Gestion du déverrouillage d'un objet et du compte-à-rebours
+ * Gestion du dÃ©verrouillage d'un objet et du compte-Ã -rebours
  * 
- * @param 0 l'objet à déverrouiller
+ * @param 0 l'objet Ã  dÃ©verrouiller
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -29,26 +29,26 @@ else
 	
 	disableSerialization;
 	
-	// Création du titre du compte-à-rebours dans le display du jeu
+	// CrÃ©ation du titre du compte-Ã -rebours dans le display du jeu
 	_ctrl_titre = (findDisplay 46) ctrlCreate ["RscText", -1];
 	_ctrl_titre ctrlSetPosition [0.5 - 0.5*_JAUGE_W, _JAUGE_Y - 1.5*_JAUGE_H, _JAUGE_W, 1.5*_JAUGE_H];
 	_ctrl_titre ctrlSetFontHeight 1.5*_JAUGE_H;
 	_ctrl_titre ctrlSetText format [STR_R3F_LOG_deverrouillage_en_cours, _duree];
 	_ctrl_titre ctrlCommit 0;
 	
-	// Création de l'arrière-plan de la jauge dans le display du jeu
+	// CrÃ©ation de l'arriÃ¨re-plan de la jauge dans le display du jeu
 	_ctrl_fond = (findDisplay 46) ctrlCreate ["RscText", -1];
 	_ctrl_fond ctrlSetBackgroundColor [0, 0, 0, 0.4];
 	_ctrl_fond ctrlSetPosition [0.5 - 0.5*_JAUGE_W, _JAUGE_Y, _JAUGE_W, _JAUGE_H];
 	_ctrl_fond ctrlCommit 0;
 	
-	// Création d'une jauge à 0% dans le display du jeu
+	// CrÃ©ation d'une jauge Ã  0% dans le display du jeu
 	_ctrl_jauge = (findDisplay 46) ctrlCreate ["RscText", -1];
 	_ctrl_jauge ctrlSetBackgroundColor [0, 0.6, 0, 1];
 	_ctrl_jauge ctrlSetPosition [0.5 - 0.5*_JAUGE_W, _JAUGE_Y, 0, _JAUGE_H];
 	_ctrl_jauge ctrlCommit 0;
 	
-	// La jauge passe progressivement de 0% à 100%
+	// La jauge passe progressivement de 0% Ã  100%
 	_ctrl_jauge ctrlSetPosition [0.5 - 0.5*_JAUGE_W, _JAUGE_Y, _JAUGE_W, _JAUGE_H];
 	_ctrl_jauge ctrlCommit _duree;
 	
@@ -61,7 +61,7 @@ else
 		
 		_cursorTarget_distance = call R3F_LOG_FNCT_3D_cursorTarget_distance_bbox;
 		
-		// Pour valider le déverrouillage, il faut maintenir la visée l'objet pendant le compte-à-rebours
+		// Pour valider le dÃ©verrouillage, il faut maintenir la visÃ©e l'objet pendant le compte-Ã -rebours
 		if (!alive player || _cursorTarget_distance select 0 != _objet || _cursorTarget_distance select 1 > 5) then
 		{
 			_attente_valide = false;
@@ -76,7 +76,7 @@ else
 	
 	if (_attente_valide) then
 	{
-		// Mise à jour du propriétaire du verrou
+		// Mise Ã  jour du propriÃ©taire du verrou
 		[_objet, player] call R3F_LOG_FNCT_definir_proprietaire_verrou;
 		
 		systemChat STR_R3F_LOG_deverrouillage_succes_attente;

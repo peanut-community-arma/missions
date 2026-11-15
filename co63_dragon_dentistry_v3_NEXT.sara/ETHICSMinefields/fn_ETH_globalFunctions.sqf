@@ -766,7 +766,7 @@ THY_fnc_ETH_execution_service = {
 		// If is NOT the Mission Editor debugging:
 		if !ETH_isOnDebug then {
 			// And it's NOT a UXO device, the device will be revealed only for its side:
-			if ( _kzDoctrine isNotEqualTo"UXO" ) then {
+			if ( _kzDoctrine isNotEqualTo "UXO" ) then {
 				switch ( _kzSide ) do {
 					case "BLU": { BLUFOR revealMine _device };
 					case "OPF": { OPFOR revealMine _device };

@@ -1,7 +1,7 @@
 [R3F] Logistics : full logistics system (mission script)
 --------------------------------------------------------
 You have the [R3F] Logistics system for Arma 3 and its tutorial mission,
-developed by the R3F (Régiment Force de Frappe Française, team-r3f.org).
+developed by the R3F (RÃ©giment Force de Frappe FranÃ§aise, team-r3f.org).
 
 The full documentation can be found in the file "EN_DOCUMENTATION.pdf" of the official release.
 It is also accessible online here : http://team-r3f.org/madbull/logistics/EN_DOCUMENTATION.pdf
@@ -26,30 +26,30 @@ Feel free to give your feedback on the BIS topic : http://forums.bistudio.com/sh
 Contact : team-r3f.org
 
 
-[R3F] Logistics : système logistique complet (script mission)
+[R3F] Logistics : systÃ¨me logistique complet (script mission)
 -------------------------------------------------------------
-Vous disposez du système [R3F] Logistics pour Arma 3 et de sa mission tutoriel,
-mis au point par le R3F (Régiment Force de Frappe Française, team-r3f.org).
+Vous disposez du systÃ¨me [R3F] Logistics pour Arma 3 et de sa mission tutoriel,
+mis au point par le R3F (RÃ©giment Force de Frappe FranÃ§aise, team-r3f.org).
 
-La documentation complète se trouve dans le fichier "EN_DOCUMENTATION.pdf" de la livraison officielle.
-Elle est également disponible en ligne ici : http://team-r3f.org/madbull/logistics/EN_DOCUMENTATION.pdf
+La documentation complÃ¨te se trouve dans le fichier "EN_DOCUMENTATION.pdf" de la livraison officielle.
+Elle est Ã©galement disponible en ligne ici : http://team-r3f.org/madbull/logistics/EN_DOCUMENTATION.pdf
 
-N'hésitez pas à donner vos impressions sur le fil de discussion chez BIS : http://forums.bistudio.com/showthread.php?180049-R3F-Logistics
+N'hÃ©sitez pas Ã  donner vos impressions sur le fil de discussion chez BIS : http://forums.bistudio.com/showthread.php?180049-R3F-Logistics
 
 	Copyright (C) 2014 Team ~R3F~
 	
 	Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le
 	modifier suivant les termes de la "GNU General Public License" telle que
-	publiée par la Free Software Foundation : soit la version 3 de cette
-	licence, soit (à votre gré) toute version ultérieure.
+	publiÃ©e par la Free Software Foundation : soit la version 3 de cette
+	licence, soit (Ã  votre grÃ©) toute version ultÃ©rieure.
 	
-	Ce programme est distribué dans l’espoir qu’il vous sera utile, mais SANS
-	AUCUNE GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ
-	ni d’ADÉQUATION À UN OBJECTIF PARTICULIER. Consultez la Licence Générale
-	Publique GNU pour plus de détails.
+	Ce programme est distribuÃ© dans lâ€™espoir quâ€™il vous sera utile, mais SANS
+	AUCUNE GARANTIE : sans mÃªme la garantie implicite de COMMERCIALISABILITÃ‰
+	ni dâ€™ADÃ‰QUATION Ã€ UN OBJECTIF PARTICULIER. Consultez la Licence GÃ©nÃ©rale
+	Publique GNU pour plus de dÃ©tails.
 	
-	Vous devriez avoir reçu une copie de la Licence Générale Publique GNU avec
-	ce programme ; si ce n’est pas le cas, consultez :
+	Vous devriez avoir reÃ§u une copie de la Licence GÃ©nÃ©rale Publique GNU avec
+	ce programme ; si ce nâ€™est pas le cas, consultez :
 	<http://www.gnu.org/licenses/>.
 
 Contact : team-r3f.org

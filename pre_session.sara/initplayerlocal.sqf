@@ -10,7 +10,7 @@
 	];
 	_x addAction [
 		"<t size='2' font='RobotoCondensedBold'>BIS Arsenal</t>", 
-		{0 = ["Open", true] spawn BIS_fnc_arsenal;}, 
+		{["Open", true] spawn BIS_fnc_arsenal;},
 		0, 102, true, false
 	];
 } forEach [box1, box2, box3, box4, box5, box6, box7, box8, box9, box10];
@@ -47,7 +47,7 @@ fn_action_instructor_teleport = {
     [_this select 1] call CBA_fnc_removePerFrameHandler;
 }, 0.5] call CBA_fnc_addPerFrameHandler;
 
-0 = 0 spawn {
+0 spawn {
 	waitUntil {!isNull (findDisplay 12)};
 	
 	((findDisplay 12) displayCtrl 51) ctrlAddEventHandler ["Draw", "

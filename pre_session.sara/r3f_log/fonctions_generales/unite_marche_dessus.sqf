@@ -1,13 +1,13 @@
 /**
- * Vérifie si une unité marche sur un objet ou est collée contre celui-ci
+ * VÃ©rifie si une unitÃ© marche sur un objet ou est collÃ©e contre celui-ci
  * 
- * @param 0 l'unité
- * @param 1 l'objet pour lequel vérifier si l'unité marche dessus
+ * @param 0 l'unitÃ©
+ * @param 1 l'objet pour lequel vÃ©rifier si l'unitÃ© marche dessus
  * 
- * @return vrai si une unité marche sur un objet ou est collée contre celui-ci
+ * @return vrai si une unitÃ© marche sur un objet ou est collÃ©e contre celui-ci
  * 
- * @note les bounding box, trop approximatives, ne sont pas utilisées
- * @note le calcul se fait à l'aide de quelques dizaines de "lineIntersectsWith"
+ * @note les bounding box, trop approximatives, ne sont pas utilisÃ©es
+ * @note le calcul se fait Ã  l'aide de quelques dizaines de "lineIntersectsWith"
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -23,7 +23,7 @@ _objet = _this select 1;
 
 _contact = false;
 
-// On scanne autour de l'unité avec des segments répartis sur 3 cercles
+// On scanne autour de l'unitÃ© avec des segments rÃ©partis sur 3 cercles
 for "_rayon" from 0.3 to 0.9 step 0.3 do
 {
 	for "_angle" from 0 to 359 step 360 / (40 * _rayon) do

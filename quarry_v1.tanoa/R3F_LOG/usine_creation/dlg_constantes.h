@@ -1,5 +1,5 @@
 /**
- * Constantes pour rendre les définitions des boîtes de dialogue plus lisible et maintenable
+ * Constantes pour rendre les dÃ©finitions des boÃ®tes de dialogue plus lisible et maintenable
  */
 
 #define R3F_LOG_ID_usine_creation_START 65860

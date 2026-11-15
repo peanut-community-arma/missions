@@ -21,7 +21,7 @@ A counter offensive against Russian invasion forces will be launched on sunrise 
 
 <font size='18'>ENEMY FORCES</font>
 <br/>
-Approximately a company sized Russian Marine mechanized armor forces — expect dismounted infantries supported by BTR-80, BMP-2, and T-72.
+Approximately a company sized Russian Marine mechanized armor forces â€” expect dismounted infantries supported by BTR-80, BMP-2, and T-72.
 <br/><br/>
 
 <font size='18'>FRIENDLY FORCES</font>

@@ -1,5 +1,5 @@
 /**
- * Passe la variable R3F_LOG_joueur_deplace_objet à objNull pour informer le script "deplacer" d'arrêter de déplacer l'objet
+ * Passe la variable R3F_LOG_joueur_deplace_objet Ã  objNull pour informer le script "deplacer" d'arrÃªter de dÃ©placer l'objet
  */
 
 if (R3F_LOG_mutex_local_verrou) then

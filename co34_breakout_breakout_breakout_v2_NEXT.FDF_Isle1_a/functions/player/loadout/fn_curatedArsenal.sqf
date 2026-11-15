@@ -499,7 +499,7 @@ private _itemWeapPistol =
 	"JCA_hgun_P226_black_F",
 	
 	//Pistol Ammo
-	"JCA_15Rnd_9x19_P226_FMJ_Mag",
+	"JCA_15Rnd_9x19_P226_Mag",
 	"JCA_15Rnd_9x19_P226_JHP_Mag"
 ];
 

@@ -239,7 +239,7 @@ private _itemCosmetic =
 	"ptv_shemagh_ct3_g",
 
 	"G_LEN_BCG",
-	"G_Simc_pca_tacticool",
+	"G_Simc_tacticool",
 
 	"PLA_NV_Goggles_F",
 	"PLA_NV_Glasses_F",
@@ -247,7 +247,6 @@ private _itemCosmetic =
 	"Aegis_NV_G_scrimNet_under_olive_F",
 	"pca_nvg_cigarette",
 	"G_Cigarette",
-	"NVG_Simc_pca_tacticool",
 	"pca_nvg_shemagh_lowered_khk",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",

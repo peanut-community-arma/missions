@@ -1043,7 +1043,7 @@ private _itemWeapPistol =
 	
 	//Pistol Ammo
 	"CUP_17Rnd_9x19_M17_Black",
-	"JCA_15Rnd_9x19_P226_FMJ_Mag",
+	"JCA_15Rnd_9x19_P226_Mag",
 	"JCA_15Rnd_9x19_P226_JHP_Mag",
 	"CUP_15Rnd_9x19_M9",
 	"CUP_17Rnd_9x19_glock17",

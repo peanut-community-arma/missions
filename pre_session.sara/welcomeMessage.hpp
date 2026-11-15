@@ -12,10 +12,10 @@ class RscBear_WelcomeMessage
 	enableSimulation = 1;
 	movingEnable = 0;
 	
-	x = 0.35023 * safezoneW + safezoneX;
-	y = 0.321372 * safezoneH + safezoneY;
-	w = 0.299539 * safezoneW;
-	h = 0.357256 * safezoneH;
+	x = "0.35023 * safezoneW + safezoneX";
+	y = "0.321372 * safezoneH + safezoneY";
+	w = "0.299539 * safezoneW";
+	h = "0.357256 * safezoneH";
 	class controls
 	{
 		class textHeader
@@ -33,10 +33,10 @@ class RscBear_WelcomeMessage
 			type = 0;
 			style = 0;
 			
-			x = 0.014977 * safezoneW;
-			y = 0.037863 * safezoneH;
-			w = 0.269585 * safezoneW;
-			h = 0.0535884 * safezoneH;
+			x = "0.014977 * safezoneW";
+			y = "0.037863 * safezoneH";
+			w = "0.269585 * safezoneW";
+			h = "0.0535884 * safezoneH";
 		};
 		class textBody
 		{
@@ -47,10 +47,10 @@ class RscBear_WelcomeMessage
 			font = "RobotoCondensed";
 			size = 0.04;
 			text = "";
-			x = 0.014977 * safezoneW;
-			y = 0.099314 * safezoneH;
-			w = 0.269585 * safezoneW;
-			h = 0.250079 * safezoneH;
+			x = "0.014977 * safezoneW";
+			y = "0.099314 * safezoneH";
+			w = "0.269585 * safezoneW";
+			h = "0.250079 * safezoneH";
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {1,0,0,0};
 			sizeEx = 0.035;

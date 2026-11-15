@@ -1,6 +1,6 @@
 /**
- * Enregistre les valeurs des champs avant fermeture de la boîte de dialogue de l'usine de création.
- * ouvrir_usine.sqf s'en servira pour la préremplir à l'ouverture
+ * Enregistre les valeurs des champs avant fermeture de la boÃ®te de dialogue de l'usine de crÃ©ation.
+ * ouvrir_usine.sqf s'en servira pour la prÃ©remplir Ã  l'ouverture
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -39,13 +39,13 @@ if (count (_usine getVariable "R3F_LOG_CF_cfgVehicles_par_categories") > 0) then
 		_icone = getText (_config >> "icon");
 		_cout = [_classe] call R3F_LOG_FNCT_determiner_cout_creation;
 		
-		// Icône par défaut
+		// IcÃ´ne par dÃ©faut
 		if (_icone == "") then
 		{
 			_icone = "\A3\ui_f\data\map\VehicleIcons\iconObject_ca.paa";
 		};
 		
-		// Si le chemin commence par A3\ ou a3\, on rajoute un \ au début
+		// Si le chemin commence par A3\ ou a3\, on rajoute un \ au dÃ©but
 		_tab_icone = toArray toLower _icone;
 		if (count _tab_icone >= 3 &&
 			{
@@ -57,7 +57,7 @@ if (count (_usine getVariable "R3F_LOG_CF_cfgVehicles_par_categories") > 0) then
 			_icone = "\" + _icone;
 		};
 		
-		// Si icône par défaut, on rajoute le chemin de base par défaut
+		// Si icÃ´ne par dÃ©faut, on rajoute le chemin de base par dÃ©faut
 		_tab_icone = toArray _icone;
 		if (_tab_icone select 0 != (toArray "\" select 0)) then
 		{
@@ -76,10 +76,10 @@ if (count (_usine getVariable "R3F_LOG_CF_cfgVehicles_par_categories") > 0) then
 		_ctrl_liste_objets lbSetData [_index, _classe];
 	} forEach (_usine getVariable "R3F_LOG_CF_cfgVehicles_par_categories" select _sel_categorie);
 	
-	// Ajout d'une ligne vide car l'affichage des listes de BIS est bugué (dernier élément masqué).....
+	// Ajout d'une ligne vide car l'affichage des listes de BIS est buguÃ© (dernier Ã©lÃ©ment masquÃ©).....
 	_ctrl_liste_objets lbSetData [_ctrl_liste_objets lbAdd "", ""];
 	
-	// Sélectionner l'objet mémoriser en le plaçant visuellement au centre de la liste
+	// SÃ©lectionner l'objet mÃ©moriser en le plaÃ§ant visuellement au centre de la liste
 	_ctrl_liste_objets lbSetCurSel (lbSize _ctrl_liste_objets - 1);
 	_ctrl_liste_objets lbSetCurSel (_sel_objet - 8 max 0);
 	_ctrl_liste_objets lbSetCurSel _sel_objet;

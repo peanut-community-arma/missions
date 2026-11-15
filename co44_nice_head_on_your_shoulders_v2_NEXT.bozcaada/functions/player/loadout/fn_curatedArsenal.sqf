@@ -566,20 +566,7 @@ if (_hasApex) then
 		"G_Balaclava_TI_blk_F",
 		"G_Balaclava_TI_G_blk_F",
 		"G_Balaclava_TI_tna_F",
-		"G_Balaclava_TI_G_tna_F",
-		"aegis_combat_gogg_blk",
-		"aegis_bala_light_blk",
-		"aegis_bala_light_gogg_blk",
-		"aegis_bala_light_eaf",
-		"aegis_bala_light_gogg_eaf",
-		"aegis_bala_light_mtp",
-		"aegis_bala_light_gogg_mtp",
-		"aegis_bala_light_tropic",
-		"aegis_bala_light_gogg_tropic",
-		"aegis_bala_light_wdl",
-		"aegis_bala_light_gogg_wdl",	
-		"aegis_bala_ti_sand",
-		"aegis_bala_ti_gogg_sand"	
+		"G_Balaclava_TI_G_tna_F"
     ];
 
 };

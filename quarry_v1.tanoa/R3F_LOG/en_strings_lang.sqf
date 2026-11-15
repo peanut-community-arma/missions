@@ -1,4 +1,4 @@
-﻿/*
+/*
  * TRANSLATION FILE (ENGLIGH)
  * 
  * Alternative to stringtable.csv which is simpler to install for the mission maker.

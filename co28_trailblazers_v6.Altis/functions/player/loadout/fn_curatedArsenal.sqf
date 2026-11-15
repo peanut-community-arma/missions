@@ -218,7 +218,7 @@ private _itemCosmetic =
 	"ptv_shemagh_ct3_g",
 
 	"G_LEN_BCG",
-	"G_Simc_pca_tacticool",
+	"G_Simc_tacticool",
 
 	"immersion_cigs_cigar0",
 	"murshun_cigs_cig0",
