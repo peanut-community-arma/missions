@@ -618,7 +618,7 @@ class CustomAttributes {
 };
 class Mission {
     class Intel {
-        briefingName = "co64 [NEXT] Another Time, Another Place";
+        briefingName = "co64 Another Time, Another Place";
         overviewText = "Slot Order: PLT HQ > S1 >A > S2 > B > C (Pre-Alpha CSAT)";
         timeOfChanges = 1800.0002;
         startWeather = 0.2;

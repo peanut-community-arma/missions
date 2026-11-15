@@ -656,7 +656,7 @@ class CustomAttributes {
 };
 class Mission {
     class Intel {
-        briefingName = "co57 [NEXT] Broader Clash";
+        briefingName = "co57 Broader Clash";
         overviewText = "Slot Order: PLT HQ > A > P1 > B > P2 > C (Indian Para SF)";
         timeOfChanges = 1800.0002;
         startWeather = 0.2;

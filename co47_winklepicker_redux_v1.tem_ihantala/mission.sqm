@@ -472,7 +472,7 @@ dlcs[] = {
 randomSeed = 12869852;
 class ScenarioData {
     author = "veerserif";
-    overviewText = "Winklepicker remade from scratch, for PCA Next.";
+    overviewText = "Winklepicker remade from scratch, for PCA.";
     respawn = 1;
     class Header {
         gameType = "Coop";
