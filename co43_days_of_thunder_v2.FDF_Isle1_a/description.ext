@@ -1,0 +1,239 @@
+tmf_version[] = {1,1,1}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+cba_settings_hasSettingsFile = 1; //Will crash on dedicated server if no setting file are present in mission.
+enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
+enableTargetDebug = 1;
+respawnButton = 1;
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission Success";
+		subtitle = "";
+		description = "";
+	};
+	class Failed
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "";
+	};
+};
+
+// DO NOT REMOVE. Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+	class BLUFOR_LOADOUT
+	{
+		displayName = "BLUFOR Loadout";
+		#include "loadouts\blufor_loadout.hpp"
+	};
+	class OPFOR_LOADOUT
+	{
+		displayName = "OPFOR Loadout";
+		#include "loadouts\opfor_loadout.hpp"
+	};
+};
+
+class CfgFunctions
+{
+	#include "functions\cfgFunctions.hpp"
+};
+
+class Extended_PreInit_EventHandlers 
+{
+	class pca_preInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PreInit.sqf'";
+	};
+};
+
+class Extended_PostInit_EventHandlers 
+{
+	class pca_postInit 
+	{
+		init = "[] call compile preprocessFileLineNumbers 'XEH_PostInit.sqf'";
+	};
+};
+
+//////////////////////////////////////////
+//McCOY'S AUTOMAGICAL LOADOUT ASSIGNMENT//
+//////////////////////////////////////////
+//place these event handlers in your description.ext to automatically assign gear to specific factions on spawn
+//great for zeusing
+//if i can get it to work
+class Extended_InitPost_EventHandlers
+{
+
+////////////////////////
+///ARDISTANI AIRBORNE///
+////////////////////////
+		//rifleman
+		class Atlas_I_AR_Soldier_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['rm'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//radioman (spawns as rifleman)
+		class Atlas_I_AR_RadioOperator_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['rm'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//lite rifleman (now regular rifleman)
+		class Atlas_I_AR_Soldier_Lite_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['rm'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//loadbearing
+		class Atlas_I_AR_Soldier_A_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['lb'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//AAR
+		class Atlas_I_AR_Soldier_AAR_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['aar'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//AAA - spawned as regular AA due to iglas being single shot
+		class Atlas_I_AR_Soldier_AAA_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['rm_aa'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//AR - spawns in as either M249 or PKP gunner due to regular Aegis Ardistani troops not having MGs for some reason
+		class Atlas_I_AR_Soldier_AR_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['mg','ar'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//CLS
+		class Atlas_I_AR_Medic_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['medic'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//LAT/MAT (can be either since for some reason Ardistan doesn't field both)
+		class Atlas_I_AR_Soldier_LAT_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['rm_lat', 'rm_mat'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//crewman
+		class Atlas_I_AR_Crew_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['crewman'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//engineer
+		class Atlas_I_AR_engineer_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['engineer'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//explosive specialist (spawns as engi)
+		class Atlas_I_AR_Soldier_Exp_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['engineer'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//officer
+		class Atlas_I_AR_Officer_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['officer'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//pilot (spawns as crewman)
+		class Atlas_I_AR_Helipilot_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['pilot'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//designated marksman
+		class Atlas_I_AR_Soldier_M_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['dm'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//antiair
+		class Atlas_I_AR_Soldier_AA_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['rm_aa'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//sl
+		class Atlas_I_AR_Soldier_SL_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['gren'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//tl
+		class Atlas_I_AR_Soldier_TL_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['gren'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+		//gl
+		class Atlas_I_AR_Soldier_GL_F
+		{
+			class varInit
+			{
+				init = "private _role = selectRandom ['gren'];[_this select 0, 'OPFOR_LOADOUT', _role] call tmf_assigngear_fnc_assigngear;";
+			};
+		};
+};
