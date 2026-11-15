@@ -7461,7 +7461,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "$NONE_hlc_pistol_dl44$";
+																			value = "hlc_pistol_DL44";
 																		};
 																	};
 																	class Item1
@@ -10890,7 +10890,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "$NONE_hlc_pistol_dl44$";
+																			value = "hlc_pistol_DL44";
 																		};
 																	};
 																	class Item1
@@ -71964,7 +71964,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "$NONE_hlc_pistol_dl44$";
+																			value = "hlc_pistol_DL44";
 																		};
 																	};
 																	class Item1

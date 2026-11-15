@@ -226,8 +226,8 @@ private _itemAcc =
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"$NONE_sma_acc_micro_t2$",
-	"$NONE_rksl_optic_eot552$",
-	"$NONE_rksl_optic_eot552x$",
+	"RKSL_optic_EOT552",
+	"RKSL_optic_EOT552X",
 	
 	//Grip
 	"rhsusf_acc_grip1",

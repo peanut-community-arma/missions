@@ -327,7 +327,7 @@ private _itemWeapAR =
 	//Accessories
 	"cup_bipod_vltor_modpod_black",
 	"rhsusf_acc_harris_bipod",
-	"$NONE_hlc_bipod_utgshooters$",
+	"HLC_bipod_UTGShooters",
 	"ptv_acc_grip3"
 ];
 

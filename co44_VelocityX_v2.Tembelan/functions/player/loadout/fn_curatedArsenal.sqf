@@ -294,12 +294,12 @@ private _itemAcc =
 [
 	//Optic
 	"rhs_acc_1p87",
-	"$NONE_hlc_optic_docterr$",
+	"HLC_optic_DocterR",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"$NONE_sma_acc_micro_t2_low$",
 	"rhs_acc_ekp8_18",
 	"$NONE_hlc_optic_ism1400a7$",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_t1_high",
 	"cup_optic_trijiconrx01_black",
 	"",
@@ -339,7 +339,7 @@ private _itemWeapRifleUGL =
 private _itemWeapAR = 
 [
 	"CUP_lmg_Pecheneg_top_rail_B50_vfg",
-	"$NONE_rksl_optic_eot552x$"
+	"RKSL_optic_EOT552X"
 ];
 
 private _itemWeapLAT = 
@@ -348,7 +348,7 @@ private _itemWeapLAT =
 	"srifle_DMR_01_F",
 	"srifle_DMR_01_black_F",
 	"optic_mrco",
-	"$NONE_hlc_bipod_utgshooters$",
+	"HLC_bipod_UTGShooters",
 	"10Rnd_762x54_Mag",
 	"ACE_10Rnd_762x54_Tracer_mag"
 	

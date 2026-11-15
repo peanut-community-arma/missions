@@ -92,7 +92,7 @@ class rm : baseMan
 	};
 	sidearmAttachments[] = 
 	{
-		"$NONE_hlc_acc_tlr1$"
+		"hlc_acc_TLR1"
 	};
 	magazines[] = 
 	{

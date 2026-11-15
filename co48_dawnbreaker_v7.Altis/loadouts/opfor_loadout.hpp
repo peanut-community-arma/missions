@@ -113,7 +113,7 @@ class mg : rm
 	};
 	scope[] = 
 	{
-		"$NONE_rksl_optic_eot552x_c$"
+		"RKSL_optic_EOT552X_C"
 	};
 	magazines[] = 
 	{

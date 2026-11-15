@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		LIST_3("$NONE_rksl_optic_eot552x$"),
+		LIST_3("RKSL_optic_EOT552X"),
 		"cup_optic_ac11704_black"
 		
 		

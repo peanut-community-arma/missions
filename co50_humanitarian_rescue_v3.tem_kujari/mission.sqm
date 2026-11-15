@@ -1240,7 +1240,7 @@ class Mission
 									{
 										name = "$NONE_hlc_rifle_m4a1_cqbr_hk$";
 										optics = "optic_ERCO_blk_F";
-										muzzle = "$NONE_hlc_muzzle_556NATO_KAC$";
+										muzzle = "hlc_muzzle_556NATO_KAC";
 										flashlight = "CUP_acc_ANPEQ_15_Flashlight_Black_L";
 										underBarrel = "rhsusf_acc_grip2";
 										firemode = "hlc_rifle_m4a1_cqbr_hk:Single";
@@ -1259,7 +1259,7 @@ class Mission
 										name = "$NONE_hlc_pistol_mk25tr_pink$";
 										optics = "hlc_optic_docter_cadex";
 										muzzle = "hlc_muzzle_Octane9";
-										flashlight = "$NONE_hlc_acc_tlr1$";
+										flashlight = "hlc_acc_TLR1";
 										class primaryMuzzleMag
 										{
 											name = "hlc_15Rnd_9x19_FMJ_P226";

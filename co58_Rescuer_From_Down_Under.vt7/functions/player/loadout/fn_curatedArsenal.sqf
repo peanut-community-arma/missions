@@ -322,7 +322,7 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_cmore_grn$",
 	"CUP_optic_HoloBlack",
-	"$NONE_RKSL_optic_EOT552$",
+	"RKSL_optic_EOT552",
 	"CUP_optic_Eotech553_Black",
 	"CUP_optic_Eotech553_OD",
 	

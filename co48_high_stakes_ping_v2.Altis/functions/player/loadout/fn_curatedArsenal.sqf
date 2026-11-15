@@ -312,7 +312,7 @@ private _itemAcc =
 	"rhsusf_acc_kac_grip_saw_bipod",
 	"rhsusf_acc_rvg_blk",
 	"rhsusf_acc_rvg_de",
-	"$NONE_hlc_bipod_utgshooters$",
+	"HLC_bipod_UTGShooters",
 	"CUP_bipod_VLTOR_Modpod",
 	"rhsusf_acc_tdstubby_tan",
 	

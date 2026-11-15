@@ -461,8 +461,8 @@ private _itemAcc =
 	"rhsusf_acc_eotech_552",
 	"rhsusf_acc_eotech",
 
-	"$NONE_rksl_optic_eot552x$",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552X",
+	"RKSL_optic_EOT552",
 
 	"ptv_acc_eot552",
 	"ptv_acc_t1",
@@ -546,16 +546,16 @@ private _itemAccMMSF =
 	"rhsusf_acc_su230a_mrds_c",
 	"cup_optic_sb_11_4x20_pm",
 	"cup_optic_sb_11_4x20_pm_od",
-	"$NONE_hlc_optic_atacr$",
-	"$NONE_hlc_optic_atacr_offset$",
+	"hlc_optic_ATACR",
+	"hlc_optic_ATACR_Offset",
 
-	"$NONE_hlc_bipod_utgshooters$",
+	"HLC_bipod_UTGShooters",
 
 	"sps_acc_oss_hx762_blk",
 	"sps_acc_oss_hx762_fde",
 	"sps_acc_oss_hx762_od",
 	"sps_acc_oss_hx762_sand",
-	"$NONE_hlc_muzzle_aac_scarh$",
+	"hlc_muzzle_AAC_SCARH",
 	"$NONE_hlc_muzzle_fn_oem17s$"
 
 ];

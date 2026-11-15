@@ -561,7 +561,7 @@ private _itemAcc =
 	"optic_aco",
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_eotech_552_blk$",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
 	"optic_holosight_blk_f",
 	"rhsusf_acc_eotech_552",
@@ -613,7 +613,7 @@ private _itemWeapMG =
 [
 	"sps_weap_kac_amg_blk",
 	"bipod_01_f_blk",
-	"$NONE_rksl_optic_eot552x$"
+	"RKSL_optic_EOT552X"
 ];
 
 private _itemWeapLAT = 

@@ -406,8 +406,8 @@ private _itemMod =
 	"$NONE_sma_acc_micro_t2_low$",
 	
 	//PCA
-	"$NONE_rksl_optic_eot552$",
-	"$NONE_rksl_optic_eot552x$",
+	"RKSL_optic_EOT552",
+	"RKSL_optic_EOT552X",
 	
 	//CUP
 	"cup_optic_compm2_low",

@@ -626,16 +626,16 @@ private _itemAcc =
 	"cup_optic_trijiconrx01_kf_black",
 	"cup_optic_vortexrazor_uh1_black",
 	"cup_optic_zeisszpoint",
-	"$NONE_hlc_optic_docterr$",
+	"HLC_optic_DocterR",
 	"$NONE_hlc_optic_ism1400a7$",
-	"$NONE_hlc_optic_romeov$",
+	"HLC_optic_RomeoV",
 	"ptv_acc_compm4s",
 	"ptv_acc_aimcs",
 	"ptv_acc_t1",
 	"ptv_acc_t1_low",
 	"ptv_acc_eot552",
-	"$NONE_rksl_optic_eot552$",
-	"$NONE_rksl_optic_eot552x$",
+	"RKSL_optic_EOT552",
+	"RKSL_optic_EOT552X",
 	"rhs_acc_rakurspm",
 	"rhs_acc_1p87",
 	"rhs_acc_ekp8_18",
@@ -790,7 +790,7 @@ private _itemWeapSN =
 	"cup_optic_leupold_vx3",
 	"cup_optic_sb_3_12x50_pmii",
 	"cup_optic_leupoldmk4",
-	"$NONE_hlc_optic_leupoldm3a$"
+	"hlc_optic_LeupoldM3A"
 ];
 //********************************************************************************//
 // Ammunitions

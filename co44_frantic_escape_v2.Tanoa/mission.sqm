@@ -29522,7 +29522,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_optic_docterr$";
+																					value = "HLC_optic_DocterR";
 																				};
 																			};
 																			class Item1
@@ -29657,7 +29657,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552$";
+																					value = "RKSL_optic_EOT552";
 																				};
 																			};
 																			class Item1
@@ -29684,7 +29684,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1
@@ -30575,7 +30575,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_optic_romeov$";
+																					value = "HLC_optic_RomeoV";
 																				};
 																			};
 																			class Item1
@@ -31682,7 +31682,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_acc_dbalpl_side$";
+																					value = "hlc_acc_DBALPL_Side";
 																				};
 																			};
 																			class Item1
@@ -31709,7 +31709,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_acc_dbalpl_side_fl$";
+																					value = "hlc_acc_DBALPL_side_FL";
 																				};
 																			};
 																			class Item1
@@ -31736,7 +31736,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_acc_tlr1_side$";
+																					value = "hlc_acc_TLR1_Side";
 																				};
 																			};
 																			class Item1
@@ -32438,7 +32438,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_pistol_dl44$";
+																					value = "hlc_pistol_DL44";
 																				};
 																			};
 																			class Item1
@@ -32816,7 +32816,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_pistol_c96_prussian$";
+																					value = "hlc_pistol_C96_Prussian";
 																				};
 																			};
 																			class Item1
@@ -34490,7 +34490,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_hlc_bipod_utgshooters$";
+																					value = "HLC_bipod_UTGShooters";
 																				};
 																			};
 																			class Item1

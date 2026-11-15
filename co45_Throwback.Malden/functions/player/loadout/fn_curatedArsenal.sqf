@@ -324,7 +324,7 @@ private _itemAcc =
 [
 	//Optic
 	"rhsusf_acc_compm4",
-	"$NONE_RKSL_optic_EOT552$",
+	"RKSL_optic_EOT552",
 	
 	//Grip
 	"rhsusf_acc_grip1",

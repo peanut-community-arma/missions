@@ -240,7 +240,7 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"$NONE_hlc_pistol_dl44$"
+	"hlc_pistol_DL44"
 ];
 
 private _itemWeapRifleUGL = 
@@ -260,7 +260,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"$NONE_hlc_pistol_dl44$"
+	"hlc_pistol_DL44"
 ];
 
 //Special

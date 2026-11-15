@@ -252,7 +252,7 @@ private _itemAcc =
 	"cup_optic_holoblack",
 	"$NONE_sma_acc_eotech_552_blk$",
 	"$NONE_sma_acc_eotech_552_kf_od$",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
 	"rhsusf_acc_compm4",
 	"cup_optic_compm2_low",
@@ -299,7 +299,7 @@ private _itemWeapAR =
 [
 	"sps_weap_kac_lamg_hg_blk",
 	"sps_weap_kac_lamg_blk",
-	"$NONE_hlc_bipod_utgshooters$"
+	"HLC_bipod_UTGShooters"
 ];
 
 private _itemWeapMG = 

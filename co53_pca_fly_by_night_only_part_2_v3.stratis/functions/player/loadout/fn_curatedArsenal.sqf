@@ -457,7 +457,7 @@ private _itemAcc =
 	"rhsusf_acc_grip_m203_d",
 	"rhsusf_acc_grip_m203_wd",
 	
-	"$NONE_hlc_bipod_utgshooters$",
+	"HLC_bipod_UTGShooters",
 	"cup_bipod_harris_1a2_l_blk",
 	
 	//Tactical Device

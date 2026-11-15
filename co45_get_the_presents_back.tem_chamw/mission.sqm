@@ -16385,7 +16385,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""MMG_02_black_RCO_BI_F"",""$NONE_hlc_pistol_dl44$""],[2,50]],[[""ACE_130Rnd_338_Mag_green"",""hlc_1Rnd_Plasma_DL44"",""hlc_1Rnd_Plasma_DL44_green""],[30,100,100]],[[],[]],[[],[]]],false]";
+							value = "[[[[""MMG_02_black_RCO_BI_F"",""hlc_pistol_DL44""],[2,50]],[[""ACE_130Rnd_338_Mag_green"",""hlc_1Rnd_Plasma_DL44"",""hlc_1Rnd_Plasma_DL44_green""],[30,100,100]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};

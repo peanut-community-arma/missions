@@ -64,7 +64,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"$NONE_rksl_optic_eot552_c$"
+		"RKSL_optic_EOT552_C"
 	};
 	bipod[] = 
 	{

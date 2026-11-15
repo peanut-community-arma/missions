@@ -7486,7 +7486,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1
@@ -10520,7 +10520,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "$NONE_rksl_optic_eot552x$";
+																									value = "RKSL_optic_EOT552X";
 																								};
 																							};
 																							class Item1
@@ -22849,7 +22849,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_rksl_optic_eot552x$";
+																							value = "RKSL_optic_EOT552X";
 																						};
 																					};
 																					class Item1
@@ -65279,7 +65279,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "$NONE_rksl_optic_eot552x$";
+																			value = "RKSL_optic_EOT552X";
 																		};
 																	};
 																	class Item1
@@ -68488,7 +68488,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1
@@ -69341,7 +69341,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1
@@ -70194,7 +70194,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1
@@ -71047,7 +71047,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1
@@ -71900,7 +71900,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_rksl_optic_eot552x$";
+																					value = "RKSL_optic_EOT552X";
 																				};
 																			};
 																			class Item1

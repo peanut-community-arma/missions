@@ -101,7 +101,7 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"$NONE_hlc_pistol_c96_prussian$"
+		"hlc_pistol_C96_Prussian"
 	};
 	magazines[] = 
 	{
@@ -146,7 +146,7 @@ class rm_ss : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"$NONE_hlc_pistol_c96_prussian$"
+		"hlc_pistol_C96_Prussian"
 	};
 	magazines[] = 
 	{
@@ -203,7 +203,7 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"$NONE_hlc_pistol_c96_prussian$"
+		"hlc_pistol_C96_Prussian"
 	};
 	magazines[] += 
 	{
@@ -285,7 +285,7 @@ class cls : rm_fa
 	};
 	sidearmWeapon[] = 
 	{
-		"$NONE_hlc_pistol_c96_prussian$"
+		"hlc_pistol_C96_Prussian"
 	};
 	magazines[] += 
 	{

@@ -10402,7 +10402,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_hlc_muzzle_556nato_kac$";
+																							value = "hlc_muzzle_556NATO_KAC";
 																						};
 																					};
 																					class Item1
@@ -11574,7 +11574,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_hlc_muzzle_556nato_kac$";
+																							value = "hlc_muzzle_556NATO_KAC";
 																						};
 																					};
 																					class Item1
@@ -22306,7 +22306,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_hlc_muzzle_556nato_kac$";
+																							value = "hlc_muzzle_556NATO_KAC";
 																						};
 																					};
 																					class Item1

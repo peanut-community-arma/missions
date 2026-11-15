@@ -383,8 +383,8 @@ private _itemAcc =
 	"ptv_acc_eot552",
 	"ptv_acc_t1",
 	"ptv_acc_t1_low",
-	"$NONE_rksl_optic_eot552$",
-	"$NONE_rksl_optic_eot552x$",
+	"RKSL_optic_EOT552",
+	"RKSL_optic_EOT552X",
 	
 	//CUP
 	"cup_optic_ac11704_black",

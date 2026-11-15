@@ -50093,7 +50093,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "$NONE_hlc_pistol_c96_prussian$";
+																			value = "hlc_pistol_C96_Prussian";
 																		};
 																	};
 																	class Item1

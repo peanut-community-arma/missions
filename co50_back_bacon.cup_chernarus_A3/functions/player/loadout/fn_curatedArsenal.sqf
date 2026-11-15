@@ -211,7 +211,7 @@ private _itemAcc =
 	"$NONE_sma_acc_barska_rds$",
 	"CUP_optic_HoloBlack",
 	"CUP_optic_Eotech553_Black",
-	"$NONE_RKSL_optic_EOT552$",
+	"RKSL_optic_EOT552",
 	"optic_Holosight_blk_F",
 	"optic_Holosight_khk_F",
 	"rhsusf_acc_eotech_552",

@@ -325,7 +325,7 @@ private _itemAcc =
 	
 	//Tactical Device
 	"pca_flashlight_led",
-	"$NONE_hlc_muzzle_TiRant9$"
+	"hlc_muzzle_TiRant9"
 ];
 
 private _itemWeapRifle = 

@@ -388,7 +388,7 @@ private _itemWeapSS =
 
 private _itemWeapPistol = 
 [
-	"$NONE_hlc_pistol_c96_prussian$",
+	"hlc_pistol_C96_Prussian",
 	
 	//Pistol Ammo
 	"hlc_10Rnd_9x19_B_C96"

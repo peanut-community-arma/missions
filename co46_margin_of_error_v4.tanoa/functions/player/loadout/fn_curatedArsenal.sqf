@@ -272,8 +272,8 @@ private _itemAcc =
 	"cup_optic_elcan_specterdr_black", //only 3D version works with NVGs
 	
 	//Silencer
-	"$NONE_hlc_muzzle_556nato_kac$",
-	"$NONE_hlc_muzzle_tirant9$",
+	"hlc_muzzle_556NATO_KAC",
+	"hlc_muzzle_TiRant9",
 	
 	//Grip
 	"rhsusf_acc_grip1",

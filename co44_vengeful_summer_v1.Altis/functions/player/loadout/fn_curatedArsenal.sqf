@@ -285,7 +285,7 @@ private _itemAcc =
 	//Optic
 	"optic_ACO_grn_smg",
 	"optic_Aco_smg",
-	"$NONE_hlc_optic_DocterR$",
+	"HLC_optic_DocterR",
 	"CUP_optic_VortexRazor_UH1_Black",
 	"rhsusf_acc_T1_low",
 	"CUP_optic_CompM2_low",

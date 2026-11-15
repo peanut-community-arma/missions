@@ -270,13 +270,13 @@ class sharpshooter : r
 		LIST_3("rhsusf_mag_17Rnd_9x19_FMJ")
 	};
 	scope[] = {
-		LIST_2("$NONE_hlc_optic_atacr$"),
-		"$NONE_hlc_optic_atacr_offset$"
+		LIST_2("hlc_optic_ATACR"),
+		"hlc_optic_ATACR_Offset"
 	};
 	silencer[] = {
 		"$NONE_hlc_muzzle_fn_oem$"
 	};
 	bipod[] = {
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 };

@@ -116,7 +116,7 @@ class ar : rm
 	};
 	scope[] = 
 	{
-		"$NONE_rksl_optic_eot552$"
+		"RKSL_optic_EOT552"
 	};
 	bipod[] = 
 	{
@@ -557,7 +557,7 @@ class dm : rm
 	};
 	bipod[] = 
 	{
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 	sidearmWeapon[] = 
 	{

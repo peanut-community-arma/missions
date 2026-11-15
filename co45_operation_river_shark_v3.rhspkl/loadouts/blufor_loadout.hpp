@@ -79,7 +79,7 @@ class rm : baseMan
 	};
 	silencer[] =
 	{
-		"$NONE_hlc_muzzle_556NATO_KAC$"
+		"hlc_muzzle_556NATO_KAC"
 	};
 	items[] =
 	{

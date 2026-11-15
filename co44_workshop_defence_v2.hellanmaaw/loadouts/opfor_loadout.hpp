@@ -71,7 +71,7 @@ class rm : baseMan
 	};
 	attachment[] =
 	{
-		"$NONE_hlc_acc_tlr1_side$"
+		"hlc_acc_TLR1_Side"
 	};
 	silencer[] =
 	{

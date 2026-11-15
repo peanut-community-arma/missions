@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	sidearmWeapon[] = 
 	{
-		"$NONE_hlc_pistol_dl44$"
+		"hlc_pistol_DL44"
 	};
 	magazines[] = 
 	{

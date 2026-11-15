@@ -628,10 +628,10 @@ class sf_mm : sf_rm
 	};
 	scope[] =
 	{
-		"$NONE_hlc_optic_atacr$"
+		"hlc_optic_ATACR"
 	};
 	bipod[] = {
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 	attachment[] = {};
 	silencer[] ={

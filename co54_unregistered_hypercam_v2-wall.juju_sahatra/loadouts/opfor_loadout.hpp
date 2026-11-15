@@ -147,9 +147,9 @@ class ar : rm
 	};
 	sidearmAttachments[] = 
 	{
-		"$NONE_hlc_optic_romeov$",
-		"$NONE_hlc_acc_dbalpl_fl$",
-		"$NONE_hlc_muzzle_octane45$"
+		"HLC_optic_RomeoV",
+		"hlc_acc_DBALPL_FL",
+		"hlc_muzzle_Octane45"
 	};
 	magazines[] = 
 	{
@@ -211,7 +211,7 @@ class dmr : rm
 	};
 	scope[] =
 	{
-		"$NONE_hlc_optic_leupoldm3a$"
+		"hlc_optic_LeupoldM3A"
 	};
 	sidearmWeapon[] = 
 	{
@@ -219,9 +219,9 @@ class dmr : rm
 	};
 	sidearmAttachments[] = 
 	{
-		"$NONE_hlc_optic_romeov$",
-		"$NONE_hlc_acc_dbalpl_fl$",
-		"$NONE_hlc_muzzle_octane45$"
+		"HLC_optic_RomeoV",
+		"hlc_acc_DBALPL_FL",
+		"hlc_muzzle_Octane45"
 	};
 	magazines[] = 
 	{

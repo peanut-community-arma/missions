@@ -443,7 +443,7 @@ private _itemMedAdv =
 
 private _itemAcc = 
 [
-	"$NONE_hlc_optic_vomz$",
+	"hlc_optic_VOMZ",
 	"$NONE_hlc_optic_vomz_3d$",
 	"cup_acc_zenit_2ds",
 	"cup_acc_flashlight_mp5",

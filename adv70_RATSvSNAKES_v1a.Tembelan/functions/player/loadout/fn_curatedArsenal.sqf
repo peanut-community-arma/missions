@@ -363,7 +363,7 @@ private _itemAcc =
 	"optic_yorris",
 	"optic_aco",
 	"optic_aco_grn",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_compm4",
 	"rhsusf_acc_mrds",
 	"ptv_acc_t1_low",

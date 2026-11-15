@@ -105,7 +105,7 @@ class ar : rm
 	};
 	bipod[] = 
 	{
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 	sidearmWeapon[] = 
 	{

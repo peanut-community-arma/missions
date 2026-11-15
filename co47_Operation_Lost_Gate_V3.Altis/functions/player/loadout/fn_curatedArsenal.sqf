@@ -185,8 +185,8 @@ private _itemEng =
 private _itemAcc = 
 [
 	//Optic
-	"$NONE_rksl_optic_eot552_c$",
-	"$NONE_rksl_optic_eot552x_c$",
+	"RKSL_optic_EOT552_C",
+	"RKSL_optic_EOT552X_C",
 	"$NONE_sma_acc_eotech_xps3_tan$",
 	"optic_LRCO_snd_F",
 	//Grip

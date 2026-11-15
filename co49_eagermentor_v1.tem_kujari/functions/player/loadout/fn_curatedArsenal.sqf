@@ -366,7 +366,7 @@ private _itemAcc =
 	"CUP_optic_TrijiconRx01_black",
 	"ptv_acc_t1_low",
 	"rhsusf_acc_compm4",
-	"$NONE_RKSL_optic_EOT552$",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_mrds",
 	"CUP_optic_OKP_7_rail",
 	

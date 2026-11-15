@@ -343,17 +343,17 @@ private _itemAcc =
 	"rhsusf_acc_eotech",
 	"rhsgref_acc_rx01_camo",
 	"rhsgref_acc_rx01_nofilter_camo",
-	"$NONE_rksl_optic_eot552x_c$",
-	"$NONE_rksl_optic_eot552x$",
-	"$NONE_rksl_optic_eot552_c$",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552X_C",
+	"RKSL_optic_EOT552X",
+	"RKSL_optic_EOT552_C",
+	"RKSL_optic_EOT552",
 	"ptv_acc_eot552",
 	"ptv_acc_t1_low",
 	"ptv_acc_t1",
 	"ptv_acc_aimcs",
 	"ptv_acc_compm4s",
-	"$NONE_hlc_optic_romeov$",
-	"$NONE_hlc_optic_docterr$",
+	"HLC_optic_RomeoV",
+	"HLC_optic_DocterR",
 	"cup_optic_zeisszpoint_wood",
 	"cup_optic_zeisszpoint_hex",
 	"cup_optic_zeisszpoint_desert",
@@ -437,7 +437,7 @@ private _itemAcc =
 	"rhsusf_acc_ardec_m240",
 	"rhsusf_acc_aac_762sd_silencer",
 	"rhsusf_acc_aac_762sdn6_silencer",
-	"$NONE_hlc_muzzle_evo40$"
+	"hlc_muzzle_Evo40"
 ];
 
 private _itemAccSpec = 

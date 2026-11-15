@@ -70,7 +70,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"$NONE_rksl_optic_eot552$"
+		"RKSL_optic_EOT552"
 	};
 	items[] =
 	{

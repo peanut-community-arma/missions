@@ -261,7 +261,7 @@ private _itemAcc =
 	"cup_optic_ac11704_black",
 	"optic_aco_grn",
 	"optic_aco",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
 	"rhsusf_acc_eotech_552",
 	"rhsusf_acc_compm4",

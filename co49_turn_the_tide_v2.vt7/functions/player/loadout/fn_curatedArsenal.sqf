@@ -332,16 +332,16 @@ private _itemAcc =
 "rhsgref_acc_rx01_camo",
 "rhsgref_acc_rx01_nofilter_camo",
 
-"$NONE_rksl_optic_eot552x$",
+"RKSL_optic_EOT552X",
 
-"$NONE_rksl_optic_eot552$",
+"RKSL_optic_EOT552",
 "ptv_acc_eot552",
 "ptv_acc_t1_low",
 "ptv_acc_t1",
 "ptv_acc_aimcs",
 "ptv_acc_compm4s",
-"$NONE_hlc_optic_romeov$",
-"$NONE_hlc_optic_docterr$",
+"HLC_optic_RomeoV",
+"HLC_optic_DocterR",
 "cup_optic_zeisszpoint_wood",
 "cup_optic_zeisszpoint_hex",
 

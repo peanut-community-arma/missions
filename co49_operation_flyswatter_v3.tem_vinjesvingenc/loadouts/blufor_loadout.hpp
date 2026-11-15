@@ -313,7 +313,7 @@ class mmg : rm
 	};
 	scope[] = 
 	{
-		"$NONE_rksl_optic_eot552x$"
+		"RKSL_optic_EOT552X"
 	};
 	bipod[] = 
 	{

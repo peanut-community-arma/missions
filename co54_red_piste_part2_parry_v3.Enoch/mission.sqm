@@ -22974,7 +22974,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_hlc_bipod_utgshooters$";
+																							value = "HLC_bipod_UTGShooters";
 																						};
 																					};
 																					class Item1
@@ -35335,7 +35335,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_hlc_bipod_utgshooters$";
+																							value = "HLC_bipod_UTGShooters";
 																						};
 																					};
 																					class Item1
@@ -44792,7 +44792,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "$NONE_hlc_bipod_utgshooters$";
+																							value = "HLC_bipod_UTGShooters";
 																						};
 																					};
 																					class Item1

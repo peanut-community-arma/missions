@@ -491,7 +491,7 @@ private _itemAcc =
 	"rhsusf_acc_grip_m203_d",
 	"rhsusf_acc_grip_m203_wd",
 	
-	"$NONE_hlc_bipod_utgshooters$",
+	"HLC_bipod_UTGShooters",
 	"cup_bipod_harris_1a2_l_blk",
 	
 	//Tactical Device
@@ -504,7 +504,7 @@ private _itemAcc =
 	"cup_acc_anpeq_15_top_flashlight_black_l",
 	"cup_acc_anpeq_15_top_flashlight_tan_l",
 	"cup_acc_llm_black_flashlight",
-	"$NONE_hlc_acc_dbalpl$",
+	"hlc_acc_DBALPL",
 	
 	//muzzle
 	"ptv_acc_rotexv",
@@ -523,7 +523,7 @@ private _itemAcc =
 	"$NONE_sma_silencer_kac_nt4_tan$",
 	"$NONE_sma_silencer_kac_nt4_tan_hwt$",
 	
-	"$NONE_hlc_muzzle_octane45$"
+	"hlc_muzzle_Octane45"
 	
 ];
 

@@ -225,7 +225,7 @@ class marksman : baseMan
 		"CUP_optic_SB_11_4x20_PM"
 	};
 	bipod[] = {
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 	items[] = {
 		"ACE_RangeCard",

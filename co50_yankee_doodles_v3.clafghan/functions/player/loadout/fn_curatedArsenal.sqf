@@ -405,8 +405,8 @@ private _itemAcc =
 	"rhsusf_acc_compm4",
 	"rhsusf_acc_eotech_552",
 
-	"$NONE_rksl_optic_eot552x$",
-	"$NONE_rksl_optic_eot552$",
+	"RKSL_optic_EOT552X",
+	"RKSL_optic_EOT552",
 
 	"ptv_acc_eot552",
 	"ptv_acc_t1",

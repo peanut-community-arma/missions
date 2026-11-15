@@ -421,7 +421,7 @@ private _itemScope =
 	"$NONE_hlc_optic_hensoldtzo_2d$",
 	"$NONE_hlc_optic_hensoldtzo_low$",
 	"$NONE_hlc_optic_hensoldtzo_low_2d$",
-	"$NONE_hlc_bipod_utgshooters$"
+	"HLC_bipod_UTGShooters"
 ];
 
 private _itemWeapRifle = 

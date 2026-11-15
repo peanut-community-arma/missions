@@ -639,7 +639,7 @@ class dm : rm_g3
 	};
 	bipod[] = 
 	{
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 	backpackItems[] += {
 		LIST_2("hlc_20Rnd_762x51_T_G3")

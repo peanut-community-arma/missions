@@ -343,7 +343,7 @@ private _itemAcc =
 	"optic_Arco_AK_blk_F",
 	"CUP_optic_AC11704_Black",
 	"CUP_optic_ElcanM145_PIP",
-	"$NONE_RKSL_optic_EOT552$",
+	"RKSL_optic_EOT552",
 	"rhs_acc_ekp8_18",
 	"rhsusf_acc_ACOG_USMC",
 	"rhsusf_acc_su230",

@@ -270,7 +270,7 @@ class mmg : rm
 	};
 	bipod[] = 
 	{
-		"$NONE_hlc_bipod_utgshooters$"
+		"HLC_bipod_UTGShooters"
 	};
 	attachment[] = {};
 	sidearmWeapon[] = 
