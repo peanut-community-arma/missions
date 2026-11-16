@@ -266,8 +266,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -299,7 +299,7 @@ private _itemWeapAR =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_pkm"
+	"CUP_lmg_PKM"
 ];
 
 private _itemWeapDMR = 
@@ -319,7 +319,7 @@ private _itemWeapMAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm"
+	"CUP_hgun_Makarov"
 ];
 
 private _itemAmmo = 
@@ -339,7 +339,7 @@ private _itemAmmo =
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

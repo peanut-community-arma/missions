@@ -89,7 +89,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("30Rnd_556x45_Stanag")
 	};
@@ -138,7 +138,7 @@ class enforcer : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_15("CUP_12Rnd_45ACP_mk23")
 	};
@@ -157,7 +157,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("ACE_200Rnd_65x39_cased_Box_green")
 	};
@@ -181,7 +181,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M")
 	};
@@ -200,7 +200,7 @@ class smg : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("CUP_40Rnd_46x30_MP7")
 	};
@@ -219,7 +219,7 @@ class enforcer_l : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("pca_mag_30Rnd_556x45_M855A1_Stanag_Blk")
 	};
@@ -238,7 +238,7 @@ class enforcer_r : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("20Rnd_762x51_Mag")
 	};
@@ -257,7 +257,7 @@ class enforcer_sl : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("pca_mag_30Rnd_556x45_M855A1_Stanag_Blk"),
 		LIST_3("CUP_1Rnd_HEDP_M203"),
@@ -379,7 +379,7 @@ class pilot : crewman
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("CUP_40Rnd_46x30_MP7")
 	};

@@ -77,8 +77,8 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		LIST_3("rhsusf_acc_compm4"),
-		LIST_2("$NONE_sma_acc_eotech_552_blk$")
+		LIST_3("CUP_optic_CompM4"),
+		LIST_2("RKSL_optic_EOT552")
 	};
 	bipod[] = 
 	{
@@ -99,7 +99,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("pca_mag_30Rnd_556x45_M995_PMAG_Blk")
 	};
 	backpackItems[] = 
@@ -132,7 +132,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("pca_mag_200Rnd_556x45_M995_mixed_soft_pouch_od")
 	};
 	backpackItems[] = 
@@ -163,11 +163,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 	backpackItems[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -327,7 +327,7 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("hlc_15Rnd_9x19_FMJ_P226"),
 		LIST_3("sps_100Rnd_762x51_M80A1_Mixed_KAC_Box")
 	};

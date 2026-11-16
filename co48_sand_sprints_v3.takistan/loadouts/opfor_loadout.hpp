@@ -84,7 +84,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_7("rhssaf_30Rnd_762x39mm_M67")
 	};
@@ -99,7 +99,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_9("pca_mag_40Rnd_762x39_Polymer_Mixed")
 	};
@@ -128,7 +128,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -237,7 +237,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};

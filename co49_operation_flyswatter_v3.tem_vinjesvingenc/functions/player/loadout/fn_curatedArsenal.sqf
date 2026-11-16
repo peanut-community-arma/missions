@@ -453,9 +453,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	
 	"$NONE_pca_nvg_glasses_blk$",
 	"$NONE_pca_nvg_glasses_clr$",
@@ -560,12 +560,12 @@ private _itemAcc =
 	"optic_aco_grn",
 	"optic_aco",
 	"$NONE_sma_acc_cmore_blk$",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
 	"optic_holosight_blk_f",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"cup_optic_compm2_low",
 	"rhsusf_acc_mrds",
 	"ptv_acc_compm4s",
@@ -618,7 +618,7 @@ private _itemWeapMG =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -640,10 +640,10 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67",
 	"murshun_cigs_cigpack",
 	"murshun_cigs_lighter"
 ];

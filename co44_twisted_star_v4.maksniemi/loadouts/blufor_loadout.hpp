@@ -370,8 +370,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -418,7 +418,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	headgear[] = 
 	{
-		"simc_cvc",
+		"H_Simc_CVC",
 		"simc_cvc_swdg",
 		"simc_cvc_swdg_cover",
 		"simc_cvc_swdg_low"

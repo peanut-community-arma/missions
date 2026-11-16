@@ -314,9 +314,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"simc_goggles_swdg",
 	"simc_goggles_swdg_low",
 
@@ -456,9 +456,9 @@ private _itemAcc =
 	"rhsusf_acc_t1_high",
 	"rhsusf_acc_rx01",
 	"rhsusf_acc_rx01_nofilter",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_eotech_552_wd",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech",
 
 	"RKSL_optic_EOT552X",
@@ -594,7 +594,7 @@ private _itemWeapRifleUGL =
 [
     "rhs_weap_m4a1_m203",
     "rhs_weap_m4a1_m203s",
-    "rhs_weap_m4a1_carryhandle_m203",
+    "CUP_arifle_M4A1_GL_carryhandle",
     "rhs_weap_m4a1_carryhandle_m203s",
     "rhs_weap_m4a1_m320"
 ];
@@ -652,7 +652,7 @@ private _itemWeapARSF = [
 
 private _itemWeapLAT =
 [
-    "rhs_weap_M136"
+    "CUP_launch_M136"
 ];
 
 private _itemWeappistol =
@@ -663,14 +663,14 @@ private _itemWeappistol =
 // Special
 private _itemWeapMG =
 [
-    "rhs_weap_m240B",
+    "CUP_lmg_M240_B",
 
 	"rhsusf_acc_acog_mdo"
 ];
 
 private _itemWeapMAT =
 [
-    "rhs_weap_maaws"
+    "CUP_launch_MAAWS"
 ];
 
 private _itemWeapCrew =
@@ -740,23 +740,23 @@ private _itemexplosive =
 [
     "1Rnd_Smoke_Grenade_shell",
     "SmokeShell",
-    "rhs_mag_M397_HET",
-    "rhs_mag_M433_HEDP",
-    "rhs_mag_M441_HE",
-    "rhs_mag_m67"
+    "CUP_1Rnd_HE_M203",
+    "CUP_1Rnd_HEDP_M203",
+    "CUP_1Rnd_HE_M203",
+    "CUP_HandGrenade_M67"
 ];
 
 // Special
 private _itemammoMG =
 [
-    "rhsusf_100Rnd_762x51_m80a1epr"
+    "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemammoMAT =
 [
-    "rhs_mag_maaws_HEAT",
-    "rhs_mag_maaws_HEDP",
-    "rhs_mag_maaws_HE"
+    "CUP_MAAWS_HEAT_M",
+    "CUP_MAAWS_HEDP_M",
+    "MRAWS_HE_F"
 ];
 
 private _itemEngineer =
@@ -766,8 +766,8 @@ private _itemEngineer =
     "ACE_Entrenchingtool",
     "ACE_M26_Clacker",
     "ACE_wirecutter",
-    "rhsusf_m112_mag",
-    "rhsusf_m112x4_mag",
+    "DemoCharge_Remote_Mag",
+    "SatchelCharge_Remote_Mag",
     "mineDetector",
     "toolKit"
 ];

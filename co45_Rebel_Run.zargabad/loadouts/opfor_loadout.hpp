@@ -72,7 +72,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_8("hlc_1Rnd_Plasma_DL44_green")
 	};
@@ -87,7 +87,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("rhsusf_100Rnd_762x51_m62_tracer")
 	};
@@ -102,7 +102,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("rhsgref_296Rnd_792x57_SmK_alltracers_belt")
 	};
@@ -141,7 +141,7 @@ class boss : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_12("amf_25Rnd_556x45_M856A1_F1_Stanag")
 	};

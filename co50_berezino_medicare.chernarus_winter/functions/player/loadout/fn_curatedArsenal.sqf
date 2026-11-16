@@ -210,7 +210,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm"
+	"CUP_hgun_Makarov"
 ];
 
 private _itemAmmo = 
@@ -219,11 +219,11 @@ private _itemAmmo =
 	"rhs_30Rnd_762x39mm_Savz58",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S",
+	"CUP_8Rnd_9x18_Makarov_M",
 	
 	//Explosives
 	"SmokeShell",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

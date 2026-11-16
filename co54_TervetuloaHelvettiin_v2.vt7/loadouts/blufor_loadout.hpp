@@ -80,7 +80,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_13("rhs_30Rnd_545x39_7N6M_plum_AK")
 	};
 	backpackItems[] = 
@@ -107,7 +107,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_3("pca_mag_45Rnd_545x39_Bakelite_Mixed_7N6M")
 	};
 	backpackItems[] = 
@@ -138,7 +138,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -262,7 +262,7 @@ class mmg : ar
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 	backpackItems[] = 
@@ -335,8 +335,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -386,7 +386,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_9x18_8_57N181S")
+		LIST_3("CUP_8Rnd_9x18_Makarov_M")
 	};
 	linkedItems[] +=
 	{
@@ -429,7 +429,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -449,7 +449,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

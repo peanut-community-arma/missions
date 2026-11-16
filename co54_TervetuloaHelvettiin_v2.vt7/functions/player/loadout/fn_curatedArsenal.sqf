@@ -167,9 +167,9 @@ private _itemCosmetic =
 	"immersion_pops_pop0",
 	"bear_balaclava1_black",
 	"CUP_G_TK_RoundGlasses",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -280,8 +280,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -334,7 +334,7 @@ private _itemWeapDMR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_rpg26",
+	"CUP_launch_RPG26",
 	"rhs_weap_rpg18"
 ];
 
@@ -356,7 +356,7 @@ private _itemAmmo =
 	"rhs_30Rnd_545x39_AK_plum_green",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S",
+	"CUP_8Rnd_9x18_Makarov_M",
 	
 	//Explosives
 	"rhs_GRD40_Red",
@@ -367,7 +367,7 @@ private _itemAmmo =
 	"CUP_IlumFlareWhite_GP25_M",
 
 	"rhs_mag_rdg2_white",
-	"rhs_mag_rgd5"
+	"CUP_HandGrenade_RGD5"
 ];
 
 private _itemAmmoAR = 

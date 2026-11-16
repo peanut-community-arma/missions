@@ -52,7 +52,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"simc_arvn_og107",
+		"U_Simc_arvn_og107",
 		"simc_arvn_roll_og107",
 		"simc_arvn_tuck_roll_og107",
 		"simc_arvn_tuck_og107"
@@ -83,7 +83,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_10("rhsgref_5Rnd_792x57_kar98k")
 	};
@@ -98,7 +98,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("fwa_30rnd_303_bren_tracer_red")
 	};
@@ -113,7 +113,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("fwa_100rnd_3006_m1919_mixed")
 	};
@@ -128,7 +128,7 @@ class sub_mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("fwa_30rnd_45acp_m1a1_thompson")
 	};
@@ -176,7 +176,7 @@ class leader : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
@@ -237,7 +237,7 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -262,7 +262,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};

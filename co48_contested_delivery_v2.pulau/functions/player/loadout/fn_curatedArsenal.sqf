@@ -325,9 +325,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhssaf_veil_Green",
 
 	//HMD
@@ -531,7 +531,7 @@ private _itemAmmo =
 	"fwa_71rnd_762x25mm_ppsh_tracer_green",
 	
 	//Explosives
-	"rhs_mag_rgd5",
+	"CUP_HandGrenade_RGD5",
 	"rhs_mag_rdg2_white",
 	"rhs_mag_rdg2_black"
 	

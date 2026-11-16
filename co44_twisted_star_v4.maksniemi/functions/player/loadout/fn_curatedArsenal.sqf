@@ -153,7 +153,7 @@ private _itemGearLeader =
 private _itemGearCrew = 
 [
 	//Uniform 
-	"simc_cvc",
+	"H_Simc_CVC",
 	"simc_cvc_swdg",
 	"simc_cvc_swdg_cover",
 	"simc_cvc_swdg_low"
@@ -331,8 +331,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 

@@ -113,9 +113,9 @@ private _itemCosmetic =
 	"rhs_googles_clear",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -346,8 +346,8 @@ private _itemRadio =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_mrds",
 	"rhsusf_acc_t1_high",
@@ -360,7 +360,7 @@ private _itemAcc =
 	"RKSL_optic_EOT552X",
 	"$NONE_sma_acc_barska_rds$",
 	"$NONE_sma_acc_cmore_blk$",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"$NONE_sma_acc_micro_t2$",
@@ -427,7 +427,7 @@ private _itemWeapLAT =
 private _itemWeapPistol = 
 [
 	"hgun_P07_blk_F",
-	"16Rnd_9x21_Mag"
+	"16Rnd_9x21_Mag_v2"
 ];
 
 private _itemAmmo = 
@@ -440,16 +440,16 @@ private _itemAmmo =
 	"CUP_PTFHC_M",
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 

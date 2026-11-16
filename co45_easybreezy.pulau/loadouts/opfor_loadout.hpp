@@ -138,7 +138,7 @@ class rm : baseMan
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_7("rhs_30Rnd_762x39mm")
 	};
@@ -153,7 +153,7 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_7("CUP_32Rnd_9x19_UZI_M")
 	};
@@ -169,7 +169,7 @@ class mg : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_12("2Rnd_12Gauge_Pellets")
 	};
@@ -185,7 +185,7 @@ class rm_lat : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_7("CUP_30Rnd_45ACP_MAC10_M")
 	};
@@ -288,7 +288,7 @@ class crewman : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
@@ -313,7 +313,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};

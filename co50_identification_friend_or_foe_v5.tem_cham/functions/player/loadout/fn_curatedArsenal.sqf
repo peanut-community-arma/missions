@@ -26,18 +26,18 @@ private _itemGear =
 [
 	//Common items shared by all classes except for vehicle crews
 	//Helmet
-	"simc_pasgt_m81",
+	"H_Simc_pasgt_m81",
 	"simc_pasgt_m81_band",
-	"simc_pasgt_m81_scrim",
+	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
-	"simc_pasgt_m81_swdg",
+	"H_Simc_pasgt_m81_SWDG",
 	"simc_pasgt_m81_swdg_band",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
-	"simc_pasgt_m81_swdg_low",
+	"H_Simc_pasgt_m81_SWDG_low",
 	"simc_pasgt_m81_swdg_low_band",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band",
@@ -124,7 +124,7 @@ private _itemGearCrew =
 [
 	"75r_nomex_gry",
 	"75r_nomex_tan",
-	"simc_cvc",
+	"H_Simc_CVC",
 	"simc_cvc_swdg",
 	"simc_cvc_swdg_cover",
 	"simc_cvc_swdg_low",
@@ -305,8 +305,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -381,11 +381,11 @@ private _itemAmmo =
 	//Explosives
 	"rhs_mag_m714_White",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

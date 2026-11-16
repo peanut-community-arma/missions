@@ -120,7 +120,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N10"),
 		LIST_2("rhsusf_mag_7x45acp_MHP")
 	};
@@ -148,7 +148,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_5("aegis_95Rnd_545x39_mixed_7N22_ak12")
 	};
 	backpackItems[] = 
@@ -214,7 +214,7 @@ class tl : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7T3M"),
 		LIST_2("rhsusf_mag_7x45acp_MHP")
 	};	

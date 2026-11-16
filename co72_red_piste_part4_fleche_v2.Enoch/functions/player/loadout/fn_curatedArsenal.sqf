@@ -300,9 +300,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"simc_goggles_swdg",
 	"simc_goggles_swdg_low",
 	"G_Combat_Goggles_tna_F",
@@ -400,13 +400,13 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"rhs_acc_ekp8_18",
 	"cup_optic_holoblack",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"cup_optic_eotech553_black",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"optic_holosight_blk_f",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"cup_optic_compm2_low",
 	"cup_optic_mrad",
 	"$NONE_sma_acc_micro_t2$",
@@ -483,7 +483,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -567,7 +567,7 @@ private _itemAmmoSignal =
 private _itemExplosive = 
 [
 	"SmokeShell",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemDemo =
@@ -602,8 +602,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

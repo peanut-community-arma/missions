@@ -270,7 +270,7 @@ private _itemWeapRifle =
 private _itemWeapRifleUGL = 
 [
 	"CUP_arifle_Colt727_M203",
-	"rhsusf_m112_mag"
+	"DemoCharge_Remote_Mag"
 ];
 
 private _itemWeapAR = 
@@ -309,7 +309,7 @@ private _itemAmmoTracer =
 
 private _itemAmmoAR = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 
@@ -333,10 +333,10 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemEngineer = 
@@ -346,8 +346,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

@@ -45,7 +45,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] =
 	{
-		LIST_3("simc_tcu_mk3_erdl"),
+		LIST_3("U_Simc_TCU_mk3_erdl"),
 		"simc_tcu_mk3_rollh_erdl",
 		"simc_tcu_mk3_roll_erdl"
 	};

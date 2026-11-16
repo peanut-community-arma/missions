@@ -93,7 +93,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_15("pca_mag_30Rnd_556x45_M995_PMAG_Blk")
 	};
 	backpackItems[] = 
@@ -124,7 +124,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("CUP_18Rnd_9x19_Phantom"),
 		LIST_3("sps_200Rnd_556x45_M995_Mixed_KAC_Box")
 	};
@@ -349,7 +349,7 @@ class sn : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("CUP_18Rnd_9x19_Phantom"),
 		LIST_15("CUP_5Rnd_762x67_G22")
 	};
@@ -391,7 +391,7 @@ class sp : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("CUP_18Rnd_9x19_Phantom"),
 		LIST_15("ACE_20Rnd_762x51_M993_AP_Mag")
 	};

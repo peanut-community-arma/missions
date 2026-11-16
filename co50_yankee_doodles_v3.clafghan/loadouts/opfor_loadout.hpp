@@ -33,7 +33,7 @@ class baseMan
 		"ACE_morphine",
 		"ACE_tourniquet",
 		"ACE_splint",
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white"
 	};
 	// These are added directly into their respective slots

@@ -204,7 +204,7 @@ class rm_at : rm
 	secondaryWeapon[] = 
 	{
 		"rhs_weap_rpg18",
-		"rhs_weap_rpg26",
+		"CUP_launch_RPG26",
 		"rhs_weap_rshg2",
 		"rhs_weap_panzerfaust60",
 		"rhs_weap_rpg75"

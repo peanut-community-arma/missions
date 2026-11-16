@@ -3,7 +3,7 @@
 	* Template for creating enemy loadouts.
 	* Faction: Example Russian Army Loadout (EMR, 2020)
 */
-#define nades "rhs_mag_m67","rhs_mag_an_m14_th3","SmokeShellBlue","SmokeShellRed"
+#define nades "CUP_HandGrenade_M67","rhs_mag_an_m14_th3","SmokeShellBlue","SmokeShellRed"
 // Weaponless Baseclass
 class baseMan 
 {
@@ -255,7 +255,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};

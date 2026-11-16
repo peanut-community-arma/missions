@@ -170,9 +170,9 @@ private _itemCosmetic =
 "rhsusf_shemagh2_gogg_od",
 "rhsusf_shemagh_gogg_white",
 "rhsusf_shemagh2_gogg_white",
-"rhsusf_oakley_goggles_blk",
-"rhsusf_oakley_goggles_clr",
-"rhsusf_oakley_goggles_ylw",
+"CUP_G_Oakleys_Drk",
+"CUP_G_Oakleys_Clr",
+"CUP_G_Oakleys_Embr",
 "rhsusf_shemagh_tan",
 "rhsusf_shemagh2_tan",
 "rhsusf_shemagh_gogg_tan",
@@ -309,7 +309,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_rpg26"
+	"CUP_launch_RPG26"
 ];
 
 private _itemWeapPistol = 
@@ -320,7 +320,7 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_pkm"
+	"CUP_lmg_PKM"
 ];
 
 private _itemWeapMAT = 
@@ -382,9 +382,9 @@ private _itemExplosive =
 	"rhs_VOG25",
 	"rhs_VOG25P",
 	"rhs_GDM40",
-	"rhs_mag_rgd5",
+	"CUP_HandGrenade_RGD5",
 	"rhs_mag_rgn",
-	"rhs_mag_rgo"
+	"CUP_HandGrenade_RGO"
 ];
 
 //Special

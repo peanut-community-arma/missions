@@ -136,9 +136,9 @@ private _itemCosmetic =
 	"rhs_googles_clear",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -357,7 +357,7 @@ private _itemWeapLAT =
 private _itemWeapPistol = 
 [
 	"hgun_P07_F",
-	"16Rnd_9x21_Mag",
+	"16Rnd_9x21_Mag_v2",
 	"hgun_Pistol_heavy_01_F",
 	"11Rnd_45ACP_Mag"
 ];
@@ -391,7 +391,7 @@ private _itemAmmo =
 	"rhs_30Rnd_545x39_7N10_AK",
 	
 	//Pistol Ammo
-	"16Rnd_9x21_Mag"
+	"16Rnd_9x21_Mag_v2"
 ];
 
 private _itemAmmoTracer = 

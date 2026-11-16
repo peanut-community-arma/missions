@@ -77,7 +77,7 @@ class rm : baseMan
 	{
 		LIST_3("simc_pasgt_m81_band"),
 		LIST_2("simc_pasgt_m81_swdg_cover_band"),
-		LIST_1("simc_pasgt_m81_swdg_low")
+		LIST_1("H_Simc_pasgt_m81_SWDG_low")
 	};
 	backpack[] = 
 	{
@@ -91,7 +91,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
 	};
@@ -115,7 +115,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("rhsusf_200Rnd_556x45_M855_mixed_soft_pouch")
 	};
@@ -139,7 +139,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("rhsusf_100Rnd_762x51_m62_tracer")
 	};
@@ -175,7 +175,7 @@ class off : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("CUP_7Rnd_45ACP_1911")
 	};

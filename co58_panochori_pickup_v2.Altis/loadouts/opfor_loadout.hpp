@@ -140,7 +140,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_M441_HE"),
+		LIST_2("CUP_1Rnd_HE_M203"),
 		LIST_2("rhs_mag_m714_White")
 	};
 };
@@ -319,7 +319,7 @@ class ctrg : n_rm
 	{
 		"SmokeShell",
 		"HandGrenade",
-		LIST_2("16Rnd_9x21_Mag"),
+		LIST_2("16Rnd_9x21_Mag_v2"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 };

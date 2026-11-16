@@ -31,7 +31,7 @@ private _itemGear = [];
 //Uniform
 private _itemUniform =
 [
-	"simc_tcu_mk3_erdl",
+	"U_Simc_TCU_mk3_erdl",
 	"simc_tcu_mk3_nomex_erdl",
 	"simc_tcu_mk3_nomex_fold_erdl",
 	"simc_tcu_mk3_rollh_erdl",

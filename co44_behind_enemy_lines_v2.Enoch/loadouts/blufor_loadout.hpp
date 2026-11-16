@@ -70,14 +70,14 @@ class rm : baseMan
 
 		"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
+	"DemoCharge_Remote_Mag",
 	LIST_2("Chemlight_blue"),
 	LIST_2("ACE_Chemlight_HiBlue")
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
 	backpackItems[] = 
@@ -113,7 +113,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("rhsusf_200Rnd_556x45_mixed_soft_pouch"),
 		LIST_4("rhsusf_mag_7x45acp_MHP")
 	};
@@ -171,7 +171,7 @@ class gren : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_4("rhsusf_mag_7x45acp_MHP"),
 		LIST_10("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
@@ -221,7 +221,7 @@ class sl : tl
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_10("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
 	
@@ -295,7 +295,7 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("rhsusf_100Rnd_762x51")
 	};
 	backpackItems[] = 
@@ -386,8 +386,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -414,7 +414,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("rhsusf_mag_7x45acp_MHP"),
 		LIST_9("CUP_20Rnd_762x51_DMR")
 	};
@@ -434,7 +434,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	headgear[] = 
 	{
-		"simc_cvc",
+		"H_Simc_CVC",
 		"simc_cvc_swdg",
 		"simc_cvc_swdg_cover",
 		"simc_cvc_swdg_low"
@@ -442,7 +442,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
 	backpackItems[] = 
@@ -515,7 +515,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhsusf_20Rnd_762x51_m80_Mag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -535,7 +535,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhsusf_20Rnd_762x51_m80_Mag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

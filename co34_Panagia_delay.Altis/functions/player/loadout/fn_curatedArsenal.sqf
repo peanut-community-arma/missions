@@ -159,9 +159,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"$NONE_pca_nvg_glasses_blk$",
 	"$NONE_pca_nvg_glasses_clr$",
 	"$NONE_pca_nvg_glasses_org$",
@@ -367,16 +367,16 @@ private _itemAmmo =
 	"30Rnd_65x39_caseless_black_mag_Tracer",
 	"30Rnd_65x39_caseless_mag_Tracer",
 	"11Rnd_45ACP_Mag",
-	"16Rnd_9x21_Mag",
+	"16Rnd_9x21_Mag_v2",
 	
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

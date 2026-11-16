@@ -76,7 +76,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("fwa_10rnd_762x39_sks")
 	};
 	backpackItems[] = 
@@ -105,7 +105,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhs_mag_762x25_8"),
 		LIST_13("rhs_30Rnd_762x39mm")
 	};
@@ -137,11 +137,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 	backpackItems[] += 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -322,7 +322,7 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhs_mag_762x25_8"),
 		LIST_3("rhs_100Rnd_762x54mmR_7N13")
 	};
@@ -428,7 +428,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("fwa_10rnd_762x39_sks")
 	};
 	backpackItems[] = 
@@ -577,7 +577,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhsusf_20Rnd_762x51_m118_special_Mag")
 	};
 	backpackItems[] = 
@@ -623,7 +623,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("fwa_10rnd_762x39_sks"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -643,7 +643,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("fwa_10rnd_762x39_sks"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

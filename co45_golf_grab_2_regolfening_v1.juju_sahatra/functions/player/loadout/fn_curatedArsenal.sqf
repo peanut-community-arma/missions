@@ -153,9 +153,9 @@ private _itemCosmetic =
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhs_googles_black",
 	"rhs_googles_clear",
 	"rhs_googles_orange",
@@ -341,18 +341,18 @@ private _itemWeapLAT =
 private _itemWeapPistol = 
 [
 	"CUP_hgun_PMM",
-	"rhs_mag_9x18_12_57N181S"
+	"CUP_12Rnd_9x18_PMM_M"
 ];
 
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapBreacher =
@@ -369,7 +369,7 @@ private _itemAmmo =
 	"fwa_20rnd_762x51_fal",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_12_57N181S",
+	"CUP_12Rnd_9x18_PMM_M",
 	
 	//Shotgun ammo
 	"CUP_5Rnd_B_Saiga12_Slug"
@@ -404,14 +404,14 @@ private _itemExplosive =
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -419,8 +419,8 @@ private _itemEngineer =
 	"ACE_Clacker",
 	"ACE_DefusalKit",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"ToolKit"
 ];
 

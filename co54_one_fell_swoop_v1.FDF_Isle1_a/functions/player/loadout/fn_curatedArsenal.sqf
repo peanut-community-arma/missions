@@ -200,7 +200,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_rpg26"
+	"CUP_launch_RPG26"
 ];
 
 private _itemWeapPistol = 
@@ -265,7 +265,7 @@ private _itemExplosive =
 	"CUP_1Rnd_SMOKE_GP25_M",
 	"rhs_mag_rdg2_white",
 	"CUP_1Rnd_HE_GP25_M",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //Special

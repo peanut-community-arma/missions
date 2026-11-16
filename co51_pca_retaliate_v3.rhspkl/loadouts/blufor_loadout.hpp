@@ -89,7 +89,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_2("rhs_grenade_mki_mag"),
 		LIST_13("rhs_30Rnd_545x39_7N6M_AK")
 	};
@@ -117,8 +117,8 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
-		LIST_2("rhs_mag_9x18_12_57N181S"),
+		LIST_2("CUP_HandGrenade_RGD5"),
+		LIST_2("CUP_12Rnd_9x18_PMM_M"),
 		LIST_20("pca_mag_45Rnd_545X39_RPK_Bakelite_Mixed_7N6M")
 	};
 	backpack[] = 
@@ -200,7 +200,7 @@ class tl : gren
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_12_57N181S")
+		LIST_2("CUP_12Rnd_9x18_PMM_M")
 	};
 	linkedItems[] += 
 	{
@@ -226,7 +226,7 @@ class sl : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_12_57N181S")
+		LIST_2("CUP_12Rnd_9x18_PMM_M")
 	};
 	backpackItems[] =
 	{
@@ -321,7 +321,7 @@ class cls : rm_fa
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_12_57N181S")
+		LIST_2("CUP_12Rnd_9x18_PMM_M")
 	};
 	backpackItems[] =
 	{
@@ -360,8 +360,8 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
-		LIST_2("rhs_mag_9x18_12_57N181S"),
+		LIST_2("CUP_HandGrenade_RGD5"),
+		LIST_2("CUP_12Rnd_9x18_PMM_M"),
 		LIST_3("hlc_250Rnd_762x51_M_MG3")
 	};
 	backpackItems[] = 
@@ -383,7 +383,7 @@ class ammg : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_12_57N181S")
+		LIST_2("CUP_12Rnd_9x18_PMM_M")
 	};
 	backpackItems[] = 
 	{
@@ -412,7 +412,7 @@ class mat : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_12_57N181S")
+		LIST_2("CUP_12Rnd_9x18_PMM_M")
 	};
 	backpackItems[] = 
 	{
@@ -433,7 +433,7 @@ class amat : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_12_57N181S")
+		LIST_2("CUP_12Rnd_9x18_PMM_M")
 	};
 	backpackItems[] = 
 	{
@@ -463,7 +463,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_9("rhs_30Rnd_545x39_7N6M_AK")
 	};
 	backpackItems[] = 
@@ -485,7 +485,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_9x18_12_57N181S"),
+		LIST_3("CUP_12Rnd_9x18_PMM_M"),
 		LIST_2("rhs_mag_rdg2_black")
 	};
 	linkedItems[] +=
@@ -517,7 +517,7 @@ class hp : rm
 	{
 		LIST_2("rhs_mag_rdg2_white"),
 		LIST_7("rhs_30Rnd_545x39_7N6M_AK"),
-		LIST_3("rhs_mag_9x18_12_57N181S"),
+		LIST_3("CUP_12Rnd_9x18_PMM_M"),
 		LIST_2("rhs_mag_rdg2_black")
 	};
 };
@@ -536,8 +536,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -575,7 +575,7 @@ class jp : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_5("rhs_mag_9x18_12_57N181S"),
+		LIST_5("CUP_12Rnd_9x18_PMM_M"),
 		LIST_2("rhs_mag_rdg2_black")
 	};
 	backpackItems[] = {};
@@ -608,7 +608,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_9("rhsusf_20Rnd_762x51_m118_special_Mag")
 	};
 	backpackItems[] = 
@@ -654,7 +654,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_9("rhs_30Rnd_545x39_7N6M_AK"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -674,7 +674,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_9("rhs_30Rnd_545x39_7N6M_AK"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

@@ -37,7 +37,7 @@ private _itemGear =
 	"simc_bdu_roll_dcu_2",
 	
 	//Vest
-	"simc_vest_pasgt_dcu",
+	"V_Simc_vest_pasgt_dcu",
 	"simc_vest_pasgt_lbv_dcu",
 	"simc_vest_pasgt_lbv_alt_dcu",
 	"simc_vest_pasgt_lbv_holster_dcu",
@@ -55,17 +55,17 @@ private _itemGear =
 	"H_Bandanna_cbr",
 	"simc_bonnie_hat_dcu",
 	"simc_bonnie_hat_flat_dcu",
-	"simc_pasgt_dcu",
+	"H_Simc_pasgt_dcu",
 	"simc_pasgt_dcu_band",
-	"simc_pasgt_dcu_scrim",
+	"H_Simc_pasgt_dcu_scrim",
 	"simc_pasgt_dcu_scrim_2",
-	"simc_pasgt_dcu_swdg",
+	"H_Simc_pasgt_dcu_SWDG",
 	"simc_pasgt_dcu_swdg_band",
 	"simc_pasgt_dcu_swdg_cover_band",
 	"simc_pasgt_dcu_swdg_cover",
 	"simc_pasgt_dcu_swdg_high",
 	"simc_pasgt_dcu_swdg_high_band",
-	"simc_pasgt_dcu_swdg_low",
+	"H_Simc_pasgt_dcu_SWDG_low",
 	"simc_pasgt_dcu_swdg_low_band",
 	"simc_pasgt_dcu_swdg_low_cover",
 	"simc_pasgt_dcu_swdg_low_cover_band",
@@ -94,7 +94,7 @@ private _itemGearCrew =
 	"simc_bdu_roll_dcu_2",
 	
 	//Vest
-	"simc_vest_pasgt_dcu",
+	"V_Simc_vest_pasgt_dcu",
 	"simc_vest_pasgt_lbv_dcu",
 	"simc_vest_pasgt_lbv_alt_dcu",
 	"simc_vest_pasgt_lbv_holster_dcu",
@@ -112,17 +112,17 @@ private _itemGearCrew =
 	"H_Bandanna_cbr",
 	"simc_bonnie_hat_dcu",
 	"simc_bonnie_hat_flat_dcu",
-	"simc_pasgt_dcu",
+	"H_Simc_pasgt_dcu",
 	"simc_pasgt_dcu_band",
-	"simc_pasgt_dcu_scrim",
+	"H_Simc_pasgt_dcu_scrim",
 	"simc_pasgt_dcu_scrim_2",
-	"simc_pasgt_dcu_swdg",
+	"H_Simc_pasgt_dcu_SWDG",
 	"simc_pasgt_dcu_swdg_band",
 	"simc_pasgt_dcu_swdg_cover_band",
 	"simc_pasgt_dcu_swdg_cover",
 	"simc_pasgt_dcu_swdg_high",
 	"simc_pasgt_dcu_swdg_high_band",
-	"simc_pasgt_dcu_swdg_low",
+	"H_Simc_pasgt_dcu_SWDG_low",
 	"simc_pasgt_dcu_swdg_low_band",
 	"simc_pasgt_dcu_swdg_low_cover",
 	"simc_pasgt_dcu_swdg_low_cover_band",
@@ -238,9 +238,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"immersion_pops_pop0"
 ];
 
@@ -305,8 +305,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"hgun_esd_01_F"
 ];
@@ -371,7 +371,7 @@ private _itemWeapAR =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapDMR = 
@@ -381,12 +381,12 @@ private _itemWeapDMR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapPistol = 
@@ -416,7 +416,7 @@ private _itemAmmo =
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67",
+	"CUP_HandGrenade_M67",
 	
 	//Cigarettes
 	"murshun_cigs_matches",
@@ -439,14 +439,14 @@ private _itemAmmoAR =
 
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

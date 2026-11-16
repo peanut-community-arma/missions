@@ -87,7 +87,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_8("hlc_30Rnd_556x45_AP_G36")
 	};
 };
@@ -114,7 +114,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_4("sps_200Rnd_556x45_M855A1_KAC_Box")
 	};
 };
@@ -136,7 +136,7 @@ class mg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("sps_100Rnd_762x51_m80A1_KAC_Box")
 	};
 };
@@ -171,7 +171,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		LIST_9("rhs_mag_m441_HE"),
+		LIST_9("CUP_1Rnd_HE_M203"),
 		LIST_2("rhs_mag_m714_White")
 	};
 };
@@ -260,7 +260,7 @@ class wwrm : rm
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 	attachment[] = {
 		"cup_acc_anpeq_15_black"
@@ -268,7 +268,7 @@ class wwrm : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_7("30Rnd_580x42_Mag_F")
 	};
 };
@@ -283,7 +283,7 @@ class wwar : wwrm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("100Rnd_580x42_Mag_F")
 	};
 };
@@ -298,9 +298,9 @@ class wwgrn : wwrm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_7("30Rnd_580x42_Mag_F"),
-		LIST_9("rhs_mag_m441_HE"),
+		LIST_9("CUP_1Rnd_HE_M203"),
 		LIST_2("rhs_mag_m714_White")
 	};
 };

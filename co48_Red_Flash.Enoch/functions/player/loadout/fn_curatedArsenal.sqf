@@ -216,8 +216,8 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm",
-	"rhs_mag_9x18_8_57N181S"
+	"CUP_hgun_Makarov",
+	"CUP_8Rnd_9x18_Makarov_M"
 ];
 
 //********************************************************************************//
@@ -231,7 +231,7 @@ private _itemAmmo =
 	"bear_30Rnd_545x39_orange_7T3M",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S"
+	"CUP_8Rnd_9x18_Makarov_M"
 ];
 
 private _itemAmmoTracer = 
@@ -262,7 +262,7 @@ private _itemExplosive =
 	"rhs_GRD40_White",
 	"SmokeShell",
 	"rhs_VOG25",
-	"rhs_mag_rgd5"
+	"CUP_HandGrenade_RGD5"
 ];
 
 private _itemAmmoLAT = 

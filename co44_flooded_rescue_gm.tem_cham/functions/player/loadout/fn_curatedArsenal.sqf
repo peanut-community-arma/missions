@@ -112,9 +112,9 @@ private _itemCosmetic =
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
 	"rhs_ess_black",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"$NONE_pca_nvg_face_shield_blk$",
 	"$NONE_pca_nvg_face_shield_rgr$",
 	"$NONE_pca_nvg_face_shield_tan$",
@@ -390,7 +390,7 @@ private _itemExplosive =
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //********************************************************************************//

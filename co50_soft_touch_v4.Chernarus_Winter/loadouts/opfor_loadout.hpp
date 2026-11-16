@@ -89,7 +89,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_13("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -100,11 +100,11 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M")
 	};
@@ -176,7 +176,7 @@ class crew : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_11("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -200,7 +200,7 @@ class co : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_13("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -237,7 +237,7 @@ class sniper : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_11("rhs_mag_9x19mm_7n21_20"),
 		LIST_13("rhs_10Rnd_762x54mmR_7N14")
@@ -259,7 +259,7 @@ class spt : sniper
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_9("rhs_30Rnd_545x39_7N10_AK")
 	};

@@ -125,9 +125,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_grn",
 	"rhsusf_shemagh_gogg_od",
 	"rhsusf_shemagh2_gogg_od",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"$NONE_pca_nvg_glasses_blk$",
 	"$NONE_pca_nvg_glasses_clr$",
 	"$NONE_pca_nvg_glasses_org$",
@@ -214,7 +214,7 @@ private _itemAcc =
 [
 	//Optic
 	"cup_optic_microt1",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"cup_optic_microt1_low",
 	"cup_optic_ac11704_black",
 	"$NONE_sma_acc_barska_rds$",
@@ -223,11 +223,11 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_cmore_grn$",
 	"cup_optic_holoblack",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_od$",
 	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"cup_optic_compm2_low",
 	"cup_optic_compm2_low_od",
 	"cup_optic_compm2_black",
@@ -270,7 +270,7 @@ private _itemWeapMG =
 private _itemWeapLAT = 
 [
 	"pca_weap_m136cs",
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -294,18 +294,18 @@ private _itemAmmo =
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 

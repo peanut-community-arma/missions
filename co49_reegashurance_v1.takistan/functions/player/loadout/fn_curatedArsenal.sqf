@@ -372,9 +372,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 //	"simc_nomex_blk",
 //	"simc_nomex_alt",
 //	"simc_nomex",
@@ -627,8 +627,8 @@ private _itemAcc =
 	"rhsgref_acc_rx01_nofilter_camo",
 	"rhsgref_acc_rx01_camo",
 	"rhsusf_acc_eotech",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_mrds",
 	"rhsusf_acc_rm05",
 	"rhsusf_acc_rx01_nofilter",
@@ -638,7 +638,7 @@ private _itemAcc =
 	"rhsusf_acc_eotech_xps3",
 	"$NONE_sma_acc_barska_rds$",
 	"$NONE_sma_acc_cmore_blk$",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"$NONE_sma_acc_micro_t2$",
@@ -704,7 +704,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136",
+	"CUP_launch_M136",
 	"rhs_weap_M136_hedp",
 	"rhs_weap_M136_hp"
 ];

@@ -68,7 +68,7 @@ class rm : baseMan
 	{
 		"",
 		"G_Combat_Goggles_blk_F",
-		"rhsusf_oakley_goggles_blk",
+		"CUP_G_Oakleys_Drk",
 		"G_Tactical_Clear"
 	};
 	backpack[] = 
@@ -134,7 +134,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
@@ -145,7 +145,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_m136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -237,7 +237,7 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -262,7 +262,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};

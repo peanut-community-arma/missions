@@ -142,7 +142,7 @@ class tl : rm
 	};
 	magazines[] +=
 	{
-		LIST_2("rhs_mag_M397_HET")
+		LIST_2("CUP_1Rnd_HE_M203")
 	};
 	linkedItems[] += 
 	{

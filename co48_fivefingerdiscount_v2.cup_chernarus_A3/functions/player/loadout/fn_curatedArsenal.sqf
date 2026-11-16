@@ -269,9 +269,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"simc_goggles_swdg",
 	"simc_goggles_swdg_low",
 
@@ -419,12 +419,12 @@ private _itemWeapAR =
 
 private _itemWeapLAT =
 [
-	"rhs_weap_rpg26"
+	"CUP_launch_RPG26"
 ];
 
 private _itemWeapPistol =
 [
-	"rhs_weap_makarov_pm"
+	"CUP_hgun_Makarov"
 ];
 
 // Special
@@ -445,7 +445,7 @@ private _itemAmmo =
 	"rhs_30Rnd_762x39mm",
 
 	// Pistol ammo
-	"rhs_mag_9x18_8_57N181S"
+	"CUP_8Rnd_9x18_Makarov_M"
 ];
 
 private _itemAmmoTracer =
@@ -481,7 +481,7 @@ private _itemExplosive =
 	"SmokeShellRed",
 	"SmokeShellBlue",
 	"rhs_VOG25",
-	"rhs_mag_rgd5"
+	"CUP_HandGrenade_RGD5"
 ];
 
 // Special
@@ -504,8 +504,8 @@ private _itemEngineer =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"ToolKit",
 
 	"CUP_B_HikingPack_Civ"

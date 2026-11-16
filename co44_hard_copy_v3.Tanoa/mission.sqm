@@ -8844,7 +8844,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -9912,7 +9912,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -10611,7 +10611,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -11371,7 +11371,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -12494,7 +12494,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -13594,7 +13594,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -14708,7 +14708,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -16325,7 +16325,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -17399,7 +17399,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -18485,7 +18485,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -19377,7 +19377,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -20250,7 +20250,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -21104,7 +21104,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -21968,7 +21968,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -24076,7 +24076,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -26163,7 +26163,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -27759,7 +27759,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -29394,7 +29394,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -31001,7 +31001,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -32203,7 +32203,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -33065,7 +33065,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -33925,7 +33925,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -34795,7 +34795,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -35988,7 +35988,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -37196,7 +37196,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -38796,7 +38796,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -39655,7 +39655,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -40181,7 +40181,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -41047,7 +41047,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -41895,7 +41895,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -42745,7 +42745,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -43609,7 +43609,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -44800,7 +44800,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -46003,7 +46003,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -47081,7 +47081,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};
@@ -48302,7 +48302,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											goggles = "rhsusf_oakley_goggles_blk";
+											goggles = "CUP_G_Oakleys_Drk";
 											hmd = "immersion_pops_pop0_nv";
 											headgear = "CUP_H_PMC_Cap_Back_PRR_Burberry";
 										};

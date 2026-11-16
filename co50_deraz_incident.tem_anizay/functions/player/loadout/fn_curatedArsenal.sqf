@@ -243,7 +243,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm"
+	"CUP_hgun_Makarov"
 ];
 
 private _itemAmmo = 
@@ -257,16 +257,16 @@ private _itemAmmo =
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_FNFAL_Desert_M",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S",
+	"CUP_8Rnd_9x18_Makarov_M",
 	
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

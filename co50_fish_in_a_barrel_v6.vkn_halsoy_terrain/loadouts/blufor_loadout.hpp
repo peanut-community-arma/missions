@@ -76,7 +76,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell"
 	};
 	//Comment out items[] and backpackItems[] before use as NPCs
@@ -93,7 +93,7 @@ class rm : baseMan
 	backpackItems[] = 
 	{
 		LIST_14("rhs_mag_30Rnd_556x45_M855_Stanag"),
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell"
 	};
 };
@@ -160,7 +160,7 @@ class gren : rm
 	secondaryWeapon[] = {""};
 	backpackItems[] += 
 	{
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_5("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -186,7 +186,7 @@ class sl : tl
 		LIST_2("1Rnd_SmokeYellow_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
-		LIST_7("rhs_mag_M441_HE")
+		LIST_7("CUP_1Rnd_HE_M203")
 	};
 	items[] += {"ACRE_PRC148"};
 };
@@ -287,7 +287,7 @@ class ammg : aar
 class mat : rm
 {
 	displayName = "Medium Antitank";
-	secondaryWeapon[] = {"rhs_weap_maaws"};
+	secondaryWeapon[] = {"CUP_launch_MAAWS"};
 	backpack[] = 
 	{
 		"pca_eagle_a3_m81",
@@ -295,7 +295,7 @@ class mat : rm
 	};
 	magazines[] += 
 	{
-		"rhs_mag_maaws_HEAT"
+		"CUP_MAAWS_HEAT_M"
 	};
 };
 
@@ -309,7 +309,7 @@ class amat : rm
 	};
 	backpackItems[] =
 	{
-		"rhs_mag_maaws_HEAT"
+		"CUP_MAAWS_HEAT_M"
 	};
 };
 

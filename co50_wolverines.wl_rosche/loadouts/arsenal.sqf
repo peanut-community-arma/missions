@@ -125,9 +125,9 @@ private _itemEquipment =
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
 	"rhs_scarf",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -363,17 +363,17 @@ private _itemMod =
 	"optic_holosight_blk_f",
 	
 	//RHS
-	"rhs_optic_maaws",
+	"CUP_optic_MAAWS_Scope",
 	"rhsusf_acc_acog",
 	"rhsusf_acc_acog_d",
 	"rhsusf_acc_acog2",
 	"rhsusf_acc_acog3",
 	"rhsusf_acc_acog_rmr",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_elcan",
 	"rhsusf_acc_elcan_ard",
 	"rhsusf_acc_eotech",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_g33_t1",
@@ -394,7 +394,7 @@ private _itemMod =
 	
 	
 	//SMA
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_g33_blk$",
 	"$NONE_sma_acc_eotech_552_g33_tan$",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
@@ -493,7 +493,7 @@ private _itemWeaponAR =
 
 private _itemWeaponMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeaponGL =
@@ -503,14 +503,14 @@ private _itemWeaponGL =
 
 private _itemWeaponLAT = 
 [
-	"rhs_weap_M136",
+	"CUP_launch_M136",
 	"rhs_weap_M136_hedp",
 	"rhs_weap_M136_hp"
 ];
 
 private _itemWeaponMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeaponPistol = 
@@ -555,20 +555,20 @@ private _itemWeaponAmmo =
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemWeaponARAmmo =
 [
 	"rhsusf_100Rnd_762x51_m62_tracer",
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemWeaponMATAmmo = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 

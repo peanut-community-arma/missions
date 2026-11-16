@@ -306,9 +306,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhssaf_veil_Green",
 	
 	"simc_nomex_alt",
@@ -517,7 +517,7 @@ private _itemAmmo =
 	
 	//Pistol Ammo
 	"rhs_mag_762x25_8",
-	"rhs_mag_9x18_12_57N181S",
+	"CUP_12Rnd_9x18_PMM_M",
 	
 	//SMG Ammo
 	"CUP_30Rnd_9x19_MP5",
@@ -565,7 +565,7 @@ private _itemExplosive =
 [
 	"rhs_mag_rdg2_white",
 	"rhs_mag_rdg2_black",
-	"rhs_mag_rgd5",
+	"CUP_HandGrenade_RGD5",
 	"rhs_VOG25",
 	"rhs_VOG25P",
 	"rhs_GDM40",
@@ -607,8 +607,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

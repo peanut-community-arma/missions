@@ -164,7 +164,7 @@ private _itemWeaponRifle =
 
 private _itemWeaponLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 

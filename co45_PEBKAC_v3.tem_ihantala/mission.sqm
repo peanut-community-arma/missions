@@ -1991,13 +1991,13 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhsusf_m112_mag";
+										name = "DemoCharge_Remote_Mag";
 										count = 4;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhsusf_m112x4_mag";
+										name = "SatchelCharge_Remote_Mag";
 										count = 2;
 										ammoLeft = 1;
 									};

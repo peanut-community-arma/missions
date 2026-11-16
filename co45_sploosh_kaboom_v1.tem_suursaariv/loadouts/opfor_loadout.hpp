@@ -1,4 +1,4 @@
-#define nades "rhs_mag_m67","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite","rhs_grenade_mki_mag","SmokeShell","SmokeShell"
+#define nades "CUP_HandGrenade_M67","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite","rhs_grenade_mki_mag","SmokeShell","SmokeShell"
 
 class baseMan 
 {

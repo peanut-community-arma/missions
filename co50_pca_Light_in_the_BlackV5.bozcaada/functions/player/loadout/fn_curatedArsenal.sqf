@@ -27,9 +27,9 @@ private _itemGear =
 	//Common items shared by all classes except for vehicle crews
 	
 	//Uniform 
-	"simc_og107_mk3",
+	"U_Simc_OG107_mk3",
 	"simc_og107_mk3_roll",
-	"simc_og107_mk3_tuck",
+	"U_Simc_OG107_mk3_tuck",
 	"simc_og107_mk3_tuck_roll",
 	"simc_og107_mk3_rain_parka",
 	
@@ -258,9 +258,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhssaf_veil_Green",
 	
 	"immersion_cigs_cigar0",
@@ -386,8 +386,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -433,7 +433,7 @@ private _itemWeapLAT =
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapPistol = 
@@ -459,7 +459,7 @@ private _itemAmmo =
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 
@@ -475,9 +475,9 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

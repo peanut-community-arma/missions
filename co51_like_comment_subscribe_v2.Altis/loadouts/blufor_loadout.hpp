@@ -82,7 +82,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("50Rnd_570x28_SMG_03")
 	};
 	backpackItems[] = 
@@ -103,7 +103,7 @@ class demo : rm
 	{
 		"ACE_DefusalKit",
 		"ACE_Clacker",
-		LIST_2("rhsusf_m112_mag")
+		LIST_2("DemoCharge_Remote_Mag")
 	};
 };
 

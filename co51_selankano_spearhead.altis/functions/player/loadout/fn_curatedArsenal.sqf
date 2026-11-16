@@ -163,8 +163,8 @@ private _itemCosmetic =
 	"rhs_balaclava",
 	"rhs_balaclava1_olive",
 	"rhs_ess_black",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -375,9 +375,9 @@ private _itemAmmo =
 	"CUP_IlumFlareRed_GP25_M",
 	"CUP_IlumFlareWhite_GP25_M",
 	"rhs_mag_rdg2_white",
-	"rhs_mag_rgd5",
+	"CUP_HandGrenade_RGD5",
 	"rhs_mag_rgn",
-	"rhs_mag_rgo"
+	"CUP_HandGrenade_RGO"
 ];
 
 private _itemAmmoAR = 

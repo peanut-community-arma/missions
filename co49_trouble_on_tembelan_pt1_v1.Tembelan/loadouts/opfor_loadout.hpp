@@ -127,8 +127,8 @@ class rm : baseMan
 		"rhsgref_acc_rx01_nofilter_camo",
 		"rhsgref_acc_rx01_camo",
 		"rhsusf_acc_eotech",
-		"rhsusf_acc_eotech_552",
-		"rhsusf_acc_compm4",
+		"RKSL_optic_EOT552",
+		"CUP_optic_CompM4",
 		"rhsusf_acc_mrds",
 		"rhsusf_acc_rm05",
 		"rhsusf_acc_rx01_nofilter",
@@ -138,7 +138,7 @@ class rm : baseMan
 		"rhsusf_acc_eotech_xps3",
 		"$NONE_sma_acc_barska_rds$",
 		"$NONE_sma_acc_cmore_blk$",
-		"$NONE_sma_acc_eotech_552_blk$",
+		"RKSL_optic_EOT552",
 		"$NONE_sma_acc_eotech_552_kf_blk$",
 		"$NONE_sma_acc_eotech_xps3_blk$",
 		"$NONE_sma_acc_micro_t2$",
@@ -216,7 +216,7 @@ class tl : rm
 		LIST_11("rhs_30Rnd_762x39mm_polymer_tracer"),
 		"HandGrenade",
 		"SmokeShell",		
-		LIST_2("rhs_mag_M397_HET")
+		LIST_2("CUP_1Rnd_HE_M203")
 	};
 	linkedItems[] += 
 	{

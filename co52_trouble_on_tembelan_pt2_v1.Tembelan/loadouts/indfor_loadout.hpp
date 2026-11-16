@@ -187,7 +187,7 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -211,7 +211,7 @@ class tl : rm
 		LIST_11("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
 		"HandGrenade",
 		"SmokeShell",		
-		LIST_2("rhs_mag_M397_HET")
+		LIST_2("CUP_1Rnd_HE_M203")
 	};
 	linkedItems[] += 
 	{

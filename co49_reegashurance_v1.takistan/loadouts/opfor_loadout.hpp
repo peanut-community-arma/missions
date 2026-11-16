@@ -200,7 +200,7 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 

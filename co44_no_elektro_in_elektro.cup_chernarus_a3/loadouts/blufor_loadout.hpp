@@ -87,7 +87,7 @@ class rm : baseMan
 	backpackItems[] = 
 	{
 		"milgp_v_mmac_assaulter_blk",
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_17("pca_mag_30Rnd_556x45_M995_PMAG")
 	};
 };
@@ -166,7 +166,7 @@ class sl : tl
 	{
 		"milgp_v_mmac_teamleader_blk",
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("pca_mag_30Rnd_556x45_M995_PMAG"),
 		LIST_21("rhs_mag_M441_HE"),
 		LIST_8("ACE_40mm_Flare_ir")
@@ -192,7 +192,7 @@ class rm_fa : rm
 	{
 		"milgp_v_mmac_medic_blk",
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_11("pca_mag_30Rnd_556x45_M995_PMAG"),
 		LIST_15("ACE_fieldDressing"),
 		LIST_15("ACE_packingBandage"),

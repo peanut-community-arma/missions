@@ -103,7 +103,7 @@ class rm : baseMan
 	};
 	scope[] =
 	{
-		"rhsusf_acc_compm4",
+		"CUP_optic_CompM4",
 		"ptv_acc_eot552",
 		"ptv_acc_t1",
 		"$NONE_sma_acc_micro_t2$",
@@ -111,7 +111,7 @@ class rm : baseMan
 	};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_8("rhs_mag_30Rnd_556x45_M855_PMAG")
 	};
@@ -130,7 +130,7 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_4("CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag")
 	};
@@ -146,7 +146,7 @@ class hr : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("hlc_20Rnd_762x51_T_G3")
 	};
@@ -176,7 +176,7 @@ class mm : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red")
 	};
@@ -208,7 +208,7 @@ class mg : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
@@ -219,7 +219,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] =
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -315,7 +315,7 @@ class crewman : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -340,7 +340,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};

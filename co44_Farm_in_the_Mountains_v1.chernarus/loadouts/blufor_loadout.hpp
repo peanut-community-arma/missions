@@ -108,12 +108,12 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_9x18_8_57N181S"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_8("rhsgref_30rnd_1143x23_M1911B_2mag_SMG")
 	};
 	backpackItems[] = 
@@ -181,16 +181,16 @@ class sl : tl
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
 		LIST_2("SmokeShell"),
-		LIST_10("rhs_mag_9x18_8_57N181S")
+		LIST_10("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_4("ACE_CableTie")
 	};
 };
@@ -243,11 +243,11 @@ class cls : rm_fa
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_12("rhs_mag_9x18_8_57N181S")
+		LIST_12("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{

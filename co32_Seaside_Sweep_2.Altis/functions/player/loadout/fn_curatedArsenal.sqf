@@ -329,7 +329,7 @@ private _itemWeapRifle =
 private _itemWeapRifleUGL = 
 [
 	"sfp_weap_ak5c_m203_blk",
-	"rhsusf_m112_mag"
+	"DemoCharge_Remote_Mag"
 ];
 
 private _itemWeapAR = 
@@ -421,7 +421,7 @@ private _itemExplosive =
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
@@ -438,8 +438,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

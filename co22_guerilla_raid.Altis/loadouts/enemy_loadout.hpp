@@ -113,7 +113,7 @@ class r : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		LIST_9("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -151,7 +151,7 @@ class rat : r
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 

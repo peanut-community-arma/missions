@@ -128,7 +128,7 @@ class tl : rm
 	{
 		"rhs_grenade_sthgr43_mag",
 		"rhs_mag_rdg2_white",
-		LIST_7("fwa_32rnd_9x19_mp40")
+		LIST_7("sp_fwa_32Rnd_9x19_mp40")
 	};
 };
 

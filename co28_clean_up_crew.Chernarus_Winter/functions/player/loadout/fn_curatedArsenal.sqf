@@ -302,7 +302,7 @@ private _itemExplosive =
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
 	"CUP_1Rnd_HE_GP25_M",
-	"rhs_mag_rgd5",
+	"CUP_HandGrenade_RGD5",
 	"Chemlight_blue",
 	"Chemlight_green",
 	"O_R_IR_Grenade",

@@ -183,9 +183,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"$NONE_pca_nvg_glasses_blk$",
 	"$NONE_pca_nvg_glasses_clr$",
 	"$NONE_pca_nvg_glasses_org$",
@@ -280,8 +280,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -355,7 +355,7 @@ private _itemWeapMAA =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm"
+	"CUP_hgun_Makarov"
 ];
 
 private _itemAmmo = 
@@ -365,7 +365,7 @@ private _itemAmmo =
 	"CUP_30Rnd_545x39_AK74M_M",
 	"CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M",
 	"CUP_30Rnd_TE1_Green_Tracer_545x39_AK74M_M",
-	"rhs_mag_9x18_8_57N181S",
+	"CUP_8Rnd_9x18_Makarov_M",
 	
 	//Explosives
 	"CUP_1Rnd_HE_GP25_M",

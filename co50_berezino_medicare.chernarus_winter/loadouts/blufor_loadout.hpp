@@ -69,7 +69,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_30Rnd_762x39mm_Savz58")
 	};
 	backpackItems[] = 
@@ -92,7 +92,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"SmokeShell",
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		LIST_7("CUP_50Rnd_UK59_762x54R_Tracer")
 	};
 	backpackItems[] = 
@@ -245,7 +245,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_7("rhs_30Rnd_762x39mm_Savz58")
 	};
 	backpackItems[] = 

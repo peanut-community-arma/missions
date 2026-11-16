@@ -78,7 +78,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"rhs_mag_an_m8hc",
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		LIST_7("rhs_mag_30Rnd_556x45_M193_Stanag")
 	};
 };
@@ -192,7 +192,7 @@ class rm_mat : rm
 	magazines[] = 
 	{
 		"rhs_mag_an_m8hc",
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		LIST_7("rhs_mag_30Rnd_556x45_Mk318_Stanag")
 	};
 };
@@ -215,7 +215,7 @@ class engineer : rm
 	magazines[] = 
 	{
 		"rhs_mag_an_m8hc",
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		LIST_7("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
 		LIST_5("1Rnd_HE_Grenade_shell"),
 		LIST_4("rhs_mag_m714_white"),
@@ -267,7 +267,7 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
@@ -292,7 +292,7 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};

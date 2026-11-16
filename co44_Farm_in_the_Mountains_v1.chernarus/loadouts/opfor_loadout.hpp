@@ -97,7 +97,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		LIST_3("CUP_5x_22_LR_17_HMR_M"),
+		LIST_3("CUP_5Rnd_93x64_CZ550"),
         LIST_3("CUP_6Rnd_762x51_R700")
 	};
 };

@@ -150,10 +150,10 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_tan",
 	"rhsusf_shemagh2_gogg_tan",
-	"rhsusf_oakley_goggles_blk",
+	"CUP_G_Oakleys_Drk",
 	
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
@@ -170,7 +170,7 @@ private _itemCosmetic =
 	"$NONE_pca_nvg_face_shield_rgr$",
 	
 	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Embr",
 	"Goggles",
 	"Goggles_grn_F",
 	"$NONE_pca_nvg_shemagh_grn$",
@@ -265,7 +265,7 @@ private _itemAcc =
 	"optic_yorris",
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_cmore_grn$",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_552_kf_od$",
 	"RKSL_optic_EOT552",
@@ -273,7 +273,7 @@ private _itemAcc =
 	"cup_optic_eotech553_od",
 	"optic_holosight_blk_f",
 	"optic_holosight_khk_f",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_mrds",
 	"rhsusf_acc_rx01_nofilter",
 	"rhsusf_acc_rx01",
@@ -381,10 +381,10 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
@@ -406,7 +406,7 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
+	"DemoCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

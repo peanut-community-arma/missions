@@ -163,7 +163,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_M441_HE"),
+		LIST_2("CUP_1Rnd_HE_M203"),
 		LIST_2("1Rnd_Smoke_Grenade_shell")
 	};
 };

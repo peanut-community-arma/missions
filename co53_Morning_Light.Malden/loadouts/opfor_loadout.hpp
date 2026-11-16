@@ -187,7 +187,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_M441_HE")
+		LIST_3("CUP_1Rnd_HE_M203")
 	};
 };
 

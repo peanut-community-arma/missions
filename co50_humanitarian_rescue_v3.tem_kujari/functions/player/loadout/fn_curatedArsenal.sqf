@@ -307,9 +307,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 //	"simc_nomex_blk",
 //	"simc_nomex_alt",
 //	"simc_nomex",
@@ -558,7 +558,7 @@ private _itemAmmoSignal =
 
 private _itemExplosive = 
 [
-	"rhs_mag_rgd5",
+	"CUP_HandGrenade_RGD5",
 	"rhs_mag_rdg2_white",
 	"rhs_VOG25",
 	"rhs_GRD40_White"

@@ -90,7 +90,7 @@ class r : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhsgref_8Rnd_762x63_M2B_M1rifle")
 	};
 };
@@ -114,12 +114,12 @@ class ar : r
 	
 	sidearmWeapon[] =
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] =
 	{
 		
-		LIST_4("rhs_mag_9x18_8_57N181S")
+		LIST_4("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
@@ -191,7 +191,7 @@ class rat : r
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhsusf_mag_10Rnd_STD_50BMG_M33"),
 		LIST_2("rhsusf_mag_10Rnd_STD_50BMG_mk211"),
 		LIST_10("CUP_32Rnd_9x19_TEC9")
@@ -228,7 +228,7 @@ class tl : r
 	magazines[] = 
 	{
 		LIST_4("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite_tracer"),
 	};
@@ -256,7 +256,7 @@ class sl : tl
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite_tracer")
 	};

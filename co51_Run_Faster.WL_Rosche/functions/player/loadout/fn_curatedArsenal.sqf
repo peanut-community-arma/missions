@@ -49,15 +49,15 @@ private _itemGear =
 	"simc_vest_pasgt_lc2_saw_od3",
 	
 	//Headgear
-	"simc_pasgt_m81",
+	"H_Simc_pasgt_m81",
 	"simc_pasgt_m81_band",
-	"simc_pasgt_m81_swdg",
+	"H_Simc_pasgt_m81_SWDG",
 	"simc_pasgt_m81_swdg_band",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
-	"simc_pasgt_m81_swdg_low",
+	"H_Simc_pasgt_m81_SWDG_low",
 	"simc_pasgt_m81_swdg_low_band",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band",
@@ -131,8 +131,8 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_od",
 	"rhsusf_shemagh_gogg_od",
 	"rhsusf_shemagh2_gogg_od",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
@@ -274,7 +274,7 @@ private _itemAmmo =
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67",
+	"CUP_HandGrenade_M67",
 	
 	//cigs
 	"murshun_cigs_cigpack",

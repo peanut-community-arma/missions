@@ -50,18 +50,18 @@ private _itemVest =
 //Headgear 
 private _itemHeadgear = 
 [
-	"simc_pasgt_m81",
+	"H_Simc_pasgt_m81",
 	"simc_pasgt_m81_band",
-	"simc_pasgt_m81_scrim",
+	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
-	"simc_pasgt_m81_swdg",
+	"H_Simc_pasgt_m81_SWDG",
 	"simc_pasgt_m81_swdg_band",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
-	"simc_pasgt_m81_swdg_low",
+	"H_Simc_pasgt_m81_SWDG_low",
 	"simc_pasgt_m81_swdg_low_band",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band"
@@ -216,7 +216,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -268,9 +268,9 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //********************************************************************************//

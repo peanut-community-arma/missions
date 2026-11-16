@@ -57,8 +57,8 @@ if (random 1 > 0.2) then
 			private _eyewear = selectRandomWeighted 
 			[
 				"rhs_ess_black", 2,
-				"rhsusf_oakley_goggles_blk", 1,
-				"rhsusf_oakley_goggles_clr", 2,
+				"CUP_G_Oakleys_Drk", 1,
+				"CUP_G_Oakleys_Clr", 2,
 				"CUP_G_ESS_BLK", 2,
 				"CUP_G_ESS_BLK_Dark", 1
 			];
@@ -224,7 +224,7 @@ for "_i" from 1 to (ceil (random [0,1,1])) do {_this addItemToUniform "ACE_epine
 for "_i" from 1 to (ceil (random [0,1,1])) do {_this addItemToUniform "ACE_morphine";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_this addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_this addItemToUniform "ACE_splint";};
-for "_i" from 1 to (ceil (random [0,1,2])) do {_this addMagazine "rhs_mag_rgd5";};
+for "_i" from 1 to (ceil (random [0,1,2])) do {_this addMagazine "CUP_HandGrenade_RGD5";};
 for "_i" from 1 to (ceil (random [0,0,2])) do {_this addMagazine "rhs_mag_rdg2_white";};
 
 

@@ -92,7 +92,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		LIST_8("aegis_30Rnd_545x39_7N10_ak12")
 	};
 };
@@ -106,7 +106,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("75rnd_762x39_AK12_Mag_Tracer_F")
 	};
@@ -121,7 +121,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
@@ -132,7 +132,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -164,7 +164,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_M441_HE"),
+		LIST_3("CUP_1Rnd_HE_M203"),
 		LIST_2("1Rnd_Smoke_Grenade_shell")
 	};
 };

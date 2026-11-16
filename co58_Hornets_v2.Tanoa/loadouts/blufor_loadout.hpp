@@ -78,7 +78,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"$NONE_sma_acc_eotech_552_blk$"
+		"RKSL_optic_EOT552"
 	};
 	bipod[] = 
 	{
@@ -103,7 +103,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("CUP_25Rnd_556x45_Famas")
 	};
 	backpackItems[] = 
@@ -131,13 +131,13 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("CUP_7Rnd_45ACP_1911"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_4("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -150,7 +150,7 @@ class aar : rm
 	};
 	backpackItems[] += 
 	{
-		LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_4("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] = 
 	{
@@ -186,7 +186,7 @@ class tl : rm
 		LIST_13("rhs_mag_M441_HE"),
 		LIST_4("CUP_25Rnd_556x45_Famas_Tracer_Red"),
 		LIST_2("SmokeShell"),
-		LIST_1("rhsusf_m112_mag"),
+		LIST_1("DemoCharge_Remote_Mag"),
 		LIST_1("ACE_Clacker")
 	};
 };
@@ -206,7 +206,7 @@ class sl : tl
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
 		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-		LIST_1("rhsusf_m112_mag"),
+		LIST_1("DemoCharge_Remote_Mag"),
 		LIST_1("ACE_Clacker")
 	};
 };
@@ -229,7 +229,7 @@ class co : sl
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
 		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-		LIST_1("rhsusf_m112_mag"),
+		LIST_1("DemoCharge_Remote_Mag"),
 		LIST_1("ACE_Clacker")
 	};
 };

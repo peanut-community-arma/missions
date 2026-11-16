@@ -36,7 +36,7 @@ private _itemGear =
 //Uniform
 private _itemUniform = 
 [
-	"simc_arvn_og107",
+	"U_Simc_arvn_og107",
 	"simc_arvn_roll_og107",
 	"simc_arvn_tuck_roll_og107",
 	"simc_arvn_tuck_og107"
@@ -288,7 +288,7 @@ private _itemWeapSMG =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"fwa_10rnd_75_mas49",
+	"sp_fwa_10rnd_75_mas49",
 	
 	//Pistol Ammo
 	"CUP_13Rnd_9x19_Browning_HP"
@@ -301,13 +301,13 @@ private _itemAmmoTracer =
 
 private _itemAmmoAR = 
 [
-	"fwa_30rnd_303_bren",
+	"sp_fwa_30Rnd_303_Bren",
 	"fwa_30rnd_303_bren_tracer_red"
 ];
 
 private _itemAmmoSMG = 
 [
-	"fwa_32Rnd_9x19_mat49",
+	"sp_fwa_32Rnd_9x19_MAT49",
 	"fwa_32Rnd_9x19_mat49_tracer_red"
 ];
 
@@ -325,8 +325,8 @@ private _itemAmmoSignal =
 private _itemExplosive = 
 [
 	"SmokeShell",
-	"rhs_mag_m67",
-	"rhsusf_m112_mag"
+	"CUP_HandGrenade_M67",
+	"DemoCharge_Remote_Mag"
 ];
 
 private _itemAmmoDM =
@@ -355,8 +355,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

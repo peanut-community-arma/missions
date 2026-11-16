@@ -87,7 +87,7 @@ class r : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 };

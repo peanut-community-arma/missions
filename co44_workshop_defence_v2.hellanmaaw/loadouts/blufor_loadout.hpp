@@ -59,7 +59,7 @@ class baseMan
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_an_m8hc"),
-		LIST_2("rhs_mag_m67")
+		LIST_2("CUP_HandGrenade_M67")
 	};
 	items[] = 
 	{
@@ -285,7 +285,7 @@ class rm : baseMan
 		"HLC_optic_DocterR",
 		"rhs_acc_ekp8_18",
 		"cup_optic_holoblack",
-		"$NONE_sma_acc_eotech_552_blk$",
+		"RKSL_optic_EOT552",
 		"$NONE_sma_acc_eotech_552_kf_blk$",
 		"RKSL_optic_EOT552",
 		"RKSL_optic_EOT552X",
@@ -296,8 +296,8 @@ class rm : baseMan
 		"rhsusf_acc_eotech",
 		"$NONE_hlc_optic_ism1400a7$",
 		"rhsusf_acc_m2a1",
-		"rhsusf_acc_eotech_552",
-		"rhsusf_acc_compm4",
+		"RKSL_optic_EOT552",
+		"CUP_optic_CompM4",
 		"cup_optic_compm2_low",
 		"cup_optic_compm2_black",
 		"cup_optic_mars",
@@ -390,12 +390,12 @@ class rm : baseMan
 		"CUP_launch_HCPF3",
 		"CUP_launch_PzF3",
 		"rhs_weap_rpg18",
-		"rhs_weap_rpg26",
+		"CUP_launch_RPG26",
 		"rhs_weap_rshg2",
 		"rhs_weap_panzerfaust60",
 		"rhs_weap_rpg75",
 		"rhs_weap_m80",
-		"rhs_weap_M136",
+		"CUP_launch_M136",
 		"rhs_weap_m72a7"
 	};
 	sidearmWeapon[] =

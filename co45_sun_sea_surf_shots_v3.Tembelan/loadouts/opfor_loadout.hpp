@@ -73,7 +73,7 @@ class rm : baseMan
 	primaryWeapon[] = 
 	{
 		LIST_4("sp_fwa_ar18"),
-		"rhs_weap_m16a4_carryhandle"
+		"CUP_arifle_M16A4_Base"
 	};
 	magazines[] = 
 	{
@@ -120,7 +120,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m16a4_carryhandle_M203"
+		"CUP_arifle_M16A4_GL"
 	};
 	magazines[] += 
 	{

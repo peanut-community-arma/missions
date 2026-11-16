@@ -91,7 +91,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 	backpackItems[] = 
@@ -122,7 +122,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_3("rhsusf_200Rnd_556x45_mixed_soft_pouch")
 	};
@@ -150,11 +150,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 	backpackItems[] += 
 	{
-		LIST_2("rhs_weap_M136")
+		LIST_2("CUP_launch_M136")
 	};
 };
 
@@ -194,7 +194,7 @@ class tl : rm
 		LIST_21("rhs_mag_M433_HEDP"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("pca_mag_30Rnd_556x45_M856A1_PMAG"),
-		LIST_2("rhsusf_m112_mag"),
+		LIST_2("DemoCharge_Remote_Mag"),
 		LIST_2("SmokeShell")
 	};
 	linkedItems[] += 

@@ -75,7 +75,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
@@ -102,7 +102,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_4("rhsusf_200Rnd_556x45_mixed_soft_pouch")
 	};
@@ -113,7 +113,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -126,16 +126,16 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_maaws"
+		"CUP_launch_MAAWS"
 	};
 	secondaryAttachments[] = 
 	{
-		"rhs_optic_maaws"
+		"CUP_optic_MAAWS_Scope"
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_maaws_HE"),
-		"rhs_mag_maaws_HEDP"
+		LIST_2("MRAWS_HE_F"),
+		"CUP_MAAWS_HEDP_M"
 	};
 };
 

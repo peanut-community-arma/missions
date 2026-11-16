@@ -194,9 +194,9 @@ private _itemCosmetic =
 	"G_Bandanna_shades",
 	"G_Bandanna_sport",
 	//Goggles and Shades
-	"rhsusf_oakley_goggles_ylw",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_blk",
+	"CUP_G_Oakleys_Embr",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Drk",
 	"CUP_G_ESS_BLK_Ember",
 	"G_Aviator",
 	"G_Shades_Black",
@@ -299,8 +299,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -368,7 +368,7 @@ private _itemWeapLAT =
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapPistol = 
@@ -400,11 +400,11 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
-	"rhs_mag_m67",
+	"CUP_HandGrenade_M67",
 	
 	//IR Items
 	"ACE_IR_Strobe_Item",
@@ -438,9 +438,9 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

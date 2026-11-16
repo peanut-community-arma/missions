@@ -76,7 +76,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_10("rhssaf_30Rnd_762x39mm_M67"),
 		LIST_2("rhsusf_mag_7x45acp_MHP")
 	};
@@ -96,7 +96,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 	backpackItems[] = 
@@ -166,7 +166,7 @@ class tl : gren
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_10("rhssaf_30Rnd_762x39mm_M78_tracer"),
 		"rhsusf_mag_7x45acp_MHP"
 	};	
@@ -294,7 +294,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("rhsgref_10Rnd_792x57_m76"),
 		"rhsusf_mag_7x45acp_MHP"
 	};
