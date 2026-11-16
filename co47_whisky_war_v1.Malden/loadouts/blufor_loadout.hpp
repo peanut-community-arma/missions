@@ -257,7 +257,7 @@ class mmg : ar
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240B"
+		"CUP_lmg_M240_B"
 	};
 	bipod[] = {};
 	attachment[] = {};

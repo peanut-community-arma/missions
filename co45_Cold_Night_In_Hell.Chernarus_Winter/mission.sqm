@@ -8337,13 +8337,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -9087,13 +9087,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -9507,13 +9507,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -9732,13 +9732,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -10617,13 +10617,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -11058,13 +11058,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -12699,13 +12699,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -12895,13 +12895,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -13102,13 +13102,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -13299,13 +13299,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -13496,13 +13496,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -13705,13 +13705,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -13902,13 +13902,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -14099,13 +14099,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -14351,13 +14351,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -14548,13 +14548,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -14745,13 +14745,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -14997,13 +14997,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -15193,13 +15193,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -15432,13 +15432,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -15628,13 +15628,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -16297,13 +16297,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -16493,13 +16493,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -16689,13 +16689,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -16885,13 +16885,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -17428,13 +17428,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -17625,13 +17625,13 @@ class Mission
 									items = 3;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};

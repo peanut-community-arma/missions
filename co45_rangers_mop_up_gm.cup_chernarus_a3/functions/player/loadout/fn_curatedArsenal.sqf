@@ -50,19 +50,19 @@ private _itemVest =
 //Headgear 
 private _itemHeadgear = 
 [
-	"simc_pasgt_m81",
-	"simc_pasgt_m81_band",
-	"simc_pasgt_m81_scrim",
+	"H_Simc_pasgt_m81",
+	"H_Simc_pasgt_m81_b",
+	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
-	"simc_pasgt_m81_swdg",
-	"simc_pasgt_m81_swdg_band",
+	"H_Simc_pasgt_m81_SWDG",
+	"H_Simc_pasgt_m81_b_SWDG",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
-	"simc_pasgt_m81_swdg_low",
-	"simc_pasgt_m81_swdg_low_band",
+	"H_Simc_pasgt_m81_SWDG_low",
+	"H_Simc_pasgt_m81_SWDG_low_b",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band"
 ];
@@ -91,31 +91,31 @@ private _itemCosmetic =
 	"rhsusf_shemagh_tan",
 	"rhsusf_shemagh2_tan",
 	"bear_bandana_m81",
-	"aegis_shemagh_loop_bge",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemagh_loop_coy",
-	"aegis_shemagh_loop_grn",
-	"aegis_shemagh_loop_khk",
-	"aegis_shemagh_loop_tan",
-	"aegis_shemagh_mesh_bge",
-	"aegis_shemagh_mesh_blk",
-	"aegis_shemagh_mesh_coy",
-	"aegis_shemagh_mesh_grn",
-	"aegis_shemagh_mesh_khk",
-	"aegis_shemagh_mesh_tan",
-	"aegis_shemag_cbr",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tan",
-	"usm_scarf",
-	"usm_scarf2",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_cbr$",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tan",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_blk",
-	"milgp_f_face_shield_cbr",
+	"$NONE_milgp_f_face_shield_cbr$",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_rgr",
 	"milgp_f_face_shield_tan",
 	"milgp_f_face_shield_shemagh_blk",
-	"milgp_f_face_shield_shemagh_cbr",
+	"$NONE_milgp_f_face_shield_shemagh_cbr$",
 	"milgp_f_face_shield_shemagh_khk",
 	"milgp_f_face_shield_shemagh_rgr",
 	"milgp_f_face_shield_shemagh_tan",
@@ -201,12 +201,12 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m16a2"
+	"CUP_arifle_M16A2"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m16a2_m203"
+	"CUP_arifle_Colt727_M203"
 ];
 
 private _itemWeapAR = 
@@ -216,7 +216,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -231,7 +231,7 @@ private _itemWeapPistol =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	
 	//Pistol Ammo
 	"CUP_15Rnd_9x19_M9"
@@ -268,9 +268,9 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //********************************************************************************//

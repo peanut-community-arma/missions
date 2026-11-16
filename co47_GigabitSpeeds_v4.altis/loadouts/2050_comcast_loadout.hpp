@@ -60,7 +60,7 @@ class rm : baseMan
 	uniform[] = 
 	{
 		"U_C_Man_casual_3_F",
-		"aegis_merc_polo_blu",
+		"U_B_ION_Uniform_01_poloshirt_blue_F",
 		"U_Rangemaster"
 	};
 	vest[] = 
@@ -80,11 +80,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_tar21_blk"
+		"arifle_TRG21_black_F"
 	};
 	scope[] = 
 	{
-		"sma_acc_eotech_xps3_blk"
+		"$NONE_sma_acc_eotech_xps3_blk$"
 	};
 	secondaryWeapon[] =
 	{
@@ -123,8 +123,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 };
@@ -217,8 +217,8 @@ class crewman : rm
 	displayName = "Manager";
 	uniform[] =
 	{
-		"aegis_suit_formal_bluecheck",
-		"aegis_suit_formal_blue"
+		"U_C_Uniform_Formal_01_blue_F",
+		"U_C_Uniform_Formal_01_blue_F"
 	};
 };
 
@@ -241,8 +241,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

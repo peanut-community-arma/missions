@@ -140,7 +140,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_M441_HE"),
+		LIST_2("CUP_1Rnd_HE_M203"),
 		LIST_2("rhs_mag_m714_White")
 	};
 };
@@ -169,11 +169,11 @@ class n_rm : rm
 	};
 	vest[] = 
 	{
-		"aegis_condor_carrier_lite_khk"
+		"V_CarrierRigKBT_01_light_Coyote_F"
 	};
 	headgear[] = 
 	{
-		"aegis_ech_enh_mtp"
+		"H_HelmetSpecB_mcamo"
 	};
 	hmd[] =
 	{
@@ -181,7 +181,7 @@ class n_rm : rm
 	};
 	backpack[] = 
 	{
-		LIST_2("aegis_virtus_assaultpack_mtp"),
+		LIST_2("B_AssaultPack_mcamo"),
 		LIST_4("")
 	};
 	primaryWeapon[] = 
@@ -209,7 +209,7 @@ class n_ar : n_rm
 	displayName = "NATO Autorifle";
 	backpack[] = 
 	{
-		"aegis_virtus_assaultpack_mtp"
+		"B_AssaultPack_mcamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -279,7 +279,7 @@ class ctrg : n_rm
 	};
 	vest[] =
 	{
-		"aegis_modular_carrier_lite_ctrg"
+		"V_CarrierRigKBT_01_light_ctrg_F"
 	};
 	headgear[] =
 	{
@@ -319,7 +319,7 @@ class ctrg : n_rm
 	{
 		"SmokeShell",
 		"HandGrenade",
-		LIST_2("16Rnd_9x21_Mag"),
+		LIST_2("16Rnd_9x21_Mag_v2"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 };

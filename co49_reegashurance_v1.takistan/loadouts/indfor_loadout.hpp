@@ -72,7 +72,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80_blk"
+		"arifle_SA80_blk_F"
 	};
 	scope[] =
 	{
@@ -88,7 +88,7 @@ class rm : baseMan
 	};
 	sidearmWeapon[] =
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	sidearmAttachments[] = 
 	{
@@ -153,7 +153,7 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	primaryWeapon[] =
 	{
-		"aegis_weap_sa80c_blk"
+		"arifle_SA80_C_blk_F"
 	};
 	secondaryWeapon[] = 
 	{
@@ -166,7 +166,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_sa80_eglm_blk"
+		"arifle_SA80_GL_blk_F"
 	};
 	magazines[] =
 	{
@@ -188,7 +188,7 @@ class medic : rm
 	traits[] = {"medic"};
 	primaryWeapon[] =
 	{
-		"aegis_weap_sa80c_blk"
+		"arifle_SA80_C_blk_F"
 	};	
 	backpackItems[] = 
 	{

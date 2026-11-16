@@ -33,8 +33,8 @@ class baseMan
 		"ACE_morphine",
 		"ACE_tourniquet",
 		"ACE_splint",
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white"
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell"
 	};
 	// These are added directly into their respective slots
 	linkedItems[] =

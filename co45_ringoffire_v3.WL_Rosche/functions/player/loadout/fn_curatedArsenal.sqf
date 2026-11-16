@@ -111,10 +111,10 @@ private _itemHeadgear =
 	"simc_bush_hat_foldf_og107",
 	"simc_bush_hat_foldr_og107",
 	"simc_bush_hat_tie_og107",
-	"usm_headwrap_blk",
-	"usm_headwrap_odg2",
-	"usm_headwrap_odg1",
-	"usm_headwrap_tgrstp"
+	"H_Bandanna_gry",
+	"H_Bandanna_khk",
+	"CUP_H_FR_BandanaGreen",
+	"$NONE_usm_headwrap_tgrstp$"
 ];
 
 private _itemHeadgearCrew =
@@ -168,12 +168,12 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_candyskull",
-	"aegis_cigarette",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_CandySkull",
+	"G_Cigarette",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses_gold",
-	"usm_gigloves",
+	"$NONE_usm_gigloves$",
 	"rhssaf_veil_Green",
 	"simc_bandoleer_gren",
 	"simc_bandoleer_center",
@@ -187,8 +187,8 @@ private _itemCosmetic =
 	"simc_bandoleer_right_flak",
 	"simc_bandoleer_triplet",
 	"simc_bandoleer_triplet_flak",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"simc_nomex_blk",
 	"simc_nomex_alt",
 	"simc_nomex",
@@ -207,13 +207,13 @@ private _itemCosmetic =
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"nvg_scrim_wdl_pine",
-	"usm_nvg_gigloves",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_nvg_scrim_wdl_pine$",
+	"pca_nvg_gloves_wool",
 	"simc_addon_nomex_blk",
 	"simc_addon_nomex_alt",
 	"simc_addon_nomex",
@@ -309,18 +309,18 @@ private _itemAcc =
 
 	//Grips/Bipods
 	"cup_bipod_harris_1a2_l_blk",
-	"fwa_acc_ar15_clipon_bipod"
+	"sp_fwa_bipod_ar15_clipon"
 ];
 
 private _itemWeapRifle =
 [
-	"fwa_weap_colt_603_m16a1",
+	"sp_fwa_ar15_603_m16a1",
 	"rhs_weap_m72a7"
 ];
 
 private _itemWeapRifleUGL =
 [
-	"fwa_weap_colt_603_m16a1_m203"
+	"CUP_arifle_M16A1GL"
 ];
 
 private _itemWeapAR =
@@ -335,7 +335,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol =
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"bnae_weap_colt357"
 ];
 
@@ -347,7 +347,7 @@ private _itemWeapMG =
 
 private _itemWeapMAT =
 [
-	"fwa_weap_m67"
+	"sp_fwa_m67"
 ];
 
 //********************************************************************************//
@@ -361,7 +361,7 @@ private _itemAmmo =
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
 	"rhs_mag_20Rnd_556x45_M193_Stanag",
 	"rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red",
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	"bnae_6Rnd_357M"
 ];
 
@@ -371,7 +371,7 @@ private _itemAmmoAR =
 [
 	"rhsusf_100Rnd_762x51",
 	"rhsusf_100Rnd_762x51_m62_tracer",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoSignal =
@@ -395,10 +395,10 @@ private _itemExplosive =
 [
 	"rhs_mag_m714_White",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
 	"rhs_grenade_mkii_mag"
 ];
 
@@ -411,8 +411,8 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT =
 [
-	"fwa_1rnd_m67_HEAT",
-	"fwa_1rnd_m67_HE"
+	"sp_fwa_m67_1rnd_heat",
+	"sp_fwa_m67_1rnd_he"
 ];
 
 private _itemEngineer =
@@ -422,8 +422,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

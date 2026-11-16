@@ -884,7 +884,7 @@ class Mission
 							class primaryWeapon
 							{
 								name = "CUP_arifle_M16A2_GL";
-								optics = "sma_acc_micro_t2";
+								optics = "$NONE_sma_acc_micro_t2$";
 								class primaryMuzzleMag
 								{
 									name = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
@@ -973,7 +973,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1000,7 +1000,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_M441_HE";
+										name = "CUP_1Rnd_HE_M203";
 										count = 13;
 										ammoLeft = 1;
 									};
@@ -1466,7 +1466,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1493,7 +1493,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_M441_HE";
+										name = "CUP_1Rnd_HE_M203";
 										count = 13;
 										ammoLeft = 1;
 									};
@@ -1972,7 +1972,7 @@ class Mission
 							class primaryWeapon
 							{
 								name = "rhs_weap_m249_pip";
-								optics = "sma_acc_vortex_rds_blk";
+								optics = "$NONE_sma_acc_vortex_rds_blk$";
 								underBarrel = "rhsusf_acc_saw_bipod";
 								class primaryMuzzleMag
 								{
@@ -2053,7 +2053,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -3599,7 +3599,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -3626,7 +3626,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_M441_HE";
+										name = "CUP_1Rnd_HE_M203";
 										count = 13;
 										ammoLeft = 1;
 									};
@@ -3869,7 +3869,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -6137,7 +6137,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -6170,7 +6170,7 @@ class Mission
 									};
 									class Item2
 									{
-										name = "rhs_mag_M441_HE";
+										name = "CUP_1Rnd_HE_M203";
 										count = 15;
 										ammoLeft = 1;
 									};
@@ -6400,7 +6400,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -7295,7 +7295,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -10699,10 +10699,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -12158,10 +12158,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -12328,10 +12328,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -12987,10 +12987,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -13535,10 +13535,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -13705,10 +13705,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -14119,10 +14119,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -14422,10 +14422,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -14592,10 +14592,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -14884,10 +14884,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -15054,10 +15054,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -15723,10 +15723,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -16148,10 +16148,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -16440,10 +16440,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -17922,10 +17922,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -18093,10 +18093,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -19246,10 +19246,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -19402,10 +19402,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -20358,10 +20358,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -20514,10 +20514,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -22263,10 +22263,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -22419,10 +22419,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -26174,10 +26174,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -26330,10 +26330,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -27255,10 +27255,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -27411,10 +27411,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -28338,10 +28338,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -28494,10 +28494,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -29431,10 +29431,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -29587,10 +29587,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -31751,10 +31751,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -31907,10 +31907,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -32844,10 +32844,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -33000,10 +33000,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -33928,10 +33928,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -34084,10 +34084,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -35011,10 +35011,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -35167,10 +35167,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -36094,10 +36094,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -36250,10 +36250,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -37221,10 +37221,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -37378,10 +37378,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -39012,10 +39012,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -39168,10 +39168,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -41798,10 +41798,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -42574,10 +42574,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -42868,10 +42868,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -43414,10 +43414,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -44304,10 +44304,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -45210,10 +45210,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -45367,10 +45367,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -46291,10 +46291,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -46447,10 +46447,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -47412,10 +47412,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -47568,10 +47568,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -48495,10 +48495,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -48651,10 +48651,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -49579,10 +49579,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -49735,10 +49735,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -50695,10 +50695,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -50851,10 +50851,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -51778,10 +51778,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -51934,10 +51934,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -60483,10 +60483,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -60640,10 +60640,10 @@ class Mission
 										{
 											class primaryWeapon
 											{
-												name = "rhs_weap_pkm";
+												name = "CUP_lmg_PKM";
 												class primaryMuzzleMag
 												{
-													name = "rhs_100Rnd_762x54mmR";
+													name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 													ammoLeft = 100;
 												};
 											};
@@ -64123,7 +64123,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG7V"",""rhs_weap_makarov_pm""],[2,2]],[[""CUP_PG7VL_M"",""CUP_PG7VR_M"",""CUP_RPG18_M"",""CUP_Igla_M"",""rhs_mag_9x18_8_57N181S""],[4,6,3,3,4]],[[""CUP_optic_PGO7V3""],[6]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG7V"",""CUP_hgun_Makarov""],[2,2]],[[""CUP_PG7VL_M"",""CUP_PG7VR_M"",""CUP_RPG18_M"",""CUP_Igla_M"",""CUP_8Rnd_9x18_Makarov_M""],[4,6,3,3,4]],[[""CUP_optic_PGO7V3""],[6]],[[],[]]],false]";
 										};
 									};
 								};
@@ -64184,7 +64184,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -64249,7 +64249,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG7V"",""rhs_weap_makarov_pm""],[2,2]],[[""CUP_PG7VL_M"",""CUP_PG7VR_M"",""CUP_RPG18_M"",""CUP_Igla_M"",""rhs_mag_9x18_8_57N181S""],[4,6,3,3,4]],[[""CUP_optic_PGO7V3""],[6]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG7V"",""CUP_hgun_Makarov""],[2,2]],[[""CUP_PG7VL_M"",""CUP_PG7VR_M"",""CUP_RPG18_M"",""CUP_Igla_M"",""CUP_8Rnd_9x18_Makarov_M""],[4,6,3,3,4]],[[""CUP_optic_PGO7V3""],[6]],[[],[]]],false]";
 										};
 									};
 								};
@@ -64310,7 +64310,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -64375,7 +64375,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[],[]],[[""rhsusf_m112_mag"",""rhsusf_m112x4_mag""],[2,4]],[[],[]],[[],[]]],false]";
+											value = "[[[[],[]],[[""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag""],[2,4]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -64490,7 +64490,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -64928,7 +64928,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -65304,7 +65304,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[],[]],[[""rhsusf_m112_mag"",""rhsusf_m112x4_mag""],[2,4]],[[],[]],[[],[]]],false]";
+											value = "[[[[],[]],[[""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag""],[2,4]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -65419,7 +65419,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -66169,7 +66169,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -66331,7 +66331,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "sma_acc_vortex_rds_blk";
+																							value = "$NONE_sma_acc_vortex_rds_blk$";
 																						};
 																					};
 																					class Item1
@@ -67390,7 +67390,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -67552,7 +67552,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "sma_acc_vortex_rds_blk";
+																							value = "$NONE_sma_acc_vortex_rds_blk$";
 																						};
 																					};
 																					class Item1
@@ -67906,7 +67906,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -68179,7 +68179,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -68452,7 +68452,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -68725,7 +68725,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -68998,7 +68998,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -69556,10 +69556,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -69713,10 +69713,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -70664,10 +70664,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -70821,10 +70821,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -71759,10 +71759,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -71916,10 +71916,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -72788,10 +72788,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -72945,10 +72945,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -73874,10 +73874,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -74031,10 +74031,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -75156,10 +75156,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -75313,10 +75313,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -76242,10 +76242,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -76399,10 +76399,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -80694,10 +80694,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -80852,10 +80852,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -81794,10 +81794,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -81951,10 +81951,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -82891,10 +82891,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -83049,10 +83049,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -83992,10 +83992,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -84150,10 +84150,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -85094,10 +85094,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -85251,10 +85251,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -87476,10 +87476,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -87632,10 +87632,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -88575,10 +88575,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -88731,10 +88731,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -89664,10 +89664,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -89820,10 +89820,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -90753,10 +90753,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -90909,10 +90909,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -91842,10 +91842,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};
@@ -91998,10 +91998,10 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "rhs_weap_pkm";
+										name = "CUP_lmg_PKM";
 										class primaryMuzzleMag
 										{
-											name = "rhs_100Rnd_762x54mmR";
+											name = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 											ammoLeft = 100;
 										};
 									};

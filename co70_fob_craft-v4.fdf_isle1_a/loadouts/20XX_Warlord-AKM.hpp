@@ -67,14 +67,14 @@ class rm : baseMan
 		"pca_beanie_blk",
 		"pca_beanie_mgrn",
 		"pca_beanie_tan",
-		"pca_headband_red",
+		"G_Headband_red_F",
 		"H_Bandanna_gry",
 		"H_Bandanna_sgg",
 		"rhssaf_bandana_digital",
 		"rhssaf_bandana_oakleaf",
-		"usm_bdu_boonie_odg",
-		"usm_bdu_boonie_erdl",
-		"usm_bdu_boonie_ubntgrstp",
+		"H_Booniehat_oli",
+		"H_Booniehat_wdl_hs",
+		"$NONE_usm_bdu_boonie_ubntgrstp$",
 		"CUP_H_SLA_BeretRed",
 		"H_Cap_blk",
 		"H_Cap_grn",
@@ -87,9 +87,9 @@ class rm : baseMan
 		"G_Bandanna_sport",
 		"G_Bandanna_blk",
 		"G_Bandanna_beast",
-		"aegis_bandanna_candyskull",
-		"aegis_bandanna_skull",
-		"aegis_bandanna_syndikat",
+		"G_Bandanna_CandySkull",
+		"G_Bandanna_Skull2",
+		"G_Bandanna_Syndikat1",
 		"CUP_Beard_Black"
 	};
 	backpack[] = 
@@ -132,17 +132,17 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("rhs_mag_f1"),
-		LIST_2("rhs_mag_9x18_8_57N181S"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_3("fwa_100rnd_762x39mm_rpd_mixed")
 	};
 	backpackItems[] = 
@@ -169,7 +169,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 	backpackItems[] += 
 	{
@@ -226,11 +226,11 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
@@ -316,11 +316,11 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
@@ -342,19 +342,19 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	bipod[] = {};
 	attachment[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("rhs_mag_f1"),
-		LIST_2("rhs_mag_9x18_8_57N181S"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 	backpackItems[] = 
@@ -368,7 +368,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
@@ -410,11 +410,11 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
@@ -455,7 +455,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	items[] +=
 	{
@@ -463,7 +463,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -481,7 +481,7 @@ class hp : rm
 	{
 		"CUP_H_RUS_Bandana_GSSh_Headphones",
 		"CUP_H_PMC_EP_Headset",
-		"aegis_cap_headphones_gry"
+		"H_Cap_headphones_gry"
 	};
 	items[] +=
 	{
@@ -489,13 +489,13 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("rhs_30Rnd_762x39mm_bakelite"),
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -512,8 +512,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -546,12 +546,12 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_5("rhs_mag_9x18_8_57N181S"),
+		LIST_5("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -564,7 +564,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mosin_m91"
+		"CUP_srifle_Mosin_Nagant"
 	};
 	attachment[] = {};
 	magazines[] = 

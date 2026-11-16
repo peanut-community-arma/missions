@@ -131,7 +131,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] =
 	{
@@ -159,7 +159,7 @@ class rm : baseMan
 	{
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N10"),
 		"rhs_mag_rgn",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 
@@ -168,7 +168,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk12"
+		"Aegis_arifle_RPK12_545_F"
 	};
 	attachment[] =
 	{
@@ -190,7 +190,7 @@ class ar : rm
 	{
 		LIST_10("aegis_95Rnd_545x39_mixed_7N10_ak12"),
 		"rhs_mag_rgn",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 
@@ -199,12 +199,12 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	secondaryWeapon[] = 
 	{
 		"rhs_weap_rpg18",
-		"rhs_weap_rpg26",
+		"CUP_launch_RPG26",
 		"rhs_weap_rshg2",
 		"rhs_weap_panzerfaust60",
 		"rhs_weap_rpg75"
@@ -216,7 +216,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	bipod[] = 
 	{
@@ -247,7 +247,7 @@ class medic : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};	
 	backpackItems[] = 
 	{

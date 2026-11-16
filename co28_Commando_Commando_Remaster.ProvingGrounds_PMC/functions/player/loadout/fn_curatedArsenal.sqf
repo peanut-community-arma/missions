@@ -91,9 +91,9 @@ private _itemBackpack =
 	"pca_backpack_invisible_large",
 	
 	//Aegis
-	"aegis_assaultpack_auscam",
-	"aegis_kitbag_auscam",
-	"aegis_tacticalpack_auscam"
+	"B_AssaultPack_aucamo_F",
+	"B_Kitbag_aucamo_F",
+	"B_Kitbag_aucamo_F"
 ];
 
 //Cosmetic 
@@ -127,9 +127,9 @@ private _itemCosmetic =
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
 	"rhs_scarf",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -144,23 +144,23 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 
 	//Aegis
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_headset",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"G_Headset_light",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
 	
 	//PCA
 	"pca_balaclava_ocp",
@@ -216,10 +216,10 @@ private _itemCosmetic =
 	"milgp_f_tactical_khk",
 
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 
 	//CUP
 	//Bala
@@ -355,9 +355,9 @@ private _itemAcc =
 	"optic_holosight_blk_f",
 	
 	//RHS
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_eotech",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_mrds",
@@ -366,25 +366,25 @@ private _itemAcc =
 	"rhsusf_acc_t1_low",
 	
 	//SMA
-	"sma_acc_barska_rds",
-	"sma_acc_cmore_blk",
-	"sma_acc_eotech_552_blk",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_tan",
-	"sma_acc_micro_t2",
-	"sma_acc_micro_t2_low",
-	"sma_acc_vortex_blk",
-	"sma_acc_vortex_lc_blk",
+	"$NONE_sma_acc_barska_rds$",
+	"$NONE_sma_acc_cmore_blk$",
+	"RKSL_optic_EOT552",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_micro_t2_low$",
+	"$NONE_sma_acc_vortex_blk$",
+	"$NONE_sma_acc_vortex_lc_blk$",
 	
 	//PCA
 	"ptv_acc_compm4s",
 	"ptv_acc_eot552",
 	"ptv_acc_t1",
 	"ptv_acc_t1_low",
-	"rksl_optic_eot552",
-	"rksl_optic_eot552x",
+	"RKSL_optic_EOT552",
+	"RKSL_optic_EOT552X",
 	
 	//CUP
 	"cup_optic_ac11704_black",
@@ -456,14 +456,14 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_auga3_blk",
-	"hlc_rifle_auga3_tan"
+	"$NONE_hlc_rifle_auga3_blk$",
+	"$NONE_hlc_rifle_auga3_tan$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_auga3_m203_blk",
-	"hlc_rifle_auga3_m203_tan"
+	"$NONE_hlc_rifle_auga3_m203_blk$",
+	"$NONE_hlc_rifle_auga3_m203_tan$"
 ];
 
 private _itemWeapAR = 
@@ -473,7 +473,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -487,12 +487,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -548,7 +548,7 @@ private _itemExplosive =
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemEngineer = 
@@ -558,8 +558,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

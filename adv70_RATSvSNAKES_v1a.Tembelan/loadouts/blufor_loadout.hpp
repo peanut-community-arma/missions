@@ -58,7 +58,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_pasgt_wdl"
+		"CUP_H_PASGTv2_WDL"
 	};
 	backpack[] = 
 	{
@@ -66,11 +66,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk416d145"
+		"rhs_weap_hk416d145"
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552"
+		"RKSL_optic_EOT552"
 	};
 	items[] =
 	{
@@ -87,7 +87,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_17("CUP_30Rnd_556x45_PMAG_BLACK_PULL")
 	};
 	backpackItems[] = {};

@@ -43,15 +43,15 @@ class rm : baseMan
 		LIST_1("U_BG_leader"),
 		LIST_1("rhsgref_uniform_TLA_1"),
 		LIST_1("rhsgref_uniform_TLA_2"),
-		LIST_1("aegis_guerilla_garb_m81"),
-		LIST_1("aegis_guerilla_jacket_m81"),
-		LIST_1("aegis_sweater_grn"),
-		LIST_1("aegis_guerilla_tshirt_m81"),
-		LIST_1("aegis_guerilla_tshirt_m81_alt"),
-		LIST_1("aegis_merc_polo_blu"),
-		LIST_1("aegis_merc_polo_camo"),
-		LIST_1("aegis_merc_polo_m81"),
-		LIST_1("aegis_merc_tshirt_blk")
+		LIST_1("Rev_U_B_FRR_Uniform_03_F"),
+		LIST_1("Atlas_U_UniformBDU_02_m81_F"),
+		LIST_1("Opf_U_O_S_Uniform_01_sweater_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_02_F"),
+		LIST_1("Rev_U_B_FRR_Uniform_01_F"),
+		LIST_1("U_B_ION_Uniform_01_poloshirt_blue_F"),
+		LIST_1("U_B_ION_Uniform_01_poloshirt_wdl_F"),
+		LIST_1("U_B_ION_Uniform_01_poloshirt_wdl_F"),
+		LIST_1("U_B_ION_Uniform_01_tshirt_black_F")
 	};
 	vest[] = 
 	{
@@ -62,15 +62,15 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_1("pca_headband_blk"),
+		LIST_1("G_Headband_blk_F"),
 		LIST_1("pca_headband"),
-		LIST_1("pca_headband_red"),
+		LIST_1("G_Headband_red_F"),
 		LIST_1("pca_headband_tan")
 	};
 	backpack[] = 
 	{
-		LIST_1("wsx_tacticalpack_oli"),
-		LIST_1("aegis_tacticalpack_cbr"),
+		LIST_1("B_TacticalPack_oli"),
+		LIST_1("B_TacticalPack_khk"),
 		LIST_1("rhs_rk_sht_30_olive"),
 		LIST_1("rhssaf_kitbag_md2camo")
 	};
@@ -125,7 +125,7 @@ class ar : rm
 		LIST_2("SmokeShell"),
 		LIST_2("rhs_mag_f1"),
 		LIST_2("rhs_18rnd_9x21mm_7N29"),
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	sidearmWeapon[] = 
 	{
@@ -133,7 +133,7 @@ class ar : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -142,7 +142,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpackItems[] += 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	linkedItems[] += 
 	{
@@ -205,8 +205,8 @@ class tl : rm
 		LIST_2("rhs_18rnd_9x21mm_7N29"),
 		LIST_2("SmokeShell"),
 		LIST_2("rhssaf_30Rnd_762x39mm_M78_tracer"),
-		LIST_10("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White"),
+		LIST_10("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M"),
 		LIST_1("rhs_GRD40_Green"),
 		LIST_1("rhs_GRD40_Red")
 	};

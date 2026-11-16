@@ -65,7 +65,7 @@ class rm : baseMan
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIA2_dgtl");
-		"aegis_otv_rig_oli"
+		"V_PlateCarrierIA2_oli"
 	};
 	backpack[] = 
 	{
@@ -75,7 +75,7 @@ class rm : baseMan
 	headgear[] = 
 	{
 		LIST_5("H_HelmetIA"),
-		"aegis_mch_oli"
+		"H_I_Helmet_canvas_Green"
 	};
 	primaryWeapon[] = 
 	{
@@ -104,7 +104,7 @@ class ar : rm
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIAGL_dgtl");
-		"aegis_otv_gl_oli"
+		"V_PlateCarrierIAGL_oli"
 	};
 	primaryWeapon[] = 
 	{
@@ -191,7 +191,7 @@ class medic : rm
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIAGL_dgtl");
-		"aegis_otv_gl_oli"
+		"V_PlateCarrierIAGL_oli"
 	};
 	backpack[] = 
 	{
@@ -232,7 +232,7 @@ class crewman : rm
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIA1_dgtl");
-		"aegis_otv_lite_oli"
+		"V_PlateCarrierIA1_oli"
 	};
 	headgear[] = 
 	{

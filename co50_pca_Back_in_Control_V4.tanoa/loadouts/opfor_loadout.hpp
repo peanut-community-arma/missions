@@ -70,8 +70,8 @@ class rm : baseMan
 		"U_I_C_Soldier_Para_3_F",
 		"U_I_C_Soldier_Para_4_F",
 		"U_I_C_Soldier_Para_5_F",
-		"aegis_mcu_jungle",
-		"aegis_mcu_rs_jungle"
+		"Atlas_U_B_H_Soldier_F",
+		"U_I_C_Soldier_Camo_F"
 		
 		
 	};
@@ -107,8 +107,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_762x39mm")
 	};
 };
@@ -125,12 +125,12 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk"
+		"arifle_RPK_F"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_75Rnd_762x39mm")
 	};
 	backpackItems[] = 
@@ -144,17 +144,17 @@ class mg : ar
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_3("rhs_100Rnd_762x54mmR")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -257,8 +257,8 @@ class crewman : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_762x39mm")
 	};
 };
@@ -285,8 +285,8 @@ class lead : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_762x39mm")
 	};
 	

@@ -25,15 +25,15 @@ _unit setVariable ["startPos", getPosASL _unit];
 private _itemGear = 
 [
 	//Uniform
-	"aegis_rbd_od",
-	"aegis_ubacs_cu_sgg",
+	"Atlas_U_O_Afghanka_01_grn_F",
+	"U_B_UBACS_tna_f",
 	"usp_softshell_g3c_kp_mx_cbr",
 	
 	//Vest
-	"aegis_condor_carrier_heavy_cbr",
-	"aegis_condor_carrier_heavy_oli",
-	"aegis_condor_carrier_lite_oli",
-	"aegis_condor_carrier_lite_cbr",
+	"V_CarrierRigKBT_01_heavy_Khaki_F",
+	"V_CarrierRigKBT_01_heavy_Olive_F",
+	"V_CarrierRigKBT_01_light_Olive_F",
+	"V_CarrierRigKBT_01_light_Khaki_F",
 	//Headgear
 	"H_HelmetSpecB",
 	"H_HelmetSpecB_paint2",
@@ -100,9 +100,9 @@ private _itemCosmetic =
 	"rhs_googles_clear",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -178,17 +178,17 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
 [
 	//Optic
-	"rksl_optic_eot552_c",
-	"rksl_optic_eot552x_c",
-	"sma_acc_eotech_xps3_tan",
-	"aegis_acc_lrco_sand",
+	"RKSL_optic_EOT552_C",
+	"RKSL_optic_EOT552X_C",
+	"$NONE_sma_acc_eotech_xps3_tan$",
+	"optic_LRCO_snd_F",
 	//Grip
 	"rhsusf_acc_grip1",
 	"rhsusf_acc_grip2",
@@ -226,7 +226,8 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL = 
 [
-	"rhs_weap_M320"
+	"CUP_glaunch_Mk13",
+	"ptv_L2BPG"
 ];
 
 private _itemWeapAR = 
@@ -273,11 +274,11 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
+	"CUP_HandGrenade_M67",
 	"ACE_HandFlare_Green",
 	"ACE_HandFlare_Red",
 	"ACE_HandFlare_White",
@@ -303,9 +304,9 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

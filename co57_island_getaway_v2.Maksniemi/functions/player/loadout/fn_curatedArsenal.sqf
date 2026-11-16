@@ -31,14 +31,14 @@ private _itemGear = [];
 //Uniform
 private _itemUniform =
 [
-	"aegis_acu_m05",
-	"aegis_acu_rs_m05"
+	"pca_g3_m05w",
+	"pca_g3_m05w"
 ];
 
 private _itemUniformCrew =
 [
-	"aegis_acu_m05",
-	"aegis_acu_rs_m05"
+	"pca_g3_m05w",
+	"pca_g3_m05w"
 ];
 
 private _itemUniformPilot =
@@ -53,8 +53,8 @@ private _itemVest =
 	"ptv_vest_m16_medic_rgr",
 	"ptv_vest_m16_rifleman_rgr",
 	"ptv_vest_m16_teamleader_rgr",
-	"aegis_modular_carrier_lite_m05",
-	"aegis_modular_carrier_heavy_m05"
+	"$NONE_aegis_modular_carrier_lite_m05$",
+	"$NONE_aegis_modular_carrier_heavy_m05$"
 ];
 
 private _itemVestCrew =
@@ -63,7 +63,7 @@ private _itemVestCrew =
 	"ptv_vest_m16_medic_rgr",
 	"ptv_vest_m16_rifleman_rgr",
 	"ptv_vest_m16_teamleader_rgr",
-	"aegis_modular_carrier_lite_m05"
+	"$NONE_aegis_modular_carrier_lite_m05$"
 ];
 
 private _itemVestPilot =
@@ -75,23 +75,23 @@ private _itemVestPilot =
 private _itemHeadgear =
 [
 	"pca_opscore_ct_rgr",
-	"aegis_amh_bare_m05",
-	"aegis_amh_chops_m05",
-	"aegis_amh_ears_m05",
-	"aegis_amh_headset_m05",
-	"aegis_boonie_m05",
-	"aegis_milcap_m05"
+	"$NONE_aegis_amh_bare_m05$",
+	"$NONE_aegis_amh_chops_m05$",
+	"$NONE_aegis_amh_ears_m05$",
+	"$NONE_aegis_amh_headset_m05$",
+	"$NONE_aegis_boonie_m05$",
+	"$NONE_aegis_milcap_m05$"
 ];
 
 private _itemHeadgearCrew =
 [
 	"pca_opscore_ct_rgr",
-	"aegis_amh_bare_m05",
-	"aegis_amh_chops_m05",
-	"aegis_amh_ears_m05",
-	"aegis_amh_headset_m05",
-	"aegis_boonie_m05",
-	"aegis_milcap_m05"
+	"$NONE_aegis_amh_bare_m05$",
+	"$NONE_aegis_amh_chops_m05$",
+	"$NONE_aegis_amh_ears_m05$",
+	"$NONE_aegis_amh_headset_m05$",
+	"$NONE_aegis_boonie_m05$",
+	"$NONE_aegis_milcap_m05$"
 ];
 
 private _itemHeadgearPilot =
@@ -104,18 +104,18 @@ private _itemBackpack =
 [
 	"pca_backpack_invisible",
 	"pca_backpack_invisible_large",
-	"aegis_assaultpack_enh_rgr",
-	"aegis_virtus_assaultpack_rgr",
-	"aegis_kitbag_rgr",
+	"B_AssaultPackSpec_rgr",
+	"$NONE_aegis_virtus_assaultpack_rgr$",
+	"pca_kitbag_od",
 	"pca_eagle_a3_rgr",
-	"aegis_virtus_carryall_rgr"
+	"$NONE_aegis_virtus_carryall_rgr$"
 ];
 
 private _itemBackpackCrew =
 [
 	"pca_backpack_invisible",
-	"aegis_assaultpack_enh_rgr",
-	"aegis_virtus_assaultpack_rgr"
+	"B_AssaultPackSpec_rgr",
+	"$NONE_aegis_virtus_assaultpack_rgr$"
 ];
 
 private _itemBackpackPilot =
@@ -155,41 +155,41 @@ private _itemCosmetic =
 	"G_Tactical_Clear",
 	"G_Tactical_Black",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
-	"aegis_combat_gogg_blk",
-	"aegis_headset",
-	"aegis_shemagh_loop_bge",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemagh_loop_coy",
-	"aegis_shemagh_loop_gold",
-	"aegis_shemagh_loop_grn",
-	"aegis_shemagh_loop_khk",
-	"aegis_shemagh_loop_tan",
-	"aegis_shemagh_loop_white",
-	"aegis_shemagh_mesh_bge",
-	"aegis_shemagh_mesh_blk",
-	"aegis_shemagh_mesh_coy",
-	"aegis_shemagh_mesh_gold",
-	"aegis_shemagh_mesh_grn",
-	"aegis_shemagh_mesh_khk",
-	"aegis_shemagh_mesh_tan",
-	"aegis_shemagh_mesh_white",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_tactical_white",
-	"aegis_tactical_yellow",
-	"aegis_tactical_camo",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
+	"G_Combat_Goggles_blk_F",
+	"G_Headset_light",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf3",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_oli",
+	"G_Shemag_khk",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Tactical_Yellow",
+	"G_Tactical_Camo",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
 	"CUP_RUS_Balaclava_blk",
 	"bear_balaclava1_black",
 	"CUP_RUS_Balaclava_grn",
@@ -232,9 +232,9 @@ private _itemCosmetic =
 	"CUP_FR_NeckScarf2",
 	"CUP_FR_NeckScarf5",
 	"CUP_FR_NeckScarf4",
-	"usm_swdgoggles",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_swdgoggles$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_rgr",
 	"milgp_f_face_shield_goggles_rgr",
 	"milgp_f_face_shield_goggles_shemagh_rgr",
@@ -265,66 +265,66 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
+	"G_SWDG",
+	"G_SWDG_low",
 
 	// hmd
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
 	"pca_nvg_cigarette",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_rgr",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
-	"pca_nvg_shemagh_white",
-	"pca_nvg_shemagh2_white",
-	"pca_nvg_shemagh_lowered_cbr",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
+	"$NONE_pca_nvg_shemagh_white$",
+	"$NONE_pca_nvg_shemagh2_white$",
+	"$NONE_pca_nvg_shemagh_lowered_cbr$",
 	"pca_nvg_shemagh_lowered_khk",
-	"pca_nvg_shemagh_loop_bge",
-	"pca_nvg_shemagh_loop_blk",
-	"pca_nvg_shemagh_loop_coy",
-	"pca_nvg_shemagh_loop_gold",
-	"pca_nvg_shemagh_loop_grn",
-	"pca_nvg_shemagh_loop_khk",
-	"pca_nvg_shemagh_loop_tan",
-	"pca_nvg_shemagh_loop_white",
-	"pca_nvg_shemagh_mesh_bge",
-	"pca_nvg_shemagh_mesh_blk",
-	"pca_nvg_shemagh_mesh_coy",
-	"pca_nvg_shemagh_mesh_gold",
-	"pca_nvg_shemagh_mesh_grn",
-	"pca_nvg_shemagh_mesh_khk",
-	"pca_nvg_shemagh_mesh_tan",
-	"pca_nvg_shemagh_mesh_white",
+	"$NONE_pca_nvg_shemagh_loop_bge$",
+	"$NONE_pca_nvg_shemagh_loop_blk$",
+	"$NONE_pca_nvg_shemagh_loop_coy$",
+	"$NONE_pca_nvg_shemagh_loop_gold$",
+	"$NONE_pca_nvg_shemagh_loop_grn$",
+	"$NONE_pca_nvg_shemagh_loop_khk$",
+	"$NONE_pca_nvg_shemagh_loop_tan$",
+	"$NONE_pca_nvg_shemagh_loop_white$",
+	"$NONE_pca_nvg_shemagh_mesh_bge$",
+	"$NONE_pca_nvg_shemagh_mesh_blk$",
+	"$NONE_pca_nvg_shemagh_mesh_coy$",
+	"$NONE_pca_nvg_shemagh_mesh_gold$",
+	"$NONE_pca_nvg_shemagh_mesh_grn$",
+	"$NONE_pca_nvg_shemagh_mesh_khk$",
+	"$NONE_pca_nvg_shemagh_mesh_tan$",
+	"$NONE_pca_nvg_shemagh_mesh_white$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_white",
 	"pca_nvg_shemagh_lowered_tan",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_glasses",
-	"pca_nvg_tactical_goggles",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_glasses$",
+	"$NONE_pca_nvg_tactical_goggles$",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
 	"m40_gas_mask_02_nvg",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	"sfp_nvg_peltor_comtac3"
 ];
 
@@ -397,20 +397,20 @@ private _itemMedAdv =
 private _itemAcc =
 [
 	// Sights
-	"sma_acc_vortex_blk",
-	"sma_acc_micro_t2",
-	"sma_acc_cmore_blk",
-	"sma_acc_barska_rds",
+	"$NONE_sma_acc_vortex_blk$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_cmore_blk$",
+	"$NONE_sma_acc_barska_rds$",
 
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_t1_high",
 	"rhsusf_acc_rx01_nofilter",
 	"rhsusf_acc_mrds",
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 
-	"rksl_optic_eot552x",
-	"rksl_optic_eot552",
+	"RKSL_optic_EOT552X",
+	"RKSL_optic_EOT552",
 
 	"ptv_acc_eot552",
 	"ptv_acc_t1",
@@ -483,7 +483,7 @@ private _itemWeapPDW =
 
 private _itemWeapLAT =
 [
-	"rhs_weap_M136",
+	"CUP_launch_M136",
 	"rhs_weap_M136_hp"
 ];
 
@@ -495,12 +495,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG =
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT =
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -514,7 +514,7 @@ private _itemAmmo =
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag",
 
 	//Pistol Ammo
-	"16Rnd_9x21_Mag"
+	"16Rnd_9x21_Mag_v2"
 ];
 
 private _itemAmmoTracer =
@@ -529,7 +529,7 @@ private _itemAmmoAR =
 	"ptv_200Rnd_556x45_M856A1_tracer_m62_soft_pouch",
 
 	//Pistol Ammo
-	"16Rnd_9x21_Mag"
+	"16Rnd_9x21_Mag_v2"
 ];
 
 private _itemAmmoSignal =
@@ -552,23 +552,23 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG =
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT =
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer =
@@ -578,8 +578,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

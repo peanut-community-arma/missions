@@ -75,10 +75,10 @@ private _itemEquipment =
 	"bear_mich_bare_gray_norotos_alt",
 	
 	//WSX
-	"mich_norotos_spray1",
-	"mich_rhino_spray1",
-	"mich_norotos_spray4",
-	"mich_rhino_spray4",
+	"$NONE_mich_norotos_spray1$",
+	"$NONE_mich_rhino_spray1$",
+	"$NONE_mich_norotos_spray4$",
+	"$NONE_mich_rhino_spray4$",
 	
 	
 	//================================================================================
@@ -125,9 +125,9 @@ private _itemEquipment =
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
 	"rhs_scarf",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -142,23 +142,23 @@ private _itemEquipment =
 	"rhsusf_shemagh2_gogg_tan",
 
 	//Aegis
-	"aegis_bandanna_candyskull",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_shemag",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_syndikat",
-	"aegis_bandanna_thug",
-	"aegis_headset",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
+	"G_Bandanna_CandySkull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_shemag",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_Syndikat1",
+	"G_Bandanna_Syndikat2",
+	"G_Headset_light",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
 
 	//Bearskins
 	"bear_bandana_atacs_fg",
@@ -202,10 +202,10 @@ private _itemEquipment =
 	"milgp_f_tactical_khk",
 
 	//DHI
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 
 	//CUP
 	//ESS
@@ -363,17 +363,17 @@ private _itemMod =
 	"optic_holosight_blk_f",
 	
 	//RHS
-	"rhs_optic_maaws",
+	"CUP_optic_MAAWS_Scope",
 	"rhsusf_acc_acog",
 	"rhsusf_acc_acog_d",
 	"rhsusf_acc_acog2",
 	"rhsusf_acc_acog3",
 	"rhsusf_acc_acog_rmr",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_elcan",
 	"rhsusf_acc_elcan_ard",
 	"rhsusf_acc_eotech",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_g33_t1",
@@ -386,7 +386,7 @@ private _itemMod =
 	"rhsusf_acc_su230a_mrds_c",
 	"rhsusf_acc_t1_high",
 	"rhsusf_acc_t1_low",
-	"sma_acc_elcan_specter_blk",
+	"$NONE_sma_acc_elcan_specter_blk$",
 	"cup_optic_elcan_specterdr_black",
 	"cup_optic_elcan_specterdr_coyote",
 	"cup_optic_elcan_specterdr_rmr_black",
@@ -394,20 +394,20 @@ private _itemMod =
 	
 	
 	//SMA
-	"sma_acc_eotech_552_blk",
-	"sma_acc_eotech_552_g33_blk",
-	"sma_acc_eotech_552_g33_tan",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_g33_blk",
-	"sma_acc_micro_t2",
-	"sma_acc_micro_t2_g33",
-	"sma_acc_micro_t2_low",
+	"RKSL_optic_EOT552",
+	"$NONE_sma_acc_eotech_552_g33_blk$",
+	"$NONE_sma_acc_eotech_552_g33_tan$",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_g33_blk$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_micro_t2_g33$",
+	"$NONE_sma_acc_micro_t2_low$",
 	
 	//PCA
-	"rksl_optic_eot552",
-	"rksl_optic_eot552x",
+	"RKSL_optic_EOT552",
+	"RKSL_optic_EOT552X",
 	
 	//CUP
 	"cup_optic_compm2_low",
@@ -493,24 +493,24 @@ private _itemWeaponAR =
 
 private _itemWeaponMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeaponGL =
 [
-	"rhs_weap_M320"
+	"ptv_L2BPG"
 ];
 
 private _itemWeaponLAT = 
 [
-	"rhs_weap_M136",
+	"CUP_launch_M136",
 	"rhs_weap_M136_hedp",
 	"rhs_weap_M136_hp"
 ];
 
 private _itemWeaponMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeaponPistol = 
@@ -551,24 +551,24 @@ private _itemWeaponAmmo =
 	"SmokeShell",
 
 	//RHS
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemWeaponARAmmo =
 [
 	"rhsusf_100Rnd_762x51_m62_tracer",
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemWeaponMATAmmo = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 

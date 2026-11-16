@@ -70,9 +70,9 @@ private _itemVest =
 	"milgp_v_marciras_medic_belt_blk",
 	"milgp_v_marciras_teamleader_blk",
 	"milgp_v_marciras_teamleader_belt_blk",
-	"aegis_tacvest_blk",
+	"V_TacVest_blk",
 	"V_BandollierB_blk",
-	"aegis_chestrig_blk"
+	"V_ChestrigF_blk"
 ];
 
 private _itemVestCrew = 
@@ -90,9 +90,9 @@ private _itemHeadgear =
 [
 	"TC_Helmet_Invisible_Medium",
 	"H_Watchcap_blk",
-	"aegis_boonie_blk",
-	"aegis_beanie_blk",
-	"aegis_cap_headphones_blk",
+	"H_Booniehat_blk",
+	"H_Watchcap_blk",
+	"H_Cap_headphones_blk",
 	"CUP_H_PMC_EP_Headset",
 	"amf_beret_para"
 ];
@@ -112,8 +112,8 @@ private _itemBackpack =
 [
 	"pca_backpack_invisible",
 	"pca_backpack_invisible_large",
-	"aegis_assaultpack_blk",
-	"aegis_carryall_blk",
+	"B_AssaultPack_blk",
+	"B_Carryall_blk",
 	"pca_eagle_a3_blk",
 	"B_LegStrapBag_black_F"
 ];
@@ -165,14 +165,14 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_headset",
-	"aegis_shemagh_loop_blk",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
+	"G_Bandanna_kawaii",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Headset_light",
+	"CUP_FR_NeckScarf3",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
 	"G_Balaclava_TI_blk_F",
 	"bear_balaclava1_black",
 	"CUP_RUS_Balaclava_blk",
@@ -185,10 +185,10 @@ private _itemCosmetic =
 	"CUP_G_Scarf_Face_Blk",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_FR_NeckScarf3",
-	"usm_kneepads_blk",
-	"usm_kneepads_safariland",
-	"usm_swdgoggles",
-	"usm_gigloves",
+	"$NONE_usm_kneepads_blk$",
+	"$NONE_usm_kneepads_safariland$",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
 	"milgp_f_face_shield_blk",
 	"milgp_f_face_shield_goggles_blk",
 	"milgp_f_face_shield_goggles_shemagh_blk",
@@ -203,12 +203,12 @@ private _itemCosmetic =
 	"rhs_googles_black",
 	"rhs_googles_clear",
 	"rhs_ess_black",
-	"rhsusf_oakley_goggles_blk",
+	"CUP_G_Oakleys_Drk",
 	"simc_nomex_blk",
 	"simc_nomex_fold_blk",
 	"simc_nomex_long_blk",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"TC_G_NitrileGloves_1"
 ];
 
@@ -284,26 +284,27 @@ private _itemAcc =
 	
 	
 	//Tactical Device
-	"fwa_acc_uzi_suppressor",
-	"fwa_acc_machinegun_linkhide"
+	"CUP_muzzle_snds_UZI",
+	"sp_fwa_acc_machinegun_linkhide"
 	
 ];
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_uzi",
+	"CUP_smg_UZI",
 	"CUP_smg_UZI"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"rhs_weap_M320",
+	"CUP_glaunch_Mk13",
+	"ptv_L2BPG",
 	"amf_weap_famas_f1"
 ];
 
 private _itemWeapAR = 
 [
-	"fwa_weap_aa52_nf1",
+	"sp_fwa_aa52",
 	"CUP_smg_UZI"
 ];
 
@@ -321,12 +322,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -336,7 +337,7 @@ private _itemWeapMAT =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"fwa_32rnd_9x19_uzi",
+	"CUP_32Rnd_9x19_UZI_M",
 	"CUP_32Rnd_9x19_UZI_M",
 	"amf_25Rnd_556x45_M855_F1_Stanag",
 	
@@ -377,23 +378,23 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -403,8 +404,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

@@ -33,7 +33,7 @@ _unit call pca_fnc_unlimitedAmmo;
 
 private _uniformPoolWeighted = "pca_g3_gliz";
 
-private _vestPoolWeighted = "aegis_tacvest_grn";
+private _vestPoolWeighted = "V_TacVest_grn";
 
 private _headgearPoolWeighted = selectRandomWeighted
 [
@@ -55,17 +55,17 @@ private _facewearPoolWeighted = selectRandomWeighted
 	"rhsusf_shemagh2_grn", 1,
 	"rhsusf_shemagh_od", 1,
 	"rhsusf_shemagh2_od", 1,
-	"aegis_shemag_oli", 1,
-	"usm_scarf2", 1,
-	"usm_scarf2", 1,
+	"CUP_FR_NeckScarf", 1,
+	"$REMOVE_usm_scarf2$", 1,
+	"$REMOVE_usm_scarf2$", 1,
 	"CUP_TK_NeckScarf", 3
 ];
 
 private _eyewearPoolWeighted = selectRandomWeighted 
 [
-	"pca_nvg_glasses_blk", 1,
-	"pca_nvg_glasses_clr", 1,
-	"pca_nvg_ess_blk", 3
+	"$NONE_pca_nvg_glasses_blk$", 1,
+	"$NONE_pca_nvg_glasses_clr$", 1,
+	"$NONE_pca_nvg_ess_blk$", 3
 ];
 
 //ADD UNIFORM
@@ -81,8 +81,8 @@ if (_unitRole in _unitRoleForceBackpack) then
 	
 	if (_unitRole == "rm_mat") then 
 	{
-		_unit addWeapon "aegis_weap_rpg32_blk";
-		_unit addWeaponItem ["aegis_weap_rpg32_blk", "RPG32_F", true];
+		_unit addWeapon "launch_RPG32_black_F";
+		_unit addWeaponItem ["launch_RPG32_black_F", "RPG32_F", true];
 		for "_i" from 1 to (ceil (random [2,3,4])) do {_unit addItemToBackpack "RPG32_F";};
 	};
 }
@@ -183,7 +183,7 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "mg") : 
 	{
-		private _weapon = "hlc_lmg_mg3kws_blk";
+		private _weapon = "CUP_lmg_MG3_rail";
 		private _weaponMag =  selectRandomWeighted 
 		[
 			"hlc_100Rnd_762x51_M_MG3", 4,

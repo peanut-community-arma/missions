@@ -104,7 +104,7 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_fnmag"
+		"CUP_lmg_FNMAG"
 	};
 	magazines[] = 
 	{
@@ -119,7 +119,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -128,11 +128,11 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf"
+		"sp_fwa_m2_carlGustav"
 	};
 	backpackItems[] = 
 	{
-		LIST_3("fwa_1rnd_m2_carlgustaf_HEAT"),
-		"fwa_1rnd_m2_carlgustaf_WP"
+		LIST_3("sp_fwa_carlg_1rnd_heat"),
+		"sp_fwa_carlg_1rnd_wp"
 	};
 };

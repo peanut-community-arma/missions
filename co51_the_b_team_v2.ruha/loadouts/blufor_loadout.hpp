@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_erdl"
+		"CUP_U_B_BDUv2_ERDL_highland"
 	};
 	vest[] = 
 	{
@@ -52,7 +52,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_odg"
+		"CUP_H_PASGTv2_OD"
 	};
 	backpack[] = 
 	{
@@ -79,7 +79,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("CUP_30Rnd_Sa58_M")
 	};
 	backpackItems[] = 
@@ -114,7 +114,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
 		LIST_6("CUP_45Rnd_Sa58_M_TracerR")
 	};
@@ -332,13 +332,13 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -359,7 +359,7 @@ class ammg : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -439,7 +439,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
 	backpackItems[] = 
@@ -516,8 +516,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -590,7 +590,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhsusf_20Rnd_762x51_m118_special_Mag")
 	};
 	backpackItems[] = 
@@ -636,7 +636,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -656,7 +656,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

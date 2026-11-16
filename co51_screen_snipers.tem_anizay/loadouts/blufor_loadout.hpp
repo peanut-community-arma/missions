@@ -47,7 +47,7 @@ class rm : baseMan
 		"U_BG_Guerilla3_1",
 		"bear_uniform_m93_takistani_brush",
 		"bear_uniform_m93_olive_takistanibrush",
-		"usm_bdu_bnu_taki"
+		"$NONE_usm_bdu_bnu_taki$"
 	};
 	vest[] = 
 	{
@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_khk"
+		"B_AssaultPack_tan"
 	};
 	primaryWeapon[] = 
 	{
@@ -80,7 +80,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_30Rnd_762x39mm_bakelite")
 	};
 	backpackItems[] = 
@@ -107,13 +107,13 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
-		LIST_2("rhs_mag_9x18_8_57N181S"),
-		LIST_2("rhs_100Rnd_762x54mmR")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
+		LIST_2("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhs_100Rnd_762x54mmR")
+		LIST_6("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -126,7 +126,7 @@ class aar : rm
 	};
 	backpackItems[] += 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	linkedItems[] += 
 	{
@@ -139,11 +139,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 	backpackItems[] += 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -152,12 +152,12 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m4a1_m203s"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_21("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_21("CUP_1Rnd_HEDP_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -194,13 +194,13 @@ class sl : tl
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
 		LIST_2("rhs_30Rnd_762x39mm_bakelite_tracer"),
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -213,7 +213,7 @@ class sgt : sl
 	displayName = "Platoon Sergeant";
 	backpackItems[] =
 	{
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -246,7 +246,7 @@ class fac : sl
 	backpackItems[] =
 	{
 		"Laserbatteries",
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_4("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
@@ -292,7 +292,7 @@ class cls : rm_fa
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
@@ -322,7 +322,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240B"
+		"CUP_lmg_M240_B"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -337,13 +337,13 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
-		LIST_2("rhs_mag_9x18_8_57N181S"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -360,11 +360,11 @@ class ammg : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -393,7 +393,7 @@ class mat : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
@@ -414,7 +414,7 @@ class amat : rm
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
@@ -445,7 +445,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_30Rnd_762x39mm_bakelite")
 	};
 	backpackItems[] = 
@@ -467,7 +467,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -501,7 +501,7 @@ class hp : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("rhs_30Rnd_762x39mm_bakelite"),
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -558,7 +558,7 @@ class jp : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_5("rhs_mag_9x18_8_57N181S"),
+		LIST_5("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -593,7 +593,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhsusf_20Rnd_762x51_m118_special_Mag")
 	};
 	backpackItems[] = 
@@ -639,7 +639,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_30Rnd_762x39mm_bakelite"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -659,7 +659,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_30Rnd_762x39mm_bakelite"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

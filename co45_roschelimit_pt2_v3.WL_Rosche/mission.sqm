@@ -46971,7 +46971,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rgd5";
+																					value = "CUP_HandGrenade_RGD5";
 																				};
 																			};
 																			class Item1
@@ -46998,7 +46998,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rdg2_white";
+																					value = "SmokeShell";
 																				};
 																			};
 																			class Item1
@@ -47052,7 +47052,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_rifle_rpk";
+																					value = "arifle_RPK_F";
 																				};
 																			};
 																			class Item1
@@ -47106,7 +47106,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -80276,7 +80276,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -80303,7 +80303,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -80357,7 +80357,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -80411,7 +80411,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -81222,7 +81222,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -81249,7 +81249,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -81303,7 +81303,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -81357,7 +81357,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -82167,7 +82167,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -82194,7 +82194,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -82248,7 +82248,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -82302,7 +82302,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -83118,7 +83118,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -83145,7 +83145,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -83199,7 +83199,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk";
+																							value = "arifle_RPK_F";
 																						};
 																					};
 																					class Item1
@@ -83253,7 +83253,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Validation Dashboard</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f6f8fa; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1, h2 { border-bottom: 1px solid #eaecef; padding-bottom: 10px; }
+        .summary { display: flex; justify-content: space-around; text-align: center; margin-bottom: 20px; }
+        .summary-box { padding: 20px; border-radius: 6px; color: #fff; min-width: 120px; }
+        .summary-box.passed { background-color: #28a745; }
+        .summary-box.failed { background-color: #d73a49; }
+        .summary-box.total { background-color: #6c757d; }
+        .summary-box .count { font-size: 2em; font-weight: bold; }
+        .mission-list { list-style-type: none; padding: 0; }
+        .mission-item { padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 10px; }
+        .mission-item.failed { border-left: 5px solid #d73a49; }
+        .mission-item.passed { border-left: 5px solid #28a745; }
+        .mission-title { font-weight: bold; font-size: 1.2em; }
+        .file-list { margin-left: 20px; }
+        .file-name { font-style: italic; color: #586069; }
+        .class-list { margin-left: 40px; color: #d73a49; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mission Validation Dashboard</h1>
+        <div id="summary" class="summary"></div>
+        
+        <h2>Failed Missions</h2>
+        <ul id="failed-missions" class="mission-list"></ul>
+
+        <h2>Passed Missions</h2>
+        <ul id="passed-missions" class="mission-list"></ul>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('report.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Populate Summary
+                    const summaryContainer = document.getElementById('summary');
+                    summaryContainer.innerHTML = `
+                        <div class="summary-box passed"><div class="count">${data.summary.passed}</div><div>Passed</div></div>
+                        <div class="summary-box failed"><div class="count">${data.summary.failed}</div><div>Failed</div></div>
+                        <div class="summary-box total"><div class="count">${data.summary.total}</div><div>Total</div></div>
+                    `;
+
+                    // Populate Failed Missions
+                    const failedList = document.getElementById('failed-missions');
+                    if (Object.keys(data.failed_missions).length > 0) {
+                        for (const missionName in data.failed_missions) {
+                            const item = document.createElement('li');
+                            item.className = 'mission-item failed';
+                            let filesHtml = '<div class="file-list">';
+                            for (const fileName in data.failed_missions[missionName]) {
+                                filesHtml += `<div class="file-name">${fileName}</div>`;
+                                let classesHtml = '<ul class="class-list">';
+                                data.failed_missions[missionName][fileName].forEach(cls => {
+                                    classesHtml += `<li>${cls}</li>`;
+                                });
+                                filesHtml += `${classesHtml}</ul>`;
+                            }
+                            item.innerHTML = `<div class="mission-title">${missionName}</div>${filesHtml}</div>`;
+                            failedList.appendChild(item);
+                        }
+                    } else {
+                        failedList.innerHTML = '<li class="mission-item">No failed missions.</li>';
+                    }
+
+                    // Populate Passed Missions
+                    const passedList = document.getElementById('passed-missions');
+                    if (data.passed_missions.length > 0) {
+                        data.passed_missions.forEach(missionName => {
+                            const item = document.createElement('li');
+                            item.className = 'mission-item passed';
+                            item.innerHTML = `<div class="mission-title">${missionName}</div>`;
+                            passedList.appendChild(item);
+                        });
+                    } else {
+                        passedList.innerHTML = '<li class="mission-item">No passed missions.</li>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching report:', error);
+                    const container = document.querySelector('.container');
+                    container.innerHTML = '<h1>Error</h1><p>Could not load the validation report. Check the GitHub Action logs for more details.</p>';
+                });
+        });
+    </script>
+</body>
+</html>

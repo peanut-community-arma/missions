@@ -22,11 +22,11 @@ class baseMan
 		"V_HarnessOGL_brn"
 	};
 	backpack[] = {
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	headgear[] = 
 	{
-		"aegis_beanie_red"
+		"H_Watchcap_red"
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -90,7 +90,7 @@ class r : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhsgref_8Rnd_762x63_M2B_M1rifle")
 	};
 };
@@ -101,11 +101,11 @@ class ar : r
 	displayName = "Machinegunner";
 	vest[] = 
 	{
-		"usm_vest_lbe_machinegunner"
+		"V_Simc_56_60_ligt_zusp"
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	primaryWeapon[] = 
 	{
@@ -114,16 +114,16 @@ class ar : r
 	
 	sidearmWeapon[] =
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] =
 	{
 		
-		LIST_4("rhs_mag_9x18_8_57N181S")
+		LIST_4("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR"),
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
 	};
 };
 
@@ -132,11 +132,11 @@ class aar : r
 	displayName = "Assistant MG";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	backpackItems[] += 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	linkedItems[] += 
 	{
@@ -157,7 +157,7 @@ class g : r
 	};
 	primaryWeapon[] =
 	{
-		"rhs_weap_m79"
+		"CUP_glaunch_M79"
 	};
 	sidearmWeapon[] =
 	{
@@ -167,7 +167,7 @@ class g : r
 	magazines[] += 
 	{
 		LIST_10("CUP_32Rnd_9x19_TEC9"),
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_3("rhs_mag_m576"),
 		LIST_5("rhs_mag_m714_White")
 	};
@@ -182,7 +182,7 @@ class rat : r
 	};
 	scope[] = 
 	{
-		"sma_acc_vortex_blk"
+		"$NONE_sma_acc_vortex_blk$"
 	};
 	sidearmWeapon[] =
 	{
@@ -191,7 +191,7 @@ class rat : r
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("rhsusf_mag_10Rnd_STD_50BMG_M33"),
 		LIST_2("rhsusf_mag_10Rnd_STD_50BMG_mk211"),
 		LIST_10("CUP_32Rnd_9x19_TEC9")
@@ -203,7 +203,7 @@ class aamr : r
 	displayName = "assistant anti-material rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	magazines[] +=
 	{
@@ -228,7 +228,7 @@ class tl : r
 	magazines[] = 
 	{
 		LIST_4("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite_tracer"),
 	};
@@ -256,7 +256,7 @@ class sl : tl
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite"),
 		LIST_5("rhs_30Rnd_762x39mm_bakelite_tracer")
 	};

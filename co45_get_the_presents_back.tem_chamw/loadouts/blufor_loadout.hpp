@@ -64,8 +64,8 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_blk",
-		"hlc_rifle_acr_car_blk"
+		"$NONE_hlc_rifle_acr_iar_blk$",
+		"CUP_arifle_ACRC_blk_68"
 	};
 	scope[] = 
 	{
@@ -93,7 +93,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_15("pca_mag_30Rnd_556x45_M995_PMAG_Blk")
 	};
 	backpackItems[] = 
@@ -124,7 +124,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("CUP_18Rnd_9x19_Phantom"),
 		LIST_3("sps_200Rnd_556x45_M995_Mixed_KAC_Box")
 	};
@@ -165,7 +165,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] += 
 	{
@@ -179,7 +179,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] =
 	{
@@ -306,7 +306,7 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_sbr_blk"
+		"$NONE_hlc_rifle_acr_sbr_blk$"
 	};
 	sidearmWeapon[] = 
 	{
@@ -349,7 +349,7 @@ class sn : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("CUP_18Rnd_9x19_Phantom"),
 		LIST_15("CUP_5Rnd_762x67_G22")
 	};
@@ -391,7 +391,7 @@ class sp : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("CUP_18Rnd_9x19_Phantom"),
 		LIST_15("ACE_20Rnd_762x51_M993_AP_Mag")
 	};

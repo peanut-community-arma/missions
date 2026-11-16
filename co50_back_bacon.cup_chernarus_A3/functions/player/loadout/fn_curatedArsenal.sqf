@@ -58,7 +58,7 @@ private _itemHeadgear =
 private _itemBackpack = 
 [
 	"pca_eagle_a3_rgr",
-	"aegis_kitbag_rgr",
+	"pca_kitbag_od",
 	"amf_felin_tecpack_rgr",
 	"B_Carryall_green_F",
 	"pca_backpack_invisible_large",
@@ -80,11 +80,11 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_oli",
 	"G_Bandanna_Vampire_01",
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -96,46 +96,46 @@ private _itemCosmetic =
 	"milgp_f_face_shield_shemagh_rgr",
 	"milgp_f_face_shield_tactical_rgr",
 	"milgp_f_face_shield_tactical_shemagh_rgr",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"G_Shades_Black",
 	"G_Shades_Blue",
 	"G_Shades_Green",
 	"G_Shades_Red",
-	"aegis_shades_yellow",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
 		"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
 	"rhsusf_shemagh2_gogg_grn",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
 	"milgp_f_tactical_khk",
 	"milgp_f_goggles_khk",
 	"G_Spectacles_Tinted",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_rgr",
-	"nvg_goggles_grn",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
 	"pca_nvg_shemagh_lowered_oli",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_goggles",
-	"pca_nvg_tactical_glasses",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_goggles$",
+	"$NONE_pca_nvg_tactical_glasses$",
 	"murshun_cigs_cigpack",
 	"murshun_cigs_lighter"
 ];
@@ -208,14 +208,14 @@ private _itemAcc =
 	//Optic
 	"CUP_optic_MicroT1",
 	"CUP_optic_AC11704_Black",
-	"sma_acc_barska_rds",
+	"$NONE_sma_acc_barska_rds$",
 	"CUP_optic_HoloBlack",
 	"CUP_optic_Eotech553_Black",
 	"RKSL_optic_EOT552",
 	"optic_Holosight_blk_F",
 	"optic_Holosight_khk_F",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"ptv_acc_t1",
 	"ptv_acc_eot552",
 	"rhsusf_acc_T1_high",
@@ -256,12 +256,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"fwa_weap_m2_carlgustaf_no78"
+	"sp_fwa_m2_carlGustav_no78"
 ];
 
 //********************************************************************************//
@@ -309,20 +309,20 @@ private _itemExplosive =
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"fwa_1rnd_m2_carlgustaf_HEAT",
-	"fwa_1rnd_m2_carlgustaf_HE",
-	"fwa_1rnd_m2_carlgustaf_WP"
+	"sp_fwa_carlg_1rnd_heat",
+	"sp_fwa_carlg_1rnd_he",
+	"sp_fwa_carlg_1rnd_wp"
 ];
 
 private _itemEngineer = 
@@ -332,8 +332,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit",
 	"ATMine_Range_Mag"

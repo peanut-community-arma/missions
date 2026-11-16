@@ -8,7 +8,7 @@
   private _car = _x;
   {_car addItemCargoGlobal [_x, 10];} forEach ["ACE_fieldDressing","ACE_packingBandage"];
   {_car addItemCargoGlobal [_x, 2];} forEach ["ACE_bloodIV","ACE_bodyBag","ACE_splint","ACE_epinephrine","ACE_morphine","ACRE_BF888S"];
-  {_car addMagazineCargoGlobal [_x, 6];} forEach ["rhsgref_5Rnd_762x54_m38","rhsusf_5Rnd_Slug","rhsusf_8Rnd_Slug","rhs_mag_9x18_8_57N181S","rhsgref_30rnd_1143x23_M1911B_2mag_SMG"];
+  {_car addMagazineCargoGlobal [_x, 6];} forEach ["rhsgref_5Rnd_762x54_m38","rhsusf_5Rnd_Slug","rhsusf_8Rnd_Slug","CUP_8Rnd_9x18_Makarov_M","rhsgref_30rnd_1143x23_M1911B_2mag_SMG"];
 } forEach [car_1,car_2,car_3,car_4,car_5,car_6,car_7];
 
 // Random tripflare noise effect

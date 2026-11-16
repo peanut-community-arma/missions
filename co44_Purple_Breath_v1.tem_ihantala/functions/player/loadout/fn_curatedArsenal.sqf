@@ -95,7 +95,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -122,7 +122,7 @@ private _itemCosmetic =
 	"CUP_Beard_Blonde",
 	"CUP_Beard_Brown",
 	"immersion_cigs_cigar0",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"milgp_f_face_shield_tan",
 	"milgp_f_face_shield_shades_tan",
@@ -132,14 +132,14 @@ private _itemCosmetic =
 	"immersion_pops_pop0",
 	"simc_claysack",
 	"CUP_TK_NeckScarf",
-	"aegis_shemagh_loop_bge",
-	"aegis_shemagh_loop_coy",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
 	"CUP_G_Scarf_Face_Tan",
 	"CUP_G_TK_RoundGlasses",
 	"CUP_G_TK_RoundGlasses_blk",
 	"rhs_scarf",
-	"aegis_shemag_cbr",
-	"aegis_shemag_tan",
+	"$NONE_aegis_shemag_cbr$",
+	"G_Shemag_tan",
 	"CUP_FR_NeckScarf2",
 	"G_Spectacles",
 	"G_Squares_Tinted",
@@ -159,16 +159,16 @@ private _itemCosmetic =
 	"immersion_cigs_cigar0_nv",
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_tan",
-	"pca_nvg_face_shield_shemagh_tan",
+	"$NONE_pca_nvg_face_shield_tan$",
+	"$NONE_pca_nvg_face_shield_shemagh_tan$",
 	"immersion_pops_pop0_nv",
 	"simc_nvg_claysack",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
-	"pca_nvg_shemagh_lowered_cbr",
-	"pca_nvg_shemagh_loop_bge",
-	"pca_nvg_shemagh_loop_coy",
-	"pca_nvg_shemagh_loop_tan",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
+	"$NONE_pca_nvg_shemagh_lowered_cbr$",
+	"$NONE_pca_nvg_shemagh_loop_bge$",
+	"$NONE_pca_nvg_shemagh_loop_coy$",
+	"$NONE_pca_nvg_shemagh_loop_tan$",
 	"pca_nvg_shemagh_lowered_tan",
 	
 	//cigs
@@ -240,8 +240,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -268,12 +268,12 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"fwa_weap_bren_l4"
+	"sp_fwa_bren_l4_lmg"
 ];
 
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapDMR = 
@@ -283,12 +283,12 @@ private _itemWeapDMR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapPistol = 
@@ -305,8 +305,8 @@ private _itemAmmo =
 	"bnae_6Rnd_357M",
 	
 	//Explosives
-	"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white"
+	"CUP_HandGrenade_RGD5",
+		"SmokeShell"
 ];
 
 private _itemAmmoAR = 
@@ -318,14 +318,14 @@ private _itemAmmoAR =
 
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

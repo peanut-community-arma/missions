@@ -52,12 +52,12 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_odg",
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_bti_odg",
-		"usm_bdu_srh_odg",
-		"usm_bdu_srl_odg",
-		"usm_bdu_bnu_odg"
+		"CUP_U_B_BDUv2_OD",
+		"$NONE_usm_bdu_btisrl_odg$",
+		"$NONE_usm_bdu_bti_odg$",
+		"CUP_U_B_BDUv2_roll2_OD",
+		"CUP_U_B_BDUv2_roll_OD_US",
+		"CUP_U_B_BDUv2_OD_US"
 	};
 	vest[] = 
 	{
@@ -80,9 +80,9 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 };
 
@@ -95,7 +95,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("rhsusf_200rnd_556x45_M855_mixed_box")
 	};
@@ -106,11 +106,11 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_fnmag"
+		"CUP_lmg_FNMAG"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("rhsusf_100Rnd_762x51_m62_tracer")
 	};
@@ -121,7 +121,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -130,12 +130,12 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_maaws"
+		"CUP_launch_MAAWS"
 	};
 	backpackItems[] = 
 	{
-		LIST_3("rhs_mag_maaws_HEAT"),
-		LIST_2("rhs_mag_maaws_HEDP")
+		LIST_3("CUP_MAAWS_HEAT_M"),
+		LIST_2("CUP_MAAWS_HEDP_M")
 	};
 };
 
@@ -169,7 +169,7 @@ class r_rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
@@ -188,7 +188,7 @@ class r_ar : r_rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("rhsusf_200rnd_556x45_mixed_box")
 	};
@@ -207,7 +207,7 @@ class r_mg : r_rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("rhsusf_100Rnd_762x51_m62_tracer")
 	};
@@ -218,7 +218,7 @@ class r_rm_lat : r_rm
 	displayName = "Royal Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -231,8 +231,8 @@ class r_rm_mat : r_rm
 	};
 	backpackItems[] = 
 	{
-		LIST_3("rhs_mag_maaws_HEAT"),
-		LIST_2("rhs_mag_maaws_HEDP")
+		LIST_3("CUP_MAAWS_HEAT_M"),
+		LIST_2("CUP_MAAWS_HEDP_M")
 	};
 };
 

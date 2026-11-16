@@ -77,7 +77,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_10("bear_30Rnd_545x39_orange_7N22")
 	};
 	backpackItems[] = 
@@ -103,18 +103,18 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_rgd5"),
-		LIST_2("rhs_mag_9x18_8_57N181S"),
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_2("CUP_HandGrenade_RGD5"),
+		LIST_2("CUP_8Rnd_9x18_Makarov_M"),
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -123,7 +123,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpackItems[] += 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	linkedItems[] += 
 	{
@@ -166,8 +166,8 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_31("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White")
+		LIST_31("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M")
 	};
 };
 
@@ -182,8 +182,8 @@ class tl : rm
 	{
 		LIST_3("bear_30Rnd_545x39_orange_7T3M"),
 		LIST_2("SmokeShell"),
-		LIST_31("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White")
+		LIST_31("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M")
 	};
 	linkedItems[] += 
 	{
@@ -200,17 +200,17 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
 		LIST_2("bear_30Rnd_545x39_orange_7T3M"),
-		LIST_21("rhs_VOG25"),
-		LIST_6("rhs_GRD40_White"),
+		LIST_21("CUP_1Rnd_HE_GP25_M"),
+		LIST_6("CUP_1Rnd_SMOKE_GP25_M"),
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("rhs_GRD40_Green")
 	};
@@ -231,8 +231,8 @@ class fac : sl
 	displayName = "Forward Air Controller";
 	backpackItems[] =
 	{
-		LIST_11("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White"),
+		LIST_11("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M"),
 		LIST_4("rhs_GRD40_Red"),
 		LIST_4("rhs_GRD40_Green"),
 		LIST_2("SmokeShellGreen"),
@@ -266,11 +266,11 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_2("rhs_mag_9x18_8_57N181S")
+		LIST_2("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] =
 	{
@@ -305,13 +305,13 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("bear_30Rnd_545x39_orange_7N22"),
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellPurple"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")

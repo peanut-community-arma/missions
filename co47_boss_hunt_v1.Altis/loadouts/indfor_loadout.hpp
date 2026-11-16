@@ -70,11 +70,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_std"
+		"$NONE_hlc_rifle_scarl_std$"
 	};
 	scope[] =
 	{
-		"sma_acc_cmore_blk"
+		"$NONE_sma_acc_cmore_blk$"
 	};
 	bipod[] =
 	{
@@ -96,8 +96,8 @@ class rm : baseMan
 	{
 		LIST_16("rhs_mag_30Rnd_556x45_M855A1_PMAG"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
-		LIST_2("rhs_mag_m67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_2("SmokeShell")
 	};
 };
 
@@ -120,8 +120,8 @@ class ar : rm
 	{
 		LIST_5("rhsusf_200rnd_556x45_M856A1_box"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
-		LIST_2("rhs_mag_m67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_2("SmokeShell")
 	};
 };
 
@@ -130,7 +130,7 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_cqc"
+		"$NONE_hlc_rifle_scarl_cqc$"
 	};
 	secondaryWeapon[] =
 	{
@@ -143,22 +143,22 @@ class dm : rm
 	displayName = "Marksman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarh_ssr"
+		"$NONE_hlc_rifle_scarh_ssr$"
 	};
 	scope[] =
 	{
-		"hlc_optic_hensoldtzo_low_rds"
+		"$NONE_hlc_optic_hensoldtzo_low_rds$"
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"HLC_bipod_UTGShooters"
 	};	
 	magazines[] =
 	{
 		LIST_10("rhs_mag_20Rnd_SCAR_762x51_m80a1_epr_bk"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
-		LIST_2("rhs_mag_m67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_2("SmokeShell")
 	};	
 };
 
@@ -167,15 +167,15 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_std_eglm"
+		"$NONE_hlc_rifle_scarl_std_eglm$"
 	};
 	magazines[] =
 	{
 		LIST_16("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
 		LIST_2("rhs_mag_M441_HE"),
-		LIST_2("rhs_mag_m67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_2("SmokeShell")
 	};	
 };
 
@@ -189,7 +189,7 @@ class medic : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_cqc"
+		"$NONE_hlc_rifle_scarl_cqc$"
 	};	
 	backpackItems[] = 
 	{
@@ -226,6 +226,6 @@ class pilot : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_scarl_sc"
+		"$NONE_hlc_rifle_scarl_sc$"
 	};
 };

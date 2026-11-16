@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co54_red_piste_part2_parry_v3";
-addons[] = {"A3_Modules_F_Curator_Misc","A3_Characters_F","rhs_c_bmp","rhs_c_btr","rhsgref_c_vehicles_ret","rhsgref_c_a2port_armor","tmf_ai","CUP_Zakladna_DBE1","CUP_Misc3_Config","A3_Structures_F_Argo_Military_Fortifications","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Wrecks","A3_Structures_F_Mil_BagFence","A3_Structures_F_Civ_Constructions","CUP_WheeledVehicles_Skoda","CUP_WheeledVehicles_Datsun","A3_Soft_F_Gamma_Hatchback_01","CUP_WheeledVehicles_Tractor","A3_Soft_F_Gamma_Van_01","CUP_WheeledVehicles_UAZ","rhs_c_a2port_car","A3_Weapons_F_Ammoboxes","ace_explosives","cba_ai","CUP_Misc_e_Config","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Civ_Garbage","A3_Structures_F_Items_Vessels","ace_dragging","A3_Structures_F_EPA_Mil_Scrapyard","ace_cargo","CUP_CAStructures_E_Misc_Misc_Market","CUP_CAMisc","A3_Structures_F_Civ_Market","A3_Structures_F_Mil_Fortification","A3_Structures_F_Mil_Cargo","A3_Structures_F_EPB_Items_Vessels","A3_Structures_F_EPA_Civ_Constructions","A3_Structures_F_Civ_Camping","ace_sitting","A3_Structures_F_EPA_Civ_Camping","CUP_CAStructures_E_Misc_Misc_Interier","CUP_A1_EditorObjects","CUP_Ind_Tank","A3_Ui_F","hlcweapons_g36","CUP_Weapons_West_Attachments","CUP_Weapons_MAAWS","jsrs_soundmod_cup_weapons","CUP_Weapons_ACE_compat","fwa_carlgustav","rhsusf_c_weapons","ace_compat_rhs_usf3","A3_Weapons_F","pca_gear_blended_usa_headgear","USP_Gear_Body","acre_sys_prc343","ace_medical_treatment","lbtt_Vest_config","ace_realisticnames"};
+addons[] = {"A3_Modules_F_Curator_Misc","A3_Characters_F","rhs_c_bmp","rhs_c_btr","rhsgref_c_vehicles_ret","rhsgref_c_a2port_armor","tmf_ai","CUP_Zakladna_DBE1","CUP_Misc3_Config","A3_Structures_F_Argo_Military_Fortifications","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Wrecks","A3_Structures_F_Mil_BagFence","A3_Structures_F_Civ_Constructions","CUP_WheeledVehicles_Skoda","CUP_WheeledVehicles_Datsun","A3_Soft_F_Gamma_Hatchback_01","CUP_WheeledVehicles_Tractor","A3_Soft_F_Gamma_Van_01","CUP_WheeledVehicles_UAZ","rhs_c_a2port_car","A3_Weapons_F_Ammoboxes","ace_explosives","cba_ai","CUP_Misc_e_Config","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Civ_Garbage","A3_Structures_F_Items_Vessels","ace_dragging","A3_Structures_F_EPA_Mil_Scrapyard","ace_cargo","CUP_CAStructures_E_Misc_Misc_Market","CUP_CAMisc","A3_Structures_F_Civ_Market","A3_Structures_F_Mil_Fortification","A3_Structures_F_Mil_Cargo","A3_Structures_F_EPB_Items_Vessels","A3_Structures_F_EPA_Civ_Constructions","A3_Structures_F_Civ_Camping","ace_sitting","A3_Structures_F_EPA_Civ_Camping","CUP_CAStructures_E_Misc_Misc_Interier","CUP_A1_EditorObjects","CUP_Ind_Tank","A3_Ui_F","hlcweapons_g36","CUP_Weapons_West_Attachments","CUP_Weapons_MAAWS","jsrs_soundmod_cup_weapons","ace_compat_cup_weapons","sp_fwa_carlgustav","rhsusf_c_weapons","ace_compat_rhs_usf3","A3_Weapons_F","pca_gear_blended_usa_headgear","USP_Gear_Body","acre_sys_prc343","ace_medical_treatment","lbtt_Vest_config","ace_realisticnames"};
 class AddonsMetaData
 {
 	class List
@@ -288,14 +288,14 @@ class AddonsMetaData
 		};
 		class Item39
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item40
 		{
-			className = "fwa_carlgustav";
-			name = "fwa_carlgustav";
+			className = "sp_fwa_carlgustav";
+			name = "sp_fwa_carlgustav";
 		};
 		class Item41
 		{
@@ -1547,7 +1547,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -2496,7 +2496,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -9122,7 +9122,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -9842,7 +9842,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -22266,7 +22266,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -22353,7 +22353,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -22407,7 +22407,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -22623,7 +22623,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_M136";
+																							value = "CUP_launch_M136";
 																						};
 																					};
 																					class Item1
@@ -22650,7 +22650,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -22677,7 +22677,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -22731,7 +22731,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_fnmag";
+																							value = "CUP_lmg_FNMAG";
 																						};
 																					};
 																					class Item1
@@ -22758,7 +22758,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_100Rnd_762x51_m80a1epr";
+																							value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 																						};
 																					};
 																					class Item1
@@ -22812,7 +22812,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -22947,7 +22947,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -22974,7 +22974,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "HLC_bipod_UTGShooters";
 																						};
 																					};
 																					class Item1
@@ -29671,7 +29671,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
+											value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
 										};
 									};
 								};
@@ -29819,7 +29819,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
+											value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
 										};
 									};
 								};
@@ -30558,7 +30558,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -34627,7 +34627,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -34714,7 +34714,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -34768,7 +34768,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -34984,7 +34984,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_M136";
+																							value = "CUP_launch_M136";
 																						};
 																					};
 																					class Item1
@@ -35011,7 +35011,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -35038,7 +35038,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -35092,7 +35092,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_fnmag";
+																							value = "CUP_lmg_FNMAG";
 																						};
 																					};
 																					class Item1
@@ -35119,7 +35119,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_100Rnd_762x51_m80a1epr";
+																							value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 																						};
 																					};
 																					class Item1
@@ -35173,7 +35173,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -35308,7 +35308,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -35335,7 +35335,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "HLC_bipod_UTGShooters";
 																						};
 																					};
 																					class Item1
@@ -43119,7 +43119,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -43646,7 +43646,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
+											value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
 										};
 									};
 								};
@@ -44084,7 +44084,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -44171,7 +44171,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3";
+																							value = "CUP_arifle_G36A3";
 																						};
 																					};
 																					class Item1
@@ -44225,7 +44225,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -44441,7 +44441,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_M136";
+																							value = "CUP_launch_M136";
 																						};
 																					};
 																					class Item1
@@ -44468,7 +44468,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g36a3_ag36";
+																							value = "CUP_arifle_G36A3_AG36";
 																						};
 																					};
 																					class Item1
@@ -44495,7 +44495,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_g3ka4";
+																							value = "$NONE_hlc_rifle_g3ka4$";
 																						};
 																					};
 																					class Item1
@@ -44549,7 +44549,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_fnmag";
+																							value = "CUP_lmg_FNMAG";
 																						};
 																					};
 																					class Item1
@@ -44576,7 +44576,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_100Rnd_762x51_m80a1epr";
+																							value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 																						};
 																					};
 																					class Item1
@@ -44630,7 +44630,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_m2_carlgustaf_no78";
+																							value = "sp_fwa_m2_carlGustav_no78";
 																						};
 																					};
 																					class Item1
@@ -44765,7 +44765,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_optic_hensoldtzo_low";
+																							value = "$NONE_hlc_optic_hensoldtzo_low$";
 																						};
 																					};
 																					class Item1
@@ -44792,7 +44792,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_bipod_utgshooters";
+																							value = "HLC_bipod_UTGShooters";
 																						};
 																					};
 																					class Item1
@@ -51425,7 +51425,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[],[]],[[""fwa_1rnd_m2_carlgustaf_HEAT"",""fwa_1rnd_m2_carlgustaf_HE"",""fwa_1rnd_m2_carlgustaf_WP""],[6,2,2]],[[],[]],[[],[]]],false]";
+											value = "[[[[],[]],[[""sp_fwa_carlg_1rnd_heat"",""sp_fwa_carlg_1rnd_he"",""sp_fwa_carlg_1rnd_wp""],[6,2,2]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -51520,7 +51520,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_M136""],[8]],[[],[]],[[],[]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_M136""],[8]],[[],[]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -62354,7 +62354,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_g36a3";
+								name = "CUP_arifle_G36A3";
 								optics = "CUP_optic_AC11704_Black";
 								firemode = "hlc_rifle_g36a3:Single";
 								class primaryMuzzleMag
@@ -62369,7 +62369,7 @@ class Mission
 								optics = "CUP_optic_MAAWS_Scope";
 								class primaryMuzzleMag
 								{
-									name = "fwa_1rnd_m2_carlgustaf_HEAT";
+									name = "sp_fwa_carlg_1rnd_heat";
 									ammoLeft = 1;
 								};
 							};
@@ -62441,7 +62441,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -62468,7 +62468,7 @@ class Mission
 									items = 1;
 									class Item0
 									{
-										name = "fwa_1rnd_m2_carlgustaf_HEAT";
+										name = "sp_fwa_carlg_1rnd_heat";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -62900,7 +62900,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_g36a3";
+								name = "CUP_arifle_G36A3";
 								optics = "CUP_optic_AC11704_Black";
 								firemode = "hlc_rifle_g36a3:Single";
 								class primaryMuzzleMag
@@ -62915,7 +62915,7 @@ class Mission
 								optics = "CUP_optic_MAAWS_Scope";
 								class primaryMuzzleMag
 								{
-									name = "fwa_1rnd_m2_carlgustaf_HEAT";
+									name = "sp_fwa_carlg_1rnd_heat";
 									ammoLeft = 1;
 								};
 							};
@@ -62987,7 +62987,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -63014,7 +63014,7 @@ class Mission
 									items = 1;
 									class Item0
 									{
-										name = "fwa_1rnd_m2_carlgustaf_HEAT";
+										name = "sp_fwa_carlg_1rnd_heat";
 										count = 1;
 										ammoLeft = 1;
 									};

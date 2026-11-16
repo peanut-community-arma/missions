@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_elbv_harness_blk"
+		"V_HarnessOSpec_blk"
 	};
 	headgear[] = 
 	{
@@ -87,8 +87,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_30Rnd_556x45_Stanag_Mk16_black_Tracer_Green")
 	};
 };
@@ -98,7 +98,7 @@ class ar : rm
 	displayName = "Replica AR";
 	uniform[] = 
 	{
-		"aegis_cbrn_suit_oli",
+		"Atlas_U_I_I_CBRN_Suit_01_Olive_F",
 	};
 	primaryWeapon[] = 
 	{
@@ -106,8 +106,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_100Rnd_556x45_BetaCMag")
 	};
 };
@@ -133,8 +133,8 @@ class rm_lat : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("CUP_8Rnd_12Gauge_Slug")
 	};
 };
@@ -148,7 +148,7 @@ class elite : rm
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_blk"
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
@@ -172,8 +172,8 @@ class elite : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("hlc_30Rnd_556x45_B_G36")
 	};
 };
@@ -183,15 +183,15 @@ class elite_at : elite
 	displayName = "Replica Elites (LAT)";
 	uniform[] = 
 	{
-		"aegis_cws_latpat"
+		"pca_g3_latpatd"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_latpat"
+		"$NONE_aegis_modular_carrier_heavy_latpat$"
 	};
 	headgear[] = 
 	{
-		"aegis_amh_chops_latpat_wdl"
+		"$NONE_aegis_amh_chops_latpat_wdl$"
 	};
 	goggles[] = 
 	{
@@ -210,8 +210,8 @@ class elite_at : elite
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("CUP_20Rnd_B_AA12_Slug")
 	};
 };
@@ -221,11 +221,11 @@ class mill_g : rm
 displayName = "Miller Guards";
 	uniform[] = 
 	{
-		"aegis_ccu_cu_ctrg_arid",
+		"U_B_CTRG_Soldier_Arid_F",
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_heavy_ctrg"
+		"V_CarrierRigKBT_01_heavy_ctrg_F"
 	};
 	headgear[] = 
 	{
@@ -254,8 +254,8 @@ displayName = "Miller Guards";
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_40Rnd_46x30_MP7_Green_Tracer"),
 		LIST_2("ptv_12Rnd_45ACP_USP")
 	};
@@ -266,7 +266,7 @@ class miller : mill_g
 	displayName = "Miller";
 	vest[] = 
 	{
-		"aegis_platecarrier_spec_rgr"
+		"V_PlateCarrierSpec_rgr"
 	};
 	headgear[] = 
 	{};
@@ -281,8 +281,8 @@ class miller : mill_g
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_20Rnd_B_AA12_HE")
 	};
 };
@@ -312,8 +312,8 @@ class crewman : rm
 	attachment[] = {"cup_acc_flashlight_mp5"};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("CUP_30Rnd_Green_Tracer_9x19_MP5")
 	};
 };
@@ -337,8 +337,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

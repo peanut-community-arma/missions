@@ -73,7 +73,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 		bipod[] = 
 	{
@@ -94,7 +94,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 	backpackItems[] = 
@@ -120,20 +120,20 @@ class ar : rm
 	};
 	bipod[] = 
 	{
-		"hlc_bipod_utgshooters"
+		"HLC_bipod_UTGShooters"
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("hlc_15Rnd_9x19_JHP_P226"),
 		LIST_3("sps_200Rnd_556x45_M855A1_Mixed_KAC_Box")
 	};
@@ -194,18 +194,18 @@ class tl : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_M320"
+		"ptv_L2BPG"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 	backpackItems[] = 
 	{
 		LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG"),
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
 		LIST_2("SmokeShell")
 	};
@@ -217,13 +217,13 @@ class sl : tl
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red"),
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -237,7 +237,7 @@ class co : sl
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 	backpackItems[] =
@@ -246,7 +246,7 @@ class co : sl
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed"),
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -300,12 +300,12 @@ class mmg : ar
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("hlc_15Rnd_9x19_JHP_P226"),
 		LIST_3("sps_100Rnd_762x51_M80A1_Mixed_KAC_Box")
 	};

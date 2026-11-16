@@ -44,7 +44,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rcu_whex"
+		"Atlas_U_O_CombatFatigues_whex_F"
 	};
 	vest[] = 
 	{
@@ -53,11 +53,11 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_specter_cover_whex"
+		"H_HelmetSpecter_cover_whex_CO"
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_rgr"
+		"pca_kitbag_od"
 	};
 	primaryWeapon[] = 
 	{
@@ -94,7 +94,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -126,7 +126,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	backpackItems[] += 
 	{
@@ -143,7 +143,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] += 
 	{
@@ -160,8 +160,8 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_21("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_21("CUP_1Rnd_HEDP_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -177,7 +177,7 @@ class tl : rm
 	{
 		LIST_2("30Rnd_65x39_caseless_green"),
 		LIST_2("30Rnd_65x39_caseless_green_mag_Tracer"),
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 	};
 	linkedItems[] += 
 	{
@@ -199,8 +199,8 @@ class sl : tl
 	backpackItems[] =
 	{
 		LIST_2("30Rnd_65x39_caseless_green_mag_Tracer"),
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -213,7 +213,7 @@ class sgt : sl
 	displayName = "Platoon Sergeant";
 	backpackItems[] =
 	{
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -229,8 +229,8 @@ class co : sl
 	displayName = "Platoon Commander";
 	backpackItems[] =
 	{
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -251,7 +251,7 @@ class rm_fa : rm
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	backpackItems[] =
 	{
@@ -298,7 +298,7 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -331,7 +331,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	sidearmWeapon[] = 
 	{
@@ -356,7 +356,7 @@ class hat : rm
 	displayName = "Heavy Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	secondaryWeapon[] = 
 	{
@@ -373,7 +373,7 @@ class ahat : rm
 	displayName = "Assistant Heavy Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_whex"
+		"B_Carryall_owcamo"
 	};
 	backpackItems[] = 
 	{

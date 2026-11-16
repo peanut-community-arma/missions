@@ -1,16 +1,16 @@
-#define nades "rhs_mag_m67","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite","rhs_grenade_mki_mag","SmokeShell","SmokeShell"
+#define nades "CUP_HandGrenade_M67","ACE_Chemlight_HiWhite","ACE_Chemlight_HiWhite","rhs_grenade_mki_mag","SmokeShell","SmokeShell"
 
 class baseMan 
 {
 	displayName = "Unarmed";
 	// All Randomized
 	uniform[] = {
-		LIST_2("aegis_guerilla_garb_m81"),
-		LIST_4("aegis_guerilla_jacket_m81"),
-		"aegis_guerilla_tshirt_m81",
-		"aegis_guerilla_tshirt_m81_alt",
-		LIST_8("aegis_mcu_m81"),
-		LIST_4("aegis_mcu_rs_m81")
+		LIST_2("Rev_U_B_FRR_Uniform_03_F"),
+		LIST_4("Atlas_U_UniformBDU_02_m81_F"),
+		"Rev_U_B_FRR_Uniform_02_F",
+		"Rev_U_B_FRR_Uniform_01_F",
+		LIST_8("Atlas_U_UniformBDU_01_m81_F"),
+		LIST_4("Atlas_U_UniformBDU_02_m81_F")
 	};
 	vest[] = {
 		LIST_3("simc_alice_lbv_m81"),
@@ -25,7 +25,7 @@ class baseMan
 		LIST_2("pca_assaultpack_m81")
 	};
 	headgear[] = {
-		"aegis_boonie_m81",
+		"H_Booniehat_m81_F",
 		"simc_m1_m81",
 		LIST_2("simc_m1_m81_alt"),
 		"simc_m1_m81_swdg",
@@ -94,13 +94,13 @@ class rm : baseMan
 	{
 		"camel_weap_k1a_rgr",
 		LIST_2("camel_weap_k1a_blk"),
-		LIST_4("hlc_rifle_scarl_std"),
-		LIST_2("hlc_rifle_scarl_std_camo")
+		LIST_4("$NONE_hlc_rifle_scarl_std$"),
+		LIST_2("$NONE_hlc_rifle_scarl_std_camo$")
 	};
 	scope[] = 
 	{
 		LIST_12(""),
-		LIST_2("sma_acc_vortex_lc_blk"),
+		LIST_2("$NONE_sma_acc_vortex_lc_blk$"),
 		"CUP_optic_Eotech553_OD"
 	};
 	magazines[] = 
@@ -116,14 +116,14 @@ class rm_lt : baseMan
 	displayName = "Rifleman (Light)";
 	primaryWeapon[] = 
 	{
-		LIST_2("hlc_rifle_magpul556_grn"),
-		"hlc_rifle_magpul556_blk",
-		"hlc_rifle_mk18mod0"
+		LIST_2("$NONE_hlc_rifle_magpul556_grn$"),
+		"$NONE_hlc_rifle_magpul556_blk$",
+		"CUP_arifle_mk18_black"
 	};
 	scope[] = 
 	{
 		LIST_12(""),
-		LIST_2("sma_acc_vortex_lc_blk"),
+		LIST_2("$NONE_sma_acc_vortex_lc_blk$"),
 		"CUP_optic_Eotech553_OD"
 	};
 };
@@ -133,23 +133,23 @@ class ar : baseMan
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		LIST_2("rhs_weap_m240G"),
-		"rhs_weap_m240B",
+		LIST_2("CUP_lmg_M240"),
+		"CUP_lmg_M240_B",
 		LIST_6("rhs_weap_m249")
 	};
 	sidearmWeapon[] = {
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};	
 	scope[] = 
 	{
 		LIST_12(""),
-		LIST_2("sma_acc_vortex_lc_blk"),
+		LIST_2("$NONE_sma_acc_vortex_lc_blk$"),
 		"CUP_optic_Eotech553_OD"
 	};
 	magazines[] = 
 	{
 		nades,
-		LIST_2("rhsusf_mag_7x45acp_MHP")
+		LIST_2("CUP_7Rnd_45ACP_1911")
 	};
 };
 
@@ -187,15 +187,15 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_maaws"
+		"CUP_launch_MAAWS"
 	};
 	secondaryAttachments[] = 
 	{
-		"rhs_optic_maaws"
+		"CUP_optic_MAAWS_Scope"
 	};
 	backpackItems[] = 
 	{
-		LIST_4("fwa_1rnd_m2_carlgustaf_HEAT")
+		LIST_4("sp_fwa_carlg_1rnd_heat")
 	};
 };
 
@@ -204,8 +204,8 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_std_eglm_camo",
-		LIST_2("hlc_rifle_scarl_std_eglm")
+		"$NONE_hlc_rifle_scarl_std_eglm_camo$",
+		LIST_2("$NONE_hlc_rifle_scarl_std_eglm$")
 	};
 	magazines[] += 
 	{
@@ -218,14 +218,14 @@ class marksman : baseMan
 {
 	displayName = "Marksman";
 	primaryWeapon[] = {
-		LIST_3("hlc_rifle_scarh_ssr"),
-		"hlc_rifle_scarh_ssr_camo"
+		LIST_3("$NONE_hlc_rifle_scarh_ssr$"),
+		"$NONE_hlc_rifle_scarh_ssr_camo$"
 	};
 	scope[] = {
 		"CUP_optic_SB_11_4x20_PM"
 	};
 	bipod[] = {
-		"hlc_bipod_utgshooters"
+		"HLC_bipod_UTGShooters"
 	};
 	items[] = {
 		"ACE_RangeCard",
@@ -240,10 +240,10 @@ class medic : baseMan
 {
 	displayName = "Medic";
 	primaryWeapon[] = {
-		LIST_2("hlc_rifle_aks74u"),
+		LIST_2("CUP_arifle_AKS74U"),
 		"CUP_smg_MP7",
-		LIST_4("aegis_weap_vector_blk"),
-		LIST_6("hlc_smg_mp5k")
+		LIST_4("SMG_01_black_F"),
+		LIST_6("SMG_05_F")
 	};
 	backpackItems[] = 
 	{

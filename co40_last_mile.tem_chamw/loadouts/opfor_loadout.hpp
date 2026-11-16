@@ -26,7 +26,7 @@ class baseMan
 	{
 		"G_Balaclava_combat",
 		"G_Balaclava_lowprofile",
-		"aegis_bala_light_gogg_blk",
+		"G_Balaclava_light_G_blk_F",
 		"pca_balaclava_gogg_mcalp"
 	};
 	hmd[] = {};
@@ -74,8 +74,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_auga3_gry",
-		"hlc_rifle_auga3_tan"
+		"$NONE_hlc_rifle_auga3_gry$",
+		"$NONE_hlc_rifle_auga3_tan$"
 	};
 	scope[] = 
 	{
@@ -84,8 +84,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("hlc_30Rnd_556x45_EPR_AUG")
 	};
 };
@@ -99,8 +99,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("ptv_50Rnd_556x45_M856_Galil_Mag")
 	};
 };
@@ -114,8 +114,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhsusf_50Rnd_762x51")
 	};
 };
@@ -125,7 +125,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -226,8 +226,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -251,8 +251,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

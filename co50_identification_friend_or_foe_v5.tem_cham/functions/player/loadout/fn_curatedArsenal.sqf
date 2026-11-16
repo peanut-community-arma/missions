@@ -26,29 +26,29 @@ private _itemGear =
 [
 	//Common items shared by all classes except for vehicle crews
 	//Helmet
-	"simc_pasgt_m81",
-	"simc_pasgt_m81_band",
-	"simc_pasgt_m81_scrim",
+	"H_Simc_pasgt_m81",
+	"H_Simc_pasgt_m81_b",
+	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
-	"simc_pasgt_m81_swdg",
-	"simc_pasgt_m81_swdg_band",
+	"H_Simc_pasgt_m81_SWDG",
+	"H_Simc_pasgt_m81_b_SWDG",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
-	"simc_pasgt_m81_swdg_low",
-	"simc_pasgt_m81_swdg_low_band",
+	"H_Simc_pasgt_m81_SWDG_low",
+	"H_Simc_pasgt_m81_SWDG_low_b",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band",
 	"simc_bonnie_hat_m81",
 	"simc_bonnie_hat_flat_m81",
 	"rhs_Booniehat_m81",
 	"pca_beanie_oli",
-	"usm_headwrap_odg1",
-	"usm_headwrap_odg2",
-	"usm_headwrap_blk",
-	"usm_bdu_cap_wdl",
+	"CUP_H_FR_BandanaGreen",
+	"H_Bandanna_khk",
+	"H_Bandanna_gry",
+	"Aegis_H_Milcap_nohs_wdl_F",
 	"H_Bandanna_khk",
 
 	//Uniform
@@ -124,7 +124,7 @@ private _itemGearCrew =
 [
 	"75r_nomex_gry",
 	"75r_nomex_tan",
-	"simc_cvc",
+	"H_Simc_CVC",
 	"simc_cvc_swdg",
 	"simc_cvc_swdg_cover",
 	"simc_cvc_swdg_low",
@@ -179,15 +179,15 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
 	"CUP_RUS_Balaclava_blk",
-	"usm_swdgoggles",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"rhs_scarf",
 	"simc_nomex_blk",
 	"simc_nomex_alt",
@@ -201,8 +201,8 @@ private _itemCosmetic =
 	"simc_nomex_long_alt",
 	"simc_nomex_long",
 	"simc_nomex_long_tan",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"bear_bandana_m81",
 	"CUP_G_TK_RoundGlasses_blk",
 
@@ -213,18 +213,18 @@ private _itemCosmetic =
 	"m40_gas_mask_01_nvg",
 	"m40_gas_mask_02_nvg",
 	"m40_gas_mask_03_nvg",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"nvg_scrim_wdl_pine",
-	"usm_nvg_gigloves",
-	"usm_nvg_giglovesscarf2",
-	"usm_nvg_giglovesscarf",
-	"usm_nvg_swdgoggles",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_nvg_scrim_wdl_pine$",
+	"pca_nvg_gloves_wool",
+	"$NONE_usm_nvg_giglovesscarf2$",
+	"$NONE_usm_nvg_giglovesscarf$",
+	"$NONE_usm_nvg_swdgoggles$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool_blu",
 	"pca_nvg_gloves_wool_brn",
@@ -305,8 +305,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -322,16 +322,16 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m16a1",
-    "hlc_rifle_m16a2",
-	"hlc_rifle_xm177e2"
+	"CUP_arifle_M16A1",
+    "CUP_arifle_M16A2",
+	"$REMOVE_hlc_rifle_xm177e2$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m16a1_m203",
-	"hlc_rifle_m16a2_m203",
-    "hlc_rifle_colt727_m203"
+	"CUP_arifle_M16A1GL",
+	"CUP_arifle_Colt727_M203",
+    "CUP_arifle_Colt727_M203"
 ];
 
 private _itemWeapAR = 
@@ -362,13 +362,13 @@ private _itemWeapMAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1"
+	"CUP_hgun_Colt1911"
 ];
 
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",
 	"rhsusf_200rnd_556x45_M855_mixed_box",
 	"rhsusf_200rnd_556x45_M856_box",
@@ -376,16 +376,16 @@ private _itemAmmo =
 	"pca_mag_100Rnd_556x45_M856_soft_pouch_od",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//Explosives
 	"rhs_mag_m714_White",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

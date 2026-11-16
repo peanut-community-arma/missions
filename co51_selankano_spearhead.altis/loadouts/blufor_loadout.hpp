@@ -54,7 +54,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12"
+		"arifle_AK12_545_F"
 	};
 	attachment[] = 
 	{
@@ -78,8 +78,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
-		LIST_2("rhs_mag_rgo"),
+		"SmokeShell",
+		LIST_2("CUP_HandGrenade_RGO"),
 		LIST_13("pca_mag_30Rnd_545x39_AK12_Blk_7N22")
 	};
 	backpackItems[] = 
@@ -97,8 +97,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
-		LIST_2("rhs_mag_rgo"),
+		"SmokeShell",
+		LIST_2("CUP_HandGrenade_RGO"),
 		LIST_5("rhs_100Rnd_762x54mmR_7N26")
 	};
 	backpackItems[] = 
@@ -146,7 +146,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	backpackItems[] += 
 	{
@@ -164,7 +164,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	backpackItems[] =
 	{
@@ -193,7 +193,7 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	backpackItems[] =
 	{
@@ -249,7 +249,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	backpackItems[] =
 	{
@@ -281,12 +281,12 @@ class crew : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgo"),
+		LIST_2("SmokeShell"),
+		LIST_2("CUP_HandGrenade_RGO"),
 		LIST_7("rhs_30Rnd_545x39_7N10_AK")
 	};
 	backpackItems[] = 

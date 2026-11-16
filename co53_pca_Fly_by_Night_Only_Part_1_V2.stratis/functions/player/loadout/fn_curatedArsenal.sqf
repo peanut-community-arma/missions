@@ -122,7 +122,7 @@ private _itemHeadgear =
 	"bear_bdu_booniehat_m81",
 	"CUP_H_USA_Boonie_wdl",
 	"bear_bdu_8point_m81",
-	"aegis_milcap_m81"
+	"H_milcap_m81_F"
 ];
 
 private _itemHeadgearCrew = 
@@ -189,24 +189,24 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
-	"aegis_shades_yellow",
-	"aegis_shemag_khk",
-	"aegis_shemag_shades_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
+	"G_Shades_Yellowred",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_shades_khk$",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
 	"bear_balaclava1_black",
 	"bear_bandana_m81",
 	"CUP_RUS_Balaclava_blk",
@@ -257,13 +257,13 @@ private _itemCosmetic =
 	"CUP_FR_NeckScarf",
 	"CUP_FR_NeckScarf5",
 	"CUP_FR_NeckScarf4",
-	"usm_kneepads_blk",
-	"usm_swdgoggles",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$NONE_usm_kneepads_blk$",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_blk",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_rgr",
@@ -309,15 +309,15 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhssaf_veil_Green",
 	
 	"murshun_cigs_cig0",
 	"immersion_pops_pop0",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	//HMD
 	"CUP_NVG_GPNVG_black"
@@ -389,8 +389,8 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_rx01_nofilter",
 	"rhsusf_acc_rx01_nofilter_tan",
@@ -403,16 +403,16 @@ private _itemAcc =
 	"ptv_acc_t1",
 	"ptv_acc_eot552",
 	
-	"sma_acc_cmore_blk",
-	"sma_acc_cmore_grn",
-	"sma_acc_micro_t2",
-	"sma_acc_eotech_552_blk",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_kf_od",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_od",
-	"sma_acc_eotech_xps3_tan",
+	"$NONE_sma_acc_cmore_blk$",
+	"$NONE_sma_acc_cmore_grn$",
+	"$NONE_sma_acc_micro_t2$",
+	"RKSL_optic_EOT552",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_kf_od$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_od$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
 	
 	
 	"cup_optic_vortexrazor_uh1_black",
@@ -460,13 +460,13 @@ private _itemAcc =
 	"cup_optic_aimm_microt1_od",
 	"cup_optic_aimm_compm4_blk",
 	
-	"sma_acc_eotech_xps3_g33_blk",
-	"sma_acc_eotech_xps3_g33_od",
-	"sma_acc_eotech_xps3_g33_tan",
-	"sma_acc_eotech_552_g33_blk",
-	"sma_acc_eotech_552_g33_od",
-	"sma_acc_eotech_552_g33_tan",
-	"sma_acc_micro_t2_g33",
+	"$NONE_sma_acc_eotech_xps3_g33_blk$",
+	"$NONE_sma_acc_eotech_xps3_g33_od$",
+	"$NONE_sma_acc_eotech_xps3_g33_tan$",
+	"$NONE_sma_acc_eotech_552_g33_blk$",
+	"$NONE_sma_acc_eotech_552_g33_od$",
+	"$NONE_sma_acc_eotech_552_g33_tan$",
+	"$NONE_sma_acc_micro_t2_g33$",
 	
 	
 	
@@ -491,7 +491,7 @@ private _itemAcc =
 	"rhsusf_acc_grip_m203_d",
 	"rhsusf_acc_grip_m203_wd",
 	
-	"hlc_bipod_utgshooters",
+	"HLC_bipod_UTGShooters",
 	"cup_bipod_harris_1a2_l_blk",
 	
 	//Tactical Device
@@ -504,7 +504,7 @@ private _itemAcc =
 	"cup_acc_anpeq_15_top_flashlight_black_l",
 	"cup_acc_anpeq_15_top_flashlight_tan_l",
 	"cup_acc_llm_black_flashlight",
-	"hlc_acc_dbalpl",
+	"hlc_acc_DBALPL",
 	
 	//muzzle
 	"ptv_acc_rotexv",
@@ -512,57 +512,57 @@ private _itemAcc =
 	"rhsusf_acc_nt4_black",
 	"rhsusf_acc_nt4_tan",
 	
-	"sma_silencer_gemtech_halo_556_blk",
-	"sma_silencer_gemtech_halo_556_blk_hwg",
-	"sma_silencer_gemtech_halo_556_tan",
-	"sma_silencer_gemtech_halo_556_tan_hwt",
+	"$NONE_sma_silencer_gemtech_halo_556_blk$",
+	"$NONE_sma_silencer_gemtech_halo_556_blk_hwg$",
+	"$NONE_sma_silencer_gemtech_halo_556_tan$",
+	"$NONE_sma_silencer_gemtech_halo_556_tan_hwt$",
 	
-	"sma_silencer_kac_nt4_blk",
-	"sma_silencer_kac_nt4_blk_hwb",
-	"sma_silencer_kac_nt4_blk_hwg",
-	"sma_silencer_kac_nt4_tan",
-	"sma_silencer_kac_nt4_tan_hwt",
+	"$NONE_sma_silencer_kac_nt4_blk$",
+	"$NONE_sma_silencer_kac_nt4_blk_hwb$",
+	"$NONE_sma_silencer_kac_nt4_blk_hwg$",
+	"$NONE_sma_silencer_kac_nt4_tan$",
+	"$NONE_sma_silencer_kac_nt4_tan_hwt$",
 	
-	"hlc_muzzle_octane45"
+	"hlc_muzzle_Octane45"
 	
 ];
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_m4a1",
-	"hlc_rifle_m4a1_carryhandle",
-	"hlc_rifle_m4a1_cqbr",
-	"hlc_rifle_mk18mod0",
-	"hlc_rifle_samr",
+	"CUP_arifle_M4A1_black",
+	"CUP_arifle_M4A1",
+	"$NONE_hlc_rifle_m4a1_cqbr$",
+	"CUP_arifle_mk18_black",
+	"$NONE_hlc_rifle_samr$",
 
-	"hlc_rifle_magpul556_blk",
-	"hlc_rifle_magpul556_grn",
-	"hlc_rifle_magpul556",
-	"hlc_rifle_bcm_jack",
-	"hlc_rifle_bcm_jack_blk",
+	"$NONE_hlc_rifle_magpul556_blk$",
+	"$NONE_hlc_rifle_magpul556_grn$",
+	"$NONE_hlc_rifle_magpul556$",
+	"$NONE_hlc_rifle_bcm_jack$",
+	"$NONE_hlc_rifle_bcm_jack_blk$",
 	
 	
-	"hlc_rifle_hk416d10",
-	"hlc_rifle_hk416d10_camo_grn",
-	"hlc_rifle_hk416d10_camo_tan",
-	"hlc_rifle_hk416d10rahg",
-	"hlc_rifle_hk416d10rahg_mstock",
-	"hlc_rifle_hk416d10smr",
-	"hlc_rifle_hk416d145",
-	"hlc_rifle_hk416d145_camo_grn",
-	"hlc_rifle_hk416d145_camo_tan",
-	"hlc_rifle_hk416d145smr",
-	"hlc_rifle_hk416d165",
-	"hlc_rifle_hk416d165_camo_grn",
-	"hlc_rifle_hk416d165_camo_tan",
-	"hlc_rifle_hk416n",
+	"rhs_weap_hk416d10",
+	"rhs_weap_hk416d10_LMT_wd",
+	"rhs_weap_hk416d10_LMT_d",
+	"$NONE_hlc_rifle_hk416d10rahg$",
+	"$NONE_hlc_rifle_hk416d10rahg_mstock$",
+	"$NONE_hlc_rifle_hk416d10smr$",
+	"rhs_weap_hk416d145",
+	"rhs_weap_hk416d145_wd",
+	"rhs_weap_hk416d145_d",
+	"$NONE_hlc_rifle_hk416d145smr$",
+	"$NONE_hlc_rifle_hk416d165$",
+	"$NONE_hlc_rifle_hk416d165_camo_grn$",
+	"$NONE_hlc_rifle_hk416d165_camo_tan$",
+	"$NONE_hlc_rifle_hk416n$",
 	
-	"hlc_rifle_acr_sbr_blk",
-	"hlc_rifle_acr_sbr_grn",
-	"hlc_rifle_acr_sbr_tan",
-	"hlc_rifle_acr_car_blk",
-	"hlc_rifle_acr_car_grn",
-	"hlc_rifle_acr_car_tan"
+	"$NONE_hlc_rifle_acr_sbr_blk$",
+	"$NONE_hlc_rifle_acr_sbr_grn$",
+	"$NONE_hlc_rifle_acr_sbr_tan$",
+	"CUP_arifle_ACRC_blk_68",
+	"CUP_arifle_ACRC_wdl_68",
+	"CUP_arifle_ACRC_tan_68"
 	
 	
 	
@@ -570,24 +570,24 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_m4a1_m203",
+	"CUP_arifle_M4A1_BUIS_GL",
 	
-	"hlc_rifle_hk416d10_agc_camo_grn",
-	"hlc_rifle_hk416d10_agc_camo_tan",
-	"hlc_rifle_hk416d145_agc",
-	"hlc_rifle_hk416d145_agc_camo_grn",
-	"hlc_rifle_hk416d145_agc_camo_tan",
-	"hlc_rifle_hk416d165_agc",
-	"hlc_rifle_hk416d165_agc_camo_grn",
-	"hlc_rifle_hk416d165_agc_camo_tan",
-	"hlc_rifle_hk416n_agc",
+	"rhs_weap_hk416d10_m320",
+	"rhs_weap_hk416d10_m320",
+	"rhs_weap_hk416d145_m320",
+	"$NONE_hlc_rifle_hk416d145_agc_camo_grn$",
+	"$NONE_hlc_rifle_hk416d145_agc_camo_tan$",
+	"$NONE_hlc_rifle_hk416d165_agc$",
+	"$NONE_hlc_rifle_hk416d165_agc_camo_grn$",
+	"$NONE_hlc_rifle_hk416d165_agc_camo_tan$",
+	"$NONE_hlc_rifle_hk416n_agc$",
 	
-	"hlc_rifle_acr_sbr_m203_blk",
-	"hlc_rifle_acr_sbr_m203_grn",
-	"hlc_rifle_acr_sbr_m203_tan",
-	"hlc_rifle_acr_car_m203_blk",
-	"hlc_rifle_acr_car_m203_grn",
-	"hlc_rifle_acr_car_m203_tan"
+	"$NONE_hlc_rifle_acr_sbr_m203_blk$",
+	"$NONE_hlc_rifle_acr_sbr_m203_grn$",
+	"$NONE_hlc_rifle_acr_sbr_m203_tan$",
+	"CUP_arifle_ACRC_EGLM_blk_68",
+	"CUP_arifle_ACRC_EGLM_wdl_68",
+	"CUP_arifle_ACRC_EGLM_tan_68"
 	
 ];
 
@@ -601,7 +601,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -613,12 +613,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -634,7 +634,7 @@ private _itemAmmo =
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//IR things 
 	"ACE_IR_Strobe_Item",
@@ -683,23 +683,23 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -708,7 +708,7 @@ private _itemEngineer =
 	"ACE_DefusalKit",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112x4_mag",
+	"SatchelCharge_Remote_Mag",
 	"ToolKit"
 ];
 

@@ -44,11 +44,11 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_acu_ausmtp"
+		"Atlas_U_B_A_CombatUniform_aucamo"
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_rig_ausmtp"
+		"V_PlateCarrier2_aucamo_F"
 	};
 	headgear[] = 
 	{
@@ -56,15 +56,15 @@ class rm : baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_kitbag_ausmpt"
+		"B_Kitbag_aucamo_F"
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90"
+		"arifle_AUG_black_F"
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 	items[] =
 	{
@@ -79,7 +79,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("hlc_30Rnd_556x45_EPR_AUG")
 	};
 	backpackItems[] = 
@@ -93,11 +93,11 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"aegis_platecarrier_spec_ausmtp"
+		"V_PlateCarrierGL_aucamo_F"
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -105,18 +105,18 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_FMJ_P226"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_4("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -125,11 +125,11 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_kitbag_ausmpt"
+		"B_Kitbag_aucamo_F"
 	};
 	backpackItems[] += 
 	{
-		LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_4("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -142,11 +142,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 	backpackItems[] += 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -155,12 +155,12 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90_eglm"
+		"arifle_AUG_GL_black_F"
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_21("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_21("CUP_1Rnd_HEDP_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -171,13 +171,13 @@ class tl : rm
 	backpackItems[] =
 	{
 		LIST_2("hlc_30Rnd_556x45_EPR_T_AUG"),
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_3("1Rnd_Smoke_Grenade_shell")
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_aur90_eglm"
+		"arifle_AUG_GL_black_F"
 	};
 	linkedItems[] += 
 	{
@@ -190,7 +190,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	headgear[] = 
 	{
-		"aegis_beret_sf_brn"
+		"H_Beret_brn_SF"
 	};
 	items[] += 
 	{
@@ -198,7 +198,7 @@ class sl : tl
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -207,8 +207,8 @@ class sl : tl
 	backpackItems[] =
 	{
 		LIST_2("hlc_30Rnd_556x45_EPR_T_AUG"),
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -221,7 +221,7 @@ class sgt : sl
 	displayName = "Platoon Sergeant";
 	backpackItems[] =
 	{
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -243,7 +243,7 @@ class fac : sl
 	backpackItems[] =
 	{
 		"Laserbatteries",
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_4("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
@@ -264,7 +264,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	backpackItems[] =
 	{
@@ -285,7 +285,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -311,30 +311,30 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	vest[] = 
 	{
-		"aegis_platecarrier_spec_ausmtp"
+		"V_PlateCarrierGL_aucamo_F"
 	};
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240G"
+		"CUP_lmg_M240"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_FMJ_P226"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -343,11 +343,11 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -355,7 +355,7 @@ class ammg : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -368,11 +368,11 @@ class mat : rm
 	displayName = "Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf_no78"
+		"sp_fwa_m2_carlGustav_no78"
 	};
 	secondaryAttachments[] = 
 	{
@@ -380,7 +380,7 @@ class mat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m2_carlgustaf_HEAT")
+		LIST_2("sp_fwa_carlg_1rnd_heat")
 	};
 };
 
@@ -389,11 +389,11 @@ class amat : rm
 	displayName = "Assistant Medium Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_ausmtp"
+		"B_Carryall_aucamo"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] += 
 	{
@@ -401,8 +401,8 @@ class amat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m2_carlgustaf_HEAT"),
-		"fwa_1rnd_m2_carlgustaf_HE"
+		LIST_2("sp_fwa_carlg_1rnd_heat"),
+		"sp_fwa_carlg_1rnd_he"
 	};
 	linkedItems[] += 
 	{
@@ -415,7 +415,7 @@ class hp : rm
 	displayName = "Helicopter Pilot";
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_ausmtp"
+		"V_PlateCarrier1_aucamo_F"
 	};
 	headgear[] = 
 	{
@@ -427,7 +427,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] = 
 	{

@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co70_technical_issues_v104";
-addons[] = {"A3_Characters_F","fwa_ar10","fwa_riflegrenades","CUP_Weapons_M9","jsrs_soundmod_cup_weapons","rhsusf_c_weapons","A3_Weapons_F","ace_optics","pca_gear_blended_gear","acre_sys_prc343","ace_medical_treatment","pca_misc_pca_extra_contents","ace_realisticnames","ace_grenades","acre_sys_prc148","A3_Weapons_F_Explosives","ace_explosives","ace_maptools","rhsgref_c_troops","CUP_WheeledVehicles_Hilux","CUP_Misc3_Config","A3_Structures_F_Mil_BagBunker","lambs_wp","A3_Structures_F_Argo_Military_Fortifications","gm_objects_fortification","A3_Structures_F_Exp_Military_Fortifications","tmf_ai","rhsgref_c_vehicles_ret","CUP_Weapons_AmmoBoxes","A3_Structures_F_Mil_BagFence","A3_Ui_F"};
+addons[] = {"A3_Characters_F","sp_fwa_AR10","sp_fwa_riflegrenades","CUP_Weapons_M9","jsrs_soundmod_cup_weapons","rhsusf_c_weapons","A3_Weapons_F","ace_optics","pca_gear_blended_gear","acre_sys_prc343","ace_medical_treatment","pca_extra_contents","ace_realisticnames","ace_grenades","acre_sys_prc148","A3_Weapons_F_Explosives","ace_explosives","ace_maptools","rhsgref_c_troops","CUP_WheeledVehicles_Hilux","CUP_Misc3_Config","A3_Structures_F_Mil_BagBunker","lambs_wp","A3_Structures_F_Argo_Military_Fortifications","gm_objects_fortification","A3_Structures_F_Exp_Military_Fortifications","tmf_ai","rhsgref_c_vehicles_ret","CUP_Weapons_AmmoBoxes","A3_Structures_F_Mil_BagFence","A3_Ui_F"};
 class AddonsMetaData
 {
 	class List
@@ -52,13 +52,13 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className = "fwa_ar10";
-			name = "fwa_ar10";
+			className = "sp_fwa_AR10";
+			name = "sp_fwa_AR10";
 		};
 		class Item2
 		{
-			className = "fwa_riflegrenades";
-			name = "fwa_riflegrenades";
+			className = "sp_fwa_riflegrenades";
+			name = "sp_fwa_riflegrenades";
 		};
 		class Item3
 		{
@@ -113,7 +113,7 @@ class AddonsMetaData
 		};
 		class Item11
 		{
-			className = "pca_misc_pca_extra_contents";
+			className = "pca_extra_contents";
 			name = "Extra Contents";
 			author = "PCA";
 		};
@@ -1143,11 +1143,11 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "fwa_weap_ar10_prt";
+								name = "sp_fwa_ar10_porto";
 								firemode = "fwa_weap_ar10_prt:Single";
 								class primaryMuzzleMag
 								{
-									name = "fwa_20rnd_762x51_ar10";
+									name = "sp_fwa_20Rnd_762_ar10";
 									ammoLeft = 20;
 								};
 								class secondaryMuzzleMag
@@ -1223,13 +1223,13 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
 									class Item2
 									{
-										name = "fwa_20rnd_762x51_ar10";
+										name = "sp_fwa_20Rnd_762_ar10";
 										count = 12;
 										ammoLeft = 20;
 									};
@@ -1264,13 +1264,13 @@ class Mission
 									items = 7;
 									class Item0
 									{
-										name = "fwa_20rnd_762x51_ar10";
+										name = "sp_fwa_20Rnd_762_ar10";
 										count = 2;
 										ammoLeft = 20;
 									};
 									class Item1
 									{
-										name = "fwa_20rnd_762x51_ar10_tracer_red";
+										name = "sp_fwa_20Rnd_762_ar10_Tracer";
 										count = 2;
 										ammoLeft = 20;
 									};
@@ -40050,7 +40050,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_akm"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_762x39mm_bakelite"",""rhs_30Rnd_762x39mm"",""rhs_30Rnd_762x39mm_polymer"",""rhs_30Rnd_545x39_7N6M_plum_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[10,8,2,10,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+							value = "[[[[""rhs_weap_akm"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_762x39mm_bakelite"",""rhs_30Rnd_762x39mm"",""rhs_30Rnd_762x39mm_polymer"",""rhs_30Rnd_545x39_7N6M_plum_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[10,8,2,10,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 						};
 					};
 				};

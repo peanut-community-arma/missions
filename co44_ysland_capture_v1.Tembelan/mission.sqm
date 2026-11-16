@@ -8968,7 +8968,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak12";
+																							value = "arifle_AK12_545_F";
 																						};
 																					};
 																					class Item1
@@ -8995,7 +8995,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -9022,7 +9022,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -9076,7 +9076,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_mag_7x45acp_MHP";
+																							value = "CUP_7Rnd_45ACP_1911";
 																						};
 																					};
 																					class Item1
@@ -9184,7 +9184,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_weap_m1911a1";
+																							value = "CUP_hgun_Colt1911";
 																						};
 																					};
 																					class Item1
@@ -9211,7 +9211,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk12";
+																							value = "Aegis_arifle_RPK12_545_F";
 																						};
 																					};
 																					class Item1
@@ -9292,7 +9292,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aku12";
+																							value = "arifle_AK12U_545_F";
 																						};
 																					};
 																					class Item1
@@ -9373,7 +9373,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak12_gp25";
+																							value = "arifle_AK12_GL_545_F";
 																						};
 																					};
 																					class Item1

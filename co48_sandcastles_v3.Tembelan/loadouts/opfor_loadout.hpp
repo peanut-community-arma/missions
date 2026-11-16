@@ -54,26 +54,26 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_combat_ddpm"
+		"CUP_U_B_BDUv2_DPM"
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_grn"
+		"V_TacVest_grn"
 	};
 	headgear[] = 
 	{
-		LIST_3("wsx_helmet_combat_ddpm"),
-		LIST_2("wsx_helmet_combat_ddpm_ess_bare")
+		LIST_3("$REMOVE_wsx_helmet_combat_ddpm$"),
+		LIST_2("$REMOVE_wsx_helmet_combat_ddpm_ess_bare$")
 	};
 	backpack[] = 
 	{
 		LIST_7(""),
-		LIST_2("aegis_assaultpack_tropic")
+		LIST_2("B_AssaultPack_tna_F")
 	};
 	primaryWeapon[] = 
 	{
 		"CUP_arifle_M16A4_Base",
-		LIST_4("hlc_rifle_ar18")
+		LIST_4("sp_fwa_ar18")
 	};
 	magazines[] = 
 	{
@@ -92,7 +92,7 @@ class ar : rm
 	};
 	scope[] =
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 	bipod[] =
 	{
@@ -120,7 +120,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m16a4_carryhandle_M203"
+		"CUP_arifle_M16A4_GL"
 	};
 	magazines[] += 
 	{
@@ -134,7 +134,7 @@ class medic : rm
 	displayName = "Medic";
 	backpack[] = 
 	{
-		"aegis_kitbag_tropic"
+		"B_Kitbag_tna_F"
 	};
 	backpackItems[] = 
 	{

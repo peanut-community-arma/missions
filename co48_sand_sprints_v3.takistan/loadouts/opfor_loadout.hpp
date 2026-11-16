@@ -70,7 +70,7 @@ class rm : baseMan
 	{
 		LIST_3(""),
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	primaryWeapon[] = 
 	{
@@ -84,8 +84,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhssaf_30Rnd_762x39mm_M67")
 	};
 };
@@ -95,12 +95,12 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk"
+		"arifle_RPK_F"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_9("pca_mag_40Rnd_762x39_Polymer_Mixed")
 	};
 };
@@ -111,7 +111,7 @@ class mg : rm
 	backpack[] = 
 	{
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	primaryWeapon[] = 
 	{
@@ -128,7 +128,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -137,7 +137,7 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	backpack[] = 
 	{
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	secondaryWeapon[] = 
 	{
@@ -174,7 +174,7 @@ class medic : rm
 	backpack[] = 
 	{
 		LIST_2("pca_assaultpack_cbr"),
-		"aegis_tacticalpack_cbr"
+		"B_TacticalPack_khk"
 	};
 	backpackItems[] = 
 	{
@@ -237,8 +237,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

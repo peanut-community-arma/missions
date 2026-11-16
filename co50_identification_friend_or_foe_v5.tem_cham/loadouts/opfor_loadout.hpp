@@ -3,7 +3,7 @@
 	* Template for creating enemy loadouts.
 	* Faction: Example Russian Army Loadout (EMR, 2020)
 */
-#define nades "rhs_mag_m67","rhs_mag_an_m14_th3","SmokeShellBlue","SmokeShellRed"
+#define nades "CUP_HandGrenade_M67","rhs_mag_an_m14_th3","SmokeShellBlue","SmokeShellRed"
 // Weaponless Baseclass
 class baseMan 
 {
@@ -69,7 +69,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_specter_cover_blk"
+		"H_HelmetSpecter_black_F"
 	};
     hmd[] =
     {
@@ -77,7 +77,7 @@ class rm : baseMan
     };
 	backpack[] = 
 	{
-		LIST_9("aegis_fieldpack_blk"),
+		LIST_9("B_FieldPack_blk"),
         "B_ViperLightHarness_blk_F"
 	};
     goggles[] = 
@@ -139,24 +139,24 @@ class rm_mat : rm
 	displayName = "Rifleman (MAT)";
 	backpack[] = 
 	{
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
     primaryWeapon[] = {"CUP_arifle_FNFAL"};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	backpackItems[] = 
 	{
-		LIST_3("fwa_1rnd_m67_HEAT")
+		LIST_3("sp_fwa_m67_1rnd_heat")
 	};
 };
 
 class lead : rm
 {
     displayName = "Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
-    magazines[] += {LIST_2("rhsusf_mag_7x45acp_MHP")};
+    sidearmWeapon[] = {"CUP_hgun_Colt1911"};
+    magazines[] += {LIST_2("CUP_7Rnd_45ACP_1911")};
     linkedItems[] += {"rhsusf_bino_m24_ARD"};
 };
 
@@ -179,7 +179,7 @@ class medic : rm
 	displayName = "Medic";
 	vest[] = 
 	{
-		"wsx_mbav_medic_blk"
+		"usp_eagle_mbav_mcb"
 	};
 	backpackItems[] = 
 	{
@@ -255,8 +255,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

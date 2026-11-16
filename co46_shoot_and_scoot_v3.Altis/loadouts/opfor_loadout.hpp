@@ -61,7 +61,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_pasgt_aaf"
+		"H_HelmetIA"
 	};
 	backpack[] = 
 	{

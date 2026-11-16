@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co50_wet_pancake_v2";
-addons[] = {"A3_Characters_F","hlcweapons_g36","ptv_weapons","pca_misc_pca_illuminations","rhsusf_c_weapons","ace_compat_rhs_usf3","ace_vector","A3_Weapons_F","A3_Aegis_Characters_F_Baltic_Headgear","A3_Aegis_Characters_F_Baltic_Uniforms","acre_sys_prc343","ace_medical_treatment","acre_sys_prc148","A3_Aegis_Characters_F_Baltic_Vests","ace_realisticnames","A3_Modules_F_Curator_Misc","Desert","A3_Ui_F","A3_Modules_F","CUP_Misc_e_Config","CUP_Misc3_Config","A3_Structures_F_EPA_Civ_Camping","ace_dragging","A3_Structures_F_EPB_Furniture","A3_Props_F_Orange_Humanitarian_Supplies","A3_Structures_F_Heli_Civ_Constructions","A3_Props_F_Argo_Items_Documents","A3_Structures_F_EPB_Items_Documents","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_Civ_Camping","ace_interaction","ace_cargo","A3_Structures_F_EPA_Civ_Constructions","A3_Structures_F_Civ_Garbage","A3_Structures_F_Heli_Items_Electronics","A3_Props_F_Orange_Civilian_InfoBoards","ace_sitting","A3_Props_F_Orange_Humanitarian_Camps","CUP_Desert2_Config","A3_Structures_F_Mil_BagFence","A3_Structures_F_Mil_Shelters","A3_Structures_F_Mil_BagBunker","A3_Structures_F_EPA_Mil_Scrapyard","A3_Structures_F_Mil_Cargo","A3_Structures_F_Civ_Constructions","A3_Structures_F_Civ_Market","A3_Structures_F_Exp_Military_Fortifications","A3_Soft_F_EPC_Truck_03","A3_Armor_F_Beta_APC_Wheeled_02","A3_Soft_F_MRAP_02","A3_Modules_F_Effects","CUP_CAStructures_Misc_Powerlines","A3_Signs_F","cba_xeh","CUP_CAMisc","tmf_ai","lambs_wp","ace_nouniformrestrictions","A3_Armor_F_Beta_APC_Tracked_02","acre_sys_intercom","CUP_Creatures_StaticWeapons"};
+addons[] = {"A3_Characters_F","hlcweapons_g36","ptv_weapons","pca_illuminations","rhsusf_c_weapons","ace_compat_rhs_usf3","ace_vector","A3_Weapons_F","A3_Aegis_Characters_F_Baltic_Headgear","A3_Aegis_Characters_F_Baltic_Uniforms","acre_sys_prc343","ace_medical_treatment","acre_sys_prc148","A3_Aegis_Characters_F_Baltic_Vests","ace_realisticnames","A3_Modules_F_Curator_Misc","Desert","A3_Ui_F","A3_Modules_F","CUP_Misc_e_Config","CUP_Misc3_Config","A3_Structures_F_EPA_Civ_Camping","ace_dragging","A3_Structures_F_EPB_Furniture","A3_Props_F_Orange_Humanitarian_Supplies","A3_Structures_F_Heli_Civ_Constructions","A3_Props_F_Argo_Items_Documents","A3_Structures_F_EPB_Items_Documents","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_Civ_Camping","ace_interaction","ace_cargo","A3_Structures_F_EPA_Civ_Constructions","A3_Structures_F_Civ_Garbage","A3_Structures_F_Heli_Items_Electronics","A3_Props_F_Orange_Civilian_InfoBoards","ace_sitting","A3_Props_F_Orange_Humanitarian_Camps","CUP_Desert2_Config","A3_Structures_F_Mil_BagFence","A3_Structures_F_Mil_Shelters","A3_Structures_F_Mil_BagBunker","A3_Structures_F_EPA_Mil_Scrapyard","A3_Structures_F_Mil_Cargo","A3_Structures_F_Civ_Constructions","A3_Structures_F_Civ_Market","A3_Structures_F_Exp_Military_Fortifications","A3_Soft_F_EPC_Truck_03","A3_Armor_F_Beta_APC_Wheeled_02","A3_Soft_F_MRAP_02","A3_Modules_F_Effects","CUP_CAStructures_Misc_Powerlines","A3_Signs_F","cba_xeh","CUP_CAMisc","tmf_ai","lambs_wp","ace_nouniformrestrictions","A3_Armor_F_Beta_APC_Tracked_02","acre_sys_intercom","CUP_Creatures_StaticWeapons"};
 class AddonsMetaData
 {
 	class List
@@ -64,7 +64,7 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className = "pca_misc_pca_illuminations";
+			className = "pca_illuminations";
 			name = "Illuminations - Flashlights & Flares Tweaks";
 			author = "PCA";
 		};
@@ -17269,7 +17269,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_g36a3_romi_ag36";
+								name = "$NONE_hlc_rifle_g36a3_romi_ag36$";
 								optics = "ptv_acc_compm4s";
 								flashlight = "pca_flashlight_sf";
 								firemode = "hlc_rifle_g36a3_romi_ag36:Single";
@@ -17294,7 +17294,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_ccu_latpat";
+								typeName = "pca_g3_latpatd";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -17343,7 +17343,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_modular_carrier_lite_latpat";
+								typeName = "$NONE_aegis_modular_carrier_lite_latpat$";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -17356,7 +17356,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -17376,7 +17376,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_assaultpack_latpat";
+								typeName = "$NONE_aegis_assaultpack_latpat$";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -17410,7 +17410,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_mch_latpat";
+							headgear = "$NONE_aegis_mch_latpat$";
 						};
 					};
 					id = 1;

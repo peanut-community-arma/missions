@@ -67,10 +67,10 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"TC_Helmet_Hat_NavySeer",
-	"TC_Helmet_Hat_NavySeer_1_Black",
-	"TC_Helmet_Hat_WitchCop_1_Black",
-	"TC_Helmet_Hat_WitchCop",
+	"$NONE_TC_Helmet_Hat_NavySeer$",
+	"$NONE_TC_Helmet_Hat_NavySeer_1_Black$",
+	"$NONE_TC_Helmet_Hat_WitchCop_1_Black$",
+	"$NONE_TC_Helmet_Hat_WitchCop$",
 	"TC_Helmet_Hat_Santa1",
 	"TC_Helmet_Hat_Santa1_Pride1",
 	"TC_Helmet_Hat_Santa1_Buffalo1"
@@ -106,15 +106,15 @@ private _itemBackpackPilot =
 private _itemCosmetic = 
 [
 	"rhs_facewear_6m2",
-	"TC_G_Helmet_Antlers_1",
-	"TC_G_Hat_Antlers_1_Accessory_Lights_1",
-	"TC_G_Hat_Antlers_1_Accessory_Netting_1",
+	"$NONE_TC_G_Helmet_Antlers_1$",
+	"$NONE_TC_G_Hat_Antlers_1_Accessory_Lights_1$",
+	"$NONE_TC_G_Hat_Antlers_1_Accessory_Netting_1$",
 	"G_Aviator",
 	"rhs_googles_black",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
 	"G_Bandanna_aviator",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_Vampire_01",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
@@ -200,14 +200,14 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"CUP_optic_AC11704_Black",
 	"rhsusf_acc_M2A1",
 	"ptv_acc_t1",
-	"sma_acc_tasco_propoint",
+	"$NONE_sma_acc_tasco_propoint$",
 	"CUP_optic_VortexRazor_UH1_Black",
-	"sma_acc_vortex_blk",
+	"$NONE_sma_acc_vortex_blk$",
 	"CUP_optic_ZeissZPoint",
 	
 	//Grip
@@ -234,16 +234,16 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_scarl_cqc",
-	"hlc_rifle_scarl_cqc_tan",
+	"$NONE_hlc_rifle_scarl_cqc$",
+	"$NONE_hlc_rifle_scarl_cqc_tan$",
 	
 	"TC_Helmet_Hat_Santa1_Bi1"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_scarl_cqc_eglm",
-	"hlc_rifle_scarl_cqc_eglm_tan",
+	"$NONE_hlc_rifle_scarl_cqc_eglm$",
+	"$NONE_hlc_rifle_scarl_cqc_eglm_tan$",
 	
 	"TC_Helmet_Hat_Santa1_Trans1"
 ];
@@ -261,7 +261,7 @@ private _itmeWeapDM =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -272,12 +272,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -336,20 +336,20 @@ private _itemExplosive =
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -359,8 +359,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

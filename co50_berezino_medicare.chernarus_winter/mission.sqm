@@ -47189,7 +47189,7 @@ class Mission
 									{
 										type[] = {"STRING"};
 									};
-									value = "[[[[""rhs_weap_rpg26"",""rhs_weap_akms"",""FirstAidKit"",""Medikit""],[2,2,4,1]],[[""rhs_30Rnd_762x39mm_bakelite"",""rhs_30Rnd_762x39mm"",""rhs_30Rnd_762x39mm_polymer"",""rhs_30Rnd_545x39_7N6M_plum_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag""],[10,8,2,10,10,3,2,9,10,5,5,2]],[[],[]],[[""rhs_sidor""],[4]]],false]";
+									value = "[[[[""CUP_launch_RPG26"",""rhs_weap_akms"",""FirstAidKit"",""Medikit""],[2,2,4,1]],[[""rhs_30Rnd_762x39mm_bakelite"",""rhs_30Rnd_762x39mm"",""rhs_30Rnd_762x39mm_polymer"",""rhs_30Rnd_545x39_7N6M_plum_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag""],[10,8,2,10,10,3,2,9,10,5,5,2]],[[],[]],[[""rhs_sidor""],[4]]],false]";
 								};
 							};
 						};
@@ -47592,7 +47592,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -51741,7 +51741,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1

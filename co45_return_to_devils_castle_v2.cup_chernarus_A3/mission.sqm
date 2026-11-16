@@ -8655,7 +8655,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_hgun_Makarov"",""rhs_weap_rpg26""],[4,4]],[[""CUP_8Rnd_9x18_Makarov_M""],[20]],[[""rhs_acc_2dpZenit"",""rhs_acc_2dpZenit_ris""],[8,8]],[[],[]]],false]";
+											value = "[[[[""CUP_hgun_Makarov"",""CUP_launch_RPG26""],[4,4]],[[""CUP_8Rnd_9x18_Makarov_M""],[20]],[[""rhs_acc_2dpZenit"",""rhs_acc_2dpZenit_ris""],[8,8]],[[],[]]],false]";
 										};
 									};
 								};
@@ -9019,7 +9019,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74"",""CUP_lmg_PKM""],[4,2]],[[""rhs_100Rnd_762x54mmR"",""rhs_30Rnd_545x39_7N10_AK""],[16,20]],[[""pca_m97_pasgt_cdf_ttsko_forest"",""rhs_acc_pkas"",""rhs_acc_2dpZenit""],[6,4,6]],[[""B_Kitbag_rgr""],[2]]],false]";
+											value = "[[[[""rhs_weap_ak74"",""CUP_lmg_PKM""],[4,2]],[[""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_30Rnd_545x39_7N10_AK""],[16,20]],[[""pca_m97_pasgt_cdf_ttsko_forest"",""rhs_acc_pkas"",""rhs_acc_2dpZenit""],[6,4,6]],[[""B_Kitbag_rgr""],[2]]],false]";
 										};
 									};
 								};
@@ -10385,7 +10385,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -10876,7 +10876,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -10969,7 +10969,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -11488,7 +11488,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -11581,7 +11581,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2]; " \n " _x lock 3;  " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -12092,7 +12092,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2];" \n " _x limitSpeed 35; " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2];" \n " _x limitSpeed 35; " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -12558,7 +12558,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2]; " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2]; " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -12650,7 +12650,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addItemCargoGlobal [""rhs_weap_rpg26"", 2];" \n " _x limitSpeed 35; " \n "} forEach _spawnedVehicles;";
+											value = "params [""_wave"",""_spawnedGroups"",""_spawnedUnits"",""_spawnedVehicles"",""_spawnedObjects"",""_logic"",""_wavehandlerID""];" \n "" \n "{  " \n " clearWeaponCargoGlobal _x;   " \n " clearMagazineCargoGlobal _x;   " \n " clearItemCargoGlobal _x;   " \n " clearbackpackcargoglobal _x;  " \n " _x addWeaponCargoGlobal [""CUP_launch_RPG26"", 2];" \n " _x limitSpeed 35; " \n "} forEach _spawnedVehicles;";
 										};
 									};
 								};
@@ -43515,7 +43515,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};
@@ -43624,7 +43624,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};
@@ -43732,7 +43732,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};

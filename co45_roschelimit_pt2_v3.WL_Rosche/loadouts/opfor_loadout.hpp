@@ -89,8 +89,8 @@ class rm : baseMan
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_762x39mm")
 	};
 };
@@ -100,7 +100,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_rpk"
+		"arifle_RPK_F"
 	};
 	vest[] =
 	{
@@ -108,8 +108,8 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_75Rnd_762x39mm_tracer")
 	};
 };
@@ -119,7 +119,7 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] =
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	vest[] =
 	{
@@ -127,8 +127,8 @@ class mg : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 };
@@ -258,8 +258,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

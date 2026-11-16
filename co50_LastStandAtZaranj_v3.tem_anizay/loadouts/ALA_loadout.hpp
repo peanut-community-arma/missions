@@ -59,8 +59,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		LIST_4("usm_bdu_tan"),
-		"usm_bdu_taki"
+		LIST_4("$NONE_usm_bdu_tan$"),
+		"$NONE_usm_bdu_taki$"
 	};
 	vest[] = 
 	{
@@ -85,8 +85,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_11("CUP_20Rnd_762x51_FNFAL_M")
 	};
 };
@@ -104,12 +104,12 @@ class ar : rm
 	};
 	backpack[] =
 	{
-		"aegis_tacticalpack_rgr"
+		"B_TacticalPack_rgr"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
@@ -119,7 +119,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -152,8 +152,8 @@ class gren : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_11("CUP_30Rnd_556x45_Stanag"),
 		LIST_9("CUP_1Rnd_HEDP_M203"),
 		LIST_2("CUP_1Rnd_Smoke_M203")
@@ -218,15 +218,15 @@ class mltsks : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sks"
+		"Opf_arifle_SKS_F"
 	};
 	scope[] = 
 	{
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_20("fwa_10Rnd_762x39_sks")
 	};
 };
@@ -240,8 +240,8 @@ class mltakm : mltsks
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_11("CUP_30Rnd_762x39_AK47_bakelite_M")
 	};
 };
@@ -251,7 +251,7 @@ class sp_rm : rm
 	displayName = "Spec Ops Rifle";
 	uniform[] =
 	{
-		"usm_bdu_taki"
+		"$NONE_usm_bdu_taki$"
 	};
 	vest[] = 
 	{
@@ -278,8 +278,8 @@ class sp_rm : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_13("CUP_30Rnd_556x45_Emag")
 	};
 };
@@ -297,8 +297,8 @@ class sp_gren : sp_rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_13("CUP_30Rnd_556x45_Emag"),
 		LIST_9("CUP_1Rnd_HEDP_M203"),
 		LIST_2("CUP_1Rnd_Smoke_M203")
@@ -318,8 +318,8 @@ class sp_mg : sp_rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };

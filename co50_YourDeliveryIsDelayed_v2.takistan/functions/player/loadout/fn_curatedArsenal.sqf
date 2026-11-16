@@ -29,7 +29,7 @@ private _itemGear =
 	//Uniform 
 	"bear_uniform_cup_paramilitary_clothes_dbdu",
 	"CUP_I_B_PARA_Unit_7",
-	"wsx_uniform_combat_6cd",
+	"CUP_U_B_BDUv2_desert",
 	"CUP_I_B_PARA_Unit_6",
 	"CUP_I_B_PARA_Unit_5",
 	
@@ -87,7 +87,7 @@ private _itemGearLeader =
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh2_gogg_tan",
 	"milgp_f_goggles_khk",
-	"pca_nvg_tactical_goggles",
+	"$NONE_pca_nvg_tactical_goggles$",
 	"rhs_ess_black",
 	"rhs_googles_black",
 	"rhs_googles_clear"
@@ -120,7 +120,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -148,12 +148,12 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
 	"G_Bandanna_shades",
 	"G_Bandanna_tan",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"CUP_Beard_Black",
 	"CUP_Beard_Brown",
@@ -173,12 +173,12 @@ private _itemCosmetic =
 	"simc_bandoleer_duplet",
 	//NVG-slot
 	"pca_nvg_cigarette",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"pca_nvg_shemagh_lowered_khk",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
@@ -266,8 +266,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -289,7 +289,7 @@ private _itemWeapRifle =
 private _itemWeapRifleUGL = 
 [
 	"CUP_arifle_AKMS_GL_Early",
-	"CUP_arifle_AKMN_GL_Early"
+	"CUP_arifle_AKM_GL"
 ];
 
 private _itemWeapAR = 
@@ -299,7 +299,7 @@ private _itemWeapAR =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_pkm"
+	"CUP_lmg_PKM"
 ];
 
 private _itemWeapDMR = 
@@ -319,7 +319,7 @@ private _itemWeapMAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm"
+	"CUP_hgun_Makarov"
 ];
 
 private _itemAmmo = 
@@ -335,11 +335,11 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR = 

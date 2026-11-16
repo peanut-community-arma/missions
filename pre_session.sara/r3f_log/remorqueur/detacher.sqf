@@ -1,7 +1,7 @@
 /**
- * Détacher un objet d'un véhicule
+ * DÃ©tacher un objet d'un vÃ©hicule
  * 
- * @param 0 l'objet à détacher
+ * @param 0 l'objet Ã  dÃ©tacher
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -23,7 +23,7 @@ else
 	_objet = _this select 0;
 	_remorqueur = _objet getVariable "R3F_LOG_est_transporte_par";
 	
-	// Ne pas permettre de décrocher un objet s'il est en fait héliporté
+	// Ne pas permettre de dÃ©crocher un objet s'il est en fait hÃ©liportÃ©
 	if (_remorqueur getVariable "R3F_LOG_fonctionnalites" select R3F_LOG_IDX_can_tow) then
 	{
 		[_objet, player] call R3F_LOG_FNCT_definir_proprietaire_verrou;
@@ -31,7 +31,7 @@ else
 		_remorqueur setVariable ["R3F_LOG_remorque", objNull, true];
 		_objet setVariable ["R3F_LOG_est_transporte_par", objNull, true];
 		
-		// Le léger setVelocity vers le haut sert à defreezer les objets qui pourraient flotter.
+		// Le lÃ©ger setVelocity vers le haut sert Ã  defreezer les objets qui pourraient flotter.
 		[_objet, "detachSetVelocity", [0, 0, 0.1]] call R3F_LOG_FNCT_exec_commande_MP;
 		
 		player playMove format ["AinvPknlMstpSlay%1Dnon_medic", switch (currentWeapon player) do
@@ -48,7 +48,7 @@ else
 		{
 			if (_objet getVariable "R3F_LOG_fonctionnalites" select R3F_LOG_IDX_can_be_moved_by_player) then
 			{
-				// Si personne n'a touché à l'objet pendant le sleep 7
+				// Si personne n'a touchÃ© Ã  l'objet pendant le sleep 7
 				if (isNull (_remorqueur getVariable "R3F_LOG_remorque") &&
 					(isNull (_objet getVariable "R3F_LOG_est_transporte_par")) &&
 					(isNull (_objet getVariable "R3F_LOG_est_deplace_par"))

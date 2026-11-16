@@ -53,7 +53,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_603_m16a1"
+		"sp_fwa_ar15_603_m16a1"
 	};
 	items[] =
 	{
@@ -144,22 +144,22 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	secondaryWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("rhs_grenade_mkii_mag"),
-		LIST_4("rhsusf_mag_7x45acp_MHP"),
+		LIST_4("CUP_7Rnd_45ACP_1911"),
 		LIST_10("rhs_mag_20Rnd_556x45_M193_Stanag")
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("rhs_mag_m714_White")
 	};
 };
@@ -193,7 +193,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_603_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	magazines[] = 
 	{
@@ -203,7 +203,7 @@ class sl : tl
 	};
 	backpackItems[] +=
 	{
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_4("rhs_mag_m714_White"),
 		LIST_2("rhs_mag_m716_yellow"),
 		LIST_2("rhs_mag_m715_Green"),
@@ -314,19 +314,19 @@ class mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m67"
+		"sp_fwa_m67"
 	};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] += 
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m67_HEAT")
+		LIST_2("sp_fwa_m67_1rnd_heat")
 	};
 };
 
@@ -339,8 +339,8 @@ class amat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m67_HEAT"),
-		"fwa_1rnd_m67_HE"
+		LIST_2("sp_fwa_m67_1rnd_heat"),
+		"sp_fwa_m67_1rnd_he"
 	};
 	linkedItems[] += 
 	{
@@ -358,11 +358,11 @@ class eng : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] += 
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] = 
 	{
@@ -370,8 +370,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -393,13 +393,13 @@ class dm : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("rhs_grenade_mkii_mag"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_9("CUP_20Rnd_762x51_DMR")
 	};
 	backpackItems[] = 
@@ -418,7 +418,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	headgear[] = 
 	{
-		"simc_cvc",
+		"H_Simc_CVC",
 		"simc_cvc_swdg",
 		"simc_cvc_swdg_cover",
 		"simc_cvc_swdg_low"
@@ -440,7 +440,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	items[] +=
 	{
@@ -448,7 +448,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -472,7 +472,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	items[] +=
 	{
@@ -482,7 +482,7 @@ class hp : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("rhsusf_20Rnd_762x51_m80_Mag"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")

@@ -70,7 +70,7 @@ private _facewearPoolWeighted = selectRandomWeighted
 	"CUP_G_RUS_Balaclava_Ratnik_v2", 2
 ];
 
-private _eyewearPoolWeighted = "pca_nvg_ess_blk";
+private _eyewearPoolWeighted = "$NONE_pca_nvg_ess_blk$";
 
 //ADD UNIFORM
 _unit forceAddUniform _uniformPoolWeighted;
@@ -198,10 +198,10 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "mg") : 
 	{
-		private _weapon = "rhs_weap_pkm";
+		private _weapon = "CUP_lmg_PKM";
 		private _weaponMag = selectRandomWeighted
 		[
-			"rhs_100Rnd_762x54mmR", 7,
+			"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 7,
 			"rhs_100Rnd_762x54mmR_green", 1
 		];
 		

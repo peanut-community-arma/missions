@@ -2,10 +2,10 @@
  * Charger automatiquement un ou plusieurs objets/noms de classe dans un transporteur
  * 
  * @param 0 le transporteur
- * @param 1 tableau d'objets et/ou noms de classe, pouvant être un mélange des formats suivants :
+ * @param 1 tableau d'objets et/ou noms de classe, pouvant Ãªtre un mÃ©lange des formats suivants :
  *              objet
- *              nom de classe, dans ce cas, l'objet sera créé avant d'être chargé
- *              tableau ["nom de classe", quantité] à créer avant d'être chargé
+ *              nom de classe, dans ce cas, l'objet sera crÃ©Ã© avant d'Ãªtre chargÃ©
+ *              tableau ["nom de classe", quantitÃ©] Ã  crÃ©er avant d'Ãªtre chargÃ©
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -39,7 +39,7 @@ _chargement_actuel = _chargement select 0;
 _chargement_maxi = _chargement select 1;
 _objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 
-// Pour chaque élément de la liste à charger
+// Pour chaque Ã©lÃ©ment de la liste Ã  charger
 {
 	if (typeName _x == "ARRAY" && {count _x > 0}) then
 	{
@@ -66,7 +66,7 @@ _objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 		_bbox = [_classe] call R3F_LOG_FNCT_3D_get_bounding_box_depuis_classname;
 		_bbox_dim = (vectorMagnitude (_bbox select 0)) max (vectorMagnitude (_bbox select 1));
 		
-		// Recherche d'une position dégagée. Les véhicules doivent être créé au niveau du sol sinon ils ne peuvent être utilisés.
+		// Recherche d'une position dÃ©gagÃ©e. Les vÃ©hicules doivent Ãªtre crÃ©Ã© au niveau du sol sinon ils ne peuvent Ãªtre utilisÃ©s.
 		if (_classe isKindOf "AllVehicles") then
 		{
 			_pos_degagee = [_bbox_dim, getPos _transporteur, 200, 50] call R3F_LOG_FNCT_3D_tirer_position_degagee_sol;
@@ -86,7 +86,7 @@ _objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 	_fonctionnalites = [_classe] call R3F_LOG_FNCT_determiner_fonctionnalites_logistique;
 	_cout_chargement_objet = _fonctionnalites select R3F_LOG_IDX_can_be_transported_cargo_cout;
 	
-	// S'assurer que le type d'objet à charger est transportable
+	// S'assurer que le type d'objet Ã  charger est transportable
 	if !(_fonctionnalites select R3F_LOG_IDX_can_be_transported_cargo) then
 	{
 		diag_log format ["[Auto-load ""%1"" in ""%2""] : %3",
@@ -103,10 +103,10 @@ _objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 	{
 		for [{_i = 0}, {_i < _quantite}, {_i = _i+1}] do
 		{
-			// Si l'objet à charger est donné en tant que nom de classe, on le crée
+			// Si l'objet Ã  charger est donnÃ© en tant que nom de classe, on le crÃ©e
 			if (typeName _objet_ou_classe == "STRING") then
 			{
-				// Recherche d'une position dégagée. Les véhicules doivent être créé au niveau du sol sinon ils ne peuvent être utilisés.
+				// Recherche d'une position dÃ©gagÃ©e. Les vÃ©hicules doivent Ãªtre crÃ©Ã© au niveau du sol sinon ils ne peuvent Ãªtre utilisÃ©s.
 				if (_classe isKindOf "AllVehicles") then
 				{
 					_objet = _classe createVehicle _pos_degagee;
@@ -125,14 +125,14 @@ _objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 			
 			if (!isNull _objet) then
 			{
-				// Vérifier qu'il n'est pas déjà transporté
+				// VÃ©rifier qu'il n'est pas dÃ©jÃ  transportÃ©
 				if (isNull (_objet getVariable ["R3F_LOG_est_transporte_par", objNull]) &&
 					(isNull (_objet getVariable ["R3F_LOG_est_deplace_par", objNull]) || (!alive (_objet getVariable ["R3F_LOG_est_deplace_par", objNull])) || (!isPlayer (_objet getVariable ["R3F_LOG_est_deplace_par", objNull])))
 				) then
 				{
 					if (isNull (_objet getVariable ["R3F_LOG_remorque", objNull])) then
 					{
-						// Si l'objet loge dans le véhicule
+						// Si l'objet loge dans le vÃ©hicule
 						if (_chargement_actuel + _cout_chargement_objet <= _chargement_maxi) then
 						{
 							_chargement_actuel = _chargement_actuel + _cout_chargement_objet;
@@ -175,7 +175,7 @@ _objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 	};
 } forEach _liste_a_charger;
 
-// On mémorise sur le réseau le nouveau contenu du véhicule
+// On mÃ©morise sur le rÃ©seau le nouveau contenu du vÃ©hicule
 _transporteur setVariable ["R3F_LOG_objets_charges", _objets_charges, true];
 
 R3F_LOG_mutex_local_verrou = false;

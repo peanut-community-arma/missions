@@ -66,20 +66,20 @@ class rm : baseMan
 		LIST_4("V_TacChestrig_oli_F"),
 		"V_TacChestrig_grn_F",
 		"V_BandollierB_rgr",
-		"aegis_chestrig_oli",
+		"V_ChestrigF_oli",
 		"V_TacChestrig_grn_F"
 	};
 	headgear[] =
 	{
 		"rhs_beanie_green",
 		"rhs_beanie",
-		"aegis_beanie_khk",
+		"H_Watchcap_khk",
 		"CUP_H_PMC_Beanie_Headphones_Khaki",
 		"CUP_H_Ger_Boonie2_Flecktarn",
-		"aegis_boonie_m81",
+		"H_Booniehat_m81_F",
 		"rhs_Booniehat_flora",
-		"aegis_cap_eaf",
-		"aegis_cap_mtp",
+		"H_Cap_eaf_arid_F",
+		"H_Cap_tan_specops_US",
 		"CUP_H_PMC_Cap_Back_Tan"
 	};
 	backpack[] =
@@ -91,7 +91,7 @@ class rm : baseMan
 	};
 	goggles[] = {
 		"G_Bandanna_oli",
-		"usm_scarf",
+		"$REMOVE_usm_scarf$",
 		"rhsusf_shemagh_od",
 		"rhsusf_shemagh2_grn",
 		LIST_2("")
@@ -107,8 +107,8 @@ class rm : baseMan
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_545x39_7N22_camo_AK")
 	};
 };
@@ -125,8 +125,8 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_4("pca_mag_45Rnd_545X39_RPK_Black_7N22")
 	};
 };
@@ -140,8 +140,8 @@ class mg : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 };
@@ -151,7 +151,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] =
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -177,8 +177,8 @@ class sharpshooter : rm
 	silencer[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_10Rnd_762x54_SVD_M")
 	};
 };
@@ -201,7 +201,7 @@ class scout : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		LIST_7("rhs_30Rnd_545x39_7U1_AK")
 	};
 };
@@ -265,8 +265,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -290,8 +290,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

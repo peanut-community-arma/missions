@@ -121,7 +121,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 
@@ -151,12 +151,12 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_headset",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Headset_light",
 	"G_Combat_Goggles_tna_F",
 	"CUP_RUS_Balaclava_blk",
 	"CUP_RUS_Balaclava_grn",
@@ -176,12 +176,12 @@ private _itemCosmetic =
 	"CUP_G_Scarf_Face_Blk",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_FR_NeckScarf3",
-	"usm_swdgoggles",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_swdgoggles$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_blk",
 	"milgp_f_face_shield_rgr",
 	"milgp_f_face_shield_goggles_blk",
@@ -192,31 +192,31 @@ private _itemCosmetic =
 	"milgp_f_goggles_khk",
 	"sfp_peltor_comtac3",
 	"rhs_ess_black",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 
 	//HMD
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
 	"pca_nvg_cigarette",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_glasses",
-	"pca_nvg_tactical_goggles",
-	"nvg_goggles_grn",
-	"usm_nvg_gigloves",
-	"usm_nvg_giglovesscarf",
-	"usm_nvg_giglovesscarf2",
-	"usm_nvg_swdgoggles",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_glasses$",
+	"$NONE_pca_nvg_tactical_goggles$",
+	"Goggles_grn_F",
+	"pca_nvg_gloves_wool",
+	"$NONE_usm_nvg_giglovesscarf$",
+	"$NONE_usm_nvg_giglovesscarf2$",
+	"$NONE_usm_nvg_swdgoggles$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	"sfp_nvg_peltor_comtac3",
 	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool_gry",
@@ -305,19 +305,19 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc =
 [
 	//Optic
-	"sma_acc_micro_t2",
-	"sma_acc_micro_t2_low",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_micro_t2_low$",
 	"rhsusf_acc_t1_low_fwd",
 	"rhsusf_acc_t1_low",
 	"rhsusf_acc_t1_high",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"ptv_acc_t1_low",
 	"ptv_acc_t1",
 	"ptv_acc_aimcs",
@@ -371,7 +371,7 @@ private _itemWeapAR =
 
 private _itemWeapMG =
 [
-	"rhs_weap_m240G"
+	"CUP_lmg_M240"
 ];
 
 private _itemWeapDMR =
@@ -381,7 +381,7 @@ private _itemWeapDMR =
 
 private _itemWeapLAT =
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapMAT =
@@ -408,11 +408,11 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
+	"CUP_HandGrenade_M67"
 ];
 
 private _itemAmmoAR =
@@ -429,7 +429,7 @@ private _itemAmmoAR =
 
 private _itemAmmoMG =
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 

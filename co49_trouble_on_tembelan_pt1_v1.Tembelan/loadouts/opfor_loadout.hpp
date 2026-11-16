@@ -110,16 +110,16 @@ class rm : baseMan
 		"cup_optic_trijiconrx01_kf_black",
 		"cup_optic_vortexrazor_uh1_black",
 		"cup_optic_zeisszpoint",
-		"hlc_optic_docterr",
-		"hlc_optic_ism1400a7",
-		"hlc_optic_romeov",
+		"HLC_optic_DocterR",
+		"$NONE_hlc_optic_ism1400a7$",
+		"HLC_optic_RomeoV",
 		"ptv_acc_compm4s",
 		"ptv_acc_aimcs",
 		"ptv_acc_t1",
 		"ptv_acc_t1_low",
 		"ptv_acc_eot552",
-		"rksl_optic_eot552",
-		"rksl_optic_eot552x",
+		"RKSL_optic_EOT552",
+		"RKSL_optic_EOT552X",
 		"rhs_acc_rakurspm",
 		"rhs_acc_1p87",
 		"rhs_acc_ekp8_18",
@@ -127,8 +127,8 @@ class rm : baseMan
 		"rhsgref_acc_rx01_nofilter_camo",
 		"rhsgref_acc_rx01_camo",
 		"rhsusf_acc_eotech",
-		"rhsusf_acc_eotech_552",
-		"rhsusf_acc_compm4",
+		"RKSL_optic_EOT552",
+		"CUP_optic_CompM4",
 		"rhsusf_acc_mrds",
 		"rhsusf_acc_rm05",
 		"rhsusf_acc_rx01_nofilter",
@@ -136,16 +136,16 @@ class rm : baseMan
 		"rhsusf_acc_t1_high",
 		"rhsusf_acc_t1_low",
 		"rhsusf_acc_eotech_xps3",
-		"sma_acc_barska_rds",
-		"sma_acc_cmore_blk",
-		"sma_acc_eotech_552_blk",
-		"sma_acc_eotech_552_kf_blk",
-		"sma_acc_eotech_xps3_blk",
-		"sma_acc_micro_t2",
-		"sma_acc_tasco_propoint",
-		"sma_acc_tasco_propoint_glare",
-		"sma_acc_vortex_blk",
-		"sma_acc_vortex_lc_blk"
+		"$NONE_sma_acc_barska_rds$",
+		"$NONE_sma_acc_cmore_blk$",
+		"RKSL_optic_EOT552",
+		"$NONE_sma_acc_eotech_552_kf_blk$",
+		"$NONE_sma_acc_eotech_xps3_blk$",
+		"$NONE_sma_acc_micro_t2$",
+		"$NONE_sma_acc_tasco_propoint$",
+		"$NONE_sma_acc_tasco_propoint_glare$",
+		"$NONE_sma_acc_vortex_blk$",
+		"$NONE_sma_acc_vortex_lc_blk$"
 	};
 	sidearmWeapon[] =
 	{
@@ -193,7 +193,7 @@ class rm_at : rm
 	};	
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_camo"
+		"$NONE_aegis_weap_rpg32_camo$"
 	};
 	backpackItems[] =
 	{
@@ -216,7 +216,7 @@ class tl : rm
 		LIST_11("rhs_30Rnd_762x39mm_polymer_tracer"),
 		"HandGrenade",
 		"SmokeShell",		
-		LIST_2("rhs_mag_M397_HET")
+		LIST_2("CUP_1Rnd_HE_M203")
 	};
 	linkedItems[] += 
 	{

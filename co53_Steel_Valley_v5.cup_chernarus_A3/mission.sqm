@@ -9498,7 +9498,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_mag_9x18_8_57N181S";
+																			value = "CUP_8Rnd_9x18_Makarov_M";
 																		};
 																	};
 																	class Item1
@@ -9570,7 +9570,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_makarov_pm";
+																			value = "CUP_hgun_Makarov";
 																		};
 																	};
 																	class Item1
@@ -9822,7 +9822,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "16Rnd_9x21_Mag";
+																			value = "16Rnd_9x21_Mag_v2";
 																		};
 																	};
 																	class Item1
@@ -73967,7 +73967,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_mag_9x18_8_57N181S";
+																			value = "CUP_8Rnd_9x18_Makarov_M";
 																		};
 																	};
 																	class Item1
@@ -74039,7 +74039,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_makarov_pm";
+																			value = "CUP_hgun_Makarov";
 																		};
 																	};
 																	class Item1
@@ -74291,7 +74291,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "16Rnd_9x21_Mag";
+																			value = "16Rnd_9x21_Mag_v2";
 																		};
 																	};
 																	class Item1

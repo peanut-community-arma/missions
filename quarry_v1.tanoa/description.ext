@@ -1,0 +1,184 @@
+tmf_version[] = {1,1,0};
+cba_settings_hasSettingsFile = 1;
+enableDebugConsole = 1;
+enableTargetDebug = 1;
+respawnButton = 1;
+
+#include "R3F_LOG\desc_include.h"
+
+onLoadName = "[1TAC] Quarry";
+onLoadMission = "Kill your quarries and do your best to stay alive";
+author = "Snippers";
+loadScreen = "quarry.jpg";
+saving = 0; // disable saving
+
+class Params
+{
+    class param_lifetimer
+    {
+        title = "Life time for contestants in minutes";
+        values[] = {3,4,5,6,7,8,9,10,11,12,13,14,15,20,30};
+        default = 15;
+    };
+};
+
+
+class CfgFunctions
+{
+	class qry // Quarry function
+	{     
+		class qry {
+			class newCiv {};
+			class newCop {};
+			class policeCar {};
+			class civCar {};
+			class civKilled {};
+            class findPlayerSpawnPos {};
+		};
+	};
+};
+
+
+class Extended_PreInit_EventHandlers {
+    class quarry {
+        init = "call compile preprocessFileLineNumbers 'XEH_preInit.sqf';";
+    };
+};
+
+class Extended_PostInit_EventHandlers {
+    class quarry {
+        init = "call compile preprocessFileLineNumbers 'XEH_postInit.sqf';";
+    };
+};
+
+class Extended_InitPost_EventHandlers {
+	class CAManBase {
+		class markerSystem { clientinit = "_this spawn {_this call fn_marker};"; };
+	};
+};
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "You won!";
+		subtitle = "You are the last alive civilian!";
+		description = "Good job on staying alive to the end and kicking some ass!";
+	};
+	
+	class End2
+	{
+		title = "Gameover!";
+		subtitle = "You were not the last civilian to live!";
+		description = "Only one civilian player remains and they are victorious! Unforunately that was not you.";
+	};
+
+};
+
+class CfgDebriefingSections
+{
+	class tmf_adminlog
+	{
+		title = "TMF Log";
+		variable = "TMF_adminmenu_debrief";
+	};
+	class acex_killTracker
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
+
+class RscTitles
+{
+	class RscPicture
+	{
+	   type =0;
+	   idc = -1;
+	   style =48;
+	   colorBackground[] = {0, 0, 0, 1};
+	   colorText[] = {1, 1, 1, 1};
+	   font = "PuristaMedium";
+	   size = 0.5;
+	};
+	class MissionPassedPic
+	{
+		name = "Mission Passed";
+		duration = 9; //how long it is visible
+		idd = -1;
+		movingEnable = 0;
+		class controlsBackground { 
+			// define controls here
+		};
+		class objects { 
+			// define controls here
+		};
+		class controls
+		{
+			class mpassedPic : RscPicture
+			{
+				idc = -1;
+				text="img\missionpassed.paa";
+				x=0;//ST_CENTER; 
+				y=0;//ST_VCENTER; 
+				w=1; 
+				h=0.7;
+				sizeEx = 0.4;
+			};
+		};
+	};
+    class MissionPassedPic2
+	{
+		name = "Thug Life";
+		duration = 9; //how long it is visible
+		idd = -1;
+		movingEnable = 0;
+		class controlsBackground { 
+			// define controls here
+		};
+		class objects { 
+			// define controls here
+		};
+		class controls
+		{
+			class mpassedPic : RscPicture
+			{
+				idc = -1;
+				text="img\thuglife.paa";
+				x=0;//ST_CENTER; 
+				y=0.5;//ST_VCENTER; 
+				w=1; 
+				h=0.7;
+				sizeEx = 0.4;
+			};
+		};
+	};
+};
+class CfgSounds
+{
+	sounds[] = {};
+	class victoryEndSound
+	{
+		name = "viceend";
+		sound[] = {"vicecity.ogg", 1, 1.0};
+		titles[] = {};
+	};
+	class victoryEndSound2
+	{
+		name = "snoop";
+		sound[] = {"snoop.ogg", 1, 1.0};
+		titles[] = {};
+	};
+    class victoryEndSound3
+	{
+		name = "johncena";
+		sound[] = {"john_cena.ogg", 1, 1.0};
+		titles[] = {};
+	};
+    class victoryEndSound4
+	{
+		name = "police";
+		sound[] = {"the_police.ogg", 1, 1.0};
+		titles[] = {};
+	};
+};

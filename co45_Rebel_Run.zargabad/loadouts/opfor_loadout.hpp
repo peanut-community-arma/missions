@@ -68,12 +68,12 @@ class rm : baseMan
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_dl44"
+		"hlc_pistol_DL44"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_8("hlc_1Rnd_Plasma_DL44_green")
 	};
 };
@@ -83,12 +83,12 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_aa52_nf1"
+		"sp_fwa_aa52"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhsusf_100Rnd_762x51_m62_tracer")
 	};
 };
@@ -102,8 +102,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhsgref_296Rnd_792x57_SmK_alltracers_belt")
 	};
 };
@@ -113,11 +113,11 @@ class boss : rm
 	displayName = "Vader";
 	uniform[] = 
 	{
-		"aegis_ubacs_cu_blk"
+		"U_B_UBACS_blk_f"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_blk"
+		"V_CarrierRigKBT_01_light_Black_F"
 	};
 	headgear[] = 
 	{
@@ -141,8 +141,8 @@ class boss : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_12("amf_25Rnd_556x45_M856A1_F1_Stanag")
 	};
 };

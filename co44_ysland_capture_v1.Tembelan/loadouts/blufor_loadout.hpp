@@ -45,7 +45,7 @@ class baseMan
 	};
 	headgear[] = 
 	{
-		"aegis_specter_cover_un"
+		"H_HelmetSpecter_cover_UNO_F"
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -99,7 +99,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] =
 	{
@@ -115,14 +115,14 @@ class rm : baseMan
 	};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("SmokeShell"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N10"),
-		LIST_2("rhsusf_mag_7x45acp_MHP")
+		LIST_2("CUP_7Rnd_45ACP_1911")
 	};
 };
 
@@ -139,7 +139,7 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk12"
+		"Aegis_arifle_RPK12_545_F"
 	};
 	bipod[] =
 	{
@@ -147,8 +147,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("SmokeShell"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_5("aegis_95Rnd_545x39_mixed_7N22_ak12")
 	};
 	backpackItems[] = 
@@ -179,7 +179,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	secondaryWeapon[] = 
 	{
@@ -205,7 +205,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	bipod[] =
 	{
@@ -213,16 +213,16 @@ class tl : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("SmokeShell"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7T3M"),
-		LIST_2("rhsusf_mag_7x45acp_MHP")
+		LIST_2("CUP_7Rnd_45ACP_1911")
 	};	
 	backpackItems[] = 
 	{
 		LIST_20("rhs_VOG25"),
 		LIST_10("rhs_GRD40_White"),
-		LIST_5("rhs_mag_rdg2_white"),
+		LIST_5("SmokeShell"),
 		LIST_5("rhs_mag_rdg2_black")
 	};
 	linkedItems[] += 
@@ -264,7 +264,7 @@ class rm_fa : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};	
 	backpackItems[] =
 	{

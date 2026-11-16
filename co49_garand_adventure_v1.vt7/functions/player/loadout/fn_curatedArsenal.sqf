@@ -31,7 +31,7 @@ private _itemGear = [];
 //Uniform
 private _itemUniform = 
 [
-	"simc_arvn_og107",
+	"U_Simc_arvn_og107",
 	"simc_arvn_roll_og107",
 	"simc_arvn_tuck_roll_og107",
 	"simc_arvn_tuck_og107"
@@ -124,12 +124,12 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_candyskull",
-	"aegis_cigarette",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_CandySkull",
+	"G_Cigarette",
 	"CUP_G_TK_RoundGlasses_blk",
 	"CUP_G_TK_RoundGlasses_gold",
-	"usm_gigloves",
+	"$NONE_usm_gigloves$",
 	"rhssaf_veil_Green",
 	"simc_bandoleer_gren",
 	"simc_bandoleer_center",
@@ -145,8 +145,8 @@ private _itemCosmetic =
 	"simc_bandoleer_triplet_flak",
 	"simc_claysack",
 	"simc_claysack_flak",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"simc_nomex_blk",
 	"simc_nomex_alt",
 	"simc_nomex",
@@ -165,13 +165,13 @@ private _itemCosmetic =
 	"pca_nvg_cigarette",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"nvg_scrim_wdl_pine",
-	"usm_nvg_gigloves",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_nvg_scrim_wdl_pine$",
+	"pca_nvg_gloves_wool",
 	"simc_addon_nomex_blk",
 	"simc_addon_nomex_alt",
 	"simc_addon_nomex",
@@ -198,8 +198,8 @@ private _itemCosmetic =
 	"simc_addon_bandoleer_triplet_flak",
 	"simc_nvg_claysack",
 	"simc_nvg_claysack_flak",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
 	
 	//flyswatter stuff
 	"rhs_ess_black",
@@ -207,9 +207,9 @@ private _itemCosmetic =
 	"rhs_googles_clear",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -298,7 +298,7 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_m1_garand"
+	"sp_fwa_m1_garand"
 ];
 
 private _itemWeapRifleUGL = 
@@ -308,12 +308,12 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_m1941_308"
+	"$NONE_hlc_rifle_m1941_308$"
 ];
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -324,12 +324,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -384,7 +384,7 @@ private _itemFAC =
 	"SmokeShellBlue",
 	"SmokeShellGreen",
 	"SmokeShellRed",
-	"rhs_weap_M320",
+	"ptv_L2BPG",
 	"Laserdesignator"
 ];
 
@@ -395,20 +395,20 @@ private _itemExplosive =
 	//"rhs_mag_M397_HET",
 	//"rhs_mag_M433_HEDP",
 	//"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -418,8 +418,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

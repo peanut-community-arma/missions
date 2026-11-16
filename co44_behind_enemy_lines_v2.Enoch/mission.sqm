@@ -6791,13 +6791,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -7006,13 +7006,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -7264,7 +7264,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit""],[10]],[[""rhsusf_m112_mag""],[2]],[[],[]],[[],[]]],false]";
+											value = "[[[[""FirstAidKit""],[10]],[[""DemoCharge_Remote_Mag""],[2]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -7351,7 +7351,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -7405,7 +7405,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -7901,13 +7901,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -8510,13 +8510,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -9268,13 +9268,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -9633,7 +9633,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -9660,7 +9660,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -9822,7 +9822,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -9849,7 +9849,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -9876,7 +9876,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -10615,13 +10615,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -11276,13 +11276,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -11767,7 +11767,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -11794,7 +11794,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -11956,7 +11956,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -11983,7 +11983,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -12010,7 +12010,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -12405,7 +12405,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -12432,7 +12432,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -12594,7 +12594,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -12621,7 +12621,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -12648,7 +12648,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -13388,13 +13388,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -14051,13 +14051,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -14540,7 +14540,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -14567,7 +14567,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -14729,7 +14729,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -14756,7 +14756,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -14783,7 +14783,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -15182,7 +15182,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit""],[10]],[[""rhsusf_m112_mag""],[2]],[[],[]],[[],[]]],false]";
+											value = "[[[[""FirstAidKit""],[10]],[[""DemoCharge_Remote_Mag""],[2]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -15296,7 +15296,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -15323,7 +15323,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -15485,7 +15485,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -15512,7 +15512,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -15539,7 +15539,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -15884,7 +15884,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit""],[10]],[[""rhsusf_m112_mag""],[2]],[[],[]],[[],[]]],false]";
+											value = "[[[[""FirstAidKit""],[10]],[[""DemoCharge_Remote_Mag""],[2]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -15998,7 +15998,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -16025,7 +16025,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -16187,7 +16187,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -16214,7 +16214,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -16241,7 +16241,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -17061,13 +17061,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -17368,7 +17368,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -17395,7 +17395,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -17920,13 +17920,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -18581,13 +18581,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -19072,7 +19072,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -19099,7 +19099,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -19261,7 +19261,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -19288,7 +19288,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -19315,7 +19315,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -20277,13 +20277,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -21132,13 +21132,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -21805,13 +21805,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -22756,13 +22756,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -23057,7 +23057,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -23084,7 +23084,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -23246,7 +23246,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -23273,7 +23273,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -23300,7 +23300,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -24051,13 +24051,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -24871,13 +24871,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -25740,13 +25740,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -25994,7 +25994,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit""],[10]],[[""rhsusf_m112_mag""],[2]],[[],[]],[[],[]]],false]";
+											value = "[[[[""FirstAidKit""],[10]],[[""DemoCharge_Remote_Mag""],[2]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -26108,7 +26108,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -26135,7 +26135,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -26297,7 +26297,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -26324,7 +26324,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -26351,7 +26351,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -27175,13 +27175,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -27764,13 +27764,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -28057,13 +28057,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -28271,13 +28271,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -28811,7 +28811,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -28838,7 +28838,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -29000,7 +29000,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -29027,7 +29027,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -29054,7 +29054,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -30096,7 +30096,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_weap_rpg26";
+																									value = "CUP_launch_RPG26";
 																								};
 																							};
 																							class Item1
@@ -30473,7 +30473,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_weap_rpg26";
+																									value = "CUP_launch_RPG26";
 																								};
 																							};
 																							class Item1
@@ -30850,7 +30850,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_weap_rpg26";
+																									value = "CUP_launch_RPG26";
 																								};
 																							};
 																							class Item1
@@ -35267,13 +35267,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -35482,13 +35482,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36098,13 +36098,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36313,13 +36313,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36854,7 +36854,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -36881,7 +36881,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -37043,7 +37043,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -37070,7 +37070,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -37097,7 +37097,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -42232,13 +42232,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -42447,13 +42447,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -56597,7 +56597,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_m67";
+																					value = "CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -56759,7 +56759,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_mag_7x45acp_MHP";
+																					value = "CUP_7Rnd_45ACP_1911";
 																				};
 																			};
 																			class Item1
@@ -56786,7 +56786,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_weap_m1911a1";
+																					value = "CUP_hgun_Colt1911";
 																				};
 																			};
 																			class Item1
@@ -56840,7 +56840,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_colt_603_m16a1_m203";
+																					value = "CUP_arifle_M16A1GL";
 																				};
 																			};
 																			class Item1
@@ -56867,7 +56867,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_M320";
+																					value = "ptv_L2BPG";
 																				};
 																			};
 																			class Item1
@@ -56948,7 +56948,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "fwa_weap_m67";
+																					value = "sp_fwa_m67";
 																				};
 																			};
 																			class Item1
@@ -62086,13 +62086,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -62746,13 +62746,13 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -76210,13 +76210,13 @@ class Mission
 											items = 3;
 											class Item0
 											{
-												name = "rhs_mag_rgd5";
+												name = "CUP_HandGrenade_RGD5";
 												count = 1;
 												ammoLeft = 1;
 											};
 											class Item1
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 1;
 												ammoLeft = 1;
 											};
@@ -76425,13 +76425,13 @@ class Mission
 											items = 3;
 											class Item0
 											{
-												name = "rhs_mag_rgd5";
+												name = "CUP_HandGrenade_RGD5";
 												count = 1;
 												ammoLeft = 1;
 											};
 											class Item1
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 1;
 												ammoLeft = 1;
 											};

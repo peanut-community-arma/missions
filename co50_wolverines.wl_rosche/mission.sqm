@@ -1287,7 +1287,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -1692,7 +1692,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -2068,7 +2068,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1
@@ -2128,7 +2128,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -2533,7 +2533,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -10882,7 +10882,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -11287,7 +11287,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -11663,7 +11663,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1
@@ -11723,7 +11723,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -12128,7 +12128,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -12503,7 +12503,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1
@@ -12563,7 +12563,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -12968,7 +12968,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""rhsusf_100Rnd_762x51_m80a1epr""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_M136""],[1]],[[""rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M""],[20,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 						};
 					};
 				};

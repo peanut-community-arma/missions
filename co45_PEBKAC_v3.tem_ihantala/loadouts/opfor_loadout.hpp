@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 	headgear[] = 
 	{
@@ -111,8 +111,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("150Rnd_762x54_Box")
 	};
 };
@@ -135,7 +135,7 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		//"aegis_weap_rpg32_blk"
+		//"launch_RPG32_black_F"
 	};
 	backpackItems[] = 
 	{
@@ -215,8 +215,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -240,8 +240,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

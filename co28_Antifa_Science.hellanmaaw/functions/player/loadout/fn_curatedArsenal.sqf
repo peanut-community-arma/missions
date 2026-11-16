@@ -128,7 +128,7 @@ private _itemCosmetic =
 	"G_Bandanna_blk",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_Vampire_01",
 	"G_Spectacles",
 	"G_Squares_Tinted",
@@ -143,8 +143,8 @@ private _itemCosmetic =
 	"rhs_scarf",
 	"rhs_balaclava",
 	"rhs_balaclava1_olive",
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
 	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool_brn",
 	"pca_nvg_gloves_wool_gry",
@@ -231,8 +231,8 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_sks",
-	"fwa_weap_mosin_m91"
+	"Opf_arifle_SKS_F",
+	"CUP_srifle_Mosin_Nagant"
 ];
 
 private _itemWeapSh = 
@@ -243,8 +243,8 @@ private _itemWeapSh =
 
 private _itemWeapRifleUGL = 
 [
-	"fwa_weap_pps43",
-	"fwa_weap_ppsh41",
+	"$NONE_fwa_weap_pps43$",
+	"$NONE_fwa_weap_ppsh41$",
 	"CUP_hgun_FlareGun",
 	"CUP_IllumFlareGreen_265_M",
 	"CUP_IllumFlareRed_265_M",
@@ -254,7 +254,7 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"fwa_weap_rpd"
+	"$NONE_fwa_weap_rpd$"
 ];
 
 private _itemWeapLAT = 
@@ -265,10 +265,10 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm",
+	"CUP_hgun_Makarov",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S"
+	"CUP_8Rnd_9x18_Makarov_M"
 ];
 
 //********************************************************************************//
@@ -336,8 +336,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

@@ -57,7 +57,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		LIST_4("aegis_modular_carrier_lite_blk"),
+		LIST_4("V_CarrierRigKBT_01_light_Black_F"),
 		"V_PlateCarrier1_blk"
 	};
 	headgear[] = 
@@ -109,7 +109,7 @@ class ar : rm
 	{
 		"HandGrenade",
 		"SmokeShell",
-		LIST_2("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("CUP_7Rnd_45ACP_1911"),
 		LIST_6("rhs_mag_100Rnd_556x45_M855A1_cmag_mixed")
 	};
 };

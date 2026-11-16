@@ -104,7 +104,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] =
 	{
-		"fwa_weap_bren_l4"
+		"sp_fwa_bren_l4_lmg"
 	};
 	goggles[] =
 	{
@@ -112,7 +112,7 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_9("fwa_30rnd_762x51_fal_curved_tracer_red")
 	};
@@ -123,13 +123,13 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_sterling_mk4"
+		"sp_fwa_smg_sterling"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
-		LIST_9("fwa_32rnd_9x19_sterling_tracer_red")
+		LIST_9("sp_fwa_32Rnd_9x19_L2A3_Sterling_Tracer")
 	};
 };
 
@@ -138,7 +138,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -175,7 +175,7 @@ class gren : rm
 	};
 	magazines[] += 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 			"SmokeShell"
 	};
 };
@@ -239,8 +239,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -264,8 +264,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

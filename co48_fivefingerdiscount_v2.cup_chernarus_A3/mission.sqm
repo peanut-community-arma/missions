@@ -33,7 +33,7 @@ class EditorData
 	};
 };
 sourceName = "co48_fivefingerdiscount";
-addons[] = {"A3_Ui_F","A3_Modules_F","A3_Modules_F_Curator_Misc","A3_Structures_F_Ind_Cargo","ace_cargo","A3_Props_F_Exp_Commercial_Market","ace_dragging","A3_Props_F_Orange_Humanitarian_Supplies","A3_Props_F_Orange_Humanitarian_Camps","A3_Structures_F_EPA_Mil_Scrapyard","A3_Structures_F_Items_Vessels","A3_Structures_F_EPA_Civ_Constructions","A3_Structures_F_Civ_Camping","A3_Structures_F_Heli_Items_Luggage","A3_Props_F_Enoch_Military_Camps","ace_sitting","A3_Structures_F_Orange_Industrial_Cargo","A3_Structures_F_Civ_Constructions","A3_Structures_F_Heli_Ind_Cargo","A3_Props_F_Enoch_Military_Equipment","A3_Props_F_Enoch_Military_Supplies","A3_Structures_F_EPA_Items_Tools","A3_Structures_F_Exp_Military_Fortifications","A3_Structures_F_Training","A3_Structures_F_Exp_Civilian_Sheds","A3_Structures_F_Ind_WindPowerPlant","A3_Structures_F_Walls","A3_Structures_F_Heli_Ind_Machines","A3_Structures_F_Heli_Civ_Constructions","CUP_Misc3_Config","A3_Structures_F_Civ_Market","CUP_Editor_Buildings_Config","CUP_CAMisc","A3_Structures_F_EPA_Civ_Camping","ace_field_rations","A3_Structures_F_Civ_Lamps","A3_Structures_F_Mil_Helipads","A3_Structures_F_Enoch_Military_Camonets","A3_Structures_F_Civ_Garbage","CUP_A2_EditorObjects","A3_Structures_F_Enoch_Walls_Pipe","A3_Structures_F_Mil_Fortification","emr_main","ace_logistics_wirecutter","ace_concertina_wire","A3_Props_F_Enoch_Industrial_Supplies","A3_Structures_F_Argo_Military_Fortifications","A3_Structures_F_Furniture","A3_Props_F_Orange_Furniture","CUP_Misc_e_Config","cba_xeh","A3_Props_F_Enoch_Infrastructure_Traffic","A3_Data_F","CUP_Editor_A2_Roads_Config","A3_Structures_F_Enoch_Decals_Horizontal","A3_Props_F_Orange_Civilian_Constructions","A3_Structures_F_Enoch_Walls_Wooden","A3_Structures_F_Exp_Industrial_SurfaceMine_01","CUP_Buildings_Config","A3_Structures_F_Mil_BagFence","A3_Signs_F","ace_interaction","A3_Structures_F_System","A3_Structures_F_Oldman_Decals","A3_Structures_F_Exp_Walls_Concrete","A3_Structures_F_Tank_Decals_Horizontal","A3_Structures_F_Enoch_Military_Training","A3_Structures_F_Mil_BagBunker","A3_Structures_F_EPB_Items_Documents","A3_Structures_F_Oldman_Signs_Traffic","CUP_Editor_Plants_Config","A3_Structures_F_Mil_Shelters","A3_Structures_F_Argo_Decals_Horizontal","A3_Structures_F_Enoch_Industrial_Materials","A3_Structures_F_Civ_Accessories","A3_Structures_F_EPB_Civ_Accessories","A3_Props_F_Argo_Items_Documents","A3_Props_F_Enoch_Military_Garbage","A3_Props_F_Exp_Civilian_Garbage","A3_Structures_F_Items_Electronics","A3_Structures_F_Items_Tools","A3_Structures_F_EPB_Items_Vessels","A3_Props_F_Enoch_Items_Documents","A3_Structures_F_EPA_Items_Medical","A3_Structures_F_EPA_Items_Vessels","A3_Data_F_ParticleEffects","A3_Structures_F_Exp_Walls_Wooden","A3_Props_F_Oldman_Items","A3_Structures_F_Exp_Civilian_Accessories","A3_Supplies_F_Exp_Ammoboxes","A3_Structures_F_EPA_Items_Food","A3_Structures_F_Items_Gadgets","A3_Structures_F_EPB_Items_Military","A3_Structures_F_Wrecks","A3_Missions_F_Oldman","A3_Structures_F_Exp_Walls_Slum","A3_Structures_F_Exp_Walls_Polewalls","A3_Structures_F_Exp_Walls_Tin","A3_Rocks_F_Enoch","A3_Structures_F_Households_Slum","A3_Structures_F_Enoch_Signs_Traffic","A3_Characters_F","CUP_Creatures_Military_Chedaki","CUP_Weapons_AK","jsrs_soundmod_cup_weapons","CUP_Weapons_Ammunition","A3_Weapons_F","acre_main","CUP_Creatures_People_Core","A3_Weapons_F_Items","ace_medical_engine","ace_medical_treatment","CUP_Weapons_Grenades","ace_realisticnames","CUP_WheeledVehicles_Hilux","CUP_Creatures_StaticWeapons","CUP_AirVehicles_C130J","A3_Props_F_Enoch_Civilian_Forest","A3_Structures_F_Enoch_Walls_Stone","CUP_Editor_Rocks_Config","tmf_ai","CUP_Creatures_Military_PMC","CUP_Weapons_M16","CUP_Weapons_West_Attachments","CUP_Weapons_NVG","CUP_Weapons_ACE_compat","CUP_Creatures_Military_USArmy","CUP_Weapons_SCAR","CUP_Weapons_G36","pca_misc_pca_ai_tweaks","CUP_Weapons_Glock17","CUP_Weapons_Items","CUP_Creatures_Military_USMC","ace_attach","A3_Weapons_F_Orange","CUP_Weapons_HK416","rhsusf_c_weapons","ace_compat_rhs_usf3","rhsusf_c_m11xx","rhsusf_vehicles","CUP_Wheeled_SUV","ace_ballistics","rhsusf_c_melb","rhsgref_c_air","CUP_Weapons_M107","cba_ai","hlcweapons_ak","rhs_c_weapons","ace_optics","CUP_Creatures_Military_Russia","acre_sys_prc343","CUP_Creatures_Military_CDF","A3_Weapons_F_Ammoboxes","ace_explosives","CUP_WheeledVehicles_MATV","rhsgref_c_vehicles_ret","CUP_WheeledVehicles_TowingTractor","CUP_WheeledVehicles_LR","A3_Soft_F_Quadbike_01","CUP_Weapons_Curator","CUP_Weapons_AmmoBoxes"};
+addons[] = {"A3_Ui_F","A3_Modules_F","A3_Modules_F_Curator_Misc","A3_Structures_F_Ind_Cargo","ace_cargo","A3_Props_F_Exp_Commercial_Market","ace_dragging","A3_Props_F_Orange_Humanitarian_Supplies","A3_Props_F_Orange_Humanitarian_Camps","A3_Structures_F_EPA_Mil_Scrapyard","A3_Structures_F_Items_Vessels","A3_Structures_F_EPA_Civ_Constructions","A3_Structures_F_Civ_Camping","A3_Structures_F_Heli_Items_Luggage","A3_Props_F_Enoch_Military_Camps","ace_sitting","A3_Structures_F_Orange_Industrial_Cargo","A3_Structures_F_Civ_Constructions","A3_Structures_F_Heli_Ind_Cargo","A3_Props_F_Enoch_Military_Equipment","A3_Props_F_Enoch_Military_Supplies","A3_Structures_F_EPA_Items_Tools","A3_Structures_F_Exp_Military_Fortifications","A3_Structures_F_Training","A3_Structures_F_Exp_Civilian_Sheds","A3_Structures_F_Ind_WindPowerPlant","A3_Structures_F_Walls","A3_Structures_F_Heli_Ind_Machines","A3_Structures_F_Heli_Civ_Constructions","CUP_Misc3_Config","A3_Structures_F_Civ_Market","CUP_Editor_Buildings_Config","CUP_CAMisc","A3_Structures_F_EPA_Civ_Camping","ace_field_rations","A3_Structures_F_Civ_Lamps","A3_Structures_F_Mil_Helipads","A3_Structures_F_Enoch_Military_Camonets","A3_Structures_F_Civ_Garbage","CUP_A2_EditorObjects","A3_Structures_F_Enoch_Walls_Pipe","A3_Structures_F_Mil_Fortification","emr_main","ace_logistics_wirecutter","ace_concertina_wire","A3_Props_F_Enoch_Industrial_Supplies","A3_Structures_F_Argo_Military_Fortifications","A3_Structures_F_Furniture","A3_Props_F_Orange_Furniture","CUP_Misc_e_Config","cba_xeh","A3_Props_F_Enoch_Infrastructure_Traffic","A3_Data_F","CUP_Editor_A2_Roads_Config","A3_Structures_F_Enoch_Decals_Horizontal","A3_Props_F_Orange_Civilian_Constructions","A3_Structures_F_Enoch_Walls_Wooden","A3_Structures_F_Exp_Industrial_SurfaceMine_01","CUP_Buildings_Config","A3_Structures_F_Mil_BagFence","A3_Signs_F","ace_interaction","A3_Structures_F_System","A3_Structures_F_Oldman_Decals","A3_Structures_F_Exp_Walls_Concrete","A3_Structures_F_Tank_Decals_Horizontal","A3_Structures_F_Enoch_Military_Training","A3_Structures_F_Mil_BagBunker","A3_Structures_F_EPB_Items_Documents","A3_Structures_F_Oldman_Signs_Traffic","CUP_Editor_Plants_Config","A3_Structures_F_Mil_Shelters","A3_Structures_F_Argo_Decals_Horizontal","A3_Structures_F_Enoch_Industrial_Materials","A3_Structures_F_Civ_Accessories","A3_Structures_F_EPB_Civ_Accessories","A3_Props_F_Argo_Items_Documents","A3_Props_F_Enoch_Military_Garbage","A3_Props_F_Exp_Civilian_Garbage","A3_Structures_F_Items_Electronics","A3_Structures_F_Items_Tools","A3_Structures_F_EPB_Items_Vessels","A3_Props_F_Enoch_Items_Documents","A3_Structures_F_EPA_Items_Medical","A3_Structures_F_EPA_Items_Vessels","A3_Data_F_ParticleEffects","A3_Structures_F_Exp_Walls_Wooden","A3_Props_F_Oldman_Items","A3_Structures_F_Exp_Civilian_Accessories","A3_Supplies_F_Exp_Ammoboxes","A3_Structures_F_EPA_Items_Food","A3_Structures_F_Items_Gadgets","A3_Structures_F_EPB_Items_Military","A3_Structures_F_Wrecks","A3_Missions_F_Oldman","A3_Structures_F_Exp_Walls_Slum","A3_Structures_F_Exp_Walls_Polewalls","A3_Structures_F_Exp_Walls_Tin","A3_Rocks_F_Enoch","A3_Structures_F_Households_Slum","A3_Structures_F_Enoch_Signs_Traffic","A3_Characters_F","CUP_Creatures_Military_Chedaki","CUP_Weapons_AK","jsrs_soundmod_cup_weapons","CUP_Weapons_Ammunition","A3_Weapons_F","acre_main","CUP_Creatures_People_Core","A3_Weapons_F_Items","ace_medical_engine","ace_medical_treatment","CUP_Weapons_Grenades","ace_realisticnames","CUP_WheeledVehicles_Hilux","CUP_Creatures_StaticWeapons","CUP_AirVehicles_C130J","A3_Props_F_Enoch_Civilian_Forest","A3_Structures_F_Enoch_Walls_Stone","CUP_Editor_Rocks_Config","tmf_ai","CUP_Creatures_Military_PMC","CUP_Weapons_M16","CUP_Weapons_West_Attachments","CUP_Weapons_NVG","ace_compat_cup_weapons","CUP_Creatures_Military_USArmy","CUP_Weapons_SCAR","CUP_Weapons_G36","pca_misc_pca_ai_tweaks","CUP_Weapons_Glock17","CUP_Weapons_Items","CUP_Creatures_Military_USMC","ace_attach","A3_Weapons_F_Orange","CUP_Weapons_HK416","rhsusf_c_weapons","ace_compat_rhs_usf3","rhsusf_c_m11xx","rhsusf_vehicles","CUP_Wheeled_SUV","ace_ballistics","rhsusf_c_melb","rhsgref_c_air","CUP_Weapons_M107","cba_ai","hlcweapons_ak","rhs_c_weapons","ace_optics","CUP_Creatures_Military_Russia","acre_sys_prc343","CUP_Creatures_Military_CDF","A3_Weapons_F_Ammoboxes","ace_explosives","CUP_WheeledVehicles_MATV","rhsgref_c_vehicles_ret","CUP_WheeledVehicles_TowingTractor","CUP_WheeledVehicles_LR","A3_Soft_F_Quadbike_01","CUP_Weapons_Curator","CUP_Weapons_AmmoBoxes"};
 class AddonsMetaData
 {
 	class List
@@ -461,8 +461,8 @@ class AddonsMetaData
 		};
 		class Item66
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item67
@@ -16180,7 +16180,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74";
+																							value = "CUP_arifle_AK74_Early";
 																						};
 																					};
 																					class Item1
@@ -16207,7 +16207,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_dirty";
+																							value = "$NONE_hlc_rifle_ak74_dirty$";
 																						};
 																					};
 																					class Item1
@@ -16234,7 +16234,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_worn";
+																							value = "$NONE_hlc_rifle_ak74_worn$";
 																						};
 																					};
 																					class Item1
@@ -16261,7 +16261,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aks74";
+																							value = "CUP_arifle_AKS74_Early";
 																						};
 																					};
 																					class Item1
@@ -16288,7 +16288,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -16315,7 +16315,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -16369,7 +16369,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk74";
+																							value = "CUP_arifle_RPK74_45";
 																						};
 																					};
 																					class Item1
@@ -16396,7 +16396,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -16450,7 +16450,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -16477,7 +16477,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -16531,7 +16531,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -16585,7 +16585,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -16612,7 +16612,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -69380,7 +69380,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_m4_carryhandle"",""rhs_weap_M136_hedp"",""FirstAidKit""],[2,2,4]],[[""rhs_m136_hedp_mag"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[2,20,8,16,4,2,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[2]]],false]";
+											value = "[[[[""rhs_weap_m4_carryhandle"",""rhs_weap_M136_hedp"",""FirstAidKit""],[2,2,4]],[[""rhs_m136_hedp_mag"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""SmokeShell""],[2,20,8,16,4,2,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[2]]],false]";
 										};
 									};
 								};
@@ -75681,7 +75681,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_m4_carryhandle"",""rhs_weap_M136_hedp"",""FirstAidKit""],[2,2,4]],[[""rhs_m136_hedp_mag"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[2,20,8,16,4,2,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[2]]],false]";
+											value = "[[[[""rhs_weap_m4_carryhandle"",""rhs_weap_M136_hedp"",""FirstAidKit""],[2,2,4]],[[""rhs_m136_hedp_mag"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""SmokeShell""],[2,20,8,16,4,2,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[2]]],false]";
 										};
 									};
 								};
@@ -77987,7 +77987,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""rhs_weap_m4_carryhandle"",""rhs_weap_M136_hedp"",""FirstAidKit""],[2,2,4]],[[""rhs_m136_hedp_mag"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[2,20,8,16,4,2,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[2]]],false]";
+									value = "[[[[""rhs_weap_m4_carryhandle"",""rhs_weap_M136_hedp"",""FirstAidKit""],[2,2,4]],[[""rhs_m136_hedp_mag"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""SmokeShell""],[2,20,8,16,4,2,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[2]]],false]";
 								};
 							};
 						};
@@ -84513,7 +84513,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74";
+																							value = "CUP_arifle_AK74_Early";
 																						};
 																					};
 																					class Item1
@@ -84540,7 +84540,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_dirty";
+																							value = "$NONE_hlc_rifle_ak74_dirty$";
 																						};
 																					};
 																					class Item1
@@ -84567,7 +84567,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_worn";
+																							value = "$NONE_hlc_rifle_ak74_worn$";
 																						};
 																					};
 																					class Item1
@@ -84594,7 +84594,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aks74";
+																							value = "CUP_arifle_AKS74_Early";
 																						};
 																					};
 																					class Item1
@@ -84621,7 +84621,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -84648,7 +84648,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -84702,7 +84702,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk74";
+																							value = "CUP_arifle_RPK74_45";
 																						};
 																					};
 																					class Item1
@@ -84729,7 +84729,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -84783,7 +84783,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -84810,7 +84810,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -84864,7 +84864,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -84918,7 +84918,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -84945,7 +84945,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -85320,7 +85320,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74";
+																							value = "CUP_arifle_AK74_Early";
 																						};
 																					};
 																					class Item1
@@ -85347,7 +85347,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_dirty";
+																							value = "$NONE_hlc_rifle_ak74_dirty$";
 																						};
 																					};
 																					class Item1
@@ -85374,7 +85374,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_worn";
+																							value = "$NONE_hlc_rifle_ak74_worn$";
 																						};
 																					};
 																					class Item1
@@ -85401,7 +85401,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aks74";
+																							value = "CUP_arifle_AKS74_Early";
 																						};
 																					};
 																					class Item1
@@ -85428,7 +85428,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -85455,7 +85455,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -85509,7 +85509,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk74";
+																							value = "CUP_arifle_RPK74_45";
 																						};
 																					};
 																					class Item1
@@ -85536,7 +85536,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -85590,7 +85590,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -85617,7 +85617,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -85671,7 +85671,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -85725,7 +85725,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -85752,7 +85752,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -108039,7 +108039,7 @@ class Mission
 								{
 									class primaryWeapon
 									{
-										name = "hlc_rifle_ak74";
+										name = "CUP_arifle_AK74_Early";
 										firemode = "hlc_rifle_ak74:FullAuto";
 										class primaryMuzzleMag
 										{
@@ -108094,13 +108094,13 @@ class Mission
 											items = 3;
 											class Item0
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 2;
 												ammoLeft = 1;
 											};
 											class Item1
 											{
-												name = "rhs_mag_rgd5";
+												name = "CUP_HandGrenade_RGD5";
 												count = 2;
 												ammoLeft = 1;
 											};
@@ -108531,7 +108531,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -108558,7 +108558,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -108612,7 +108612,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -108639,7 +108639,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -108693,7 +108693,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -108720,7 +108720,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -108774,7 +108774,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -108828,7 +108828,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -108855,7 +108855,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -109808,7 +109808,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -109835,7 +109835,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -109889,7 +109889,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -109916,7 +109916,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -109970,7 +109970,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -109997,7 +109997,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -110051,7 +110051,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -110105,7 +110105,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -110132,7 +110132,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -110610,7 +110610,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -110637,7 +110637,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -110691,7 +110691,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -110718,7 +110718,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -110772,7 +110772,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -110799,7 +110799,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -110853,7 +110853,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -110907,7 +110907,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -110934,7 +110934,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -111889,7 +111889,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -111916,7 +111916,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -111970,7 +111970,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -111997,7 +111997,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -112051,7 +112051,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -112078,7 +112078,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -112132,7 +112132,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -112186,7 +112186,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -112213,7 +112213,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -112785,7 +112785,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -112812,7 +112812,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -112866,7 +112866,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -112893,7 +112893,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -112947,7 +112947,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -112974,7 +112974,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -113028,7 +113028,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -113082,7 +113082,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -113109,7 +113109,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -113587,7 +113587,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -113614,7 +113614,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -113668,7 +113668,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -113695,7 +113695,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -113749,7 +113749,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -113776,7 +113776,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -113830,7 +113830,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -113884,7 +113884,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -113911,7 +113911,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -114390,7 +114390,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -114417,7 +114417,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -114471,7 +114471,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -114498,7 +114498,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -114552,7 +114552,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -114579,7 +114579,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -114633,7 +114633,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -114687,7 +114687,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -114714,7 +114714,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -115229,7 +115229,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74";
+																							value = "CUP_arifle_AK74_Early";
 																						};
 																					};
 																					class Item1
@@ -115256,7 +115256,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_dirty";
+																							value = "$NONE_hlc_rifle_ak74_dirty$";
 																						};
 																					};
 																					class Item1
@@ -115283,7 +115283,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_worn";
+																							value = "$NONE_hlc_rifle_ak74_worn$";
 																						};
 																					};
 																					class Item1
@@ -115310,7 +115310,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aks74";
+																							value = "CUP_arifle_AKS74_Early";
 																						};
 																					};
 																					class Item1
@@ -115337,7 +115337,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -115364,7 +115364,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -115418,7 +115418,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -115445,7 +115445,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -115499,7 +115499,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -115526,7 +115526,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -115580,7 +115580,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -115634,7 +115634,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -115661,7 +115661,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -116184,7 +116184,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -116211,7 +116211,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -116265,7 +116265,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -116292,7 +116292,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -116346,7 +116346,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -116373,7 +116373,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -116427,7 +116427,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -116481,7 +116481,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -116508,7 +116508,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -116909,7 +116909,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -117125,7 +117125,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_VOG25";
+																							value = "CUP_1Rnd_HE_GP25_M";
 																						};
 																					};
 																					class Item1
@@ -117152,7 +117152,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_GRD40_White";
+																							value = "CUP_1Rnd_SMOKE_GP25_M";
 																						};
 																					};
 																					class Item1
@@ -117206,7 +117206,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_100Rnd_762x54mmR";
+																							value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 																						};
 																					};
 																					class Item1
@@ -117233,7 +117233,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -118444,7 +118444,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -118471,7 +118471,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -118525,7 +118525,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -118552,7 +118552,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -118606,7 +118606,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -118633,7 +118633,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -118687,7 +118687,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -118741,7 +118741,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -118768,7 +118768,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -119204,7 +119204,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74";
+																							value = "CUP_arifle_AK74_Early";
 																						};
 																					};
 																					class Item1
@@ -119231,7 +119231,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_dirty";
+																							value = "$NONE_hlc_rifle_ak74_dirty$";
 																						};
 																					};
 																					class Item1
@@ -119258,7 +119258,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_ak74_worn";
+																							value = "$NONE_hlc_rifle_ak74_worn$";
 																						};
 																					};
 																					class Item1
@@ -119285,7 +119285,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_aks74";
+																							value = "CUP_arifle_AKS74_Early";
 																						};
 																					};
 																					class Item1
@@ -119312,7 +119312,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -119339,7 +119339,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -119393,7 +119393,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "hlc_rifle_rpk74";
+																							value = "CUP_arifle_RPK74_45";
 																						};
 																					};
 																					class Item1
@@ -119420,7 +119420,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -119474,7 +119474,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -119501,7 +119501,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -119555,7 +119555,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -119609,7 +119609,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -119636,7 +119636,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -120655,7 +120655,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -120682,7 +120682,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -120736,7 +120736,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "fwa_weap_rpd";
+																							value = "$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -120763,7 +120763,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_9x18_8_57N181S";
+																							value = "CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -120817,7 +120817,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -120844,7 +120844,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_rpg26";
+																							value = "CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -120898,7 +120898,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -120952,7 +120952,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -120979,7 +120979,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -122538,7 +122538,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_rpg26""],[20]],[[],[]],[[],[]],[[],[]]],false]";
+							value = "[[[[""CUP_launch_RPG26""],[20]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};

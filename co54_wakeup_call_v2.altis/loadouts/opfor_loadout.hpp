@@ -93,7 +93,7 @@ class rm : baseMan
 		LIST_4(""),
 		"rhs_acc_1p87",
 		"rhs_acc_1p87",
-		"rhsusf_acc_eotech_552"
+		"RKSL_optic_EOT552"
 	};
 	attachment[] = {
 		"rhs_acc_2dpzenit_ris",
@@ -101,8 +101,8 @@ class rm : baseMan
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("pca_mag_30Rnd_545x39_AK12_Blk_7N10")
 	};
 };
@@ -120,8 +120,8 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("pca_mag_45Rnd_545X39_RPK_Black_7N10")
 	};
 };
@@ -143,8 +143,8 @@ class mg : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 };
@@ -154,7 +154,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] =
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -185,8 +185,8 @@ class gren : rm
 	};
 	magazines[] +=
 	{
-		LIST_1("rhs_VOG25"),
-		LIST_1("rhs_GRD40_White")
+		LIST_1("CUP_1Rnd_HE_GP25_M"),
+		LIST_1("CUP_1Rnd_SMOKE_GP25_M")
 	};
 };
 
@@ -245,8 +245,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -270,8 +270,8 @@ class gunner : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

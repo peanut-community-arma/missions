@@ -68,7 +68,7 @@ class rm : baseMan
 	backpack[] = 
 	{
 		LIST_7(""),
-		LIST_2("aegis_assaultpack_blk"),
+		LIST_2("B_AssaultPack_blk"),
 		"pca_eagle_a3_blk"
 	};
 	goggles[] = 
@@ -77,7 +77,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_f2000_blk"
+		"arifle_Mk20_black_F"
 	};
 	scope[] = 
 	{
@@ -89,8 +89,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("30Rnd_556x45_Stanag")
 	};
 };
@@ -104,21 +104,21 @@ class enforcer : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk",
+		"V_TacVest_blk",
 		"V_TacVest_blk_POLICE",
 		"CUP_V_C_Police_Holster"
 	};
 	headgear[] = 
 	{
 		LIST_3(""),
-		LIST_2("usm_bdu_8point_blu"),
+		LIST_2("$NONE_usm_bdu_8point_blu$"),
 		LIST_2("H_Beret_gen_F"),
-		LIST_2("usm_helmet_pasgt_ce_blu")
+		LIST_2("H_PASGT_basic_blue_F")
 	};
 	backpack[] = 
 	{
 		LIST_7(""),
-		LIST_2("aegis_assaultpack_blk"),
+		LIST_2("B_AssaultPack_blk"),
 		"pca_eagle_a3_blk"
 	};
 	primaryWeapon[] = 
@@ -138,8 +138,8 @@ class enforcer : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_15("CUP_12Rnd_45ACP_mk23")
 	};
 };
@@ -157,8 +157,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("ACE_200Rnd_65x39_cased_Box_green")
 	};
 };
@@ -172,7 +172,7 @@ class mg : rm
 	};
 	backpack[] = 
 	{
-		LIST_2("aegis_assaultpack_blk"),
+		LIST_2("B_AssaultPack_blk"),
 		"pca_eagle_a3_blk"
 	};
 	primaryWeapon[] = 
@@ -181,8 +181,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M")
 	};
 };
@@ -200,8 +200,8 @@ class smg : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_40Rnd_46x30_MP7")
 	};
 };
@@ -211,7 +211,7 @@ class enforcer_l : enforcer
 	displayName = "Enforcer Team Leader";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_tar21_blk"
+		"arifle_TRG21_black_F"
 	};
 	sidearmWeapon[] = 
 	{
@@ -219,8 +219,8 @@ class enforcer_l : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("pca_mag_30Rnd_556x45_M855A1_Stanag_Blk")
 	};
 }
@@ -238,8 +238,8 @@ class enforcer_r : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("20Rnd_762x51_Mag")
 	};
 }
@@ -249,7 +249,7 @@ class enforcer_sl : enforcer
 	displayName = "Enforcer Squad Leader";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_tar21_gl_blk"
+		"arifle_TRG21_GL_black_F"
 	};
 	sidearmWeapon[] = 
 	{
@@ -257,8 +257,8 @@ class enforcer_sl : enforcer
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("pca_mag_30Rnd_556x45_M855A1_Stanag_Blk"),
 		LIST_3("CUP_1Rnd_HEDP_M203"),
 		LIST_3("rhs_mag_m576"),
@@ -284,7 +284,7 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_mraws_blk"
+		"launch_MRAWS_black_F"
 	};
 	backpackItems[] = 
 	{
@@ -303,7 +303,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_f2000_gl_blk"
+		"arifle_Mk20_GL_black_F"
 	};
 	magazines[] += 
 	{
@@ -361,7 +361,7 @@ class crewman : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_f2000c_blk"
+		"arifle_Mk20C_black_F"
 	};
 	scope[] = {};
 };
@@ -379,8 +379,8 @@ class pilot : crewman
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("CUP_40Rnd_46x30_MP7")
 	};
 };

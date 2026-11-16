@@ -74,15 +74,15 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"aegis_beret_sf_grn",
+	"H_Beret_grn_SF",
 	"pca_booniehat_wdl",
 	"rhs_Booniehat_m81",
 	"simc_bonnie_hat_m81",
 	"simc_bonnie_hat_flat_m81",
-	"aegis_boonie_m81",
+	"H_Booniehat_m81_F",
 	"bear_bdu_8point_m81",
 	"H_Watchcap_camo",
-	"aegis_beanie_grn",
+	"H_Watchcap_camo",
 	"CUP_H_PMC_Beanie_Khaki",
 	"H_Bandanna_khk",
 	"H_Bandanna_sgg",
@@ -90,14 +90,14 @@ private _itemHeadgear =
 	"CUP_H_FR_BandanaGreen",
 	"CUP_H_RUS_Bandana_GSSh_Headphones",
 	"CUP_H_FR_BandanaWdl",
-	"simc_pasgt_m81",
-	"simc_pasgt_m81_scrim",
+	"H_Simc_pasgt_m81",
+	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
-	"simc_pasgt_m81_swdg",
+	"H_Simc_pasgt_m81_SWDG",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_high",
-	"simc_pasgt_m81_swdg_low",
+	"H_Simc_pasgt_m81_SWDG_low",
 	"simc_pasgt_m81_swdg_low_cover",
 	"rhsusf_Bowman"
 ];
@@ -151,8 +151,8 @@ private _itemCosmetic =
 [
 	"G_Balaclava_blk",
 	"G_Balaclava_oli",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"CUP_RUS_Balaclava_tan",
 	"CUP_G_RUS_Balaclava_Ratnik",
 	"CUP_G_RUS_Balaclava_Ratnik_v2",
@@ -178,20 +178,20 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_grn",
 	"rhsusf_shemagh2_gogg_od",
 	"rhsusf_shemagh2_gogg_tan",
-	"usm_scarf",
-	"aegis_shemag_cbr",
-	"aegis_shemag_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_red",
-	"usm_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$NONE_aegis_shemag_cbr$",
+	"CUP_FR_NeckScarf2",
+	"CUP_FR_NeckScarf",
+	"CUP_FR_NeckScarf5",
+	"$REMOVE_usm_scarf2$",
 	"G_Combat",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhs_googles_black",
 	"rhs_googles_clear",
 	"rhs_googles_orange",
@@ -199,55 +199,55 @@ private _itemCosmetic =
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
 	"G_Aviator",
-	"aegis_bandanna_kawaii",
-	"aegis_bandanna_skull",
-	"aegis_bandanna_candyskull",
+	"G_Bandanna_kawaii",
+	"G_Bandanna_Skull2",
+	"G_Bandanna_CandySkull",
 	"G_Spectacles",
 	"rhssaf_veil_Green",
 	"CUP_G_TK_RoundGlasses_blk",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"G_Spectacles_Tinted",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"immersion_pops_pop0",
 	"immersion_cigs_cigar0",
-	"aegis_headset",
-	"usm_kneepads_blk",
+	"G_Headset_light",
+	"$NONE_usm_kneepads_blk$",
 	"sfp_peltor_comtac3",
 	"TC_G_NitrileGloves_1",
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_shemagh_blk",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_tan",
-	"usm_nvg_scarf",
-	"usm_nvg_scarf2",
-	"nvg_goggles_grn",
-	"pca_nvg_ess_blk",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_scarf2$",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
 	"pca_nvg_cigarette",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
-	"usm_nvg_kneepads_blk",
-	"usm_nvg_gigloves",
+	"$NONE_usm_nvg_kneepads_blk$",
+	"pca_nvg_gloves_wool",
 	"pca_nvg_gloves_wool",
 	"TC_NVG_NitrileGloves_1",
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_2",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
 	"immersion_pops_pop0_nv",
 	"m40_gas_mask_03"
 ];
@@ -350,20 +350,20 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"rhsusf_weap_m9",
-	"hlc_pistol_p226r_combat"
+	"$NONE_hlc_pistol_p226r_combat$"
 ];
 
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -381,7 +381,7 @@ private _itemAmmo =
 	//Pistol Ammo
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"hlc_15Rnd_9x19_FMJ_P226",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoTracer = 
@@ -396,7 +396,7 @@ private _itemAmmoAR =
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"hlc_15Rnd_9x19_FMJ_P226",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoSignal = 
@@ -418,12 +418,12 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67",
-	"rhsusf_m112x4_mag",
-	"rhsusf_m112_mag",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67",
+	"SatchelCharge_Remote_Mag",
+	"DemoCharge_Remote_Mag",
 	"SmokeShellBlue",
 	"SmokeShellGreen",
 	"SmokeShellPurple",
@@ -440,14 +440,14 @@ private _itemExplosive =
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -457,8 +457,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

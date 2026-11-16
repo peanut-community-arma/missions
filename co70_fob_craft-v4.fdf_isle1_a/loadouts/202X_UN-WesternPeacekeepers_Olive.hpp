@@ -55,7 +55,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	vest[] = 
 	{
-		"aegis_iotv_lite_oli"
+		"V_PlateCarrierIA1_oli"
 	};
 	headgear[] = 
 	{
@@ -67,11 +67,11 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 	items[] =
 	{
@@ -86,7 +86,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("hlc_30Rnd_556x45_B_G36")
 	};
 	backpackItems[] = 
@@ -112,12 +112,12 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_JHP_P226"),
 		LIST_3("rhsusf_200Rnd_556x45_mixed_soft_pouch")
 	};
@@ -175,12 +175,12 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	backpackItems[] = 
 	{
-		LIST_3("rhs_mag_M441_HE"),
-		LIST_3("rhs_mag_M433_HEDP"),
+		LIST_3("CUP_1Rnd_HE_M203"),
+		LIST_3("CUP_1Rnd_HEDP_M203"),
 		LIST_1("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -203,11 +203,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -216,8 +216,8 @@ class sl : tl
 	backpackItems[] =
 	{
 		
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -230,7 +230,7 @@ class sgt : sl
 	displayName = "Platoon Sergeant";
 	backpackItems[] =
 	{
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -246,7 +246,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	backpackItems[] =
 	{
@@ -263,7 +263,7 @@ class fac : sl
 	backpackItems[] =
 	{
 		"Laserbatteries",
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_4("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
@@ -305,7 +305,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -339,7 +339,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240B"
+		"CUP_lmg_M240_B"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -349,18 +349,18 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_JHP_P226"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -373,7 +373,7 @@ class ammg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -381,7 +381,7 @@ class ammg : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -398,15 +398,15 @@ class mat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_maaws"
+		"CUP_launch_MAAWS"
 	};
 	secondaryAttachments[] = 
 	{
-		"rhs_optic_maaws"
+		"CUP_optic_MAAWS_Scope"
 	};
 	magazines[] += 
 	{
@@ -414,7 +414,7 @@ class mat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_maaws_HEAT")
+		LIST_2("CUP_MAAWS_HEAT_M")
 	};
 };
 
@@ -427,7 +427,7 @@ class amat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] += 
 	{
@@ -435,9 +435,9 @@ class amat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_maaws_HEAT"),
-		"rhs_mag_maaws_HEDP",
-		"rhs_mag_maaws_HE"
+		LIST_2("CUP_MAAWS_HEAT_M"),
+		"CUP_MAAWS_HEDP_M",
+		"MRAWS_HE_F"
 	};
 	linkedItems[] += 
 	{
@@ -451,7 +451,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	vest[] = 
 	{
-		"aegis_tacvest_grn"
+		"V_TacVest_grn"
 	};
 	headgear[] = 
 	{
@@ -462,7 +462,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("hlc_30Rnd_556x45_B_G36")
 	};
 	backpackItems[] = 
@@ -476,7 +476,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	items[] +=
 	{
@@ -500,11 +500,11 @@ class hp : rm
 	displayName = "Helicopter Pilot";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36c"
+		"CUP_arifle_G36C"
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_grn"
+		"V_TacVest_grn"
 	};
 	headgear[] = 
 	{
@@ -516,7 +516,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -543,8 +543,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -577,7 +577,7 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_p226r_combat"
+		"$NONE_hlc_pistol_p226r_combat$"
 	};
 	magazines[] = 
 	{
@@ -595,13 +595,13 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g3a3_modern_ris"
+		"CUP_arifle_G3A3_modern_ris"
 	};
 	attachment[] = {};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("CUP_20Rnd_TE1_Red_Tracer_762x51_G3")
 	};
 	backpackItems[] = 
@@ -647,7 +647,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("hlc_30Rnd_556x45_B_G36"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -667,7 +667,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("hlc_30Rnd_556x45_B_G36"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

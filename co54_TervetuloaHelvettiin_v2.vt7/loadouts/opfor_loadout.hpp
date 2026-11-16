@@ -1,6 +1,6 @@
 // Fudged ~1989 Finnish Army
 
-#define nades "rhs_mag_m67","rhs_mag_rdg2_white"
+#define nades "CUP_HandGrenade_M67","SmokeShell"
 
 class baseMan 
 {
@@ -56,8 +56,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		LIST_2("aegis_cws_m05"),
-		"aegis_cws_m05_cold_wood"
+		LIST_2("$NONE_aegis_cws_m05$"),
+		"$NONE_aegis_cws_m05_cold_wood$"
 	};
 	vest[] = 
 	{
@@ -93,12 +93,12 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
 		nades,
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -130,7 +130,7 @@ class rm_ammo : rm
 {
 	displayName = "Ammo Bearer";
 	backpack[] = {"pca_backpack_invisible_large"};
-	backpackItems[] = {LIST_3("rhs_100Rnd_762x54mmR")};
+	backpackItems[] = {LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")};
 };
 
 class rm_mat : rm 
@@ -152,11 +152,11 @@ class leader : rm
 class gren : rm 
 {
 	displayName = "Grenadier";
-	sidearmWeapon[] = {"rhs_weap_M320"};
+	sidearmWeapon[] = {"ptv_L2BPG"};
 	magazines[] += 
 	{
 		LIST_9("CUP_1Rnd_StarFlare_Green_M203"),
-		LIST_3("rhs_mag_M441_HE")
+		LIST_3("CUP_1Rnd_HE_M203")
 	};
 };
 
@@ -206,7 +206,7 @@ class crewman : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_pps43"
+		"$NONE_fwa_weap_pps43$"
 	};
 	magazines[] = 
 	{

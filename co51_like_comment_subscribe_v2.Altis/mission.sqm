@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co51_like_comment_subscribe_v2";
-addons[] = {"A3_Characters_F","A3_Characters_F_Orange","hlcweapons_ar15","CUP_Weapons_West_Attachments","hlcweapons_sg550","rhsusf_c_weapons","ace_compat_rhs_usf3","A3_Weapons_F","bear_fast_variants","CUP_Creatures_Military_PMC","acre_sys_prc343","ace_medical_treatment","acre_sys_prc148","pca_misc_pca_extra_contents","ace_realisticnames","A3_Weapons_F_Mod_SMGs_SMG_03","A3_Weapons_F_Mod","ace_minedetector","A3_Air_F_Exp_Plane_Civil_01","A3_Air_F_Heli_Light_01","CUP_Wheeledvehicles_VWGolf","A3_Soft_F_Exp_Offroad_02","A3_Soft_F_Offroad_01","CUP_Wheeled_SUV","CUP_WheeledVehicles_Hilux","A3_Soft_F_Quadbike_01","A3_Modules_F_Curator_Misc","A3_Ui_F","OPXmisc","A3_Structures_F_EPB_Civ_Garbage","ace_dragging","A3_Structures_F_Civ_Garbage","A3_Rocks_F","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Walls","A3_Signs_F","ace_interaction","ace_cargo","A3_Structures_F_Mil_Shelters","A3_Structures_F_Civ_Camping","A3_Structures_F_Furniture","ace_sitting","CUP_Buildings_Config","A3_Structures_F_Items_Vessels","CUP_Misc3_Config","A3_Props_F_Orange_Humanitarian_Supplies","A3_Structures_F_Argo_Signs_Warnings","A3_Boat_F_Beta_Boat_Transport_01","cba_ai","A3_Structures_F_EPB_Items_Military","A3_Structures_F_Items_Food","A3_Structures_F_EPB_Items_Documents","A3_Structures_F_Heli_Items_Luggage","A3_Structures_F_Items_Stationery","A3_Structures_F_EPA_Items_Food","A3_Structures_F_Civ_Market","A3_Structures_F_EPA_Civ_Camping","A3_Structures_F_EPA_Items_Tools","A3_Structures_F_Heli_Civ_Constructions","A3_Structures_F_Items_Tools","A3_Structures_F_Items_Luggage","A3_Characters_F_Tank","ace_nouniformrestrictions","lambs_wp","tmf_ai","A3_Modules_F_Tacops","A3_Modules_F_Intel","Desert","A3_Weapons_F_Bootcamp_Ammoboxes","ace_chemlights"};
+addons[] = {"A3_Characters_F","A3_Characters_F_Orange","hlcweapons_ar15","CUP_Weapons_West_Attachments","hlcweapons_sg550","rhsusf_c_weapons","ace_compat_rhs_usf3","A3_Weapons_F","bear_fast_variants","CUP_Creatures_Military_PMC","acre_sys_prc343","ace_medical_treatment","acre_sys_prc148","pca_extra_contents","ace_realisticnames","A3_Weapons_F_Mod_SMGs_SMG_03","A3_Weapons_F_Mod","ace_minedetector","A3_Air_F_Exp_Plane_Civil_01","A3_Air_F_Heli_Light_01","CUP_Wheeledvehicles_VWGolf","A3_Soft_F_Exp_Offroad_02","A3_Soft_F_Offroad_01","CUP_Wheeled_SUV","CUP_WheeledVehicles_Hilux","A3_Soft_F_Quadbike_01","A3_Modules_F_Curator_Misc","A3_Ui_F","OPXmisc","A3_Structures_F_EPB_Civ_Garbage","ace_dragging","A3_Structures_F_Civ_Garbage","A3_Rocks_F","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Walls","A3_Signs_F","ace_interaction","ace_cargo","A3_Structures_F_Mil_Shelters","A3_Structures_F_Civ_Camping","A3_Structures_F_Furniture","ace_sitting","CUP_Buildings_Config","A3_Structures_F_Items_Vessels","CUP_Misc3_Config","A3_Props_F_Orange_Humanitarian_Supplies","A3_Structures_F_Argo_Signs_Warnings","A3_Boat_F_Beta_Boat_Transport_01","cba_ai","A3_Structures_F_EPB_Items_Military","A3_Structures_F_Items_Food","A3_Structures_F_EPB_Items_Documents","A3_Structures_F_Heli_Items_Luggage","A3_Structures_F_Items_Stationery","A3_Structures_F_EPA_Items_Food","A3_Structures_F_Civ_Market","A3_Structures_F_EPA_Civ_Camping","A3_Structures_F_EPA_Items_Tools","A3_Structures_F_Heli_Civ_Constructions","A3_Structures_F_Items_Tools","A3_Structures_F_Items_Luggage","A3_Characters_F_Tank","ace_nouniformrestrictions","lambs_wp","tmf_ai","A3_Modules_F_Tacops","A3_Modules_F_Intel","Desert","A3_Weapons_F_Bootcamp_Ammoboxes","ace_chemlights"};
 class AddonsMetaData
 {
 	class List
@@ -129,7 +129,7 @@ class AddonsMetaData
 		};
 		class Item13
 		{
-			className = "pca_misc_pca_extra_contents";
+			className = "pca_extra_contents";
 			name = "Extra Contents";
 			author = "PCA";
 		};
@@ -6408,9 +6408,9 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_magpul556_blk";
+								name = "$NONE_hlc_rifle_magpul556_blk$";
 								optics = "CUP_optic_Eotech553_Black";
-								muzzle = "hlc_muzzle_rotex3p";
+								muzzle = "$NONE_hlc_muzzle_rotex3p$";
 								firemode = "hlc_rifle_magpul556_blk:Single";
 								class primaryMuzzleMag
 								{
@@ -8470,7 +8470,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -27029,7 +27029,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""CUP_arifle_AKS_Gold"",""CUP_hgun_Mac10""],[1,1]],[[""CUP_30Rnd_762x39_AK47_M"",""CUP_30Rnd_45ACP_MAC10_M""],[8,10]],[[""wsx_helmet_pasgt_aaf"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
+									value = "[[[[""CUP_arifle_AKS_Gold"",""CUP_hgun_Mac10""],[1,1]],[[""CUP_30Rnd_762x39_AK47_M"",""CUP_30Rnd_45ACP_MAC10_M""],[8,10]],[[""H_HelmetIA"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
 								};
 							};
 						};
@@ -27124,7 +27124,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""CUP_hgun_Mac10"",""arifle_Mk20_plain_F"",""USSR_GuitarA""],[1,2,1]],[[""CUP_30Rnd_45ACP_MAC10_M"",""30Rnd_556x45_Stanag""],[10,12]],[[""wsx_helmet_pasgt_aaf"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
+									value = "[[[[""CUP_hgun_Mac10"",""arifle_Mk20_plain_F"",""USSR_GuitarA""],[1,2,1]],[[""CUP_30Rnd_45ACP_MAC10_M"",""30Rnd_556x45_Stanag""],[10,12]],[[""H_HelmetIA"",""pca_md99_wdl_rifleman""],[2,2]],[[],[]]],false]";
 								};
 							};
 						};

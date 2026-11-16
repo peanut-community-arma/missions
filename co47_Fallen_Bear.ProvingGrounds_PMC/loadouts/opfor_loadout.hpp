@@ -83,12 +83,12 @@ class rm : baseMan
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_mosin_m91"
+		"CUP_srifle_Mosin_Nagant"
 	};
 	magazines[] = 
 	{
 		"rhs_grenade_mkii_mag",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("rhsgref_5Rnd_762x54_m38")
 	};
 };
@@ -120,7 +120,7 @@ class of : baseMan
 	magazines[] = 
 	{
 		"rhs_grenade_mkii_mag",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_30Rnd_762x39_AK47_M"),
 		LIST_2("rhs_mag_762x25_8")
 	};

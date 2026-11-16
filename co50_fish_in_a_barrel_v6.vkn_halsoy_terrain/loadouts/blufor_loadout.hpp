@@ -8,11 +8,11 @@ class baseMan
 	displayName = "Unarmed";
 	uniform[] = 
 	{
-		"usm_bdu_wdl",
-		"usm_bdu_btisrl_wdl",
-		"usm_bdu_bti_wdl",
-		"usm_bdu_srl_wdl",
-		"usm_bdum65_wdl"
+		"$NONE_usm_bdu_wdl$",
+		"$NONE_usm_bdu_btisrl_wdl$",
+		"$NONE_usm_bdu_bti_wdl$",
+		"$NONE_usm_bdu_srl_wdl$",
+		"$NONE_usm_bdum65_wdl$"
 	};
 	vest[] = {};
 	backpack[] = {};
@@ -63,8 +63,8 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ceswd_wdl",
-		"usm_helmet_pasgt_rm_wdl"
+		"$NONE_usm_helmet_pasgt_ceswd_wdl$",
+		"CUP_H_PASGTv2_NVG_WDL"
 	};
 	primaryWeapon[] = 
 	{
@@ -75,8 +75,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
-		"rhs_mag_m67",
+		LIST_7("30Rnd_556x45_Stanag"),
+		"CUP_HandGrenade_M67",
 		"SmokeShell"
 	};
 	//Comment out items[] and backpackItems[] before use as NPCs
@@ -92,8 +92,8 @@ class rm : baseMan
 	};
 	backpackItems[] = 
 	{
-		LIST_14("rhs_mag_30Rnd_556x45_M855_Stanag"),
-		"rhs_mag_m67",
+		LIST_14("30Rnd_556x45_Stanag"),
+		"CUP_HandGrenade_M67",
 		"SmokeShell"
 	};
 };
@@ -160,7 +160,7 @@ class gren : rm
 	secondaryWeapon[] = {""};
 	backpackItems[] += 
 	{
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_5("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -186,7 +186,7 @@ class sl : tl
 		LIST_2("1Rnd_SmokeYellow_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
-		LIST_7("rhs_mag_M441_HE")
+		LIST_7("CUP_1Rnd_HE_M203")
 	};
 	items[] += {"ACRE_PRC148"};
 };
@@ -262,7 +262,7 @@ class mmg : ar
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240G"
+		"CUP_lmg_M240"
 	};
 	magazines[] = 
 	{
@@ -287,7 +287,7 @@ class ammg : aar
 class mat : rm
 {
 	displayName = "Medium Antitank";
-	secondaryWeapon[] = {"rhs_weap_maaws"};
+	secondaryWeapon[] = {"CUP_launch_MAAWS"};
 	backpack[] = 
 	{
 		"pca_eagle_a3_m81",
@@ -295,7 +295,7 @@ class mat : rm
 	};
 	magazines[] += 
 	{
-		"rhs_mag_maaws_HEAT"
+		"CUP_MAAWS_HEAT_M"
 	};
 };
 
@@ -309,7 +309,7 @@ class amat : rm
 	};
 	backpackItems[] =
 	{
-		"rhs_mag_maaws_HEAT"
+		"CUP_MAAWS_HEAT_M"
 	};
 };
 
@@ -345,11 +345,11 @@ class crew : rm
 	traits[] = {"engineer"};
 	uniform[] = 
 	{
-		"usm_bdu_odg",
-		"usm_bdu_btisrl_odg",
-		"usm_bdu_bti_odg",
-		"usm_bdu_srh_odg",
-		"usm_bdu_srl_odg"
+		"CUP_U_B_BDUv2_OD",
+		"$NONE_usm_bdu_btisrl_odg$",
+		"$NONE_usm_bdu_bti_odg$",
+		"CUP_U_B_BDUv2_roll2_OD",
+		"CUP_U_B_BDUv2_roll_OD_US"
 	};
 	vest[] = 
 	{
@@ -426,6 +426,6 @@ class vip : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 };

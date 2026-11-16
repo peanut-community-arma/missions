@@ -1,5 +1,5 @@
 /**
- * DÈcharger un objet d'un transporteur - appelÈ deuis l'interface listant le contenu du transporteur
+ * D√©charger un objet d'un transporteur - appel√© deuis l'interface listant le contenu du transporteur
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -41,7 +41,7 @@ else
 	{
 		closeDialog 0;
 		
-		// Recherche d'un objet du type demandÈ
+		// Recherche d'un objet du type demand√©
 		_objet_a_decharger = objNull;
 		{
 			if (typeOf _x == _type_objet_a_decharger) exitWith
@@ -54,14 +54,14 @@ else
 		{
 			[_objet_a_decharger, player] call R3F_LOG_FNCT_definir_proprietaire_verrou;
 			
-			// On mÈmorise sur le rÈseau le nouveau contenu du transporteur (c‡d avec cet objet en moins)
+			// On m√©morise sur le r√©seau le nouveau contenu du transporteur (c√†d avec cet objet en moins)
 			_objets_charges = _transporteur getVariable ["R3F_LOG_objets_charges", []];
 			_objets_charges = _objets_charges - [_objet_a_decharger];
 			_transporteur setVariable ["R3F_LOG_objets_charges", _objets_charges, true];
 			
 			_objet_a_decharger setVariable ["R3F_LOG_est_transporte_par", objNull, true];
 			
-			// Prise en compte de l'objet dans l'environnement du joueur (accÈlÈrer le retour des addActions)
+			// Prise en compte de l'objet dans l'environnement du joueur (acc√©l√©rer le retour des addActions)
 			_objet_a_decharger spawn
 			{
 				sleep 4;
@@ -85,7 +85,7 @@ else
 				
 				sleep 1;
 				
-				// Recherche d'une position dÈgagÈe (on augmente progressivement le rayon jusqu'‡ trouver une position)
+				// Recherche d'une position d√©gag√©e (on augmente progressivement le rayon jusqu'√† trouver une position)
 				for [{_rayon = 5 max (2*_bbox_dim); _pos_degagee = [];}, {count _pos_degagee == 0 && _rayon <= 30 + (8*_bbox_dim)}, {_rayon = _rayon + 10 + (2*_bbox_dim)}] do
 				{
 					_pos_degagee = [
@@ -103,9 +103,9 @@ else
 					_objet_a_decharger setVectorDirAndUp [[-cos getDir _transporteur, sin getDir _transporteur, 0] vectorCrossProduct surfaceNormal _pos_degagee, surfaceNormal _pos_degagee];
 					_objet_a_decharger setVelocity [0, 0, 0];
 					
-					sleep 0.4; // Car la nouvelle position n'est pas prise en compte instantannÈment
+					sleep 0.4; // Car la nouvelle position n'est pas prise en compte instantann√©ment
 					
-					// Si l'objet a ÈtÈ crÈÈ assez loin, on indique sa position relative
+					// Si l'objet a √©t√© cr√©√© assez loin, on indique sa position relative
 					if (_objet_a_decharger distance _transporteur > 40) then
 					{
 						systemChat format [STR_R3F_LOG_action_decharger_fait + " (%2)",
@@ -119,7 +119,7 @@ else
 					};
 					R3F_LOG_mutex_local_verrou = false;
 				}
-				// Si Èchec recherche position dÈgagÈe, on dÈcharge l'objet comme un dÈplaÁable
+				// Si √©chec recherche position d√©gag√©e, on d√©charge l'objet comme un d√©pla√ßable
 				else
 				{
 					systemChat "WARNING : no free position found.";

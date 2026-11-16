@@ -53,15 +53,15 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_tan"
+		"$NONE_hlc_rifle_scarl_cqc_tan$"
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem556"
+		"$NONE_hlc_muzzle_fn_oem556$"
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_eotech_552"
+		"RKSL_optic_EOT552"
 	};
 	items[] =
 	{
@@ -76,7 +76,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan")
 	};
 	backpackItems[] = 
@@ -94,16 +94,16 @@ class ar : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_dmr_tan"
+		"$NONE_hlc_rifle_scarl_dmr_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_JHP_P226"),
 		LIST_9("hlc_50Rnd_556x45_EPR_M_XMAG")
 	};
@@ -148,7 +148,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_eglm_tan"
+		"$NONE_hlc_rifle_scarl_cqc_eglm_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -186,11 +186,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_eglm_tan"
+		"$NONE_hlc_rifle_scarl_cqc_eglm_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -229,7 +229,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarl_cqc_tan"
+		"$NONE_hlc_rifle_scarl_cqc_tan$"
 	};
 	backpackItems[] =
 	{
@@ -266,7 +266,7 @@ class cls : rm_fa
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{

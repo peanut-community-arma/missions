@@ -51,7 +51,7 @@ class rm : baseMan
 	displayName = "Hunter";
 	uniform[] = 
 	{
-		"aegis_cbrn_suit_blk"
+		"U_C_CBRN_Suit_01_Black_F"
 	};
 	vest[] = 
 	{
@@ -59,7 +59,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"usm_helmet_pasgt_ce_blk"
+		"Atlas_H_PASGT_Cover_alt_Black_F"
 	};
 	backpack[] = 
 	{
@@ -71,7 +71,7 @@ class rm : baseMan
 	hmd[] = {};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_magpul556_blk"
+		"$NONE_hlc_rifle_magpul556_blk$"
 	};
 	scope[] = 
 	{

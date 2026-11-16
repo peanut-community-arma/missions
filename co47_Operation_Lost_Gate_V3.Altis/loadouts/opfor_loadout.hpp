@@ -77,16 +77,16 @@ class rm : baseMan
 
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36k_65_blk"
+		"arifle_G36_F"
 	};
 	scope[] = 
 	{
-		"sma_acc_elcan_specter_ard_blk"
+		"$NONE_sma_acc_elcan_specter_ard_blk$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_7("30Rnd_65x39_caseless_msbs_mag")
 	};
 };
@@ -96,12 +96,12 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_zafir_blk"
+		"LMG_Zafir_black_F"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("ACE_150Rnd_762x54_Box_tracer_yellow")
 	};
 };
@@ -111,12 +111,12 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_hk121_blk"
+		"MMG_01_black_F"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("ACE_150Rnd_93x64_Mag_yellow")
 	};
 };
@@ -226,8 +226,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -237,7 +237,7 @@ class pilot : rm
 	displayName = "Pilot Crew";
 	uniform[] =
 	{
-		"aegis_ubacs_cu_blk"
+		"U_B_UBACS_blk_f"
 	};
 	vest[] = 
 	{
@@ -250,12 +250,12 @@ class pilot : rm
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_g36c_65_blk"
+		"arifle_G36C_F"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_5("30Rnd_65x39_caseless_msbs_mag")
 	};
 };

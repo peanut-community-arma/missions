@@ -22,8 +22,8 @@ class baseMan
 		"simc_bandoleer_left_flak",
 		"CUP_G_WristWatch",
 		"CUP_TK_NeckScarf",
-		"aegis_shemagh_loop_tan",
-		"aegis_shemag_red"
+		"G_Shemag_tan",
+		"CUP_FR_NeckScarf5"
 	};
 	hmd[] = {};
 	faces[] = {"default"};
@@ -150,7 +150,7 @@ class aar : rm
 class rm_lat : rm 
 {
 	displayName = "Rifleman (LAT)";
-	secondaryWeapon[] = {"rhs_weap_rpg26"};
+	secondaryWeapon[] = {"CUP_launch_RPG26"};
 	//backpackItems[] += {"rhs_weap_rpg26"};
 };
 
@@ -270,7 +270,7 @@ class mmg : ar
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
@@ -320,7 +320,7 @@ class dm : rm
 	{
 		"pca_m88_fieldcap",
 		"rhs_beret_vdv_early",
-		"usm_headwrap_odg2",
+		"H_Bandanna_khk",
 		"H_Shemag_olive"
 	};
 	primaryWeapon[] = {"rhs_weap_svds"};
@@ -441,6 +441,6 @@ class vip : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_tacvest_blk"
+		"V_TacVest_blk"
 	};
 };

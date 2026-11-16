@@ -52,8 +52,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_rbd_shex",
-		"aegis_rbd_rs_shex"
+		"Atlas_U_O_Afghanka_01_semiarid_F",
+		"Atlas_U_O_Afghanka_02_semiarid_F"
 	};
 	vest[] = 
 	{
@@ -62,13 +62,13 @@ class rm : baseMan
 	headgear[] = 
 	{
 		"usp_cap_ct_mca",
-		"aegis_lwh_shex"
+		"H_O_Helmet_canvas_semiarid"
 	};
 	goggles[] = 
 	{
 		"",
-		"aegis_combat_gogg_blk",
-		"rhs_goggles_black",
+		"G_Combat_Goggles_blk_F",
+		"CUP_G_Oakleys_Drk",
 		"G_Tactical_Clear"
 	};
 	backpack[] = 
@@ -134,9 +134,9 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_3("rhs_100Rnd_762x54mmR")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -145,7 +145,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_m136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -237,8 +237,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -262,8 +262,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

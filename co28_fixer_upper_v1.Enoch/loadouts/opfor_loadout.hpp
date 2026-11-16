@@ -53,14 +53,14 @@ class looter : baseMan
 	uniform[] = 
 	{
 		"U_I_L_Uniform_01_tshirt_olive_F",
-		"aegis_guerilla_tshirt_m81",
+		"Rev_U_B_FRR_Uniform_02_F",
 		"CUP_U_I_GUE_Anorak_03",
 		"CUP_U_I_GUE_Woodland1"
 	};
 	vest[] = 
 	{
 		LIST_4("V_TacChestrig_oli_F"),
-		"aegis_tacvest_grn"
+		"V_TacVest_grn"
 	};
 	headgear[] = 
 	{
@@ -68,7 +68,7 @@ class looter : baseMan
 		"H_Bandanna_khk",
 		"CUP_H_FR_BandanaWdl",
 		"H_Cap_blk_CMMG",
-		"aegis_cap_eaf"
+		"H_Cap_eaf_arid_F"
 	};
 	goggles[] =
 	{

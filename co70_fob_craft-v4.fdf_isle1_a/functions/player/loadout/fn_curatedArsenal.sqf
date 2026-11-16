@@ -50,19 +50,19 @@ private _itemUniformPilot =
 //Vest
 private _itemVest = 
 [
-	"aegis_iotv_lite_oli",
-	"aegis_iotv_lite_dtex",
+	"V_PlateCarrierIA1_oli",
 	"V_PlateCarrierIA1_dgtl",
-	"aegis_otv_lite_oli",
+	"V_PlateCarrierIA1_dgtl",
+	"V_PlateCarrierIA1_oli",
 	"V_PlateCarrierIA2_dgtl",
-	"aegis_otv_rig_grn",
-	"aegis_otv_rig_oli",
-	"aegis_iotv_rig_dtex"
+	"V_PlateCarrierIA2_grn",
+	"V_PlateCarrierIA2_oli",
+	"V_PlateCarrierIA2_dgtl"
 ];
 
 private _itemVestCrew = 
 [
-	"aegis_tacvest_grn",
+	"V_TacVest_grn",
 	"V_TacVest_khk",
 	"V_TacVest_oli",
 	"V_TacVest_camo"
@@ -70,7 +70,7 @@ private _itemVestCrew =
 
 private _itemVestPilot = 
 [
-	"aegis_tacvest_grn",
+	"V_TacVest_grn",
 	"V_TacVest_khk",
 	"V_TacVest_oli",
 	"V_TacVest_camo"
@@ -127,9 +127,9 @@ private _itemBackpackPilot =
 //Cosmetic 
 private _itemCosmetic = 
 [
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"CUP_G_ESS_BLK_Ember",
 	"G_Aviator",
 	"G_Lady_Blue",
@@ -144,13 +144,13 @@ private _itemCosmetic =
 	"bear_bandana_m81",
 	"G_Bandanna_oli",
 	"G_Bandanna_shades",
-	"usm_kneepads_blk",
-	"usm_kneepads_safariland",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
-	"usm_scarf",
-	"usm_scarf2",
+	"$NONE_usm_kneepads_blk$",
+	"$NONE_usm_kneepads_safariland$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"CUP_G_Scarf_Face_Grn",
 	"CUP_G_Scarf_Face_Red",
 	"CUP_G_Scarf_Face_Tan",
@@ -160,13 +160,13 @@ private _itemCosmetic =
 	"pca_nvg_shemagh_lowered_red",
 	"pca_nvg_shemagh_lowered_tan",
 	"pca_nvg_shemagh_lowered_white",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"usm_nvg_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_kneepads_blk",
-	"usm_nvg_gigloves"
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_usm_nvg_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_kneepads_blk$",
+	"pca_nvg_gloves_wool"
 ];
 
 //********************************************************************************//
@@ -235,9 +235,9 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
-	"hlc_optic_ism1400a7",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
+	"$NONE_hlc_optic_ism1400a7$",
 	"cup_optic_ac11704_black",
 	"optic_aco",
 	"cup_optic_compm2_black",
@@ -268,22 +268,22 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_g36a3",
-	"hlc_rifle_g36a3_romi",
-	"hlc_rifle_g36ka3",
-	"hlc_rifle_g36ka3_romi"
+	"CUP_arifle_G36A3",
+	"$NONE_hlc_rifle_g36a3_romi$",
+	"CUP_arifle_G36KA3",
+	"$NONE_hlc_rifle_g36ka3_romi$"
 ];
 
 private _itemWeapSRifle = 
 [
-	"hlc_rifle_g3a3_modern_ris"
+	"CUP_arifle_G3A3_modern_ris"
 ];
 
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_g36a3_ag36",
-	"hlc_rifle_g36a3_romi_ag36"
+	"CUP_arifle_G36A3_AG36",
+	"$NONE_hlc_rifle_g36a3_romi_ag36$"
 ];
 
 private _itemWeapAR = 
@@ -294,7 +294,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapPistol = 
@@ -305,12 +305,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -364,23 +364,23 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 

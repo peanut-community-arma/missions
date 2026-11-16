@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co45_golf_grab_2_regolfening_v1";
-addons[] = {"A3_Characters_F","CUP_Weapons_MG3","jsrs_soundmod_cup_weapons","pca_misc_pca_magazines","pca_misc_pca_weapon_tweaks","hlcweapons_mg3","CUP_Weapons_RPG26","CUP_Weapons_Ammunition","CUP_Weapons_Makarov","rhs_c_weapons","rhssaf_c_weapons","A3_Weapons_F","CUP_Creatures_Military_Russia","TC_AEGIS_OUTFIT_M81_SUDAN","acre_sys_prc343","ace_medical_treatment","pca_misc_pca_extra_contents","ace_realisticnames","A3_Ui_F","CUP_Creatures_Military_Taki","CUP_Creatures_Military_Chedaki","CUP_WheeledVehicles_RG31","A3_Supplies_F_Orange_Ammoboxes","CUP_WheeledVehicles_Bus_city","CUP_Wheeledvehicles_VWGolf","A3_Soft_F_Exp_Offroad_02","A3_Soft_F_Offroad_01","A3_Soft_F_Quadbike_01","A3_Soft_F_Gamma_Van_01","A3_Modules_F_Curator_Misc","lambs_wp","tmf_ai","CUP_Misc_e_Config","A3_Structures_F_EPA_Mil_Scrapyard","ace_cargo","A3_Props_F_Orange_Humanitarian_Supplies","A3_Structures_F_Mil_BagFence","A3_Structures_F_Training","A3_Structures_F_Items_Food","CUP_Misc3_Config","A3_Structures_F_Heli_Items_Electronics","A3_Props_F_Orange_Items_Electronics","CUP_CAMisc","A3_Structures_F_Civ_Camping","ace_dragging","A3_Structures_F_Items_Electronics","A3_Structures_F_Heli_Furniture","ace_sitting","CUP_Weapons_Curator","A3_Structures_F_EPA_Civ_Constructions","ace_interaction","A3_Props_F_Enoch_Military_Decontamination","rhsgref_c_troops","A3_Static_F","CUP_Wheeled_SUV"};
+addons[] = {"A3_Characters_F","CUP_Weapons_MG3","jsrs_soundmod_cup_weapons","pca_misc_pca_magazines","pca_misc_pca_weapon_tweaks","hlcweapons_mg3","CUP_Weapons_RPG26","CUP_Weapons_Ammunition","CUP_Weapons_Makarov","rhs_c_weapons","rhssaf_c_weapons","A3_Weapons_F","CUP_Creatures_Military_Russia","TC_AEGIS_OUTFIT_M81_SUDAN","acre_sys_prc343","ace_medical_treatment","pca_extra_contents","ace_realisticnames","A3_Ui_F","CUP_Creatures_Military_Taki","CUP_Creatures_Military_Chedaki","CUP_WheeledVehicles_RG31","A3_Supplies_F_Orange_Ammoboxes","CUP_WheeledVehicles_Bus_city","CUP_Wheeledvehicles_VWGolf","A3_Soft_F_Exp_Offroad_02","A3_Soft_F_Offroad_01","A3_Soft_F_Quadbike_01","A3_Soft_F_Gamma_Van_01","A3_Modules_F_Curator_Misc","lambs_wp","tmf_ai","CUP_Misc_e_Config","A3_Structures_F_EPA_Mil_Scrapyard","ace_cargo","A3_Props_F_Orange_Humanitarian_Supplies","A3_Structures_F_Mil_BagFence","A3_Structures_F_Training","A3_Structures_F_Items_Food","CUP_Misc3_Config","A3_Structures_F_Heli_Items_Electronics","A3_Props_F_Orange_Items_Electronics","CUP_CAMisc","A3_Structures_F_Civ_Camping","ace_dragging","A3_Structures_F_Items_Electronics","A3_Structures_F_Heli_Furniture","ace_sitting","CUP_Weapons_Curator","A3_Structures_F_EPA_Civ_Constructions","ace_interaction","A3_Props_F_Enoch_Military_Decontamination","rhsgref_c_troops","A3_Static_F","CUP_Wheeled_SUV"};
 class AddonsMetaData
 {
 	class List
@@ -141,7 +141,7 @@ class AddonsMetaData
 		};
 		class Item16
 		{
-			className = "pca_misc_pca_extra_contents";
+			className = "pca_extra_contents";
 			name = "Extra Contents";
 			author = "PCA";
 		};
@@ -1535,7 +1535,7 @@ class Mission
 								name = "CUP_hgun_PMM";
 								class primaryMuzzleMag
 								{
-									name = "rhs_mag_9x18_12_57N181S";
+									name = "CUP_12Rnd_9x18_PMM_M";
 									ammoLeft = 12;
 								};
 							};
@@ -1545,7 +1545,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "TC_U_aegis_guerilla_tshirt_m81_sudan";
+								typeName = "$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1602,7 +1602,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};

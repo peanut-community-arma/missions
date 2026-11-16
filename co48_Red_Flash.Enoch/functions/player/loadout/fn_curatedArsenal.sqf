@@ -111,7 +111,7 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_blk",
 	"G_Bandanna_khk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"CUP_Beard_Black",
 	"CUP_Beard_Blonde",
 	"CUP_Beard_Brown",
@@ -125,7 +125,7 @@ private _itemCosmetic =
 	"G_Squares",
 	"G_Spectacles_Tinted",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_cb"
+	"$NONE_pca_nvg_face_shield_cb$"
 ];
 
 //********************************************************************************//
@@ -216,8 +216,8 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhs_weap_makarov_pm",
-	"rhs_mag_9x18_8_57N181S"
+	"CUP_hgun_Makarov",
+	"CUP_8Rnd_9x18_Makarov_M"
 ];
 
 //********************************************************************************//
@@ -231,7 +231,7 @@ private _itemAmmo =
 	"bear_30Rnd_545x39_orange_7T3M",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S"
+	"CUP_8Rnd_9x18_Makarov_M"
 ];
 
 private _itemAmmoTracer = 
@@ -241,7 +241,7 @@ private _itemAmmoTracer =
 
 private _itemAmmoAR = 
 [
-	"rhs_100Rnd_762x54mmR",
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",
 	"rhs_100Rnd_762x54mmR_green"
 ];
 
@@ -259,10 +259,10 @@ private _itemAmmoSignal =
 
 private _itemExplosive = 
 [
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"SmokeShell",
-	"rhs_VOG25",
-	"rhs_mag_rgd5"
+	"CUP_1Rnd_HE_GP25_M",
+	"CUP_HandGrenade_RGD5"
 ];
 
 private _itemAmmoLAT = 

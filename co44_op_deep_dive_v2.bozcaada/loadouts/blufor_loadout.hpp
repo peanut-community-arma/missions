@@ -48,7 +48,7 @@ class rm : baseMan
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_khk"
+		"V_PlateCarrier1_cbr"
 	};
 	headgear[] = 
 	{
@@ -60,7 +60,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_tan"
+		"$NONE_hlc_rifle_scarh_std_tan$"
 	};
 	scope[] = 
 	{
@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	silencer[] = 
 	{
-		"hlc_muzzle_fn_oem"
+		"$NONE_hlc_muzzle_fn_oem$"
 	};
 	items[] =
 	{
@@ -83,7 +83,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("rhs_mag_20Rnd_SCAR_762x51_m80a1_epr")
 	};
 	backpackItems[] = 
@@ -105,22 +105,22 @@ class ar : rm
 	};
 		scope[] = 
 	{
-		"rksl_optic_eot552x"
+		"RKSL_optic_EOT552X"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_FMJ_P226"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_4("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -133,7 +133,7 @@ class aar : rm
 	};
 	backpackItems[] += 
 	{
-		LIST_4("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_4("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -146,11 +146,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 	backpackItems[] += 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -159,7 +159,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_eglm_tan"
+		"$NONE_hlc_rifle_scarh_std_eglm_tan$"
 	};
 	backpackItems[] = 
 	{
@@ -192,11 +192,11 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_eglm_tan"
+		"$NONE_hlc_rifle_scarh_std_eglm_tan$"
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -236,7 +236,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_std_tan"
+		"$NONE_hlc_rifle_scarh_std_tan$"
 	};
 	backpackItems[] =
 	{
@@ -295,7 +295,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -325,7 +325,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240B"
+		"CUP_lmg_M240_B"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -335,18 +335,18 @@ class mmg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_2("hlc_15Rnd_9x19_FMJ_P226"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -359,7 +359,7 @@ class ammg : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -367,7 +367,7 @@ class ammg : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{
@@ -384,15 +384,15 @@ class mat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_maaws"
+		"CUP_launch_MAAWS"
 	};
 	secondaryAttachments[] = 
 	{
-		"rhs_optic_maaws"
+		"CUP_optic_MAAWS_Scope"
 	};
 	magazines[] += 
 	{
@@ -400,7 +400,7 @@ class mat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_maaws_HEAT")
+		LIST_2("CUP_MAAWS_HEAT_M")
 	};
 };
 
@@ -413,7 +413,7 @@ class amat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] += 
 	{
@@ -421,9 +421,9 @@ class amat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_maaws_HEAT"),
-		"rhs_mag_maaws_HEDP",
-		"rhs_mag_maaws_HE"
+		LIST_2("CUP_MAAWS_HEAT_M"),
+		"CUP_MAAWS_HEDP_M",
+		"MRAWS_HE_F"
 	};
 	linkedItems[] += 
 	{
@@ -444,7 +444,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_20Rnd_SCAR_762x51_m80a1_epr")
 	};
 	backpackItems[] = 
@@ -458,7 +458,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	items[] +=
 	{
@@ -490,7 +490,7 @@ class hp : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -517,8 +517,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -551,7 +551,7 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25_tan"
+		"$NONE_hlc_pistol_mk25_tan$"
 	};
 	magazines[] = 
 	{
@@ -569,7 +569,7 @@ class dm : rm
 	displayName = "Designated Marksman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_scarh_ssr_tan"
+		"$NONE_hlc_rifle_scarh_ssr_tan$"
 	};
 	scope[] = 
 	{
@@ -583,7 +583,7 @@ class dm : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_20Rnd_SCAR_762x51_m61_ap")
 	};
 	backpackItems[] = 
@@ -621,7 +621,7 @@ class hmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
@@ -641,7 +641,7 @@ class ahmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_9("rhs_mag_20Rnd_SCAR_762x51_m80a1_epr"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};

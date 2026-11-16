@@ -83,8 +83,8 @@ class rm : baseMan
 		"pca_beanie",
 		"pca_headband",
 		"CUP_H_FR_BandanaGreen",
-		LIST_2("usm_bdu_boonie_tgrstp"),
-		"aegis_cap_ghex",
+		LIST_2("$NONE_usm_bdu_boonie_tgrstp$"),
+		"H_Cap_ghex_F",
 		LIST_2("bear_helmet_M1_tan"),
 		"bear_helmet_M1_tan_alt01",
 		LIST_3("rhsgref_helmet_M1_painted"),
@@ -95,25 +95,25 @@ class rm : baseMan
 		"pca_backpack_taki_jacket3_01",
 		"pca_umbts_wdl",
 		"B_ViperHarness_ghex_F",
-		LIST_2("aegis_tacticalpack_rgr")
+		LIST_2("B_TacticalPack_rgr")
 	};
 	primaryWeapon[] = 
 	{
 		"CUP_arifle_AK47_Early",
 		"CUP_arifle_AK12_black",
-		LIST_3("hlc_rifle_akm"),
-		"hlc_rifle_ak74m",
-		LIST_3("hlc_rifle_ak74"),
-		LIST_3("hlc_rifle_ak74_dirty"),
-		LIST_3("hlc_rifle_ak74_worn"),
-		LIST_3("hlc_rifle_aks74"),
-		"fwa_weap_fal_imbel_50_00",
-		"fwa_weap_fal_imbel_50_63",
-		"hlc_rifle_g3a3",
-		"hlc_rifle_g36a3",
-		"hlc_rifle_m16a2",
-		"hlc_rifle_m4a1_carryhandle",
-		"fwa_weap_colt_715_canada_c7",
+		LIST_3("CUP_arifle_AKM_Early"),
+		"CUP_arifle_AK74M",
+		LIST_3("CUP_arifle_AK74_Early"),
+		LIST_3("$NONE_hlc_rifle_ak74_dirty$"),
+		LIST_3("$NONE_hlc_rifle_ak74_worn$"),
+		LIST_3("CUP_arifle_AKS74_Early"),
+		"sp_fwa_fal_imbel_50_00",
+		"sp_fwa_fal_imbel_50_63",
+		"CUP_arifle_G36A3",
+		"CUP_arifle_G36A3",
+		"CUP_arifle_M16A2",
+		"CUP_arifle_M4A1",
+		"sp_fwa_7a5_c7",
 		"amf_weap_famas_g2",
 		"amf_weap_famas_f1",
 		"CUP_arifle_TYPE_56_2_Early",
@@ -124,8 +124,8 @@ class rm : baseMan
 	{""};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white"
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell"
 	};
 };
 
@@ -138,8 +138,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 };
@@ -153,8 +153,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 };
@@ -192,9 +192,9 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a1_ag36",
+		"CUP_arifle_G36A_AG36_RIS",
 		"CUP_arifle_M4A1_GL_carryhandle",
-		"hlc_rifle_m16a2_m203",
+		"CUP_arifle_Colt727_M203",
 		"CUP_arifle_HK416_AGL_Wood"
 	};
 	magazines[] += 
@@ -209,9 +209,9 @@ class grengp : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_ak74m_gp25",
-		LIST_3("hlc_rifle_akm_gp25"),
-		"hlc_rifle_aks74_gp25",
+		"CUP_arifle_AK74M_GL",
+		LIST_3("CUP_arifle_AKM_GL_Early"),
+		"CUP_arifle_AKS74_GL_Early",
 		"CUP_arifle_AK74_GL_Early"
 	};
 	magazines[] += 
@@ -267,16 +267,16 @@ class crewman : rm
 	displayName = "Crewman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_aks74u",
-		"hlc_rifle_aks74",
-		"aegis_weap_vector_blk",
+		"CUP_arifle_AKS74U",
+		"CUP_arifle_AKS74_Early",
+		"SMG_01_black_F",
 		"CUP_smg_M3A1",
-		"hlc_smg_mp5a2"
+		"$NONE_hlc_smg_mp5a2$"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white"
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell"
 	};
 };
 
@@ -299,8 +299,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -333,7 +333,7 @@ class crew : rm
 	displayName = "Crewman";
 	primaryWeapon[] = {
 		"CUP_smg_M3A1_blk",
-		"hlc_smg_mp5a2"
+		"$NONE_hlc_smg_mp5a2$"
 	};
 };
 
@@ -341,7 +341,7 @@ class demo : rm
 {
 	displayName = "Demoman";
 	backpack[] = {
-		"aegis_carryall_blk"
+		"B_Carryall_blk"
 	};
 	backpackItems[] += {
 		LIST_2("CUP_PipeBomb_M"),

@@ -36,7 +36,7 @@ private _itemGear =
 //Uniform
 private _itemUniform = 
 [
-	"simc_arvn_og107",
+	"U_Simc_arvn_og107",
 	"simc_arvn_roll_og107",
 	"simc_arvn_tuck_roll_og107",
 	"simc_arvn_tuck_og107"
@@ -114,13 +114,13 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"rhssaf_veil_Green",
-	"usm_scarf",
-	"usm_scarf2",
-	"usm_gigloves",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
+	"$NONE_usm_gigloves$",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"G_Aviator",
@@ -128,7 +128,7 @@ private _itemCosmetic =
 	"CUP_G_TK_RoundGlasses_blk",
 	
 	//Cigs etc.
-	"aegis_cigarette",
+	"G_Cigarette",
 	"murshun_cigs_cig0",
 	"immersion_cigs_cigar0",
 	
@@ -141,10 +141,10 @@ private _itemCosmetic =
 	"pca_nvg_cigarette",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
-	"usm_nvg_scarf2",
-	"usm_nvg_scarf",
-	"usm_nvg_giglovesscarf2",
-	"usm_nvg_giglovesscarf",
+	"$NONE_usm_nvg_scarf2$",
+	"$NONE_usm_nvg_scarf$",
+	"$NONE_usm_nvg_giglovesscarf2$",
+	"$NONE_usm_nvg_giglovesscarf$",
 	"simc_addon_bandoleer_left",
 	"simc_addon_bandoleer_low",
 	"simc_addon_bandoleer_right",
@@ -235,19 +235,19 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"fwa_weap_mas49",
-	"fwa_weap_mas49_56"
+	"sp_fwa_mas_49",
+	"sp_fwa_mas_49_56"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"fwa_1rnd_rifle_grenade_mas_40mm_DP",
+	"sp_fwa_1rnd_riflegrenade_mas_dp",
 	"fwa_1rnd_rifle_grenade_mas_34mm_HE"
 ];
 
 private _itemWeapAR = 
 [
-	"fwa_weap_bren_mk2"
+	"sp_fwa_bren_mk2"
 ];
 
 private _itemWeapLAT = 
@@ -263,7 +263,7 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"fwa_weap_aa52_nf1"
+	"sp_fwa_aa52"
 ];
 
 private _itemWeapMAT = 
@@ -278,7 +278,7 @@ private _itemWeapDMR =
 
 private _itemWeapSMG =
 [
-	"fwa_weap_mat49"
+	"sp_fwa_smg_mat49"
 ];
 
 //********************************************************************************//
@@ -288,7 +288,7 @@ private _itemWeapSMG =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"fwa_10rnd_75_mas49",
+	"sp_fwa_10rnd_75_mas49",
 	
 	//Pistol Ammo
 	"CUP_13Rnd_9x19_Browning_HP"
@@ -296,19 +296,19 @@ private _itemAmmo =
 
 private _itemAmmoTracer = 
 [
-	"fwa_10rnd_75_mas49_tracer_red"
+	"sp_fwa_10rnd_75_mas49_tracer"
 ];
 
 private _itemAmmoAR = 
 [
-	"fwa_30rnd_303_bren",
-	"fwa_30rnd_303_bren_tracer_red"
+	"sp_fwa_30Rnd_303_Bren",
+	"sp_fwa_30Rnd_303_Bren_Tracer"
 ];
 
 private _itemAmmoSMG = 
 [
-	"fwa_32Rnd_9x19_mat49",
-	"fwa_32Rnd_9x19_mat49_tracer_red"
+	"sp_fwa_32Rnd_9x19_MAT49",
+	"sp_fwa_32Rnd_9x19_MAT49_Tracer"
 ];
 
 private _itemAmmoSignal = 
@@ -319,14 +319,14 @@ private _itemAmmoSignal =
 	"SmokeShellPurple",
 	"SmokeShellRed",
 	"SmokeShellYellow",
-	"fwa_1rnd_rifle_grenade_mas_40mm_Flare"
+	"sp_fwa_1rnd_riflegrenade_mas_flare"
 ];
 
 private _itemExplosive = 
 [
 	"SmokeShell",
-	"rhs_mag_m67",
-	"rhsusf_m112_mag"
+	"CUP_HandGrenade_M67",
+	"DemoCharge_Remote_Mag"
 ];
 
 private _itemAmmoDM =
@@ -343,9 +343,9 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -355,8 +355,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

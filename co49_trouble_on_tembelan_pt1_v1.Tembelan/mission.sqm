@@ -43247,7 +43247,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+									value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 								};
 							};
 						};
@@ -44901,7 +44901,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_m240B";
+																					value = "CUP_lmg_M240_B";
 																				};
 																			};
 																			class Item1
@@ -44928,7 +44928,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_100Rnd_762x51_m80a1epr";
+																					value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 																				};
 																			};
 																			class Item1
@@ -45326,7 +45326,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[],[]],[[""rhsgref_30rnd_556x45_vhs2"",""rhsgref_30rnd_556x45_vhs2_t"",""30Rnd_65x39_caseless_msbs_mag"",""30Rnd_65x39_caseless_msbs_mag_Tracer"",""rhsusf_200Rnd_556x45_soft_pouch"",""rhsusf_200Rnd_556x45_mixed_soft_pouch"",""rhsusf_200Rnd_556x45_M856A1_soft_pouch"",""200Rnd_65x39_cased_Box"",""200Rnd_65x39_cased_Box_Tracer_Red"",""130Rnd_338_Mag"",""rhsusf_100Rnd_762x51_m80a1epr"",""rhsusf_100Rnd_762x51_m62_tracer"",""rhsusf_mag_10Rnd_STD_50BMG_M33"",""rhsusf_mag_10Rnd_STD_50BMG_mk211"",""5Rnd_127x108_Mag"",""5Rnd_127x108_APDS_Mag"",""rhsusf_mag_17Rnd_9x19_FMJ"",""11Rnd_45ACP_Mag""],[50,50,50,50,15,15,15,15,15,5,5,5,5,5,10,10,25,25]],[[],[]],[[],[]]],false]";
+									value = "[[[[],[]],[[""rhsgref_30rnd_556x45_vhs2"",""rhsgref_30rnd_556x45_vhs2_t"",""30Rnd_65x39_caseless_msbs_mag"",""30Rnd_65x39_caseless_msbs_mag_Tracer"",""rhsusf_200Rnd_556x45_soft_pouch"",""rhsusf_200Rnd_556x45_mixed_soft_pouch"",""rhsusf_200Rnd_556x45_M856A1_soft_pouch"",""200Rnd_65x39_cased_Box"",""200Rnd_65x39_cased_Box_Tracer_Red"",""130Rnd_338_Mag"",""CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"",""rhsusf_100Rnd_762x51_m62_tracer"",""rhsusf_mag_10Rnd_STD_50BMG_M33"",""rhsusf_mag_10Rnd_STD_50BMG_mk211"",""5Rnd_127x108_Mag"",""5Rnd_127x108_APDS_Mag"",""rhsusf_mag_17Rnd_9x19_FMJ"",""11Rnd_45ACP_Mag""],[50,50,50,50,15,15,15,15,15,5,5,5,5,5,10,10,25,25]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -45443,7 +45443,7 @@ class Mission
 														class data
 														{
 															singleType = "STRING";
-															value = "rhsusf_100Rnd_762x51_m80a1epr";
+															value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 														};
 													};
 													class Item12

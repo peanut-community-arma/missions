@@ -89,9 +89,9 @@ private _itemHeadgear =
 	"CUP_H_PMC_Beanie_Headphones_Black",
 	"H_Cap_blk",
 	"H_MilCap_gry",
-	"aegis_boonie_blk",
-	"aegis_cap_headphones_blk",
-	"aegis_cap_headphones_gry",
+	"H_Booniehat_blk",
+	"H_Cap_headphones_blk",
+	"H_Cap_headphones_gry",
 	"milgp_h_cap_01_gry",
 	"milgp_h_cap_01_goggles_gry",
 	"milgp_h_cap_02_gry",
@@ -145,10 +145,10 @@ private _itemCosmetic =
 	"G_Bandanna_aviator",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"pca_bandana_mcalp",
 	"pca_bandana_mcb",
-	"aegis_combat_gogg_blk",
+	"G_Combat_Goggles_blk_F",
 	"CUP_G_ESS_BLK_Dark",
 	"CUP_G_ESS_BLK_Ember",
 	"CUP_G_ESS_BLK",
@@ -162,30 +162,30 @@ private _itemCosmetic =
 	"milgp_f_face_shield_shemagh_blk",
 	"milgp_f_face_shield_tactical_blk",
 	"milgp_f_face_shield_tactical_shemagh_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
 	"G_Shades_Black",
 	"G_Shades_Blue",
 	"G_Shades_Green",
 	
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_white",
-	"aegis_shemag_shades_white",
-	"aegis_shemag_tactical_white",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
+	"G_Shemag_white",
+	"$NONE_aegis_shemag_shades_white$",
+	"G_Shemag_white",
 	"rhsusf_shemagh_white",
 	"rhsusf_shemagh2_white",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
-	"aegis_bala_ti_sand",
-	"aegis_bala_ti_gogg_sand",
+	"G_Balaclava_TI_alt_F",
+	"G_Balaclava_TI_G_alt_F",
 	"murshun_cigs_cigpack",
 	"murshun_cigs_lighter"
 ];
@@ -261,10 +261,10 @@ private _itemAcc =
 	"cup_optic_ac11704_black",
 	"optic_aco_grn",
 	"optic_aco",
-	"rksl_optic_eot552",
+	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"ptv_acc_t1",
 	"ptv_acc_t1_low",
 	"ptv_acc_eot552",
@@ -336,7 +336,7 @@ private _itemAmmoTracer =
 private _itemAmmoAR = 
 [
 	"rhs_100Rnd_762x54mmR_green",
-	"rhs_100Rnd_762x54mmR"
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
 ];
 
 private _itemAmmoSignal = 
@@ -352,7 +352,7 @@ private _itemExplosive =
 [
 	"SmokeShell",
 	"CUP_1Rnd_HE_GP25_M",
-	"rhs_mag_m67"
+	"CUP_HandGrenade_M67"
 ];
 
 //********************************************************************************//

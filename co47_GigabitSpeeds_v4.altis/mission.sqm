@@ -48791,7 +48791,7 @@ class Mission
 							};
 							class secondaryWeapon
 							{
-								name = "rhs_weap_M136";
+								name = "CUP_launch_M136";
 							};
 							class uniform
 							{
@@ -48857,7 +48857,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -48878,7 +48878,7 @@ class Mission
 									items = 1;
 									class Item0
 									{
-										name = "rhs_weap_M136";
+										name = "CUP_launch_M136";
 										count = 1;
 									};
 								};
@@ -49552,7 +49552,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};

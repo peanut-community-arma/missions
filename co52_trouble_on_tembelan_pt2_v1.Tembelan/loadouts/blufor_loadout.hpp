@@ -4,21 +4,21 @@ class baseMan
 	// All Randomized
 	uniform[] = 
 	{
-		"aegis_ccu_mtp",
-		"aegis_ccu_rs_mtp",
-		"aegis_ccu_tshirt_mtp"
+		"U_B_UBACS_mtp_f",
+		"U_B_UBACS_vest_mtp_f",
+		"U_B_UBACS_tshirt_mtp_f"
 	};
 	vest[] = 
 	{
-		"aegis_platecarrier_rig_khk"
+		"V_PlateCarrier2_cbr"
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_mtp"
+		"B_AssaultPack_mcamo"
 	};
 	headgear[] = 
 	{
-		"aegis_ech_enh_mtp"	
+		"H_HelmetSpecB_mcamo"	
 	};
 	goggles[] = {};
 	hmd[] = {};
@@ -92,7 +92,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	primaryWeapon[] = 
 	{
@@ -124,7 +124,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] += 
 	{
@@ -141,7 +141,7 @@ class rm_lat : rm
 	displayName = "Rifleman (AT)";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};	
 	secondaryWeapon[] = 
 	{
@@ -246,7 +246,7 @@ class rm_fa : rm
 	traits[] = {"medic"};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_mtp"
+		"B_TacticalPack_mcamo"
 	};
 	backpackItems[] =
 	{
@@ -285,7 +285,7 @@ class mmg : ar
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240B"
+		"CUP_lmg_M240_B"
 	};
 	scope[]= 
 	{
@@ -302,11 +302,11 @@ class mmg : ar
 		LIST_2("SmokeShell"),
 		LIST_2("HandGrenade"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -315,7 +315,7 @@ class ammg : aar
 	displayName = "Assistant Medium Machine Gunner";
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -337,7 +337,7 @@ class amat : rm
 	displayName = "Assistant Heavy Anti-Tank Gunner";
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] = 
 	{
@@ -355,7 +355,7 @@ class crew : rm
 	traits[] = {"engineer"};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_khk"
+		"V_PlateCarrier1_cbr"
 	};
 	headgear[] = 
 	{
@@ -390,7 +390,7 @@ class hp : rm
 	traits[] = {"engineer"};
 	vest[] = 
 	{
-		"aegis_platecarrier_lite_khk"
+		"V_PlateCarrier1_cbr"
 	};
 	headgear[] = 
 	{
@@ -416,7 +416,7 @@ class eng : rm
 	traits[] = {"engineer","explosiveSpecialist"};
 	backpack[] = 
 	{
-		"aegis_carryall_mtp"
+		"B_Carryall_mcamo"
 	};
 	backpackItems[] = 
 	{
@@ -424,8 +424,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -477,15 +477,15 @@ class sn : rm
 	displayName = "Sniper";
 	headgear[] =
 	{
-		"aegis_ech_ghillie_mtp"
+		"H_HelmetB_camo_mcamo"
 	};	
 	vest[] =
 	{
-		"aegis_platecarrier_lite_khk"
+		"V_PlateCarrier1_cbr"
 	};
 	backpack[] = 
 	{
-		"aegis_tacticalpack_mtp"
+		"B_TacticalPack_mcamo"
 	};	
 	primaryWeapon[] = 
 	{
@@ -525,15 +525,15 @@ class spt : sl
 	displayName = "Spotter";
 	headgear[] =
 	{
-		"aegis_ech_ghillie_mtp"
+		"H_HelmetB_camo_mcamo"
 	};
 	vest[] =
 	{
-		"aegis_platecarrier_lite_khk"
+		"V_PlateCarrier1_cbr"
 	};	
 	backpack[] = 
 	{
-		"aegis_tacticalpack_mtp"
+		"B_TacticalPack_mcamo"
 	};	
 	primaryWeapon[] = 
 	{

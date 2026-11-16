@@ -44262,7 +44262,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_colt_603_m16a1_captured";
+																			value = "sp_fwa_ar15_603_m16a1_captured";
 																		};
 																	};
 																	class Item1
@@ -44406,7 +44406,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_m1918_bar";
+																			value = "sp_fwa_m1918a2_bar";
 																		};
 																	};
 																	class Item1
@@ -44478,7 +44478,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_acc_m1918_bar_bipod";
+																			value = "sp_fwa_acc_bipod_bar";
 																		};
 																	};
 																	class Item1
@@ -44586,7 +44586,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_m79";
+																			value = "CUP_glaunch_M79";
 																		};
 																	};
 																	class Item1
@@ -44694,7 +44694,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "hlc_rifle_car15";
+																			value = "$NONE_hlc_rifle_car15$";
 																		};
 																	};
 																	class Item1
@@ -44766,7 +44766,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_m1919a6";
+																			value = "sp_fwa_m1919a6_browning";
 																		};
 																	};
 																	class Item1
@@ -44874,7 +44874,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_maaws";
+																			value = "CUP_launch_MAAWS";
 																		};
 																	};
 																	class Item1
@@ -44910,7 +44910,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_optic_maaws";
+																			value = "CUP_optic_MAAWS_Scope";
 																		};
 																	};
 																	class Item1
@@ -45018,7 +45018,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "CUP_5x_22_LR_17_HMR_M";
+																			value = "CUP_5Rnd_93x64_CZ550";
 																		};
 																	};
 																	class Item1
@@ -45054,7 +45054,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_mag_m67";
+																			value = "CUP_HandGrenade_M67";
 																		};
 																	};
 																	class Item1
@@ -45666,7 +45666,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_colt_603_m16a1_captured";
+																			value = "sp_fwa_ar15_603_m16a1_captured";
 																		};
 																	};
 																	class Item1
@@ -45810,7 +45810,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_m1918_bar";
+																			value = "sp_fwa_m1918a2_bar";
 																		};
 																	};
 																	class Item1
@@ -45882,7 +45882,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_acc_m1918_bar_bipod";
+																			value = "sp_fwa_acc_bipod_bar";
 																		};
 																	};
 																	class Item1
@@ -45990,7 +45990,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_m79";
+																			value = "CUP_glaunch_M79";
 																		};
 																	};
 																	class Item1
@@ -46098,7 +46098,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "hlc_rifle_car15";
+																			value = "$NONE_hlc_rifle_car15$";
 																		};
 																	};
 																	class Item1
@@ -46170,7 +46170,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_m1919a6";
+																			value = "sp_fwa_m1919a6_browning";
 																		};
 																	};
 																	class Item1
@@ -46278,7 +46278,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_maaws";
+																			value = "CUP_launch_MAAWS";
 																		};
 																	};
 																	class Item1
@@ -46314,7 +46314,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_optic_maaws";
+																			value = "CUP_optic_MAAWS_Scope";
 																		};
 																	};
 																	class Item1
@@ -46422,7 +46422,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "CUP_5x_22_LR_17_HMR_M";
+																			value = "CUP_5Rnd_93x64_CZ550";
 																		};
 																	};
 																	class Item1
@@ -46458,7 +46458,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_mag_m67";
+																			value = "CUP_HandGrenade_M67";
 																		};
 																	};
 																	class Item1
@@ -56383,7 +56383,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_colt_603_m16a1_captured";
+																			value = "sp_fwa_ar15_603_m16a1_captured";
 																		};
 																	};
 																	class Item1
@@ -56527,7 +56527,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_m1918_bar";
+																			value = "sp_fwa_m1918a2_bar";
 																		};
 																	};
 																	class Item1
@@ -56599,7 +56599,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_acc_m1918_bar_bipod";
+																			value = "sp_fwa_acc_bipod_bar";
 																		};
 																	};
 																	class Item1
@@ -56707,7 +56707,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_m79";
+																			value = "CUP_glaunch_M79";
 																		};
 																	};
 																	class Item1
@@ -56815,7 +56815,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "hlc_rifle_car15";
+																			value = "$NONE_hlc_rifle_car15$";
 																		};
 																	};
 																	class Item1
@@ -56887,7 +56887,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "fwa_weap_m1919a6";
+																			value = "sp_fwa_m1919a6_browning";
 																		};
 																	};
 																	class Item1
@@ -56995,7 +56995,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_weap_maaws";
+																			value = "CUP_launch_MAAWS";
 																		};
 																	};
 																	class Item1
@@ -57031,7 +57031,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_optic_maaws";
+																			value = "CUP_optic_MAAWS_Scope";
 																		};
 																	};
 																	class Item1
@@ -57139,7 +57139,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "CUP_5x_22_LR_17_HMR_M";
+																			value = "CUP_5Rnd_93x64_CZ550";
 																		};
 																	};
 																	class Item1
@@ -57175,7 +57175,7 @@ class Mission
 																			{
 																				type[] = {"STRING"};
 																			};
-																			value = "rhs_mag_m67";
+																			value = "CUP_HandGrenade_M67";
 																		};
 																	};
 																	class Item1

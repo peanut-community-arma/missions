@@ -15581,7 +15581,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1
@@ -16036,7 +16036,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1
@@ -16298,7 +16298,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1
@@ -16575,7 +16575,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_rpg26";
+																			value = "CUP_launch_RPG26";
 																		};
 																	};
 																	class Item1

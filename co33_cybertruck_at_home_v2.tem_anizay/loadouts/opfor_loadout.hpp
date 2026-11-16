@@ -77,8 +77,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_21("CUP_10Rnd_762x39_SKS_M")
 	};
 };
@@ -92,8 +92,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_13("CUP_30Rnd_762x39_AK47_bakelite_M")
 	};
 };
@@ -103,7 +103,7 @@ class mg : rm
 	displayName = "Machinegunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	backpack[] =
 	{
@@ -111,9 +111,9 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_5("rhs_100Rnd_762x54mmR")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -122,7 +122,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -159,8 +159,8 @@ class gren : ar
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_VOG25"),
-		LIST_2("rhs_GRD40_White")
+		LIST_3("CUP_1Rnd_HE_GP25_M"),
+		LIST_2("CUP_1Rnd_SMOKE_GP25_M")
 	};
 };
 
@@ -215,8 +215,8 @@ class sf : rm
 	};
 	headgear[] = 
 	{
-		"wsx_helmet_pasgt_3cd",
-		"wsx_helmet_combat_3cd_ess"
+		"CUP_H_PASGTv2_DCU",
+		"$REMOVE_wsx_helmet_combat_3cd_ess$"
 	};
 	goggles[] +=
 	{
@@ -230,8 +230,8 @@ class sf : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_13("amf_25Rnd_556x45_M855A1_F1_Stanag")
 	};
 };

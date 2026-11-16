@@ -85,7 +85,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_grn"
+		"CUP_arifle_ACRC_wdl_68"
 
 	};
 	scope[] = 
@@ -110,7 +110,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("pca_mag_30Rnd_556x45_M855A1_PMAG_OD")
 	};
 };
@@ -130,7 +130,7 @@ class ar : rm
 	magazines[] =
 	{
 		"SmokeShell",
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		LIST_3("ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch")
 	};
 	backpackItems[] = 
@@ -165,12 +165,12 @@ class gren : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_acr_car_m203_grn"
+		"CUP_arifle_ACRC_EGLM_wdl_68"
 	};
 	bipod[] = {};
 	backpackItems[] = 
 	{
-		LIST_15("rhs_mag_M441_HE"),
+		LIST_15("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_3("ACE_40mm_Flare_ir")
 	};
@@ -245,19 +245,19 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_car_m203_grn"
+		"CUP_arifle_ACRC_EGLM_wdl_68"
 	};
 	bipod[] = {};
 	magazines[] += 
 	{
-		LIST_5("rhs_mag_M441_HE")
+		LIST_5("CUP_1Rnd_HE_M203")
 	};
 	backpackItems[] += 
 	{
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_3("ACE_40mm_Flare_ir"),
-		LIST_2("rhsusf_m112_mag"),
+		LIST_2("DemoCharge_Remote_Mag"),
 		"1Rnd_SmokeBlue_Grenade_shell",
 		"1Rnd_SmokeGreen_Grenade_shell"
 	};
@@ -323,7 +323,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240B"
+		"CUP_lmg_M240_B"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -338,13 +338,13 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("rhsusf_mag_15Rnd_9x19_JHP"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -357,7 +357,7 @@ class ammg : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] = 
 	{

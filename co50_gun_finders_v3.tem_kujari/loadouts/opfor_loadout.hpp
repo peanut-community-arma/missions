@@ -131,7 +131,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] =
 	{
@@ -157,7 +157,7 @@ class rm : baseMan
 	{
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N10"),
 		"rhs_mag_rgn",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 
@@ -166,7 +166,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_rpk12"
+		"Aegis_arifle_RPK12_545_F"
 	};
 	attachment[] =
 	{
@@ -188,7 +188,7 @@ class ar : rm
 	{
 		LIST_10("aegis_95Rnd_545x39_mixed_7N10_ak12"),
 		"rhs_mag_rgn",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 
@@ -197,12 +197,12 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};
 	secondaryWeapon[] = 
 	{
 		"rhs_weap_rpg18",
-		"rhs_weap_rpg26",
+		"CUP_launch_RPG26",
 		"rhs_weap_rshg2",
 		"rhs_weap_panzerfaust60",
 		"rhs_weap_rpg75"
@@ -214,7 +214,7 @@ class tl : rm
 	displayName = "Team Leader";
 	primaryWeapon[] =
 	{
-		"hlc_rifle_ak12_gp25"
+		"arifle_AK12_GL_545_F"
 	};
 	bipod[] = 
 	{
@@ -246,7 +246,7 @@ class medic : rm
 	};
 	primaryWeapon[] =
 	{
-		"hlc_rifle_aku12"
+		"arifle_AK12U_545_F"
 	};	
 	backpackItems[] = 
 	{
@@ -268,11 +268,11 @@ class sf_baseMan
 	// All Randomized
 	uniform[] =
 	{
-		"aegis_ubacs_cu_blk"
+		"U_B_UBACS_blk_f"
 	};
 	vest[] = 
 	{
-		"aegis_modular_carrier_lite_blk"
+		"V_CarrierRigKBT_01_light_Black_F"
 	};
 	backpack[] =
 	{
@@ -280,11 +280,11 @@ class sf_baseMan
 	};
 	headgear[] =
 	{
-		"aegis_specter_cover_blk"
+		"H_HelmetSpecter_black_F"
 	};
 	goggles[] =
 	{
-		"aegis_bala_light_gogg_blk"
+		"G_Balaclava_light_G_blk_F"
 	};
 	hmd[] =
 	{
@@ -337,7 +337,7 @@ class sf_rm : sf_baseMan
 	displayName = "SF Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ncar15_blk"
+		"arifle_NCAR15_F"
 	};
 	scope[] = 
 	{
@@ -364,7 +364,7 @@ class sf_rm : sf_baseMan
 		LIST_20("ACE_30Rnd_580x42_Mag_red"),
 		LIST_4("16Rnd_9x21_Mag"),
 		LIST_2("rhs_mag_rgn"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("SmokeShell")
 	};
 };
 
@@ -373,14 +373,14 @@ class sf_ar : sf_rm
 	displayName = "SF Autorifleman";
 	primaryWeapon[] =
 	{
-		"aegis_weap_ncar15_lsw_blk"
+		"arifle_NCAR15_MG_F"
 	};
 	magazines[] =
 	{
 		LIST_10("ACE_100Rnd_580x42_Drum_tracer_red"),
 		LIST_4("16Rnd_9x21_Mag"),
 		LIST_2("rhs_mag_rgn"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("SmokeShell")
 	};	
 };
 
@@ -389,11 +389,11 @@ class sf_rm_at : sf_rm
 	displayName = "SF Rifleman (AT)";
 	primaryWeapon[] =
 	{
-		"aegis_weap_ncar15_carbine_blk"
+		"arifle_NCAR15B_F"
 	};
 	secondaryWeapon[] =
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] =
 	{
@@ -426,7 +426,7 @@ class sf_dm : sf_rm
 		LIST_20("20Rnd_762x51_Mag"),
 		LIST_4("16Rnd_9x21_Mag"),
 		LIST_2("rhs_mag_rgn"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("SmokeShell")
 	};	
 };
 
@@ -435,7 +435,7 @@ class sf_tl : sf_rm
 	displayName = "SF Team Leader";
 	primaryWeapon[] =
 	{
-		"aegis_weap_ncar15_gl_blk"
+		"arifle_NCAR15_GL_F"
 	};
 	magazines[] +=
 	{
@@ -450,7 +450,7 @@ class sf_medic : sf_rm
 	traits[] = {"medic"};
 	primaryWeapon[] =
 	{
-		"aegis_weap_ncar15_carbine_blk"
+		"arifle_NCAR15B_F"
 	};
 	backpackItems[] = 
 	{

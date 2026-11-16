@@ -78,8 +78,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -89,12 +89,12 @@ class ar : rm
 	displayName = "(Takistani)Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("fwa_100rnd_762x39mm_rpd_mixed")
 	};
 };
@@ -108,9 +108,9 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_3("rhs_100Rnd_762x54mmR")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -159,8 +159,8 @@ class rmS : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_3("aegis_specter_blk"),
-		LIST_1("aegis_specter_headset_blk")
+		LIST_3("H_HelmetSpecter_black_F"),
+		LIST_1("H_HelmetSpecter_black_headset_F")
 	};
 	backpack[] = 
 	{
@@ -168,11 +168,11 @@ class rmS : baseMan
 	};
 	goggles[] = 
 	{
-		"aegis_bala_light_gogg_blk"
+		"G_Balaclava_light_G_blk_F"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36ka3"
+		"CUP_arifle_G36KA3"
 	};
 	scope[] = 
 	{
@@ -180,7 +180,7 @@ class rmS : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_15("hlc_30Rnd_556x45_EPR_L5")
 	};
@@ -191,7 +191,7 @@ class arS : rmS
 	displayName = "(Smaug)Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_zafir_blk"
+		"LMG_Zafir_black_F"
 	};
 	vest[] = 
 	{
@@ -199,7 +199,7 @@ class arS : rmS
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("150Rnd_762x54_Box_Tracer")
 	};
@@ -210,7 +210,7 @@ class rmS_lat : rmS
 	displayName = "(Smaug)Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] += 
 	{
@@ -233,7 +233,7 @@ class markS : rmS
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_10Rnd_762x54mmR_7N1")
 	};
@@ -244,7 +244,7 @@ class heavyS : rmS
 	displayName = "(Smaug)Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36ka1_ksk_ag36"
+		"$NONE_hlc_rifle_g36ka1_ksk_ag36$"
 	};
 	vest[] = 
 	{
@@ -252,7 +252,7 @@ class heavyS : rmS
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_10("hlc_30Rnd_556x45_EPR_L5"),
 		LIST_5("rhs_mag_M441_HE")

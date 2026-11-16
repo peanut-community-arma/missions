@@ -1,5 +1,5 @@
 /**
- * Créer un objet - appelé deuis l'interface de l'usine de création
+ * CrÃ©er un objet - appelÃ© deuis l'interface de l'usine de crÃ©ation
  * 
  * Copyright (C) 2014 Team ~R3F~
  * 
@@ -31,10 +31,10 @@ else
 		_cout = [_classe] call R3F_LOG_FNCT_determiner_cout_creation;
 		_est_deplacable = ([_classe] call R3F_LOG_FNCT_determiner_fonctionnalites_logistique) select R3F_LOG_IDX_can_be_moved_by_player;
 		
-		// L'usine a-t-elle assez de crédits ?
+		// L'usine a-t-elle assez de crÃ©dits ?
 		if (_usine getVariable "R3F_LOG_CF_credits" == -1 || _usine getVariable "R3F_LOG_CF_credits" >= _cout) then
 		{
-			// Recherche d'une position dégagée. Les véhicules doivent être créé au niveau du sol sinon ils ne peuvent être utilisés.
+			// Recherche d'une position dÃ©gagÃ©e. Les vÃ©hicules doivent Ãªtre crÃ©Ã© au niveau du sol sinon ils ne peuvent Ãªtre utilisÃ©s.
 			if (_classe isKindOf "AllVehicles") then
 			{
 				private ["_rayon", "_bbox", "_bbox_dim"];
@@ -45,7 +45,7 @@ else
 				_bbox = [_classe] call R3F_LOG_FNCT_3D_get_bounding_box_depuis_classname;
 				_bbox_dim = (vectorMagnitude (_bbox select 0)) max (vectorMagnitude (_bbox select 1));
 				
-				// Recherche d'une position dégagée (on augmente progressivement le rayon jusqu'à trouver une position)
+				// Recherche d'une position dÃ©gagÃ©e (on augmente progressivement le rayon jusqu'Ã  trouver une position)
 				for [{_rayon = 5 max (2*_bbox_dim); _pos_degagee = [];}, {count _pos_degagee == 0 && _rayon <= 30 + (8*_bbox_dim)}, {_rayon = _rayon + 10 + (2*_bbox_dim)}] do
 				{
 					_pos_degagee = [
@@ -63,7 +63,7 @@ else
 			
 			if (count _pos_degagee > 0) then
 			{
-				// Si l'objet n'est ni un véhicule, ni déplaçable manuellement, on demande confirmation de création
+				// Si l'objet n'est ni un vÃ©hicule, ni dÃ©plaÃ§able manuellement, on demande confirmation de crÃ©ation
 				if (!(_classe isKindOf "AllVehicles") && !_est_deplacable) then
 				{
 					_action_confirmee = [STR_R3F_LOG_action_decharger_deplacable_exceptionnel, "Warning", true, true] call BIS_fnc_GUImessage;
@@ -75,7 +75,7 @@ else
 				
 				if (_action_confirmee) then
 				{
-					// Déduction des crédits (si limité)
+					// DÃ©duction des crÃ©dits (si limitÃ©)
 					if (_usine getVariable "R3F_LOG_CF_credits" != -1) then
 					{
 						_usine setVariable ["R3F_LOG_CF_credits", 0 max ((_usine getVariable "R3F_LOG_CF_credits") - _cout), true];
@@ -88,10 +88,10 @@ else
 					
 					if !(isNull _objet) then
 					{
-						// Désactivation du bouton fermer car la création est engagée
+						// DÃ©sactivation du bouton fermer car la crÃ©ation est engagÃ©e
 						(findDisplay R3F_LOG_IDD_dlg_liste_objets displayCtrl R3F_LOG_IDC_dlg_LO_btn_fermer) ctrlEnable false;
 						
-						// Mémoriser que cet objet a été créé depuis une usine
+						// MÃ©moriser que cet objet a Ã©tÃ© crÃ©Ã© depuis une usine
 						_objet setVariable ["R3F_LOG_CF_depuis_usine", true, true];
 						
 						[_objet, player] call R3F_LOG_FNCT_definir_proprietaire_verrou;
@@ -102,7 +102,7 @@ else
 						R3F_LOG_PUBVAR_nouvel_objet_a_initialiser = true;
 						publicVariable "R3F_LOG_PUBVAR_nouvel_objet_a_initialiser";
 						
-						// Prise en compte de l'objet dans l'environnement du joueur (accélérer le retour des addActions)
+						// Prise en compte de l'objet dans l'environnement du joueur (accÃ©lÃ©rer le retour des addActions)
 						_objet spawn
 						{
 							sleep 4;
@@ -111,7 +111,7 @@ else
 							["R3F_LOG_PUBVAR_reveler_au_joueur", R3F_LOG_PUBVAR_reveler_au_joueur] spawn R3F_LOG_FNCT_PUBVAR_reveler_au_joueur;
 						};
 						
-						// Si l'objet créé est un drone, on y place des IA en équipage
+						// Si l'objet crÃ©Ã© est un drone, on y place des IA en Ã©quipage
 						if (getNumber (configFile >> "CfgVehicles" >> (typeOf _objet) >> "isUav") == 1) then
 						{
 							createVehicleCrew _objet;
@@ -125,9 +125,9 @@ else
 						}
 						else
 						{
-							sleep 0.4; // Car la prise en compte n'est pas instantannée
+							sleep 0.4; // Car la prise en compte n'est pas instantannÃ©e
 							
-							// Si l'objet a été créé assez loin, on indique sa position relative
+							// Si l'objet a Ã©tÃ© crÃ©Ã© assez loin, on indique sa position relative
 							if (_objet distance _usine > 40) then
 							{
 								systemChat format [STR_R3F_LOG_action_creer_fait + " (%2)",

@@ -32,21 +32,21 @@ private _itemGear = [];
 private _itemUniform = 
 [
 	"U_BG_Guerrilla_6_1",
-	"TC_U_aegis_guerilla_garb_m81_sudan",
+	"$NONE_TC_U_aegis_guerilla_garb_m81_sudan$",
 	"U_BG_Guerilla1_1",
 	"U_BG_Guerilla1_2_F",
-	"TC_U_aegis_guerilla_jacket_m81_sudan",
+	"$NONE_TC_U_aegis_guerilla_jacket_m81_sudan$",
 	"U_BG_Guerilla2_1",
 	"U_BG_Guerilla2_3",
 	"U_BG_Guerilla3_1",
-	"TC_U_aegis_guerilla_tshirt_m81_sudan",
-	"TC_U_aegis_guerilla_garb_m81_sudan",
+	"$NONE_TC_U_aegis_guerilla_tshirt_m81_sudan$",
+	"$NONE_TC_U_aegis_guerilla_garb_m81_sudan$",
 	"rhsgref_uniform_TLA_1",
 	"rhsgref_uniform_TLA_2",
-	"aegis_sweater_grn",
-	"aegis_guerilla_jacket_m81",
-	"aegis_guerilla_tshirt_m81",
-	"aegis_guerilla_tshirt_m81_alt"
+	"Opf_U_O_S_Uniform_01_sweater_F",
+	"Atlas_U_UniformBDU_02_m81_F",
+	"Rev_U_B_FRR_Uniform_02_F",
+	"Rev_U_B_FRR_Uniform_01_F"
 ];
 
 //Vest
@@ -66,9 +66,9 @@ private _itemHeadgear =
 	"pca_beanie_mgrn",
 	"pca_beanie",
 	"pca_beanie_tan",
-	"pca_headband_blk",
+	"G_Headband_blk_F",
 	"pca_headband",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"pca_headband_tan",
 	"milgp_h_cap_01_cb",
 	"milgp_h_cap_01_rgr",
@@ -99,18 +99,18 @@ private _itemHeadgear =
 	"H_Bandanna_khk_hs",
 	"CUP_H_RUS_Bandana_HS",
 	"CUP_H_FR_Bandana_Headset",
-	"usm_bdu_boonie_odg",
-	"usm_bdu_boonie_taki",
-	"usm_bdu_boonie_wdl",
-	"usm_bdu_cap_odg",
+	"H_Booniehat_oli",
+	"$NONE_usm_bdu_boonie_taki$",
+	"H_Booniehat_wdl",
+	"Aegis_H_Milcap_nohs_grn_F",
 	"H_Watchcap_blk",
-	"aegis_beanie_blk",
+	"H_Watchcap_blk",
 	"H_Watchcap_camo",
 	"CUP_H_PMC_Beanie_Black",
 	"CUP_H_PMC_Beanie_Headphones_Black",
 	"CUP_H_PMC_Beanie_Khaki",
 	"CUP_H_PMC_Beanie_Headphones_Khaki",
-	"usm_bdu_boonie_odg",
+	"H_Booniehat_oli",
 	"H_Cap_oli",
 	"H_Cap_oli_hs",
 	"CUP_H_USA_Cap_M81"
@@ -139,7 +139,7 @@ private _itemCosmetic =
 	"rhs_ess_black",
 	"G_Bandanna_beast",
 	"G_Bandanna_blk",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"bear_bandana_m81",
 	"pca_bandana_mc",
 	"G_Bandanna_oli",
@@ -186,10 +186,10 @@ private _itemCosmetic =
 	"milgp_f_face_shield_tactical_rgr",
 	"milgp_f_face_shield_tactical_shemagh_cb",
 	"milgp_f_face_shield_tactical_shemagh_rgr",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_eaf",
-	"aegis_bala_light_gogg_blk",
-	"aegis_bala_light_gogg_eaf",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_eaf_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Balaclava_light_G_eaf_F",
 	"CUP_G_Grn_Scarf_Shades",
 	"CUP_G_Tan_Scarf_Shades",
 	"CUP_G_White_Scarf_Shades",
@@ -205,54 +205,54 @@ private _itemCosmetic =
 	"G_Shades_Blue",
 	"G_Shades_Green",
 	"G_Shades_Red",
-	"aegis_shades_yellow",
+	"G_Shades_Yellowred",
 	"CUP_G_Beard_Shades_Black",
 	"CUP_G_Beard_Shades_Blonde",
-	"aegis_shemag_tan",
-	"aegis_shemag_shades_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_oli",
-	"aegis_shemag_shades_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_shades_red",
-	"aegis_shemag_tactical_red",
+	"G_Shemag_tan",
+	"$NONE_aegis_shemag_shades_tan$",
+	"G_Shemag_tan",
+	"CUP_FR_NeckScarf",
+	"$NONE_aegis_shemag_shades_oli$",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"$NONE_aegis_shemag_shades_red$",
+	"G_Shemag_red",
 	"rhsusf_shemagh_od",
 	"rhsusf_shemagh2_od",
 	"rhsusf_shemagh_gogg_od",
 	"rhsusf_shemagh2_gogg_od",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
 	
 	"G_Spectacles_Tinted",
-	"pca_nvg_glasses_blk",
-	"pca_nvg_glasses_clr",
-	"pca_nvg_glasses_org",
-	"pca_nvg_glasses_ylw",
-	"pca_nvg_ess_blk",
+	"$NONE_pca_nvg_glasses_blk$",
+	"$NONE_pca_nvg_glasses_clr$",
+	"$NONE_pca_nvg_glasses_org$",
+	"$NONE_pca_nvg_glasses_ylw$",
+	"$NONE_pca_nvg_ess_blk$",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
-	"pca_nvg_face_shield_cb",
-	"pca_nvg_face_shield_rgr",
-	"pca_nvg_face_shield_shemagh_cb",
-	"pca_nvg_face_shield_shemagh_rgr",
+	"$NONE_pca_nvg_face_shield_cb$",
+	"$NONE_pca_nvg_face_shield_rgr$",
+	"$NONE_pca_nvg_face_shield_shemagh_cb$",
+	"$NONE_pca_nvg_face_shield_shemagh_rgr$",
 	"TC_NVG_NitrileGloves_1",
 	"simc_addon_nomex_blk",
 	"simc_addon_nomex_alt",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
 	"pca_nvg_shemagh_lowered_oli",
 	"pca_nvg_shemagh_lowered_tan",
 	"pca_nvg_shemagh_lowered_red",
-	"pca_nvg_oakley_goggles_blk",
-	"pca_nvg_oakley_goggles_clr",
-	"pca_nvg_oakley_goggles_ylw",
-	"pca_nvg_tactical_goggles",
-	"pca_nvg_tactical_glasses"
+	"$NONE_pca_nvg_oakley_goggles_blk$",
+	"$NONE_pca_nvg_oakley_goggles_clr$",
+	"$NONE_pca_nvg_oakley_goggles_ylw$",
+	"$NONE_pca_nvg_tactical_goggles$",
+	"$NONE_pca_nvg_tactical_glasses$"
 	
 ];
 
@@ -323,7 +323,7 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"RKSL_optic_EOT552",
 	
 	//Grip
@@ -342,34 +342,34 @@ private _itemAcc =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_acr_iar_blk",
-	"hlc_rifle_acr_car_blk",
-	"hlc_rifle_acr_dmr_blk",
-	"hlc_rifle_acr_dmr_pink",
-	"hlc_rifle_acr_iar_pink",
-	"hlc_rifle_acr_car_blk",
-	"hlc_rifle_acr_sbr_blk",
-	"hlc_rifle_acr_sbr_pink",
-	"hlc_rifle_acr_sbr_grn",
-	"hlc_rifle_acr_car_grn",
-	"hlc_rifle_acr_iar_grn",
-	"hlc_rifle_acr_dmr_grn"
+	"$NONE_hlc_rifle_acr_iar_blk$",
+	"CUP_arifle_ACRC_blk_68",
+	"$NONE_hlc_rifle_acr_dmr_blk$",
+	"$NONE_hlc_rifle_acr_dmr_pink$",
+	"$NONE_hlc_rifle_acr_iar_pink$",
+	"CUP_arifle_ACRC_blk_68",
+	"$NONE_hlc_rifle_acr_sbr_blk$",
+	"$NONE_hlc_rifle_acr_sbr_pink$",
+	"$NONE_hlc_rifle_acr_sbr_grn$",
+	"CUP_arifle_ACRC_wdl_68",
+	"$NONE_hlc_rifle_acr_iar_grn$",
+	"$NONE_hlc_rifle_acr_dmr_grn$"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_acr_sbr_m203_blk",
-	"hlc_rifle_acr_sbr_m203_grn",
-	"hlc_rifle_acr_sbr_m203_pink",
-	"hlc_rifle_acr_car_m203_blk",
-	"hlc_rifle_acr_car_m203_grn",
-	"hlc_rifle_acr_car_m203_pink",
-	"hlc_rifle_acr_iar_m203_blk",
-	"hlc_rifle_acr_iar_m203_grn",
-	"hlc_rifle_acr_iar_m203_pink",
-	"hlc_rifle_acr_dmr_m203_blk",
-	"hlc_rifle_acr_dmr_m203_grn",
-	"hlc_rifle_acr_dmr_m203_pink"
+	"$NONE_hlc_rifle_acr_sbr_m203_blk$",
+	"$NONE_hlc_rifle_acr_sbr_m203_grn$",
+	"$NONE_hlc_rifle_acr_sbr_m203_pink$",
+	"CUP_arifle_ACRC_EGLM_blk_68",
+	"CUP_arifle_ACRC_EGLM_wdl_68",
+	"$NONE_hlc_rifle_acr_car_m203_pink$",
+	"$NONE_hlc_rifle_acr_iar_m203_blk$",
+	"$NONE_hlc_rifle_acr_iar_m203_grn$",
+	"$NONE_hlc_rifle_acr_iar_m203_pink$",
+	"$NONE_hlc_rifle_acr_dmr_m203_blk$",
+	"$NONE_hlc_rifle_acr_dmr_m203_grn$",
+	"$NONE_hlc_rifle_acr_dmr_m203_pink$"
 ];
 
 private _itemWeapAR = 
@@ -380,7 +380,7 @@ private _itemWeapAR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136",
+	"CUP_launch_M136",
 	"pca_weap_m136cs"
 ];
 
@@ -439,10 +439,10 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_m67"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_HandGrenade_M67"
 ];
 
 //Special
@@ -465,8 +465,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

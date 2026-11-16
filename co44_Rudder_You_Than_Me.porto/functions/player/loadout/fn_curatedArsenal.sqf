@@ -49,7 +49,7 @@ private _itemGearGren =
 	//Vest
 	"bw_vest_fleck_grenadier",
 	"bw_carryall_fleck",
-	"aegis_loadbearing_grn",
+	"Aegis_B_patrolBackpack_khk_F",
 	"rhs_weap_m32"
 ];
 
@@ -99,7 +99,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -130,33 +130,33 @@ private _itemCosmetic =
 	"G_Tactical_Clear",
 	"G_Tactical_Black",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_bala_light_mtp",
-	"aegis_bala_light_gogg_mtp",
-	"aegis_shemag_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_tactical_white",
-	"aegis_tactical_yellow",
-	"aegis_tactical_camo",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Balaclava_light_mtp_F",
+	"G_Balaclava_light_G_mtp_F",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Tactical_Yellow",
+	"G_Tactical_Camo",
 	"G_Combat_Goggles_tna_F",
 	"G_Balaclava_TI_blk_F",
 	"G_Balaclava_TI_G_blk_F",
 	"G_AirPurifyingRespirator_01_F",
 	"bear_bandana_multicam",
 	"CUP_G_TK_RoundGlasses_blk",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_mc",
 	"milgp_f_face_shield_rgr",
@@ -197,9 +197,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"immersion_pops_pop0",
 	"G_AirPurifyingRespirator_02_olive_F",
     "G_AirPurifyingRespirator_02_sand_F",
@@ -301,27 +301,27 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
 [
 	//Optic
-	"sma_acc_vortex_blk",
-	"sma_acc_vortex_lc_blk",
-	"sma_acc_micro_t2",
-	"sma_acc_micro_t2_low",
-	"sma_acc_eotech_xps3_od",
-	"sma_acc_eotech_xps3_blk",
-	"sma_acc_eotech_xps3_tan",
-	"sma_acc_eotech_552_kf_od",
-	"sma_acc_eotech_552_kf_blk",
-	"sma_acc_eotech_552_kf_tan",
-	"sma_acc_eotech_552_blk",
-	"sma_acc_cmore_grn",
-	"sma_acc_cmore_blk",
-	"sma_acc_barska_rds",
+	"$NONE_sma_acc_vortex_blk$",
+	"$NONE_sma_acc_vortex_lc_blk$",
+	"$NONE_sma_acc_micro_t2$",
+	"$NONE_sma_acc_micro_t2_low$",
+	"$NONE_sma_acc_eotech_xps3_od$",
+	"$NONE_sma_acc_eotech_xps3_blk$",
+	"$NONE_sma_acc_eotech_xps3_tan$",
+	"$NONE_sma_acc_eotech_552_kf_od$",
+	"$NONE_sma_acc_eotech_552_kf_blk$",
+	"$NONE_sma_acc_eotech_552_kf_tan$",
+	"RKSL_optic_EOT552",
+	"$NONE_sma_acc_cmore_grn$",
+	"$NONE_sma_acc_cmore_blk$",
+	"$NONE_sma_acc_barska_rds$",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_t1_low_fwd",
 	"rhsusf_acc_t1_low",
@@ -336,24 +336,24 @@ private _itemAcc =
 	"rhsusf_acc_mrds_c",
 	"rhsusf_acc_mrds_fwd",
 	"rhsusf_acc_mrds",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_eotech_552_wd",
 	"rhsusf_acc_eotech_552_d",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech",
 	"rhsgref_acc_rx01_camo",
 	"rhsgref_acc_rx01_nofilter_camo",
-	"rksl_optic_eot552x_c",
-	"rksl_optic_eot552x",
-	"rksl_optic_eot552_c",
-	"rksl_optic_eot552",
+	"RKSL_optic_EOT552X_C",
+	"RKSL_optic_EOT552X",
+	"RKSL_optic_EOT552_C",
+	"RKSL_optic_EOT552",
 	"ptv_acc_eot552",
 	"ptv_acc_t1_low",
 	"ptv_acc_t1",
 	"ptv_acc_aimcs",
 	"ptv_acc_compm4s",
-	"hlc_optic_romeov",
-	"hlc_optic_docterr",
+	"HLC_optic_RomeoV",
+	"HLC_optic_DocterR",
 	"cup_optic_zeisszpoint_wood",
 	"cup_optic_zeisszpoint_hex",
 	"cup_optic_zeisszpoint_desert",
@@ -437,7 +437,7 @@ private _itemAcc =
 	"rhsusf_acc_ardec_m240",
 	"rhsusf_acc_aac_762sd_silencer",
 	"rhsusf_acc_aac_762sdn6_silencer",
-	"hlc_muzzle_evo40"
+	"hlc_muzzle_Evo40"
 ];
 
 private _itemAccSpec = 
@@ -466,7 +466,7 @@ private _itemWeapAR =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapDMR = 
@@ -476,12 +476,12 @@ private _itemWeapDMR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapPistol = 
@@ -503,11 +503,11 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
+	"SmokeShell",
+	"CUP_HandGrenade_M67",
 	"rhsusf_mag_6Rnd_m441_HE",
 	"rhsusf_mag_6Rnd_M433_HEDP",
 	"rhsusf_mag_6Rnd_M583A1_white",
@@ -523,20 +523,20 @@ private _itemAmmo =
 
 private _itemAmmoAR = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

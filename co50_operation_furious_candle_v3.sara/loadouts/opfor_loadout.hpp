@@ -52,8 +52,8 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"wsx_uniform_gorka_surpat_gloves",
-		"wsx_uniform_gorka_surpat"
+		"$NONE_wsx_uniform_gorka_surpat_gloves$",
+		"$NONE_wsx_uniform_gorka_surpat$"
 	};
 	vest[] = 
 	{
@@ -71,8 +71,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_762x39mm_polymer")
 	};
 };
@@ -82,7 +82,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_rpd"
+		"$NONE_fwa_weap_rpd$"
 	};
 	backpack[] =
 	{
@@ -90,8 +90,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("fwa_100rnd_762x39mm_rpd_tracer")
 	};
 };
@@ -109,8 +109,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 };

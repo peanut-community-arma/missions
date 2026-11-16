@@ -80,11 +80,11 @@ private _itemHeadgear =
 	"H_Cap_oli",
 	"H_Cap_red",
 	"H_Cap_headphones",
-	"aegis_beanie_blk",
-	"aegis_beanie_blu",
-	"aegis_beanie_khk",
-	"aegis_beanie_red",
-	"aegis_cap_headphones_blk",
+	"H_Watchcap_blk",
+	"H_Watchcap_sgg",
+	"H_Watchcap_khk",
+	"H_Watchcap_red",
+	"H_Cap_headphones_blk",
 	"bear_beanie_black",
 	"bear_beanie_blue",
 	"bear_beanie_brown",
@@ -94,8 +94,8 @@ private _itemHeadgear =
 	"CUP_H_PMC_Cap_EP_Grey",
 	"CUP_H_PMC_EP_Headset",
 	"CUP_H_USA_Cap_NY_DEF",
-	"usm_headwrap_blk",
-	"usm_headwrap_odg2"
+	"H_Bandanna_gry",
+	"H_Bandanna_khk"
 ];
 
 private _itemHeadgearCrew = 
@@ -143,10 +143,10 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_cigarette",
-	"aegis_headset",
-	"aegis_shades_yellow",
+	"G_Bandanna_kawaii",
+	"G_Cigarette",
+	"G_Headset_light",
+	"G_Shades_Yellowred",
 	"CUP_RUS_Balaclava_blk",
 	"bear_balaclava1_black",
 	"CUP_G_TK_RoundGlasses_blk",
@@ -158,7 +158,7 @@ private _itemCosmetic =
 
 	//HMD
 	"pca_nvg_cigarette",
-	"pca_nvg_face_shield_blk",
+	"$NONE_pca_nvg_face_shield_blk$",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
@@ -271,12 +271,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -323,14 +323,14 @@ private _itemExplosive =
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -340,8 +340,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

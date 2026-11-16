@@ -52,7 +52,7 @@ class hvt : baseMan
 	displayName = "HVT";
 	uniform[] = 
 	{
-		"aegis_guerilla_jacket_m81"
+		"Atlas_U_UniformBDU_02_m81_F"
 	};
 	headgear[] = 
 	{
@@ -92,9 +92,9 @@ class pm1 : baseMan
 	{
 		LIST_2("V_BandollierB_cbr"),
 		LIST_2("V_BandollierB_ghex_F"),
-		"aegis_modular_carrier_lite_blk",
-		"aegis_modular_carrier_lite_coy",
-		"aegis_modular_carrier_lite_grn"
+		"V_CarrierRigKBT_01_light_Black_F",
+		"V_CarrierRigKBT_01_light_Coyote_F",
+		"V_CarrierRigKBT_01_light_Olive_F"
 	};
 	headgear[] = 
 	{
@@ -105,9 +105,9 @@ class pm1 : baseMan
 		"CUP_H_PMC_Cap_Back_Tan",
 		"pca_baseball_cap_wdl",
 		"H_Cap_blk",
-		"aegis_cap_desert",
-		"aegis_cap_eaf",
-		"pca_headband_red",
+		"H_Cap_oicamo",
+		"H_Cap_eaf_arid_F",
+		"G_Headband_red_F",
 		"pca_headband_tan",
 		"pca_headband"
 	};
@@ -132,7 +132,7 @@ class pm2 : pm1
 	displayName = "Pistolman2";
 	sidearmWeapon[] = 
 	{
-		"aegis_weap_fnx45_blk"
+		"hgun_Pistol_heavy_01_black_F"
 	};
 	magazines[] = 
 	{
@@ -164,9 +164,9 @@ class rm : baseMan
 	{
 		LIST_2("V_BandollierB_cbr"),
 		LIST_2("V_BandollierB_ghex_F"),
-		"aegis_modular_carrier_lite_blk",
-		"aegis_modular_carrier_lite_coy",
-		"aegis_modular_carrier_lite_grn"
+		"V_CarrierRigKBT_01_light_Black_F",
+		"V_CarrierRigKBT_01_light_Coyote_F",
+		"V_CarrierRigKBT_01_light_Olive_F"
 	};
 	headgear[] = 
 	{
@@ -177,9 +177,9 @@ class rm : baseMan
 		"CUP_H_PMC_Cap_Back_Tan",
 		"pca_baseball_cap_wdl",
 		"H_Cap_blk",
-		"aegis_cap_desert",
-		"aegis_cap_eaf",
-		"pca_headband_red",
+		"H_Cap_oicamo",
+		"H_Cap_eaf_arid_F",
+		"G_Headband_red_F",
 		"pca_headband_tan",
 		"pca_headband"
 	};
@@ -197,7 +197,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_30Rnd_762x39mm")
 	};
@@ -213,7 +213,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
@@ -234,8 +234,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
 };
@@ -249,7 +249,7 @@ class smg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("rhs_30Rnd_545x39_7N6M_AK")
 	};
@@ -361,8 +361,8 @@ class crewman : smg
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -386,8 +386,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

@@ -76,7 +76,7 @@ if !(hasInterface) exitWith {};
 		
 		private _grenadeFragClasses = 
 		[
-			"rhs_mag_m67"
+			"CUP_HandGrenade_M67"
 		];
 		
 		private _grenadeSmokeClasses = 
@@ -96,9 +96,9 @@ if !(hasInterface) exitWith {};
 		
 		private _uglFragClasses = 
 		[
-			"rhs_mag_M397_HET",
-			"rhs_mag_M433_HEDP",
-			"rhs_mag_M441_HE"
+			"CUP_1Rnd_HE_M203",
+			"CUP_1Rnd_HEDP_M203",
+			"CUP_1Rnd_HE_M203"
 		];
 		
 		private _uglSmokeClasses = 
@@ -118,9 +118,9 @@ if !(hasInterface) exitWith {};
 		
 		private _launcherClasses = 
 		[
-			"rhs_mag_maaws_HEAT",
-			"rhs_mag_maaws_HEDP",
-			"rhs_mag_maaws_HE"
+			"CUP_MAAWS_HEAT_M",
+			"CUP_MAAWS_HEDP_M",
+			"MRAWS_HE_F"
 		];
 		
 		{

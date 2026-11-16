@@ -2,7 +2,7 @@
  * MAIN CONFIGURATION FILE
  * 
  * English and French comments
- * Commentaires anglais et français
+ * Commentaires anglais et franÃ§ais
  * 
  * (EN)
  * This file contains the configuration variables of the logistics system.
@@ -110,7 +110,7 @@ R3F_LOG_CFG_string_condition_allow_logistics_on_this_client = "true";
  * Or based on the profile name : "profileName in [""john"", ""jack"", ""james""]"
  * Or only for the server admin : "serverCommandAvailable "#kick"""
  * Note that quotes of the strings inside the string condition must be doubled.
- * Note : if the condition depends of the aimed objects/véhicule, you can use the command cursorTarget
+ * Note : if the condition depends of the aimed objects/vÃ©hicule, you can use the command cursorTarget
  * Note also that the condition is evaluted in real time, so it can use condition depending on the mission progress :
  * "alive officer && taskState task1 == ""Succeeded"""
  * To allow the creation factory to everyone, just set the condition to "true".
@@ -146,7 +146,7 @@ R3F_LOG_CFG_string_condition_allow_creation_factory_on_this_client = "true";
 
 /**
  * List of class names of ground vehicles which can tow objects.
- * Liste des noms de classes des véhicules terrestres pouvant remorquer des objets.
+ * Liste des noms de classes des vÃ©hicules terrestres pouvant remorquer des objets.
  */
 R3F_LOG_CFG_can_tow = [];
 
@@ -161,13 +161,13 @@ R3F_LOG_CFG_can_be_towed = [];
 
 /**
  * List of class names of helicopters which can lift objects.
- * Liste des noms de classes des hélicoptères pouvant héliporter des objets.
+ * Liste des noms de classes des hÃ©licoptÃ¨res pouvant hÃ©liporter des objets.
  */
 R3F_LOG_CFG_can_lift =[];
 
 /**
  * List of class names of objects which can be lifted.
- * Liste des noms de classes des objets héliportables.
+ * Liste des noms de classes des objets hÃ©liportables.
  */
 R3F_LOG_CFG_can_be_lifted = []; 
 
@@ -200,7 +200,7 @@ R3F_LOG_CFG_can_be_transported_cargo = [];
 
 /**
  * List of class names of objects which can be carried and moved by a player.
- * Liste des noms de classes des objets qui peuvent être portés et déplacés par le joueur.
+ * Liste des noms de classes des objets qui peuvent Ãªtre portÃ©s et dÃ©placÃ©s par le joueur.
  */
 
 R3F_LOG_CFG_can_be_moved_by_player = [];

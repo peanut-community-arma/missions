@@ -85,8 +85,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_762x39mm")
 	};
 };
@@ -103,17 +103,17 @@ class mg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_3("rhs_100Rnd_762x54mmR")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 

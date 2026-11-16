@@ -19381,7 +19381,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -19435,7 +19435,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -19624,7 +19624,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -19705,7 +19705,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -19732,7 +19732,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -36768,7 +36768,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -36822,7 +36822,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -37011,7 +37011,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -37092,7 +37092,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -37119,7 +37119,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -38050,7 +38050,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -38104,7 +38104,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -38293,7 +38293,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -38374,7 +38374,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -38401,7 +38401,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -39901,7 +39901,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -40029,7 +40029,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -40083,7 +40083,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -40272,7 +40272,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -40353,7 +40353,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -40380,7 +40380,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -41531,7 +41531,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -43807,7 +43807,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -43861,7 +43861,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -44050,7 +44050,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -44131,7 +44131,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -44158,7 +44158,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -44704,7 +44704,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -44758,7 +44758,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -44947,7 +44947,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -45028,7 +45028,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -45055,7 +45055,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -46500,7 +46500,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -46554,7 +46554,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_acc_compm4";
+																							value = "CUP_optic_CompM4";
 																						};
 																					};
 																					class Item1
@@ -46743,7 +46743,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "aegis_weap_zafir_blk";
+																							value = "LMG_Zafir_black_F";
 																						};
 																					};
 																					class Item1
@@ -46824,7 +46824,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_maaws";
+																							value = "CUP_launch_MAAWS";
 																						};
 																					};
 																					class Item1
@@ -46851,7 +46851,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_optic_maaws";
+																							value = "CUP_optic_MAAWS_Scope";
 																						};
 																					};
 																					class Item1
@@ -47726,7 +47726,7 @@ class Mission
 												class data
 												{
 													singleType = "STRING";
-													value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+													value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 												};
 											};
 										};
@@ -48803,7 +48803,7 @@ class Mission
 												class data
 												{
 													singleType = "STRING";
-													value = "[[[[""rhs_weap_ak74m"",""rhs_weap_rpg26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+													value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 												};
 											};
 										};
@@ -52373,7 +52373,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_mag_m67";
+																									value = "CUP_HandGrenade_M67";
 																								};
 																							};
 																							class Item1
@@ -52427,7 +52427,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhsusf_acc_compm4";
+																									value = "CUP_optic_CompM4";
 																								};
 																							};
 																							class Item1
@@ -52616,7 +52616,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "aegis_weap_zafir_blk";
+																									value = "LMG_Zafir_black_F";
 																								};
 																							};
 																							class Item1
@@ -52697,7 +52697,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_weap_maaws";
+																									value = "CUP_launch_MAAWS";
 																								};
 																							};
 																							class Item1
@@ -52724,7 +52724,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_optic_maaws";
+																									value = "CUP_optic_MAAWS_Scope";
 																								};
 																							};
 																							class Item1

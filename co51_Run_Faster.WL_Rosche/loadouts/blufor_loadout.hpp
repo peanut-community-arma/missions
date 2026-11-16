@@ -56,7 +56,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		"simc_pasgt_m81_band"
+		"H_Simc_pasgt_m81_b"
 	};
 	backpack[] = 
 	{
@@ -65,7 +65,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_645_m16a2"
+		"sp_fwa_ar15_645_a2"
 	};
 	items[] =
 	{
@@ -81,12 +81,12 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
-		LIST_13("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_13("30Rnd_556x45_Stanag")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_4("30Rnd_556x45_Stanag")
 	};
 };
 
@@ -107,13 +107,13 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] = 
 	{
-		LIST_2("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("pca_mag_200Rnd_556x45_M855_mixed_soft_pouch_od")
 	};
 	backpackItems[] = 
@@ -158,12 +158,12 @@ class tl : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhsusf_mag_7x45acp_MHP"),
-		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_2("CUP_7Rnd_45ACP_1911"),
+		LIST_2("30Rnd_556x45_Stanag"),
 		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
 		LIST_2("SmokeShell")
 	};
@@ -186,12 +186,12 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_645_m16a2_m203"
+		"CUP_arifle_M16A2_GL"
 	};
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_5("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -285,12 +285,12 @@ class hp : rm
 	};
 	primaryWeapon[] = 
 	{
-		"fwa_weap_colt_723_m16a2_carbine"
+		"sp_fwa_723_CAR15"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_7("30Rnd_556x45_Stanag"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")

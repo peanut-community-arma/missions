@@ -52,27 +52,27 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"aegis_csat_cu_blk"
+		"U_O_SpecopsUniform_blk"
 	};
 	vest[] = 
 	{
-		LIST_4("aegis_modular_carrier_lite_blk"),
-		"aegis_modular_carrier_heavy_blk"
+		LIST_4("V_CarrierRigKBT_01_light_Black_F"),
+		"V_CarrierRigKBT_01_heavy_Black_F"
 	};
 	headgear[] = 
 	{
-		LIST_3("aegis_protector_blk"),
-		LIST_2("aegis_defender_blk")
+		LIST_3("H_HelmetO_blk"),
+		LIST_2("H_HelmetLeaderO_blk")
 	};
 	backpack[] = 
 	{
 		LIST_7("pca_backpack_invisible"),
-		LIST_2("aegis_assaultpack_blk"),
+		LIST_2("B_AssaultPack_blk"),
 		"pca_eagle_a3_blk"
 	};
 	goggles[] = 
 	{
-		"aegis_bala_light_gogg_blk"
+		"G_Balaclava_light_G_blk_F"
 	};
 	hmd[] = 
 	{
@@ -80,7 +80,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ak12"
+		"arifle_AK12_545_F"
 	};
 	scope[] = 
 	{
@@ -92,7 +92,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		LIST_8("aegis_30Rnd_545x39_7N10_ak12")
 	};
 };
@@ -106,8 +106,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("75rnd_762x39_AK12_Mag_Tracer_F")
 	};
 };
@@ -121,8 +121,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 };
@@ -132,7 +132,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -160,11 +160,11 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"aegis_weap_ak12_gp34"
+		"arifle_AK12_GL_545_F"
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_M441_HE"),
+		LIST_3("CUP_1Rnd_HE_M203"),
 		LIST_2("1Rnd_Smoke_Grenade_shell")
 	};
 };

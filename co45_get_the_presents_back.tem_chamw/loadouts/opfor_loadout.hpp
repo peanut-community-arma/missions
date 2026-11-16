@@ -86,8 +86,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_762x39mm_bakelite")
 	};
 };
@@ -101,8 +101,8 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_6("rhs_45Rnd_545X39_AK_Green")
 	};
 };
@@ -116,8 +116,8 @@ class sp : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_8("rhsgref_5Rnd_762x54_m38")
 	};
 };
@@ -131,8 +131,8 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 };
@@ -142,7 +142,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_rpg26"
+		"CUP_launch_RPG26"
 	};
 };
 
@@ -227,11 +227,11 @@ class deer : baseMan
 	};
 	goggles[] = 
 	{
-		"TC_G_Helmet_Antlers_1"
+		"$NONE_TC_G_Helmet_Antlers_1$"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 
@@ -240,6 +240,6 @@ class red : deer
 	displayName = "rudolf";
 	hmd[] = 
 	{
-		"TC_NVG_Headgear_ReindeerNose_1_Glow"
+		"$NONE_TC_NVG_Headgear_ReindeerNose_1_Glow$"
 	};
 };

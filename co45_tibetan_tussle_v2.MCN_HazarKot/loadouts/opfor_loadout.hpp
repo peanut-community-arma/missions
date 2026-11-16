@@ -52,7 +52,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"simc_arvn_og107",
+		"U_Simc_arvn_og107",
 		"simc_arvn_roll_og107",
 		"simc_arvn_tuck_roll_og107",
 		"simc_arvn_tuck_og107"
@@ -67,9 +67,9 @@ class rm : baseMan
 		LIST_2("H_Booniehat_oli"),
 		LIST_2("pca_headband"),
 		LIST_2(""),
-		"pca_headband_red",
+		"G_Headband_red_F",
 		"rhsgref_hat_M1951",
-		"usm_bdu_cap_erdl"
+		"Aegis_H_Milcap_nohs_wdl_F"
 	};
 	backpack[] = 
 	{
@@ -83,8 +83,8 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_10("rhsgref_5Rnd_792x57_kar98k")
 	};
 };
@@ -94,13 +94,13 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_bren_mk2"
+		"sp_fwa_bren_mk2"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_5("fwa_30rnd_303_bren_tracer_red")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_5("sp_fwa_30Rnd_303_Bren_Tracer")
 	};
 };
 
@@ -109,12 +109,12 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1919a6"
+		"sp_fwa_m1919a6_browning"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("fwa_100rnd_3006_m1919_mixed")
 	};
 };
@@ -124,13 +124,13 @@ class sub_mg : rm
 	displayName = "Submachine Gunner";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_m1a1_thompson"
+		"sp_fwa_smg_thompson_m1a1"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
-		LIST_5("fwa_30rnd_45acp_m1a1_thompson")
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
+		LIST_5("sp_fwa_30Rnd_45acp_thompson_m1a1")
 	};
 };
 
@@ -172,12 +172,12 @@ class leader : rm
 	displayName = "Leader";
 	primaryWeapon[] = 
 	{
-		"fwa_weap_type56"
+		"CUP_arifle_TYPE_56_2_Early"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
 };
@@ -237,8 +237,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -262,8 +262,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

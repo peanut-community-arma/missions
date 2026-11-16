@@ -72,13 +72,13 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		LIST_4("hlc_rifle_acr_iar_blk"),
-		"hlc_rifle_acr_car_blk"
+		LIST_4("$NONE_hlc_rifle_acr_iar_blk$"),
+		"CUP_arifle_ACRC_blk_68"
 	};
 	scope[] = 
 	{
-		LIST_3("rhsusf_acc_compm4"),
-		LIST_2("sma_acc_eotech_552_blk")
+		LIST_3("CUP_optic_CompM4"),
+		LIST_2("RKSL_optic_EOT552")
 	};
 	bipod[] = 
 	{
@@ -99,7 +99,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_13("pca_mag_30Rnd_556x45_M995_PMAG_Blk")
 	};
 	backpackItems[] = 
@@ -132,7 +132,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("pca_mag_200Rnd_556x45_M995_mixed_soft_pouch_od")
 	};
 	backpackItems[] = 
@@ -146,7 +146,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpack[] = 
 	{
-		"wsx_eagle_a3_rgr"
+		"pca_eagle_a3_rgr"
 	};
 	backpackItems[] += 
 	{
@@ -163,11 +163,11 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 	backpackItems[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -182,7 +182,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] = 
 	{
@@ -201,7 +201,7 @@ class tl : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_m203_blk"
+		"$NONE_hlc_rifle_acr_iar_m203_blk$"
 	};
 	backpackItems[] =
 	{
@@ -232,7 +232,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_acr_iar_blk"
+		"$NONE_hlc_rifle_acr_iar_blk$"
 	};
 	vest[] = 
 	{
@@ -313,7 +313,7 @@ class mmg : rm
 	};
 	scope[] = 
 	{
-		"rksl_optic_eot552x"
+		"RKSL_optic_EOT552X"
 	};
 	bipod[] = 
 	{
@@ -322,12 +322,12 @@ class mmg : rm
 	attachment[] = {};
 	sidearmWeapon[] = 
 	{
-		"hlc_pistol_mk25"
+		"$NONE_hlc_pistol_mk25$"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("hlc_15Rnd_9x19_FMJ_P226"),
 		LIST_3("sps_100Rnd_762x51_M80A1_Mixed_KAC_Box")
 	};

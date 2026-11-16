@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co58_panochori_pickup_v2";
-addons[] = {"A3_Characters_F","pca_misc_pca_negev_ng5","hlcweapons_core","CUP_Weapons_East_Attachments","CUP_Weapons_West_Attachments","CUP_Weapons_ACE_compat","A3_Weapons_F","cba_jam","ace_ballistics","CUP_Weapons_Glock17","jsrs_soundmod_cup_weapons","rhsusf_c_weapons","A3_Aegis_Characters_F_Minos_AFR","acre_sys_prc343","ace_medical_treatment","CUP_Creatures_Military_USMC","ace_realisticnames","A3_Aegis_Weapons_F_Aegis","ace_optics","rhsusf_c_troops","MX_retexture","rhsusf_sounds","ace_compat_rhs_usf3","pca_misc_pca_ai_tweaks","ace_nouniformrestrictions","A3_Structures_F_Mil_Helipads","CUP_Misc_e_Config","A3_Structures_F_Items_Vessels","ace_field_rations","CUP_CAMisc","CUP_Misc3_Config","A3_Structures_F_Mil_Fortification","A3_Structures_F_EPA_Mil_Scrapyard","ace_cargo","A3_Supplies_F_Heli_CargoNets","CUP_WarfareBuildings","CUP_StandaloneTerrains_Core_Faction","cba_xeh","A3_Structures_F_Heli_Items_Airport","A3_Structures_F_Tank_Military_RepairDepot","A3_Supplies_F_Heli_Slingload","ace_refuel","A3_Structures_F_Households_Addons","CUP_WaterVehicles_LHD","A3_Structures_F_Enoch_VR_Helpers","A3_Structures_F_Orange_Humanitarian_Flags","A3_Structures_F_Mil_BagFence","A3_Structures_F_Mil_BagBunker","A3_Weapons_F_Bootcamp_Ammoboxes","cba_ai","A3_Structures_F_Mil_Shelters","A3_Static_F_HMG_02","ace_dragging","A3_Structures_F_EPB_Items_Vessels","gm_objects_fortification","A3_Structures_F_Argo_Military_Fortifications","A3_Modules_F","A3_Structures_F_Kart_Civ_SportsGrounds","A3_Characters_F_Exp_Civil","A3_Characters_F_AoW","A3_Props_F_Oldman_Items","A3_Structures_F_Civ_Camping","A3_Structures_F_Heli_Items_Luggage","A3_Props_F_Enoch_Military_Equipment","A3_Characters_F_Tank","A3_Soft_F_EPC_Truck_03","CUP_AirVehciles_AW159","ace_rearm","tmf_ai","lambs_wp","CUP_Creatures_Military_Russia","A3_Soft_F_Offroad_01","A3_Soft_F_Enoch_Offroad_01","CUP_WheeledVehicles_Jackal","A3_Armor_F_Beta_APC_Wheeled_01","ace_vehicle_damage","acre_sys_intercom","A3_Air_F_Heli_Light_01","A3_Air_F_Beta_Heli_Transport_01","A3_Armor_F_Beta_APC_Tracked_01","A3_Ui_F","TMF_marker","A3_Modules_F_Tacops"};
+addons[] = {"A3_Characters_F","pca_misc_pca_negev_ng5","hlcweapons_core","CUP_Weapons_East_Attachments","CUP_Weapons_West_Attachments","ace_compat_cup_weapons","A3_Weapons_F","cba_jam","ace_ballistics","CUP_Weapons_Glock17","jsrs_soundmod_cup_weapons","rhsusf_c_weapons","A3_Aegis_Characters_F_Minos_AFR","acre_sys_prc343","ace_medical_treatment","CUP_Creatures_Military_USMC","ace_realisticnames","A3_Aegis_Weapons_F_Aegis","ace_optics","rhsusf_c_troops","MX_retexture","rhsusf_sounds","ace_compat_rhs_usf3","pca_misc_pca_ai_tweaks","ace_nouniformrestrictions","A3_Structures_F_Mil_Helipads","CUP_Misc_e_Config","A3_Structures_F_Items_Vessels","ace_field_rations","CUP_CAMisc","CUP_Misc3_Config","A3_Structures_F_Mil_Fortification","A3_Structures_F_EPA_Mil_Scrapyard","ace_cargo","A3_Supplies_F_Heli_CargoNets","CUP_WarfareBuildings","CUP_StandaloneTerrains_Core_Faction","cba_xeh","A3_Structures_F_Heli_Items_Airport","A3_Structures_F_Tank_Military_RepairDepot","A3_Supplies_F_Heli_Slingload","ace_refuel","A3_Structures_F_Households_Addons","CUP_WaterVehicles_LHD","A3_Structures_F_Enoch_VR_Helpers","A3_Structures_F_Orange_Humanitarian_Flags","A3_Structures_F_Mil_BagFence","A3_Structures_F_Mil_BagBunker","A3_Weapons_F_Bootcamp_Ammoboxes","cba_ai","A3_Structures_F_Mil_Shelters","A3_Static_F_HMG_02","ace_dragging","A3_Structures_F_EPB_Items_Vessels","gm_objects_fortification","A3_Structures_F_Argo_Military_Fortifications","A3_Modules_F","A3_Structures_F_Kart_Civ_SportsGrounds","A3_Characters_F_Exp_Civil","A3_Characters_F_AoW","A3_Props_F_Oldman_Items","A3_Structures_F_Civ_Camping","A3_Structures_F_Heli_Items_Luggage","A3_Props_F_Enoch_Military_Equipment","A3_Characters_F_Tank","A3_Soft_F_EPC_Truck_03","CUP_AirVehciles_AW159","ace_rearm","tmf_ai","lambs_wp","CUP_Creatures_Military_Russia","A3_Soft_F_Offroad_01","A3_Soft_F_Enoch_Offroad_01","CUP_WheeledVehicles_Jackal","A3_Armor_F_Beta_APC_Wheeled_01","ace_vehicle_damage","acre_sys_intercom","A3_Air_F_Heli_Light_01","A3_Air_F_Beta_Heli_Transport_01","A3_Armor_F_Beta_APC_Tracked_01","A3_Ui_F","TMF_marker","A3_Modules_F_Tacops"};
 class AddonsMetaData
 {
 	class List
@@ -74,8 +74,8 @@ class AddonsMetaData
 		};
 		class Item5
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item6
@@ -2011,7 +2011,7 @@ class Mission
 							class primaryWeapon
 							{
 								name = "pca_weap_negev_ng5";
-								optics = "hlc_optic_hensoldtzo_rds";
+								optics = "$NONE_hlc_optic_hensoldtzo_rds$";
 								muzzle = "CUP_muzzle_snds_KZRZP_PK";
 								flashlight = "CUP_acc_ANPEQ_15_Black";
 								firemode = "pca_weap_negev_ng5:FullAuto";
@@ -2032,7 +2032,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_rcu_rs_shex";
+								typeName = "Atlas_U_O_CombatFatigues_02_semiarid_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -2089,7 +2089,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -2109,7 +2109,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_tacticalpack_tan";
+								typeName = "$NONE_aegis_tacticalpack_tan$";
 								isBackpack = 1;
 								class MagazineCargo
 								{
@@ -2125,7 +2125,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "aegis_csat_aggressor_shex";
+							headgear = "H_HelmetLuchnik_cover_semiarid_F";
 						};
 					};
 					id = 14;
@@ -2247,8 +2247,8 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "aegis_weap_sa80_blk";
-								optics = "hlc_optic_hensoldtzo_rds_2d";
+								name = "arifle_SA80_blk_F";
+								optics = "$NONE_hlc_optic_hensoldtzo_rds_2d$";
 								firemode = "aegis_weap_sa80_blk:Single";
 							};
 							class binocular
@@ -2314,7 +2314,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -2472,8 +2472,8 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "aegis_weap_sa80_blk";
-								optics = "hlc_optic_hensoldtzo_rds";
+								name = "arifle_SA80_blk_F";
+								optics = "$NONE_hlc_optic_hensoldtzo_rds$";
 								firemode = "aegis_weap_sa80_blk:Single";
 								class primaryMuzzleMag
 								{
@@ -2483,7 +2483,7 @@ class Mission
 							};
 							class secondaryWeapon
 							{
-								name = "rhs_weap_M136";
+								name = "CUP_launch_M136";
 							};
 							class uniform
 							{
@@ -2544,7 +2544,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -2559,7 +2559,7 @@ class Mission
 									items = 1;
 									class Item0
 									{
-										name = "rhs_weap_M136";
+										name = "CUP_launch_M136";
 										count = 1;
 									};
 								};
@@ -13191,7 +13191,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36k_65_blk";
+																					value = "arifle_G36_F";
 																				};
 																			};
 																			class Item1
@@ -13245,7 +13245,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_m67";
+																					value = "CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -13299,7 +13299,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "hlc_optic_hensoldtzo_rds";
+																					value = "$NONE_hlc_optic_hensoldtzo_rds$";
 																				};
 																			};
 																			class Item1
@@ -13515,7 +13515,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_M136";
+																					value = "CUP_launch_M136";
 																				};
 																			};
 																			class Item1
@@ -13542,7 +13542,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36k_gl_65_blk";
+																					value = "arifle_G36_GL_F";
 																				};
 																			};
 																			class Item1
@@ -13569,7 +13569,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_m240B";
+																					value = "CUP_lmg_M240_B";
 																				};
 																			};
 																			class Item1
@@ -13596,7 +13596,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_100Rnd_762x51_m80a1epr";
+																					value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 																				};
 																			};
 																			class Item1
@@ -13650,7 +13650,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_maaws";
+																					value = "CUP_launch_MAAWS";
 																				};
 																			};
 																			class Item1
@@ -13677,7 +13677,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_optic_maaws";
+																					value = "CUP_optic_MAAWS_Scope";
 																				};
 																			};
 																			class Item1
@@ -13785,7 +13785,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "aegis_weap_g36c_65_blk";
+																					value = "arifle_G36C_F";
 																				};
 																			};
 																			class Item1

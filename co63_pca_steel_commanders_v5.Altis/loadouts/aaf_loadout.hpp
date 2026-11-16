@@ -65,7 +65,7 @@ class rm : baseMan
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIA2_dgtl");
-		"aegis_otv_rig_oli"
+		"V_PlateCarrierIA2_oli"
 	};
 	backpack[] = 
 	{
@@ -75,11 +75,11 @@ class rm : baseMan
 	headgear[] = 
 	{
 		LIST_5("H_HelmetIA"),
-		"aegis_mch_oli"
+		"H_I_Helmet_canvas_Green"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk33a2"
+		"$NONE_hlc_rifle_hk33a2$"
 	};
 	magazines[] = 
 	{
@@ -96,11 +96,11 @@ class ar : rm
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIAGL_dgtl");
-		"aegis_otv_gl_oli"
+		"V_PlateCarrierIAGL_oli"
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_lmg_mg3"
+		"sp_fwa_mg3"
 	};
 	magazines[] = 
 	{
@@ -149,7 +149,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk33a2_ris_m203"
+		"$NONE_hlc_rifle_hk33a2_ris_m203$"
 	};
 	magazines[] += 
 	{
@@ -174,12 +174,12 @@ class medic : rm
 	displayName = "Medic";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk33ka3"
+		"$NONE_hlc_rifle_hk33ka3$"
 	};	
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIAGL_dgtl");
-		"aegis_otv_gl_oli"
+		"V_PlateCarrierIAGL_oli"
 	};
 	backpack[] = 
 	{
@@ -224,7 +224,7 @@ class crewman : rm
 	vest[] = 
 	{
 		LIST_5("V_PlateCarrierIA1_dgtl");
-		"aegis_otv_lite_oli"
+		"V_PlateCarrierIA1_oli"
 	};
 	headgear[] = 
 	{
@@ -233,7 +233,7 @@ class crewman : rm
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk53"
+		"$NONE_hlc_rifle_hk53$"
 	};	
 	magazines[] = 
 	{
@@ -262,7 +262,7 @@ class pilot : rm
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk53"
+		"$NONE_hlc_rifle_hk53$"
 	};	
 	magazines[] = 
 	{
@@ -289,12 +289,12 @@ class hvt : rm
 	};
 	headgear[] = 
 	{
-		"aegis_mil_beret_aaf"
+		"H_Beret_AAF_01_F"
 	};
 	backpack[] = {};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_hk53"
+		"$NONE_hlc_rifle_hk53$"
 	};	
 	magazines[] = 
 	{

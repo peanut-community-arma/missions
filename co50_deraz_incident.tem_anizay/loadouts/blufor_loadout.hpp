@@ -35,16 +35,16 @@ class rm : baseMan
 	displayName = "Rifleman";
 	uniform[] = 
 	{
-		"usm_bdu_taki",
-		"usm_bdu_bti_taki",
-		"usm_bdu_btisrl_taki",
-		"usm_bdu_srl_taki",
-		"usm_bdu_srh_taki"
+		"$NONE_usm_bdu_taki$",
+		"$NONE_usm_bdu_bti_taki$",
+		"$NONE_usm_bdu_btisrl_taki$",
+		"$NONE_usm_bdu_srl_taki$",
+		"$NONE_usm_bdu_srh_taki$"
 	};
 	vest[] = 
 	{
-		LIST_4("usm_vest_lbe_rifleman"),
-		"usm_vest_lbe_rifleman2"
+		LIST_4("V_Simc_67"),
+		"V_Simc_56_ligt_zusp"
 	};
 	headgear[] = 
 	{
@@ -72,7 +72,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_11("CUP_20Rnd_762x51_FNFAL_M")
 	};
 	backpackItems[] = 
@@ -86,7 +86,7 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	vest[] = 
 	{
-		"usm_vest_lbe_machinegunner"
+		"V_Simc_56_60_ligt_zusp"
 	};
 	backpack[] = 
 	{
@@ -99,7 +99,7 @@ class ar : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
@@ -158,7 +158,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	vest[] = 
 	{
-		"usm_vest_lbe_rifleman3"
+		"V_Simc_56_alt"
 	};
 	items[] += 
 	{
@@ -171,14 +171,14 @@ class sl : tl
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_11("rhs_mag_30Rnd_556x45_M193_Stanag")
 	};
 	backpackItems[] =
 	{
 		LIST_4("rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red"),
-		LIST_21("rhs_mag_M441_HE"),
-		LIST_10("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HE_M203"),
+		LIST_10("CUP_1Rnd_HEDP_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -191,7 +191,7 @@ class co : sl
 	displayName = "Platoon Commander";
 	vest[] = 
 	{
-		"usm_vest_lbe_rifleman4"
+		"V_Simc_56"
 	};
 	backpackItems[] +=
 	{
@@ -258,7 +258,7 @@ class crew : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_5("CUP_20Rnd_762x51_FNFAL_M")
 	};
 	backpackItems[] = 

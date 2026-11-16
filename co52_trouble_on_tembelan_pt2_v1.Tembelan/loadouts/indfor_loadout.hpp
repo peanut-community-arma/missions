@@ -13,7 +13,7 @@ class baseMan
 	};
 	backpack[] = 
 	{
-		"aegis_assaultpack_khk"
+		"B_AssaultPack_tan"
 	};
 	headgear[] = 
 	{
@@ -71,7 +71,7 @@ class rm : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] =
 	{
-		"aegis_weap_f2000c_blk"
+		"arifle_Mk20C_black_F"
 	};
 	scope[] =
 	{
@@ -101,16 +101,16 @@ class rm : baseMan
 		"cup_optic_trijiconrx01_kf_black",
 		"cup_optic_vortexrazor_uh1_black",
 		"cup_optic_zeisszpoint",
-		"hlc_optic_docterr",
-		"hlc_optic_ism1400a7",
-		"hlc_optic_romeov",
+		"HLC_optic_DocterR",
+		"$NONE_hlc_optic_ism1400a7$",
+		"HLC_optic_RomeoV",
 		"ptv_acc_compm4s",
 		"ptv_acc_aimcs",
 		"ptv_acc_t1",
 		"ptv_acc_t1_low",
 		"ptv_acc_eot552",
-		"rksl_optic_eot552",
-		"rksl_optic_eot552x",
+		"RKSL_optic_EOT552",
+		"RKSL_optic_EOT552X",
 		"rhs_acc_rakurspm",
 		"rhs_acc_1p87",
 		"rhs_acc_ekp8_18",
@@ -127,20 +127,20 @@ class rm : baseMan
 		"rhsusf_acc_t1_high",
 		"rhsusf_acc_t1_low",
 		"rhsusf_acc_eotech_xps3",
-		"sma_acc_barska_rds",
-		"sma_acc_cmore_blk",
-		"sma_acc_eotech_552_blk",
-		"sma_acc_eotech_552_kf_blk",
-		"sma_acc_eotech_xps3_blk",
-		"sma_acc_micro_t2",
-		"sma_acc_tasco_propoint",
-		"sma_acc_tasco_propoint_glare",
-		"sma_acc_vortex_blk",
-		"sma_acc_vortex_lc_blk"
+		"$NONE_sma_acc_barska_rds$",
+		"$NONE_sma_acc_cmore_blk$",
+		"$NONE_sma_acc_eotech_552_blk$",
+		"$NONE_sma_acc_eotech_552_kf_blk$",
+		"$NONE_sma_acc_eotech_xps3_blk$",
+		"$NONE_sma_acc_micro_t2$",
+		"$NONE_sma_acc_tasco_propoint$",
+		"$NONE_sma_acc_tasco_propoint_glare$",
+		"$NONE_sma_acc_vortex_blk$",
+		"$NONE_sma_acc_vortex_lc_blk$"
 	};
 	sidearmWeapon[] =
 	{
-		"hlc_pistol_p226"
+		"$NONE_hlc_pistol_p226$"
 	};
 	magazines[] =
 	{
@@ -174,7 +174,7 @@ class dm : rm
 	displayName = "Marksman";
 	primaryWeapon[]=
 	{
-		"aegis_weap_f2000_blk"
+		"arifle_Mk20_black_F"
 	};
 	scope[] =
 	{
@@ -187,7 +187,7 @@ class rm_at : rm
 	displayName = "Rifleman (AT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -202,7 +202,7 @@ class tl : rm
 	};
 	primaryWeapon[] =
 	{
-		"aegis_weap_f2000_gl_blk"
+		"arifle_Mk20_GL_black_F"
 	};
 	bipod[] = {""};
 	magazines[] =
@@ -211,7 +211,7 @@ class tl : rm
 		LIST_11("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"),
 		"HandGrenade",
 		"SmokeShell",		
-		LIST_2("rhs_mag_M397_HET")
+		LIST_2("CUP_1Rnd_HE_M203")
 	};
 	linkedItems[] += 
 	{

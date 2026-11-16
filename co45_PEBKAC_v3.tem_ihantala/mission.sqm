@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co45_PEBKAC_v3";
-addons[] = {"A3_Characters_F","SPS_weapons_kac_lwamg","CUP_Weapons_West_Attachments","rhsusf_c_weapons","CUP_Weapons_M17","A3_Weapons_F","ace_nightvision","pca_gear_blended_usa_headgear","pca_gear_blended_usa_uniform","acre_sys_prc343","ace_medical_treatment","rhsusf_c_troops","ace_realisticnames","hlcweapons_mp5","CUP_Weapons_ACE_compat","ace_compat_rhs_usf3_explosives","A3_Weapons_F_Items","ace_arsenal","ace_explosives","ace_logistics_wirecutter","A3_Structures_F_Items_Electronics","A3_Modules_F_Intel","A3_Modules_F_Curator_Misc","A3_Ui_F","A3_Rocks_F_Enoch","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Items_Vessels","A3_Structures_F_Items_Food","A3_Structures_F_Furniture","ace_sitting","A3_Structures_F_EPA_Items_Food","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_EPB_Furniture","A3_Props_F_Exp_Commercial_Market","A3_Structures_F_Items_Documents","A3_Props_F_Enoch_Military_Equipment","tmf_ai","cba_ai","ace_nouniformrestrictions","A3_Characters_F_Tank","A3_Soft_F_Quadbike_01"};
+addons[] = {"A3_Characters_F","SPS_weapons_kac_lwamg","CUP_Weapons_West_Attachments","rhsusf_c_weapons","CUP_Weapons_M17","A3_Weapons_F","ace_nightvision","pca_gear_blended_usa_headgear","pca_gear_blended_usa_uniform","acre_sys_prc343","ace_medical_treatment","rhsusf_c_troops","ace_realisticnames","hlcweapons_mp5","ace_compat_cup_weapons","ace_compat_rhs_usf3_explosives","A3_Weapons_F_Items","ace_arsenal","ace_explosives","ace_logistics_wirecutter","A3_Structures_F_Items_Electronics","A3_Modules_F_Intel","A3_Modules_F_Curator_Misc","A3_Ui_F","A3_Rocks_F_Enoch","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Items_Vessels","A3_Structures_F_Items_Food","A3_Structures_F_Furniture","ace_sitting","A3_Structures_F_EPA_Items_Food","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_EPB_Furniture","A3_Props_F_Exp_Commercial_Market","A3_Structures_F_Items_Documents","A3_Props_F_Enoch_Military_Equipment","tmf_ai","cba_ai","ace_nouniformrestrictions","A3_Characters_F_Tank","A3_Soft_F_Quadbike_01"};
 class AddonsMetaData
 {
 	class List
@@ -128,8 +128,8 @@ class AddonsMetaData
 		};
 		class Item13
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item14
@@ -1649,7 +1649,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1663,7 +1663,7 @@ class Mission
 							};
 							class backpack
 							{
-								typeName = "aegis_tacticalpack_rgr";
+								typeName = "B_TacticalPack_rgr";
 								isBackpack = 1;
 							};
 							map = "ItemMap";
@@ -1908,7 +1908,7 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_smg_mp5a4_10_tac";
+								name = "$NONE_hlc_smg_mp5a4_10_tac$";
 								flashlight = "CUP_acc_ANPEQ_15_Tan_Top";
 								firemode = "hlc_smg_mp5a4_10_tac:Single";
 								class primaryMuzzleMag
@@ -1976,7 +1976,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1991,13 +1991,13 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhsusf_m112_mag";
+										name = "DemoCharge_Remote_Mag";
 										count = 4;
 										ammoLeft = 1;
 									};
 									class Item1
 									{
-										name = "rhsusf_m112x4_mag";
+										name = "SatchelCharge_Remote_Mag";
 										count = 2;
 										ammoLeft = 1;
 									};

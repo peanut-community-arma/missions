@@ -60,9 +60,9 @@ private _headgearPoolWeighted = selectRandomWeighted
 	"pca_m88_fieldcap_gray", 1,
 	"pca_ssh68_helmet_ogrn", 1,
 	"pca_ssh68_helmet_emblem_redstar", 1,
-	"usm_bdu_boonie_blk", 1,
-	"usm_bdu_boonie_gry", 1,
-	"usm_bdu_boonie_odg", 1
+	"H_Booniehat_blk", 1,
+	"$NONE_usm_bdu_boonie_gry$", 1,
+	"H_Booniehat_oli", 1
 ];
 
 private _backpackPoolWeighted = "rhs_sidor";
@@ -71,9 +71,9 @@ private _facewearPoolWeighted = selectRandomWeighted
 [
 	"G_Bandanna_blk", 1,
 	"G_Bandanna_beast", 1,
-	"aegis_bandanna_skull", 1,
-	"aegis_shemagh_loop_white", 1.5,
-	"aegis_shemagh_mesh_white", 1.5,
+	"G_Bandanna_Skull2", 1,
+	"G_Shemag_white", 1.5,
+	"G_Shemag_white", 1.5,
 	"CUP_TK_NeckScarf", 3
 ];
 
@@ -186,8 +186,8 @@ for "_i" from 1 to (ceil (random [0,1,1])) do {_unit addItemToUniform "ACE_epine
 for "_i" from 1 to (ceil (random [0,1,1])) do {_unit addItemToUniform "ACE_morphine";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addItemToUniform "ACE_splint";};
-for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addMagazine "rhs_mag_rgd5";};
-for "_i" from 1 to (ceil (random [0,0,2])) do {_unit addMagazine "rhs_mag_rdg2_white";};
+for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addMagazine "CUP_HandGrenade_RGD5";};
+for "_i" from 1 to (ceil (random [0,0,2])) do {_unit addMagazine "SmokeShell";};
 
 switch (_setWeapon) do 
 {
@@ -207,7 +207,7 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "ar") : 
 	{
-		private _weapon = "fwa_weap_rpd";
+		private _weapon = "$NONE_fwa_weap_rpd$";
 		private _weaponMag = "fwa_100rnd_762x39mm_rpd_mixed";
 		
 		_unit addWeapon _weapon;
@@ -217,8 +217,8 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "mg") : 
 	{
-		private _weapon = "rhs_weap_pkm";
-		private _weaponMag = "rhs_100Rnd_762x54mmR";
+		private _weapon = "CUP_lmg_PKM";
+		private _weaponMag = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 		
 		_unit addWeapon _weapon;
 		_unit addWeaponItem [_weapon, _weaponMag, true];

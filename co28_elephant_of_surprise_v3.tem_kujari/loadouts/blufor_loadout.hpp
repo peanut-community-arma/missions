@@ -3,11 +3,11 @@ class baseMan
 	displayName = "Unarmed";
 	// All Randomized
 	uniform[] = {
-		"usm_bdu_bnu_tan",
-		"usm_bdu_bnu_dcu2",
-		"usm_bdu_srl_dcu2",
-		"usm_bdu_srh_dcu2",
-		"usm_bdu_bti_dcu2"
+		"$NONE_usm_bdu_bnu_tan$",
+		"CUP_U_B_BDUv2_roll_DCU_US",
+		"$NONE_usm_bdu_srl_dcu2$",
+		"$NONE_usm_bdu_srh_dcu2$",
+		"$NONE_usm_bdu_bti_dcu2$"
 	};
 	vest[] = {};
 	backpack[] = {};
@@ -61,7 +61,7 @@ class crew : baseMan
 {
 	displayName = "Crewman";
 	traits[] = {"engineer"};
-	primaryWeapon[] = {"hlc_rifle_m16a3"};
+	primaryWeapon[] = {"sp_fwa_ar15_646_a3"};
 	vest[] = 
 	{
 		"usm_vest_pasgtdcu_lbe_mg"
@@ -75,8 +75,8 @@ class crew : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 	items[] = 
 	{
@@ -102,7 +102,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a3_m203"
+		"CUP_arifle_M16A4_GL"
 	};
 	items[] +=
 	{
@@ -147,7 +147,7 @@ class co : sgt
 	traits[] = {"engineer"};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_m16a3"
+		"sp_fwa_ar15_646_a3"
 	};
 };
 

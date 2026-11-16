@@ -37,7 +37,7 @@ private _itemGear =
 	"simc_bdu_roll_dcu_2",
 	
 	//Vest
-	"simc_vest_pasgt_dcu",
+	"V_Simc_vest_pasgt_dcu",
 	"simc_vest_pasgt_lbv_dcu",
 	"simc_vest_pasgt_lbv_alt_dcu",
 	"simc_vest_pasgt_lbv_holster_dcu",
@@ -52,21 +52,21 @@ private _itemGear =
 	"simc_vest_pasgt_lc2_saw_dcu",
 	
 	//Headgear
-	"usm_headwrap_dcu",
+	"H_Bandanna_cbr",
 	"simc_bonnie_hat_dcu",
 	"simc_bonnie_hat_flat_dcu",
-	"simc_pasgt_dcu",
+	"H_Simc_pasgt_dcu",
 	"simc_pasgt_dcu_band",
-	"simc_pasgt_dcu_scrim",
+	"H_Simc_pasgt_dcu_scrim",
 	"simc_pasgt_dcu_scrim_2",
-	"simc_pasgt_dcu_swdg",
-	"simc_pasgt_dcu_swdg_band",
+	"H_Simc_pasgt_dcu_SWDG",
+	"H_Simc_pasgt_dcu_b_SWDG",
 	"simc_pasgt_dcu_swdg_cover_band",
 	"simc_pasgt_dcu_swdg_cover",
 	"simc_pasgt_dcu_swdg_high",
 	"simc_pasgt_dcu_swdg_high_band",
-	"simc_pasgt_dcu_swdg_low",
-	"simc_pasgt_dcu_swdg_low_band",
+	"H_Simc_pasgt_dcu_SWDG_low",
+	"H_Simc_pasgt_dcu_SWDG_low_b",
 	"simc_pasgt_dcu_swdg_low_cover",
 	"simc_pasgt_dcu_swdg_low_cover_band",
 	
@@ -77,8 +77,8 @@ private _itemGear =
 private _itemGearLeader = 
 [
 	//Headgear
-	"usm_bdu_cap_dcu",
-	"usm_bdu_8point_dcu"
+	"Aegis_H_MilCap_nohs_desert_lxWS",
+	"$NONE_usm_bdu_8point_dcu$"
 ];
 
 private _itemGearCrew = 
@@ -94,7 +94,7 @@ private _itemGearCrew =
 	"simc_bdu_roll_dcu_2",
 	
 	//Vest
-	"simc_vest_pasgt_dcu",
+	"V_Simc_vest_pasgt_dcu",
 	"simc_vest_pasgt_lbv_dcu",
 	"simc_vest_pasgt_lbv_alt_dcu",
 	"simc_vest_pasgt_lbv_holster_dcu",
@@ -109,21 +109,21 @@ private _itemGearCrew =
 	"simc_vest_pasgt_lc2_saw_dcu",
 	
 	//Headgear
-	"usm_headwrap_dcu",
+	"H_Bandanna_cbr",
 	"simc_bonnie_hat_dcu",
 	"simc_bonnie_hat_flat_dcu",
-	"simc_pasgt_dcu",
+	"H_Simc_pasgt_dcu",
 	"simc_pasgt_dcu_band",
-	"simc_pasgt_dcu_scrim",
+	"H_Simc_pasgt_dcu_scrim",
 	"simc_pasgt_dcu_scrim_2",
-	"simc_pasgt_dcu_swdg",
-	"simc_pasgt_dcu_swdg_band",
+	"H_Simc_pasgt_dcu_SWDG",
+	"H_Simc_pasgt_dcu_b_SWDG",
 	"simc_pasgt_dcu_swdg_cover_band",
 	"simc_pasgt_dcu_swdg_cover",
 	"simc_pasgt_dcu_swdg_high",
 	"simc_pasgt_dcu_swdg_high_band",
-	"simc_pasgt_dcu_swdg_low",
-	"simc_pasgt_dcu_swdg_low_band",
+	"H_Simc_pasgt_dcu_SWDG_low",
+	"H_Simc_pasgt_dcu_SWDG_low_b",
 	"simc_pasgt_dcu_swdg_low_cover",
 	"simc_pasgt_dcu_swdg_low_cover_band",
 	
@@ -141,7 +141,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -172,32 +172,32 @@ private _itemCosmetic =
 	"G_Tactical_Clear",
 	"G_Tactical_Black",
 	"G_Spectacles_Tinted",
-	"aegis_bandanna_kawaii",
-	"aegis_combat_gogg_blk",
-	"aegis_bala_light_blk",
-	"aegis_bala_light_gogg_blk",
-	"aegis_bala_light_mtp",
-	"aegis_bala_light_gogg_mtp",
-	"aegis_shemag_khk",
-	"aegis_shemag_tactical_khk",
-	"aegis_shemag_oli",
-	"aegis_shemag_tactical_oli",
-	"aegis_shemag_red",
-	"aegis_shemag_tactical_red",
-	"aegis_shemag_tan",
-	"aegis_shemag_tactical_tan",
-	"aegis_shemag_white",
-	"aegis_shemag_tactical_white",
-	"aegis_tactical_yellow",
-	"aegis_tactical_camo",
+	"G_Bandanna_kawaii",
+	"G_Combat_Goggles_blk_F",
+	"G_Balaclava_light_blk_F",
+	"G_Balaclava_light_G_blk_F",
+	"G_Balaclava_light_mtp_F",
+	"G_Balaclava_light_G_mtp_F",
+	"CUP_FR_NeckScarf2",
+	"$NONE_aegis_shemag_tactical_khk$",
+	"CUP_FR_NeckScarf",
+	"G_Shemag_tactical",
+	"CUP_FR_NeckScarf5",
+	"G_Shemag_red",
+	"G_Shemag_tan",
+	"G_Shemag_tan",
+	"G_Shemag_white",
+	"G_Shemag_white",
+	"G_Tactical_Yellow",
+	"G_Tactical_Camo",
 	"G_Combat_Goggles_tna_F",
 	"G_Balaclava_TI_blk_F",
 	"G_Balaclava_TI_G_blk_F",
 	"G_AirPurifyingRespirator_01_F",
 	"bear_bandana_multicam",
 	"CUP_G_TK_RoundGlasses_blk",
-	"usm_scarf",
-	"usm_scarf2",
+	"$REMOVE_usm_scarf$",
+	"$REMOVE_usm_scarf2$",
 	"milgp_f_face_shield_khk",
 	"milgp_f_face_shield_mc",
 	"milgp_f_face_shield_rgr",
@@ -238,9 +238,9 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_gogg_tan",
 	"rhsusf_shemagh_gogg_white",
 	"rhsusf_shemagh2_gogg_white",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"immersion_pops_pop0"
 ];
 
@@ -305,8 +305,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"hgun_esd_01_F"
 ];
@@ -314,8 +314,8 @@ private _itemEng =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	
 	//Grip
 	"rhsusf_acc_grip1",
@@ -371,7 +371,7 @@ private _itemWeapAR =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapDMR = 
@@ -381,12 +381,12 @@ private _itemWeapDMR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_M136"
+	"CUP_launch_M136"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 private _itemWeapPistol = 
@@ -415,8 +415,8 @@ private _itemAmmo =
 	"rhs_mag_M397_HET",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
-	"rhs_mag_an_m8hc",
-	"rhs_mag_m67",
+	"SmokeShell",
+	"CUP_HandGrenade_M67",
 	
 	//Cigarettes
 	"murshun_cigs_matches",
@@ -439,14 +439,14 @@ private _itemAmmoAR =
 
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemAmmoDMR = 

@@ -1593,7 +1593,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_guerilla_garb_m81";
+								typeName = "Rev_U_B_FRR_Uniform_03_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -1642,7 +1642,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "aegis_tacvest_oli";
+								typeName = "V_TacVest_grn";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -1655,7 +1655,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -5693,7 +5693,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "aegis_guerilla_garb_m81";
+								typeName = "Rev_U_B_FRR_Uniform_03_F";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -5755,7 +5755,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -5791,7 +5791,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "wsx_helmet_pasgt_ctan";
+							headgear = "H_PASGT_basic_sand_F";
 						};
 					};
 					id = 225;
@@ -15683,7 +15683,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 941;
@@ -16236,7 +16236,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1343;
@@ -16741,7 +16741,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 951;
@@ -17110,7 +17110,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 960;
@@ -17517,7 +17517,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 967;
@@ -17886,7 +17886,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 970;
@@ -19127,7 +19127,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1031;
@@ -19621,7 +19621,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1350;
@@ -19990,7 +19990,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1353;
@@ -20321,7 +20321,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 991;
@@ -20813,7 +20813,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 997;
@@ -21332,7 +21332,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1009;
@@ -21825,7 +21825,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1016;
@@ -22357,7 +22357,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1074;
@@ -22726,7 +22726,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1077;
@@ -23133,7 +23133,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1096;
@@ -24062,7 +24062,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1111;
@@ -24554,7 +24554,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1148;
@@ -25898,7 +25898,7 @@ class Mission
 													map = "ItemMap";
 													compass = "ItemCompass";
 													watch = "ItemWatch";
-													headgear = "wsx_helmet_pasgt_aaf";
+													headgear = "H_HelmetIA";
 												};
 											};
 											id = 1164;
@@ -26764,7 +26764,7 @@ class Mission
 													map = "ItemMap";
 													compass = "ItemCompass";
 													watch = "ItemWatch";
-													headgear = "wsx_helmet_pasgt_aaf";
+													headgear = "H_HelmetIA";
 												};
 											};
 											id = 1177;
@@ -27368,7 +27368,7 @@ class Mission
 													map = "ItemMap";
 													compass = "ItemCompass";
 													watch = "ItemWatch";
-													headgear = "wsx_helmet_pasgt_aaf";
+													headgear = "H_HelmetIA";
 												};
 											};
 											id = 1186;
@@ -27972,7 +27972,7 @@ class Mission
 													map = "ItemMap";
 													compass = "ItemCompass";
 													watch = "ItemWatch";
-													headgear = "wsx_helmet_pasgt_aaf";
+													headgear = "H_HelmetIA";
 												};
 											};
 											id = 1192;
@@ -28582,7 +28582,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1134;
@@ -29664,7 +29664,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1198;
@@ -30282,7 +30282,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1213;
@@ -31168,7 +31168,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1226;
@@ -32052,7 +32052,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1239;
@@ -32941,7 +32941,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1250;
@@ -33831,7 +33831,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1290;
@@ -34815,7 +34815,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1302;
@@ -36600,7 +36600,7 @@ class Mission
 											map = "ItemMap";
 											compass = "ItemCompass";
 											watch = "ItemWatch";
-											headgear = "wsx_helmet_pasgt_aaf";
+											headgear = "H_HelmetIA";
 										};
 									};
 									id = 1361;

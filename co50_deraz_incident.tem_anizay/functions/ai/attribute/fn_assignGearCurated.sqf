@@ -31,9 +31,9 @@ removeGoggles _unit;
 [_unit, 6] call pca_fnc_setUnitSkills;
 _unit call pca_fnc_unlimitedAmmo;
 
-private _uniformPoolWeighted = "wsx_uniform_combat_irndpm";
+private _uniformPoolWeighted = "$NONE_wsx_uniform_combat_irndpm$";
 private _vestPoolWeighted = "CUP_V_RUS_Smersh_1";
-private _headgearPoolWeighted = "wsx_helmet_combat_irndpm";
+private _headgearPoolWeighted = "$REVIEW_wsx_helmet_combat_irndpm$";
 private _headgearESSPoolWeighted = selectRandomWeighted
 [
 	"wsx_helmet_combat_irndpm_ess_bare", 3,
@@ -136,8 +136,8 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "ar") : 
 	{
-		private _weapon = "rhs_weap_pkm";
-		private _weaponMag = "rhs_100Rnd_762x54mmR";
+		private _weapon = "CUP_lmg_PKM";
+		private _weaponMag = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 		
 		_unit addWeapon _weapon;
 		_unit addWeaponItem [_weapon, _weaponMag, true];
@@ -146,10 +146,10 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "mg") : 
 	{
-		private _weapon = "rhs_weap_pkm";
+		private _weapon = "CUP_lmg_PKM";
 		private _weaponMag = selectRandomWeighted
 		[
-			"rhs_100Rnd_762x54mmR", 3,
+			"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 3,
 			"rhs_100Rnd_762x54mmR_green", 2
 		];
 		

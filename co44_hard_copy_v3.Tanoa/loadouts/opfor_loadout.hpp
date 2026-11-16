@@ -17,7 +17,7 @@ class baseMan
 		"CUP_H_PMC_Cap_PRR_Burberry"
 	};
 	goggles[] = {
-		"rhsusf_oakley_goggles_blk"
+		"CUP_G_Oakleys_Drk"
 	};
 	hmd[] = {};
 	// Leave empty to not change faces and Insignias
@@ -68,7 +68,7 @@ class rm : baseMan
 	};
 	magazines[] =
 	{
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_6("rhs_mag_30Rnd_556x45_M855A1_Stanag")
 	};
 };
@@ -112,7 +112,7 @@ class tl : rm
 	goggles[] = 
 	{
 		"G_Sport_Red",
-		"aegis_shemag_shades_cbr"
+		"G_Shemag_shades"
 	};
 	headgear[] =
 	{

@@ -145,26 +145,26 @@ private _itemBackpackPilot =
 private _itemCosmetic = 
 [
 	//Facewear
-	"aegis_bala_skull",
+	"G_Balaclava_Skull1",
 	"pca_balaclava_gogg_mcb",
 	"G_Balaclava_oli",
 	"pca_balaclava_mcb",
 	"G_Balaclava_blk",
 	"G_Aviator",
 	"G_Spectacles",
-	"usm_giglovesscarf",
-	"usm_giglovesscarf2",
+	"$NONE_usm_giglovesscarf$",
+	"$NONE_usm_giglovesscarf2$",
 	"rhssaf_veil_Green",
 	"G_Spectacles_Tinted",
-	"aegis_cigarette",
+	"G_Cigarette",
 	"rhs_ess_black",
 	"rhs_googles_black",
 	"rhs_googles_clear",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -177,21 +177,21 @@ private _itemCosmetic =
 	"rhsusf_shemagh2_tan",
 	"rhsusf_shemagh_gogg_tan",
 	"rhsusf_shemagh2_gogg_tan",
-	"aegis_bandanna_kawaii",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
 	"pca_bandana_mc",
 	"bear_bandana_multicam",
-	"aegis_bandanna_shemag",
+	"G_Bandanna_shemag",
 	"CUP_G_ESS_RGR_Facewrap_Skull",
 	"milgp_f_face_shield_goggles_mc",
 	"milgp_f_face_shield_goggles_blk",
 	"milgp_f_face_shield_mc",
 	"milgp_f_face_shield_blk",
-	"aegis_bala_light_mtp",
-	"aegis_bala_light_gogg_mtp",
-	"aegis_bala_light_wdl",
-	"aegis_bala_light_gogg_wdl",
+	"G_Balaclava_light_mtp_F",
+	"G_Balaclava_light_G_mtp_F",
+	"G_Balaclava_light_wdl_F",
+	"G_Balaclava_light_G_wdl_F",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"immersion_cigs_cigar0",
@@ -273,8 +273,8 @@ private _itemAcc =
 [
 	//Optic
 	"cup_optic_aimpoint_5000",
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_wd",
 	"cup_optic_eotech553_od",
 	"cup_optic_eotech553_black",
@@ -372,7 +372,7 @@ private _itemWeapMG =
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -429,7 +429,7 @@ private _itemExplosive =
 	"rhs_VOG25P",
 	"rhs_VOG25",
 	"rhs_mag_rgn",
-	"rhs_mag_rgo"
+	"CUP_HandGrenade_RGO"
 ];
 
 //Special
@@ -441,9 +441,9 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"rhs_mag_maaws_HEAT",
-	"rhs_mag_maaws_HEDP",
-	"rhs_mag_maaws_HE"
+	"CUP_MAAWS_HEAT_M",
+	"CUP_MAAWS_HEDP_M",
+	"MRAWS_HE_F"
 ];
 
 private _itemEngineer = 
@@ -453,8 +453,8 @@ private _itemEngineer =
 	"ACE_EntrenchingTool",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag",
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"MineDetector",
 	"ToolKit"
 ];

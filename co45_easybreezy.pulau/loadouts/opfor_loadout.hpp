@@ -101,7 +101,7 @@ class rm : baseMan
 	};
 	goggles[] = {
 		LIST_10(""),
-		"aegis_bandanna_kawaii",
+		"G_Bandanna_kawaii",
 		"G_Bandanna_aviator",
 		"G_Bandanna_beast",
 		"G_Bandanna_blk",
@@ -121,13 +121,13 @@ class rm : baseMan
 		"G_Bandanna_Vampire_01",
 		"G_Bandanna_Syndikat2",
 		"G_Lowprofile",
-		"aegis_cigarette",
+		"G_Cigarette",
 		"murshun_cigs_cig0",
-		"aegis_shemag_shades_oli",
-		"aegis_shemag_shades_cbr",
-		"aegis_shemag_shades_khk",
-		"aegis_shemag_shades_red",
-		"aegis_shemag_shades_tan"
+		"$NONE_aegis_shemag_shades_oli$",
+		"G_Shemag_shades",
+		"$NONE_aegis_shemag_shades_khk$",
+		"$NONE_aegis_shemag_shades_red$",
+		"$NONE_aegis_shemag_shades_tan$"
 
 	};
 	primaryWeapon[] =
@@ -138,7 +138,7 @@ class rm : baseMan
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_7("rhs_30Rnd_762x39mm")
 	};
@@ -153,7 +153,7 @@ class ar : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_7("CUP_32Rnd_9x19_UZI_M")
 	};
@@ -169,7 +169,7 @@ class mg : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_12("2Rnd_12Gauge_Pellets")
 	};
@@ -185,7 +185,7 @@ class rm_lat : rm
 	};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		// "rhs_mag_rdg2_white",
 		LIST_7("CUP_30Rnd_45ACP_MAC10_M")
 	};
@@ -288,8 +288,8 @@ class crewman : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
 };
@@ -313,8 +313,8 @@ class pilot : rm
 	scope[] = {};
 	magazines[] =
 	{
-		"rhs_mag_rgd5",
-		"rhs_mag_rdg2_white",
+		"CUP_HandGrenade_RGD5",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
 };

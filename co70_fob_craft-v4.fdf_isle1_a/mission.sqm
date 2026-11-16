@@ -11555,7 +11555,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_m67";
+																					value="CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -11852,7 +11852,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhsusf_100Rnd_762x51_m80a1epr";
+																					value="CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 																				};
 																			};
 																			class Item1
@@ -15095,7 +15095,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -15122,7 +15122,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -15176,7 +15176,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -15203,7 +15203,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -15284,7 +15284,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -15446,7 +15446,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -15978,7 +15978,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -16005,7 +16005,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -16059,7 +16059,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -16086,7 +16086,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -16167,7 +16167,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -16329,7 +16329,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -17001,7 +17001,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -17028,7 +17028,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -17082,7 +17082,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -17109,7 +17109,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -17190,7 +17190,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -17352,7 +17352,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -17884,7 +17884,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -17911,7 +17911,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -17965,7 +17965,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -17992,7 +17992,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -18073,7 +18073,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -18235,7 +18235,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -18924,7 +18924,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -18951,7 +18951,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -19005,7 +19005,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -19032,7 +19032,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -19113,7 +19113,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -19275,7 +19275,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -19807,7 +19807,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -19834,7 +19834,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -19888,7 +19888,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -19915,7 +19915,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -19996,7 +19996,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -20158,7 +20158,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -20830,7 +20830,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -20857,7 +20857,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -20911,7 +20911,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -20938,7 +20938,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -21019,7 +21019,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -21181,7 +21181,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -21713,7 +21713,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_rpd";
+																					value="$NONE_fwa_weap_rpd$";
 																				};
 																			};
 																			class Item1
@@ -21740,7 +21740,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_mag_9x18_8_57N181S";
+																					value="CUP_8Rnd_9x18_Makarov_M";
 																				};
 																			};
 																			class Item1
@@ -21794,7 +21794,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_makarov_pm";
+																					value="CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -21821,7 +21821,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_rpg26";
+																					value="CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -21902,7 +21902,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="rhs_weap_pkm";
+																					value="CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -22064,7 +22064,7 @@ class Mission
 																				class data
 																				{
 																					singleType="STRING";
-																					value="fwa_weap_mosin_m91";
+																					value="CUP_srifle_Mosin_Nagant";
 																				};
 																			};
 																			class Item1
@@ -40465,7 +40465,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="fwa_weap_rpd";
+																							value="$NONE_fwa_weap_rpd$";
 																						};
 																					};
 																					class Item1
@@ -40492,7 +40492,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="rhs_mag_9x18_8_57N181S";
+																							value="CUP_8Rnd_9x18_Makarov_M";
 																						};
 																					};
 																					class Item1
@@ -40546,7 +40546,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="rhs_weap_makarov_pm";
+																							value="CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -40573,7 +40573,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="rhs_weap_rpg26";
+																							value="CUP_launch_RPG26";
 																						};
 																					};
 																					class Item1
@@ -40654,7 +40654,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="rhs_weap_pkm";
+																							value="CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -40816,7 +40816,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="fwa_weap_mosin_m91";
+																							value="CUP_srifle_Mosin_Nagant";
 																						};
 																					};
 																					class Item1

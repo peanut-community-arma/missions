@@ -123,13 +123,13 @@ class ar : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("CUP_60Rnd_545x39_AK74M_M")
 	};
 	backpackItems[] = 
@@ -303,13 +303,13 @@ class mmg : rm
 	attachment[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_3("rhs_100Rnd_762x54mmR_7N26")
 	};
 	backpackItems[] = 
@@ -352,11 +352,11 @@ class mat : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_9x18_8_57N181S")
+		LIST_3("CUP_8Rnd_9x18_Makarov_M")
 	};
 	backpackItems[] = 
 	{
@@ -400,7 +400,7 @@ class maa : rm
     };
     magazines[] += 
     {
-        LIST_3("16Rnd_9x21_Mag")
+        LIST_3("16Rnd_9x21_Mag_v2")
     };
     backpackItems[] = 
     {
@@ -450,7 +450,7 @@ class eng : rm
 	};
 	magazines[] += 
 	{
-		LIST_3("16Rnd_9x21_Mag")
+		LIST_3("16Rnd_9x21_Mag_v2")
 	};
 	backpackItems[] = 
 	{
@@ -458,8 +458,8 @@ class eng : rm
 		"ACE_DefusalKit",
 		"ACE_M26_Clacker",
 		"ACE_wirecutter",
-		LIST_4("rhsusf_m112_mag"),
-		LIST_2("rhsusf_m112x4_mag")
+		LIST_4("DemoCharge_Remote_Mag"),
+		LIST_2("SatchelCharge_Remote_Mag")
 	};
 };
 
@@ -495,7 +495,7 @@ class dm : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("HandGrenade"),
-		LIST_3("16Rnd_9x21_Mag"),
+		LIST_3("16Rnd_9x21_Mag_v2"),
 		LIST_9("30Rnd_65x39_caseless_mag")
 	};
 	backpackItems[] = 
@@ -541,7 +541,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_makarov_pm"
+		"CUP_hgun_Makarov"
 	};
 	items[] +=
 	{
@@ -549,7 +549,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_9x18_8_57N181S"),
+		LIST_3("CUP_8Rnd_9x18_Makarov_M"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -587,7 +587,7 @@ class hp : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("30Rnd_65x39_caseless_mag"),
-		LIST_3("16Rnd_9x21_Mag"),
+		LIST_3("16Rnd_9x21_Mag_v2"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")

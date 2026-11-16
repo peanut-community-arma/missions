@@ -70,13 +70,13 @@ class rm : baseMan
 		"usp_g3c_rs2_kp_or_aor2",
 		"usp_g3c_rs2_mx_aor2",
 		"usp_g3c_rs2_or_aor2",
-		"wsx_uniform_combat_s4f"
+		"$NONE_wsx_uniform_combat_s4f$"
 	};
 	vest[] = 
 	{
-		LIST_2("wsx_vest_combat_greek_lizard"),
-		LIST_2("wsx_vest_combat_m84w"),
-		"wsx_vest_combat_m98"
+		LIST_2("pca_otv_greek_lizard"),
+		LIST_2("$NONE_wsx_vest_combat_m84w$"),
+		"V_TacVest_camo"
 		// For later BLUFOR:
 		//pca_iotv_grenadier_oefcp
 		//pca_iotv_medic_oefcp
@@ -97,9 +97,9 @@ class rm : baseMan
 		"pca_opscore_cover_ct_cb_aor2",
 		"pca_opscore_cover_ct_cm_aor2",
 		"pca_opscore_cover_ct_cw_aor2",
-		"wsx_helmet_combat_s4f",
-		"wsx_helmet_combat_s4f_ess_bare",
-		"wsx_helmet_combat_s4f_ess"
+		"$REVIEW_wsx_helmet_combat_s4f$",
+		"$REVIEW_wsx_helmet_combat_s4f_ess_bare$",
+		"$REVIEW_wsx_helmet_combat_s4f_ess$"
 	};
 	backpack[] = 
 	{
@@ -110,7 +110,7 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3"
+		"CUP_arifle_G36A3"
 	};
 	scope[] = 
 	{
@@ -124,7 +124,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_7("hlc_30Rnd_556x45_EPR_G36")
 	};
@@ -139,7 +139,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("rhsusf_200Rnd_556x45_box")
 	};
@@ -150,11 +150,11 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_fnmag"
+		"CUP_lmg_FNMAG"
 	};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_3("rhsusf_100Rnd_762x51")
 	};
@@ -165,7 +165,7 @@ class rm_lat : rm
 	displayName = "Rifleman (LAT)";
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_M136"
+		"CUP_launch_M136"
 	};
 };
 
@@ -178,11 +178,11 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"fwa_weap_m2_carlgustaf_no78"
+		"sp_fwa_m2_carlGustav_no78"
 	};
 	backpackItems[] = 
 	{
-		LIST_3("fwa_1rnd_m2_carlgustaf_HEAT")
+		LIST_3("sp_fwa_carlg_1rnd_heat")
 	};
 };
 
@@ -191,7 +191,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"hlc_rifle_g36a3_ag36"
+		"CUP_arifle_G36A3_AG36"
 	};
 	magazines[] += 
 	{
@@ -246,12 +246,12 @@ class crewman : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_smg_mp5a2"
+		"$NONE_hlc_smg_mp5a2$"
 	};
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("hlc_30Rnd_9x19_FMJ_MP5")
 	};
@@ -267,12 +267,12 @@ class pilot : rm
 	};
 	primaryWeapon[] = 
 	{
-		"hlc_smg_mp5a2"
+		"$NONE_hlc_smg_mp5a2$"
 	};
 	scope[] = {};
 	magazines[] = 
 	{
-		"rhs_mag_m67",
+		"CUP_HandGrenade_M67",
 		"SmokeShell",
 		LIST_5("hlc_30Rnd_9x19_FMJ_MP5")
 	};

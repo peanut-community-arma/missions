@@ -9674,7 +9674,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -9785,7 +9785,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -9896,7 +9896,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -10007,7 +10007,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -56107,7 +56107,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhsusf_acc_compm4";
+																			value = "CUP_optic_CompM4";
 																		};
 																	};
 																	class Item1
@@ -56350,7 +56350,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_m67";
+																			value = "CUP_HandGrenade_M67";
 																		};
 																	};
 																	class Item1
@@ -56485,7 +56485,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "16Rnd_9x21_Mag";
+																			value = "16Rnd_9x21_Mag_v2";
 																		};
 																	};
 																	class Item1
@@ -56593,7 +56593,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_maaws";
+																			value = "CUP_launch_MAAWS";
 																		};
 																	};
 																	class Item1
@@ -56620,7 +56620,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_optic_maaws";
+																			value = "CUP_optic_MAAWS_Scope";
 																		};
 																	};
 																	class Item1
@@ -152981,7 +152981,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -153092,7 +153092,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -153203,7 +153203,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -153314,7 +153314,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""rhs_mag_M441_HE""],[30,10,40]],[[],[]],[[],[]]],false]";
+							value = "[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""ptv_200Rnd_556x45_M855A1_mixed_m62_soft_pouch"",""CUP_1Rnd_HE_M203""],[30,10,40]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};

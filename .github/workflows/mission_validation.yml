@@ -1,0 +1,50 @@
+
+name: Mission Validation Dashboard
+
+on:
+  push:
+    branches:
+      - main  # Or your default branch
+  pull_request:
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Run mission validator and generate JSON
+      run: |
+        python .github/scripts/mission_validator.py . ./invalid_classes.csv --json-output-dir ./.github/dashboard
+
+    - name: Upload Pages Artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./.github/dashboard
+
+  deploy-dashboard:
+    needs: validate-and-build
+    # Only deploy when pushing to the main branch
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    # Grant permissions for the deployment job
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

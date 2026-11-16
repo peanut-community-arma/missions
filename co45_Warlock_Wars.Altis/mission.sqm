@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co45_Warlock_Wars";
-addons[] = {"A3_Characters_F","hlcweapons_ar15","hlcweapons_core","pca_misc_pca_illuminations","rhsusf_c_weapons","bnae_Colt_SAA","bnae_core","A3_Weapons_F","TC_HEADGEAR","CUP_Creatures_Military_PMC","acre_sys_prc343","ace_medical_treatment","wsx_sof","ace_realisticnames","A3_Modules_F","A3_Ui_F","A3_Modules_F_Curator_Lightning","ace_nouniformrestrictions","A3_Structures_F_Civ_BellTowers","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_Items_Food","A3_Structures_F_Households_WIP","A3_Structures_F_Dominants_Castle","A3_Structures_F_Enoch_Cultural_OrthodoxChurches","A3_Boat_F_Boat_Transport_01","A3_Characters_F_Tank","A3_Structures_F_Argo_Military_Fortifications","A3_Static_F_HMG_02","lambs_wp","A3_Modules_F_Curator_Misc"};
+addons[] = {"A3_Characters_F","hlcweapons_ar15","hlcweapons_core","pca_illuminations","rhsusf_c_weapons","bnae_Colt_SAA","bnae_core","A3_Weapons_F","TC_HEADGEAR","CUP_Creatures_Military_PMC","acre_sys_prc343","ace_medical_treatment","wsx_sof","ace_realisticnames","A3_Modules_F","A3_Ui_F","A3_Modules_F_Curator_Lightning","ace_nouniformrestrictions","A3_Structures_F_Civ_BellTowers","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_Items_Food","A3_Structures_F_Households_WIP","A3_Structures_F_Dominants_Castle","A3_Structures_F_Enoch_Cultural_OrthodoxChurches","A3_Boat_F_Boat_Transport_01","A3_Characters_F_Tank","A3_Structures_F_Argo_Military_Fortifications","A3_Static_F_HMG_02","lambs_wp","A3_Modules_F_Curator_Misc"};
 class AddonsMetaData
 {
 	class List
@@ -64,7 +64,7 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className = "pca_misc_pca_illuminations";
+			className = "pca_illuminations";
 			name = "Illuminations - Flashlights & Flares Tweaks";
 			author = "PCA";
 		};
@@ -760,8 +760,8 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name = "hlc_rifle_mk18mod0";
-								muzzle = "hlc_muzzle_fn_oem556";
+								name = "CUP_arifle_mk18_black";
+								muzzle = "$NONE_hlc_muzzle_fn_oem556$";
 								flashlight = "pca_flashlight_sf";
 								firemode = "hlc_rifle_mk18mod0:Single";
 								class primaryMuzzleMag
@@ -825,7 +825,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName = "wsx_mbav_grenadier_blk";
+								typeName = "usp_eagle_mbav_mcb";
 								isBackpack = 0;
 								class MagazineCargo
 								{
@@ -838,7 +838,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -918,7 +918,7 @@ class Mission
 							map = "ItemMap";
 							compass = "ItemCompass";
 							watch = "ItemWatch";
-							headgear = "TC_Helmet_Hat_NavySeer";
+							headgear = "$NONE_TC_Helmet_Hat_NavySeer$";
 						};
 					};
 					id = 5;

@@ -74,7 +74,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_13("pca_mag_40Rnd_762x39_Polymer")
 	};
 	backpackItems[] = 
@@ -98,7 +98,7 @@ class ar : rm
 	{
 		LIST_3("rhs_18rnd_9x21mm_7N29"),
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_7("CUP_60Rnd_TE1_Green_Tracer_545x39_AK74M_M")
 	};
 	backpackItems[] = 
@@ -130,7 +130,7 @@ class br : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_8("CUP_30Rnd_9x39_SP5_VIKHR_M")
 	};
 	backpackItems[] = 
@@ -208,7 +208,7 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	backpack[] = 
 	{
-		"aegis_virtus_carryall_oli"
+		"B_Carryall_oli"
 	};
 	backpackItems[] =
 	{
@@ -240,13 +240,13 @@ class mmg : rm
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_rgd5"),
+		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_3("rhs_18rnd_9x21mm_7N29"),
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 	backpack[] = 
 	{
-		"aegis_virtus_carryall_oli"
+		"B_Carryall_oli"
 	};
 	backpackItems[] = 
 	{
@@ -259,7 +259,7 @@ class ammg : rm
 	displayName = "Assistant Medium Machine Gunner";
 	backpack[] = 
 	{
-		"aegis_virtus_carryall_oli"
+		"B_Carryall_oli"
 	};
 	backpackItems[] = 
 	{

@@ -8998,7 +8998,7 @@ class Mission
 								{
 									class secondaryWeapon
 									{
-										name = "XZ_CamRecorder_2";
+										name = "$NONE_XZ_CamRecorder_2$";
 										firemode = "XZ_CamRecorder_2:XZ_CamRecorder_2";
 										class primaryMuzzleMag
 										{

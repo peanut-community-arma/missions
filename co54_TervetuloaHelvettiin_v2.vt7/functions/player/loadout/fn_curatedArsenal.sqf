@@ -112,7 +112,7 @@ private _itemGearCrew =
 	//Uniform 
 
 	//Weapons
-	"hlc_rifle_aks74u",
+	"CUP_arifle_AKS74U",
 	
 	//Vest 
 	"rhs_6b2",
@@ -136,7 +136,7 @@ private _itemGearPilot =
 	"rhsusf_spcs_ocp_crewman",
 	
 	//Headgear
-	"rhsusf_cvc",
+	"rhsusf_cvc_helmet",
 	"rhsusf_cvc_alt_helmet",
 	"rhsusf_cvc_ess",
 	
@@ -146,7 +146,7 @@ private _itemGearPilot =
 
 private _itemCosmetic = 
 [
-	"aegis_bala_skull",
+	"G_Balaclava_Skull1",
 	"G_Balaclava_oli",
 	"pca_balaclava_mcb",
 	"G_Balaclava_blk",
@@ -155,11 +155,11 @@ private _itemCosmetic =
 	"rhs_ess_black",
 	"rhssaf_veil_Green",
 	"G_Spectacles_Tinted",
-	"aegis_cigarette",
-	"aegis_bandanna_kawaii",
+	"G_Cigarette",
+	"G_Bandanna_kawaii",
 	"G_Bandanna_beast",
 	"G_Bandanna_aviator",
-	"aegis_shemag_red",
+	"CUP_FR_NeckScarf5",
 	"G_Squares",
 	"G_Squares_Tinted",
 	"immersion_cigs_cigar0",
@@ -167,9 +167,9 @@ private _itemCosmetic =
 	"immersion_pops_pop0",
 	"bear_balaclava1_black",
 	"CUP_G_TK_RoundGlasses",
-	"rhsusf_oakley_goggles_blk",
-	"rhsusf_oakley_goggles_clr",
-	"rhsusf_oakley_goggles_ylw",
+	"CUP_G_Oakleys_Drk",
+	"CUP_G_Oakleys_Clr",
+	"CUP_G_Oakleys_Embr",
 	"rhsusf_shemagh_grn",
 	"rhsusf_shemagh2_grn",
 	"rhsusf_shemagh_gogg_grn",
@@ -187,33 +187,33 @@ private _itemCosmetic =
 	"murshun_cigs_cigpack",
 
 	"pca_nvg_cigarette",
-	"pca_nvg_ess_blk",
-	"pca_nvg_balaclava",
-	"pca_nvg_balaclava2",
-	"pca_nvg_face_shield_blk",
-	"pca_nvg_face_shield_shemagh_blk",
-	"nvg_goggles_grn",
-	"pca_nvg_shemagh_grn",
-	"pca_nvg_shemagh2_grn",
-	"pca_nvg_shemagh_od",
-	"pca_nvg_shemagh2_od",
-	"pca_nvg_shemagh_tan",
-	"pca_nvg_shemagh2_tan",
+	"$NONE_pca_nvg_ess_blk$",
+	"$NONE_pca_nvg_balaclava$",
+	"$NONE_pca_nvg_balaclava2$",
+	"$NONE_pca_nvg_face_shield_blk$",
+	"$NONE_pca_nvg_face_shield_shemagh_blk$",
+	"Goggles_grn_F",
+	"$NONE_pca_nvg_shemagh_grn$",
+	"$NONE_pca_nvg_shemagh2_grn$",
+	"$NONE_pca_nvg_shemagh_od$",
+	"$NONE_pca_nvg_shemagh2_od$",
+	"$NONE_pca_nvg_shemagh_tan$",
+	"$NONE_pca_nvg_shemagh2_tan$",
 	"immersion_cigs_cigar0_nv",
 	"murshun_cigs_cig0_nv",
 	"immersion_pops_pop0_nv",
 	"pca_nvg_gloves_wool_grn",
 
-	"nvg_scrim_wdl",
-	"nvg_scrim_wdl_grass",
-	"nvg_scrim_wdl_leaves_1",
-	"nvg_scrim_wdl_leaves_2",
-	"nvg_scrim_wdl_leaves_3",
-	"nvg_scrim_wdl_pine",
+	"$NONE_nvg_scrim_wdl$",
+	"$NONE_nvg_scrim_wdl_grass$",
+	"$NONE_nvg_scrim_wdl_leaves_1$",
+	"$NONE_nvg_scrim_wdl_leaves_2$",
+	"$NONE_nvg_scrim_wdl_leaves_3$",
+	"$NONE_nvg_scrim_wdl_pine$",
 
 	"pmk1_gas_mask_nvg",
 
-	"usm_nvg_kneepads_blk"
+	"$NONE_usm_nvg_kneepads_blk$"
 ];
 
 private _itemMed = 
@@ -280,8 +280,8 @@ private _itemEng =
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 	"ACE_wirecutter",
-	"rhsusf_m112_mag",
-	"rhsusf_m112x4_mag"
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 private _itemAcc = 
@@ -303,21 +303,21 @@ private _itemAccSpec =
 
 private _itemWeapRifle = 
 [
-	"hlc_rifle_ak74",
-	"hlc_rifle_ak74_worn",
-	"hlc_rifle_ak74_dirty",
-	"hlc_rifle_aks74"
+	"CUP_arifle_AK74_Early",
+	"$NONE_hlc_rifle_ak74_worn$",
+	"$NONE_hlc_rifle_ak74_dirty$",
+	"CUP_arifle_AKS74_Early"
 ];
 
 private _itemWeapRifleUGL = 
 [
-	"hlc_rifle_aks74_gp25",
-	"hlc_rifle_ak74m_gp25"
+	"CUP_arifle_AKS74_GL_Early",
+	"CUP_arifle_AK74M_GL"
 ];
 
 private _itemWeapAR = 
 [
-	"hlc_rifle_rpk74",
+	"CUP_arifle_RPK74_45",
 	"rhs_6b3_od_rpk"
 ];
 
@@ -334,7 +334,7 @@ private _itemWeapDMR =
 
 private _itemWeapLAT = 
 [
-	"rhs_weap_rpg26",
+	"CUP_launch_RPG26",
 	"rhs_weap_rpg18"
 ];
 
@@ -356,18 +356,18 @@ private _itemAmmo =
 	"rhs_30Rnd_545x39_AK_plum_green",
 	
 	//Pistol Ammo
-	"rhs_mag_9x18_8_57N181S",
+	"CUP_8Rnd_9x18_Makarov_M",
 	
 	//Explosives
 	"rhs_GRD40_Red",
-	"rhs_GRD40_White",
-	"rhs_VOG25",
+	"CUP_1Rnd_SMOKE_GP25_M",
+	"CUP_1Rnd_HE_GP25_M",
 	"rhs_VOG25P",
 	"rhs_VG40TB",
 	"CUP_IlumFlareWhite_GP25_M",
 
-	"rhs_mag_rdg2_white",
-	"rhs_mag_rgd5"
+	"SmokeShell",
+	"CUP_HandGrenade_RGD5"
 ];
 
 private _itemAmmoAR = 
@@ -382,7 +382,7 @@ private _itemAmmoAR =
 
 private _itemAmmoMG = 
 [
-	"rhs_100Rnd_762x54mmR"
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
 ];
 
 private _itemAmmoMAT = 
@@ -414,7 +414,7 @@ private _itemAmmoSignal =
 
 	"rhs_GRD40_Green",
 	"rhs_GRD40_Red",
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"CUP_1Rnd_SmokeYellow_GP25_M"
 ];
 

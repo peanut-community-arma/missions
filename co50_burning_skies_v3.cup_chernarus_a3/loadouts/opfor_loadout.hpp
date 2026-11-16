@@ -78,7 +78,7 @@ class r : baseMan
 	displayName = "Rifleman";
 	primaryWeapon[] = 
 	{
-		"sma_weap_tavor_blk"
+		"$NONE_sma_weap_tavor_blk$"
 	};
 	scope[] = 
 	{
@@ -87,7 +87,7 @@ class r : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rgd5",
+		"CUP_HandGrenade_RGD5",
 		LIST_9("rhs_mag_30Rnd_556x45_M855A1_PMAG")
 	};
 };
@@ -128,7 +128,7 @@ class rrpg : r
 	displayName = "Rifleman (RPG)";
 	secondaryWeapon[] = 
 	{
-		"aegis_weap_rpg32_blk"
+		"launch_RPG32_black_F"
 	};
 	backpackItems[] = 
 	{
