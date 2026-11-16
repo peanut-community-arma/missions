@@ -215,11 +215,11 @@ class tl : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_13("fwa_32rnd_9x19_sterling")
+		LIST_13("sp_fwa_32Rnd_9x19_L2A3_Sterling")
 	};
 	backpackItems[] = 
 	{
-		LIST_10("fwa_32rnd_9x19_sterling")
+		LIST_10("sp_fwa_32Rnd_9x19_L2A3_Sterling")
 	};
 	linkedItems[] += 
 	{

@@ -439,7 +439,7 @@ class mat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m2_carlgustaf_HEAT")
+		LIST_2("sp_fwa_carlg_1rnd_heat")
 	};
 };
 
@@ -460,8 +460,8 @@ class amat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m2_carlgustaf_HEAT"),
-		"fwa_1rnd_m2_carlgustaf_HE"
+		LIST_2("sp_fwa_carlg_1rnd_heat"),
+		"sp_fwa_carlg_1rnd_he"
 	};
 	linkedItems[] += 
 	{
@@ -474,8 +474,8 @@ class mat_sl : sl
 	displayName = "Medium Anti-Tank Gunner Leader";
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m2_carlgustaf_HEAT"),
-		"fwa_1rnd_m2_carlgustaf_HE",
+		LIST_2("sp_fwa_carlg_1rnd_heat"),
+		"sp_fwa_carlg_1rnd_he",
 		LIST_2("hlc_30Rnd_556x45_EPR_T_G36"),
 		LIST_9("CUP_1Rnd_HE_M203"),
 		LIST_9("CUP_1Rnd_HEDP_M203"),

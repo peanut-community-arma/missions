@@ -96,7 +96,7 @@ addons[]=
 	"pca_misc_pca_ai_tweaks",
 	"CUP_Weapons_Ammunition",
 	"rhssaf_c_weapons",
-	"simc_uaf_81",
+	"simc_uaf_81_core",
 	"TC_AEGIS_OUTFIT_M81_SUDAN",
 	"acre_sys_bf888s",
 	"ace_medical_treatment",
@@ -332,8 +332,8 @@ class AddonsMetaData
 		};
 		class Item34
 		{
-			className="simc_uaf_81";
-			name="simc_uaf_81";
+			className="simc_uaf_81_core";
+			name="simc_uaf_81_core";
 		};
 		class Item35
 		{
@@ -6035,7 +6035,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""rhs_weap_ak74"",""rhs_weap_rpg75"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""rhsgref_10Rnd_792x57_m76"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg75_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+									value="[[[[""rhs_weap_ak74"",""rhs_weap_rpg75"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""rhsgref_10Rnd_792x57_m76"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""CUP_1Rnd_HE_GP25_M"",""rhs_VG40OP_white"",""CUP_1Rnd_SMOKE_GP25_M"",""rhs_rpg75_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 								};
 							};
 						};

@@ -288,7 +288,7 @@ class sf_rm : sf_baseMan
 		LIST_20("ACE_30Rnd_580x42_Mag_red"),
 		LIST_4("16Rnd_9x21_Mag"),
 		LIST_2("rhs_mag_rgn"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("SmokeShell")
 	};
 };
 
@@ -304,7 +304,7 @@ class sf_ar : sf_rm
 		LIST_10("ACE_100Rnd_580x42_Drum_tracer_red"),
 		LIST_4("16Rnd_9x21_Mag"),
 		LIST_2("rhs_mag_rgn"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("SmokeShell")
 	};	
 };
 
@@ -350,7 +350,7 @@ class sf_dm : sf_rm
 		LIST_20("20Rnd_762x51_Mag"),
 		LIST_4("16Rnd_9x21_Mag"),
 		LIST_2("rhs_mag_rgn"),
-		LIST_2("rhs_mag_rdg2_white")
+		LIST_2("SmokeShell")
 	};	
 };
 

@@ -86,7 +86,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_762x39mm")
 	};
 };
@@ -108,7 +108,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 

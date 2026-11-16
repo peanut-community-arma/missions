@@ -374,7 +374,7 @@ private _itemAmmo =
 	"CUP_IlumFlareGreen_GP25_M",
 	"CUP_IlumFlareRed_GP25_M",
 	"CUP_IlumFlareWhite_GP25_M",
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"CUP_HandGrenade_RGD5",
 	"rhs_mag_rgn",
 	"CUP_HandGrenade_RGO"

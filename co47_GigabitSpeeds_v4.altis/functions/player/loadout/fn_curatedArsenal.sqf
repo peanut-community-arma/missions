@@ -50,7 +50,7 @@ private _itemGear =
 	"H_Construction_headset_red_F",
 	"H_HeadSet_red_F",
 	"CUP_H_Navy_CrewHelmet_Red",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	
 	//Backpack
 	"CUP_B_USPack_Black",
@@ -373,7 +373,7 @@ private _itemAmmo =
 	"SmokeShell",
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"HandGrenade"
 ];
 

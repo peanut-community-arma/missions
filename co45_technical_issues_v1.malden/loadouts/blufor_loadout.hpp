@@ -67,7 +67,7 @@ class rm : baseMan
 		"CUP_H_PMC_Beanie_Headphones_Black",
 		"CUP_H_PMC_Beanie_Headphones_Khaki",
 		"pca_headband",
-		"pca_headband_red",
+		"G_Headband_red_F",
 		"CUP_H_FR_BandanaGreen",
 		"$NONE_usm_headwrap_tgrstp$"
 	};
@@ -98,12 +98,12 @@ class rm : baseMan
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_13("fwa_20rnd_762x51_ar10"),
+		LIST_13("sp_fwa_20Rnd_762_ar10"),
 		LIST_2("ACE_HandFlare_White")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("fwa_20rnd_762x51_ar10"),
+		LIST_4("sp_fwa_20Rnd_762_ar10"),
 		"DemoCharge_Remote_Mag"
 	};
 };
@@ -202,6 +202,13 @@ class gren : rm
 	{
 		"CUP_arifle_M4A1_BUIS_GL"
 	};
+	magazines[] =
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_13("30Rnd_556x45_Stanag"),
+		LIST_2("ACE_HandFlare_White")
+	};
 	backpackItems[] = 
 	{
 		LIST_21("CUP_1Rnd_HE_M203"),
@@ -219,8 +226,8 @@ class tl : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_20rnd_762x51_ar10"),
-		LIST_2("fwa_20rnd_762x51_ar10_tracer_red"),
+		LIST_2("sp_fwa_20Rnd_762_ar10"),
+		LIST_2("sp_fwa_20Rnd_762_ar10_Tracer"),
 		LIST_2("SmokeShell"),
 		LIST_10("fwa_1rnd_rifle_grenade_mas_34mm_HE")
 	};

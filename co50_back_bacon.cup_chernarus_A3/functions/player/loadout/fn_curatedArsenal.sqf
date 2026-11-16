@@ -320,9 +320,9 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"fwa_1rnd_m2_carlgustaf_HEAT",
-	"fwa_1rnd_m2_carlgustaf_HE",
-	"fwa_1rnd_m2_carlgustaf_WP"
+	"sp_fwa_carlg_1rnd_heat",
+	"sp_fwa_carlg_1rnd_he",
+	"sp_fwa_carlg_1rnd_wp"
 ];
 
 private _itemEngineer = 

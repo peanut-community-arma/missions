@@ -71,7 +71,7 @@ private _itemVestPilot =
 private _itemHeadgear = 
 [
 	"H_Simc_pasgt_m81",
-	"simc_pasgt_m81_band",
+	"H_Simc_pasgt_m81_b",
 	"H_Simc_pasgt_m81_SWDG"
 ];
 

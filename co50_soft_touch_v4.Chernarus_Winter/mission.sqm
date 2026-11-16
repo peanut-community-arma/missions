@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co48_soft_touch_v4";
-addons[] = {"A3_Characters_F","hlcweapons_ak","CUP_Weapons_East_Attachments","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_M17","A3_Weapons_F","pca_gear_blended_usa_headgear","pca_gear_blended_rus_gear","acre_sys_prc343","ace_medical_treatment","milgp_vests_cfg","ace_realisticnames","rhsusf_c_weapons","A3_Modules_F","A3_Structures_F_Ind_Transmitter_Tower","CUP_Misc3_Config","A3_Structures_F_Civ_Garbage","CUP_Misc_e_Config","A3_Structures_F_Civ_Market","CUP_CAStructures_E_Misc_Misc_Interier","CUP_Editor_Structures_Config","CUP_CAMisc","A3_Structures_F_Heli_Items_Luggage","A3_Structures_F_Items_Vessels","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Enoch_Civilian_Houses","rhs_c_cars","gm_structures_euro_80_winter","CUP_Weapons_AmmoBoxes","CUP_Creatures_StaticWeapons","A3_Structures_F_Mil_BagFence","gm_objects_fortification","rhs_c_weapons","rhs_c_a2port_car","CUP_Creatures_Military_Russia","A3_Ui_F","A3_Modules_F_Curator_Misc","tmf_ai","lambs_wp","rhs_c_troops","rhs_c_heavyweapons","rhs_c_btr","ace_compat_rhs_afrf3","rhs_c_t72","rhs_c_bmp","rhsgref_c_a2port_armor","CUP_Terrains_Winter_Objects","A3_Structures_F_Walls","A3_Structures_F_Enoch_Civilian_Accessories","A3_Structures_F_Enoch_Civilian_Sheds","ace_logistics_wirecutter","CUP_Terrains_Winter_Plants_Trees","A3_Rocks_F","gm_plants_shrubs","CUP_Terrains_Winter_Plants_Bushes","A3_Structures_F_Enoch_Walls_Stone","pca_misc_pca_illuminations","acre_sys_prc148","ace_spottingscope","ace_tripod","ace_kestrel4500","ace_rangecard","A3_Characters_F_Mark"};
+addons[] = {"A3_Characters_F","hlcweapons_ak","CUP_Weapons_East_Attachments","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_M17","A3_Weapons_F","pca_gear_blended_usa_headgear","pca_gear_blended_rus_gear","acre_sys_prc343","ace_medical_treatment","milgp_vests_cfg","ace_realisticnames","rhsusf_c_weapons","A3_Modules_F","A3_Structures_F_Ind_Transmitter_Tower","CUP_Misc3_Config","A3_Structures_F_Civ_Garbage","CUP_Misc_e_Config","A3_Structures_F_Civ_Market","CUP_CAStructures_E_Misc_Misc_Interier","CUP_Editor_Structures_Config","CUP_CAMisc","A3_Structures_F_Heli_Items_Luggage","A3_Structures_F_Items_Vessels","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Enoch_Civilian_Houses","rhs_c_cars","gm_structures_euro_80_winter","CUP_Weapons_AmmoBoxes","CUP_Creatures_StaticWeapons","A3_Structures_F_Mil_BagFence","gm_objects_fortification","rhs_c_weapons","rhs_c_a2port_car","CUP_Creatures_Military_Russia","A3_Ui_F","A3_Modules_F_Curator_Misc","tmf_ai","lambs_wp","rhs_c_troops","rhs_c_heavyweapons","rhs_c_btr","ace_compat_rhs_afrf3","rhs_c_t72","rhs_c_bmp","rhsgref_c_a2port_armor","CUP_Terrains_Winter_Objects","A3_Structures_F_Walls","A3_Structures_F_Enoch_Civilian_Accessories","A3_Structures_F_Enoch_Civilian_Sheds","ace_logistics_wirecutter","CUP_Terrains_Winter_Plants_Trees","A3_Rocks_F","gm_plants_shrubs","CUP_Terrains_Winter_Plants_Bushes","A3_Structures_F_Enoch_Walls_Stone","pca_illuminations","acre_sys_prc148","ace_spottingscope","ace_tripod","ace_kestrel4500","ace_rangecard","A3_Characters_F_Mark"};
 class AddonsMetaData
 {
 	class List
@@ -358,7 +358,7 @@ class AddonsMetaData
 		};
 		class Item49
 		{
-			className = "pca_misc_pca_illuminations";
+			className = "pca_illuminations";
 			name = "Illuminations - Flashlights & Flares Tweaks";
 			author = "PCA";
 		};
@@ -8453,7 +8453,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 										};
 									};
 								};
@@ -8630,7 +8630,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 										};
 									};
 								};
@@ -8807,7 +8807,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 										};
 									};
 								};
@@ -8984,7 +8984,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 										};
 									};
 								};
@@ -9161,7 +9161,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+											value = "[[[[""CUP_launch_RPG26"",""FirstAidKit"",""Medikit""],[4,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 										};
 									};
 								};

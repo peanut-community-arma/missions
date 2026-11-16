@@ -36,7 +36,7 @@ class EditorData
 	};
 };
 sourceName = "co44_Farm_in_the_Mountains_v1";
-addons[] = {"A3_Characters_F","rhsusf_c_weapons","pca_misc_pca_weapon_tweaks","pca_misc_pca_ai_tweaks","ace_compat_rhs_usf3","A3_Weapons_F","TC_GEAR","rhsusf_c_troops","acre_sys_prc343","ace_medical_treatment","ace_realisticnames","A3_Modules_F","A3_Structures_F_Civ_Camping","ace_sitting","gm_structures_euro_80_winter","CUP_Buildings_Config","A3_Structures_F_Enoch_Industrial_Farms","A3_Structures_F_Exp_Civilian_Sheds","A3_Structures_F_Enoch_Civilian_Accessories","cba_xeh","A3_Props_F_Orange_Items_Decorative","CUP_Misc_e_Config","A3_Structures_F_EPA_Items_Food","A3_Structures_F_Items_Food","A3_Structures_F_Civ_Garbage","CUP_Editor_Buildings_Config","gm_structures_euro_80","ace_intelitems","CUP_Editor_Structures_Config","A3_Structures_F_Civ_Dead","CUP_Misc3_Config","A3_Structures_F_Civ_Accessories","ace_explosives","CUP_Wheeled_SUV","CUP_Weapons_L85","CUP_Weapons_West_Attachments","ace_ballistics","A3_Weapons_F_Mark","milgp_headgear_cfg","CUP_Weapons_NVG","CUP_Creatures_Military_ACR","A3_Weapons_F_Items","ace_medical_engine","pca_misc_pca_extra_contents","ace_grenades","CUP_Editor_Plants_Config","A3_Structures_F_Walls","ace_logistics_wirecutter","A3_Structures_F_EPA_Items_Tools","A3_Weapons_F_Enoch","A3_Props_F_Exp_Naval_Boats","A3_Props_F_Decade_Industrial_Agriculture","rhs_c_weapons","CUP_Weapons_Ammunition","A3_Characters_F_Decade_Facewear","simc_uaf_67","A3_Aegis_Characters_F_Aegis_Headgear","A3_Props_F_Enoch_Military_Garbage","A3_Structures_F_Ind_Cargo","ace_cargo","ace_nouniformrestrictions","A3_Characters_F_Enoch","CUP_Weapons_M14","acre_main","A3_Structures_F_Argo_Military_Fortifications","gm_objects_fortification","A3_Props_F_AoW_Civilian_Gallery","A3_Structures_F_Enoch_Industrial_Garages","A3_Structures_F_System","A3_Structures_F_Argo_Walls_City","CUP_Wheeledvehicles_VWGolf","A3_Soft_F_Gamma_Hatchback_01","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Enoch_Cultural_CastleRuins","A3_Structures_F_EPC_Dominants_GhostHotel","A3_Structures_F_Exp_Infrastructure_Airports","CUP_CAStructures_Castle","rhsgref_c_weapons","bnae_Colt_SAA","bnae_core","A3_Characters_F_Orange_Vests","CUP_Creatures_People_Civil_Chernarus","A3_Props_F_Orange_Humanitarian_Garbage","tmf_ai","A3_Structures_F_Civ_Offices","A3_Weapons_F_Enoch_LongRangeRifles_DMR_06","A3_Weapons_F_Mark_Acc","ace_scopes","ace_goggles","A3_Structures_F_Naval_Buoys","A3_Structures_F_Training","A3_Modules_F_Curator_Curator","A3_Structures_F_Argo_Civilian_House_Big01","A3_Structures_F_Enoch_Civilian_Houses","A3_Props_F_Orange_Furniture","A3_Props_F_Orange_Humanitarian_Supplies","CUP_CAStructures_E_Misc_Misc_Interier","A3_Structures_F_Heli_Items_Food","CUP_Weapons_AmmoBoxes","A3_Props_F_Enoch_Industrial_Supplies","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_Heli_Items_Electronics","A3_Ui_F","A3_Structures_F_EPA_Walls","A3_Structures_F_EPA_Civ_Camping","A3_Structures_F_Orange_VR_Helpers","CUP_New_Buildings"};
+addons[] = {"A3_Characters_F","rhsusf_c_weapons","pca_misc_pca_weapon_tweaks","pca_misc_pca_ai_tweaks","ace_compat_rhs_usf3","A3_Weapons_F","TC_GEAR","rhsusf_c_troops","acre_sys_prc343","ace_medical_treatment","ace_realisticnames","A3_Modules_F","A3_Structures_F_Civ_Camping","ace_sitting","gm_structures_euro_80_winter","CUP_Buildings_Config","A3_Structures_F_Enoch_Industrial_Farms","A3_Structures_F_Exp_Civilian_Sheds","A3_Structures_F_Enoch_Civilian_Accessories","cba_xeh","A3_Props_F_Orange_Items_Decorative","CUP_Misc_e_Config","A3_Structures_F_EPA_Items_Food","A3_Structures_F_Items_Food","A3_Structures_F_Civ_Garbage","CUP_Editor_Buildings_Config","gm_structures_euro_80","ace_intelitems","CUP_Editor_Structures_Config","A3_Structures_F_Civ_Dead","CUP_Misc3_Config","A3_Structures_F_Civ_Accessories","ace_explosives","CUP_Wheeled_SUV","CUP_Weapons_L85","CUP_Weapons_West_Attachments","ace_ballistics","A3_Weapons_F_Mark","milgp_headgear_cfg","CUP_Weapons_NVG","CUP_Creatures_Military_ACR","A3_Weapons_F_Items","ace_medical_engine","pca_extra_contents","ace_grenades","CUP_Editor_Plants_Config","A3_Structures_F_Walls","ace_logistics_wirecutter","A3_Structures_F_EPA_Items_Tools","A3_Weapons_F_Enoch","A3_Props_F_Exp_Naval_Boats","A3_Props_F_Decade_Industrial_Agriculture","rhs_c_weapons","CUP_Weapons_Ammunition","A3_Characters_F_Decade_Facewear","simc_uaf_67_core","A3_Aegis_Characters_F_Aegis_Headgear","A3_Props_F_Enoch_Military_Garbage","A3_Structures_F_Ind_Cargo","ace_cargo","ace_nouniformrestrictions","A3_Characters_F_Enoch","CUP_Weapons_M14","acre_main","A3_Structures_F_Argo_Military_Fortifications","gm_objects_fortification","A3_Props_F_AoW_Civilian_Gallery","A3_Structures_F_Enoch_Industrial_Garages","A3_Structures_F_System","A3_Structures_F_Argo_Walls_City","CUP_Wheeledvehicles_VWGolf","A3_Soft_F_Gamma_Hatchback_01","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Enoch_Cultural_CastleRuins","A3_Structures_F_EPC_Dominants_GhostHotel","A3_Structures_F_Exp_Infrastructure_Airports","CUP_CAStructures_Castle","rhsgref_c_weapons","bnae_Colt_SAA","bnae_core","A3_Characters_F_Orange_Vests","CUP_Creatures_People_Civil_Chernarus","A3_Props_F_Orange_Humanitarian_Garbage","tmf_ai","A3_Structures_F_Civ_Offices","A3_Weapons_F_Enoch_LongRangeRifles_DMR_06","A3_Weapons_F_Mark_Acc","ace_scopes","ace_goggles","A3_Structures_F_Naval_Buoys","A3_Structures_F_Training","A3_Modules_F_Curator_Curator","A3_Structures_F_Argo_Civilian_House_Big01","A3_Structures_F_Enoch_Civilian_Houses","A3_Props_F_Orange_Furniture","A3_Props_F_Orange_Humanitarian_Supplies","CUP_CAStructures_E_Misc_Misc_Interier","A3_Structures_F_Heli_Items_Food","CUP_Weapons_AmmoBoxes","A3_Props_F_Enoch_Industrial_Supplies","A3_Props_F_Enoch_Military_Camps","A3_Structures_F_Heli_Items_Electronics","A3_Ui_F","A3_Structures_F_EPA_Walls","A3_Structures_F_EPA_Civ_Camping","A3_Structures_F_Orange_VR_Helpers","CUP_New_Buildings"};
 class AddonsMetaData
 {
 	class List
@@ -270,7 +270,7 @@ class AddonsMetaData
 		};
 		class Item36
 		{
-			className = "pca_misc_pca_extra_contents";
+			className = "pca_extra_contents";
 			name = "Extra Contents";
 			author = "PCA";
 		};
@@ -335,8 +335,8 @@ class AddonsMetaData
 		};
 		class Item46
 		{
-			className = "simc_uaf_67";
-			name = "simc_uaf_67";
+			className = "simc_uaf_67_core";
+			name = "simc_uaf_67_core";
 		};
 		class Item47
 		{
@@ -16535,7 +16535,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -17426,7 +17426,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -18678,7 +18678,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -19735,7 +19735,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -20632,7 +20632,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -21753,7 +21753,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -25124,7 +25124,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 1;
 										ammoLeft = 1;
 									};

@@ -314,14 +314,14 @@ private _itemCosmetic =
 	"simc_nomex_alt",
 	"simc_nomex_fold_alt",
 	"simc_nomex_long_alt",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	"immersion_cigs_cigar0",
 	"murshun_cigs_cig0",
 	"immersion_pops_pop0",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	//HMD
 	"$NONE_pca_nvg_balaclava$",
@@ -563,14 +563,14 @@ private _itemAmmoSignal =
 
 private _itemExplosive = 
 [
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"rhs_mag_rdg2_black",
 	"CUP_HandGrenade_RGD5",
-	"rhs_VOG25",
+	"CUP_1Rnd_HE_GP25_M",
 	"rhs_VOG25P",
 	"rhs_GDM40",
 	"rhs_VG40TB",
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"rhs_VG40OP_white",
 	"rhs_grenade_mki_mag",
 	
@@ -596,8 +596,8 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"fwa_1rnd_m67_HEAT",
-	"fwa_1rnd_m67_HE"
+	"sp_fwa_m67_1rnd_heat",
+	"sp_fwa_m67_1rnd_he"
 ];
 
 private _itemEngineer = 

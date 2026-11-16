@@ -68240,7 +68240,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_rdg2_white";
+                                                                                    value = "SmokeShell";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -68480,7 +68480,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_VOG25";
+                                                                                    value = "CUP_1Rnd_HE_GP25_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -68500,7 +68500,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_GRD40_White";
+                                                                                    value = "CUP_1Rnd_SMOKE_GP25_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -69521,7 +69521,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_rdg2_white";
+                                                                                    value = "SmokeShell";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -69761,7 +69761,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_VOG25";
+                                                                                    value = "CUP_1Rnd_HE_GP25_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -69781,7 +69781,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_GRD40_White";
+                                                                                    value = "CUP_1Rnd_SMOKE_GP25_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {

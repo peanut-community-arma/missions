@@ -90,7 +90,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_13("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -105,7 +105,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M")
 	};
 };
@@ -177,7 +177,7 @@ class crew : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_11("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -201,7 +201,7 @@ class co : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_13("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -238,7 +238,7 @@ class sniper : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_11("rhs_mag_9x19mm_7n21_20"),
 		LIST_13("rhs_10Rnd_762x54mmR_7N14")
 	};
@@ -260,7 +260,7 @@ class spt : sniper
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

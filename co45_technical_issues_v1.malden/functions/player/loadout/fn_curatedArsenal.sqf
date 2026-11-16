@@ -75,7 +75,7 @@ private _itemHeadgear =
 	"CUP_H_PMC_Beanie_Headphones_Black",
 	"CUP_H_PMC_Beanie_Headphones_Khaki",
 	"pca_headband",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"CUP_H_FR_BandanaGreen",
 	"$NONE_usm_headwrap_tgrstp$"
 ];
@@ -364,8 +364,8 @@ private _itemWeapMAT =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"fwa_20rnd_762x51_ar10",
-	"fwa_20rnd_762x51_ar10_tracer_red",
+	"sp_fwa_20Rnd_762_ar10",
+	"sp_fwa_20Rnd_762_ar10_Tracer",
 	"rhsusf_mag_10Rnd_STD_50BMG_mk211"
 	
 ];

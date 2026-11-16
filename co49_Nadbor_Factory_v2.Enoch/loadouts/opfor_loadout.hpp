@@ -107,7 +107,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("75rnd_762x39_AK12_Mag_Tracer_F")
 	};
 };
@@ -122,7 +122,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 };

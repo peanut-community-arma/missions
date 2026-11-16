@@ -82,7 +82,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("30Rnd_556x45_Stanag")
 	};
 };
@@ -97,7 +97,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("CUP_200Rnd_TE4_Green_Tracer_556x45_M249")
 	};
 };
@@ -112,7 +112,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_4("CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M")
 	};
 };

@@ -152,7 +152,7 @@ private _itemCosmetic =
 	"G_Shemag_oli",
 	"CUP_G_ESS_RGR",
 	"CUP_G_ESS_RGR_Dark",
-	"simc_goggles_swdg_low",
+	"G_SWDG_low",
 	
 	
 	//NVG

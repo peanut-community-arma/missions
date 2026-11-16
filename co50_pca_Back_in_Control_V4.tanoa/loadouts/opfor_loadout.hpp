@@ -108,7 +108,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_762x39mm")
 	};
 };
@@ -130,7 +130,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_75Rnd_762x39mm")
 	};
 	backpackItems[] = 
@@ -149,7 +149,7 @@ class mg : ar
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 
@@ -258,7 +258,7 @@ class crewman : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("rhs_30Rnd_762x39mm")
 	};
 };
@@ -286,7 +286,7 @@ class lead : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_9("rhs_30Rnd_762x39mm")
 	};
 	

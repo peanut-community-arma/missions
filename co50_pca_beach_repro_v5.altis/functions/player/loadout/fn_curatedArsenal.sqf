@@ -345,8 +345,8 @@ private _itemCosmetic =
 	"immersion_cigs_cigar0",
 	"murshun_cigs_cig0",
 	"immersion_pops_pop0",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	//HMD
 	"$NONE_pca_nvg_balaclava$",
@@ -536,8 +536,8 @@ private _itemAmmo =
 	"CUP_13Rnd_9x19_Browning_HP",
 	
 	//SMG Ammo
-	"fwa_32rnd_9x19_sterling",
-	"fwa_32rnd_9x19_sterling_tracer_red",
+	"sp_fwa_32Rnd_9x19_L2A3_Sterling",
+	"sp_fwa_32Rnd_9x19_L2A3_Sterling_Tracer",
 	
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
@@ -546,7 +546,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
 	"rhs_mag_m576",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67",
 	
 	//Memes

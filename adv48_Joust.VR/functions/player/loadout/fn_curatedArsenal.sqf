@@ -35,7 +35,7 @@ private _itemGear =
 //Cosmetic 
 private _itemCosmetic = 
 [
-	"pca_headband_blk",
+	"G_Headband_blk_F",
 	"pca_headband_tan",
 	"pca_m88_fieldcap_gray",
 	"pca_ushanka",
@@ -325,8 +325,8 @@ private _itemCosmetic =
 	"G_Sport_Blackred",
 	"G_Sport_Greenblack",
 	"$REMOVE_usm_swdgoggles$",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"G_Tactical_Clear",
 	"milgp_f_tactical_khk",
 	"G_Spectacles_Tinted",

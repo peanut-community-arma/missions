@@ -175,8 +175,8 @@ private _itemCosmetic =
 	"G_Sport_Blackred",
 	"G_Sport_Greenblack",
 	"$REMOVE_usm_swdgoggles$",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"G_Spectacles_Tinted",
 	
 	"$NONE_pca_nvg_glasses_blk$",

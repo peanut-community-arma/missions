@@ -306,7 +306,7 @@ private _itemAmmo =
 	
 	//Explosives
 	"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 ];
 
 private _itemAmmoAR = 

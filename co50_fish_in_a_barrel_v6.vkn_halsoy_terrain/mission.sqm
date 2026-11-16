@@ -36,7 +36,7 @@ class EditorData
 	};
 };
 sourceName = "co50_fish_in_a_barrel_v6";
-addons[] = {"A3_Characters_F","fwa_ar18","A3_Weapons_F","A3_Weapons_F_Exp","ace_ballistics","ace_optics","A3_Drones_F_Weapons_F_Gamma_Items","CUP_Weapons_NVG","simc_uaf_81","ace_medical_treatment","acre_sys_prc343","acre_sys_prc148","rhsusf_c_weapons","ace_realisticnames","CUP_CAMisc","emr_main","CUP_Misc3_Config","A3_Structures_F_Mil_BagBunker","CUP_WarfareBuildings","CUP_StandaloneTerrains_Core_Faction","A3_Structures_F_Items_Vessels","cba_xeh","A3_Structures_F_Enoch_Military_Radar","A3_Structures_F_Wrecks","A3_Structures_F_Civ_PlayGround","A3_Structures_F_EPB_Civ_PlayGround","A3_Structures_F_Bootcamp_Civ_SportsGrounds","A3_Structures_F_Civ_Camping","ace_dragging","A3_Structures_F_EPB_Civ_Camping","ace_interaction","ace_cargo","CUP_Buildings_Config","A3_Props_F_Enoch_Military_Decontamination","CUP_Editor_Plants_Config","rhsgref_c_air","A3_Data_F_ParticleEffects","rhs_c_heavyweapons","rhsgref_c_vehicles_ret","rhs_c_troops","tmf_ai","rhs_c_a2port_armor","lambs_wp","A3_Characters_F_Common","A3_Modules_F_Curator_Misc","CUP_WaterVehicles_Type072","A3_Weapons_F_Bootcamp_Ammoboxes","ace_chemlights","rhs_c_a2port_air","CUP_WheeledVehicles_UAZ","rhs_c_btr","ace_compat_rhs_afrf3","CUP_WaterVehicles_Fregata","A3_Structures_F_Exp_Naval_Piers","A3_Structures_F_Civ_InfoBoards","A3_Boat_F_EPC_Submarine_01","A3_Static_F_Destroyer_Ship_MRLS_01","A3_Modules_F_Intel","rhs_c_a2port_car","A3_Structures_F_Oldman_Decals","A3_Structures_F_Enoch_Industrial_Agriculture","A3_Rocks_F_Sharp","A3_Props_F_Exp_Civilian_Garbage","A3_Soft_F_Enoch_Tractor_01","A3_Structures_F_Enoch_Wrecks","A3_Ui_F","ace_nouniformrestrictions","CUP_WaterVehicles_RHIB","A3_Static_F_Mark_Designator_01","A3_Modules_F"};
+addons[] = {"A3_Characters_F","sp_fwa_ar18","A3_Weapons_F","A3_Weapons_F_Exp","ace_ballistics","ace_optics","A3_Drones_F_Weapons_F_Gamma_Items","CUP_Weapons_NVG","simc_uaf_81_core","ace_medical_treatment","acre_sys_prc343","acre_sys_prc148","rhsusf_c_weapons","ace_realisticnames","CUP_CAMisc","emr_main","CUP_Misc3_Config","A3_Structures_F_Mil_BagBunker","CUP_WarfareBuildings","CUP_StandaloneTerrains_Core_Faction","A3_Structures_F_Items_Vessels","cba_xeh","A3_Structures_F_Enoch_Military_Radar","A3_Structures_F_Wrecks","A3_Structures_F_Civ_PlayGround","A3_Structures_F_EPB_Civ_PlayGround","A3_Structures_F_Bootcamp_Civ_SportsGrounds","A3_Structures_F_Civ_Camping","ace_dragging","A3_Structures_F_EPB_Civ_Camping","ace_interaction","ace_cargo","CUP_Buildings_Config","A3_Props_F_Enoch_Military_Decontamination","CUP_Editor_Plants_Config","rhsgref_c_air","A3_Data_F_ParticleEffects","rhs_c_heavyweapons","rhsgref_c_vehicles_ret","rhs_c_troops","tmf_ai","rhs_c_a2port_armor","lambs_wp","A3_Characters_F_Common","A3_Modules_F_Curator_Misc","CUP_WaterVehicles_Type072","A3_Weapons_F_Bootcamp_Ammoboxes","ace_chemlights","rhs_c_a2port_air","CUP_WheeledVehicles_UAZ","rhs_c_btr","ace_compat_rhs_afrf3","CUP_WaterVehicles_Fregata","A3_Structures_F_Exp_Naval_Piers","A3_Structures_F_Civ_InfoBoards","A3_Boat_F_EPC_Submarine_01","A3_Static_F_Destroyer_Ship_MRLS_01","A3_Modules_F_Intel","rhs_c_a2port_car","A3_Structures_F_Oldman_Decals","A3_Structures_F_Enoch_Industrial_Agriculture","A3_Rocks_F_Sharp","A3_Props_F_Exp_Civilian_Garbage","A3_Soft_F_Enoch_Tractor_01","A3_Structures_F_Enoch_Wrecks","A3_Ui_F","ace_nouniformrestrictions","CUP_WaterVehicles_RHIB","A3_Static_F_Mark_Designator_01","A3_Modules_F"};
 class AddonsMetaData
 {
 	class List
@@ -51,8 +51,8 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className = "fwa_ar18";
-			name = "fwa_ar18";
+			className = "sp_fwa_ar18";
+			name = "sp_fwa_ar18";
 		};
 		class Item2
 		{
@@ -96,8 +96,8 @@ class AddonsMetaData
 		};
 		class Item8
 		{
-			className = "simc_uaf_81";
-			name = "simc_uaf_81";
+			className = "simc_uaf_81_core";
+			name = "simc_uaf_81_core";
 		};
 		class Item9
 		{
@@ -917,10 +917,10 @@ class Mission
 							class primaryWeapon
 							{
 								name = "sp_fwa_ar18";
-								firemode = "fwa_weap_ar18:Single";
+								firemode = "sp_fwa_ar18:Single";
 								class primaryMuzzleMag
 								{
-									name = "30Rnd_556x45_Stanag";
+									name = "sp_fwa_30Rnd_556_Ar18_Ball";
 									ammoLeft = 30;
 								};
 							};
@@ -1041,7 +1041,7 @@ class Mission
 							watch = "ItemWatch";
 							gps = "B_UavTerminal";
 							hmd = "CUP_NVG_PVS7_Hide";
-							headgear = "simc_pasgt_m81_band";
+							headgear = "H_Simc_pasgt_m81_b";
 						};
 					};
 					id = 1;
@@ -19845,7 +19845,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[2,2,1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[],[]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -32628,7 +32628,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};

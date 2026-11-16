@@ -97,7 +97,7 @@ class rm : baseMan
 		LIST_16("rhs_mag_30Rnd_556x45_M855A1_PMAG"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("SmokeShell")
 	};
 };
 
@@ -121,7 +121,7 @@ class ar : rm
 		LIST_5("rhsusf_200rnd_556x45_M856A1_box"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("SmokeShell")
 	};
 };
 
@@ -158,7 +158,7 @@ class dm : rm
 		LIST_10("rhs_mag_20Rnd_SCAR_762x51_m80a1_epr_bk"),
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("SmokeShell")
 	};	
 };
 
@@ -175,7 +175,7 @@ class tl : rm
 		LIST_2("rhsusf_mag_17Rnd_9x19_FMJ"),
 		LIST_2("rhs_mag_M441_HE"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("rhs_mag_an_m8hc")
+		LIST_2("SmokeShell")
 	};	
 };
 

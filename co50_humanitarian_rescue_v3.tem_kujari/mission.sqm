@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co50_humanitarian_rescue";
-addons[] = {"A3_Modules_F_Curator_Misc","rhsusf_c_Caiman","A3_Characters_F","ace_nouniformrestrictions","hlcweapons_ar15","A3_Weapons_F_Exp","ace_realisticnames","ace_scopes","hlcweapons_core","CUP_Weapons_West_Attachments","CUP_Weapons_ACE_compat","rhsusf_c_weapons","rhsusf_sounds","ace_compat_rhs_usf3","pca_misc_pca_ai_tweaks","hlcweapons_p226","A3_Weapons_F","A3_Characters_F_Exp","A3_Aegis_Characters_F_Aegis_Facewear","ace_goggles","CUP_Weapons_NVG","CUP_Creatures_Extra_OpsCore","USP_Gear_Body","ace_medical_treatment","acre_sys_bf888s","ace_microdagr","A3_Aegis_Characters_F_Aegis_Vests","A3_Structures_F_Orange_Humanitarian_Flags","A3_Structures_F_Orange_Humanitarian_Camps","A3_Structures_F_Orange_Signs_Special","A3_Structures_F_Orange_Industrial_Cargo","A3_Modules_F_Curator_Animals","A3_Characters_F_Orange","A3_Structures_F_Mil_BagFence","rhsgref_c_vehicles_ret","rhsgref_c_troops","A3_Props_F_Orange_Humanitarian_Supplies","ace_cargo","A3_Supplies_F_Orange_Ammoboxes","A3_Soft_F_Orange_Van_02","A3_Soft_F_Orange_Truck_02","ace_field_rations","A3_Soft_F_Orange_Offroad_02","CUP_Creatures_Military_TakiInsurgents","CUP_Weapons_TEC9","CUP_Weapons_Ammunition","acre_main","CUP_Creatures_Military_USMC","rhs_c_weapons","A3_Weapons_F_Items","ace_medical_engine","CUP_Weapons_Grenades","CUP_Creatures_Military_USArmy","CUP_Creatures_People_Civil_Takistan","A3_Soft_F_Enoch_Tractor_01","ace_optics","A3_Structures_F_Enoch_Civilian_Accessories","ace_sitting","A3_Structures_F_Argo_Civilian_Accessories","CUP_Creatures_People_Civil_Russia","CUP_Creatures_People_Civil_Chernarus","A3_Characters_F_Exp_Civil","A3_Characters_F_AoW","CUP_WheeledVehicles_Ikarus","A3_Characters_F_Enoch","CUP_WheeledVehicles_V3S","CUP_WheeledVehicles_Volha","CUP_WheeledVehicles_Lada","CUP_WheeledVehicles_Hilux","A3_Modules_F_Tacops","A3_Structures_F_EPA_Civ_Camping","A3_Structures_F_Civ_Camping","CUP_WheeledVehicles_LR","tmf_ai","Desert","rhs_c_heavyweapons","CUP_WheeledVehicles_Datsun","CUP_Wheeled_SUV","CUP_WheeledVehicles_BTR40","A3_Soft_F_Offroad_01","A3_Soft_F_Exp_Offroad_02","rhsgref_c_air","bear_m113_variants","A3_Ui_F","A3_Ui_F_Orange"};
+addons[] = {"A3_Modules_F_Curator_Misc","rhsusf_c_Caiman","A3_Characters_F","ace_nouniformrestrictions","hlcweapons_ar15","A3_Weapons_F_Exp","ace_realisticnames","ace_scopes","hlcweapons_core","CUP_Weapons_West_Attachments","ace_compat_cup_weapons","rhsusf_c_weapons","rhsusf_sounds","ace_compat_rhs_usf3","pca_misc_pca_ai_tweaks","hlcweapons_p226","A3_Weapons_F","A3_Characters_F_Exp","A3_Aegis_Characters_F_Aegis_Facewear","ace_goggles","CUP_Weapons_NVG","CUP_Creatures_Extra_OpsCore","USP_Gear_Body","ace_medical_treatment","acre_sys_bf888s","ace_microdagr","A3_Aegis_Characters_F_Aegis_Vests","A3_Structures_F_Orange_Humanitarian_Flags","A3_Structures_F_Orange_Humanitarian_Camps","A3_Structures_F_Orange_Signs_Special","A3_Structures_F_Orange_Industrial_Cargo","A3_Modules_F_Curator_Animals","A3_Characters_F_Orange","A3_Structures_F_Mil_BagFence","rhsgref_c_vehicles_ret","rhsgref_c_troops","A3_Props_F_Orange_Humanitarian_Supplies","ace_cargo","A3_Supplies_F_Orange_Ammoboxes","A3_Soft_F_Orange_Van_02","A3_Soft_F_Orange_Truck_02","ace_field_rations","A3_Soft_F_Orange_Offroad_02","CUP_Creatures_Military_TakiInsurgents","CUP_Weapons_TEC9","CUP_Weapons_Ammunition","acre_main","CUP_Creatures_Military_USMC","rhs_c_weapons","A3_Weapons_F_Items","ace_medical_engine","CUP_Weapons_Grenades","CUP_Creatures_Military_USArmy","CUP_Creatures_People_Civil_Takistan","A3_Soft_F_Enoch_Tractor_01","ace_optics","A3_Structures_F_Enoch_Civilian_Accessories","ace_sitting","A3_Structures_F_Argo_Civilian_Accessories","CUP_Creatures_People_Civil_Russia","CUP_Creatures_People_Civil_Chernarus","A3_Characters_F_Exp_Civil","A3_Characters_F_AoW","CUP_WheeledVehicles_Ikarus","A3_Characters_F_Enoch","CUP_WheeledVehicles_V3S","CUP_WheeledVehicles_Volha","CUP_WheeledVehicles_Lada","CUP_WheeledVehicles_Hilux","A3_Modules_F_Tacops","A3_Structures_F_EPA_Civ_Camping","A3_Structures_F_Civ_Camping","CUP_WheeledVehicles_LR","tmf_ai","Desert","rhs_c_heavyweapons","CUP_WheeledVehicles_Datsun","CUP_Wheeled_SUV","CUP_WheeledVehicles_BTR40","A3_Soft_F_Offroad_01","A3_Soft_F_Exp_Offroad_02","rhsgref_c_air","bear_m113_variants","A3_Ui_F","A3_Ui_F_Orange"};
 class AddonsMetaData
 {
 	class List
@@ -104,8 +104,8 @@ class AddonsMetaData
 		};
 		class Item9
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item10
@@ -3099,7 +3099,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rdg2_white";
+																					value = "SmokeShell";
 																				};
 																			};
 																			class Item1
@@ -12878,7 +12878,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rdg2_white";
+																					value = "SmokeShell";
 																				};
 																			};
 																			class Item1
@@ -31957,7 +31957,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rdg2_white";
+																					value = "SmokeShell";
 																				};
 																			};
 																			class Item1
@@ -32422,7 +32422,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -32482,7 +32482,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};

@@ -162,8 +162,8 @@ private _itemCosmetic =
 	"simc_bandoleer_triplet_flak",
 	"simc_claysack",
 	"simc_claysack_flak",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"G_Balaclava_blk",
 	"G_Balaclava_oli",
 	"bear_balaclava1_black",
@@ -340,7 +340,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"rhs_grenade_mkii_mag",
 	"rhs_rpg7_PG7V_mag"
 ];

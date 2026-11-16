@@ -119,7 +119,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N10"),
 		LIST_2("CUP_7Rnd_45ACP_1911")
@@ -147,7 +147,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_5("aegis_95Rnd_545x39_mixed_7N22_ak12")
 	};
@@ -213,7 +213,7 @@ class tl : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7T3M"),
 		LIST_2("CUP_7Rnd_45ACP_1911")
@@ -222,7 +222,7 @@ class tl : rm
 	{
 		LIST_20("rhs_VOG25"),
 		LIST_10("rhs_GRD40_White"),
-		LIST_5("rhs_mag_rdg2_white"),
+		LIST_5("SmokeShell"),
 		LIST_5("rhs_mag_rdg2_black")
 	};
 	linkedItems[] += 

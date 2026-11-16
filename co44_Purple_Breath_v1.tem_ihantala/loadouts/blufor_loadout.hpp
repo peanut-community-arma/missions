@@ -293,7 +293,7 @@ class mmg : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_3("rhsusf_mag_15Rnd_9x19_JHP"),
 		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")

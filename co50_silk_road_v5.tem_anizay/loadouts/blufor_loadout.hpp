@@ -166,8 +166,8 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White")
+		LIST_21("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M")
 	};
 };
 

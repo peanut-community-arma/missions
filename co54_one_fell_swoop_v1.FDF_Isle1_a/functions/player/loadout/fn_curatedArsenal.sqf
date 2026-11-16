@@ -263,7 +263,7 @@ private _itemAmmoSignal =
 private _itemExplosive = 
 [
 	"CUP_1Rnd_SMOKE_GP25_M",
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"CUP_1Rnd_HE_GP25_M",
 	"CUP_HandGrenade_M67"
 ];

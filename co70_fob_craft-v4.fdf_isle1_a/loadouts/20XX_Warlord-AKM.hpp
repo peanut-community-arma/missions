@@ -67,7 +67,7 @@ class rm : baseMan
 		"pca_beanie_blk",
 		"pca_beanie_mgrn",
 		"pca_beanie_tan",
-		"pca_headband_red",
+		"G_Headband_red_F",
 		"H_Bandanna_gry",
 		"H_Bandanna_sgg",
 		"rhssaf_bandana_digital",

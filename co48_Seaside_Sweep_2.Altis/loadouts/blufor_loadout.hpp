@@ -63,9 +63,9 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_1("pca_headband_blk"),
+		LIST_1("G_Headband_blk_F"),
 		LIST_1("pca_headband"),
-		LIST_1("pca_headband_red"),
+		LIST_1("G_Headband_red_F"),
 		LIST_1("pca_headband_tan")
 	};
 	backpack[] = 
@@ -181,8 +181,8 @@ class rm_lat : rm
 	};
 	backpackItems[] += 
 	{
-		LIST_4("fwa_1rnd_m2_carlgustaf_HEAT"),
-		LIST_1("fwa_1rnd_m2_carlgustaf_HE")
+		LIST_4("sp_fwa_carlg_1rnd_heat"),
+		LIST_1("sp_fwa_carlg_1rnd_he")
 	};
 };
 

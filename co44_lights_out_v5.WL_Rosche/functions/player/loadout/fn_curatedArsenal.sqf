@@ -28,13 +28,13 @@ private _itemGear =
 	
 	//Uniform 
 	"simc_tcu_mk3_rain_parka_erdlh",
-"simc_tcu_mk3_erdlh",
+"U_Simc_TCU_mk3_erdl_H",
 "simc_tcu_mk3_nomex_fold_erdlh",
 "simc_tcu_mk3_nomex_erdlh",
 "simc_tcu_mk3_rollh_erdlh",
 "simc_tcu_mk3_roll_erdlh",
 "simc_tcu_mk3_sog_nomex_erdlh",
-"simc_tcu_mk3_sog_erdlh",
+"U_Simc_TCU_mk3_sog_erdl_h",
 "simc_tcu_mk3_tee_erdlh",
 "simc_tcu_mk3_tuck_erdlh",
 	
@@ -193,8 +193,8 @@ private _itemCosmetic =
 "simc_nomex_long_alt",
 "simc_nomex_long",
 "simc_nomex_long_tan",
-"simc_goggles_swdg",
-"simc_goggles_swdg_low",
+"G_SWDG",
+"G_SWDG_low",
 "G_Aviator",
 "G_Bandanna_aviator",
 "G_Bandanna_blk",

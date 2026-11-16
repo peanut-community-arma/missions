@@ -129,7 +129,7 @@ class mg : rm
 	{
 		"CUP_HandGrenade_M67",
 		"SmokeShell",
-		LIST_9("fwa_32rnd_9x19_sterling_tracer_red")
+		LIST_9("sp_fwa_32Rnd_9x19_L2A3_Sterling_Tracer")
 	};
 };
 
@@ -240,7 +240,7 @@ class crewman : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -265,7 +265,7 @@ class pilot : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

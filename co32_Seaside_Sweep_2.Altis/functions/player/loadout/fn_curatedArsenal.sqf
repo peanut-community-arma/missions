@@ -87,9 +87,9 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"pca_headband_blk",
+	"G_Headband_blk_F",
 	"pca_headband",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"pca_headband_tan",
 	"H_Bandanna_gry",
 	"H_Bandanna_blu",
@@ -342,9 +342,9 @@ private _itemWeapAR =
 private _itemWeapLAT = 
 [
 	"sp_fwa_m2_carlGustav_no78",
-	"fwa_1rnd_m2_carlgustaf_HEAT",
-	"fwa_1rnd_m2_carlgustaf_HE",
-	"fwa_1rnd_m2_carlgustaf_WP"
+	"sp_fwa_carlg_1rnd_heat",
+	"sp_fwa_carlg_1rnd_he",
+	"sp_fwa_carlg_1rnd_wp"
 ];
 
 private _itemWeapPistol = 

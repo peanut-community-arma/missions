@@ -241,7 +241,7 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL = 
 [
-	"fwa_1rnd_rifle_grenade_mas_40mm_DP",
+	"sp_fwa_1rnd_riflegrenade_mas_dp",
 	"fwa_1rnd_rifle_grenade_mas_34mm_HE"
 ];
 
@@ -296,19 +296,19 @@ private _itemAmmo =
 
 private _itemAmmoTracer = 
 [
-	"fwa_10rnd_75_mas49_tracer_red"
+	"sp_fwa_10rnd_75_mas49_tracer"
 ];
 
 private _itemAmmoAR = 
 [
 	"sp_fwa_30Rnd_303_Bren",
-	"fwa_30rnd_303_bren_tracer_red"
+	"sp_fwa_30Rnd_303_Bren_Tracer"
 ];
 
 private _itemAmmoSMG = 
 [
 	"sp_fwa_32Rnd_9x19_MAT49",
-	"fwa_32Rnd_9x19_mat49_tracer_red"
+	"sp_fwa_32Rnd_9x19_MAT49_Tracer"
 ];
 
 private _itemAmmoSignal = 
@@ -319,7 +319,7 @@ private _itemAmmoSignal =
 	"SmokeShellPurple",
 	"SmokeShellRed",
 	"SmokeShellYellow",
-	"fwa_1rnd_rifle_grenade_mas_40mm_Flare"
+	"sp_fwa_1rnd_riflegrenade_mas_flare"
 ];
 
 private _itemExplosive = 

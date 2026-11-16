@@ -62,9 +62,9 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_1("pca_headband_blk"),
+		LIST_1("G_Headband_blk_F"),
 		LIST_1("pca_headband"),
-		LIST_1("pca_headband_red"),
+		LIST_1("G_Headband_red_F"),
 		LIST_1("pca_headband_tan")
 	};
 	backpack[] = 
@@ -205,8 +205,8 @@ class tl : rm
 		LIST_2("rhs_18rnd_9x21mm_7N29"),
 		LIST_2("SmokeShell"),
 		LIST_2("rhssaf_30Rnd_762x39mm_M78_tracer"),
-		LIST_10("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White"),
+		LIST_10("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M"),
 		LIST_1("rhs_GRD40_Green"),
 		LIST_1("rhs_GRD40_Red")
 	};

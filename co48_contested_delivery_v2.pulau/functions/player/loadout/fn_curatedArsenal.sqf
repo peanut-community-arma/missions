@@ -81,9 +81,9 @@ private _itemGear =
 	"H_Bandanna_surfer",
 	"H_Bandanna_surfer_blk",
 
-	"pca_headband_blk",
+	"G_Headband_blk_F",
 	"pca_headband",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"pca_headband_tan",
 
 
@@ -532,7 +532,7 @@ private _itemAmmo =
 	
 	//Explosives
 	"CUP_HandGrenade_RGD5",
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"rhs_mag_rdg2_black"
 	
 	//"rhs_VOG25P",
@@ -559,8 +559,8 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"fwa_1rnd_m67_HEAT",
-	"fwa_1rnd_m67_HE",
+	"sp_fwa_m67_1rnd_heat",
+	"sp_fwa_m67_1rnd_he",
 	"rhs_assault_umbts"
 ];
 

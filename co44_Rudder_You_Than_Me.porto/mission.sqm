@@ -45133,7 +45133,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""rhs_mag_an_m8hc""],[8,2,2,2,2,2]],[[],[]],[[""B_Parachute""],[2]]],false]";
+							value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""SmokeShell""],[8,2,2,2,2,2]],[[],[]],[[""B_Parachute""],[2]]],false]";
 						};
 					};
 				};
@@ -45642,7 +45642,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""rhs_mag_an_m8hc""],[8,2,2,2,2,2]],[[],[]],[[""B_Parachute""],[2]]],false]";
+							value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m18_green"",""rhs_mag_m18_yellow"",""rhs_mag_m18_red"",""rhs_mag_m18_purple"",""SmokeShell""],[8,2,2,2,2,2]],[[],[]],[[""B_Parachute""],[2]]],false]";
 						};
 					};
 				};

@@ -132,7 +132,7 @@ private _itemCosmetic =
 	"CUP_G_ESS_CBR_Ember",
 	"CUP_G_ESS_CBR_Dark",
 	"CUP_G_ESS_CBR",
-	"simc_goggles_swdg_low",
+	"G_SWDG_low",
 	"simc_nomex_blk",
 	"simc_nomex_fold_blk",
 	"simc_nomex_long_blk",

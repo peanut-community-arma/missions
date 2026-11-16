@@ -207,8 +207,8 @@ private _itemCosmetic =
 	"simc_nomex_blk",
 	"simc_nomex_fold_blk",
 	"simc_nomex_long_blk",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"TC_G_NitrileGloves_1"
 ];
 
@@ -337,7 +337,7 @@ private _itemWeapMAT =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"fwa_32rnd_9x19_uzi",
+	"CUP_32Rnd_9x19_UZI_M",
 	"CUP_32Rnd_9x19_UZI_M",
 	"amf_25Rnd_556x45_M855_F1_Stanag",
 	

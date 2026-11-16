@@ -387,8 +387,8 @@ private _itemCosmetic =
 //	"simc_nomex_long_alt",
 //	"simc_nomex_long",
 //	"simc_nomex_long_tan",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	//Murshun cigpack and lighter
 	"murshun_cigs_lighter",
@@ -718,7 +718,7 @@ private _itemAmmoSignal =
 private _itemExplosive = 
 [
 	"CUP_HandGrenade_RGD5",
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"rhs_VOG25",
 	"rhs_GRD40_White"
 ];

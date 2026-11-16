@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co53_pca_Fly_by_Night_Only_Part_1_V2";
-addons[] = {"A3_Boat_F_Jets_Carrier_01","A3_Static_F_Jets_SAM_System_01","A3_Static_F_Jets_AAA_System_01","RHS_US_A2_AirImport","ace_compat_rhs_usf3","A3_Characters_F_Common","A3_Armor_F_Tank_LT_01","ace_realisticnames","A3_Characters_F","A3_Characters_F_Tank","tmf_ai","cba_ai","A3_Boat_F_Beta_Boat_Armed_01","A3_Ui_F","A3_Modules_F","A3_Modules_F_Intel","lambs_wp","A3_Soft_F_Beta_MRAP_03","A3_Armor_F_EPB_APC_Tracked_03","acre_sys_intercom","SPS_weapons_kac_lwamg","rhsusf_c_weapons","CUP_Weapons_West_Attachments","CUP_Weapons_ACE_compat","A3_Weapons_F","CUP_Weapons_NVG","rhsusf_c_troops","CUP_Creatures_Military_USMC","acre_sys_prc343","ace_medical_treatment","ace_attach","ace_nouniformrestrictions","A3_Modules_F_Curator_Misc","A3_Supplies_F_Heli_Slingload","ace_refuel","A3_Structures_F_Tank_Military_RepairDepot","ace_rearm","ace_cargo","CUP_WheeledVehicles_TowingTractor"};
+addons[] = {"A3_Boat_F_Jets_Carrier_01","A3_Static_F_Jets_SAM_System_01","A3_Static_F_Jets_AAA_System_01","RHS_US_A2_AirImport","ace_compat_rhs_usf3","A3_Characters_F_Common","A3_Armor_F_Tank_LT_01","ace_realisticnames","A3_Characters_F","A3_Characters_F_Tank","tmf_ai","cba_ai","A3_Boat_F_Beta_Boat_Armed_01","A3_Ui_F","A3_Modules_F","A3_Modules_F_Intel","lambs_wp","A3_Soft_F_Beta_MRAP_03","A3_Armor_F_EPB_APC_Tracked_03","acre_sys_intercom","SPS_weapons_kac_lwamg","rhsusf_c_weapons","CUP_Weapons_West_Attachments","ace_compat_cup_weapons","A3_Weapons_F","CUP_Weapons_NVG","rhsusf_c_troops","CUP_Creatures_Military_USMC","acre_sys_prc343","ace_medical_treatment","ace_attach","ace_nouniformrestrictions","A3_Modules_F_Curator_Misc","A3_Supplies_F_Heli_Slingload","ace_refuel","A3_Structures_F_Tank_Military_RepairDepot","ace_rearm","ace_cargo","CUP_WheeledVehicles_TowingTractor"};
 class AddonsMetaData
 {
 	class List
@@ -174,8 +174,8 @@ class AddonsMetaData
 		};
 		class Item19
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item20

@@ -18711,7 +18711,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
+									value = "[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N6_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,10,3,2,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[3]]],false]";
 								};
 							};
 						};

@@ -43515,7 +43515,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};
@@ -43624,7 +43624,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};
@@ -43732,7 +43732,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
+											value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[""rhs_d6_Parachute_backpack""],[8]]],false]";
 										};
 									};
 								};

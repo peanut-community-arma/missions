@@ -67,7 +67,7 @@ class rm : baseMan
 		LIST_2("H_Booniehat_oli"),
 		LIST_2("pca_headband"),
 		LIST_2(""),
-		"pca_headband_red",
+		"G_Headband_red_F",
 		"rhsgref_hat_M1951",
 		"Aegis_H_Milcap_nohs_wdl_F"
 	};
@@ -84,7 +84,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_10("rhsgref_5Rnd_792x57_kar98k")
 	};
 };
@@ -99,8 +99,8 @@ class ar : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
-		LIST_5("fwa_30rnd_303_bren_tracer_red")
+		"SmokeShell",
+		LIST_5("sp_fwa_30Rnd_303_Bren_Tracer")
 	};
 };
 
@@ -114,7 +114,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("fwa_100rnd_3006_m1919_mixed")
 	};
 };
@@ -129,8 +129,8 @@ class sub_mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
-		LIST_5("fwa_30rnd_45acp_m1a1_thompson")
+		"SmokeShell",
+		LIST_5("sp_fwa_30Rnd_45acp_thompson_m1a1")
 	};
 };
 
@@ -177,7 +177,7 @@ class leader : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
 };
@@ -238,7 +238,7 @@ class crewman : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };
@@ -263,7 +263,7 @@ class pilot : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

@@ -1,6 +1,6 @@
 // Fudged ~1989 Finnish Army
 
-#define nades "CUP_HandGrenade_M67","rhs_mag_rdg2_white"
+#define nades "CUP_HandGrenade_M67","SmokeShell"
 
 class baseMan 
 {

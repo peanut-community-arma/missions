@@ -360,13 +360,13 @@ private _itemAmmo =
 	
 	//Explosives
 	"rhs_GRD40_Red",
-	"rhs_GRD40_White",
-	"rhs_VOG25",
+	"CUP_1Rnd_SMOKE_GP25_M",
+	"CUP_1Rnd_HE_GP25_M",
 	"rhs_VOG25P",
 	"rhs_VG40TB",
 	"CUP_IlumFlareWhite_GP25_M",
 
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"CUP_HandGrenade_RGD5"
 ];
 
@@ -414,7 +414,7 @@ private _itemAmmoSignal =
 
 	"rhs_GRD40_Green",
 	"rhs_GRD40_Red",
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"CUP_1Rnd_SmokeYellow_GP25_M"
 ];
 

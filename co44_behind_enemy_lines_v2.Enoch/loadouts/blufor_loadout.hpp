@@ -342,7 +342,7 @@ class mat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m67_HEAT")
+		LIST_2("sp_fwa_m67_1rnd_heat")
 	};
 };
 
@@ -355,8 +355,8 @@ class amat : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("fwa_1rnd_m67_HEAT"),
-		"fwa_1rnd_m67_HE"
+		LIST_2("sp_fwa_m67_1rnd_heat"),
+		"sp_fwa_m67_1rnd_he"
 	};
 	linkedItems[] += 
 	{

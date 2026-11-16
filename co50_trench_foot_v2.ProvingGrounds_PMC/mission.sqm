@@ -102333,7 +102333,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_32rnd_9x19_sterling";
+                                                                                    value = "sp_fwa_32Rnd_9x19_L2A3_Sterling";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -102433,7 +102433,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_30rnd_303_bren_tracer_red";
+                                                                                    value = "sp_fwa_30Rnd_303_Bren_Tracer";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -103049,7 +103049,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_32rnd_9x19_sterling";
+                                                                                    value = "sp_fwa_32Rnd_9x19_L2A3_Sterling";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -103149,7 +103149,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_30rnd_303_bren_tracer_red";
+                                                                                    value = "sp_fwa_30Rnd_303_Bren_Tracer";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -103720,7 +103720,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_32rnd_9x19_sterling";
+                                                                                    value = "sp_fwa_32Rnd_9x19_L2A3_Sterling";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -103820,7 +103820,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_30rnd_303_bren_tracer_red";
+                                                                                    value = "sp_fwa_30Rnd_303_Bren_Tracer";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -104306,7 +104306,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_32rnd_9x19_sterling";
+                                                                                    value = "sp_fwa_32Rnd_9x19_L2A3_Sterling";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -104406,7 +104406,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_30rnd_303_bren_tracer_red";
+                                                                                    value = "sp_fwa_30Rnd_303_Bren_Tracer";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -105033,7 +105033,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_32rnd_9x19_sterling";
+                                                                                    value = "sp_fwa_32Rnd_9x19_L2A3_Sterling";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -105133,7 +105133,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "fwa_30rnd_303_bren_tracer_red";
+                                                                                    value = "sp_fwa_30Rnd_303_Bren_Tracer";
                                                                                 };
                                                                             };
                                                                             class Item1 {

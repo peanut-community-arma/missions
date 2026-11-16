@@ -154,7 +154,7 @@ for "_i" from 1 to (ceil (random [0,1,1])) do {_unit addItemToUniform "ACE_morph
 for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addItemToUniform "ACE_splint";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_unit addMagazine "CUP_HandGrenade_RGD5";};
-for "_i" from 1 to (ceil (random [0,0,2])) do {_unit addMagazine "rhs_mag_rdg2_white";};
+for "_i" from 1 to (ceil (random [0,0,2])) do {_unit addMagazine "SmokeShell";};
 
 switch (_setWeapon) do 
 {

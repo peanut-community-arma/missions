@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co50_Backdoor_Doorstop";
-addons[] = {"A3_Characters_F","SPS_weapons_kac_lamg","hlcweapons_core","hlcweapons_p226","A3_Weapons_F","rhsusf_c_troops","ace_compat_rhs_usf3","USP_Gear_Body","acre_sys_prc343","ace_medical_treatment","milgp_vests_cfg","ace_realisticnames","rhsusf_c_weapons","acre_sys_prc148","Camel_K1_series","CUP_Weapons_NLAW","CUP_Weapons_ACE_compat","CUP_Weapons_Ammunition","CUP_Weapons_MicroUZI","jsrs_soundmod_cup_weapons","USP_Gear_Head","hlcweapons_fhar18","A3_Ui_F","ace_nouniformrestrictions","tmf_ai","A3_Modules_F_Curator_Misc","rhsgref_c_troops","CUP_WheeledVehicles_Hilux","TMF_marker","A3_Characters_F_AoW","A3_Characters_F_Orange","A3_Characters_F_Exp_Civil","Desert"};
+addons[] = {"A3_Characters_F","SPS_weapons_kac_lamg","hlcweapons_core","hlcweapons_p226","A3_Weapons_F","rhsusf_c_troops","ace_compat_rhs_usf3","USP_Gear_Body","acre_sys_prc343","ace_medical_treatment","milgp_vests_cfg","ace_realisticnames","rhsusf_c_weapons","acre_sys_prc148","Camel_K1_series","CUP_Weapons_NLAW","ace_compat_cup_weapons","CUP_Weapons_Ammunition","CUP_Weapons_MicroUZI","jsrs_soundmod_cup_weapons","USP_Gear_Head","hlcweapons_fhar18","A3_Ui_F","ace_nouniformrestrictions","tmf_ai","A3_Modules_F_Curator_Misc","rhsgref_c_troops","CUP_WheeledVehicles_Hilux","TMF_marker","A3_Characters_F_AoW","A3_Characters_F_Orange","A3_Characters_F_Exp_Civil","Desert"};
 class AddonsMetaData
 {
 	class List
@@ -141,8 +141,8 @@ class AddonsMetaData
 		};
 		class Item15
 		{
-			className = "CUP_Weapons_ACE_compat";
-			name = "CUP_Weapons_ACE_compat";
+			className = "ace_compat_cup_weapons";
+			name = "ace_compat_cup_weapons";
 			author = "Community Upgrade Project";
 		};
 		class Item16

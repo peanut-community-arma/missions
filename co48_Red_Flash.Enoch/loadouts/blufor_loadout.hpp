@@ -166,8 +166,8 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_31("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White")
+		LIST_31("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M")
 	};
 };
 
@@ -182,8 +182,8 @@ class tl : rm
 	{
 		LIST_3("bear_30Rnd_545x39_orange_7T3M"),
 		LIST_2("SmokeShell"),
-		LIST_31("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White")
+		LIST_31("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M")
 	};
 	linkedItems[] += 
 	{
@@ -209,8 +209,8 @@ class sl : tl
 	backpackItems[] =
 	{
 		LIST_2("bear_30Rnd_545x39_orange_7T3M"),
-		LIST_21("rhs_VOG25"),
-		LIST_6("rhs_GRD40_White"),
+		LIST_21("CUP_1Rnd_HE_GP25_M"),
+		LIST_6("CUP_1Rnd_SMOKE_GP25_M"),
 		LIST_2("rhs_GRD40_Red"),
 		LIST_2("rhs_GRD40_Green")
 	};
@@ -231,8 +231,8 @@ class fac : sl
 	displayName = "Forward Air Controller";
 	backpackItems[] =
 	{
-		LIST_11("rhs_VOG25"),
-		LIST_4("rhs_GRD40_White"),
+		LIST_11("CUP_1Rnd_HE_GP25_M"),
+		LIST_4("CUP_1Rnd_SMOKE_GP25_M"),
 		LIST_4("rhs_GRD40_Red"),
 		LIST_4("rhs_GRD40_Green"),
 		LIST_2("SmokeShellGreen"),

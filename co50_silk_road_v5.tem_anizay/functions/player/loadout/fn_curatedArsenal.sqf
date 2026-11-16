@@ -363,7 +363,7 @@ private _itemAmmoSignal =
 [
 	"rhs_GRD40_Red",
 	"rhs_GRD40_Green",
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"SmokeShellBlue",
 	"SmokeShellGreen",
 	"SmokeShellOrange",
@@ -377,9 +377,9 @@ private _itemAmmoSignal =
 
 private _itemExplosive = 
 [
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"SmokeShell",
-	"rhs_VOG25",
+	"CUP_1Rnd_HE_GP25_M",
 	"rhs_VOG25P",
 	"rhs_GDM40",
 	"CUP_HandGrenade_RGD5",

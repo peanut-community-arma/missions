@@ -6797,7 +6797,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -7012,7 +7012,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -7907,7 +7907,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -8516,7 +8516,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -9274,7 +9274,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -9660,7 +9660,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -10621,7 +10621,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -11282,7 +11282,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -11794,7 +11794,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -12432,7 +12432,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -13394,7 +13394,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -14057,7 +14057,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -14567,7 +14567,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -15323,7 +15323,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -16025,7 +16025,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -17067,7 +17067,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -17926,7 +17926,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -18587,7 +18587,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -19099,7 +19099,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -20283,7 +20283,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -21138,7 +21138,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -21811,7 +21811,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -22762,7 +22762,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -23084,7 +23084,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -24057,7 +24057,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -24877,7 +24877,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -25746,7 +25746,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -26135,7 +26135,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -27181,7 +27181,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -27770,7 +27770,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -28063,7 +28063,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -28277,7 +28277,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -28838,7 +28838,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -35273,7 +35273,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -35488,7 +35488,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36104,7 +36104,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36319,7 +36319,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36881,7 +36881,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -42238,7 +42238,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -42453,7 +42453,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -62092,7 +62092,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -62752,7 +62752,7 @@ class Mission
 													};
 													class Item1
 													{
-														name = "rhs_mag_rdg2_white";
+														name = "SmokeShell";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -76216,7 +76216,7 @@ class Mission
 											};
 											class Item1
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 1;
 												ammoLeft = 1;
 											};
@@ -76431,7 +76431,7 @@ class Mission
 											};
 											class Item1
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 1;
 												ammoLeft = 1;
 											};

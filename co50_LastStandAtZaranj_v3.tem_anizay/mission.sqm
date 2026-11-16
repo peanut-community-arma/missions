@@ -4637,7 +4637,7 @@ class Mission
 								name = "sp_fwa_fn49";
 								class primaryMuzzleMag
 								{
-									name = "fwa_10rnd_762x63_fn49";
+									name = "sp_fwa_10rnd_3006_fn49";
 									ammoLeft = 10;
 								};
 							};
@@ -10741,7 +10741,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -36166,7 +36166,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1
@@ -38266,7 +38266,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_rdg2_white";
+																							value = "SmokeShell";
 																						};
 																					};
 																					class Item1

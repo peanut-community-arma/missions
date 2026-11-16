@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co63_pca_steel_commanders_v5";
-addons[] = {"rhsusf_c_RG33L","rhsusf_c_MATV","rhsusf_c_m1a2","A3_Structures_F_Argo_Military_Fortifications","A3_Ui_F","A3_Structures_F_Mil_BagFence","A3_Props_F_Enoch_Infrastructure_Traffic","A3_Structures_F_Mil_BagBunker","A3_Missions_F_Oldman","A3_Characters_F","A3_Characters_F_Tank","lambs_wp","cba_ai","A3_Structures_F_Oldman_Decals","A3_Signs_F","ace_interaction","ace_cargo","ace_dragging","A3_Structures_F_EPB_Items_Documents","A3_Structures_F_Civ_Garbage","A3_Structures_F_Exp_Walls_Concrete","A3_Structures_F_Walls","A3_Structures_F_Civ_Constructions","A3_Props_F_Orange_Humanitarian_Supplies","rhs_c_tanks","A3_Structures_F_Research","A3_Props_F_Orange_Humanitarian_Garbage","A3_Props_F_Orange_Humanitarian_Camps","A3_Props_F_Enoch_Military_Camps","A3_Props_F_Enoch_Military_Equipment","A3_Structures_F_Heli_Items_Electronics","A3_Props_F_Orange_Items_Electronics","A3_Structures_F_Items_Electronics","A3_Structures_F_Heli_Furniture","ace_sitting","A3_Props_F_AoW_Items_Decorative","A3_Props_F_Enoch_Military_Decontamination","A3_Props_F_Enoch_Military_Supplies","A3_Structures_F_Items_Documents","CUP_Weapons_Items","A3_Structures_F_Civ_InfoBoards","A3_Structures_F_Furniture","A3_Structures_F_Heli_Items_Luggage","ace_nouniformrestrictions","hlcweapons_g3","A3_Weapons_F_Pistols_ACPC2","jsrs_soundmod_complete_edition","cba_jam","ace_realisticnames","ace_ballistics","pca_misc_pca_ai_tweaks","A3_Weapons_F","ace_smallarms","acre_main","A3_Aegis_Characters_F_Minos_AAF","A3_Weapons_F_Items","ace_medical_engine","ace_medical_treatment","simc_uaf_67","ace_attach","ace_chemlights","rhs_c_troops","hlcweapons_ak","rhs_c_weapons","ace_compat_rhs_afrf3","ace_optics","milgp_headgear_cfg","CUP_Creatures_Military_Russia","CUP_Creatures_Military_USArmy","A3_Aegis_Characters_F_Aegis_Vests","tmf_ai","CUP_WheeledVehicles_LR","A3_Modules_F_Curator_Misc","rhsusf_c_stryker","A3_Structures_F_Tank_Military_RepairDepot","A3_Weapons_F_Ammoboxes","rhsgref_c_a2port_armor","bear_brdm2_variants","rhs_c_btr","rhs_c_bmp3","rhs_c_t72","A3_Structures_F_Mil_Fortification","rhs_c_heavyweapons","A3_Structures_F_EPA_Civ_Camping","ace_repair","A3_Props_F_Orange_Furniture","A3_Structures_F_Civ_Camping","CUP_Editor_Structures_Config"};
+addons[] = {"rhsusf_c_RG33L","rhsusf_c_MATV","rhsusf_c_m1a2","A3_Structures_F_Argo_Military_Fortifications","A3_Ui_F","A3_Structures_F_Mil_BagFence","A3_Props_F_Enoch_Infrastructure_Traffic","A3_Structures_F_Mil_BagBunker","A3_Missions_F_Oldman","A3_Characters_F","A3_Characters_F_Tank","lambs_wp","cba_ai","A3_Structures_F_Oldman_Decals","A3_Signs_F","ace_interaction","ace_cargo","ace_dragging","A3_Structures_F_EPB_Items_Documents","A3_Structures_F_Civ_Garbage","A3_Structures_F_Exp_Walls_Concrete","A3_Structures_F_Walls","A3_Structures_F_Civ_Constructions","A3_Props_F_Orange_Humanitarian_Supplies","rhs_c_tanks","A3_Structures_F_Research","A3_Props_F_Orange_Humanitarian_Garbage","A3_Props_F_Orange_Humanitarian_Camps","A3_Props_F_Enoch_Military_Camps","A3_Props_F_Enoch_Military_Equipment","A3_Structures_F_Heli_Items_Electronics","A3_Props_F_Orange_Items_Electronics","A3_Structures_F_Items_Electronics","A3_Structures_F_Heli_Furniture","ace_sitting","A3_Props_F_AoW_Items_Decorative","A3_Props_F_Enoch_Military_Decontamination","A3_Props_F_Enoch_Military_Supplies","A3_Structures_F_Items_Documents","CUP_Weapons_Items","A3_Structures_F_Civ_InfoBoards","A3_Structures_F_Furniture","A3_Structures_F_Heli_Items_Luggage","ace_nouniformrestrictions","hlcweapons_g3","A3_Weapons_F_Pistols_ACPC2","jsrs_soundmod_complete_edition","cba_jam","ace_realisticnames","ace_ballistics","pca_misc_pca_ai_tweaks","A3_Weapons_F","ace_smallarms","acre_main","A3_Aegis_Characters_F_Minos_AAF","A3_Weapons_F_Items","ace_medical_engine","ace_medical_treatment","simc_uaf_67_core","ace_attach","ace_chemlights","rhs_c_troops","hlcweapons_ak","rhs_c_weapons","ace_compat_rhs_afrf3","ace_optics","milgp_headgear_cfg","CUP_Creatures_Military_Russia","CUP_Creatures_Military_USArmy","A3_Aegis_Characters_F_Aegis_Vests","tmf_ai","CUP_WheeledVehicles_LR","A3_Modules_F_Curator_Misc","rhsusf_c_stryker","A3_Structures_F_Tank_Military_RepairDepot","A3_Weapons_F_Ammoboxes","rhsgref_c_a2port_armor","bear_brdm2_variants","rhs_c_btr","rhs_c_bmp3","rhs_c_t72","A3_Structures_F_Mil_Fortification","rhs_c_heavyweapons","A3_Structures_F_EPA_Civ_Camping","ace_repair","A3_Props_F_Orange_Furniture","A3_Structures_F_Civ_Camping","CUP_Editor_Structures_Config"};
 class AddonsMetaData
 {
 	class List
@@ -305,8 +305,8 @@ class AddonsMetaData
 		};
 		class Item38
 		{
-			className = "simc_uaf_67";
-			name = "simc_uaf_67";
+			className = "simc_uaf_67_core";
+			name = "simc_uaf_67_core";
 		};
 		class Item39
 		{
@@ -26879,7 +26879,7 @@ class Mission
 											};
 											class Item2
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 1;
 												ammoLeft = 1;
 											};

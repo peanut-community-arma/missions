@@ -50,15 +50,15 @@ private _itemGear =
 	
 	//Headgear
 	"H_Simc_pasgt_m81",
-	"simc_pasgt_m81_band",
+	"H_Simc_pasgt_m81_b",
 	"H_Simc_pasgt_m81_SWDG",
-	"simc_pasgt_m81_swdg_band",
+	"H_Simc_pasgt_m81_b_SWDG",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
 	"H_Simc_pasgt_m81_SWDG_low",
-	"simc_pasgt_m81_swdg_low_band",
+	"H_Simc_pasgt_m81_SWDG_low_b",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band",
 	
@@ -136,8 +136,8 @@ private _itemCosmetic =
 	"G_Spectacles",
 	"G_Squares_Tinted",
 	"G_Squares",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"G_Spectacles_Tinted",
 	"$NONE_usm_gigloves$",
 	"$NONE_usm_giglovesscarf$",
@@ -272,7 +272,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67",
 	
 	//cigs

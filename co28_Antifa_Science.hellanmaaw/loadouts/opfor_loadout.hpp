@@ -73,7 +73,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"rhs_grenade_sthgr43_mag",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("rhsgref_5Rnd_792x57_kar98k")
 	};
 };
@@ -88,7 +88,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"rhs_grenade_sthgr43_mag",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhsgref_30Rnd_792x33_SmE_StG")
 	};
 };
@@ -103,7 +103,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"rhs_grenade_sthgr43_mag",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("rhsgref_296Rnd_792x57_SmK_belt")
 	};
 };
@@ -127,7 +127,7 @@ class tl : rm
 	magazines[] = 
 	{
 		"rhs_grenade_sthgr43_mag",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("sp_fwa_32Rnd_9x19_mp40")
 	};
 };

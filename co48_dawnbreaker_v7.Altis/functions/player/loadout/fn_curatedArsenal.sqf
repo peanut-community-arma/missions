@@ -171,7 +171,7 @@ private _itemCosmetic =
 	"immersion_pops_pop0",
 	"bear_balaclava1_black",
 	"CUP_G_TK_RoundGlasses",
-	"simc_goggles_swdg_low",
+	"G_SWDG_low",
 	"CUP_G_WatchGPSCombo",
 	"CUP_G_Grn_Scarf_GPS",
 	"CUP_G_Tan_Scarf_GPS",

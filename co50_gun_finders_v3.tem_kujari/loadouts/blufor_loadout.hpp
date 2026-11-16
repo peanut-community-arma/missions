@@ -79,7 +79,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_10("rhssaf_30Rnd_762x39mm_M67"),
 		LIST_2("CUP_7Rnd_45ACP_1911")
@@ -99,7 +99,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_3("rhs_100Rnd_762x54mmR")
 	};
@@ -169,14 +169,14 @@ class tl : gren
 	displayName = "Team Leader";
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_10("rhssaf_30Rnd_762x39mm_M78_tracer"),
 		"CUP_7Rnd_45ACP_1911"
 	};	
 	backpackItems[] += 
 	{
-		LIST_5("rhs_mag_rdg2_white"),
+		LIST_5("SmokeShell"),
 		LIST_5("rhs_mag_rdg2_black")
 	};
 	linkedItems[] += 
@@ -297,7 +297,7 @@ class dm : rm
 	};
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_rdg2_white"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("rhsgref_10Rnd_792x57_m76"),
 		"CUP_7Rnd_45ACP_1911"

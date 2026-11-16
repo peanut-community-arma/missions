@@ -27995,7 +27995,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rdg2_white";
+																					value = "SmokeShell";
 																				};
 																			};
 																			class Item1
@@ -43236,7 +43236,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_rdg2_white";
+																			value = "SmokeShell";
 																		};
 																	};
 																	class Item1
@@ -44012,7 +44012,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_rdg2_white";
+																			value = "SmokeShell";
 																		};
 																	};
 																	class Item1

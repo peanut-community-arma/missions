@@ -99,7 +99,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_30Rnd_762x39_AK47_M")
 	};
 };
@@ -113,7 +113,7 @@ class ar : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("pca_mag_40Rnd_762x39_Polymer_Mixed")
 	};
 };
@@ -127,7 +127,7 @@ class mg : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("CUP_60Rnd_TE1_Green_Tracer_545x39_AK74M_M")
 	};
 };
@@ -145,7 +145,7 @@ class  Mi : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_10("CUP_5Rnd_762x54_Mosin_M")
 	};
 };
@@ -173,7 +173,7 @@ class  Sh : rm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_10("CUP_5Rnd_762x54_Mosin_M")
 	};
 };
@@ -206,7 +206,7 @@ class frm : baseMan
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_30Rnd_762x39_AK103_bakelite_M")
 	};
 };
@@ -220,7 +220,7 @@ class far : frm
 	};
 	magazines[] = 
 	{
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };

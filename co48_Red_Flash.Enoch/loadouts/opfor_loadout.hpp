@@ -75,7 +75,7 @@ class rm : baseMan
 	};
 	headgear[] = 
 	{
-		LIST_3("simc_pasgt_m81_band"),
+		LIST_3("H_Simc_pasgt_m81_b"),
 		LIST_2("simc_pasgt_m81_swdg_cover_band"),
 		LIST_1("H_Simc_pasgt_m81_SWDG_low")
 	};

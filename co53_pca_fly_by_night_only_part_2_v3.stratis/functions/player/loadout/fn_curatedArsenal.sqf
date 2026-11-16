@@ -315,8 +315,8 @@ private _itemCosmetic =
 	
 	"murshun_cigs_cig0",
 	"immersion_pops_pop0",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	//HMD
 	"CUP_NVG_GPNVG_black"
@@ -616,7 +616,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67",
 	"B_IR_Grenade",
 	"ACE_IR_Strobe_Item",

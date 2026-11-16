@@ -27,18 +27,18 @@ private _itemGear =
 	//Common items shared by all classes except for vehicle crews
 	//Helmet
 	"H_Simc_pasgt_m81",
-	"simc_pasgt_m81_band",
+	"H_Simc_pasgt_m81_b",
 	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
 	"H_Simc_pasgt_m81_SWDG",
-	"simc_pasgt_m81_swdg_band",
+	"H_Simc_pasgt_m81_b_SWDG",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
 	"H_Simc_pasgt_m81_SWDG_low",
-	"simc_pasgt_m81_swdg_low_band",
+	"H_Simc_pasgt_m81_SWDG_low_b",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band",
 	"simc_bonnie_hat_m81",
@@ -201,8 +201,8 @@ private _itemCosmetic =
 	"simc_nomex_long_alt",
 	"simc_nomex_long",
 	"simc_nomex_long_tan",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"bear_bandana_m81",
 	"CUP_G_TK_RoundGlasses_blk",
 
@@ -384,7 +384,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67"
 ];
 

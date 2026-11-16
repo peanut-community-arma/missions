@@ -510,7 +510,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67",
 	"DemoCharge_Remote_Mag",
 	
@@ -523,7 +523,7 @@ private _itemAmmo =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67"
 ];
 

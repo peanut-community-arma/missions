@@ -289,7 +289,7 @@ class crewman : rm
 	magazines[] =
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
 };
@@ -314,7 +314,7 @@ class pilot : rm
 	magazines[] =
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_762x39mm")
 	};
 };

@@ -411,7 +411,7 @@ class rm : baseMan
 	magazines[] +=
 	{
 		"rhs_grenade_mkii_mag",
-		"rhs_mag_an_m8hc"
+		"SmokeShell"
 	};
 };
 

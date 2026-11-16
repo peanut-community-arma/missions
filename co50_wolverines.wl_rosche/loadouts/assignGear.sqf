@@ -225,7 +225,7 @@ for "_i" from 1 to (ceil (random [0,1,1])) do {_this addItemToUniform "ACE_morph
 for "_i" from 1 to (ceil (random [0,1,2])) do {_this addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_this addItemToUniform "ACE_splint";};
 for "_i" from 1 to (ceil (random [0,1,2])) do {_this addMagazine "CUP_HandGrenade_RGD5";};
-for "_i" from 1 to (ceil (random [0,0,2])) do {_this addMagazine "rhs_mag_rdg2_white";};
+for "_i" from 1 to (ceil (random [0,0,2])) do {_this addMagazine "SmokeShell";};
 
 
 //SetSkills

@@ -76,8 +76,8 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
-		LIST_10("fwa_32rnd_9x19_uzi")
+		"SmokeShell",
+		LIST_10("CUP_32Rnd_9x19_UZI_M")
 	};
 };
 
@@ -91,7 +91,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_8("CUP_8Rnd_12Gauge_Pellets_No0_Buck")
 	};
 };
@@ -106,7 +106,7 @@ class mg : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_8("rhssaf_30Rnd_762x39mm_M67")
 	};
 };
@@ -145,7 +145,7 @@ class warlock : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_10("aegis_30Rnd_545x39_7N22_ak12"),
 		LIST_3("CUP_1Rnd_HE_M203")
 	};
@@ -185,7 +185,7 @@ class warlock_gunner : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("rhs_100Rnd_762x54mmR_green")
 	};
 };
@@ -224,7 +224,7 @@ class warlock_shield : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_10("CUP_50Rnd_B_765x17_Ball_M")
 	};
 };
@@ -263,7 +263,7 @@ class warlock_basic : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_10("aegis_30Rnd_545x39_7N22_ak12")
 	};
 };

@@ -388,8 +388,8 @@ private _itemCosmetic =
 //	"simc_nomex_long_alt",
 //	"simc_nomex_long",
 //	"simc_nomex_long_tan",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 //	"TC_G_NitrileGloves_1",
 	
 	//Murshun cigpack and lighter

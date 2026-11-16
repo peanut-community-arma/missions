@@ -123,11 +123,11 @@ class rm : baseMan
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_13("fwa_32rnd_9x19_uzi")
+		LIST_13("CUP_32Rnd_9x19_UZI_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("fwa_32rnd_9x19_uzi")
+		LIST_4("CUP_32Rnd_9x19_UZI_M")
 	};
 };
 
@@ -204,6 +204,12 @@ class gren : rm
 	{
 		"CUP_arifle_M4A1_BUIS_GL"
 	};
+	magazines[] =
+	{
+		LIST_2("SmokeShell"),
+		LIST_2("CUP_HandGrenade_M67"),
+		LIST_13("30Rnd_556x45_Stanag")
+	};
 	backpackItems[] = 
 	{
 		LIST_21("CUP_1Rnd_HE_M203"),
@@ -217,7 +223,7 @@ class tl : rm
 	displayName = "Team Leader";
 	backpackItems[] = 
 	{
-		LIST_2("fwa_32rnd_9x19_uzi"),
+		LIST_2("CUP_32Rnd_9x19_UZI_M"),
 		LIST_2("fwa_32rnd_9x19_uzi_tracer_red"),
 		LIST_2("SmokeShell")
 	};

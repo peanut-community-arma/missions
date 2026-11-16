@@ -272,8 +272,8 @@ private _itemCosmetic =
 	"CUP_G_Oakleys_Drk",
 	"CUP_G_Oakleys_Clr",
 	"CUP_G_Oakleys_Embr",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 
 	// hmd
 	"$NONE_pca_nvg_glasses_blk$",
@@ -477,10 +477,10 @@ private _itemAmmoSignal =
 
 private _itemExplosive =
 [
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"SmokeShellRed",
 	"SmokeShellBlue",
-	"rhs_VOG25",
+	"CUP_1Rnd_HE_GP25_M",
 	"CUP_HandGrenade_RGD5"
 ];
 

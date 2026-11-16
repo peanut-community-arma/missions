@@ -565,7 +565,7 @@ private _itemAmmoSignal =
 private _itemExplosive = 
 [
 	"CUP_HandGrenade_RGD5",
-	"rhs_mag_rdg2_white",
+	"SmokeShell",
 	"rhs_VOG25",
 	"rhs_GRD40_White"
 ];

@@ -152,7 +152,7 @@ private _itemGear =
 	"CUP_H_FR_Headset",
 	
 	"CUP_H_US_patrol_cap_WDL",
-	"CUP_H_US_patrol_cap_OD ",
+	"CUP_H_US_patrol_cap_OD",
 	"Aegis_H_Milcap_nohs_wdl_F",
 	"Aegis_H_Milcap_nohs_gry_F",
 	"Aegis_H_Milcap_nohs_grn_F",
@@ -205,9 +205,9 @@ private _itemGear =
 	"milgp_h_cap_backwards_03_goggles_gry",
 	"milgp_h_cap_backwards_03_goggles_khk",
 	"milgp_h_cap_backwards_03_goggles_rgr",
-	"pca_headband_blk",
+	"G_Headband_blk_F",
 	"pca_headband",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"pca_headband_tan",
 	
 	//Backpack

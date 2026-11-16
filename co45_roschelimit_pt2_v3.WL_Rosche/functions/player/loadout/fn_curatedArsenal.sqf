@@ -187,8 +187,8 @@ private _itemCosmetic =
 	"simc_bandoleer_right_flak",
 	"simc_bandoleer_triplet",
 	"simc_bandoleer_triplet_flak",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"simc_nomex_blk",
 	"simc_nomex_alt",
 	"simc_nomex",
@@ -382,7 +382,7 @@ private _itemExplosive =
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
 	"CUP_1Rnd_HE_M203",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"rhs_grenade_mkii_mag",
 	"ACE_40mm_Flare_white"
 ];
@@ -396,8 +396,8 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT =
 [
-	"fwa_1rnd_m67_HEAT",
-	"fwa_1rnd_m67_HE"
+	"sp_fwa_m67_1rnd_heat",
+	"sp_fwa_m67_1rnd_he"
 ];
 
 private _itemEngineer =

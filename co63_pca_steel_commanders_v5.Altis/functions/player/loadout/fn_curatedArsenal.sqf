@@ -307,8 +307,8 @@ private _itemCosmetic =
 	"murshun_cigs_cig0",
 	"immersion_pops_pop0",
 	"simc_nomex_blk",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	
 	//HMD
 	"$NONE_pca_nvg_balaclava$",

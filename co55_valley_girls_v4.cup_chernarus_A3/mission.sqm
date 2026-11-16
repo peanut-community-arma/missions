@@ -9430,7 +9430,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -10422,7 +10422,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -10454,7 +10454,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""pca_weap_m136cs""],[4]],[[""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white"",""rhs_30Rnd_545x39_7N22_AK""],[10,10,4,20]],[[""FirstAidKit"",""Medikit"",""ToolKit""],[8,1,1]],[[],[]]],false]";
+									value = "[[[[""pca_weap_m136cs""],[4]],[[""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell"",""rhs_30Rnd_545x39_7N22_AK""],[10,10,4,20]],[[""FirstAidKit"",""Medikit"",""ToolKit""],[8,1,1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -10608,7 +10608,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit"",""pca_weap_m136cs"",""pca_weap_m136cs_hedp""],[8,1,2,2]],[[""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white"",""rhs_30Rnd_545x39_7N22_AK""],[10,10,4,10]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit"",""pca_weap_m136cs"",""pca_weap_m136cs_hedp""],[8,1,2,2]],[[""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell"",""rhs_30Rnd_545x39_7N22_AK""],[10,10,4,10]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -11600,7 +11600,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit""],[8,1]],[[""rhs_30Rnd_545x39_7N6M_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell""],[30,10,10,4]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -11725,7 +11725,7 @@ class Mission
 								class data
 								{
 									singleType = "STRING";
-									value = "[[[[""FirstAidKit"",""Medikit"",""pca_weap_m136cs"",""pca_weap_m136cs_hedp""],[8,1,2,2]],[[""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""rhs_mag_rdg2_white"",""rhs_30Rnd_545x39_7N22_AK""],[10,10,4,10]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value = "[[[[""FirstAidKit"",""Medikit"",""pca_weap_m136cs"",""pca_weap_m136cs_hedp""],[8,1,2,2]],[[""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red"",""SmokeShell"",""rhs_30Rnd_545x39_7N22_AK""],[10,10,4,10]],[[""ToolKit""],[1]],[[],[]]],false]";
 								};
 							};
 						};
@@ -30498,7 +30498,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -32140,7 +32140,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};
@@ -37743,7 +37743,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_mag_rdg2_white"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""CUP_launch_RPG26"",""rhs_weap_rpg7"",""FirstAidKit"",""Medikit""],[4,2,1,10,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_10Rnd_762x54mmR_7N1"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""SmokeShell"",""CUP_HandGrenade_RGD5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_rpg26_mag"",""rhs_rpg7_OG7V_mag""],[30,10,3,2,9,20,5,5,2,2]],[[""ToolKit""],[1]],[[""rhs_sidor"",""rhs_rpg""],[7,1]]],false]";
 										};
 									};
 								};

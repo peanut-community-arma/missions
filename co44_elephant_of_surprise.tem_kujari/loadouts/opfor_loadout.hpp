@@ -69,7 +69,7 @@ class baseMan
 	// These are added to the uniform or vest first - overflow goes to backpack if there's any
 	magazines[] = {};
 	items[] = {
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		"CUP_HandGrenade_RGD5"
 	};
 	// These are added directly into their respective slots

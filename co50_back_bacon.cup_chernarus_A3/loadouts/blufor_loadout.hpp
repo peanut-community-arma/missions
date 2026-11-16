@@ -369,7 +369,7 @@ class mat : rm
 	};
 	backpackItems[] += 
 	{
-		LIST_3("fwa_1rnd_m2_carlgustaf_HEAT")
+		LIST_3("sp_fwa_carlg_1rnd_heat")
 	};
 };
 

@@ -159,7 +159,7 @@ class rm : baseMan
 	{
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N10"),
 		"rhs_mag_rgn",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 
@@ -190,7 +190,7 @@ class ar : rm
 	{
 		LIST_10("aegis_95Rnd_545x39_mixed_7N10_ak12"),
 		"rhs_mag_rgn",
-		"rhs_mag_rdg2_white"
+		"SmokeShell"
 	};
 };
 

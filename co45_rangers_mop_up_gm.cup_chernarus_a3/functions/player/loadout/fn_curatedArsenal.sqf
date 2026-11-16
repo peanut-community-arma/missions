@@ -51,18 +51,18 @@ private _itemVest =
 private _itemHeadgear = 
 [
 	"H_Simc_pasgt_m81",
-	"simc_pasgt_m81_band",
+	"H_Simc_pasgt_m81_b",
 	"H_Simc_pasgt_m81_scrim",
 	"simc_pasgt_m81_scrim_2",
 	"simc_pasgt_m81_scrim_3",
 	"H_Simc_pasgt_m81_SWDG",
-	"simc_pasgt_m81_swdg_band",
+	"H_Simc_pasgt_m81_b_SWDG",
 	"simc_pasgt_m81_swdg_cover",
 	"simc_pasgt_m81_swdg_cover_band",
 	"simc_pasgt_m81_swdg_high",
 	"simc_pasgt_m81_swdg_high_band",
 	"H_Simc_pasgt_m81_SWDG_low",
-	"simc_pasgt_m81_swdg_low_band",
+	"H_Simc_pasgt_m81_SWDG_low_b",
 	"simc_pasgt_m81_swdg_low_cover",
 	"simc_pasgt_m81_swdg_low_cover_band"
 ];

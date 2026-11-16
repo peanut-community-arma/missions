@@ -74,9 +74,9 @@ private _itemVestPilot =
 //Headgear 
 private _itemHeadgear = 
 [
-	"pca_headband_blk",
+	"G_Headband_blk_F",
 	"pca_headband",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"pca_headband_tan",
 	"H_Bandanna_gry",
 	"H_Bandanna_blu",
@@ -387,9 +387,9 @@ private _itemAmmoSignal =
 
 private _itemExplosive = 
 [
-	"rhs_GRD40_White",
+	"CUP_1Rnd_SMOKE_GP25_M",
 	"SmokeShell",
-	"rhs_VOG25",
+	"CUP_1Rnd_HE_GP25_M",
 	"rhs_mag_f1"
 ];
 

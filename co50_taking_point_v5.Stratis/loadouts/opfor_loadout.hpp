@@ -88,7 +88,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_30Rnd_556x45_Stanag_Mk16_black_Tracer_Green")
 	};
 };
@@ -107,7 +107,7 @@ class ar : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_100Rnd_556x45_BetaCMag")
 	};
 };
@@ -134,7 +134,7 @@ class rm_lat : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("CUP_8Rnd_12Gauge_Slug")
 	};
 };
@@ -173,7 +173,7 @@ class elite : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("hlc_30Rnd_556x45_B_G36")
 	};
 };
@@ -211,7 +211,7 @@ class elite_at : elite
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_3("CUP_20Rnd_B_AA12_Slug")
 	};
 };
@@ -255,7 +255,7 @@ displayName = "Miller Guards";
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_40Rnd_46x30_MP7_Green_Tracer"),
 		LIST_2("ptv_12Rnd_45ACP_USP")
 	};
@@ -282,7 +282,7 @@ class miller : mill_g
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_7("CUP_20Rnd_B_AA12_HE")
 	};
 };
@@ -313,7 +313,7 @@ class crewman : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("CUP_30Rnd_Green_Tracer_9x19_MP5")
 	};
 };
@@ -338,7 +338,7 @@ class pilot : rm
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
-		"rhs_mag_rdg2_white",
+		"SmokeShell",
 		LIST_5("rhs_30Rnd_545x39_7N10_AK")
 	};
 };

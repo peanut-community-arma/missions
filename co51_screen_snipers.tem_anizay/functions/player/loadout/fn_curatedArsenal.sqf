@@ -80,7 +80,7 @@ private _itemHeadgear =
 	"H_ShemagOpen_tan",
 	"H_Shemag_olive",
 	"pca_headband",
-	"pca_headband_red"
+	"G_Headband_red_F"
 ];
 
 private _itemHeadgearCrew = 

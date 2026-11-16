@@ -287,8 +287,8 @@ private _itemCosmetic =
 	"CUP_G_Oakleys_Drk",
 	"CUP_G_Oakleys_Clr",
 	"CUP_G_Oakleys_Embr",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"G_Combat_Goggles_tna_F",
 	"rhssaf_veil_Green",
 	
@@ -575,8 +575,8 @@ private _itemAmmoMG =
 
 private _itemAmmoMAT = 
 [
-	"fwa_1rnd_m2_carlgustaf_HEAT",
-	"fwa_1rnd_m2_carlgustaf_HE"
+	"sp_fwa_carlg_1rnd_heat",
+	"sp_fwa_carlg_1rnd_he"
 ];
 
 private _itemEngineer = 

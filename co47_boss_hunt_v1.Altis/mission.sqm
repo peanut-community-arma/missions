@@ -37,7 +37,7 @@ class EditorData
 	};
 };
 sourceName = "co47_boss_hunt";
-addons[] = {"A3_Characters_F","hlcweapons_ak","ptv_weapons","pca_misc_pca_illuminations","pca_misc_pca_magazines","rhs_c_weapons","rhsusf_c_weapons","rhsusf_sounds","ace_compat_rhs_usf3","A3_Weapons_F","ace_optics","A3_Aegis_Characters_F_Aegis_Headgear","USP_Gear_Body","acre_sys_prc343","ace_medical_treatment","acre_sys_prc148","milgp_vests_cfg","hlcweapons_mg3","A3_Modules_F_Curator_Misc","CUP_Wheeled_SUV","A3_Modules_F","A3_Props_F_Decade_Spaceship","A3_Structures_F_Walls","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Mil_Fortification","A3_Structures_F_Mil_Helipads","A3_Structures_F_Mil_Cargo","A3_Soft_F_Gamma_Truck_02","ace_realisticnames","A3_Air_F_Heli_Light_02","A3_Structures_F_Mil_BagFence","A3_Structures_F_Training","A3_Structures_F_Exp_Walls_Polewalls","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Argo_Decals_Horizontal","A3_Missions_F_Oldman","A3_Structures_F_Enoch_Walls_Wooden","A3_Structures_F_Exp_Walls_Slum","A3_Data_F_ParticleEffects","A3_Structures_F_Mil_Shelters","A3_Structures_F_Civ_Garbage","A3_Structures_F_Civ_Camping","A3_Structures_F_Wrecks","A3_Structures_F_Civ_Lamps","cba_ai","tmf_ai","A3_Static_F_HMG_02","A3_Armor_F_EPB_APC_Tracked_03","acre_sys_intercom","A3_Armor_F_Tank_LT_01","A3_Soft_F_Exp_LSV_02","ace_nouniformrestrictions","CUP_Weapons_Deagle","CUP_Weapons_Ammunition","A3_Characters_F_Orange_Facewear","ace_goggles","ace_nightvision","pca_gear_blended_usa_vest","ace_common","ace_field_rations","A3_Ui_F","rhsusf_c_m11xx","rhsusf_c_fmtv","rhsusf_c_melb","RHS_US_A2_AirImport","A3_Air_F_Beta_Heli_Transport_02","ace_repair","CUP_WheeledVehicles_RG31"};
+addons[] = {"A3_Characters_F","hlcweapons_ak","ptv_weapons","pca_illuminations","pca_misc_pca_magazines","rhs_c_weapons","rhsusf_c_weapons","rhsusf_sounds","ace_compat_rhs_usf3","A3_Weapons_F","ace_optics","A3_Aegis_Characters_F_Aegis_Headgear","USP_Gear_Body","acre_sys_prc343","ace_medical_treatment","acre_sys_prc148","milgp_vests_cfg","hlcweapons_mg3","A3_Modules_F_Curator_Misc","CUP_Wheeled_SUV","A3_Modules_F","A3_Props_F_Decade_Spaceship","A3_Structures_F_Walls","A3_Structures_F_Mil_BagBunker","A3_Structures_F_Mil_Fortification","A3_Structures_F_Mil_Helipads","A3_Structures_F_Mil_Cargo","A3_Soft_F_Gamma_Truck_02","ace_realisticnames","A3_Air_F_Heli_Light_02","A3_Structures_F_Mil_BagFence","A3_Structures_F_Training","A3_Structures_F_Exp_Walls_Polewalls","A3_Structures_F_Exp_Civilian_Accessories","A3_Structures_F_Argo_Decals_Horizontal","A3_Missions_F_Oldman","A3_Structures_F_Enoch_Walls_Wooden","A3_Structures_F_Exp_Walls_Slum","A3_Data_F_ParticleEffects","A3_Structures_F_Mil_Shelters","A3_Structures_F_Civ_Garbage","A3_Structures_F_Civ_Camping","A3_Structures_F_Wrecks","A3_Structures_F_Civ_Lamps","cba_ai","tmf_ai","A3_Static_F_HMG_02","A3_Armor_F_EPB_APC_Tracked_03","acre_sys_intercom","A3_Armor_F_Tank_LT_01","A3_Soft_F_Exp_LSV_02","ace_nouniformrestrictions","CUP_Weapons_Deagle","CUP_Weapons_Ammunition","A3_Characters_F_Orange_Facewear","ace_goggles","ace_nightvision","pca_gear_blended_usa_vest","ace_common","ace_field_rations","A3_Ui_F","rhsusf_c_m11xx","rhsusf_c_fmtv","rhsusf_c_melb","RHS_US_A2_AirImport","A3_Air_F_Beta_Heli_Transport_02","ace_repair","CUP_WheeledVehicles_RG31"};
 class AddonsMetaData
 {
 	class List
@@ -64,7 +64,7 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className = "pca_misc_pca_illuminations";
+			className = "pca_illuminations";
 			name = "Illuminations - Flashlights & Flares Tweaks";
 			author = "PCA";
 		};
@@ -1016,7 +1016,7 @@ class Mission
 									items = 4;
 									class Item0
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1061,7 +1061,7 @@ class Mission
 									};
 									class Item2
 									{
-										name = "rhs_mag_rdg2_white";
+										name = "SmokeShell";
 										count = 5;
 										ammoLeft = 1;
 									};
@@ -7590,7 +7590,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rdg2_white";
+																					value = "SmokeShell";
 																				};
 																			};
 																			class Item1
@@ -17082,7 +17082,7 @@ class Mission
 											items = 4;
 											class Item0
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 2;
 												ammoLeft = 1;
 											};
@@ -17127,7 +17127,7 @@ class Mission
 											};
 											class Item2
 											{
-												name = "rhs_mag_rdg2_white";
+												name = "SmokeShell";
 												count = 5;
 												ammoLeft = 1;
 											};
@@ -21920,7 +21920,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+											value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""SmokeShell""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
 										};
 									};
 								};
@@ -24416,7 +24416,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+											value = "[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""CUP_HandGrenade_M67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""SmokeShell""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
 										};
 									};
 								};

@@ -112,7 +112,7 @@ private _itemHeadgear =
 	"CUP_H_PMC_Cap_Burberry",
 	"TC_Helmet_Invisible_Light",
 	"$NONE_TC_Helmet_HalloweenPumpkin$",
-	"pca_headband_red",
+	"G_Headband_red_F",
 	"H_EarProtectors_red_F",
 
 	"TC_Helmet_CowboyHat1",

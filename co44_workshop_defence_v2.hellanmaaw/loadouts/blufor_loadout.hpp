@@ -58,7 +58,7 @@ class baseMan
 	// These are added to the uniform or vest first - overflow goes to backpack if there's any
 	magazines[] = 
 	{
-		LIST_2("rhs_mag_an_m8hc"),
+		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67")
 	};
 	items[] = 

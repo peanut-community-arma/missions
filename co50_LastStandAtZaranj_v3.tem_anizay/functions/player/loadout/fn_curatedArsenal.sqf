@@ -438,8 +438,8 @@ private _itemAmmo =
 	"CUP_10x_303_M",
 	"rhsgref_8Rnd_762x63_M2B_M1rifle",
 	"rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle",
-	"fwa_10rnd_762x63_fn49",
-	"fwa_10rnd_762x63_fn49_tracer_red",
+	"sp_fwa_10rnd_3006_fn49",
+	"sp_fwa_10rnd_3006_fn49_tracer",
 	
 	//Pistol Ammo
 	"CUP_8Rnd_762x25_TT",
@@ -448,7 +448,7 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_an_m8hc",
+	"SmokeShell",
 	"CUP_HandGrenade_M67"
 ];
 

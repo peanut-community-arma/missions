@@ -124,8 +124,8 @@ private _itemCosmetic =
 	"G_Squares_Tinted",
 	"G_Squares",
 	"$REMOVE_usm_swdgoggles$",
-	"simc_goggles_swdg",
-	"simc_goggles_swdg_low",
+	"G_SWDG",
+	"G_SWDG_low",
 	"G_Spectacles_Tinted",
 	
 	

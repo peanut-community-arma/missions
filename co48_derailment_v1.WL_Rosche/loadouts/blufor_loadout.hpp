@@ -107,11 +107,11 @@ class ar : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_13("fwa_30rnd_303_bren_tracer_red")
+		LIST_13("sp_fwa_30Rnd_303_Bren_Tracer")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("fwa_30rnd_303_bren_tracer_red")
+		LIST_4("sp_fwa_30Rnd_303_Bren_Tracer")
 	};
 };
 
@@ -124,7 +124,7 @@ class aar : rm
 	};
 	backpackItems[] += 
 	{
-		LIST_8("fwa_30rnd_303_bren_tracer_red")
+		LIST_8("sp_fwa_30Rnd_303_Bren_Tracer")
 	};
 	linkedItems[] += 
 	{
@@ -175,7 +175,7 @@ class tl : rm
 	displayName = "Team Leader";
 	backpackItems[] = 
 	{
-		LIST_2("fwa_10rnd_75_mas49_tracer_red"),
+		LIST_2("sp_fwa_10rnd_75_mas49_tracer"),
 		LIST_2("fwa_1rnd_rifle_grenade_mas_34mm_HE"),
 		LIST_2("SmokeShell")
 	};
@@ -200,7 +200,7 @@ class sl : tl
 	{
 		"ACRE_PRC77",
 		LIST_2("fwa_1rnd_rifle_grenade_mas_34mm_HE"),
-		LIST_2("fwa_10rnd_75_mas49_tracer_red"),
+		LIST_2("sp_fwa_10rnd_75_mas49_tracer"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
 	};
@@ -229,7 +229,7 @@ class co : sl
 	backpackItems[] =
 	{
 		"ACRE_PRC77",
-		LIST_2("fwa_10rnd_75_mas49_tracer_red"),
+		LIST_2("sp_fwa_10rnd_75_mas49_tracer"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
