@@ -55564,7 +55564,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_weap_M320";
+																									value = "ptv_L2BPG";
 																								};
 																							};
 																							class Item1
@@ -58617,7 +58617,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_weap_M320";
+																									value = "ptv_L2BPG";
 																								};
 																							};
 																							class Item1
@@ -60880,7 +60880,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_mag_M441_HE";
+																									value = "CUP_1Rnd_HE_M203";
 																								};
 																							};
 																							class Item1
@@ -60907,7 +60907,7 @@ class Mission
 																								class data
 																								{
 																									singleType = "STRING";
-																									value = "rhs_mag_M433_HEDP";
+																									value = "CUP_1Rnd_HEDP_M203";
 																								};
 																							};
 																							class Item1

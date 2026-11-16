@@ -418,7 +418,7 @@ private _itemWeapSMG =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_fnmag"
+	"CUP_lmg_FNMAG"
 ];
 
 private _itemWeapDMR = 
@@ -470,7 +470,7 @@ private _itemAmmoAR =
 
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr"
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 ];
 
 private _itemAmmoMAT = 

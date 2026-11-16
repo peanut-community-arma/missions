@@ -319,7 +319,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240G"
+		"CUP_lmg_M240"
 	};
 	sidearmWeapon[] = 
 	{

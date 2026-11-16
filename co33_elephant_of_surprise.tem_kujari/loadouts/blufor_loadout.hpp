@@ -148,7 +148,7 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_646_m16a3_m203"
+		"CUP_arifle_M16A4_GL"
 	};
 	vest[] = 
 	{
@@ -166,11 +166,11 @@ class tl : gren
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_646_m16a3_m203"
+		"CUP_arifle_M16A4_GL"
 	};
 	backpackItems[] =
 	{
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_11("ACE_40mm_Flare_ir")
 	};
 	linkedItems[] += 
@@ -206,11 +206,11 @@ class co : sl
 	displayName = "Platoon Commander";
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_646_m16a3_m203"
+		"CUP_arifle_M16A4_GL"
 	};
 	backpackItems[] =
 	{
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_11("ACE_40mm_Flare_ir")
 	};
 };
@@ -221,7 +221,7 @@ class fac : sl
 	backpackItems[] =
 	{
 		"Laserbatteries",
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_4("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_4("1Rnd_SmokeGreen_Grenade_shell"),
@@ -294,11 +294,11 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_646_m16a3_m203"
+		"CUP_arifle_M16A4_GL"
 	};
 	backpackItems[] =
 	{
-		LIST_11("rhs_mag_M441_HE"),
+		LIST_11("CUP_1Rnd_HE_M203"),
 		LIST_11("ACE_40mm_Flare_ir")
 	};
 	items[] +=

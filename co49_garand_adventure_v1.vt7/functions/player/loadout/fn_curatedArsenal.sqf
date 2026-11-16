@@ -384,7 +384,7 @@ private _itemFAC =
 	"SmokeShellBlue",
 	"SmokeShellGreen",
 	"SmokeShellRed",
-	"rhs_weap_M320",
+	"ptv_L2BPG",
 	"Laserdesignator"
 ];
 

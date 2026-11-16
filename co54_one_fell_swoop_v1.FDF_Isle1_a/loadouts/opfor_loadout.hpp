@@ -144,11 +144,11 @@ class gren : rm
 	displayName = "Grenadier";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m4a1_m203s"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	magazines[] += 
 	{
-		LIST_3("rhs_mag_M441_HE"),
+		LIST_3("CUP_1Rnd_HE_M203"),
 		LIST_2("1Rnd_Smoke_Grenade_shell")
 	};
 };

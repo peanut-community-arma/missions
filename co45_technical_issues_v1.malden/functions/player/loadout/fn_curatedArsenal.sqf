@@ -321,7 +321,7 @@ private _itemWeapRifleUGL =
 
 private _itemWeapAR = 
 [
-	"rhs_weap_fnmag"
+	"CUP_lmg_FNMAG"
 ];
 
 private _itemWeapLAT = 

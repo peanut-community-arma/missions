@@ -321,7 +321,8 @@ private _itemWeapSMG =
 
 private _itemWeapRifleUGL = 
 [
-	"rhs_weap_M320",
+	"CUP_glaunch_Mk13",
+	"ptv_L2BPG",
 	//40mm grenades
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",

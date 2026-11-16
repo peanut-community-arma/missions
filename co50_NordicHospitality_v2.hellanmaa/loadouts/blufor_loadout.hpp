@@ -187,11 +187,11 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m4a1_m203s"
+		"CUP_arifle_M4A1_BUIS_GL"
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -225,7 +225,7 @@ class tl : rm
 		LIST_2("hlc_30rnd_556x45_T_L5"),
 		LIST_2("SmokeShell"),
 		"DemoCharge_Remote_Mag",
-		LIST_6("rhs_mag_M441_HE")
+		LIST_6("CUP_1Rnd_HE_M203")
 	};
 };
 
@@ -236,7 +236,7 @@ class sl : tl
 	{
 		"DemoCharge_Remote_Mag",
 		LIST_2("hlc_30rnd_556x45_T_L5"),
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -318,7 +318,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240G"
+		"CUP_lmg_M240"
 	};
 	bipod[] = {};
 	attachment[] = {};
@@ -331,11 +331,11 @@ class mmg : rm
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("rhsusf_mag_17Rnd_9x19_FMJ"),
-		LIST_3("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_6("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 };
 
@@ -348,7 +348,7 @@ class ammg : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_8("rhsusf_100Rnd_762x51_m80a1epr")
+		LIST_8("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	linkedItems[] += 
 	{

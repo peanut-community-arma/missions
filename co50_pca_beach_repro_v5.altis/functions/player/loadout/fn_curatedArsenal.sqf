@@ -480,7 +480,8 @@ private _itemWeapRifleUGL =
 [
 
 	"rhs_weap_m79",
-	"rhs_weap_M320",
+	"CUP_glaunch_Mk13",
+	"ptv_L2BPG",
 	"CUP_arifle_L85A2_GL"
 ];
 

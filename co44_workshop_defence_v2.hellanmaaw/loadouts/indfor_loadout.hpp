@@ -572,7 +572,7 @@ class tl : rm
 		"arifle_AUG_GL_black_F",
 		"CUP_arifle_M16A1GL",
 		"CUP_arifle_Colt727_M203",
-		"sp_fwa_ar15_646_m16a3_m203",
+		"CUP_arifle_M16A4_GL",
 		"$NONE_hlc_rifle_m4a1_m203_hk$",
 		"CUP_arifle_CZ805_GL",
 		"CUP_CZ_BREN2_762_14_GL",

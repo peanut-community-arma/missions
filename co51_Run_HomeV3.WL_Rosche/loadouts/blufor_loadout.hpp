@@ -186,12 +186,12 @@ class sl : tl
 	};
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_705_m16a2_m203"
+		"CUP_arifle_M16A2_GL"
 	};
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_5("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),

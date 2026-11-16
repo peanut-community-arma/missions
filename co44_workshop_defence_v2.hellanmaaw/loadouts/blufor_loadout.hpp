@@ -587,7 +587,7 @@ class gren : rm
 	};
 	sidearmWeapon[] +=
 	{
-		"rhs_weap_M320"
+		"ptv_L2BPG"
 	};
 };
 

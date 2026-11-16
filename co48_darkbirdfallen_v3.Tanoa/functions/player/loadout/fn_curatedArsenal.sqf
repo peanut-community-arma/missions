@@ -592,8 +592,8 @@ private _itemWeapRifleSF =
 
 private _itemWeapRifleUGL =
 [
-    "rhs_weap_m4a1_m203",
-    "rhs_weap_m4a1_m203s",
+    "CUP_arifle_M4A1_BUIS_GL",
+    "CUP_arifle_M4A1_BUIS_GL",
     "CUP_arifle_M4A1_GL_carryhandle",
     "rhs_weap_m4a1_carryhandle_m203s",
     "rhs_weap_m4a1_m320"

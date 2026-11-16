@@ -36434,7 +36434,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_M320";
+																					value = "ptv_L2BPG";
 																				};
 																			};
 																			class Item1

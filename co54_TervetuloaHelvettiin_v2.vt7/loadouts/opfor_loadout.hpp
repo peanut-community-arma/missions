@@ -152,11 +152,11 @@ class leader : rm
 class gren : rm 
 {
 	displayName = "Grenadier";
-	sidearmWeapon[] = {"rhs_weap_M320"};
+	sidearmWeapon[] = {"ptv_L2BPG"};
 	magazines[] += 
 	{
 		LIST_9("CUP_1Rnd_StarFlare_Green_M203"),
-		LIST_3("rhs_mag_M441_HE")
+		LIST_3("CUP_1Rnd_HE_M203")
 	};
 };
 

@@ -412,7 +412,7 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240G"
+	"CUP_lmg_M240"
 ];
 
 private _itemWeapMAT = 

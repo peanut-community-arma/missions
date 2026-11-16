@@ -220,7 +220,7 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL = 
 [
-	"sp_fwa_ar15_646_m16a3_m203"
+	"CUP_arifle_M16A4_GL"
 ];
 
 private _itemWeapAR = 
@@ -295,9 +295,9 @@ private _itemExplosive =
 	"SmokeShell",
 	"HandGrenade",
 	//Launcher Grenades (RHS grenades are heavier?)
-	"rhs_mag_M441_HE",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP"
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203"
 ];
 
 //Special

@@ -169,7 +169,7 @@ class gren : rm
 	};
 	sidearmWeapon[] =
 	{
-		"rhs_weap_M320"
+		"ptv_L2BPG"
 	};
 	backpackItems[] = 
 	{
@@ -207,7 +207,7 @@ class sl : tl
 	};
 	sidearmWeapon[] =
 	{
-		"rhs_weap_M320"
+		"ptv_L2BPG"
 	};
 	secondaryWeapon[] = {};
 	backpackItems[] =

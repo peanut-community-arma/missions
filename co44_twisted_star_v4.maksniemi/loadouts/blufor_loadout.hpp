@@ -144,7 +144,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_603_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	secondaryWeapon[] = 
 	{
@@ -159,7 +159,7 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("rhs_mag_m714_White")
 	};
 };
@@ -193,7 +193,7 @@ class sl : tl
 	displayName = "Squad Leader";
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_603_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	magazines[] = 
 	{
@@ -203,7 +203,7 @@ class sl : tl
 	};
 	backpackItems[] +=
 	{
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_4("rhs_mag_m714_White"),
 		LIST_2("rhs_mag_m716_yellow"),
 		LIST_2("rhs_mag_m715_Green"),

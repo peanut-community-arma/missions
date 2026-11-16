@@ -517,8 +517,8 @@ private _itemWeapRifleUGL =
 	"CUP_arifle_M16A4_GL",
 	"rhs_weap_m16a4_imod_M203",
 	"rhs_weap_m4a1_m320",
-	"rhs_weap_m4a1_m203",
-	"rhs_weap_m4a1_m203s",
+	"CUP_arifle_M4A1_BUIS_GL",
+	"CUP_arifle_M4A1_BUIS_GL",
 	"rhs_weap_m4a1_m203s_d"
 ];
 

@@ -224,7 +224,8 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL = 
 [
-	"rhs_weap_M320",
+	"CUP_glaunch_Mk13",
+	"ptv_L2BPG",
 	"rhs_weap_m4a1_m320"
 ];
 
@@ -273,9 +274,9 @@ private _itemAmmo =
 	//Explosives 
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
 	"CUP_HandGrenade_M67",
 	"CUP_1Rnd_StarFlare_White_M203"

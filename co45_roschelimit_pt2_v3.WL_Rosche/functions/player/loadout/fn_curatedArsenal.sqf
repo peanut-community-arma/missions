@@ -320,7 +320,7 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL =
 [
-	"sp_fwa_ar15_603_m16a1_m203"
+	"CUP_arifle_M16A1GL"
 ];
 
 private _itemWeapAR =
@@ -379,9 +379,9 @@ private _itemExplosive =
 [
 	"rhs_mag_m714_White",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
 	"rhs_grenade_mkii_mag",
 	"ACE_40mm_Flare_white"

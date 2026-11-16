@@ -180,11 +180,11 @@ class gren : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_M320"
+		"ptv_L2BPG"
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell")
 	};
 };
@@ -200,7 +200,7 @@ class tl : gren
 	{
 		LIST_2("rhs_mag_20Rnd_762x51_m80_fnfal"),
 		LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("SmokeShell")
 	};
@@ -217,7 +217,7 @@ class sl : tl
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
-		LIST_13("rhs_mag_M441_HE"),
+		LIST_13("CUP_1Rnd_HE_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
@@ -231,7 +231,7 @@ class co : sl
 	backpackItems[] =
 	{
 		LIST_2("rhs_mag_20Rnd_762x51_m62_fnfal"),
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),

@@ -337,7 +337,8 @@ private _itemWeapRifleUGL =
 
 private _itemWeapUGL =
 [
-	"rhs_weap_M320"
+	"CUP_glaunch_Mk13",
+	"ptv_L2BPG"
 ];
 
 private _itemWeapAR = 

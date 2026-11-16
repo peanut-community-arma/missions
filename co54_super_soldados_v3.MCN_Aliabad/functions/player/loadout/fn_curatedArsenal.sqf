@@ -550,7 +550,7 @@ private _itemWeapPistolSF =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_fnmag",
+	"CUP_lmg_FNMAG",
 	"rhsusf_acc_ardec_m240"
 ];
 

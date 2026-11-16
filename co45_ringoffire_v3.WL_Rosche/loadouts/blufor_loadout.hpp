@@ -153,7 +153,7 @@ class gren : rm
 	};
 	primaryWeapon[] =
 	{
-		"sp_fwa_ar15_603_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	secondaryWeapon[] =
 	{
@@ -168,7 +168,7 @@ class gren : rm
 	};
 	backpackItems[] =
 	{
-		LIST_21("rhs_mag_M441_HE"),
+		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_4("rhs_mag_m714_White")
 	};
 };
@@ -187,7 +187,7 @@ class tl : rm
 	};
 	primaryWeapon[] =
 	{
-		"sp_fwa_ar15_603_m16a1_m203"
+		"CUP_arifle_M16A1GL"
 	};
 	magazines[] =
 	{
@@ -197,7 +197,7 @@ class tl : rm
 	};
 	backpackItems[] =
 	{
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_2("rhs_mag_20Rnd_556x45_M193_Stanag"),
 		LIST_2("rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red"),
 		LIST_2("rhs_mag_an_m8hc")

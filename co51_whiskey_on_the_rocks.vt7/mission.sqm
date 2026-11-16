@@ -7523,7 +7523,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -9718,7 +9718,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -10323,7 +10323,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -11006,7 +11006,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -11612,7 +11612,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -12179,7 +12179,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -14378,7 +14378,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_M320";
+                                                                                    value = "ptv_L2BPG";
                                                                                 };
                                                                             };
                                                                             class Item1 {

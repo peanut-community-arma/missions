@@ -150,14 +150,14 @@ class tl : rm
 	};
 	sidearmWeapon[] = 
 	{
-		"rhs_weap_M320"
+		"ptv_L2BPG"
 	};
 	backpackItems[] +=
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
-		LIST_17("rhs_mag_M441_HE"),
+		LIST_17("CUP_1Rnd_HE_M203"),
 		LIST_6("1Rnd_Smoke_Grenade_shell"),
 		LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
 		LIST_2("1Rnd_SmokeGreen_Grenade_shell")
