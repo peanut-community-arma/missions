@@ -885,13 +885,13 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_M441_HE";
+										name = "CUP_1Rnd_HE_M203";
 										count = 21;
 										ammoLeft = 1;
 									};
 									class Item2
 									{
-										name = "rhs_mag_M433_HEDP";
+										name = "CUP_1Rnd_HEDP_M203";
 										count = 10;
 										ammoLeft = 1;
 									};
@@ -1359,7 +1359,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1782,7 +1782,7 @@ class Mission
 								};
 								class secondaryMuzzleMag
 								{
-									name = "rhs_mag_M441_HE";
+									name = "CUP_1Rnd_HE_M203";
 									ammoLeft = 1;
 								};
 							};
@@ -1849,7 +1849,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1882,7 +1882,7 @@ class Mission
 									};
 									class Item2
 									{
-										name = "rhs_mag_M441_HE";
+										name = "CUP_1Rnd_HE_M203";
 										count = 20;
 										ammoLeft = 1;
 									};
@@ -6253,7 +6253,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -7944,7 +7944,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -8544,7 +8544,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -40573,7 +40573,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 2;
 										ammoLeft = 1;
 									};

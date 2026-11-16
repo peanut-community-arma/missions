@@ -391,8 +391,8 @@ private _itemEng =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_rx01_nofilter",
 	"rhsusf_acc_rx01_nofilter_tan",
@@ -404,7 +404,7 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_cmore_grn$",
 	"$NONE_sma_acc_micro_t2$",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_552_kf_od$",
 	"$NONE_sma_acc_eotech_552_kf_tan$",
@@ -608,7 +608,7 @@ private _itemAmmo =
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",

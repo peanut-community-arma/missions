@@ -13726,7 +13726,7 @@ class Mission {
                                                                                             class Item0 {
                                                                                                 class data {
                                                                                                     singleType = "STRING";
-                                                                                                    value = "rhs_weap_m240B";
+                                                                                                    value = "CUP_lmg_M240_B";
                                                                                                 };
                                                                                             };
                                                                                             class Item1 {
@@ -13746,7 +13746,7 @@ class Mission {
                                                                                             class Item0 {
                                                                                                 class data {
                                                                                                     singleType = "STRING";
-                                                                                                    value = "rhsusf_100Rnd_762x51_m80a1epr";
+                                                                                                    value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
                                                                                                 };
                                                                                             };
                                                                                             class Item1 {
@@ -13786,7 +13786,7 @@ class Mission {
                                                                                             class Item0 {
                                                                                                 class data {
                                                                                                     singleType = "STRING";
-                                                                                                    value = "rhs_weap_maaws";
+                                                                                                    value = "CUP_launch_MAAWS";
                                                                                                 };
                                                                                             };
                                                                                             class Item1 {
@@ -13806,7 +13806,7 @@ class Mission {
                                                                                             class Item0 {
                                                                                                 class data {
                                                                                                     singleType = "STRING";
-                                                                                                    value = "rhs_optic_maaws";
+                                                                                                    value = "CUP_optic_MAAWS_Scope";
                                                                                                 };
                                                                                             };
                                                                                             class Item1 {
@@ -53562,7 +53562,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_m240B";
+                                                                                    value = "CUP_lmg_M240_B";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -53582,7 +53582,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_100Rnd_762x51_m80a1epr";
+                                                                                    value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -53622,7 +53622,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_maaws";
+                                                                                    value = "CUP_launch_MAAWS";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -53642,7 +53642,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_optic_maaws";
+                                                                                    value = "CUP_optic_MAAWS_Scope";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -54389,7 +54389,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_m240B";
+                                                                                    value = "CUP_lmg_M240_B";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -54409,7 +54409,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_100Rnd_762x51_m80a1epr";
+                                                                                    value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -54449,7 +54449,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_maaws";
+                                                                                    value = "CUP_launch_MAAWS";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -54469,7 +54469,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_optic_maaws";
+                                                                                    value = "CUP_optic_MAAWS_Scope";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -55217,7 +55217,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_m240B";
+                                                                                    value = "CUP_lmg_M240_B";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -55237,7 +55237,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_100Rnd_762x51_m80a1epr";
+                                                                                    value = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -55277,7 +55277,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_weap_maaws";
+                                                                                    value = "CUP_launch_MAAWS";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -55297,7 +55297,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_optic_maaws";
+                                                                                    value = "CUP_optic_MAAWS_Scope";
                                                                                 };
                                                                             };
                                                                             class Item1 {

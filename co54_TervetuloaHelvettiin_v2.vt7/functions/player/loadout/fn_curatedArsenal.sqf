@@ -382,7 +382,7 @@ private _itemAmmoAR =
 
 private _itemAmmoMG = 
 [
-	"rhs_100Rnd_762x54mmR"
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
 ];
 
 private _itemAmmoMAT = 

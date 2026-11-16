@@ -200,8 +200,8 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"CUP_optic_AC11704_Black",
 	"rhsusf_acc_M2A1",
 	"ptv_acc_t1",

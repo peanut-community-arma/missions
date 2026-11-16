@@ -362,13 +362,13 @@ private _itemWeapMAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1"
+	"CUP_hgun_Colt1911"
 ];
 
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",
 	"rhsusf_200rnd_556x45_M855_mixed_box",
 	"rhsusf_200rnd_556x45_M856_box",
@@ -376,7 +376,7 @@ private _itemAmmo =
 	"pca_mag_100Rnd_556x45_M856_soft_pouch_od",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//Explosives
 	"rhs_mag_m714_White",

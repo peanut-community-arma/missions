@@ -407,13 +407,13 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"rhs_acc_ekp8_18",
 	"cup_optic_holoblack",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"cup_optic_eotech553_black",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"optic_holosight_blk_f",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"cup_optic_compm2_low",
 	"cup_optic_mrad",
 	"$NONE_sma_acc_micro_t2$",
@@ -472,7 +472,7 @@ private _itemWeapRifle =
 
 private _itemWeapRifleFTL = 
 [
-	"rhs_weap_m16a4_carryhandle",
+	"CUP_arifle_M16A4_Base",
 	"rhs_weap_m16a4",
 	"rhs_weap_m16a4_imod"
 ];
@@ -515,7 +515,7 @@ private _itemWeapMG =
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//
@@ -590,7 +590,7 @@ private _itemAmmoUGL =
 //Special
 private _itemAmmoMG = 
 [
-	"rhsusf_100Rnd_762x51_m80a1epr",
+	"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
 	"rhsusf_100Rnd_762x51_m62_tracer"
 ];
 

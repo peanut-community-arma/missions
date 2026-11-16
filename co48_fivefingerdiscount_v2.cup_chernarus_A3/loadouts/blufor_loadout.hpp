@@ -351,7 +351,7 @@ class mmg : rm
 	};
 	primaryWeapon[] =
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	bipod[] = {};
 	attachment[] = {};

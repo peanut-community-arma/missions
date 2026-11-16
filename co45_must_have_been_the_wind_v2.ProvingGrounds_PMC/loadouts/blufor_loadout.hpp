@@ -71,7 +71,7 @@ class rm : baseMan
 	scope[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	items[] =
 	{
@@ -113,13 +113,13 @@ class ar : rm
 	bipod[] = {};
 	sidearmWeapon[] = 
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_2("rhsusf_mag_7x45acp_MHP"),
+		LIST_2("CUP_7Rnd_45ACP_1911"),
 		LIST_3("CUP_200Rnd_TE4_Red_Tracer_556x45_M249")
 	};
 	backpackItems[] = 

@@ -479,7 +479,7 @@ private _itemWeapRifle =
 private _itemWeapRifleUGL = 
 [
 
-	"rhs_weap_m79",
+	"CUP_glaunch_M79",
 	"CUP_glaunch_Mk13",
 	"ptv_L2BPG",
 	"CUP_arifle_L85A2_GL"
@@ -496,7 +496,7 @@ private _itemWeapAR =
 
 private _itemWeapMG = 
 [
-	"rhs_weap_fnmag"
+	"CUP_lmg_FNMAG"
 ];
 
 private _itemWeapDMR = 
@@ -527,7 +527,7 @@ private _itemAmmo =
 	//Rifle Ammo
 	"rhs_mag_20Rnd_762x51_m80_fnfal",
 	"rhs_mag_20Rnd_762x51_m62_fnfal",
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",
 	
 	//Pistol Ammo
@@ -582,7 +582,7 @@ private _itemAmmoMAT =
 
 private _itemAmmoDMR = 
 [
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"
 ];
 

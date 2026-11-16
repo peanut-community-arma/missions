@@ -70,11 +70,11 @@ class rm : baseMan
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_13("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_13("30Rnd_556x45_Stanag")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_4("30Rnd_556x45_Stanag")
 	};
 };
 
@@ -166,7 +166,7 @@ class tl : gren
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_2("30Rnd_556x45_Stanag"),
 		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
 		LIST_21("CUP_1Rnd_HE_M203"),
 		LIST_10("ACE_40mm_Flare_white"),
@@ -513,7 +513,7 @@ class hmg : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_9("30Rnd_556x45_Stanag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
 	backpackItems[] = 
@@ -533,7 +533,7 @@ class ahmg : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_9("30Rnd_556x45_Stanag"),
 		"ace_csw_100Rnd_127x99_mag_red"
 	};
 	backpackItems[] = 

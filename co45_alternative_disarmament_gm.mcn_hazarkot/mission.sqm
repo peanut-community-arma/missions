@@ -6448,7 +6448,7 @@ class Mission
 						class data
 						{
 							singleType = "STRING";
-							value = "[[[[],[]],[[""rhsusf_m112x4_mag""],[5]],[[""ACE_Clacker""],[5]],[[],[]]],false]";
+							value = "[[[[],[]],[[""SatchelCharge_Remote_Mag""],[5]],[[""ACE_Clacker""],[5]],[[],[]]],false]";
 						};
 					};
 				};

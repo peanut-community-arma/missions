@@ -26795,7 +26795,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_m16a4_carryhandle";
+																					value = "CUP_arifle_M16A4_Base";
 																				};
 																			};
 																			class Item1
@@ -29603,7 +29603,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "$NONE_sma_acc_eotech_552_blk$";
+																					value = "RKSL_optic_EOT552";
 																				};
 																			};
 																			class Item1
@@ -29900,7 +29900,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_acc_eotech_552";
+																					value = "RKSL_optic_EOT552";
 																				};
 																			};
 																			class Item1
@@ -29927,7 +29927,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_acc_compm4";
+																					value = "CUP_optic_CompM4";
 																				};
 																			};
 																			class Item1
@@ -32195,7 +32195,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_rpg26";
+																					value = "CUP_launch_RPG26";
 																				};
 																			};
 																			class Item1
@@ -32330,7 +32330,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_M136";
+																					value = "CUP_launch_M136";
 																				};
 																			};
 																			class Item1
@@ -32708,7 +32708,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_weap_m1911a1";
+																					value = "CUP_hgun_Colt1911";
 																				};
 																			};
 																			class Item1
@@ -33032,7 +33032,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_makarov_pm";
+																					value = "CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -33491,7 +33491,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_fnmag";
+																					value = "CUP_lmg_FNMAG";
 																				};
 																			};
 																			class Item1
@@ -34085,7 +34085,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -34760,7 +34760,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sp_fwa_ar15_646_m16a3_m203";
+																					value = "CUP_arifle_M16A4_GL";
 																				};
 																			};
 																			class Item1
@@ -35651,7 +35651,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_m16a4_carryhandle_M203";
+																					value = "CUP_arifle_M16A4_GL";
 																				};
 																			};
 																			class Item1
@@ -35786,7 +35786,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_m79";
+																					value = "CUP_glaunch_M79";
 																				};
 																			};
 																			class Item1

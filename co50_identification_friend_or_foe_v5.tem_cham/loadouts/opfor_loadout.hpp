@@ -155,8 +155,8 @@ class rm_mat : rm
 class lead : rm
 {
     displayName = "Leader";
-    sidearmWeapon[] = {"rhsusf_weap_m1911a1"};
-    magazines[] += {LIST_2("rhsusf_mag_7x45acp_MHP")};
+    sidearmWeapon[] = {"CUP_hgun_Colt1911"};
+    magazines[] += {LIST_2("CUP_7Rnd_45ACP_1911")};
     linkedItems[] += {"rhsusf_bino_m24_ARD"};
 };
 

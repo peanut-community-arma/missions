@@ -452,7 +452,7 @@ class crew : rm
 	};
 	scope[] =
 	{
-		"rhsusf_acc_eotech_552",
+		"RKSL_optic_EOT552",
 		"ptv_acc_t1"
 	};
 	silencer[] = {};

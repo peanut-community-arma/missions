@@ -71,7 +71,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_compm4"
+		"CUP_optic_CompM4"
 	};
 	attachment[] = 
 	{
@@ -316,7 +316,7 @@ class mmg : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_3("CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M")
 	};
 	backpackItems[] = 
@@ -363,7 +363,7 @@ class mat : rm
 	};
 	magazines[] += 
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] = 
 	{
@@ -404,7 +404,7 @@ class eng : rm
 	};
 	magazines[] += 
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] = 
 	{
@@ -451,7 +451,7 @@ class dm : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_9("rhsusf_20Rnd_762x51_m118_special_Mag")
 	};
 	backpackItems[] = 
@@ -503,7 +503,7 @@ class crew_co : crew
 	};
 	magazines[] += 
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -550,7 +550,7 @@ class hp : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_7("pca_mag_30Rnd_556x45_M855A1_EMAG"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")

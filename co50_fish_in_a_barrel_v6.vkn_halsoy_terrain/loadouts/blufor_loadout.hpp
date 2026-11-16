@@ -75,7 +75,7 @@ class rm : baseMan
 	};
 	magazines[] = 
 	{
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_7("30Rnd_556x45_Stanag"),
 		"CUP_HandGrenade_M67",
 		"SmokeShell"
 	};
@@ -92,7 +92,7 @@ class rm : baseMan
 	};
 	backpackItems[] = 
 	{
-		LIST_14("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_14("30Rnd_556x45_Stanag"),
 		"CUP_HandGrenade_M67",
 		"SmokeShell"
 	};
@@ -262,7 +262,7 @@ class mmg : ar
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m240G"
+		"CUP_lmg_M240"
 	};
 	magazines[] = 
 	{

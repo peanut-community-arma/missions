@@ -35261,7 +35261,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "sp_fwa_ar15_603_m16a1_m203";
+																					value = "CUP_arifle_M16A1GL";
 																				};
 																			};
 																			class Item1
@@ -35288,7 +35288,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_mag_7x45acp_MHP";
+																					value = "CUP_7Rnd_45ACP_1911";
 																				};
 																			};
 																			class Item1
@@ -35315,7 +35315,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhsusf_weap_m1911a1";
+																					value = "CUP_hgun_Colt1911";
 																				};
 																			};
 																			class Item1

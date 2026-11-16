@@ -327,7 +327,7 @@ private _itemAmmoTracer =
 
 private _itemAmmoAR = 
 [
-	"rhs_100Rnd_762x54mmR",
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",
 	"rhs_100Rnd_762x54mmR_green"
 ];
 
@@ -351,9 +351,9 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"CUP_HandGrenade_M67"
 ];
 

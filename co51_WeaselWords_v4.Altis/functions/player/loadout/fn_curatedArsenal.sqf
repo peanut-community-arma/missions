@@ -269,7 +269,7 @@ private _itemWeapRifle =
 	"arifle_TRG21_black_F",
 	//NATO surplus
 	"rhs_weap_m4a1_carryhandle",
-	"rhs_weap_m16a4_carryhandle",
+	"CUP_arifle_M16A4_Base",
 	"CUP_CZ_BREN2_556_14",
 	"CUP_CZ_BREN2_556_14_Tan",
 	"CUP_arifle_G36K",

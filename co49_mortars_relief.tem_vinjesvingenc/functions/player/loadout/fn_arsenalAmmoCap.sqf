@@ -74,7 +74,7 @@ if !(hasInterface) exitWith {};
 			"rhsusf_200Rnd_556x45_mixed_soft_pouch",
 			"rhsusf_200Rnd_556x45_soft_pouch_coyote",
 			"rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote",
-			"rhsusf_100Rnd_762x51_m80a1epr"
+			"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"
 		];
 		
 		private _sideClasses = 
@@ -84,7 +84,7 @@ if !(hasInterface) exitWith {};
 		
 		private _grenadeFragClasses = 
 		[
-			"rhs_mag_m67"
+			"CUP_HandGrenade_M67"
 		];
 		
 		private _grenadeSmokeClasses = 
@@ -104,9 +104,9 @@ if !(hasInterface) exitWith {};
 		
 		private _uglFragClasses = 
 		[
-			"rhs_mag_M397_HET",
-			"rhs_mag_M433_HEDP",
-			"rhs_mag_M441_HE"
+			"CUP_1Rnd_HE_M203",
+			"CUP_1Rnd_HEDP_M203",
+			"CUP_1Rnd_HE_M203"
 		];
 		
 		private _uglSmokeClasses = 

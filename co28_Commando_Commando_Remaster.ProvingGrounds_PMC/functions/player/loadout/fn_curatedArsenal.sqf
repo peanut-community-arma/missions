@@ -355,9 +355,9 @@ private _itemAcc =
 	"optic_holosight_blk_f",
 	
 	//RHS
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_eotech",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_mrds",
@@ -368,7 +368,7 @@ private _itemAcc =
 	//SMA
 	"$NONE_sma_acc_barska_rds$",
 	"$NONE_sma_acc_cmore_blk$",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_552_kf_tan$",
 	"$NONE_sma_acc_eotech_xps3_blk$",
@@ -487,12 +487,12 @@ private _itemWeapPistol =
 //Special
 private _itemWeapMG = 
 [
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapMAT = 
 [
-	"rhs_weap_maaws"
+	"CUP_launch_MAAWS"
 ];
 
 //********************************************************************************//

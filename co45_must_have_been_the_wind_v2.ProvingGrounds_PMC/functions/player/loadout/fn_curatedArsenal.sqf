@@ -350,7 +350,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"rhsusf_weap_m9",
 	"$NONE_hlc_pistol_p226r_combat$"
 ];
@@ -381,7 +381,7 @@ private _itemAmmo =
 	//Pistol Ammo
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"hlc_15Rnd_9x19_FMJ_P226",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoTracer = 
@@ -396,7 +396,7 @@ private _itemAmmoAR =
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"hlc_15Rnd_9x19_FMJ_P226",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoSignal = 

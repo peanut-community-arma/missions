@@ -61,7 +61,7 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		"rhsusf_acc_eotech_552"
+		"RKSL_optic_EOT552"
 	};
 	items[] =
 	{

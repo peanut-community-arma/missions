@@ -14675,7 +14675,7 @@ class Mission
 										name = "hgun_P07_F";
 										class primaryMuzzleMag
 										{
-											name = "16Rnd_9x21_Mag";
+											name = "16Rnd_9x21_Mag_v2";
 											ammoLeft = 17;
 										};
 									};
@@ -14718,7 +14718,7 @@ class Mission
 											};
 											class Item1
 											{
-												name = "16Rnd_9x21_Mag";
+												name = "16Rnd_9x21_Mag_v2";
 												count = 2;
 												ammoLeft = 17;
 											};

@@ -634,7 +634,7 @@ private _itemAmmo =
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//IR things 
 	"ACE_IR_Strobe_Item",

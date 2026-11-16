@@ -390,7 +390,7 @@ private _itemWeapMAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"CUP_hgun_TaurusTracker455"
 ];
 
@@ -408,7 +408,7 @@ private _itemAmmo =
 	"rhs_mag_20Rnd_556x45_M193_Stanag",
 	"rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red",
 	"CUP_6Rnd_45ACP_M",
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//Explosives
 	"rhs_mag_m714_White",

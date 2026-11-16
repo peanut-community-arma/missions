@@ -93,12 +93,12 @@ class ar : rm
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
 		nades,
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -130,7 +130,7 @@ class rm_ammo : rm
 {
 	displayName = "Ammo Bearer";
 	backpack[] = {"pca_backpack_invisible_large"};
-	backpackItems[] = {LIST_3("rhs_100Rnd_762x54mmR")};
+	backpackItems[] = {LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")};
 };
 
 class rm_mat : rm 

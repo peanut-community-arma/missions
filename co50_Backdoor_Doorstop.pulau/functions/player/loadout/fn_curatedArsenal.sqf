@@ -240,7 +240,7 @@ private _itemAcc =
 [
 	//Optic
 	"cup_optic_microt1",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"cup_optic_microt1_low",
 	"cup_optic_ac11704_black",
 	"$NONE_sma_acc_barska_rds$",
@@ -250,11 +250,11 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_cmore_grn$",
 	"cup_optic_holoblack",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_od$",
 	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"cup_optic_compm2_low",
 	"cup_optic_compm2_low_od",
 	"cup_optic_compm2_black",

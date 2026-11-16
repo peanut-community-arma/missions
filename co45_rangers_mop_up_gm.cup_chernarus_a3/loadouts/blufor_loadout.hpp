@@ -68,11 +68,11 @@ class rm : baseMan
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_13("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_13("30Rnd_556x45_Stanag")
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_4("30Rnd_556x45_Stanag")
 	};
 };
 
@@ -154,7 +154,7 @@ class tl : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag"),
+		LIST_2("30Rnd_556x45_Stanag"),
 		LIST_2("rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"),
 		LIST_2("SmokeShell")
 	};

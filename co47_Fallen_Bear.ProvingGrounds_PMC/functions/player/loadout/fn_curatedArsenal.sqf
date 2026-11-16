@@ -284,7 +284,7 @@ private _itemWeapRifle =
 
 private _itemWeapRifleUGL = 
 [
-	"rhs_weap_m79",
+	"CUP_glaunch_M79",
 	"$NONE_hlc_rifle_car15$",
 	"rhs_mag_30Rnd_556x45_M193_Stanag",
 	"rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red"
@@ -320,7 +320,7 @@ private _itemWeapPistol =
 [
 	"CUP_hgun_Browning_HP",
 	"bnae_weap_colt357",
-	"rhsusf_weap_m1911a1"
+	"CUP_hgun_Colt1911"
 ];
 
 private _itemAmmo = 
@@ -332,14 +332,14 @@ private _itemAmmo =
 	//Pistol Ammo
 	"CUP_13Rnd_9x19_Browning_HP",
 	"bnae_6Rnd_357M",
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//Explosives
 	"rhs_mag_m714_White",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
 	"rhs_grenade_mkii_mag",
 	"rhs_rpg7_PG7V_mag"

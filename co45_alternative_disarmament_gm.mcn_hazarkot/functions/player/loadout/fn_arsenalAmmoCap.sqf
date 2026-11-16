@@ -84,7 +84,7 @@ if !(hasInterface) exitWith {};
 		
 		private _grenadeFragClasses = 
 		[
-			"rhs_mag_m67"
+			"CUP_HandGrenade_M67"
 		];
 		
 		private _grenadeSmokeClasses = 

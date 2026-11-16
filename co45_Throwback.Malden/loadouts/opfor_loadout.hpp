@@ -111,13 +111,13 @@ class mg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 

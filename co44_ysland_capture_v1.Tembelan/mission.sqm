@@ -9022,7 +9022,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -9076,7 +9076,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_mag_7x45acp_MHP";
+																							value = "CUP_7Rnd_45ACP_1911";
 																						};
 																					};
 																					class Item1
@@ -9184,7 +9184,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_weap_m1911a1";
+																							value = "CUP_hgun_Colt1911";
 																						};
 																					};
 																					class Item1

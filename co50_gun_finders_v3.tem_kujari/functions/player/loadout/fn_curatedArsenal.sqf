@@ -506,7 +506,7 @@ private _itemWeapRifleUGL =
 private _itemWeapAR = 
 [
 	"rhs_weap_m84",
-	"rhs_weap_pkm"
+	"CUP_lmg_PKM"
 ];
 
 private _itemWeapLAT = 
@@ -517,7 +517,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"ACE_Flashlight_Maglite_ML300L"
 ];
 
@@ -538,7 +538,7 @@ private _itemAmmo =
 	"rhssaf_30Rnd_762x39mm_M67",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoTracer = 
@@ -548,7 +548,7 @@ private _itemAmmoTracer =
 
 private _itemAmmoAR = 
 [
-	"rhs_100Rnd_762x54mmR",
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",
 	"rhs_100Rnd_762x54mmR_green"
 ];
 

@@ -79,7 +79,7 @@ class rm : baseMan
 	{
 		"CUP_HandGrenade_M67",
 		"SmokeShell",
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 };
 

@@ -264,7 +264,7 @@ private _itemAcc =
 "$NONE_sma_acc_eotech_552_kf_od$",
 "$NONE_sma_acc_eotech_552_kf_blk$",
 
-"$NONE_sma_acc_eotech_552_blk$",
+"RKSL_optic_EOT552",
 "$NONE_sma_acc_cmore_grn$",
 "$NONE_sma_acc_cmore_blk$",
 "$NONE_sma_acc_barska_rds$",
@@ -280,10 +280,10 @@ private _itemAcc =
 
 "rhsusf_acc_mrds_fwd",
 "rhsusf_acc_mrds",
-"rhsusf_acc_compm4",
+"CUP_optic_CompM4",
 "rhsusf_acc_eotech_552_wd",
 
-"rhsusf_acc_eotech_552",
+"RKSL_optic_EOT552",
 "rhsusf_acc_eotech",
 "rhsgref_acc_rx01_camo",
 "rhsgref_acc_rx01_nofilter_camo",
@@ -413,9 +413,9 @@ private _itemAmmo =
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
 	"CUP_HandGrenade_M67"
 ];

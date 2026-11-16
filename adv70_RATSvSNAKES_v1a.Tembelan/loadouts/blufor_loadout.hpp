@@ -87,7 +87,7 @@ class rm : baseMan
 	magazines[] = 
 	{
 		LIST_2("SmokeShell"),
-		LIST_2("rhs_mag_m67"),
+		LIST_2("CUP_HandGrenade_M67"),
 		LIST_17("CUP_30Rnd_556x45_PMAG_BLACK_PULL")
 	};
 	backpackItems[] = {};

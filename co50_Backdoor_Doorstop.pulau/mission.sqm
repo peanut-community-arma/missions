@@ -747,7 +747,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1018,7 +1018,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -1828,7 +1828,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -5357,7 +5357,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -32230,7 +32230,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "16Rnd_9x21_Mag";
+																							value = "16Rnd_9x21_Mag_v2";
 																						};
 																					};
 																					class Item1
@@ -33766,7 +33766,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "16Rnd_9x21_Mag";
+																							value = "16Rnd_9x21_Mag_v2";
 																						};
 																					};
 																					class Item1

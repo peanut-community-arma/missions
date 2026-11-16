@@ -205,7 +205,7 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"CUP_optic_AC11704_Black",
 	"rhsusf_acc_T1_high",
 	"rhsusf_acc_T1_low",
@@ -256,7 +256,7 @@ private _itemWeapMAT =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 
 	//Pistol Ammo
 	"rhsusf_mag_17Rnd_9x19_JHP"

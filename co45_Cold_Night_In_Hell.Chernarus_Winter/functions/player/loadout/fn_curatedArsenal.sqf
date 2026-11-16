@@ -263,8 +263,8 @@ private _itemAcc =
 	"optic_aco",
 	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
-	"rhsusf_acc_eotech_552",
-	"rhsusf_acc_compm4",
+	"RKSL_optic_EOT552",
+	"CUP_optic_CompM4",
 	"ptv_acc_t1",
 	"ptv_acc_t1_low",
 	"ptv_acc_eot552",
@@ -336,7 +336,7 @@ private _itemAmmoTracer =
 private _itemAmmoAR = 
 [
 	"rhs_100Rnd_762x54mmR_green",
-	"rhs_100Rnd_762x54mmR"
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
 ];
 
 private _itemAmmoSignal = 

@@ -125,7 +125,7 @@ class ar : rm
 		LIST_2("SmokeShell"),
 		LIST_2("rhs_mag_f1"),
 		LIST_2("rhs_18rnd_9x21mm_7N29"),
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	sidearmWeapon[] = 
 	{
@@ -133,7 +133,7 @@ class ar : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -142,7 +142,7 @@ class aar : rm
 	displayName = "Assistant Automatic Rifleman";
 	backpackItems[] += 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	linkedItems[] += 
 	{

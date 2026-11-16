@@ -523,9 +523,9 @@ private _itemAmmo =
 	"3Rnd_Smoke_Grenade_shell",
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"rhs_mag_an_m8hc",
 	"CUP_HandGrenade_M67",
 	"HandGrenade"

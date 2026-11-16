@@ -123,7 +123,7 @@ class ar : r
 	};
 	backpackItems[] = 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR"),
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"),
 	};
 };
 
@@ -136,7 +136,7 @@ class aar : r
 	};
 	backpackItems[] += 
 	{
-		LIST_4("rhs_100Rnd_762x54mmR")
+		LIST_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	linkedItems[] += 
 	{
@@ -157,7 +157,7 @@ class g : r
 	};
 	primaryWeapon[] =
 	{
-		"rhs_weap_m79"
+		"CUP_glaunch_M79"
 	};
 	sidearmWeapon[] =
 	{
@@ -167,7 +167,7 @@ class g : r
 	magazines[] += 
 	{
 		LIST_10("CUP_32Rnd_9x19_TEC9"),
-		LIST_10("rhs_mag_M441_HE"),
+		LIST_10("CUP_1Rnd_HE_M203"),
 		LIST_3("rhs_mag_m576"),
 		LIST_5("rhs_mag_m714_White")
 	};

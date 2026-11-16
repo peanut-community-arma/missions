@@ -177,13 +177,13 @@ class gren : rm
 	};
 	secondaryWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] =
 	{
 		LIST_2("rhs_mag_an_m8hc"),
 		LIST_2("rhs_grenade_mkii_mag"),
-		LIST_4("rhsusf_mag_7x45acp_MHP"),
+		LIST_4("CUP_7Rnd_45ACP_1911"),
 		LIST_10("rhs_mag_20Rnd_556x45_M193_Stanag")
 	};
 	backpackItems[] =
@@ -280,11 +280,11 @@ class cls : rm_fa
 	displayName = "Combat Life Saver";
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] +=
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] =
 	{
@@ -320,7 +320,7 @@ class mmg : rm
 	attachment[] = {};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] =
 	{
@@ -343,11 +343,11 @@ class ammg : rm
 	};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] +=
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] =
 	{
@@ -368,7 +368,7 @@ class mat : rm
 	};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	secondaryWeapon[] =
 	{
@@ -376,7 +376,7 @@ class mat : rm
 	};
 	magazines[] +=
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] =
 	{
@@ -393,11 +393,11 @@ class amat : rm
 	};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] +=
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP")
+		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	backpackItems[] =
 	{
@@ -441,7 +441,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	items[] +=
 	{
@@ -449,7 +449,7 @@ class crew_co : crew
 	};
 	magazines[] +=
 	{
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -477,13 +477,13 @@ class hp : rm
 	};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] =
 	{
 		LIST_2("rhs_mag_an_m8hc"),
 		LIST_7("rhs_mag_20Rnd_556x45_M193_Stanag"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -532,12 +532,12 @@ class jp : rm
 	primaryWeapon[] = {};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] =
 	{
 		LIST_2("rhs_mag_an_m8hc"),
-		LIST_5("rhsusf_mag_7x45acp_MHP"),
+		LIST_5("CUP_7Rnd_45ACP_1911"),
 		LIST_2("SmokeShellBlue"),
 		LIST_2("SmokeShellGreen"),
 		LIST_2("SmokeShellRed")
@@ -562,13 +562,13 @@ class dm : rm
 	bipod[] = {};
 	secondaryWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] =
 	{
 		LIST_2("rhs_mag_an_m8hc"),
 		LIST_2("rhs_grenade_mkii_mag"),
-		LIST_3("rhsusf_mag_7x45acp_MHP"),
+		LIST_3("CUP_7Rnd_45ACP_1911"),
 		LIST_8("rhsusf_20Rnd_762x51_m80_Mag")
 	};
 	backpackItems[] =

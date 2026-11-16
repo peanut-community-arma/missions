@@ -68220,7 +68220,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_rgd5";
+                                                                                    value = "CUP_HandGrenade_RGD5";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -68360,7 +68360,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_100Rnd_762x54mmR";
+                                                                                    value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -69439,7 +69439,7 @@ class Mission {
                             class Value {
                                 class data {
                                     singleType = "STRING";
-                                    value = "[[[[],[]],[[""rhs_rpg7_PG7VL_mag"",""rhs_mag_rgn"",""rhsusf_m112_mag""],[15,5,5]],[[],[]],[[],[]]],false]";
+                                    value = "[[[[],[]],[[""rhs_rpg7_PG7VL_mag"",""rhs_mag_rgn"",""DemoCharge_Remote_Mag""],[15,5,5]],[[],[]],[[],[]]],false]";
                                 };
                             };
                         };
@@ -69501,7 +69501,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_rgd5";
+                                                                                    value = "CUP_HandGrenade_RGD5";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -69641,7 +69641,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_100Rnd_762x54mmR";
+                                                                                    value = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
                                                                                 };
                                                                             };
                                                                             class Item1 {

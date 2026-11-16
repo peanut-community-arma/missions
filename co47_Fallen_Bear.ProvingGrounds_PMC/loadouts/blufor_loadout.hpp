@@ -153,7 +153,7 @@ class gren : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m79"
+		"CUP_glaunch_M79"
 	};
 	sidearmWeapon[] =
 	{
@@ -166,7 +166,7 @@ class gren : rm
 	};
 	backpackItems[] = 
 	{
-		LIST_21("rhs_mag_M433_HEDP"),
+		LIST_21("CUP_1Rnd_HEDP_M203"),
 		LIST_4("rhs_mag_m714_White")
 	};
 };

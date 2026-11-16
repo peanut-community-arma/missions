@@ -342,7 +342,7 @@ class mmg : rm
 	displayName = "Medium Machine Gunner";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	bipod[] = {};
 	attachment[] = {};

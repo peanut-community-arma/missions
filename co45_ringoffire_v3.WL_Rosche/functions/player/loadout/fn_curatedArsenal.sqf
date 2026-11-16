@@ -335,7 +335,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol =
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"bnae_weap_colt357"
 ];
 
@@ -361,7 +361,7 @@ private _itemAmmo =
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
 	"rhs_mag_20Rnd_556x45_M193_Stanag",
 	"rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red",
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	"bnae_6Rnd_357M"
 ];
 
@@ -371,7 +371,7 @@ private _itemAmmoAR =
 [
 	"rhsusf_100Rnd_762x51",
 	"rhsusf_100Rnd_762x51_m62_tracer",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoSignal =

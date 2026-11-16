@@ -7582,7 +7582,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_rgd5";
+																			value = "CUP_HandGrenade_RGD5";
 																		};
 																	};
 																	class Item1
@@ -7717,7 +7717,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_9x18_12_57N181S";
+																			value = "CUP_12Rnd_9x18_PMM_M";
 																		};
 																	};
 																	class Item1
@@ -11559,7 +11559,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rgd5";
+																					value = "CUP_HandGrenade_RGD5";
 																				};
 																			};
 																			class Item1
@@ -11694,7 +11694,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_9x18_12_57N181S";
+																					value = "CUP_12Rnd_9x18_PMM_M";
 																				};
 																			};
 																			class Item1
@@ -31562,7 +31562,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rgd5";
+																					value = "CUP_HandGrenade_RGD5";
 																				};
 																			};
 																			class Item1
@@ -31697,7 +31697,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_9x18_12_57N181S";
+																					value = "CUP_12Rnd_9x18_PMM_M";
 																				};
 																			};
 																			class Item1

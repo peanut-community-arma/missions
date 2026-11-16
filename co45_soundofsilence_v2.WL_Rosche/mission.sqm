@@ -1864,7 +1864,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName = "simc_tcu_mk3_erdl";
+								typeName = "U_Simc_TCU_mk3_erdl";
 								isBackpack = 0;
 								class ItemCargo
 								{
@@ -16877,7 +16877,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rgd5";
+																					value = "CUP_HandGrenade_RGD5";
 																				};
 																			};
 																			class Item1
@@ -17012,7 +17012,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -17882,7 +17882,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_mag_rgd5";
+																					value = "CUP_HandGrenade_RGD5";
 																				};
 																			};
 																			class Item1
@@ -18017,7 +18017,7 @@ class Mission
 																				class data
 																				{
 																					singleType = "STRING";
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -26176,7 +26176,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -26758,7 +26758,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "sp_fwa_ar15_603_m16a1_m203";
+																							value = "CUP_arifle_M16A1GL";
 																						};
 																					};
 																					class Item1
@@ -26785,7 +26785,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_mag_7x45acp_MHP";
+																							value = "CUP_7Rnd_45ACP_1911";
 																						};
 																					};
 																					class Item1
@@ -26812,7 +26812,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_weap_m1911a1";
+																							value = "CUP_hgun_Colt1911";
 																						};
 																					};
 																					class Item1
@@ -27115,7 +27115,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -27513,7 +27513,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -27908,7 +27908,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -28303,7 +28303,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -28698,7 +28698,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rgd5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
+											value = "[[[[""rhs_weap_ak74m"",""FirstAidKit""],[1,4]],[[""rhs_30Rnd_545x39_7N10_AK"",""CUP_HandGrenade_RGD5"",""rhs_mag_nspn_red""],[10,10,10]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -29005,7 +29005,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "sp_fwa_ar15_603_m16a1_m203";
+																							value = "CUP_arifle_M16A1GL";
 																						};
 																					};
 																					class Item1
@@ -29032,7 +29032,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_mag_7x45acp_MHP";
+																							value = "CUP_7Rnd_45ACP_1911";
 																						};
 																					};
 																					class Item1
@@ -29059,7 +29059,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_weap_m1911a1";
+																							value = "CUP_hgun_Colt1911";
 																						};
 																					};
 																					class Item1
@@ -29492,7 +29492,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit""],[10]],[[""rhs_30Rnd_545x39_AK_green"",""rhs_30Rnd_545x39_7N10_AK"",""rhs_30Rnd_545x39_7N22_AK"",""rhs_100Rnd_762x54mmR"",""rhs_100Rnd_762x54mmR_green"",""rhs_VOG25"",""rhs_VOG25P"",""rhs_mag_9x19_17"",""rhs_10Rnd_762x54mmR_7N1""],[20,20,20,20,20,100,100,100,100]],[[],[]],[[],[]]],false]";
+											value = "[[[[""FirstAidKit""],[10]],[[""rhs_30Rnd_545x39_AK_green"",""rhs_30Rnd_545x39_7N10_AK"",""rhs_30Rnd_545x39_7N22_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_100Rnd_762x54mmR_green"",""rhs_VOG25"",""rhs_VOG25P"",""rhs_mag_9x19_17"",""rhs_10Rnd_762x54mmR_7N1""],[20,20,20,20,20,100,100,100,100]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -29795,7 +29795,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "sp_fwa_ar15_603_m16a1_m203";
+																							value = "CUP_arifle_M16A1GL";
 																						};
 																					};
 																					class Item1
@@ -29822,7 +29822,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_mag_7x45acp_MHP";
+																							value = "CUP_7Rnd_45ACP_1911";
 																						};
 																					};
 																					class Item1
@@ -29849,7 +29849,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhsusf_weap_m1911a1";
+																							value = "CUP_hgun_Colt1911";
 																						};
 																					};
 																					class Item1
@@ -30212,7 +30212,7 @@ class Mission
 										class data
 										{
 											singleType = "STRING";
-											value = "[[[[""FirstAidKit""],[10]],[[""rhs_30Rnd_545x39_AK_green"",""rhs_30Rnd_545x39_7N10_AK"",""rhs_30Rnd_545x39_7N22_AK"",""rhs_100Rnd_762x54mmR"",""rhs_100Rnd_762x54mmR_green"",""rhs_VOG25"",""rhs_VOG25P"",""rhs_mag_9x19_17"",""rhs_10Rnd_762x54mmR_7N1""],[20,20,20,20,20,100,100,100,100]],[[],[]],[[],[]]],false]";
+											value = "[[[[""FirstAidKit""],[10]],[[""rhs_30Rnd_545x39_AK_green"",""rhs_30Rnd_545x39_7N10_AK"",""rhs_30Rnd_545x39_7N22_AK"",""CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"",""rhs_100Rnd_762x54mmR_green"",""rhs_VOG25"",""rhs_VOG25P"",""rhs_mag_9x19_17"",""rhs_10Rnd_762x54mmR_7N1""],[20,20,20,20,20,100,100,100,100]],[[],[]],[[],[]]],false]";
 										};
 									};
 								};
@@ -54992,7 +54992,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -55127,7 +55127,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -56071,7 +56071,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_mag_rgd5";
+																							value = "CUP_HandGrenade_RGD5";
 																						};
 																					};
 																					class Item1
@@ -56206,7 +56206,7 @@ class Mission
 																						class data
 																						{
 																							singleType = "STRING";
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1

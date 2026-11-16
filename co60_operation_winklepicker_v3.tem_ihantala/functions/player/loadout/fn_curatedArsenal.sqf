@@ -334,7 +334,7 @@ private _itemWeapPistol =
 	"hgun_ACPC2_black_F",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 //Special

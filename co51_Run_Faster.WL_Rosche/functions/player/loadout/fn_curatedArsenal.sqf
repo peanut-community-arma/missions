@@ -255,17 +255,17 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1"
+	"CUP_hgun_Colt1911"
 ];
 
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	
 	//Explosives
 	"1Rnd_Smoke_Grenade_shell",

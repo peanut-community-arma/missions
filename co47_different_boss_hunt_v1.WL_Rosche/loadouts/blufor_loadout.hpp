@@ -115,14 +115,14 @@ class rm : baseMan
 	};
 	sidearmWeapon[] =
 	{
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};
 	magazines[] = 
 	{
 		LIST_2("rhs_mag_rdg2_white"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7N22"),
-		LIST_2("rhsusf_mag_7x45acp_MHP")
+		LIST_2("CUP_7Rnd_45ACP_1911")
 	};
 };
 
@@ -216,7 +216,7 @@ class tl : rm
 		LIST_2("rhs_mag_rdg2_white"),
 		LIST_2("CUP_HandGrenade_RGD5"),
 		LIST_20("pca_mag_30Rnd_545x39_AK12_Blk_7T3M"),
-		LIST_2("rhsusf_mag_7x45acp_MHP")
+		LIST_2("CUP_7Rnd_45ACP_1911")
 	};	
 	backpackItems[] = 
 	{
@@ -316,7 +316,7 @@ class mmg : ar
 	magazines[] = 
 	{
 		LIST_4("rhs_100Rnd_762x54mmR_7N26"),
-		"rhsusf_mag_7x45acp_MHP"
+		"CUP_7Rnd_45ACP_1911"
 	};
 	backpackItems[] = 
 	{

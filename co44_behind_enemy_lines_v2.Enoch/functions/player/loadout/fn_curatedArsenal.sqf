@@ -453,7 +453,7 @@ private _itemWeapLAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1"
+	"CUP_hgun_Colt1911"
 ];
 
 //Special
@@ -481,7 +481,7 @@ private _itemAmmo =
 	"rhs_mag_30Rnd_556x45_M855A1_Stanag",
 	
 	//Pistol Ammo
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoTracer = 
@@ -498,7 +498,7 @@ private _itemAmmoAR =
 	"rhsusf_200Rnd_556x45_mixed_soft_pouch",
 	"rhsusf_200Rnd_556x45_M856A1_soft_pouch",
 	
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmoSignal = 

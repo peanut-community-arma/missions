@@ -1657,7 +1657,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -8735,7 +8735,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_9x18_8_57N181S";
+																			value = "CUP_8Rnd_9x18_Makarov_M";
 																		};
 																	};
 																	class Item1
@@ -8789,7 +8789,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_makarov_pm";
+																			value = "CUP_hgun_Makarov";
 																		};
 																	};
 																	class Item1
@@ -9480,7 +9480,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_9x18_8_57N181S";
+																			value = "CUP_8Rnd_9x18_Makarov_M";
 																		};
 																	};
 																	class Item1
@@ -9534,7 +9534,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_makarov_pm";
+																			value = "CUP_hgun_Makarov";
 																		};
 																	};
 																	class Item1
@@ -16529,7 +16529,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -17420,7 +17420,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -18672,7 +18672,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -19729,7 +19729,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -20626,7 +20626,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -21747,7 +21747,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};
@@ -24371,7 +24371,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_mag_9x18_8_57N181S";
+																			value = "CUP_8Rnd_9x18_Makarov_M";
 																		};
 																	};
 																	class Item1
@@ -24425,7 +24425,7 @@ class Mission
 																		class data
 																		{
 																			singleType = "STRING";
-																			value = "rhs_weap_makarov_pm";
+																			value = "CUP_hgun_Makarov";
 																		};
 																	};
 																	class Item1
@@ -25118,7 +25118,7 @@ class Mission
 									items = 2;
 									class Item0
 									{
-										name = "rhs_mag_rgd5";
+										name = "CUP_HandGrenade_RGD5";
 										count = 1;
 										ammoLeft = 1;
 									};

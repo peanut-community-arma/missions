@@ -77,13 +77,13 @@ class rm : baseMan
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m16a4_carryhandle"
+		"CUP_arifle_M16A4_Base"
 	};
 	magazines[] = 
 	{
 		"CUP_HandGrenade_RGD5",
 		"rhs_mag_rdg2_white",
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 };
 

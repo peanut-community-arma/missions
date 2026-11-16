@@ -9261,7 +9261,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -9441,7 +9441,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -9513,7 +9513,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_m4a1_m203s";
+																							value = "CUP_arifle_M4A1_BUIS_GL";
 																						};
 																					};
 																					class Item1
@@ -9765,7 +9765,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -11611,7 +11611,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -11791,7 +11791,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -11863,7 +11863,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_m4a1_m203s";
+																							value = "CUP_arifle_M4A1_BUIS_GL";
 																						};
 																					};
 																					class Item1
@@ -12115,7 +12115,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -14984,7 +14984,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_mag_m67";
+																							value = "CUP_HandGrenade_M67";
 																						};
 																					};
 																					class Item1
@@ -15164,7 +15164,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_makarov_pm";
+																							value = "CUP_hgun_Makarov";
 																						};
 																					};
 																					class Item1
@@ -15236,7 +15236,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_m4a1_m203s";
+																							value = "CUP_arifle_M4A1_BUIS_GL";
 																						};
 																					};
 																					class Item1
@@ -15488,7 +15488,7 @@ class Mission
 																							{
 																								type[] = {"STRING"};
 																							};
-																							value = "rhs_weap_pkm";
+																							value = "CUP_lmg_PKM";
 																						};
 																					};
 																					class Item1
@@ -16625,7 +16625,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_mag_m67";
+																					value = "CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -16805,7 +16805,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_makarov_pm";
+																					value = "CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -16877,7 +16877,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_m4a1_m203s";
+																					value = "CUP_arifle_M4A1_BUIS_GL";
 																				};
 																			};
 																			class Item1
@@ -17129,7 +17129,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -18020,7 +18020,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_mag_m67";
+																					value = "CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -18200,7 +18200,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_makarov_pm";
+																					value = "CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -18272,7 +18272,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_m4a1_m203s";
+																					value = "CUP_arifle_M4A1_BUIS_GL";
 																				};
 																			};
 																			class Item1
@@ -18524,7 +18524,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -19797,7 +19797,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_mag_m67";
+																					value = "CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -19977,7 +19977,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_makarov_pm";
+																					value = "CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -20049,7 +20049,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_m4a1_m203s";
+																					value = "CUP_arifle_M4A1_BUIS_GL";
 																				};
 																			};
 																			class Item1
@@ -20301,7 +20301,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1
@@ -21218,7 +21218,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_mag_m67";
+																					value = "CUP_HandGrenade_M67";
 																				};
 																			};
 																			class Item1
@@ -21398,7 +21398,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_makarov_pm";
+																					value = "CUP_hgun_Makarov";
 																				};
 																			};
 																			class Item1
@@ -21470,7 +21470,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_m4a1_m203s";
+																					value = "CUP_arifle_M4A1_BUIS_GL";
 																				};
 																			};
 																			class Item1
@@ -21722,7 +21722,7 @@ class Mission
 																					{
 																						type[] = {"STRING"};
 																					};
-																					value = "rhs_weap_pkm";
+																					value = "CUP_lmg_PKM";
 																				};
 																			};
 																			class Item1

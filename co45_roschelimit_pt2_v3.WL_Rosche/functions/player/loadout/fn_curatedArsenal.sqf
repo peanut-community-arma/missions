@@ -335,10 +335,10 @@ private _itemWeapLAT =
 
 private _itemWeapPistol =
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"bnae_weap_colt357",
 	"bnae_6Rnd_357M",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 //Special

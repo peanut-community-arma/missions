@@ -93,7 +93,7 @@ class rm : baseMan
 		LIST_4(""),
 		"rhs_acc_1p87",
 		"rhs_acc_1p87",
-		"rhsusf_acc_eotech_552"
+		"RKSL_optic_EOT552"
 	};
 	attachment[] = {
 		"rhs_acc_2dpzenit_ris",

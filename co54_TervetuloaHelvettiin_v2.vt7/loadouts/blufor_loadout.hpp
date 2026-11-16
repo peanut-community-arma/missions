@@ -263,11 +263,11 @@ class mmg : ar
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_3("rhs_100Rnd_762x54mmR")
+		LIST_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 	backpackItems[] = 
 	{
-		LIST_6("rhs_100Rnd_762x54mmR")
+		LIST_6("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 
@@ -277,7 +277,7 @@ class ammg : aar
 	backpack[] = {"rhs_tortila_olive"};
 	backpackItems[] = 
 	{
-		LIST_7("rhs_100Rnd_762x54mmR")
+		LIST_7("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")
 	};
 };
 

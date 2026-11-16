@@ -468,8 +468,8 @@ private _itemWeapLeader =
 	//Attachments
 	"$NONE_hlc_muzzle_fn_oem556$",
 	"$NONE_hlc_muzzle_rotex3p$",
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_micro_t2$",
 	"ptv_acc_t1",
 	"rhsusf_acc_t1_high",
@@ -481,7 +481,7 @@ private _itemWeapLeader =
 	"cup_optic_ac11704_black",
 	"optic_aco",
 	"cup_optic_holoblack",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"cup_optic_eotech553_black"
 ];

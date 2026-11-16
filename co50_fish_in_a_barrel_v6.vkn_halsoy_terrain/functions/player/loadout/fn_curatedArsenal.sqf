@@ -353,7 +353,7 @@ private _itemWeapAR =
 private _itemWeapMG = 
 [
 	"CUP_lmg_MG3",
-	"rhs_weap_m240B"
+	"CUP_lmg_M240_B"
 ];
 
 private _itemWeapDMR = 
@@ -373,7 +373,7 @@ private _itemWeapMAT =
 
 private _itemWeapPistol = 
 [
-	"rhsusf_weap_m1911a1",
+	"CUP_hgun_Colt1911",
 	"bnae_weap_colt357",
 	"rhsusf_weap_m9"
 ];
@@ -381,7 +381,7 @@ private _itemWeapPistol =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Pull",
 	"rhs_mag_30Rnd_556x45_M855_Stanag_Ranger",
 	"rhs_mag_30Rnd_556x45_M855_PMAG",
@@ -393,7 +393,7 @@ private _itemAmmo =
 	
 	//Pistol Ammo
 	"bnae_6Rnd_357M",
-	"rhsusf_mag_7x45acp_MHP",
+	"CUP_7Rnd_45ACP_1911",
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"rhsusf_mag_15Rnd_9x19_FMJ",
 	

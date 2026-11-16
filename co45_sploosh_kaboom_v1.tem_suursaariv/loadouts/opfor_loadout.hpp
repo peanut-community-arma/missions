@@ -133,12 +133,12 @@ class ar : baseMan
 	displayName = "Automatic Rifleman";
 	primaryWeapon[] = 
 	{
-		LIST_2("rhs_weap_m240G"),
-		"rhs_weap_m240B",
+		LIST_2("CUP_lmg_M240"),
+		"CUP_lmg_M240_B",
 		LIST_6("rhs_weap_m249")
 	};
 	sidearmWeapon[] = {
-		"rhsusf_weap_m1911a1"
+		"CUP_hgun_Colt1911"
 	};	
 	scope[] = 
 	{
@@ -149,7 +149,7 @@ class ar : baseMan
 	magazines[] = 
 	{
 		nades,
-		LIST_2("rhsusf_mag_7x45acp_MHP")
+		LIST_2("CUP_7Rnd_45ACP_1911")
 	};
 };
 
@@ -187,11 +187,11 @@ class rm_mat : rm
 	};
 	secondaryWeapon[] = 
 	{
-		"rhs_weap_maaws"
+		"CUP_launch_MAAWS"
 	};
 	secondaryAttachments[] = 
 	{
-		"rhs_optic_maaws"
+		"CUP_optic_MAAWS_Scope"
 	};
 	backpackItems[] = 
 	{

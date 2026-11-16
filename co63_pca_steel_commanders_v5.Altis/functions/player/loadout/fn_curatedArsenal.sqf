@@ -432,8 +432,8 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_d",
 	"rhsusf_acc_rx01_nofilter",
 	"rhsusf_acc_rx01_nofilter_tan",
@@ -504,7 +504,7 @@ private _itemAcc =
 private _itemWeapRifle = 
 [
 	"rhs_weap_m16a4",
-	"rhs_weap_m16a4_carryhandle",
+	"CUP_arifle_M16A4_Base",
 	"rhs_weap_m16a4_imod",	
 	"rhs_weap_m4a1",
 	"rhs_weap_m4a1_mstock",

@@ -173,9 +173,9 @@ private _itemMedAdv =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"rhsusf_acc_eotech",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_xps3",
 	"rhsusf_acc_t1_high",
 	"rhsusf_acc_t1_low",
@@ -183,7 +183,7 @@ private _itemAcc =
 	"RKSL_optic_EOT552_C",
 	"RKSL_optic_EOT552X",
 	"RKSL_optic_EOT552X_C",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_blk$",
 	"$NONE_sma_acc_eotech_552_tan$",
 	"$NONE_sma_acc_eotech_552_kf_tan$",

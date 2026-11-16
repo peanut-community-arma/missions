@@ -76,7 +76,7 @@ class crew : baseMan
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 	items[] = 
 	{
@@ -102,7 +102,7 @@ class crew_co : crew
 	displayName = "Crewman Commander";
 	primaryWeapon[] = 
 	{
-		"sp_fwa_ar15_646_m16a3_m203"
+		"CUP_arifle_M16A4_GL"
 	};
 	items[] +=
 	{

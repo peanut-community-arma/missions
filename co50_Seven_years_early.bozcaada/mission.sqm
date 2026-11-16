@@ -1592,7 +1592,7 @@ class Mission
 								name = "hgun_P07_F";
 								class primaryMuzzleMag
 								{
-									name = "16Rnd_9x21_Mag";
+									name = "16Rnd_9x21_Mag_v2";
 									ammoLeft = 17;
 								};
 							};
@@ -1660,13 +1660,13 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
 									class Item2
 									{
-										name = "16Rnd_9x21_Mag";
+										name = "16Rnd_9x21_Mag_v2";
 										count = 2;
 										ammoLeft = 17;
 									};
@@ -3878,7 +3878,7 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
@@ -6085,7 +6085,7 @@ class Mission
 								name = "hgun_P07_F";
 								class primaryMuzzleMag
 								{
-									name = "16Rnd_9x21_Mag";
+									name = "16Rnd_9x21_Mag_v2";
 									ammoLeft = 17;
 								};
 							};
@@ -6153,13 +6153,13 @@ class Mission
 									};
 									class Item1
 									{
-										name = "rhs_mag_m67";
+										name = "CUP_HandGrenade_M67";
 										count = 2;
 										ammoLeft = 1;
 									};
 									class Item2
 									{
-										name = "16Rnd_9x21_Mag";
+										name = "16Rnd_9x21_Mag_v2";
 										count = 2;
 										ammoLeft = 17;
 									};
@@ -8062,7 +8062,7 @@ class Mission
 								name = "hgun_P07_F";
 								class primaryMuzzleMag
 								{
-									name = "16Rnd_9x21_Mag";
+									name = "16Rnd_9x21_Mag_v2";
 									ammoLeft = 17;
 								};
 							};
@@ -8136,7 +8136,7 @@ class Mission
 									};
 									class Item2
 									{
-										name = "16Rnd_9x21_Mag";
+										name = "16Rnd_9x21_Mag_v2";
 										count = 2;
 										ammoLeft = 17;
 									};
@@ -8621,7 +8621,7 @@ class Mission
 								name = "hgun_P07_F";
 								class primaryMuzzleMag
 								{
-									name = "16Rnd_9x21_Mag";
+									name = "16Rnd_9x21_Mag_v2";
 									ammoLeft = 17;
 								};
 							};
@@ -8701,7 +8701,7 @@ class Mission
 									};
 									class Item3
 									{
-										name = "16Rnd_9x21_Mag";
+										name = "16Rnd_9x21_Mag_v2";
 										count = 2;
 										ammoLeft = 17;
 									};
@@ -14833,7 +14833,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -15342,7 +15342,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -15851,7 +15851,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -16360,7 +16360,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -16869,7 +16869,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -17374,7 +17374,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -17880,7 +17880,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -18975,7 +18975,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -19480,7 +19480,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -19985,7 +19985,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -20490,7 +20490,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -24518,7 +24518,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -25572,7 +25572,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -26426,7 +26426,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -27292,7 +27292,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -31188,7 +31188,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -31493,7 +31493,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -32656,7 +32656,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -34264,7 +34264,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36598,7 +36598,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -36902,7 +36902,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -37957,7 +37957,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -38811,7 +38811,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -39667,7 +39667,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -40521,7 +40521,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -41390,7 +41390,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -42245,7 +42245,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -46270,7 +46270,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -47910,7 +47910,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -48769,7 +48769,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};
@@ -49626,7 +49626,7 @@ class Mission
 													items = 3;
 													class Item0
 													{
-														name = "rhs_mag_rgd5";
+														name = "CUP_HandGrenade_RGD5";
 														count = 1;
 														ammoLeft = 1;
 													};

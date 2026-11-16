@@ -192,7 +192,7 @@ class tl : gren
 	displayName = "Team Leader";
 	primaryWeapon[] = 
 	{
-		"rhs_weap_m16a4_carryhandle"
+		"CUP_arifle_M16A4_Base"
 	};
 	attachment[] =
 	{

@@ -67,7 +67,7 @@ class rm : baseMan
 	scope[] =
 	{
 		LIST_3("ptv_acc_t1"),
-		LIST_2("rhsusf_acc_compm4")
+		LIST_2("CUP_optic_CompM4")
 	};
 	bipod[] = {};
 	attachment[] = {};

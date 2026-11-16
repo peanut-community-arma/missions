@@ -90,7 +90,7 @@ class rm : baseMan
 	};
 	magazines[] += 
 	{
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 };
 
@@ -281,7 +281,7 @@ class crew : rm
 	{
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
-		LIST_7("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_7("30Rnd_556x45_Stanag")
 	};
 	items[] = 
 	{

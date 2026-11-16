@@ -292,7 +292,7 @@ class mmg : rm
 	};
 	primaryWeapon[] = 
 	{
-		"rhs_weap_fnmag"
+		"CUP_lmg_FNMAG"
 	};
 	scope[] = 
 	{
@@ -426,11 +426,11 @@ class dm : rm
 		LIST_2("SmokeShell"),
 		LIST_2("CUP_HandGrenade_M67"),
 		LIST_3("CUP_15Rnd_9x19_M9"),
-		LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_9("30Rnd_556x45_Stanag")
 	};
 	backpackItems[] = 
 	{
-		LIST_12("rhs_mag_30Rnd_556x45_M855_Stanag")
+		LIST_12("30Rnd_556x45_Stanag")
 	};
 	linkedItems[] += 
 	{

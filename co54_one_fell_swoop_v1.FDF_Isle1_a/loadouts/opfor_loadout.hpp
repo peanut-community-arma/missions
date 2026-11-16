@@ -70,8 +70,8 @@ class rm : baseMan
 	};
 	scope[] = 
 	{
-		LIST_3("rhsusf_acc_compm4"),
-		"rhsusf_acc_eotech_552"	
+		LIST_3("CUP_optic_CompM4"),
+		"RKSL_optic_EOT552"
 	};
 	magazines[] = 
 	{

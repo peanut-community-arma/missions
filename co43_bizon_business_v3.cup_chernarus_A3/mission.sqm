@@ -7242,7 +7242,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -7282,7 +7282,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -7890,7 +7890,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -7930,7 +7930,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -8537,7 +8537,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -8577,7 +8577,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -9185,7 +9185,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -9225,7 +9225,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -9833,7 +9833,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -9873,7 +9873,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -10481,7 +10481,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -10521,7 +10521,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -11129,7 +11129,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -11169,7 +11169,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -11777,7 +11777,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhs_mag_m67";
+                                                                                    value = "CUP_HandGrenade_M67";
                                                                                 };
                                                                             };
                                                                             class Item1 {
@@ -11817,7 +11817,7 @@ class Mission {
                                                                             class Item0 {
                                                                                 class data {
                                                                                     singleType = "STRING";
-                                                                                    value = "rhsusf_acc_compm4";
+                                                                                    value = "CUP_optic_CompM4";
                                                                                 };
                                                                             };
                                                                             class Item1 {

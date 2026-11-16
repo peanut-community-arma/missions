@@ -231,7 +231,7 @@ private _itemWeapPistol =
 private _itemAmmo = 
 [
 	//Rifle Ammo
-	"rhs_mag_30Rnd_556x45_M855_Stanag",
+	"30Rnd_556x45_Stanag",
 	
 	//Pistol Ammo
 	"CUP_15Rnd_9x19_M9"

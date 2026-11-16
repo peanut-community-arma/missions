@@ -308,8 +308,8 @@ private _itemAcc =
 [
 	//Optic
 	"cup_optic_aimpoint_5000",
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_eotech_552_wd",
 	"cup_optic_eotech553_od",
 	"cup_optic_eotech553_black",

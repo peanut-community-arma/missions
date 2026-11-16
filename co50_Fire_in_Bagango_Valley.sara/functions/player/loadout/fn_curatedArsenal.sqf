@@ -303,8 +303,8 @@ private _itemWeapLAT =
 private _itemAcc = 
 [
 	//Optic
-	"rhsusf_acc_compm4",
-	"rhsusf_acc_eotech_552",
+	"CUP_optic_CompM4",
+	"RKSL_optic_EOT552",
 	"rhsusf_acc_acog",
 	"cup_optic_microt1_low",
 	"cup_optic_microt1",
@@ -318,14 +318,14 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"HLC_optic_DocterR",
 	"cup_optic_elcanm145",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_xps3_blk$",
 	"optic_holosight_blk_f",
 	"rhsusf_acc_elcan",
 	"rhsusf_acc_acog2",
 	"rhsusf_acc_acog3",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"ptv_acc_t1_low",
 	"cup_optic_compm2_low",
 	"ptv_acc_t1",
@@ -351,7 +351,7 @@ private _itemWeapPistol =
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"CUP_15Rnd_9x19_M9",
 	"CUP_7Rnd_45ACP_1911",
-	"rhsusf_mag_7x45acp_MHP"
+	"CUP_7Rnd_45ACP_1911"
 ];
 
 private _itemAmmo = 

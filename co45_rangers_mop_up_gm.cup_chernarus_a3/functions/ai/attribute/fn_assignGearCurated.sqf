@@ -176,8 +176,8 @@ switch (_setWeapon) do
 	};
 	case (_unitRole == "mg") : 
 	{
-		private _weapon = "rhs_weap_pkm";
-		private _weaponMag = "rhs_100Rnd_762x54mmR";
+		private _weapon = "CUP_lmg_PKM";
+		private _weaponMag = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 		
 		_unit addWeapon _weapon;
 		_unit addWeaponItem [_weapon, _weaponMag, true];

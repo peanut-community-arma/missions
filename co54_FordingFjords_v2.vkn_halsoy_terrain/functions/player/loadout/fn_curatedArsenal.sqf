@@ -278,7 +278,7 @@ private _itemAcc =
 	"$NONE_sma_acc_eotech_552_g33_blk$",
 	"CUP_optic_AN_PVS_10_black",
 	"cup_optic_microt1",
-	"rhsusf_acc_eotech_552",
+	"RKSL_optic_EOT552",
 	"cup_optic_microt1_low",
 	"cup_optic_ac11704_black",
 	"$NONE_sma_acc_barska_rds$",
@@ -287,11 +287,11 @@ private _itemAcc =
 	"$NONE_sma_acc_cmore_blk$",
 	"$NONE_sma_acc_cmore_grn$",
 	"cup_optic_holoblack",
-	"$NONE_sma_acc_eotech_552_blk$",
+	"RKSL_optic_EOT552",
 	"$NONE_sma_acc_eotech_552_kf_od$",
 	"RKSL_optic_EOT552",
 	"cup_optic_eotech553_black",
-	"rhsusf_acc_compm4",
+	"CUP_optic_CompM4",
 	"cup_optic_compm2_low",
 	"cup_optic_compm2_low_od",
 	"cup_optic_compm2_black",
@@ -427,9 +427,9 @@ private _itemExplosive =
 [
 	"1Rnd_Smoke_Grenade_shell",
 	"SmokeShell",
-	"rhs_mag_M397_HET",
-	"rhs_mag_M433_HEDP",
-	"rhs_mag_M441_HE",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"CUP_1Rnd_HE_M203",
 	"CUP_HandGrenade_M67"
 ];
 

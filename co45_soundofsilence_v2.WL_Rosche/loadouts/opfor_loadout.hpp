@@ -119,7 +119,7 @@ class mg : rm
 	displayName = "Machine Gunner";
 	primaryWeapon[] =
 	{
-		"rhs_weap_pkm"
+		"CUP_lmg_PKM"
 	};
 	vest[] =
 	{

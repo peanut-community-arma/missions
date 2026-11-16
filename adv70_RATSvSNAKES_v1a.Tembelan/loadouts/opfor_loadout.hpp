@@ -1,4 +1,4 @@
-#define nades "rhs_mag_m67",LIST_2("rhs_mag_an_m8hc")
+#define nades "CUP_HandGrenade_M67",LIST_2("rhs_mag_an_m8hc")
 
 class baseMan 
 {
